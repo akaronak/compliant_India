@@ -1,0 +1,161 @@
+```gitignore
+# =========================
+# OS / SYSTEM FILES
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# VS CODE / IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# PYTHON
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.env/
+.venv/
+ENV/
+env/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# =========================
+# JUPYTER / NOTEBOOKS
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# ENV / SECRETS
+# =========================
+.env
+.env.*
+*.env
+
+# API Keys / Credentials
+secrets/
+credentials/
+*.pem
+*.key
+*.crt
+*.pfx
+
+# =========================
+# LOGS / RUNTIME
+# =========================
+logs/
+*.log
+
+runtime/
+tmp/
+temp/
+
+# =========================
+# CACHE / VECTOR DB
+# =========================
+.cache/
+.cache-loader/
+
+chroma/
+faiss/
+vector_db/
+embeddings/
+
+# =========================
+# AI / MODEL ARTIFACTS
+# =========================
+models/
+checkpoints/
+weights/
+artifacts/
+
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# =========================
+# GENERATED OUTPUTS
+# =========================
+outputs/
+generated/
+exports/
+reports/
+
+# =========================
+# DATABASES
+# =========================
+*.sqlite
+*.db
+*.sqlite3
+
+# =========================
+# NODE / FRONTEND
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.next/
+.nuxt/
+dist/
+
+# =========================
+# TESTING / COVERAGE
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =========================
+# DOCKER
+# =========================
+*.tar
+
+# =========================
+# TERRAFORM / INFRA
+# =========================
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+
+# =========================
+# YAML GENERATED FILES
+# =========================
+compiled/
+rendered/
+generated_yaml/
+
+# =========================
+# GOVERNANCE PIPELINE ARTIFACTS
+# =========================
+pipeline_outputs/
+audit_exports/
+compliance_exports/
+simulation_outputs/
+runtime_snapshots/
+
+# =========================
+# MISC
+# =========================
+*.bak
+*.tmp
+*.temp
+```
