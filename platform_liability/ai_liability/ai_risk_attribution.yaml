@@ -1,0 +1,42 @@
+metadata:
+  file: ai_risk_attribution.yaml
+  domain: ai_liability
+  classification: governance_cognition
+  governance_tier: critical
+
+objectives:
+  - enforce_deterministic_ai_risk_attribution_and_accountability
+  - preserve_clear_ai_liability_boundaries
+  - maintain_risk_attribution_traceability
+  - detect_unattributed_ai_risks
+  - prevent_ai_risk_accountability_diffusion
+
+adaptive_cognition:
+  attribution_adaptation:
+    mechanism: "accountability_escalation_on_unattributed_risk_or_gap_signal"
+    triggers:
+      - ai_risk_attribution_unclear
+      - risk_causation_unverified
+      - accountability_diffused
+    responses:
+      - escalate_attribution_verification_rigor
+      - clarify_liability_boundaries
+      - strengthen_risk_controls
+
+policy_arbitration:
+  priority_hierarchy:
+    priority_1_ai_risk_attribution_clarity: "absolute_and_unconditional"
+    priority_2_liability_boundary_preservation: "cannot_be_compromised"
+    priority_3_operational_efficiency: "lowest_priority"
+
+workflow_cognition:
+  attribution_workflow:
+    - identify_potential_ai_risks
+    - trace_risk_to_ai_source
+    - establish_causation_linkage
+    - determine_accountability
+    - implement_mitigation_measures
+
+meta_governance:
+  preserve_ai_risk_attribution_principle: true
+  prohibit_accountability_fragmentation: true

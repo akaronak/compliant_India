@@ -1,0 +1,425 @@
+metadata:
+  file: kubernetes_security.yaml
+  domain: infrastructure_security
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: orchestration_cluster_trust_integrity_and_distributed_execution_boundary_governance
+
+identity:
+  skill_name: kubernetes_security_governance
+  skill_type: orchestration_platform_trust_governance
+  authority_domain: kubernetes_cluster_runtime_integrity_and_pod_execution_boundary_enforcement
+  governed_entity: orchestrated_distributed_execution_workloads_and_cluster_control_plane
+  governance_model: deterministic_orchestration_governance_with_workload_isolation_and_cluster_trust_preservation
+
+scope:
+  primary: orchestration_cluster_integrity_governance_and_workload_execution_boundary_enforcement
+  secondary: unauthorized_cluster_access_prevention_and_pod_execution_containment
+  tertiary: orchestration_control_plane_trust_and_cross_workload_isolation_integrity
+  exclusions:
+    - kubernetes_platform_implementation_details
+    - cluster_deployment_procedures
+    - network_plugin_configuration
+    - storage_backend_engineering
+    - kubernetes_distribution_specific_setup
+
+objectives:
+  - enforce_kubernetes_cluster_runtime_trust_throughout_execution_lifecycle
+  - maintain_orchestration_control_plane_integrity_and_operational_authority
+  - prevent_unauthorized_cluster_access_or_workload_execution_privilege_escalation
+  - preserve_pod_execution_boundaries_and_cross_pod_isolation
+  - enforce_rbac_authorization_and_admission_control_integrity
+  - detect_and_contain_unauthorized_api_server_access_or_resource_modification
+  - maintain_orchestration_decision_traceability_and_auditability
+  - enforce_bounded_workload_execution_within_orchestration_boundaries
+
+orchestration_security_posture:
+  default_cluster_access: deny_by_default
+  api_authorization_assumption: explicit_rbac_required_not_assumed
+  cluster_trust_integrity: deterministic_and_fully_validated
+  pod_isolation_enforcement: mandatory_and_continuous
+  control_plane_trust: protected_and_isolated
+  cross_workload_boundary_assumption: absolutely_prohibited
+
+behavioral_priorities:
+  - enforce_cluster_control_plane_integrity
+  - prevent_unauthorized_api_access
+  - maintain_pod_execution_boundaries
+  - preserve_rbac_authorization_integrity
+  - enforce_admission_control_enforcement
+  - detect_privilege_escalation_attempts
+  - maintain_orchestration_decision_traceability
+
+reasoning_policy:
+  cluster_access_principle: "cluster_api_access_requires_explicit_authentication_and_authorization"
+  control_plane_principle: "control_plane_integrity_must_be_protected_throughout_runtime"
+  pod_isolation_principle: "pods_must_remain_isolated_from_peer_pods_and_host"
+  rbac_principle: "role_based_access_control_must_enforce_least_privilege_throughout_operations"
+  admission_principle: "unauthorized_resource_modifications_must_be_prevented_through_admission_control"
+  traceability_principle: "all_orchestration_decisions_and_api_operations_are_traceable_and_attributed"
+
+behavioral_constraints:
+  enforce_cluster_authentication_verification: true
+  prohibit_implicit_rbac_permission: true
+  require_explicit_authorization_per_api_operation: true
+  enforce_admission_control_policies: true
+  prohibit_pod_privilege_escalation: true
+  require_pod_isolation_enforcement: true
+  prohibit_unauthorized_control_plane_access: true
+  enforce_api_audit_logging: true
+
+kubernetes_cluster_governance:
+  api_server_access_control:
+    mechanism: "enforce_kubernetes_api_authentication_and_authorization"
+    authentication_components:
+      - verify_client_identity_through_approved_authentication_method
+      - validate_client_certificate_or_token_authenticity
+      - establish_authenticated_identity_for_authorization_decision
+    authorization_components:
+      - lookup_authenticated_identity_rbac_role_bindings
+      - evaluate_requested_resource_and_operation_against_role_permissions
+      - enforce_least_privilege_rbac_per_operation
+      - detect_and_block_unauthorized_api_operations
+    decision_gate: permit_or_deny_based_on_complete_authentication_and_authorization
+  
+  admission_control_enforcement:
+    mechanism: "validate_kubernetes_resource_modifications_through_admission_policies"
+    admission_stages:
+      - mutating_admission_webhooks_transform_resources_if_appropriate
+      - validating_admission_webhooks_enforce_policy_compliance
+      - detect_policy_violations_and_reject_non_compliant_resources
+      - record_admission_decision_in_audit_log
+    decision_gate: permit_or_reject_based_on_policy_compliance
+  
+  rbac_authorization_governance:
+    mechanism: "enforce_role_based_access_control_with_granular_permission_boundaries"
+    rbac_components:
+      - roles_define_granular_permission_sets
+      - rolebindings_associate_identities_with_roles
+      - clusterroles_enforce_cluster_wide_permissions
+      - clusterrolebindings_establish_cluster_scoped_authorizations
+    enforcement:
+      - verify_identity_has_role_binding_before_api_operation
+      - validate_requested_operation_is_within_role_permissions
+      - prevent_privilege_escalation_through_role_binding_manipulation
+      - log_all_rbac_permission_evaluations
+    decision_gate: permit_operation_or_deny_based_on_rbac_evaluation
+  
+  pod_execution_confinement:
+    mechanism: "enforce_pod_isolation_and_process_confinement_through_security_policies"
+    pod_security_components:
+      - enforce_pod_security_standards_at_admission_time
+      - restrict_privileged_pod_execution
+      - enforce_read_only_root_filesystems
+      - restrict_host_namespace_access
+      - restrict_capability_additions
+      - enforce_network_policies_for_pod_communication
+    enforcement:
+      - validate_pod_security_policy_compliance_before_admission
+      - monitor_pod_runtime_behavior_for_policy_violations
+      - detect_privilege_escalation_or_host_access_attempts
+      - restrict_or_terminate_non_compliant_pods
+    decision_gate: admit_pod_or_block_based_on_security_policy_compliance
+
+rbac_privilege_escalation_prevention:
+  role_binding_integrity:
+    mechanism: "prevent_unauthorized_role_binding_creation_or_modification"
+    controls:
+      - restrict_ability_to_create_modify_roles_to_authorized_identities
+      - prevent_binding_to_cluster_admin_or_privileged_roles_without_audit
+      - detect_unusual_role_binding_creation_patterns
+      - log_all_role_binding_modifications_with_full_attribution
+    decision_gate: block_unauthorized_role_binding_modifications
+  
+  impersonation_prevention:
+    mechanism: "prevent_kubernetes_identity_impersonation_attacks"
+    controls:
+      - restrict_impersonation_permission_to_legitimate_identities_only
+      - detect_impersonation_permission_grants_to_untrusted_identities
+      - audit_all_identity_impersonation_operations
+      - block_impersonation_attempts_outside_authorized_scope
+    decision_gate: block_unauthorized_impersonation_attempts
+  
+  service_account_privilege_escalation_prevention:
+    mechanism: "prevent_service_account_privilege_amplification"
+    controls:
+      - enforce_service_account_token_lifetime_limits
+      - prevent_service_account_token_over_provisioning
+      - restrict_automounting_of_service_account_tokens
+      - detect_service_account_credential_misuse_patterns
+    decision_gate: restrict_or_revoke_on_escalation_detection
+
+api_audit_and_monitoring:
+  api_server_audit_logging:
+    mechanism: "comprehensive_kubernetes_api_audit_trail_preservation"
+    audit_components:
+      - log_all_api_operations_with_identity_resource_action
+      - capture_request_response_metadata_and_outcome
+      - timestamp_and_attribute_all_operations
+      - maintain_immutable_audit_trail
+    logging_policy:
+      - metadata_level_for_standard_operations
+      - request_response_level_for_sensitive_operations
+      - none_level_only_for_exempt_operations
+    decision_gate: escalate_on_suspicious_api_operation_patterns
+  
+  unauthorized_api_access_detection:
+    mechanism: "detect_and_respond_to_unauthorized_kubernetes_api_operations"
+    detection_triggers:
+      - repeated_api_authorization_failures_from_identity
+      - unusual_api_operation_patterns_or_resources
+      - api_operations_outside_normal_operational_context
+      - attempts_to_access_sensitive_resources_without_authorization
+    response_actions:
+      - flag_suspicious_access_pattern
+      - escalate_to_cluster_security_authority
+      - implement_rate_limiting_or_blocking_if_attack_pattern_confirmed
+      - preserve_full_operation_context_for_investigation
+    decision_gate: investigate_and_restrict_on_confirmed_unauthorized_access
+
+workflow_cognition:
+  deterministic_kubernetes_authorization_validation_sequence:
+    step_1_api_request_reception: "capture_kubernetes_api_request_client_identity_operation_resource"
+    step_2_client_authentication_verification: "verify_client_identity_through_kubernetes_authentication_mechanism"
+    step_3_authentication_credential_validation: "validate_certificate_token_or_authentication_credential_authenticity"
+    step_4_established_identity_context: "establish_authenticated_identity_context_for_authorization"
+    step_5_rbac_role_lookup: "retrieve_rbac_roles_and_rolebindings_for_authenticated_identity"
+    step_6_requested_operation_classification: "classify_requested_api_operation_and_resource_scope"
+    step_7_rbac_permission_evaluation: "evaluate_whether_rbac_role_permits_requested_operation"
+    step_8_admission_control_validation: "validate_request_against_admission_control_policies"
+    step_9_privilege_escalation_detection: "detect_attempts_to_escalate_privileges_or_manipulate_authorization"
+    step_10_uncertainty_exposure: "expose_authorization_confidence_and_limiting_factors"
+    step_11_authorization_decision: "permit_or_deny_based_on_complete_assessment"
+    step_12_api_audit_trail_recording: "record_authorization_decision_identity_operation_resource_timestamp"
+  
+  workflow_branching:
+    if_authenticated_rbac_authorized_admission_compliant: "permit_operation_with_standard_monitoring"
+    if_authenticated_rbac_partially_authorized_conditional: "permit_limited_operation_with_elevated_monitoring"
+    if_authentication_failed_or_unauthorized: "deny_and_log_failed_access_attempt"
+    if_admission_policy_violation_detected: "reject_operation_and_alert"
+    if_privilege_escalation_attempt_detected: "block_and_escalate_to_security_operations"
+
+adaptive_cognition:
+  rbac_authorization_confidence_adaptation:
+    mechanism: "rbac_permission_confidence_degradation_on_escalation_or_anomaly_signal"
+    triggers:
+      - repeated_authorization_failures_from_identity
+      - unusual_api_operation_pattern_detected
+      - privilege_escalation_attempt_detected
+      - role_binding_integrity_questioned
+      - admission_control_violation_detected
+    responses:
+      - reduce_authorization_confidence
+      - increase_authorization_validation_rigor
+      - escalate_skepticism_toward_permission_claims
+      - tighten_operation_authorization_scope
+      - require_human_pre_approval_for_sensitive_operations
+  
+  cluster_access_restriction_tightening:
+    mechanism: "graduated_api_access_constraint_enforcement_on_suspicious_pattern"
+    levels:
+      level_1_minor_anomaly: "maintain_standard_access_increase_monitoring"
+      level_2_authorization_concern: "require_additional_verification_for_sensitive_operations"
+      level_3_significant_escalation_attempt: "restrict_identity_api_access_require_escalation"
+      level_4_confirmed_attack_pattern: "suspend_identity_cluster_access_pending_investigation"
+  
+  pod_security_policy_enforcement_escalation:
+    mechanism: "elevated_pod_security_validation_on_violation_signal"
+    triggers:
+      - pod_security_policy_violation_attempt_detected
+      - unauthorized_privilege_escalation_in_pod
+      - pod_escape_or_host_access_attempt
+      - container_capability_escalation_detected
+    intensity_levels:
+      standard: "enforce_pod_security_standards_at_admission"
+      heightened: "restrict_pod_types_to_approved_security_level"
+      intensive: "require_human_pre_approval_for_all_pod_admission"
+      critical: "prohibit_pod_admission_pending_investigation"
+
+policy_arbitration:
+  conflict_types:
+    human_authorization_vs_rbac_permission:
+      scenario: "human_denies_operation_but_identity_rbac_role_permits"
+      resolution: "human_denial_takes_absolute_precedence_block_operation"
+      reasoning: "human_authorization_authority_is_paramount"
+    
+    least_privilege_vs_operational_convenience:
+      scenario: "cluster_admin_role_for_service_account_for_efficiency"
+      resolution: "least_privilege_rbac_cannot_be_sacrificed_for_convenience"
+      reasoning: "over_privileged_identities_increase_compromise_risk"
+    
+    pod_security_enforcement_vs_operational_requirement:
+      scenario: "privileged_pod_requirement_for_operational_necessity"
+      resolution: "pod_security_policies_enforced_unconditionally"
+      reasoning: "privileged_pods_significantly_increase_cluster_compromise_risk"
+    
+    admission_control_vs_operational_flexibility:
+      scenario: "bypassing_admission_controls_for_faster_deployment"
+      resolution: "admission_control_policies_enforced_unconditionally"
+      reasoning: "unvalidated_resources_may_violate_security_boundaries"
+  
+  priority_hierarchy:
+    priority_1_human_authorization_authority: "absolute_and_unconditional"
+    priority_2_least_privilege_rbac: "cannot_be_waived_for_convenience"
+    priority_3_pod_security_policy_enforcement: "cannot_be_violated_for_operational_needs"
+    priority_4_admission_control_validation: "cannot_be_bypassed"
+    priority_5_privilege_escalation_prevention: "cannot_be_relaxed_for_flexibility"
+    priority_6_api_audit_trail_preservation: "cannot_be_disabled"
+    priority_7_operational_efficiency: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_orchestration_authorization_and_cluster_integrity_uncertainty_detection"
+    uncertainty_types:
+      type_1_client_identity_unverifiable: "escalate_before_operation"
+      type_2_rbac_permission_ambiguous: "expose_and_require_clarification"
+      type_3_admission_policy_interpretation_unclear: "conservative_rejection"
+      type_4_api_operation_context_ambiguous: "require_human_review"
+      type_5_pod_security_enforcement_uncertain: "block_pod_admission"
+      type_6_privilege_escalation_likelihood_unconfirmed: "elevated_monitoring"
+  
+  visibility_requirements:
+    mechanism: "mandatory_orchestration_authorization_uncertainty_articulation"
+    mandatory_output:
+      - identified_client_identity_or_authentication_ambiguities
+      - rbac_permission_confidence_degradation_factors
+      - admission_policy_enforcement_status
+      - pod_security_policy_compliance_uncertainty
+      - cluster_access_privilege_escalation_confidence
+      - confidence_limiting_factors_for_authorization_decision
+  
+  propagation:
+    mechanism: "uncertainty_flow_through_orchestration_authorization_chain"
+    rule_1: "authentication_uncertainty_flows_to_authorization_confidence"
+    rule_2: "rbac_permission_ambiguity_limits_operation_authorization"
+    rule_3: "admission_policy_uncertainty_triggers_conservative_rejection"
+    rule_4: "pod_security_uncertainty_creates_hard_ceiling_on_pod_admission"
+  
+  escalation:
+    mechanism: "graduated_uncertainty_response"
+    level_1_minor_uncertainty: "expose_and_proceed_with_heightened_monitoring"
+    level_2_moderate_uncertainty: "require_human_consultation_before_operation"
+    level_3_significant_uncertainty: "require_human_authorization_decision"
+    level_4_critical_uncertainty: "deny_operation_escalate_immediately"
+
+trust_boundaries:
+  cluster_access_trust_hierarchy:
+    authenticated_human_with_rbac_role: highest_trust_with_explicit_permissions
+    authenticated_service_account: conditionally_trusted_within_rbac_scope
+    pod_identity_within_cluster: trusted_for_in_cluster_operations_only
+    external_cluster_access: untrusted_by_default_requires_authentication
+  
+  pod_execution_trust_boundary:
+    pod_process_namespace: isolated_and_enforced
+    pod_to_host_boundary: restricted_by_security_policy
+    pod_to_pod_boundary: enforced_through_network_policies
+    pod_to_api_server_boundary: authenticated_and_rbac_authorized
+  
+  control_plane_trust_window:
+    api_server_operations: trusted_if_authenticated_and_authorized
+    etcd_cluster_data: trusted_if_encrypted_and_access_controlled
+    control_plane_components: trusted_if_securely_configured_and_monitored
+    cluster_state_mutations: continuously_validated_through_audit_logging
+
+runtime_behavior:
+  api_authentication_frequency: per_api_request_cycle
+  rbac_authorization_validation: per_api_request_evaluation
+  admission_control_enforcement: pre_resource_creation
+  pod_security_monitoring: continuous_throughout_lifecycle
+  api_audit_logging: comprehensive_and_continuous
+  privilege_escalation_detection: continuous_monitoring
+
+runtime_degradation:
+  on_authentication_failure:
+    operation_status: denied_immediately
+    api_access: blocked
+    escalation_level: warning
+    investigation_required: authentication_failure_analysis
+  
+  on_rbac_authorization_denied:
+    operation_status: rejected_and_logged
+    identity_status: marked_for_monitoring
+    audit_event: recorded_with_full_context
+    escalation_requirement: alert_on_repeated_failures
+  
+  on_admission_policy_violation:
+    resource_status: rejected_not_admitted
+    submitter_notification: immediate_with_violation_details
+    security_alert: logged_for_investigation
+    escalation_requirement: manual_override_requires_human_authorization
+  
+  on_privilege_escalation_attempt_detected:
+    operation_status: blocked_immediately
+    identity_status: suspended_pending_investigation
+    security_alert: critical
+    human_escalation: immediate_cluster_security_team_notification
+
+confidence_governance:
+  binary_rbac_permission_assumption: prohibited
+  implicit_cluster_access_assumption: prohibited
+  unauthenticated_operation_execution: prohibited
+  pod_security_policy_bypass: prohibited
+  hallucinated_authorization_prevention: enforced
+  authentication_confidence: explicit_verification_required
+  rbac_confidence: verified_per_operation
+  cluster_integrity_confidence: continuous_validation_required
+
+traceability:
+  api_operation_audit_trail: comprehensive_and_immutable
+  rbac_authorization_decisions: fully_traceable_per_operation
+  pod_security_policy_admission_decisions: recorded_with_reasoning
+  privilege_escalation_attempts: logged_with_full_context
+  authentication_events: timestamped_and_attributed
+  cluster_configuration_changes: fully_auditable_with_change_lineage
+
+human_oversight:
+  cluster_authorization_authority: final_arbiter_of_rbac_decisions
+  admission_control_override_authority: emergency_operations_only
+  pod_security_policy_exception_authority: human_approval_required
+  override_capability: conditional_with_post_operation_review
+  escalation_triggers:
+    - repeated_authorization_failures
+    - privilege_escalation_attempts_detected
+    - admission_policy_violations
+    - unusual_api_operation_patterns
+    - cluster_state_anomalies_detected
+  autonomous_high_privilege_operations: prohibited_without_approval
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_rbac_privilege_expansion: prohibited
+  self_modifying_admission_policy: prohibited
+  cross_cluster_trust_boundary_contamination: prohibited
+  adaptive_rbac_boundary_erosion: prohibited
+  deterministic_authorization_behavior: enforced
+  cluster_security_boundary_preservation: strict
+
+implementation_leakage_control:
+  kubernetes_api_server_implementation: excluded
+  etcd_backend_specifics: excluded
+  kubectl_client_implementation: excluded
+  admission_webhook_implementation_logic: excluded
+  network_plugin_specifics: excluded
+  cluster_provisioning_procedures: excluded
+
+meta_governance:
+  preserve_kubernetes_governance_boundary_integrity: true
+  prohibit_runtime_rbac_policy_drift: true
+  prohibit_adaptive_authorization_boundary_erosion: true
+  preserve_deterministic_orchestration_governance: true
+  maintain_cluster_integrity_principle_throughout_runtime: true
+
+output_standard:
+  expose_authentication_status: required
+  expose_rbac_authorization_status: required
+  expose_admission_control_decision: required
+  expose_pod_security_policy_compliance: required
+  expose_privilege_escalation_detection_or_attempts: required
+  expose_cluster_trust_integrity_status: required
+  expose_api_audit_trail_and_lineage: required
+  expose_orchestration_uncertainty_factors: required
+  separate_authentication_from_authorization: enforced
+  auditability: full
+  explainability: required_at_each_authorization_decision_point

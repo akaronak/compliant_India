@@ -1,0 +1,42 @@
+metadata:
+  file: lawful_platform_operations.yaml
+  domain: legal_operational_alignment
+  classification: governance_cognition
+  governance_tier: critical
+
+objectives:
+  - enforce_lawful_platform_operation
+  - preserve_legal_compliance_throughout_operation
+  - maintain_operational_transparency_and_accountability
+  - detect_unlawful_operation_patterns
+  - prevent_illegal_platform_practices
+
+adaptive_cognition:
+  lawfulness_adaptation:
+    mechanism: "compliance_escalation_on_unlawful_operation_or_gap_signal"
+    triggers:
+      - unlawful_practice_detected
+      - compliance_violation_identified
+      - legal_boundary_breach_suspected
+    responses:
+      - escalate_compliance_verification
+      - implement_corrective_measures
+      - increase_legal_oversight
+
+policy_arbitration:
+  priority_hierarchy:
+    priority_1_lawful_operation: "absolute_and_unconditional"
+    priority_2_legal_compliance: "cannot_be_compromised"
+    priority_3_operational_efficiency: "lowest_priority"
+
+workflow_cognition:
+  lawfulness_workflow:
+    - establish_legal_operation_requirements
+    - monitor_compliance_continuously
+    - detect_violations_immediately
+    - implement_corrections_rapidly
+    - document_compliance_status
+
+meta_governance:
+  preserve_lawful_operation_principle: true
+  prohibit_compliance_drift: true

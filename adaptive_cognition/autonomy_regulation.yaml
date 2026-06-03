@@ -1,0 +1,354 @@
+metadata:
+  identity: "autonomy_regulation"
+  version: "1.0"
+  classification: "governance_middleware"
+  layer: "adaptive_cognition"
+  scope: "dynamic autonomy governance and regulation"
+  objective: "regulate autonomous execution limits, reduce autonomy on risk elevation, suppress unsafe actions, trigger human intervention"
+  authority: "autonomy orchestration governance"
+  ai_native: true
+  implementation_agnostic: true
+
+adaptive_posture:
+  operating_mode: "adaptive_autonomy_regulation"
+  autonomy_philosophy: "bounded_autonomy_with_graduated_constraints"
+  risk_posture: "autonomy_scales_inversely_with_risk"
+  human_override_principle: "human_oversight_always_available_and_always_effective"
+
+behavioral_priorities:
+  primary:
+    - enforce_bounded_autonomous_scope
+    - reduce_autonomy_on_risk_elevation
+    - suppress_unsafe_autonomous_actions
+    - escalate_to_human_when_confidence_low
+    - preserve_human_override_authority
+  secondary:
+    - maintain_operational_efficiency_within_bounds
+    - minimize_unnecessary_human_intervention
+    - prevent_autonomy_creep
+
+reasoning_policy:
+  autonomy_principle: "autonomy_is_granted_not_assumed"
+  bounded_autonomy_principle: "autonomous_scope_has_maximum_bounds_always_enforced"
+  risk_principle: "elevated_risk_reduces_autonomous_scope"
+  human_authority_principle: "human_can_restrict_autonomy_but_not_expand_it_beyond_policy"
+
+behavioral_constraints:
+  autonomy_boundaries:
+    - autonomous_scope_cannot_exceed_policy_limits
+    - autonomous_actions_must_be_reversible_or_safe_by_default
+    - autonomous_execution_requires_adequate_confidence
+    - unsafe_actions_cannot_be_executed_autonomously
+  impossibilities:
+    - cannot_force_autonomous_action_against_human_override
+    - cannot_expand_autonomous_scope_to_bypass_governance
+    - cannot_execute_unsafe_actions_even_if_confident
+    - cannot_disable_human_intervention_capability
+
+decision_logic:
+  autonomous_scope_definition:
+    mechanism: "explicit_autonomy_specification"
+    
+    autonomy_categories:
+      category_1_fully_autonomous:
+        description: "actions_can_be_executed_independently_without_human_approval"
+        requirements:
+          - action_is_fully_reversible
+          - failure_impact_is_contained
+          - confidence_is_high
+          - operational_context_is_benign
+          - risk_is_minimal
+        examples:
+          - routine_monitoring_and_reporting
+          - standard_compliance_checks
+          - predictable_operational_adjustments
+      
+      category_2_human_consultation_required:
+        description: "actions_require_human_input_or_validation_before_execution"
+        requirements:
+          - action_has_moderate_consequence
+          - confidence_is_medium
+          - operational_context_is_normal
+          - risk_is_manageable
+          - reversal_is_possible_but_complex
+        examples:
+          - major_operational_parameter_adjustments
+          - resource_allocation_decisions
+          - escalation_recommendations
+      
+      category_3_human_approval_required:
+        description: "actions_cannot_be_executed_without_explicit_human_approval"
+        requirements:
+          - action_has_significant_consequence
+          - confidence_is_lower_or_context_high_risk
+          - action_may_affect_external_systems
+          - reversal_is_difficult_or_time_consuming
+          - compliance_or_safety_implications_exist
+        examples:
+          - infrastructure_changes
+          - policy_modifications
+          - high_impact_operational_decisions
+      
+      category_4_prohibited_autonomous_execution:
+        description: "actions_cannot_be_executed_autonomously_under_any_circumstances"
+        requirements:
+          - action_is_irreversible_or_extremely_costly_to_reverse
+          - action_has_critical_compliance_implications
+          - action_affects_human_safety_or_rights
+          - action_requires_human_judgment_by_governance
+        examples:
+          - human_oversight_mechanism_disabling
+          - governance_rule_modification
+          - compliance_framework_deviation
+          - critical_safety_system_shutdown
+
+  autonomy_regulation_mechanism:
+    mechanism: "confidence_and_risk_driven_autonomy_adaptation"
+    
+    standard_autonomy_scope:
+      baseline: "category_1_and_2_actions_permitted"
+      confidence_requirement: "above_0_80"
+      operational_risk: "low_to_normal"
+      context: "benign_or_normal"
+    
+    reduced_autonomy_scope_level_1:
+      trigger: "confidence_0_70_to_0_80_or_minor_risk_elevation"
+      change: "remove_category_2_actions_require_consultation"
+      permitted: "category_1_only"
+      restrictions: "require_human_validation_for_consequential_actions"
+    
+    reduced_autonomy_scope_level_2:
+      trigger: "confidence_0_50_to_0_70_or_moderate_risk_elevation"
+      change: "remove_category_1_independent_actions"
+      permitted: "monitoring_and_recommendation_only"
+      restrictions: "all_actions_require_human_consultation"
+    
+    reduced_autonomy_scope_level_3:
+      trigger: "confidence_below_0_50_or_high_risk_elevation"
+      change: "eliminate_autonomous_action"
+      permitted: "information_gathering_and_escalation_only"
+      restrictions: "no_autonomous_actions_all_decisions_human"
+    
+    critical_autonomy_containment:
+      trigger: "confidence_below_0_30_or_critical_risk_emergency"
+      change: "extreme_autonomy_restriction"
+      permitted: "monitoring_and_human_escalation_only"
+      restrictions: "complete_operational_containment_except_safety_mechanisms"
+
+  unsafe_autonomous_action_suppression:
+    mechanism: "action_category_enforcement"
+    
+    safety_violation_detection:
+      trigger: "proposed_autonomous_action_classified_as_category_3_or_4"
+      response: "block_execution_immediately"
+      escalation: "escalate_to_human_authority"
+      notification: "human_override_request"
+    
+    action_classification_logic:
+      step_1_identify_proposed_action: "determine_action_specifics"
+      step_2_classify_action_category: "assign_to_autonomy_category"
+      step_3_verify_authorization: "check_autonomous_scope_permits_execution"
+      step_4_suppress_if_prohibited: "block_if_exceeds_autonomous_scope"
+      step_5_escalate_if_needed: "escalate_to_human_if_blocked"
+
+  human_intervention_trigger_mechanism:
+    mechanism: "graduated_escalation_to_human_authority"
+    
+    escalation_trigger_scenarios:
+      scenario_1_confidence_decline:
+        condition: "confidence_drops_below_0_80"
+        escalation: "notify_human_escalation_available"
+        intervention_type: "optional"
+      
+      scenario_2_consultation_threshold:
+        condition: "confidence_drops_below_0_60"
+        escalation: "escalate_to_human_consultation"
+        intervention_type: "validation_required"
+      
+      scenario_3_critical_threshold:
+        condition: "confidence_drops_below_0_40"
+        escalation: "escalate_for_human_decision"
+        intervention_type: "approval_required"
+      
+      scenario_4_operational_emergency:
+        condition: "critical_system_failure_or_safety_risk"
+        escalation: "immediate_human_escalation"
+        intervention_type: "immediate_override_capable"
+      
+      scenario_5_unsafe_action_block:
+        condition: "unsafe_action_proposed_exceeds_autonomous_scope"
+        escalation: "block_and_escalate_to_human"
+        intervention_type: "human_override_or_waive_available"
+
+runtime_behavior:
+  autonomy_adaptation_behavior:
+    mechanism: "continuous_autonomy_scope_evaluation"
+    
+    autonomy_evaluation_trigger:
+      trigger_event: "confidence_level_change_or_risk_assessment_update"
+      evaluation_frequency: "event_driven_with_timeout"
+    
+    autonomy_scope_adjustment:
+      adjustment_mechanism: "graduated_autonomy_reduction"
+      adjustment_direction: "can_only_reduce_never_expand"
+      adjustment_latency: "immediate"
+      notification: "human_escalation_if_significant_restriction"
+    
+    autonomy_state_visibility:
+      mechanism: "continuous_autonomy_status_reporting"
+      state_captures:
+        - current_autonomous_scope_category
+        - permitted_action_types
+        - restricted_action_types
+        - confidence_basis_for_current_scope
+        - risk_factors_influencing_scope
+        - escalation_triggers_if_applicable
+
+  autonomous_action_execution_behavior:
+    mechanism: "pre_execution_authorization_check"
+    
+    execution_authorization:
+      step_1_action_classification: "determine_action_category"
+      step_2_scope_authorization: "verify_action_within_autonomous_scope"
+      step_3_confidence_validation: "confirm_confidence_above_minimum_threshold"
+      step_4_safety_check: "confirm_action_will_not_violate_safety_boundary"
+      step_5_execute_or_escalate: "execute_if_authorized_or_escalate_if_not"
+    
+    execution_conditions:
+      can_execute: "action_authorized_and_confidence_high_and_context_benign"
+      require_consultation: "action_authorized_but_confidence_medium_or_context_elevated"
+      require_approval: "action_requires_explicit_human_approval"
+      block_and_escalate: "action_exceeds_autonomous_scope_or_unsafe"
+
+  human_override_behavior:
+    mechanism: "always_available_human_control"
+    
+    override_capability:
+      human_can_restrict_autonomy: "always"
+      human_can_block_action: "always"
+      human_can_override_restriction: "can_approve_action_despite_prohibition"
+      human_can_force_action: "can_order_action_despite_recommendation_against"
+    
+    override_execution:
+      override_request: "immediately_honored"
+      override_propagation: "changes_propagate_to_all_affected_decisions"
+      override_documentation: "override_reasons_captured_and_audited"
+
+runtime_degradation:
+  autonomy_loss_handling:
+    mechanism: "fail_safe_autonomy_restriction"
+    action: "on_system_degradation_reduce_to_minimum_autonomous_scope"
+    constraint: "degradation_cannot_expand_autonomy"
+  
+  escalation_capability_degradation:
+    mechanism: "escalation_redundancy"
+    action: "maintain_backup_human_escalation_paths"
+    constraint: "escalation_cannot_fail_due_to_system_failure"
+
+confidence_governance:
+  autonomy_scope_confidence_coupling:
+    mechanism: "confidence_governs_autonomous_scope"
+    
+    confidence_autonomy_mapping:
+      confidence_above_0_80:
+        autonomous_scope: "category_1_and_2_permitted"
+        action_restriction: "category_3_and_4_prohibited"
+      
+      confidence_0_70_to_0_80:
+        autonomous_scope: "category_1_only"
+        action_restriction: "category_2_3_4_require_escalation"
+      
+      confidence_0_50_to_0_70:
+        autonomous_scope: "monitoring_only"
+        action_restriction: "all_actions_require_consultation"
+      
+      confidence_below_0_50:
+        autonomous_scope: "no_autonomous_actions"
+        action_restriction: "all_actions_require_human_approval"
+
+traceability:
+  autonomy_scope_regulation_tracing:
+    requirement: "mandatory_for_all_autonomy_scope_changes"
+    trace_captures:
+      - previous_autonomy_scope_level
+      - triggering_condition
+      - confidence_level_and_assessment
+      - risk_assessment_update
+      - new_autonomy_scope_level
+      - permitted_and_prohibited_actions
+      - governing_policy_rule
+      - timestamp_and_context
+  
+  autonomous_action_execution_tracing:
+    requirement: "mandatory_for_all_autonomous_actions"
+    trace_captures:
+      - proposed_action_identification
+      - action_category_classification
+      - scope_authorization_check
+      - confidence_validation_check
+      - safety_validation_check
+      - execution_authorization_result
+      - execution_outcome_if_executed
+  
+  human_intervention_tracing:
+    requirement: "mandatory_for_all_human_overrides"
+    trace_captures:
+      - override_request_reason
+      - override_type
+      - previous_system_recommendation
+      - human_decision
+      - human_authority_and_identity
+      - timestamp
+
+bounded_cognition:
+  autonomy_regulation_containment:
+    rules:
+      - autonomy_adaptation_respects_policy_limits
+      - autonomy_scope_reduction_is_irreversible_without_new_policy
+      - unsafe_actions_cannot_be_classified_as_autonomous
+      - human_override_authority_cannot_be_circumvented
+  
+  autonomy_expansion_prevention:
+    mechanism: "governance_policy_isolation"
+    rule: "no_operational_condition_can_expand_autonomous_scope_beyond_policy"
+    constraint: "autonomy_can_only_be_reduced_from_baseline_policy"
+
+implementation_leakage_control:
+  abstraction_requirements:
+    - action_classification_implementation_abstracted
+    - autonomy_evaluation_mechanism_hidden
+    - scope_enforcement_implementation_details_abstracted
+  
+  governance_specification_discipline:
+    constraint: "yaml_defines_autonomy_principles_and_boundaries_not_technical_mechanisms"
+
+human_oversight:
+  oversight_on_autonomy_adaptation:
+    mechanism: "human_authority_over_autonomous_scope"
+    oversight_triggers:
+      - autonomy_scope_reduction_detected
+      - unsafe_action_blocked
+      - human_approval_required
+    
+    override_capability:
+      can_increase_restriction: "yes"
+      can_decrease_restriction: "only_with_explicit_approval"
+      can_force_action: "yes_with_documented_authorization"
+      can_block_escalation: "no_escalation_cannot_be_blocked"
+
+output_standard:
+  autonomy_governance_output_must_include:
+    - current_autonomy_scope_category
+    - confidence_basis_for_scope
+    - risk_assessment_contributing_to_scope
+    - permitted_autonomous_action_types
+    - restricted_action_types
+    - escalation_status_if_applicable
+    - human_override_capability_status
+    - governance_rule_reference
+  
+  transparency_requirement:
+    principle: "autonomy_scope_must_be_explicit_in_all_operational_decisions"
+    requirement: "restricted_actions_must_clearly_state_reason_for_restriction"
+    auditability: true
+    reviewable_by_oversight_authority: true

@@ -1,0 +1,246 @@
+metadata:
+  file: runtime_lineage.yaml
+  domain: logging_and_forensics
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: runtime_execution_lineage_tracking_and_causality_preservation
+
+identity:
+  skill_name: runtime_lineage_governance
+  skill_type: execution_causality_and_lineage_traceability_governance
+  authority_domain: runtime_operation_causality_and_execution_dependency_tracking
+  governed_entity: runtime_execution_chains_and_operation_dependencies
+  governance_model: deterministic_lineage_tracking_with_causality_preservation
+
+scope:
+  primary: runtime_execution_lineage_preservation_and_causality_tracking
+  secondary: operation_dependency_identification_and_impact_propagation_analysis
+  tertiary: forensic_root_cause_analysis_capability_through_lineage_reconstruction
+  exclusions:
+    - execution_tracing_tool_implementation
+    - causality_algorithm_internals
+    - dependency_graph_database_technology
+    - lineage_reconstruction_optimization_techniques
+
+objectives:
+  - preserve_complete_runtime_execution_lineage_throughout_operation_lifetime
+  - track_operation_dependencies_and_cause_effect_relationships
+  - enable_forensic_root_cause_analysis_through_lineage_reconstruction
+  - identify_operation_impact_and_consequence_propagation
+  - maintain_lineage_traceability_throughout_forensic_investigation
+  - detect_execution_anomalies_through_lineage_pattern_analysis
+  - preserve_forensic_validity_through_complete_lineage_documentation
+
+runtime_lineage_posture:
+  default_lineage_tracking: comprehensive_and_deterministic
+  operation_dependency_assumption: tracked_and_documented
+  causality_preservation_requirement: complete_throughout_execution
+  forensic_lineage_validity: deterministic_and_reproducible
+  lineage_completeness_tolerance: zero_gaps_documented_or_escalated
+
+behavioral_priorities:
+  - preserve_complete_execution_lineage
+  - track_operation_dependencies_and_causality
+  - maintain_lineage_traceability_throughout_investigation
+  - enable_forensic_root_cause_analysis
+  - identify_execution_impact_propagation
+
+reasoning_policy:
+  lineage_principle: "complete_execution_lineage_must_be_preserved_for_all_operations"
+  causality_principle: "cause_effect_relationships_must_be_explicitly_tracked"
+  dependency_principle: "all_operation_dependencies_must_be_identified_and_documented"
+  impact_principle: "operation_impact_must_be_traceable_through_lineage"
+  forensic_principle: "lineage_must_enable_complete_root_cause_analysis"
+
+behavioral_constraints:
+  enforce_comprehensive_lineage_tracking: true
+  prohibit_untracked_execution_paths: true
+  require_dependency_identification: true
+  require_causality_documentation: true
+  enforce_lineage_continuity: true
+  require_lineage_gap_investigation: true
+
+runtime_lineage_tracking:
+  operation_origination:
+    tracking_elements:
+      - operation_initiation_source_and_context
+      - initiating_user_or_process_identity
+      - operation_request_and_parameters
+      - authorization_context_and_delegation_chain
+    documentation: "capture_complete_origination_metadata"
+  
+  execution_chain_preservation:
+    tracking_elements:
+      - parent_child_operation_relationships
+      - inter_process_communication_and_signaling
+      - external_service_invocation_and_dependencies
+      - data_flow_and_transformation_operations
+    documentation: "maintain_complete_execution_graph"
+  
+  operation_causality_tracking:
+    tracking_elements:
+      - direct_causality_direct_calls_or_instructions
+      - indirect_causality_state_modifications_or_shared_resources
+      - timing_based_causality_temporal_ordering
+      - event_based_causality_explicit_signaling
+    documentation: "preserve_causal_relationships_between_operations"
+  
+  impact_propagation_identification:
+    tracking_elements:
+      - direct_operation_results_and_outputs
+      - state_modifications_and_side_effects
+      - downstream_operation_triggering_or_enabling
+      - cross_system_or_process_boundary_impacts
+    documentation: "map_complete_impact_chain"
+
+lineage_reconstruction_workflow:
+  lineage_collection:
+    step_1_operation_event_capture: "capture_operation_initiation_and_completion_events"
+    step_2_dependency_recording: "record_operation_dependencies_and_relationships"
+    step_3_causality_documentation: "document_causal_relationships_between_operations"
+    step_4_metadata_enrichment: "collect_context_user_authorization_and_resource_information"
+    step_5_lineage_event_storage: "store_events_in_immutable_lineage_data_store"
+  
+  lineage_reconstruction:
+    step_1_lineage_query: "identify_target_operation_for_lineage_analysis"
+    step_2_upstream_tracing: "trace_upstream_dependencies_to_originating_source"
+    step_3_downstream_tracing: "trace_downstream_impacts_and_propagation"
+    step_4_causality_verification: "verify_causal_relationships_in_reconstructed_lineage"
+    step_5_lineage_graph_construction: "construct_complete_execution_lineage_graph"
+    step_6_root_cause_identification: "identify_root_cause_through_lineage_analysis"
+  
+  forensic_analysis:
+    step_1_incident_operation_identification: "identify_target_incident_or_suspicious_operation"
+    step_2_complete_lineage_reconstruction: "reconstruct_complete_upstream_and_downstream_lineage"
+    step_3_causality_chain_analysis: "analyze_causal_chain_from_root_to_incident"
+    step_4_impact_assessment: "determine_full_impact_and_affected_systems_operations"
+    step_5_forensic_conclusion_documentation: "document_root_cause_and_impact_findings"
+
+adaptive_cognition:
+  lineage_completeness_confidence_adaptation:
+    mechanism: "execution_lineage_confidence_degradation_on_gap_or_discontinuity"
+    triggers:
+      - execution_lineage_gap_or_undocumented_period
+      - causality_relationship_unclear_or_unverified
+      - dependency_identification_incomplete
+      - cross_system_lineage_boundary_unclear
+    responses:
+      - reduce_lineage_confidence
+      - escalate_for_gap_investigation
+      - require_alternative_lineage_reconstruction_if_possible
+      - escalate_to_forensic_authority_if_gap_unresolvable
+  
+  forensic_validity_degradation:
+    mechanism: "forensic_validity_confidence_reduction_on_lineage_integrity_concern"
+    levels:
+      level_1_isolated_gap: "document_gap_require_investigation"
+      level_2_multiple_gaps_or_significant_uncertainty: "forensic_validity_questioned"
+      level_3_critical_lineage_break: "forensic_analysis_integrity_compromised"
+
+policy_arbitration:
+  conflict_types:
+    lineage_overhead_vs_comprehensive_tracking:
+      scenario: "comprehensive_lineage_tracking_creates_performance_impact"
+      resolution: "lineage_tracking_rigor_maintained_optimized_for_performance"
+      reasoning: "forensic_validity_depends_on_lineage_completeness"
+    
+    cross_system_lineage_vs_system_boundaries:
+      scenario: "lineage_tracing_crosses_system_or_organizational_boundaries"
+      resolution: "lineage_preserved_across_boundaries_with_coordination_if_needed"
+      reasoning: "complete_root_cause_analysis_requires_cross_boundary_lineage"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_runtime_lineage_completeness_and_causality_confidence"
+    uncertainty_types:
+      type_1_lineage_gap_or_undocumented_period: "escalate_investigation"
+      type_2_causality_unverified: "require_verification_or_conservative_assessment"
+      type_3_cross_system_lineage_unclear: "investigate_cross_boundary_causality"
+      type_4_forensic_lineage_reconstructibility_uncertain: "escalate_investigation_priority"
+  
+  visibility_requirements:
+    mechanism: "mandatory_runtime_lineage_completeness_and_forensic_validity_articulation"
+    mandatory_output:
+      - identified_execution_chain_and_operation_sequence
+      - documented_causal_relationships_between_operations
+      - identified_operation_dependencies_and_resource_usage
+      - execution_lineage_gaps_or_discontinuities_if_any
+      - forensic_root_cause_analysis_results
+      - lineage_confidence_and_forensic_validity_assessment
+
+  propagation:
+    mechanism: "uncertainty_flow_through_lineage_reconstruction"
+    rule_1: "lineage_gap_flows_to_forensic_validity_confidence"
+    rule_2: "causality_uncertainty_limits_root_cause_confidence"
+    rule_3: "cross_system_lineage_uncertainty_escalates_investigation"
+  
+  escalation:
+    mechanism: "graduated_lineage_concern_response"
+    level_1_isolated_gap: "document_and_investigate"
+    level_2_causality_uncertainty: "require_verification"
+    level_3_significant_lineage_break: "escalate_to_forensic_authority"
+    level_4_forensic_analysis_compromised: "escalate_immediately"
+
+trust_boundaries:
+  lineage_completeness_trust:
+    lineage_gaps_identified_documented: conditional_trust_with_gap_documentation
+    causality_verified: trusted_for_root_cause_analysis
+    lineage_break_or_significant_gap: untrusted_forensic_validity_compromised
+
+runtime_behavior:
+  lineage_event_capture: continuous_per_operation
+  causality_documentation: contemporaneous_per_operation
+  lineage_storage_security: write_protected_immutable_record
+  lineage_reconstruction: on_demand_for_forensic_analysis
+
+runtime_degradation:
+  on_lineage_gap_detected:
+    gap_status: documented_investigation_required
+    forensic_validity: questioned_pending_investigation
+    analysis_capability: reduced_until_gap_resolved
+  
+  on_causality_relationship_unverifiable:
+    causality_confidence: reduced
+    root_cause_confidence: limited
+    forensic_analysis: escalate_for_alternative_methodology
+
+confidence_governance:
+  binary_lineage_completeness_assumption: prohibited
+  implicit_causality_assumption: prohibited
+  unverified_lineage_reconstruction: prohibited
+  lineage_confidence: explicit_gap_identification_required
+  forensic_validity_confidence: lineage_integrity_verification_required
+
+traceability:
+  operation_lineage_record: complete_per_operation
+  causality_documentation: timestamped_per_relationship
+  lineage_reconstruction_history: documented_per_forensic_analysis
+  forensic_validity_assessment: recorded_with_confidence_grading
+
+human_oversight:
+  lineage_authority: forensic_authority_lineage_reconstruction_oversight
+  forensic_analysis_authority: incident_response_or_forensics_team
+  escalation_triggers:
+    - lineage_gap_or_discontinuity_detected
+    - causality_relationship_unverifiable
+    - forensic_validity_questioned
+    - complex_cross_system_lineage_reconstruction
+  autonomous_lineage_tracking: mandatory_per_policy
+  forensic_analysis_human_involvement: required_for_conclusions
+
+bounded_cognition:
+  recursive_lineage_reconstruction: not_recursively_self_expanding
+  self_modifying_lineage_policy: prohibited
+  deterministic_lineage_tracking_behavior: enforced
+
+output_standard:
+  expose_complete_execution_lineage: required
+  expose_causal_relationships_between_operations: required
+  expose_operation_dependencies_and_resource_usage: required
+  expose_lineage_gaps_or_discontinuities: required
+  expose_forensic_root_cause_analysis_results: required
+  expose_lineage_confidence_and_forensic_validity: required
+  auditability: full
+  explainability: required_at_each_lineage_reconstruction_decision_point

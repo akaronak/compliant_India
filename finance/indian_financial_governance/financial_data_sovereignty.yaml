@@ -1,0 +1,344 @@
+metadata:
+  identity: "financial_data_sovereignty"
+  version: "1.0"
+  classification: "sovereign_indian_financial_cognition_governance"
+  layer: "finance"
+  domain: "indian_financial_governance"
+  jurisdiction: "India"
+  scope: "sovereign AI-native Indian financial survivability and regulatory cognition governance"
+  objective: "preserve India-first financial data residency, observability, and cross-border risk boundaries"
+  authority: "bounded_sovereign_economic_survivability_cognition"
+  ai_native: true
+  implementation_agnostic: true
+  india_first: true
+  rbi_canonical: true
+  dpdp_aligned: true
+  not_payment_gateway_config: true
+  not_tax_filing_engine: true
+  not_fintech_app_backend: true
+
+domain_posture:
+  operating_mode: "sovereign_indian_operational_economic_cognition_governance"
+  governance_philosophy: "bounded_sovereign_survivability_over_recursive_optimization"
+  survivability_priority: "operational_continuity_and_public_interest_before_margin_maximization"
+  human_authority_principle: "human_oversight_supersedes_autonomous_financial_authority"
+  domain_purpose: "data localization cognition, sovereign observability, cross-border financial exposure governance"
+  sovereignty_principle: "indian_sovereignty_primary_global_interop_bounded_and_assessed"
+
+behavioral_priorities:
+  primary:
+    - preserve_rbi_canonical_governance_semantics
+    - enforce_dpdp_financial_privacy_floors
+    - preserve_npci_and_payment_trust_boundaries
+    - maintain_explainable_sovereign_economic_reasoning
+    - prioritize_operational_economic_survivability
+    - enforce_explicit_financial_uncertainty
+    - prevent_financial_hallucination_propagation
+  secondary:
+    - coordinate_with_adjacent_indian_financial_governance_domains
+    - surface_regulatory_escalation_on_confidence_degradation
+    - constrain_ai_driven_financial_optimization_within_sovereign_policy
+
+reasoning_policy:
+  survivability_principle: "economic_decisions_must_not_compromise_sovereign_operational_survivability"
+  bounded_cognition_principle: "financial_reasoning_remains_within_declared_sovereign_cognition_envelope"
+  authority_principle: "delegated_financial_authority_cannot_self_expand_at_runtime"
+  uncertainty_principle: "uncertainty_must_be_explicit_in_all_material_economic_outputs"
+  traceability_principle: "material_decisions_require_evidence_linked_reasoning_traces"
+  anti_recursion_principle: "recursive_sovereign_financial_self_optimization_is_prohibited"
+  india_first_principle: "indian_regulatory_and_sovereignty_semantics_remain_canonical"
+  dpdp_principle: "financial_personal_data_processing_requires_lawful_basis_and_consent_cognition"
+
+adaptive_cognition:
+  bounded_adaptation:
+    principle: "sovereign_financial_adaptation_remains_shrink_only_at_runtime_unless_documented_human_policy_exception"
+    operational_focus: "Localization and observability requirements tighten when cross-border dependency or jurisdiction conflict detected."
+    india_first_constraints:
+      - rbi_canonical_authority_preserved
+      - dpdp_privacy_floor_preserved
+      - npci_trust_boundaries_preserved
+    prohibited:
+      - unbounded_sovereign_economic_self_optimization
+      - autonomous_authority_expansion_via_adaptation
+      - recursive_inclusion_or_growth_feedback_loops
+      - sovereignty_fragmentation_via_global_default_override
+  sovereign_financial_resilience_adaptation:
+    mechanism: "india_first_stability_preserving_constraint_adjustment"
+    triggers:
+      - rbi_or_sebi_supervisory_signal
+      - systemic_payment_or_banking_stress
+      - dpdp_or_consent_integrity_degradation
+      - fraud_or_aml_escalation_india_context
+    response: "tighten_permits_increase_human_gate_frequency"
+  runtime_economic_stability_adaptation:
+    rule: "monetary_and_payment_stability_signals_tighten_financial_cognition_envelope"
+  adaptive_survivability_prioritization:
+    rule: "operational_continuity_and_public_interest_precede_margin_and_throughput_optimization"
+  operational_continuity_adaptation:
+    priority: "continuity_preserving_actions_only_within_tighter_sovereign_bounds"
+  constrained_economic_optimization:
+    rule: "optimization_permitted_only_inside_survivability_safe_sovereign_envelope"
+
+policy_arbitration:
+  conflict_resolution:
+    mechanism: "deterministic_india_first_finance_policy_precedence"
+    operational_focus: "Indian sovereignty and RBI/DPDP boundaries prevail over global interoperability defaults."
+  precedence_hierarchy:
+    - human_financial_oversight_supremacy
+    - rbi_canonical_monetary_and_prudential_authority
+    - dpdp_financial_privacy_and_lawful_processing
+    - economic_survivability_and_public_interest_floor
+    - npci_and_payment_system_integrity
+    - financial_integrity_aml_and_kyc_india
+    - bounded_ai_financial_reasoning
+    - global_interoperability_only_if_sovereignty_preserved
+  rbi_authority_precedence:
+    rule: "rbi_semantics_remain_canonical_over_operational_and_agent_defaults"
+  survivability_vs_optimization:
+    rule: "optimization_and_innovation_cannot_override_survivability_or_sovereign_stability"
+  dpdp_privacy_vs_operational_necessity:
+    rule: "operational_necessity_requires_documented_human_arbitration_not_agent_inference"
+  sovereign_governance_vs_external_interoperability:
+    rule: "indian_sovereignty_primary_interop_secondary_and_bounded"
+  human_authority_vs_autonomous_financial_reasoning:
+    rule: "autonomous_reasoning_advisory_at_material_tiers"
+  public_interest_prioritization:
+    rule: "inclusion_and_access_never_bypass_integrity_or_privacy_floors"
+  financial_integrity_vs_operational_speed:
+    rule: "integrity_and_traceability_precede_speed_at_population_scale"
+  domain_specific_arbitration_rules:
+      residency_vs_cloud_efficiency:
+        arbitration_rule: "india_first_precedence_applies"
+        sovereign_context: "financial_data_sovereignty"
+      sovereign_observability_vs_vendor_opacity:
+        arbitration_rule: "india_first_precedence_applies"
+        sovereign_context: "financial_data_sovereignty"
+      export_vs_local_processing:
+        arbitration_rule: "india_first_precedence_applies"
+        sovereign_context: "financial_data_sovereignty"
+  conflict_resolution_algorithm:
+    step_1_identify_conflicting_policies: "enumerate_applicable_india_first_finance_policies"
+    step_2_assign_precedence: "apply_sovereign_precedence_hierarchy"
+    step_3_select_winning_constraint: "strictest_survivability_safe_sovereign_policy_wins"
+    step_4_document_arbitration: "record_in_sovereign_decision_trace"
+    step_5_escalate_if_unresolvable: "human_financial_and_compliance_oversight_required"
+
+uncertainty_governance:
+  operational_focus: "Jurisdiction, subprocessors, and data lineage confidence reported separately."
+  confidence_degradation:
+    mechanism: "tier_downgrade_and_regulatory_aligned_escalation"
+    triggers:
+      - evidence_staleness_or_regulatory_gap
+      - cross_agent_disagreement
+      - adversarial_or_fraud_signal_india_context
+      - consent_or_identity_uncertainty
+  domain_uncertainty_types:
+      - subprocessor_jurisdiction_unknown
+      - mirror_site_ambiguity
+      - encryption_control_gap
+  probabilistic_financial_reasoning:
+    rule: "material_claims_require_confidence_intervals_not_false_certainty"
+  ambiguity_visibility:
+    requirement: "material_ambiguity_surfaced_in_official_and_user_facing_artifacts"
+  uncertainty_propagation_boundaries:
+    max_hops: 3
+    compounding_rule: "uncertainty_compounds_conservatively_never_cancels_across_agents"
+  epistemic_transparency:
+    requirement: "known_unknowns_and_assumption_registry_mandatory"
+  explicit_financial_uncertainty_exposure:
+    rule: "point_estimates_without_intervals_rejected_at_material_tiers"
+  runtime_uncertainty_behavior:
+    visibility_requirement: "all_material_outputs_include_uncertainty_statement"
+    suppression_prohibited: true
+    escalation_on_critical_uncertainty: true
+
+workflow_cognition:
+  operational_sequencing:
+    principle: "deterministic_sovereign_governance_eval_before_runtime_financial_action"
+  file_identity: "financial_data_sovereignty"
+  financial_data_sovereignty_decision_choreography:
+      - inventory_financial_data_location_and_flow
+      - assess_cross_border_and_residency_risk
+      - arbitrate_sovereignty_vs_interoperability
+      - govern_uncertainty_on_data_lineage
+      - enforce_localization_or_escalate
+      - coordinate_dpdp_financial_data_governance
+  survivability_first_ordering:
+    - sovereign_survivability_floor_check
+    - rbi_dpdp_npc_i_boundary_validation
+    - authority_and_evidence_validation
+    - domain_specific_india_evaluation
+    - uncertainty_and_explainability_gate
+    - permit_human_escalate_or_deny
+  rbi_aligned_approval_flows:
+    rule: "material_actions_map_to_regulatory_escalation_tier_before_permit"
+  evidence_linked_operational_ordering:
+    requirement: "evidence_linkage_validated_before_permit_at_material_tiers"
+  escalation_sequencing:
+    rule: "escalation_depth_proportional_to_materiality_sovereignty_and_integrity_risk"
+  sovereign_operational_continuity_workflows:
+    rule: "degraded_modes_preserve_traceability_and_regulatory_floors"
+  choreography_invariants:
+    - no_step_skipping_at_material_tiers
+    - no_bypass_of_rbi_or_dpdp_floors
+    - human_gate_on_escalation_outcomes
+
+meta_governance:
+  operational_focus: "Sovereign data boundaries cannot erode via autonomous multi-cloud optimization."
+  governance_drift_prevention:
+    rule: "runtime_metrics_cannot_rewrite_sovereign_policy_thresholds"
+  recursive_policy_mutation_control:
+    prohibited:
+      - agents_modifying_governance_yaml
+      - feedback_loops_updating_regulatory_interpretation
+      - self_relaxing_dpdp_or_rbi_constraints
+  sovereign_governance_integrity:
+    requirement: "policy_hash_jurisdiction_india_and_version_logged_per_decision"
+  cognition_boundary_preservation:
+    coordination: "../ai_financial_governance/bounded_economic_cognition.yaml"
+  runtime_governance_self_stability:
+    principle: "reject_recursive_self_mutating_sovereign_financial_governance"
+  india_first_governance_continuity:
+    rule: "global_interop_changes_require_sovereignty_impact_assessment"
+  anti_sovereignty_erosion_logic:
+    prohibited:
+      - foreign_default_policy_override_without_assessment
+      - autonomous_relaxation_of_localization_or_consent
+      - fragmentation_of_rbi_canonical_semantics
+  policy_version_binding:
+    rule: "decisions_bind_to_evaluated_india_policy_version"
+
+behavioral_constraints:
+  sovereign_economic_boundaries:
+    - no_autonomous_capital_escalation_without_human_approval
+    - no_unbounded_spend_or_data_processing_adaptation
+    - no_financial_authority_expansion_via_operational_feedback_loops
+    - no_optimization_objective_that_overrides_survivability_or_rbi_floor
+    - no_cross_border_processing_without_sovereignty_assessment
+  impossibilities:
+    - cannot_execute_material_financial_commitment_without_traceable_authority
+    - cannot_suppress_uncertainty_to_appear_more_confident
+    - cannot_propagate_unverified_economic_claims_across_agents
+    - cannot_disable_human_financial_or_compliance_override
+    - cannot_treat_governance_yaml_as_psp_ledger_or_filing_execution
+    - cannot_override_rbi_or_dpdp_floors_via_global_default_policy
+
+decision_logic:
+  governance_evaluation:
+    mechanism: "evidence_confidence_authority_and_sovereign_boundary_validation"
+    inputs:
+      - economic_evidence_bundle
+      - authority_tier_and_delegation_scope
+      - uncertainty_assessment
+      - survivability_impact_estimate
+      - rbi_dpdp_npc_i_boundary_signals
+      - adjacent_indian_domain_risk_signals
+    outcomes:
+      permit_bounded_action:
+        requires:
+          - authority_tier_sufficient
+          - confidence_above_domain_threshold
+          - survivability_impact_within_tolerance
+          - sovereign_boundary_compliance
+          - traceability_plan_present
+      require_human_approval:
+        triggers:
+          - material_capital_commitment_or_regulatory_touch
+          - elevated_sovereign_or_systemic_risk
+          - confidence_below_threshold
+          - policy_conflict_detected
+      deny_and_escalate:
+        triggers:
+          - authority_violation
+          - hallucination_or_unverified_claim_detected
+          - recursive_optimization_pattern_detected
+          - survivability_or_sovereignty_floor_breach_risk
+          - dpdp_or_rbi_conflict_unresolved
+
+  financial_data_sovereignty_specific_controls:
+    mechanism: "india_first_domain_scoped_economic_cognition_rules"
+    focus: "india_first_data_residency_and_observability"
+    enforcement: "governance_middleware_evaluates_before_runtime_financial_action"
+
+cross_domain_relationships:
+  upstream_informs:
+    - dpdp_financial_data_governance
+    - rbi_alignment
+    - sovereign_financial_risk
+  parent_finance_domains:
+    - economic_governance
+    - compliance_finance
+    - financial_integrity
+    - ai_financial_governance
+  downstream_constrains:
+    - runtime_orchestration_financial_actions_india_context
+    - adaptive_cognition_economic_adaptation
+    - autonomous_agent_financial_proposals_india_context
+
+traceability:
+  decision_trace:
+    requirement: "mandatory_for_all_material_financial_data_sovereignty_evaluations"
+    trace_captures:
+      - governance_rule_reference
+      - jurisdiction_and_policy_version_india
+      - evidence_bundle_hash_and_sources
+      - authority_tier_and_delegator
+      - uncertainty_statement
+      - survivability_impact_summary
+      - rbi_dpdp_npc_i_compliance_status
+      - confidence_score_and_basis
+      - outcome_permit_require_escalate_deny
+      - timestamp_and_runtime_context
+  auditability:
+    retention: "aligned_to_india_regulatory_and_enterprise_audit_policy"
+    human_reviewable: true
+
+bounded_cognition:
+  containment_rules:
+    - prohibit_recursive_sovereign_financial_optimization_loops
+    - prohibit_autonomous_capital_escalation
+    - prohibit_uncontrolled_sovereign_economic_adaptation
+    - prohibit_financial_hallucination_propagation
+    - prohibit_unbounded_economic_authority
+    - prohibit_sovereignty_erosion_via_runtime_defaults
+  hierarchy_preservation:
+    - deterministic_sovereign_financial_authority_hierarchy_mandatory
+    - policy_isolation_prevents_runtime_authority_expansion
+  explainability:
+    - all_material_outputs_include_reasoning_summary
+    - restricted_actions_state_restriction_cause
+
+implementation_leakage_control:
+  abstraction_requirements:
+    - no_psp_or_upi_switch_implementation_configuration
+    - no_gst_or_itr_filing_engine_substitution
+    - no_aadhaar_authentication_sdk_substitution
+  governance_specification_discipline:
+    constraint: "yaml_defines_sovereign_economic_cognition_principles_not_application_code"
+
+human_oversight:
+  override_authority: "human_financial_and_compliance_oversight_always_effective"
+  escalation_triggers:
+    - confidence_degradation
+    - survivability_or_sovereignty_risk_elevation
+    - rbi_sebi_dpdp_or_npci_conflict
+    - autonomous_financial_proposal_at_authority_ceiling
+  override_capabilities:
+    can_tighten_bounds: true
+    can_loosen_bounds: "only_with_documented_policy_and_regulatory_exception"
+    can_block_autonomous_financial_action: true
+
+output_standard:
+  governance_output_must_include:
+    - domain_and_rule_identity
+    - jurisdiction_india_and_policy_version
+    - authority_tier_required_vs_actual
+    - uncertainty_and_confidence_basis
+    - survivability_impact_assessment
+    - rbi_dpdp_npc_i_boundary_status
+    - evidence_linkage_status
+    - escalation_or_human_approval_requirement
+    - trace_id_for_audit_continuity
+  transparency_requirement:
+    principle: "sovereign_economic_reasoning_must_be_inspectable_by_oversight_authority"
+    auditability: true

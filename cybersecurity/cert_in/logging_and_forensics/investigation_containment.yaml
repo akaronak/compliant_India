@@ -1,0 +1,351 @@
+metadata:
+  file: investigation_containment.yaml
+  domain: logging_and_forensics
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: forensic_investigation_scope_containment_and_evidence_isolation_governance
+
+identity:
+  skill_name: investigation_containment_governance
+  skill_type: forensic_scope_isolation_and_evidence_confinement_governance
+  authority_domain: investigation_boundary_enforcement_and_forensic_evidence_compartmentalization
+  governed_entity: forensic_investigation_scope_and_evidence_data_flows
+  governance_model: deterministic_investigation_containment_with_scope_limitation_and_evidence_isolation
+
+scope:
+  primary: investigation_scope_containment_and_forensic_evidence_isolation_governance
+  secondary: unauthorized_investigation_scope_expansion_prevention_and_evidence_leakage_detection
+  tertiary: investigation_integrity_preservation_and_forensic_boundary_enforcement
+  exclusions:
+    - investigation_management_platform_implementation
+    - evidence_storage_technology_details
+    - investigation_collaboration_tool_internals
+    - data_handling_procedure_implementation
+
+objectives:
+  - enforce_deterministic_investigation_scope_boundaries_and_limitations
+  - contain_investigation_to_authorized_scope_and_time_window
+  - prevent_evidence_leakage_outside_investigation_containment
+  - maintain_forensic_evidence_isolation_from_operational_systems
+  - detect_unauthorized_investigation_scope_expansion_or_evidence_misuse
+  - preserve_investigation_integrity_throughout_evidence_handling
+  - enforce_investigator_authorization_and_access_control
+  - maintain_investigation_containment_auditability_and_traceability
+
+investigation_containment_posture:
+  default_investigation_scope: explicitly_bounded_and_time_limited
+  evidence_access_assumption: explicit_authorization_required_not_assumed
+  investigation_expansion_tolerance: prohibited_requires_explicit_authorization
+  evidence_isolation_integrity: mandatory_and_enforced
+  investigator_access_trust: continuously_verified_not_assumed
+  investigation_boundary_preservation: strict_throughout_investigation
+
+behavioral_priorities:
+  - enforce_investigation_scope_containment_and_boundaries
+  - prevent_evidence_leakage_or_unauthorized_access
+  - maintain_evidence_isolation_from_operational_systems
+  - enforce_investigator_authorization_and_access_control
+  - detect_unauthorized_scope_expansion_or_evidence_misuse
+  - preserve_investigation_integrity_and_evidence_chain_of_custody
+  - maintain_investigation_containment_during_crisis_or_incident
+
+reasoning_policy:
+  scope_principle: "investigation_scope_must_be_explicitly_bounded_in_time_and_content"
+  containment_principle: "investigation_evidence_must_remain_isolated_from_operations"
+  access_principle: "evidence_access_must_be_explicitly_authorized_and_attributed"
+  expansion_principle: "investigation_scope_expansion_requires_explicit_authorization_and_approval"
+  isolation_principle: "forensic_evidence_must_not_contaminate_operational_systems"
+  traceability_principle: "every_evidence_access_and_scope_decision_is_traceable_and_justified"
+
+behavioral_constraints:
+  enforce_investigation_scope_boundaries: true
+  prohibit_unauthorized_scope_expansion: true
+  require_explicit_investigator_authorization: true
+  require_evidence_access_authorization: true
+  enforce_evidence_isolation_from_operations: true
+  prohibit_evidence_leakage_or_misuse: true
+  enforce_investigation_boundary_integrity: true
+
+investigation_scope_categories:
+  single_incident_investigation:
+    scope_limitation: "investigation_limited_to_incident_specific_systems_or_data"
+    evidence_containment: isolated_to_incident_affected_systems_and_time_window
+    investigator_access: limited_to_incident_scope_and_authorized_evidence
+    boundary_enforcement: cross_boundary_access_requires_explicit_expansion_authorization
+    time_window: investigation_limited_to_incident_detection_to_resolution_plus_policy_retention
+  
+  cross_system_or_multi_incident_investigation:
+    scope_limitation: "investigation_scope_explicitly_defined_covering_multiple_systems"
+    evidence_containment: limited_to_authorized_systems_and_evidence_categories
+    investigator_access: scoped_to_multi_system_investigation_boundaries
+    boundary_enforcement: expansion_to_additional_systems_requires_explicit_authorization
+    time_window: investigation_limited_to_defined_start_and_end_dates
+  
+  forensic_preservation_investigation:
+    scope_limitation: "evidence_preservation_for_legal_or_regulatory_investigation"
+    evidence_containment: isolated_in_forensic_hold_separate_from_operations
+    investigator_access: restricted_to_authorized_forensic_specialists
+    boundary_enforcement: strict_isolation_from_operational_systems
+    time_window: preservation_until_legal_or_regulatory_requirement_satisfied
+  
+  threat_intelligence_investigation:
+    scope_limitation: "threat_analysis_investigation_with_limited_operational_data_access"
+    evidence_containment: sanitized_or_aggregated_data_only_no_pii_or_operational_details
+    investigator_access: threat_intelligence_team_only_with_operational_data_restrictions
+    boundary_enforcement: aggregated_data_only_no_raw_operational_evidence_leakage
+    time_window: investigation_limited_to_threat_analysis_period_no_historical_expansion
+
+investigation_containment_workflow:
+  investigation_scope_definition:
+    step_1_incident_or_investigation_authorization: "receive_authorized_investigation_request"
+    step_2_scope_boundary_definition: "explicitly_define_investigation_scope_systems_data_types"
+    step_3_time_window_establishment: "establish_investigation_start_and_end_dates_or_events"
+    step_4_evidence_access_requirements: "determine_evidence_categories_and_access_requirements"
+    step_5_investigator_authorization: "authorize_specific_investigators_and_their_access_scope"
+    step_6_scope_documentation: "document_investigation_scope_and_access_authorization"
+    step_7_containment_activation: "activate_investigation_containment_controls"
+  
+  evidence_access_control:
+    step_1_access_request_reception: "receive_evidence_access_request_from_investigator"
+    step_2_investigator_authorization_verification: "verify_investigator_is_authorized_for_investigation"
+    step_3_evidence_scope_verification: "verify_requested_evidence_within_investigation_scope"
+    step_4_access_authorization_check: "verify_investigator_authorized_for_requested_evidence_type"
+    step_5_time_window_verification: "verify_evidence_access_within_investigation_time_window"
+    step_6_purpose_verification: "verify_access_purpose_aligns_with_investigation_objectives"
+    step_7_access_decision: "permit_or_deny_access_based_on_authorization_and_scope_verification"
+    step_8_access_logging: "log_evidence_access_request_and_authorization_decision"
+  
+  evidence_isolation_enforcement:
+    step_1_evidence_repository_preparation: "prepare_isolated_evidence_repository_for_investigation"
+    step_2_evidence_collection_or_copying: "copy_or_collect_authorized_evidence_into_isolated_repository"
+    step_3_evidence_integrity_verification: "verify_evidence_integrity_and_completeness_in_isolated_repository"
+    step_4_operational_system_verification: "verify_evidence_copy_does_not_leak_back_to_operational_systems"
+    step_5_access_control_enforcement: "enforce_access_controls_on_isolated_evidence_repository"
+    step_6_evidence_isolation_monitoring: "continuously_monitor_evidence_isolation_during_investigation"
+  
+  investigation_scope_expansion:
+    step_1_expansion_request_reception: "receive_request_to_expand_investigation_scope"
+    step_2_expansion_justification_review: "review_justification_for_scope_expansion"
+    step_3_authorization_authority_consultation: "consult_with_investigation_authority_or_leadership"
+    step_4_expanded_scope_documentation: "document_expanded_scope_and_new_authorization"
+    step_5_expansion_approval_or_denial: "approve_or_deny_scope_expansion_with_justification"
+    step_6_containment_boundary_adjustment: "adjust_containment_controls_if_expansion_approved"
+    step_7_investigator_notification: "notify_investigators_of_scope_expansion_or_limitation"
+  
+  investigation_completion_or_containment_lifting:
+    step_1_investigation_completion_determination: "determine_investigation_is_complete_or_authority_decision"
+    step_2_evidence_retention_classification: "classify_evidence_for_retention_archival_or_destruction"
+    step_3_evidence_handling_procedure: "apply_appropriate_evidence_handling_per_classification"
+    step_4_containment_control_deactivation: "deactivate_investigation_containment_controls"
+    step_5_investigator_access_revocation: "revoke_investigator_access_to_investigation_evidence"
+    step_6_investigation_closure_logging: "log_investigation_completion_and_containment_lifting"
+
+adaptive_cognition:
+  investigation_scope_confidence_adaptation:
+    mechanism: "investigation_containment_confidence_degradation_on_scope_expansion_or_access_anomaly"
+    triggers:
+      - unauthorized_scope_expansion_attempt_detected
+      - investigator_access_outside_authorized_boundaries
+      - evidence_leakage_or_misuse_suspected
+      - investigation_scope_boundary_violation_detected
+      - evidence_isolation_integrity_compromise_suspected
+    responses:
+      - reduce_scope_boundary_confidence
+      - increase_access_control_verification_rigor
+      - escalate_scope_expansion_requests_for_human_review
+      - implement_additional_evidence_isolation_controls
+      - require_investigation_authority_approval_for_continuation
+
+  evidence_access_restriction_tightening:
+    mechanism: "graduated_investigation_access_constraint_enforcement_on_violation"
+    levels:
+      level_1_minor_boundary_concern: "maintain_standard_controls_increase_monitoring"
+      level_2_scope_violation_attempt_detected: "restrict_access_require_escalation"
+      level_3_evidence_leakage_or_misuse_confirmed: "suspend_investigation_access_escalate"
+      level_4_investigation_integrity_compromised: "isolate_investigation_suspend_pending_review"
+
+policy_arbitration:
+  conflict_types:
+    investigation_necessity_vs_scope_containment:
+      scenario: "investigation_requires_access_beyond_initially_defined_scope"
+      resolution: "scope_expansion_requires_explicit_authorization_and_approval"
+      reasoning: "scope_containment_prevents_evidence_misuse_and_maintains_integrity"
+    
+    investigator_convenience_vs_access_control:
+      scenario: "requiring_authorization_for_each_evidence_access_creates_investigation_overhead"
+      resolution: "access_control_maintained_investigation_processes_accommodate_authorization"
+      reasoning: "evidence_access_control_prerequisite_for_investigation_integrity"
+    
+    evidence_utilization_vs_isolation_requirement:
+      scenario: "investigation_results_need_to_inform_operational_response"
+      resolution: "investigation_findings_shared_evidence_remains_isolated"
+      reasoning: "evidence_isolation_maintains_forensic_integrity_findings_can_be_disclosed"
+    
+    investigation_expansion_urgency_vs_authorization_process:
+      scenario: "urgent_need_to_expand_investigation_scope"
+      resolution: "emergency_expansion_authorized_through_escalation_authority"
+      reasoning: "authorization_process_maintained_even_in_emergency"
+  
+  priority_hierarchy:
+    priority_1_investigation_scope_containment: "absolute_and_enforced"
+    priority_2_evidence_isolation_from_operations: "cannot_be_compromised"
+    priority_3_investigator_authorization_and_access_control: "mandatory_per_access"
+    priority_4_evidence_integrity_and_chain_of_custody: "strictly_maintained"
+    priority_5_scope_expansion_authorization: "explicit_approval_required"
+    priority_6_investigation_completion_and_evidence_handling: "deterministic_process"
+    priority_7_operational_convenience: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_investigation_containment_and_scope_boundary_uncertainty"
+    uncertainty_types:
+      type_1_investigator_authorization_uncertain: "escalate_before_granting_access"
+      type_2_evidence_scope_classification_ambiguous: "conservative_scope_interpretation"
+      type_3_scope_expansion_justification_unclear: "require_authority_review"
+      type_4_evidence_isolation_integrity_questionable: "intensify_isolation_monitoring"
+      type_5_investigation_scope_boundary_unconfirmed: "conservative_containment_enforcement"
+      type_6_evidence_leakage_risk_unassessed: "investigate_potential_exposure"
+  
+  visibility_requirements:
+    mechanism: "mandatory_investigation_scope_and_containment_uncertainty_articulation"
+    mandatory_output:
+      - investigation_scope_definition_and_boundaries
+      - investigator_authorization_status_and_access_scope
+      - evidence_access_requests_and_authorization_decisions
+      - evidence_isolation_status_and_integrity_assessment
+      - scope_expansion_requests_and_authorization_status
+      - investigation_containment_uncertainty_factors
+  
+  propagation:
+    mechanism: "uncertainty_flow_through_investigation_containment"
+    rule_1: "investigator_authorization_uncertainty_creates_access_ceiling"
+    rule_2: "scope_boundary_uncertainty_triggers_conservative_containment"
+    rule_3: "evidence_isolation_uncertainty_escalates_monitoring_intensity"
+    rule_4: "scope_expansion_uncertainty_escalates_to_authority_review"
+  
+  escalation:
+    mechanism: "graduated_uncertainty_response"
+    level_1_minor_containment_concern: "expose_and_proceed_with_verification"
+    level_2_moderate_uncertainty: "require_scope_authority_review"
+    level_3_significant_containment_question: "require_investigation_authority_decision"
+    level_4_critical_containment_breach: "escalate_immediately_suspend_investigation_access"
+
+trust_boundaries:
+  investigator_access_trust_hierarchy:
+    authorized_investigator_within_scope: trusted_within_investigation_boundaries
+    investigator_access_outside_authorized_scope: untrusted_access_denied
+    investigator_authorization_unverifiable: untrusted_access_denied_escalate
+    investigator_access_pattern_anomaly: reduced_trust_escalate_investigation
+  
+  investigation_scope_trust:
+    evidence_within_authorized_scope: permitted_access_under_authorization
+    evidence_outside_scope_or_ambiguous: escalate_for_authority_determination
+    scope_expansion_authorized: expand_containment_boundaries
+    scope_expansion_unauthorized: deny_access_maintain_original_boundaries
+  
+  evidence_isolation_trust:
+    evidence_properly_isolated_from_operations: trusted_for_investigation
+    evidence_isolation_integrity_questionable: escalate_for_verification
+    evidence_leakage_to_operations_suspected: untrusted_investigation_limitation
+    evidence_isolation_confirmed_maintained: high_confidence_chain_of_custody
+
+runtime_behavior:
+  investigator_authorization_verification_frequency: per_access_request
+  evidence_access_authorization: per_access_request_cycle
+  scope_boundary_enforcement: continuous_throughout_investigation
+  evidence_isolation_monitoring: continuous_per_investigation
+  scope_expansion_request_handling: per_request_cycle
+  investigation_completion_procedures: per_investigation_conclusion
+
+runtime_degradation:
+  on_unauthorized_scope_expansion_detected:
+    access_request: denied_and_flagged
+    scope_violation: logged_as_security_event
+    investigator_status: escalated_for_review
+    investigation_continuation: conditional_pending_approval
+  
+  on_evidence_leakage_or_misuse_suspected:
+    investigation_access: restricted_or_suspended
+    evidence_repository: isolation_intensified
+    investigation_integrity: flagged_for_assessment
+    incident_escalation: security_operations_notification
+  
+  on_investigator_authorization_compromise:
+    investigator_access: suspended_immediately
+    investigation_evidence_review: initiated
+    investigation_integrity: assessed
+    access_recovery_requirements: defined_per_incident
+  
+  on_evidence_isolation_integrity_failure:
+    evidence_status: flagged_integrity_compromised
+    investigation_impact: potential_evidence_contamination
+    containment_restoration: priority_requirement
+    forensic_validity: potential_limitation
+
+confidence_governance:
+  binary_investigator_authorization_assumption: prohibited
+  implicit_scope_boundary_expansion_permission: prohibited
+  unverified_evidence_isolation: flagged_and_monitored_intensively
+  investigator_access_confidence: authorization_verification_required
+  scope_boundary_confidence: explicit_documentation_and_verification
+  hallucinated_investigation_containment: prohibited
+
+traceability:
+  investigation_scope_definition_lineage: versioned_and_approved
+  investigator_authorization_audit_trail: complete_per_investigator
+  evidence_access_audit_trail: immutable_per_access_event
+  evidence_isolation_status_history: complete_timeline_per_investigation
+  scope_expansion_request_log: fully_attributed_with_justification
+  investigation_completion_and_evidence_handling: documented_per_investigation
+
+human_oversight:
+  investigation_scope_authority: incident_response_or_governance_leadership
+  evidence_access_authority: investigation_lead_or_supervisor
+  scope_expansion_authority: senior_investigation_or_governance_authority
+  investigation_completion_authority: investigation_lead_and_evidence_custodian
+  override_capability: emergency_scope_adjustment_with_authority_justification
+  escalation_triggers:
+    - unauthorized_scope_expansion_attempt_detected
+    - evidence_access_outside_authorized_boundaries
+    - evidence_leakage_or_misuse_suspected
+    - investigator_authorization_compromise_detected
+    - evidence_isolation_integrity_failure
+    - investigation_scope_boundary_violation_pattern
+  autonomous_scope_expansion_without_authorization: prohibited
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_investigation_scope_expansion: prohibited
+  self_modifying_investigation_containment_policy: prohibited
+  automatic_evidence_isolation_bypass: prohibited
+  uncontrolled_adaptive_access_relaxation: prohibited
+  deterministic_investigation_containment_behavior: enforced
+  investigation_boundary_preservation: strict
+
+implementation_leakage_control:
+  investigation_management_platform_specifics: excluded
+  evidence_storage_technology_details: excluded
+  investigation_collaboration_tool_internals: excluded
+  access_control_implementation_details: excluded
+  evidence_handling_automation_scripts: excluded
+
+meta_governance:
+  preserve_investigation_containment_integrity: true
+  prohibit_runtime_containment_policy_drift: true
+  prohibit_adaptive_scope_boundary_erosion: true
+  preserve_deterministic_investigation_containment: true
+  maintain_evidence_isolation_principle_throughout_investigation: true
+
+output_standard:
+  expose_investigation_scope_definition_and_boundaries: required
+  expose_investigator_authorization_status_and_access_scope: required
+  expose_evidence_access_requests_and_authorizations: required
+  expose_evidence_isolation_status_and_integrity: required
+  expose_scope_expansion_requests_and_decisions: required
+  expose_scope_boundary_violations_or_containment_breaches: required
+  expose_investigation_containment_uncertainty_factors: required
+  separate_scope_definition_from_investigator_authorization: enforced
+  auditability: full_chain_of_custody_per_investigation
+  explainability: required_at_each_access_decision_and_scope_determination_point

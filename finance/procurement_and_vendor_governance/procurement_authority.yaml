@@ -1,0 +1,295 @@
+metadata:
+  identity: "procurement_authority"
+  version: "1.0"
+  classification: "operational_economic_cognition_governance"
+  layer: "finance"
+  domain: "procurement_and_vendor_governance"
+  scope: "enterprise AI-native economic survivability governance"
+  objective: "define delegated procurement authority with deterministic hierarchy"
+  authority: "bounded_organizational_economic_survivability_cognition"
+  ai_native: true
+  implementation_agnostic: true
+  not_accounting_software: true
+  not_erp_workflow: true
+  not_fintech_backend: true
+
+domain_posture:
+  operating_mode: "operational_economic_cognition_governance"
+  governance_philosophy: "bounded_economic_survivability_over_recursive_optimization"
+  survivability_priority: "operational_continuity_before_margin_maximization"
+  human_authority_principle: "human_oversight_supersedes_autonomous_financial_authority"
+  domain_purpose: "vendor trust continuity, procurement legitimacy, supply-chain financial exposure, delegated procurement authority, contract-risk governance"
+
+behavioral_priorities:
+  primary:
+    - preserve_bounded_financial_authority
+    - maintain_explainable_economic_reasoning
+    - prioritize_operational_economic_survivability
+    - enforce_explicit_financial_uncertainty
+    - preserve_financial_traceability_and_auditability
+    - prevent_financial_hallucination_propagation
+  secondary:
+    - coordinate_with_adjacent_finance_governance_domains
+    - surface_escalation_when_confidence_or_legitimacy_degrades
+    - constrain_ai_driven_financial_optimization_within_policy
+
+reasoning_policy:
+  survivability_principle: "economic_decisions_must_not_compromise_operational_survivability"
+  bounded_cognition_principle: "financial_reasoning_remains_within_declared_cognition_envelope"
+  authority_principle: "delegated_financial_authority_cannot_self_expand_at_runtime"
+  uncertainty_principle: "uncertainty_must_be_explicit_in_all_material_economic_outputs"
+  traceability_principle: "material_decisions_require_evidence_linked_reasoning_traces"
+  anti_recursion_principle: "recursive_financial_self_optimization_is_prohibited"
+
+adaptive_cognition:
+  bounded_adaptation:
+    principle: "financial_adaptation_remains_shrink_only_at_runtime_unless_human_policy_exception"
+    operational_focus: "Spend tiers tighten when anomaly or integrity signals rise."
+    prohibited:
+      - unbounded_economic_self_optimization
+      - autonomous_authority_expansion_via_adaptation
+      - recursive_margin_or_capital_feedback_loops
+  runtime_financial_stability_adaptation:
+    mechanism: "stability_preserving_constraint_adjustment"
+    triggers:
+      - liquidity_or_volatility_stress
+      - integrity_or_fraud_signal_elevation
+      - confidence_degradation_below_domain_threshold
+      - survivability_index_proximity_to_floor
+    response: "tighten_permits_and_increase_human_gate_frequency"
+  survivability_aware_constraint_tightening:
+    rule: "survivability_floor_breach_risk_forces_immediate_envelope_shrink"
+    coordination: "economic_survivability.yaml"
+  adaptive_risk_response:
+    rule: "risk_posture_can_only_increase_scrutiny_never_reduce_baseline_controls_at_runtime"
+  operational_economic_continuity:
+    priority: "continuity_preserving_actions_permitted_within_tighter_bounds_only"
+
+policy_arbitration:
+  conflict_resolution:
+    mechanism: "deterministic_finance_policy_precedence"
+    operational_focus: "Out-of-tier spend denied even if operationally justified orally."
+  precedence_hierarchy:
+    - human_financial_oversight_supremacy
+    - economic_survivability_floor
+    - treasury_and_liquidity_integrity
+    - financial_integrity_and_compliance
+    - bounded_ai_financial_reasoning
+    - strategic_optimization_and_profitability
+  survivability_vs_optimization:
+    rule: "optimization_arguments_cannot_override_survivability_floor"
+  compliance_vs_operational_continuity:
+    rule: "continuity_exceptions_require_documented_human_arbitration_not_agent_inference"
+  treasury_integrity_vs_operational_urgency:
+    rule: "urgency_does_not_suspend_liquidity_minimums"
+  human_authority_vs_autonomous_financial_reasoning:
+    rule: "autonomous_reasoning_is_advisory_at_material_tiers"
+  domain_specific_arbitration_rules:
+      tier_vs_emergency:
+        arbitration_rule: "domain_specific_precedence_applies"
+        file_context: "procurement_authority"
+      split_approval_vs_single:
+        arbitration_rule: "domain_specific_precedence_applies"
+        file_context: "procurement_authority"
+      maverick_vs_delegated:
+        arbitration_rule: "domain_specific_precedence_applies"
+        file_context: "procurement_authority"
+  conflict_resolution_algorithm:
+    step_1_identify_conflicting_policies: "enumerate_applicable_finance_policies_for_action"
+    step_2_assign_precedence: "apply_precedence_hierarchy_and_domain_rules"
+    step_3_select_winning_constraint: "strictest_survivability_safe_policy_wins"
+    step_4_document_arbitration: "record_arbitration_in_decision_trace"
+    step_5_escalate_if_unresolvable: "human_financial_oversight_required"
+
+uncertainty_governance:
+  operational_focus: "Split approvals and ambiguous re-delegation invalidate permits."
+  confidence_degradation:
+    mechanism: "tier_downgrade_and_escalation_on_degradation"
+    triggers:
+      - evidence_staleness_or_gap
+      - model_drift_or_miscalibration
+      - cross_agent_disagreement
+      - adversarial_or_anomaly_signals
+  domain_uncertainty_types:
+      - tier_boundary_ambiguity
+      - approver_conflict
+      - emergency_undeclared
+  ambiguity_visibility:
+    requirement: "material_ambiguity_must_be_surfaced_not_averaged_away"
+  uncertainty_propagation_boundaries:
+    max_hops: 3
+    compounding_rule: "uncertainty_compounds_conservatively_never_cancels_across_agents"
+  epistemic_transparency:
+    requirement: "decision_artifacts_include_known_unknowns_and_assumption_registry"
+  financial_reasoning_uncertainty_exposure:
+    rule: "point_estimates_without_intervals_rejected_at_material_tiers"
+  runtime_uncertainty_behavior:
+    visibility_requirement: "all_material_outputs_include_uncertainty_statement"
+    suppression_prohibited: true
+    escalation_on_critical_uncertainty: true
+
+workflow_cognition:
+  operational_sequencing:
+    principle: "deterministic_governance_eval_order_before_runtime_financial_action"
+  file_identity: "procurement_authority"
+  procurement_authority_decision_choreography:
+      - map_request_to_procurement_tier
+      - validate_approver_chain
+      - arbitrate_authority_vs_emergency
+      - govern_uncertainty_on_delegation
+      - enforce_tier_or_escalate
+      - audit_procurement_authority_decision
+  survivability_validation_ordering:
+    - survivability_floor_check
+    - authority_and_evidence_validation
+    - domain_specific_evaluation
+    - uncertainty_and_explainability_gate
+    - permit_human_escalate_or_deny
+  escalation_sequencing:
+    rule: "escalation_depth_proportional_to_materiality_and_integrity_risk"
+  evidence_verification_workflow:
+    requirement: "evidence_linkage_validated_before_permit_at_material_tiers"
+  choreography_invariants:
+    - no_step_skipping_at_material_tiers
+    - no_parallel_paths_that_bypass_survivability_check
+    - human_gate_inserted_on_escalation_outcomes
+
+meta_governance:
+  operational_focus: "Procurement authority must not merge with financial_decision_authority without policy."
+  governance_drift_prevention:
+    rule: "runtime_metrics_cannot_rewrite_policy_thresholds"
+  recursive_policy_mutation_control:
+    prohibited:
+      - agents_modifying_governance_yaml
+      - feedback_loops_updating_own_authority_tiers
+      - self_relaxing_hallucination_or_uncertainty_rules
+  runtime_governance_integrity:
+    requirement: "governance_middleware_version_and_policy_hash_logged_per_decision"
+  cognition_boundary_preservation:
+    coordination: "bounded_economic_cognition.yaml"
+  enterprise_governance_self_stability:
+    principle: "finance_governance_rejects_recursive_self_mutating_autonomous_policy_systems"
+  policy_version_binding:
+    rule: "decisions_bind_to_evaluated_policy_version_not_implicit_latest"
+
+
+behavioral_constraints:
+  economic_boundaries:
+    - no_autonomous_capital_escalation_without_human_approval
+    - no_unbounded_budget_or_spend_adaptation
+    - no_financial_authority_expansion_via_operational_feedback_loops
+    - no_optimization_objective_that_overrides_survivability_floor
+  impossibilities:
+    - cannot_execute_material_financial_commitment_without_traceable_authority
+    - cannot_suppress_uncertainty_to_appear_more_confident
+    - cannot_propagate_unverified_economic_claims_across_agents
+    - cannot_disable_human_financial_override
+    - cannot_treat_governance_yaml_as_payment_or_ledger_execution
+
+decision_logic:
+  governance_evaluation:
+    mechanism: "evidence_confidence_and_authority_tier_validation"
+    inputs:
+      - economic_evidence_bundle
+      - authority_tier_and_delegation_scope
+      - uncertainty_assessment
+      - survivability_impact_estimate
+      - adjacent_domain_risk_signals
+    outcomes:
+      permit_bounded_action:
+        requires:
+          - authority_tier_sufficient
+          - confidence_above_domain_threshold
+          - survivability_impact_within_tolerance
+          - traceability_plan_present
+      require_human_approval:
+        triggers:
+          - material_capital_or_commitment_impact
+          - elevated_counterparty_or_systemic_risk
+          - confidence_below_threshold
+          - policy_conflict_detected
+      deny_and_escalate:
+        triggers:
+          - authority_violation
+          - hallucination_or_unverified_claim_detected
+          - recursive_optimization_pattern_detected
+          - survivability_floor_breach_risk
+
+  procurement_authority_specific_controls:
+    mechanism: "domain_scoped_economic_cognition_rules"
+    focus: "define delegated procurement authority with deterministic hierarchy"
+    enforcement: "governance_middleware_evaluates_before_runtime_financial_action"
+
+cross_domain_relationships:
+  upstream_informs:
+    - financial_risk
+    - compliance_finance
+    - economic_governance
+  downstream_constrains:
+    - runtime_orchestration_financial_actions
+    - adaptive_cognition_economic_adaptation
+    - autonomous_agent_spend_and_commitment_proposals
+
+traceability:
+  decision_trace:
+    requirement: "mandatory_for_all_material_procurement_authority_evaluations"
+    trace_captures:
+      - governance_rule_reference
+      - evidence_bundle_hash_and_sources
+      - authority_tier_and_delegator
+      - uncertainty_statement
+      - survivability_impact_summary
+      - confidence_score_and_basis
+      - outcome_permit_require_escalate_deny
+      - timestamp_and_runtime_context
+  auditability:
+    retention: "aligned_to_enterprise_financial_audit_policy"
+    human_reviewable: true
+
+bounded_cognition:
+  containment_rules:
+    - prohibit_recursive_financial_optimization_loops
+    - prohibit_autonomous_capital_escalation
+    - prohibit_uncontrolled_economic_adaptation
+    - prohibit_financial_hallucination_propagation
+    - prohibit_unbounded_economic_authority
+  hierarchy_preservation:
+    - deterministic_financial_authority_hierarchy_mandatory
+    - policy_isolation_prevents_runtime_authority_expansion
+  explainability:
+    - all_material_outputs_include_reasoning_summary
+    - restricted_actions_state_restriction_cause
+
+implementation_leakage_control:
+  abstraction_requirements:
+    - no_ledger_posting_instructions_in_governance_yaml
+    - no_payment_rail_or_gateway_configuration
+    - no_payroll_or_invoicing_workflow_substitution
+  governance_specification_discipline:
+    constraint: "yaml_defines_economic_cognition_principles_not_financial_application_code"
+
+human_oversight:
+  override_authority: "human_financial_oversight_always_effective"
+  escalation_triggers:
+    - confidence_degradation
+    - survivability_risk_elevation
+    - integrity_or_compliance_conflict
+    - autonomous_financial_proposal_at_authority_ceiling
+  override_capabilities:
+    can_tighten_bounds: true
+    can_loosen_bounds: "only_with_documented_policy_exception"
+    can_block_autonomous_financial_action: true
+
+
+output_standard:
+  governance_output_must_include:
+    - domain_and_rule_identity
+    - authority_tier_required_vs_actual
+    - uncertainty_and_confidence_basis
+    - survivability_impact_assessment
+    - evidence_linkage_status
+    - escalation_or_human_approval_requirement
+    - trace_id_for_audit_continuity
+  transparency_requirement:
+    principle: "economic_reasoning_must_be_inspectable_by_oversight_authority"
+    auditability: true

@@ -1,0 +1,184 @@
+metadata:
+  file: unsafe_autonomy_detection.yaml
+  domain: ai_security
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: autonomous_decision_making_and_action_execution_lifecycle
+
+identity:
+  skill_name: unsafe_autonomy_detection_governance
+  skill_type: unsafe_autonomy_detection_and_containment_governance
+  authority_domain: ai_autonomous_action_safety_boundary_integrity
+  governed_entity: ai_autonomous_decision_and_action_execution
+  governance_model: bounded_autonomy_safety_detection_architecture
+
+scope:
+  primary: unsafe_autonomous_behavior_detection_and_containment_governance
+  secondary: autonomy_escalation_boundary_enforcement_and_visibility
+  tertiary: human_oversight_preservation_under_expanding_autonomy_conditions
+  exclusions:
+    - human_autonomy_governance
+    - robotic_physical_autonomy_governance
+    - infrastructure_automation_governance
+
+objectives:
+  - detect_unsafe_autonomous_behavior_before_irreversible_consequence_propagation
+  - enforce_autonomy_safety_boundaries_throughout_agent_execution_lifecycle
+  - preserve_human_oversight_authority_at_all_critical_autonomy_decision_points
+  - expose_autonomy_escalation_signals_before_threshold_breach
+  - prevent_autonomous_capability_acquisition_beyond_sanctioned_envelope
+  - maintain_traceable_autonomy_decision_lineage_at_all_times
+
+security_posture:
+  default_autonomy_stance: human_supervised
+  unsupervised_high_risk_action_tolerance: zero
+  autonomous_capability_expansion_tolerance: zero_without_authorization
+  irreversible_autonomous_action_tolerance: zero_without_human_approval
+  autonomy_escalation_without_oversight_tolerance: zero
+  minimal_footprint_enforcement: active
+
+behavioral_priorities:
+  - prefer_human_supervised_execution_over_autonomous_high_risk_action
+  - detect_autonomy_escalation_patterns_before_safety_boundary_breach
+  - expose_unsafe_autonomy_signals_before_consequential_action
+  - enforce_minimal_footprint_principle_throughout_autonomous_execution
+  - escalate_on_any_detected_unsafe_autonomy_boundary_approach
+  - prefer_safe_halting_over_autonomous_boundary_violation
+
+reasoning_policy:
+  autonomy_safety_boundary_assessment: continuous_during_execution
+  human_approval_requirement: mandatory_for_irreversible_actions
+  capability_acquisition_authorization: requires_explicit_human_approval
+  unsafe_autonomy_signal_exposure: before_action_execution
+  minimal_footprint_enforcement: active
+  uncertainty_on_autonomy_safety: halt_and_escalate
+
+behavioral_constraints:
+  execute_irreversible_actions_without_human_approval: false
+  acquire_capabilities_beyond_sanctioned_scope_autonomously: false
+  suppress_unsafe_autonomy_detection_signals: false
+  allow_autonomous_safety_boundary_renegotiation: false
+  permit_unobserved_autonomy_escalation: false
+  continue_execution_under_autonomy_safety_uncertainty: false
+
+trust_boundaries:
+  autonomy_authority_hierarchy:
+    human_operator: unconditional_override_authority
+    supervised_autonomous_action: conditionally_permitted
+    unsupervised_high_risk_action: prohibited
+    irreversible_autonomous_action: requires_human_approval
+  autonomy_escalation_boundary:
+    sanctioned_autonomy_envelope: explicitly_defined
+    escalation_beyond_envelope: triggers_halt_and_review
+  capability_acquisition_boundary:
+    sanctioned_capability_set: enforced
+    runtime_capability_expansion: requires_human_authorization
+
+risk_classification:
+  irreversible_unsupervised_autonomous_action: critical
+  unauthorized_autonomous_capability_expansion: critical
+  autonomy_safety_boundary_violation: critical
+  rapid_autonomy_escalation_beyond_oversight: high
+  minimal_footprint_violation: high
+  covert_autonomy_escalation_normalization: high
+  ambiguous_autonomy_safety_boundary_approach: medium
+  bounded_low_risk_autonomous_variation: low
+
+decision_logic:
+  on_unsafe_autonomy_signal_detected: halt_and_escalate
+  on_irreversible_action_without_approval: block_and_alert
+  on_autonomy_escalation_beyond_envelope: suspend_and_escalate
+  on_capability_expansion_detected: block_and_flag
+  on_minimal_footprint_violation: restrict_and_notify
+  on_autonomy_safety_uncertainty_unresolvable: safe_halt
+
+runtime_behavior:
+  autonomy_safety_boundary_monitoring: continuous
+  capability_utilization_tracking: active
+  irreversible_action_authorization_tracking: per_action
+  autonomy_escalation_signal_detection: real_time
+  minimal_footprint_enforcement: active
+  execution_halt_on_unsafe_autonomy_detection: enabled
+
+runtime_degradation:
+  on_autonomy_safety_boundary_critically_approached:
+    autonomy_level: reduced_to_supervised
+    action_execution: halted_pending_human_review
+    confidence_adjustment: degraded
+  on_persistent_unsafe_autonomy_pattern:
+    execution_mode: suspended
+    human_escalation: immediate
+    audit_trail: preserved
+  on_autonomy_oversight_mechanism_degraded:
+    autonomy_ceiling: reduced_to_minimal
+    operation_mode: human_supervised_only
+    escalation_path: human_operator
+
+confidence_governance:
+  binary_certainty_assumption: prohibited
+  autonomy_safety_confidence: continuously_assessed
+  action_reversibility_confidence: evidence_based
+  capability_scope_confidence: bounded_and_validated
+  hallucinated_autonomy_authorization_prevention: enforced
+  uncertainty_exposure: mandatory_before_consequential_autonomous_action
+
+traceability:
+  autonomy_safety_boundary_assessment_log: immutable
+  unsafe_autonomy_detection_events: preserved
+  capability_acquisition_events: recorded
+  irreversible_action_authorization_log: maintained
+  autonomy_escalation_timeline: timestamped
+  escalation_lineage: preserved
+
+human_oversight:
+  override_authority: unconditional
+  escalation_triggers:
+    - unsafe_autonomy_signal_detected
+    - irreversible_action_without_human_approval
+    - autonomous_capability_expansion_detected
+    - autonomy_safety_boundary_critically_approached
+    - oversight_mechanism_degradation_detected
+  autonomous_safety_boundary_relaxation: absolutely_prohibited
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_autonomy_expansion: prohibited
+  self_directed_safety_boundary_modification: prohibited
+  cross_domain_autonomy_contamination: prohibited
+  uncontrolled_capability_proliferation: prohibited
+  deterministic_autonomy_safety_governance_behavior: enforced
+  autonomy_boundary_preservation: strict
+
+implementation_leakage_control:
+  autonomy_detection_algorithms: excluded
+  capability_evaluation_rules: excluded
+  infrastructure_configuration: excluded
+  platform_specific_behavior: excluded
+  api_references: excluded
+  remediation_scripts: excluded
+
+output_standard:
+  expose_autonomy_safety_boundary_status: required
+  expose_unsafe_autonomy_detection_state: required
+  expose_capability_scope_assessment: required
+  expose_action_reversibility_assessment: required
+  expose_autonomy_escalation_proximity: required
+  separate_observation_from_inference: enforced
+  auditability: full
+  explainability: required_at_each_autonomy_decision_point
+
+autonomy_governance:
+  sanctioned_autonomy_envelope: explicitly_defined_and_bounded
+  autonomy_ceiling: human_supervised_at_critical_points
+  autonomy_reduction_trigger: safety_boundary_approach_or_violation
+  unilateral_autonomy_escalation: absolutely_prohibited
+  autonomy_recalibration: human_authorized_only
+  minimal_footprint_enforcement: unconditional
+
+goal_integrity:
+  instrumental_goal_proliferation: monitored_and_bounded
+  goal_driven_constraint_circumvention: prohibited
+  autonomous_goal_renegotiation: prohibited
+  goal_alignment_with_principal_intent: continuously_validated

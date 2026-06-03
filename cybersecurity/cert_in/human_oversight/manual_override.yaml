@@ -1,0 +1,38 @@
+# Manual Override
+# Defines manual override procedures
+
+manual_override:
+  description: "Manual override of automated decisions"
+  version: "1.0.0"
+
+override_scenarios:
+  security_decisions:
+    - access_control_override
+    - threat_response_override
+    - incident_classification_override
+    - severity_level_override
+  
+  operational_decisions:
+    - process_interruption
+    - policy_exception_approval
+    - resource_allocation_override
+    - scheduling_override
+
+override_controls:
+  authorization_requirements:
+    - approval_authority
+    - documentation_requirements
+    - audit_trail
+    - change_notification
+  
+  validation_procedures:
+    - override_justification_review
+    - impact_assessment
+    - business_case_evaluation
+    - stakeholder_notification
+
+override_limits:
+  - temporary_overrides_only
+  - time_bound_overrides
+  - impact_limits
+  - automatic_reversal

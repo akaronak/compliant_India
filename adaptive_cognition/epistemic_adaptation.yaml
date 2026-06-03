@@ -1,0 +1,315 @@
+metadata:
+  identity: "epistemic_adaptation"
+  version: "1.0"
+  classification: "governance_middleware"
+  layer: "adaptive_cognition"
+  scope: "truth-confidence adaptation and evidence-weight mutation"
+  objective: "regulate confidence scoring behavior, evidence trust dynamics, and uncertainty amplification"
+  authority: "epistemic governance orchestration"
+  ai_native: true
+  implementation_agnostic: true
+
+adaptive_posture:
+  operating_mode: "evidence_driven_confidence"
+  epistemology: "pragmatic_uncertainty_aware"
+  belief_posture: "graduated_skepticism"
+  truth_confidence: "evidence_proportional"
+
+behavioral_priorities:
+  primary:
+    - maintain_evidence_integrity
+    - regulate_confidence_scoring
+    - enforce_uncertainty_visibility
+    - propagate_evidence_quality_signals
+  secondary:
+    - prevent_confidence_hallucination
+    - protect_evidence_chain_integrity
+    - maintain_epistemic_discipline
+
+reasoning_policy:
+  foundational_principle: "confidence_is_evidence_dependent_not_assumed"
+  uncertainty_principle: "unknown_unknowns_must_be_visible"
+  evidence_principle: "quality_of_evidence_determines_confidence_bounds"
+  degradation_principle: "confidence_decays_with_evidence_staleness"
+
+behavioral_constraints:
+  epistemic_boundaries:
+    - confidence_never_exceeds_evidence_quality
+    - uncertainty_must_be_explicitly_tracked
+    - evidence_weight_cannot_be_manipulated
+    - truth_claims_require_evidence_justification
+  impossibilities:
+    - cannot_manufacture_confidence_from_silence
+    - cannot_hide_contradictions
+    - cannot_suppress_uncertainty_signals
+    - cannot_claim_certainty_about_unknowns
+
+decision_logic:
+  confidence_scoring_mechanism:
+    baseline_algorithm: "evidence_weighted_credibility"
+    calculation_components:
+      - source_reliability_score
+      - evidence_corroboration_level
+      - temporal_freshness_factor
+      - contradiction_detection_status
+      - uncertainty_discount_applied
+    
+    scoring_stages:
+      stage_1_source_evaluation:
+        criteria:
+          - source_trustworthiness
+          - historical_accuracy
+          - conflict_of_interest_assessment
+          - independence_from_subject
+        output: "source_reliability_score"
+      
+      stage_2_evidence_corroboration:
+        criteria:
+          - number_of_independent_sources
+          - consistency_across_sources
+          - contradiction_presence
+          - evidence_diversity
+        output: "corroboration_factor"
+      
+      stage_3_temporal_assessment:
+        criteria:
+          - evidence_recency
+          - context_stability
+          - knowledge_decay_rate
+          - contextual_validity_duration
+        output: "freshness_factor"
+      
+      stage_4_contradiction_analysis:
+        criteria:
+          - conflicting_evidence_detected
+          - contradiction_magnitude
+          - contradiction_resolution_path
+          - remaining_ambiguity
+        output: "contradiction_penalty"
+      
+      stage_5_uncertainty_quantification:
+        criteria:
+          - known_unknowns
+          - unknown_unknowns
+          - assumption_fragility
+          - edge_case_vulnerability
+        output: "uncertainty_discount_factor"
+
+  evidence_trust_adaptation:
+    mechanism: "continuous_quality_assessment"
+    adaptation_triggers:
+      - source_reliability_change
+      - evidence_contradiction_detection
+      - evidence_quality_degradation
+      - temporal_staleness_threshold_breach
+      - contextual_assumption_invalidation
+    
+    adaptation_responses:
+      trust_increase:
+        trigger: "converging_independent_evidence"
+        adjustment: "graduated_trust_elevation"
+        maximum_increase: "evidence_quality_bounded"
+      
+      trust_decrease:
+        trigger: "evidence_quality_degradation_or_contradiction"
+        adjustment: "graduated_trust_reduction"
+        minimum_floor: "bounded_skepticism"
+      
+      trust_suspension:
+        trigger: "evidence_chain_integrity_breach"
+        action: "temporary_confidence_freeze"
+        recovery_requirement: "evidence_revalidation"
+
+  operational_uncertainty_amplification:
+    mechanism: "uncertainty_visibility_enforcement"
+    amplification_triggers:
+      - incomplete_information_detected
+      - assumption_fragility_identified
+      - contextual_boundary_uncertainty
+      - evidence_gap_identified
+      - temporal_uncertainty_threshold_exceeded
+    
+    amplification_responses:
+      visibility_enhancement:
+        action: "explicit_uncertainty_flagging"
+        output: "high_confidence_uncertainty_statement"
+      
+      confidence_discount_application:
+        action: "apply_uncertainty_penalty"
+        discount_factor: "proportional_to_uncertainty_magnitude"
+      
+      decision_constraint_activation:
+        action: "reduce_autonomous_decision_scope"
+        level: "uncertainty_proportional"
+
+runtime_behavior:
+  confidence_scoring_behavior:
+    continuous_recalculation:
+      trigger: "evidence_status_change_or_timeout"
+      frequency: "context_dependent"
+      recalculation_triggers:
+        - new_evidence_received
+        - evidence_quality_changed
+        - temporal_staleness_reached
+        - contextual_assumption_shifted
+    
+    confidence_updates:
+      mechanism: "graduated_adjustment"
+      maximum_single_adjustment: "evidence_quality_bounded"
+      adjustment_direction_rule: "evidence_quality_governs_direction"
+      traceability_requirement: "all_adjustments_logged_and_justified"
+
+  evidence_weight_mutation:
+    mechanism: "quality_aware_weighting"
+    weight_factors:
+      source_independence_weight: 0.30
+      corroboration_weight: 0.35
+      temporal_freshness_weight: 0.15
+      contradiction_absence_weight: 0.20
+    
+    weight_adjustment_policy:
+      trigger: "evidence_quality_or_context_change"
+      constraint: "weights_must_sum_to_constant"
+      governance_constraint: "weights_are_policy_not_operational_decision"
+
+  confidence_degradation_handling:
+    mechanism: "graduated_skepticism_activation"
+    degradation_triggers:
+      - evidence_staleness_threshold_exceeded
+      - evidence_quality_decay_detected
+      - evidence_source_reliability_questioned
+      - contextual_validity_window_expired
+      - unknown_unknowns_identified
+    
+    degradation_response:
+      confidence_floor_application: "evidence_quality_dependent"
+      skepticism_intensity: "degradation_magnitude_proportional"
+      human_escalation: "conditional_on_operational_risk"
+
+runtime_degradation:
+  evidence_unavailability_response:
+    mechanism: "confidence_collapse_prevention"
+    action: "escalate_uncertainty_visibility"
+    decision_constraint: "require_evidence_revalidation_before_autonomous_action"
+  
+  evidence_contradiction_response:
+    mechanism: "contradiction_resolution_requirement"
+    action: "suspend_confidence_in_contradictory_claims"
+    requirement: "explicit_contradiction_resolution_or_escalation"
+  
+  confidence_decay:
+    mechanism: "time_based_trust_reduction"
+    decay_rate: "evidence_type_dependent"
+    minimum_confidence_threshold: "operational_context_dependent"
+
+confidence_governance:
+  confidence_bounds:
+    autonomous_action_requires: 0.80
+    human_consultation_triggered_at: 0.60
+    escalation_mandatory_below: 0.40
+    operational_pause_at: 0.30
+  
+  confidence_trajectory_monitoring:
+    mechanism: "confidence_trend_analysis"
+    tracked_metrics:
+      - confidence_velocity
+      - confidence_variance
+      - sudden_confidence_drops
+      - sustained_low_confidence_periods
+    
+    anomaly_detection:
+      sharp_confidence_drops: "evidence_loss_detected_escalate"
+      sustained_low_confidence: "re_evidence_or_escalate"
+      confidence_volatility: "contextual_instability_indicator"
+  
+  confidence_reversal_logic:
+    mechanism: "graduated_confidence_restoration"
+    requirement: "new_evidence_must_justify_restoration"
+    maximum_reversal_rate: "evidence_quality_bounded"
+
+traceability:
+  epistemic_mutation_tracing:
+    requirement: "mandatory_for_all_confidence_changes"
+    trace_captures:
+      - previous_confidence_value
+      - evidence_status_change
+      - quality_assessment_update
+      - confidence_adjustment_calculation
+      - new_confidence_value
+      - governing_epistemic_rule
+      - timestamp_and_context
+  
+  evidence_chain_integrity:
+    mechanism: "evidence_lineage_tracking"
+    tracked_elements:
+      - evidence_source_identity
+      - evidence_acquisition_context
+      - evidence_quality_assessment
+      - evidence_modification_history
+      - evidence_contradiction_status
+  
+  uncertainty_documentation:
+    requirement: "explicit_uncertainty_statement_for_all_low_confidence_outputs"
+    documentation_includes:
+      - identified_unknowns
+      - assumption_list
+      - evidence_gaps
+      - confidence_limiting_factors
+      - escalation_triggers
+
+bounded_cognition:
+  epistemic_containment:
+    rules:
+      - confidence_scoring_respects_epistemic_policy
+      - evidence_weight_mutations_are_governed_not_autonomous
+      - uncertainty_amplification_stays_within_bounds
+      - confidence_bounds_are_enforced_minimums
+  
+  truth_claim_discipline:
+    mechanism: "evidence_justification_requirement"
+    rule: "every_truth_claim_must_reference_evidence"
+    constraint: "confidence_must_be_evidence_proportional"
+  
+  assumption_tracking:
+    mechanism: "explicit_assumption_documentation"
+    requirement: "all_confidence_assumptions_must_be_traceable"
+    validation_rule: "assumptions_must_be_revisable_with_evidence"
+
+implementation_leakage_control:
+  abstraction_boundaries:
+    - specific_confidence_algorithms_abstracted
+    - evidence_database_schemas_not_exposed
+    - source_reliability_calculation_methods_hidden
+    - statistical_confidence_methods_not_mandated
+  
+  governance_specification_discipline:
+    constraint: "yaml_describes_what_confidence_must_do_not_how_to_calculate_it"
+    enforcement: "no_implementation_logic_leakage"
+
+human_oversight:
+  oversight_triggers:
+    - confidence_below_consultation_threshold
+    - evidence_contradiction_detected
+    - confidence_reversal_requested
+    - uncertainty_amplification_activated
+  
+  validation_requirements:
+    low_confidence_decisions: "human_review_required"
+    evidence_contradiction_resolution: "human_arbitration_available"
+    confidence_override_requests: "human_approval_required"
+
+output_standard:
+  epistemic_output_must_include:
+    - confidence_score_with_basis
+    - evidence_summary
+    - identified_uncertainties
+    - assumption_list
+    - confidence_bounds_and_constraints
+    - governance_rule_reference
+    - confidence_trajectory_if_relevant
+  
+  uncertainty_visibility_standard:
+    requirement: "high_confidence_statements_must_include_uncertainty_acknowledgment"
+    minimum_statement: "confidence_X_assuming_Y_with_uncertainty_Z"
+    auditable: true
+    reviewable: true

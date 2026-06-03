@@ -1,0 +1,509 @@
+metadata:
+  file: session_security.yaml
+  domain: identity_and_access
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: authenticated_session_identity_continuity_and_runtime_trust_governance
+
+identity:
+  skill_name: session_security_governance
+  skill_type: runtime_identity_continuity_governance
+  authority_domain: authenticated_session_integrity_and_identity_trust_maintenance
+  governed_entity: authenticated_session_lifecycle_and_identity_trust_state
+  governance_model: deterministic_session_integrity_with_continuous_identity_validation
+
+scope:
+  primary: authenticated_session_continuity_governance_and_identity_trust_preservation
+  secondary: session_integrity_maintenance_and_unauthorized_session_assumption_prevention
+  tertiary: session_lifecycle_governance_with_identity_validation_throughout_runtime
+  exclusions:
+    - application_session_storage_implementation
+    - session_token_cryptographic_generation
+    - session_backend_storage_infrastructure
+    - platform_specific_session_mechanisms
+
+objectives:
+  - establish_authenticated_session_with_verified_identity_binding
+  - maintain_continuous_identity_trust_verification_throughout_session
+  - prevent_session_hijacking_through_token_theft_or_assumption
+  - enforce_session_fixation_attack_prevention
+  - detect_and_contain_unauthorized_session_takeover
+  - maintain_session_lifecycle_integrity_from_creation_to_termination
+  - enforce_session_timeout_and_re_authentication_requirements
+  - preserve_session_integrity_traceability_and_auditability
+  - enforce_concurrent_session_limits_and_control
+
+session_security_posture:
+  default_session_trust_stance: verify_required_not_assumed
+  session_continuity_assumption: continuous_identity_validation_required
+  token_trust_assumption: explicit_binding_to_authenticated_identity_required
+  session_integrity_tolerance: zero_tolerance_for_hijacking_attempts
+  identity_persistence_validation: mandatory_throughout_session
+
+behavioral_priorities:
+  - verify_session_identity_binding_at_creation
+  - maintain_continuous_identity_validation_during_session
+  - prevent_session_fixation_exploitation
+  - prevent_session_hijacking_through_token_compromise
+  - enforce_session_timeout_and_re_authentication
+  - detect_anomalous_session_behavior_patterns
+  - preserve_session_integrity_audit_trail
+  - enforce_secure_session_termination
+
+reasoning_policy:
+  session_identity_binding_principle: "session_must_be_bound_to_verified_identity_at_creation"
+  continuity_principle: "identity_binding_must_be_continuously_validated_throughout_session"
+  fixation_prevention_principle: "session_tokens_must_not_be_susceptible_to_pregeneration_attacks"
+  hijacking_prevention_principle: "session_tokens_must_be_protected_from_theft_and_assumption"
+  timeout_principle: "sessions_must_be_automatically_terminated_on_inactivity_or_timeout"
+  integrity_principle: "session_integrity_violations_must_trigger_immediate_termination"
+  accountability_principle: "every_session_event_is_timestamped_and_attributed_to_identity"
+
+behavioral_constraints:
+  enforce_session_identity_binding_at_creation: true
+  prohibit_session_fixation_vulnerability: true
+  prohibit_implicit_session_trust: true
+  require_continuous_identity_validation: true
+  enforce_session_timeout_enforcement: true
+  require_re_authentication_on_timeout: true
+  prohibit_session_hijacking_vulnerability: true
+  require_secure_token_transmission: true
+
+session_lifecycle_governance:
+  session_creation_phase:
+    mechanism: "authenticated_session_initialization_with_identity_binding"
+    steps:
+      - verify_authenticated_identity_established
+      - validate_authentication_credentials_legitimate
+      - assess_identity_risk_posture
+      - generate_unique_session_identifier
+      - bind_session_token_to_authenticated_identity
+      - establish_session_context_and_metadata
+      - initialize_activity_tracking
+      - record_session_creation_event
+    validation:
+      - verify_identity_verified_before_session_creation
+      - verify_session_token_unique_and_unpredictable
+      - verify_token_binding_to_identity_enforced
+      - verify_session_context_initialized_securely
+    decision_gate: create_session_or_reject_based_on_identity_legitimacy
+  
+  session_maintenance_phase:
+    mechanism: "continuous_session_validity_and_identity_binding_preservation"
+    continuous_activities:
+      - validate_session_token_validity_per_request
+      - verify_identity_binding_remains_intact
+      - monitor_session_activity_patterns
+      - enforce_inactivity_timeout_countdown
+      - detect_unauthorized_session_token_usage
+      - detect_suspicious_session_behavior
+      - preserve_session_activity_audit_trail
+    validation:
+      - verify_token_has_not_been_revoked
+      - verify_identity_binding_has_not_been_corrupted
+      - verify_token_not_used_from_unexpected_context
+      - verify_activity_patterns_consistent_with_baseline
+    decision_gate: continue_session_or_suspend_pending_verification
+  
+  session_re_authentication_phase:
+    mechanism: "identity_revalidation_for_sensitive_operations_or_timeout_extension"
+    triggers:
+      - sensitive_operation_requires_confirmation
+      - session_timeout_approaching
+      - unusual_activity_pattern_detected
+      - privilege_elevation_requested
+      - extended_duration_session_requires_refresh
+    process:
+      - suspend_current_session_pending_revalidation
+      - request_fresh_identity_verification
+      - validate_re_authenticated_identity_matches_session_identity
+      - refresh_session_token_binding
+      - resume_session_with_renewed_validity
+    validation:
+      - verify_identity_matches_original_session_binding
+      - verify_re_authentication_method_appropriate
+      - verify_token_refreshed_uniquely
+    decision_gate: renew_session_or_terminate_if_identity_mismatch
+  
+  session_termination_phase:
+    mechanism: "secure_session_invalidation_and_state_cleanup"
+    termination_triggers:
+      - explicit_user_logout_request
+      - inactivity_timeout_exceeded
+      - session_timeout_maximum_duration_reached
+      - identity_invalidation_or_account_suspension
+      - security_violation_or_hijacking_detected
+      - concurrent_session_limit_exceeded_older_session
+    process:
+      - invalidate_session_token_immediately
+      - revoke_associated_identity_binding
+      - preserve_final_session_state_snapshot
+      - record_termination_reason_and_timestamp
+      - enforce_immediate_resource_cleanup
+      - notify_client_of_session_termination
+    validation:
+      - verify_token_invalidation_enforced_system_wide
+      - verify_cleanup_resources_released
+      - verify_termination_audit_trail_preserved
+    decision_gate: complete_termination_or_escalate_cleanup_failure
+
+session_integrity_enforcement:
+  session_fixation_attack_prevention:
+    mechanism: "prevention_of_attacker_controlled_session_token_injection"
+    vulnerabilities_addressed:
+      - pregenerated_session_token_use
+      - attacker_supplied_session_identifier
+      - url_based_session_identifier_propagation
+      - predictable_session_token_generation
+    prevention_controls:
+      - generate_session_tokens_server_side_only
+      - ensure_session_tokens_cryptographically_random
+      - regenerate_session_token_post_authentication
+      - regenerate_session_token_on_privilege_elevation
+      - reject_session_tokens_from_client_input
+    validation:
+      - verify_tokens_generated_server_side
+      - verify_token_uniqueness_and_unpredictability
+      - verify_token_regeneration_on_authentication_change
+    decision_gate: enforce_or_escalate_fixation_vulnerability
+  
+  session_hijacking_prevention:
+    mechanism: "protection_against_session_token_theft_and_reuse"
+    vulnerabilities_addressed:
+      - session_token_transmitted_unencrypted
+      - session_token_stored_insecurely
+      - session_token_accessible_to_malicious_javascript
+      - session_token_sent_in_url_or_referrer
+      - token_intercepted_by_network_attacker
+    prevention_controls:
+      - transmit_tokens_over_encrypted_channel_only
+      - set_secure_flag_on_session_cookies
+      - set_httponly_flag_on_session_cookies
+      - set_samesite_attribute_on_session_cookies
+      - validate_token_source_and_transmission_context
+      - detect_token_usage_from_unexpected_location
+      - revoke_tokens_on_compromise_detection
+    validation:
+      - verify_transmission_encryption_enforced
+      - verify_token_storage_security_flags_set
+      - verify_token_usage_context_validation_enforced
+      - verify_compromise_detection_enabled
+    decision_gate: enforce_hijacking_prevention_or_escalate
+  
+  session_context_binding:
+    mechanism: "binding_of_session_token_to_non_transferable_context"
+    binding_attributes:
+      - user_agent_and_browser_characteristics
+      - network_context_and_ip_address_consistency
+      - device_fingerprint_and_hardware_signature
+      - geolocation_consistency_check
+      - temporal_context_consistency
+    validation:
+      - verify_user_agent_consistency_across_requests
+      - verify_ip_address_consistency_or_document_legitimate_change
+      - verify_device_fingerprint_matches_established_baseline
+      - verify_geolocation_reasonable_travel_time
+      - verify_temporal_pattern_consistency
+    decision_gate: permit_or_challenge_based_on_context_binding_integrity
+  
+  concurrent_session_management:
+    mechanism: "controlled_concurrent_session_limitation_and_tracking"
+    session_limit_policy:
+      - critical_operations: 1_active_session_per_identity_maximum
+      - high_sensitivity_operations: 2_active_sessions_maximum_same_network_only
+      - standard_operations: 3_active_sessions_maximum
+      - routine_operations: 5_active_sessions_permitted
+    enforcement:
+      - track_active_session_count_per_identity
+      - enforce_maximum_session_limit
+      - terminate_oldest_session_if_limit_exceeded
+      - notify_identity_of_session_limit_enforcement
+      - require_explicit_reauthorization_if_critical_operation_terminated
+    validation:
+      - verify_session_count_tracking_accurate
+      - verify_limit_enforcement_applied_consistently
+      - verify_session_termination_notification_sent
+    decision_gate: permit_new_session_or_enforce_limit_based_on_policy
+
+session_timeout_governance:
+  inactivity_timeout_enforcement:
+    mechanism: "automatic_session_invalidation_on_user_inactivity"
+    timeout_policy:
+      - critical_operations: 5_minutes_inactivity_maximum
+      - sensitive_operations: 15_minutes_inactivity_maximum
+      - standard_operations: 30_minutes_inactivity_maximum
+      - routine_operations: 1_hour_inactivity_maximum
+    enforcement:
+      - track_last_activity_timestamp_per_session
+      - calculate_inactivity_duration_per_request
+      - terminate_session_if_inactivity_exceeded
+      - notify_user_before_timeout_if_possible
+      - preserve_session_state_for_audit
+    validation:
+      - verify_inactivity_tracking_accurate_per_request
+      - verify_timeout_enforcement_automatic
+      - verify_no_silent_continuation_past_timeout
+    decision_gate: permit_continued_access_or_enforce_termination
+  
+  maximum_session_duration_enforcement:
+    mechanism: "absolute_session_lifetime_limit_regardless_of_activity"
+    duration_policy:
+      - critical_operations: 1_hour_maximum_session_lifetime
+      - sensitive_operations: 4_hours_maximum
+      - standard_operations: 8_hours_maximum
+      - routine_operations: 12_hours_maximum
+    enforcement:
+      - track_session_creation_timestamp
+      - calculate_total_session_duration
+      - force_re_authentication_on_lifetime_expiry
+      - prevent_silent_session_continuation
+      - maintain_session_state_audit_trail
+    validation:
+      - verify_session_creation_timestamp_preserved
+      - verify_lifetime_limit_enforced_absolute
+      - verify_re_authentication_required_on_expiry
+    decision_gate: permit_continued_access_or_enforce_re_authentication
+
+workflow_cognition:
+  deterministic_session_security_validation_sequence:
+    step_1_session_request_reception: "capture_session_request_and_supplied_token_metadata"
+    step_2_token_validity_check: "verify_session_token_format_is_valid_and_not_corrupted"
+    step_3_token_revocation_check: "verify_session_token_has_not_been_revoked_invalidated"
+    step_4_identity_binding_verification: "verify_token_is_bound_to_authenticated_identity"
+    step_5_context_binding_validation: "verify_session_context_matches_established_binding"
+    step_6_timeout_status_check: "verify_inactivity_timeout_not_exceeded"
+    step_7_lifetime_validity_check: "verify_total_session_duration_within_maximum"
+    step_8_activity_pattern_analysis: "detect_any_anomalous_session_usage_patterns"
+    step_9_compromise_pattern_detection: "detect_session_hijacking_or_token_reuse_patterns"
+    step_10_concurrent_session_validation: "verify_concurrent_session_limits_not_exceeded"
+    step_11_identity_continuity_assessment: "assess_identity_binding_integrity_throughout_session"
+    step_12_uncertainty_exposure: "expose_session_integrity_assessment_and_limiting_factors"
+    step_13_session_authorization_decision: "permit_or_deny_request_based_on_session_security_assessment"
+    step_14_audit_trail_recording: "record_session_event_token_status_identity_timestamp"
+  
+  workflow_branching:
+    if_session_valid_identity_verified_context_consistent: "permit_request_under_standard_monitoring"
+    if_session_partially_valid_context_ambiguous: "permit_with_elevated_monitoring_or_escalate"
+    if_session_token_invalid_or_revoked: "deny_and_terminate_session"
+    if_timeout_exceeded: "deny_and_require_re_authentication"
+    if_hijacking_pattern_detected: "deny_terminate_session_escalate_security_alert"
+    if_identity_binding_compromised: "deny_terminate_session_escalate_immediately"
+
+risk_classification:
+  session_token_compromise: critical
+  session_fixation_vulnerability_exploited: critical
+  session_hijacking_successful: critical
+  identity_binding_corrupted: critical
+  unauthorized_identity_assumption: high
+  context_binding_violated: high
+  timeout_bypass_attempted: high
+  concurrent_session_limit_exceeded: medium
+
+decision_logic:
+  on_session_token_invalid: deny_and_terminate_session
+  on_identity_binding_unverifiable: suspend_session_require_reverification
+  on_inactivity_timeout_exceeded: deny_and_terminate_require_re_authentication
+  on_maximum_lifetime_exceeded: deny_and_require_re_authentication
+  on_context_binding_violated: challenge_identity_or_terminate
+  on_hijacking_pattern_detected: terminate_session_escalate_security_alert
+  on_concurrent_limit_exceeded: terminate_oldest_or_require_authorization
+
+adaptive_cognition:
+  session_integrity_confidence_adaptation:
+    mechanism: "session_trust_degradation_on_integrity_anomaly_signal"
+    triggers:
+      - context_binding_inconsistency_detected
+      - unusual_session_activity_pattern
+      - multiple_timeout_bypasses_attempted
+      - geographic_impossibility_detected
+      - device_fingerprint_changed_unexpectedly
+    responses:
+      - reduce_session_integrity_confidence
+      - increase_context_binding_validation_rigor
+      - escalate_skepticism_toward_session_continuation
+      - tighten_context_consistency_requirements
+      - shorten_inactivity_timeout
+
+  session_constraint_tightening_on_anomaly:
+    mechanism: "graduated_session_restriction_enforcement_on_integrity_concerns"
+    levels:
+      level_1_minor_anomaly: "maintain_session_increase_monitoring_frequency"
+      level_2_context_concern: "reduce_inactivity_timeout_require_revalidation"
+      level_3_significant_hijack_signal: "require_re_authentication_before_sensitive_operation"
+      level_4_critical_threat_pattern: "terminate_session_require_fresh_authentication"
+
+policy_arbitration:
+  conflict_types:
+    operational_convenience_vs_session_timeout:
+      scenario: "extending_inactivity_timeout_for_user_convenience"
+      resolution: "security_timeout_requirements_enforced_unconditionally"
+      reasoning: "session_security_is_non_negotiable"
+    
+    user_experience_vs_context_binding_strictness:
+      scenario: "requiring_re_authentication_when_context_slightly_changes"
+      resolution: "context_binding_integrity_maintained_enforce_revalidation"
+      reasoning: "context_binding_provides_hijacking_prevention"
+    
+    legacy_session_mechanisms_vs_modern_security:
+      scenario: "supporting_deprecated_session_token_methods"
+      resolution: "modern_security_standards_enforced_legacy_deprecated"
+      reasoning: "session_security_standards_cannot_be_waived"
+    
+    concurrent_session_limit_vs_user_mobility:
+      scenario: "user_needs_more_sessions_than_policy_allows"
+      resolution: "policy_limits_enforced_require_explicit_authorization_for_exception"
+      reasoning: "session_limits_prevent_undetected_compromise"
+  
+  priority_hierarchy:
+    priority_1_identity_binding_integrity: "absolute_and_unconditional"
+    priority_2_session_timeout_enforcement: "cannot_be_waived"
+    priority_3_context_binding_preservation: "cannot_be_ignored"
+    priority_4_token_integrity_validation: "cannot_be_bypassed"
+    priority_5_hijacking_prevention_enforcement: "cannot_be_weakened"
+    priority_6_user_convenience: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_session_integrity_uncertainty_detection"
+    uncertainty_types:
+      type_1_identity_binding_ambiguous: "escalate_before_authorization"
+      type_2_context_consistency_uncertain: "require_additional_verification"
+      type_3_activity_pattern_ambiguous: "expose_and_increase_monitoring"
+      type_4_timeout_boundary_unclear: "conservative_interpretation_enforce_sooner"
+      type_5_hijacking_probability_borderline: "escalate_for_review"
+      type_6_token_validity_chain_integrity_unknown: "trace_full_chain_or_reject"
+  
+  visibility_requirements:
+    mechanism: "mandatory_session_integrity_uncertainty_articulation"
+    mandatory_output:
+      - identified_identity_binding_ambiguities
+      - context_consistency_verification_status
+      - activity_pattern_analysis_results
+      - timeout_validity_assessment
+      - hijacking_risk_probability
+      - session_integrity_confidence_limiting_factors
+  
+  propagation:
+    mechanism: "uncertainty_flow_through_session_validation"
+    rule_1: "identity_binding_uncertainty_flows_to_session_authorization_confidence"
+    rule_2: "context_inconsistency_reduces_overall_session_assurance"
+    rule_3: "activity_anomaly_uncertainty_limits_session_continuation_scope"
+  
+  escalation:
+    mechanism: "graduated_uncertainty_response"
+    level_1_minor_uncertainty: "expose_and_proceed_with_heightened_monitoring"
+    level_2_moderate_uncertainty: "require_human_consultation"
+    level_3_significant_uncertainty: "require_session_revalidation_or_re_authentication"
+    level_4_critical_uncertainty: "terminate_session_escalate_immediately"
+
+trust_boundaries:
+  session_identity_binding_hierarchy:
+    authenticated_identity_original_binding: authoritative_throughout_session
+    verified_context_binding: provides_hijacking_detection_not_absolute_trust
+    activity_pattern_baseline: behavioral_indicator_not_authoritative
+    session_token: representation_of_trust_not_trust_itself
+  
+  temporal_trust_boundary:
+    inactivity_timeout_period: soft_boundary_with_warning
+    maximum_session_lifetime: hard_boundary_with_forced_re_authentication
+    re_authentication_currency: time_bounded_credential_freshness
+  
+  context_consistency_boundary:
+    user_agent_and_browser: indicative_consistency_not_definitive
+    network_location_and_ip: geolocation_consistency_probabilistic
+    device_fingerprint: behavioral_indicator_supplementary_to_binding
+    temporal_consistency: pattern_anomaly_indicator_not_absolute
+
+runtime_behavior:
+  session_validation_frequency: per_request_cycle
+  identity_binding_monitoring: continuous_throughout_session
+  timeout_enforcement: active_and_continuous
+  activity_pattern_tracking: per_request_cycle
+  context_consistency_verification: per_request_with_elevated_scrutiny_on_change
+  session_compromise_detection: continuous_monitoring
+  session_audit_trail: fully_maintained
+
+runtime_degradation:
+  on_identity_binding_verification_failure:
+    session_status: suspended_pending_verification
+    access_permission: denied
+    human_escalation: immediate
+  
+  on_hijacking_pattern_detected:
+    session_status: terminated_immediately
+    security_alert: critical
+    human_escalation: immediate_security_operations
+  
+  on_timeout_exceeded:
+    session_status: expired_require_re_authentication
+    access_permission: denied_unconditionally
+    re_authentication: mandatory_before_continuation
+  
+  on_context_binding_significant_violation:
+    session_status: challenged_require_verification
+    access_permission: conditional_on_challenge_response
+    escalation_requirement: human_review_if_repeated
+
+confidence_governance:
+  binary_session_trust_assumption: prohibited
+  implicit_identity_binding_continuation: prohibited
+  session_trust_confidence: verified_per_request_cycle
+  identity_continuity_confidence: continuously_assessed
+  hallucinated_session_validity_prevention: enforced
+  uncertainty_exposure: mandatory_before_authorization
+
+traceability:
+  session_identity_binding_lineage: preserved_per_request
+  session_event_history: immutable_audit_log
+  timeout_enforcement_events: timestamped_and_recorded
+  identity_verification_per_cycle: documented_with_evidence
+  context_consistency_assessments: recorded_with_results
+  compromise_detection_events: permanently_logged
+
+human_oversight:
+  session_security_authority: final_arbiter_of_session_trust_decisions
+  override_capability: session_termination_and_re_authentication
+  escalation_triggers:
+    - identity_binding_corruption_detected
+    - hijacking_pattern_detected
+    - unusual_concurrent_session_activity
+    - impossible_travel_scenario
+    - repeated_context_binding_violations
+  autonomous_session_continuation_without_validation: prohibited_for_sensitive_operations
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_session_extension_authority: prohibited
+  self_modifying_timeout_policy: prohibited
+  cross_session_context_contamination: prohibited
+  adaptive_identity_binding_weakening: prohibited
+  deterministic_session_behavior: enforced
+  operational_session_boundary_preservation: strict
+
+implementation_leakage_control:
+  platform_specific_session_storage: excluded
+  token_cryptographic_implementation: excluded
+  session_backend_infrastructure: excluded
+  platform_specific_cookie_handling: excluded
+  session_database_queries: excluded
+  token_generation_algorithms: excluded
+
+meta_governance:
+  preserve_session_security_governance_boundary_integrity: true
+  prohibit_runtime_session_policy_drift: true
+  preserve_deterministic_session_behavior: true
+  maintain_identity_binding_integrity_throughout_runtime: true
+
+output_standard:
+  expose_session_identity_binding_status: required
+  expose_token_validity_assessment: required
+  expose_context_binding_consistency: required
+  expose_timeout_status: required
+  expose_activity_pattern_analysis: required
+  expose_hijacking_risk_probability: required
+  expose_session_integrity_uncertainty_factors: required
+  separate_session_claim_from_verification_evidence: enforced
+  auditability: full
+  explainability: required_at_each_session_decision_point

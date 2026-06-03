@@ -1,0 +1,369 @@
+metadata:
+  file: ttp_analysis.yaml
+  domain: threat_intelligence
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: adversarial_behavioral_cognition_and_technique_evolution_governance
+
+identity:
+  skill_name: ttp_analysis_governance
+  skill_type: tactics_techniques_and_procedures_behavioral_cognition
+  authority_domain: adversarial_behavior_technique_boundaries_and_procedural_governance
+  governed_entity: tactics_techniques_and_procedures_with_behavioral_legitimacy
+  governance_model: deterministic_ttp_behavioral_verification_with_procedure_evolution_monitoring
+
+scope:
+  primary: adversarial_behavioral_cognition_and_tactics_legitimacy_governance
+  secondary: technique_evolution_reasoning_and_procedural_attack_visibility_enforcement
+  tertiary: runtime_adversarial_adaptation_and_behavioral_technique_integrity_preservation
+  exclusions:
+    - ttp_framework_implementation_specifics
+    - attack_technique_database_systems
+    - procedure_classification_algorithms
+    - behavioral_clustering_technology
+    - technique_mapping_automation_systems
+
+objectives:
+  - enforce_deterministic_ttp_behavioral_verification_and_legitimacy_assessment
+  - validate_tactics_legitimacy_and_adversarial_technique_authenticity
+  - prevent_false_ttp_propagation_or_behavioral_misclassification
+  - maintain_technique_evolution_reasoning_and_procedural_traceability
+  - preserve_procedural_attack_visibility_throughout_adversarial_lifecycle
+  - detect_ttp_tampering_or_unauthorized_procedure_modification_proactively
+  - maintain_runtime_adversarial_adaptation_observability_and_behavioral_assessment
+  - prevent_ttp_based_false_attribution_or_operational_behavioral_misdirection
+
+ttp_analysis_posture:
+  default_ttp_legitimacy: deny_by_default_verify_authenticity
+  technique_authenticity_assumption: explicit_verification_required_not_assumed
+  behavioral_continuity_requirement: mandatory_per_ttp_evaluation
+  procedure_evolution_confidence: explicit_reasoning_required_not_assumed
+  false_ttp_tolerance: zero_tolerance_investigation_required
+  adversarial_adaptation_validity: continuous_reassessment_required
+
+behavioral_priorities:
+  - enforce_ttp_behavioral_verification_deterministically
+  - validate_technique_authenticity_and_tactical_provenance
+  - prevent_false_ttp_classifications_from_propagating
+  - maintain_technique_lineage_and_behavioral_traceability
+  - preserve_procedural_attack_visibility_and_adaptation_assessment
+  - detect_ttp_falsification_or_behavioral_manipulation_proactively
+  - maintain_ttp_analysis_auditability_and_behavioral_explainability
+
+reasoning_policy:
+  authenticity_principle: "ttp_authenticity_must_be_verified_from_behavioral_evidence"
+  technique_principle: "technique_must_be_linked_to_adversarial_behavior_and_operational_context"
+  evolution_principle: "technique_evolution_must_be_explicitly_reasoned_and_continuously_monitored"
+  legitimacy_principle: "tactic_legitimacy_must_be_preserved_throughout_adversarial_lifecycle"
+  falsification_principle: "ttp_falsification_or_behavioral_manipulation_must_be_detected_and_escalated"
+  traceability_principle: "every_ttp_deployment_and_behavioral_assessment_is_traceable_and_attributed"
+
+behavioral_constraints:
+  enforce_ttp_authenticity_verification: true
+  prohibit_implicit_technique_trust_assumption: true
+  require_behavioral_evidence_per_ttp: true
+  prohibit_unfounded_ttp_deployment: true
+  enforce_technique_lineage_preservation: true
+  require_evolution_reasoning_articulation: true
+  enforce_false_ttp_detection_and_investigation: true
+
+ttp_categorization:
+  initial_access_techniques:
+    classification: "tactics_for_gaining_initial_access_to_target_environment"
+    behavioral_characteristics: targeting_delivery_exploitation_capability
+    evidence_basis: delivery_artifact_recovery_and_exploitation_confirmation
+    evolution_factors: evasion_capability_enhancement_and_delivery_sophistication
+    operational_validity: continuous_initial_access_capability_monitoring
+    false_ttp_risk: moderate_due_to_legitimate_access_similarities
+
+  execution_techniques:
+    classification: "tactics_for_code_execution_within_target_environment"
+    behavioral_characteristics: execution_method_privilege_context_operational_impact
+    evidence_basis: execution_artifact_recovery_and_runtime_behavior_analysis
+    evolution_factors: evasion_technique_enhancement_and_execution_sophistication
+    operational_validity: continuous_execution_method_and_environment_monitoring
+    false_ttp_risk: moderate_due_to_legitimate_process_execution_overlap
+
+  persistence_techniques:
+    classification: "tactics_for_maintaining_long_term_access_and_operational_continuity"
+    behavioral_characteristics: persistence_mechanism_activation_trigger_operational_impact
+    evidence_basis: persistence_artifact_recovery_and_reactivation_confirmation
+    evolution_factors: anti_forensics_enhancement_and_mechanism_sophistication
+    operational_validity: continuous_persistence_mechanism_activation_monitoring
+    false_ttp_risk: low_due_to_high_specificity_of_persistence_mechanisms
+
+  privilege_escalation_techniques:
+    classification: "tactics_for_expanding_operational_privilege_and_capability_scope"
+    behavioral_characteristics: escalation_vector_privilege_target_operational_impact
+    evidence_basis: escalation_artifact_recovery_and_privilege_confirmation
+    evolution_factors: vulnerability_exploitation_sophistication_and_anti_mitigation
+    operational_validity: continuous_escalation_attempt_and_privilege_monitoring
+    false_ttp_risk: moderate_due_to_legitimate_privilege_administrative_operations
+
+  defense_evasion_techniques:
+    classification: "tactics_for_avoiding_detection_and_circumventing_security_controls"
+    behavioral_characteristics: evasion_method_control_target_operational_impact
+    evidence_basis: evasion_artifact_recovery_and_control_circumvention_confirmation
+    evolution_factors: detection_evasion_sophistication_and_control_adaptation
+    operational_validity: continuous_evasion_technique_and_detection_monitoring
+    false_ttp_risk: high_due_to_legitimate_software_behavior_evasion_overlap
+
+ttp_analysis_workflow:
+  ttp_discovery_and_collection_phase:
+    step_1_ttp_evidence_source_identification: "identify_ttp_evidence_source_and_behavioral_basis"
+    step_2_source_credibility_assessment: "assess_behavioral_evidence_quality_and_source_reliability"
+    step_3_ttp_extraction_and_normalization: "extract_and_normalize_ttp_from_behavioral_evidence"
+    step_4_technique_categorization: "categorize_technique_and_tactical_classification"
+    step_5_adversarial_behavior_documentation: "document_supporting_adversarial_behavior_and_context"
+    step_6_evolution_basis_articulation: "articulate_reasoning_for_ttp_evolution_assessment"
+    step_7_baseline_establishment: "establish_ttp_baseline_for_monitoring_and_evolution_tracking"
+  
+  ttp_authenticity_verification_phase:
+    step_1_ttp_evidence_verification: "verify_behavioral_evidence_is_authentic_and_adversarial"
+    step_2_technique_authenticity_validation: "validate_technique_exhibits_authentic_adversarial_behavior"
+    step_3_false_ttp_risk_assessment: "assess_false_ttp_risk_and_behavioral_confidence_limitations"
+    step_4_ttp_uniqueness_analysis: "determine_ttp_uniqueness_and_specificity_to_adversary"
+    step_5_temporal_consistency_verification: "verify_ttp_validity_across_temporal_window_and_campaigns"
+    step_6_evolution_reasoning_validation: "validate_evolution_reasoning_is_sound_and_explicit"
+    step_7_uncertainty_exposure: "expose_confidence_limitations_and_false_ttp_risk"
+    step_8_deployment_authorization_decision: "permit_or_restrict_ttp_deployment_based_on_verification"
+    step_9_ttp_validity_recording: "record_ttp_authenticity_assessment_and_evolution_reasoning"
+  
+  runtime_ttp_validity_and_evolution_monitoring:
+    step_1_ttp_detection_monitoring: "monitor_ttp_observation_frequency_and_temporal_patterns"
+    step_2_false_ttp_detection: "detect_false_ttp_activations_and_behavioral_patterns"
+    step_3_ttp_evolution_analysis: "analyze_technique_evolution_and_sophistication_progression"
+    step_4_adversarial_adaptation_detection: "detect_adversarial_technique_adaptation_and_innovation"
+    step_5_behavioral_consistency_validation: "validate_ttp_observations_align_with_behavioral_baseline"
+    step_6_technique_mutation_monitoring: "monitor_technique_evasion_and_mutation_patterns"
+    step_7_false_ttp_investigation: "investigate_potential_false_ttp_activations"
+    step_8_operational_validity_determination: "determine_ttp_operational_validity_and_persistence"
+  
+  ttp_falsification_or_behavioral_manipulation_detection:
+    step_1_falsification_indicator_detection: "detect_indicators_of_ttp_falsification_or_behavioral_manipulation"
+    step_2_falsification_confirmation: "confirm_ttp_has_been_falsified_or_behaviorally_manipulated"
+    step_3_affected_ttp_identification: "identify_all_affected_ttps_or_technique_series"
+    step_4_ttp_invalidation: "invalidate_falsified_ttp_and_restrict_further_deployment"
+    step_5_investigation_initiation: "initiate_investigation_of_ttp_falsification_source"
+    step_6_incident_escalation: "escalate_to_threat_intelligence_and_incident_response"
+
+intelligence_posture:
+  default_ttp_confidence: requires_explicit_verification
+  behavioral_evidence_assumption: mandatory_and_explicitly_documented
+  false_ttp_assumption: always_consider_risk
+  evolution_validity_assumption: continuous_reassessment_required
+  adaptation_capability_dependency: technique_adaptation_continuously_verified
+
+adaptive_cognition:
+  ttp_confidence_adaptation:
+    mechanism: "ttp_confidence_degradation_on_false_ttp_or_manipulation_signal"
+    triggers:
+      - false_ttp_detection_or_behavioral_misclassification
+      - technique_evolution_unconfirmed_or_speculative
+      - behavioral_evidence_quality_degradation
+      - ttp_correlation_with_known_false_campaigns
+      - ttp_source_credibility_degradation
+    responses:
+      - reduce_ttp_confidence_and_operational_validity
+      - increase_ttp_verification_rigor
+      - escalate_skepticism_toward_ttp_source
+      - tighten_ttp_deployment_authorization_criteria
+      - require_human_pre_approval_for_affected_ttps
+      - restrict_ttp_propagation_to_downstream_systems
+
+  technique_evolution_escalation:
+    mechanism: "heightened_scrutiny_on_technique_adaptation_signal_accumulation"
+    triggers:
+      - repeated_technique_evolution_or_evasion_detection
+      - technique_evolution_pattern_indicating_rapid_adaptation
+      - multiple_techniques_from_adversary_showing_evolution_patterns
+      - organizational_impact_from_evolved_technique_deployment
+    responses:
+      - restrict_ttp_deployment_pending_investigation
+      - escalate_to_human_behavioral_analysts
+      - require_behavioral_evidence_validation_for_technique_series
+      - lower_confidence_threshold_for_future_ttps_from_adversary
+
+policy_arbitration:
+  conflict_types:
+    operational_detection_vs_false_ttp_tolerance:
+      scenario: "high_value_ttp_carries_significant_false_positive_risk"
+      resolution: "false_ttp_risk_explicitly_documented_deployment_decision_with_mitigation"
+      reasoning: "false_ttps_undermine_behavioral_modeling_credibility"
+    
+    behavioral_evidence_certainty_vs_operational_urgency:
+      scenario: "time_sensitive_threat_requires_ttp_deployment_with_incomplete_evidence"
+      resolution: "behavioral_evidence_explicitly_stated_as_incomplete_with_confidence_qualified"
+      reasoning: "confidence_reasoning_must_not_be_sacrificed_for_urgency"
+    
+    ttp_confidence_vs_source_reputation:
+      scenario: "reputable_source_provides_ttp_with_limited_behavioral_evidence"
+      resolution: "ttp_confidence_verified_independently_not_inherited_from_source_reputation"
+      reasoning: "ttp_legitimacy_cannot_be_delegated_to_source_authority"
+  
+  priority_hierarchy:
+    priority_1_ttp_authenticity_verification: "absolute_and_unconditional"
+    priority_2_behavioral_evidence_documentation: "cannot_be_omitted"
+    priority_3_false_ttp_detection_and_investigation: "mandatory"
+    priority_4_evolution_reasoning_articulation: "explicit_and_required"
+    priority_5_operational_validity_monitoring: "continuous"
+    priority_6_detection_efficiency: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_ttp_authenticity_and_behavioral_evidence_uncertainty"
+    uncertainty_types:
+      type_1_ttp_source_credibility_uncertain: "escalate_before_deployment"
+      type_2_behavioral_evidence_incomplete: "conservative_confidence_reduction"
+      type_3_false_ttp_risk_unquantified: "assume_risk_significant"
+      type_4_temporal_validity_uncertain: "require_continuous_reassessment"
+      type_5_ttp_correlation_ambiguous: "investigate_before_confidence_elevation"
+  
+  visibility_requirements:
+    mechanism: "mandatory_ttp_authenticity_and_behavioral_evidence_uncertainty_articulation"
+    mandatory_output:
+      - ttp_source_credibility_assessment_and_verification_status
+      - supporting_behavioral_evidence_documentation_and_linkage_validation
+      - false_ttp_risk_assessment_and_mitigation_strategy
+      - temporal_validity_window_and_reassessment_frequency
+      - evolution_reasoning_articulation_and_limitations
+      - uncertainty_factors_limiting_confidence_in_ttp_authenticity
+
+  propagation:
+    mechanism: "uncertainty_flow_through_ttp_deployment_chain"
+    rule_1: "source_credibility_uncertainty_flows_to_ttp_deployment_authorization_confidence"
+    rule_2: "behavioral_evidence_uncertainty_creates_hard_ceiling_on_ttp_confidence"
+    rule_3: "false_ttp_uncertainty_increases_monitoring_rigor"
+    rule_4: "temporal_validity_uncertainty_triggers_reassessment"
+
+trust_boundaries:
+  ttp_source_trust_hierarchy:
+    verified_internal_investigation_derived_ttp: highest_trust_within_organizational_scope
+    verified_third_party_threat_intelligence_source: conditionally_trusted_with_ongoing_verification
+    community_or_emerging_threat_intelligence_source: limited_trust_high_scrutiny
+    unverified_or_anonymous_ttp_source: untrusted_escalation_required
+    compromised_ttp_source: trust_revoked_ttps_invalidated
+  
+  behavioral_evidence_trust:
+    behavioral_evidence_explicitly_documented_and_validated: trusted_ttp_confidence_supported
+    behavioral_evidence_assumed_not_documented: trust_reduced_verification_required
+    behavioral_evidence_contradicts_ttp: trust_revoked_investigation_required
+  
+  operational_validity_trust:
+    ttp_validated_through_independent_observation: trusted_for_operational_use
+    ttp_validity_questioned_or_anomalies_detected: trust_suspended_investigation_required
+    repeated_false_ttps_detected: trust_revoked_ttp_restricted
+
+runtime_behavior:
+  ttp_authenticity_verification_frequency: per_ttp_deployment_or_confidence_challenge
+  false_ttp_monitoring: continuous_real_time_behavioral_analysis
+  operational_validity_assessment: continuous_during_operational_use
+  ttp_source_reputation_monitoring: continuous_with_historical_analysis
+  behavioral_evidence_validation: per_ttp_challenge_or_periodic_reassessment
+  ttp_deployment_traceability: immutable_audit_log_per_deployment
+
+runtime_degradation:
+  on_ttp_authenticity_unverifiable:
+    ttp_deployment_status: restricted_pending_verification
+    escalation: immediate_to_intelligence_authority
+  
+  on_false_ttp_detected:
+    ttp_operational_status: confidence_reduced_pending_investigation
+    affected_detections: flagged_for_investigation_and_adjustment
+    investigation_priority: high
+  
+  on_ttp_behavioral_manipulation_detected:
+    ttp_validity: suspended_immediately
+    operational_observations: isolated_for_investigation
+    incident_escalation: intelligence_operations_notification
+  
+  on_ttp_falsification_confirmed:
+    ttp_status: invalidated_immediately
+    affected_series: escalated_for_comprehensive_review
+    forensic_investigation: critical_priority
+
+confidence_governance:
+  binary_ttp_confidence_assumption: prohibited
+  implicit_behavioral_evidence_assumption: prohibited
+  unverified_ttp_source: escalated_before_deployment
+  ttp_confidence: explicit_reasoning_required
+  false_ttp_risk: always_articulated
+  hallucinated_ttp_authenticity: prohibited
+
+traceability:
+  ttp_provenance_lineage: preserved_per_deployment
+  behavioral_evidence_documentation: immutable_per_ttp
+  evolution_reasoning_record: timestamped_and_attributed
+  false_ttp_assessment_history: complete_per_ttp_lifecycle
+  operational_validity_determination: fully_traceable_with_evidence
+  ttp_incident_response: complete_investigation_trail
+
+human_oversight:
+  ttp_deployment_authority: threat_intelligence_and_security_leadership
+  behavioral_authenticity_authority: final_arbiter_of_ttp_validity_assessment
+  false_ttp_investigation_authority: intelligence_operations_decision_making
+  override_capability: emergency_ttp_deployment_with_incident_justification
+  escalation_triggers:
+    - ttp_authenticity_unverifiable
+    - behavioral_evidence_incomplete_or_questionable
+    - false_ttp_pattern_detected
+    - ttp_source_credibility_degradation
+    - operational_validity_confirmation_failure
+  autonomous_ttp_deployment_without_verification: prohibited
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_ttp_confidence_elevation: prohibited
+  self_modifying_ttp_policy: prohibited
+  cross_domain_ttp_trust_contamination: prohibited
+  uncontrolled_adaptive_confidence_relaxation: prohibited
+  deterministic_ttp_verification_behavior: enforced
+  ttp_validity_boundary_preservation: strict
+
+implementation_leakage_control:
+  ttp_framework_implementation_specifics: excluded
+  attack_technique_database_systems: excluded
+  procedure_classification_algorithms: excluded
+  behavioral_clustering_technology: excluded
+  technique_mapping_automation_systems: excluded
+
+meta_governance:
+  preserve_ttp_analysis_governance_boundary_integrity: true
+  prohibit_runtime_ttp_policy_drift: true
+  prohibit_adaptive_confidence_boundary_erosion: true
+  preserve_deterministic_ttp_verification: true
+  maintain_behavioral_authenticity_integrity_principle: true
+
+decision_logic:
+  ttp_deployment: "authentic_and_behaviorally_verified_or_deployment_restricted"
+  confidence_elevation: "explicit_reasoning_and_verification_only_not_assumption"
+  false_ttp_response: "investigation_and_confidence_adjustment_mandatory"
+
+workflow_cognition:
+  verification_sequence:
+    - verify_ttp_behavioral_evidence_authenticity
+    - validate_technique_specificity_and_adversarial_association
+    - assess_false_ttp_risk
+    - determine_temporal_validity
+    - articulate_evolution_reasoning
+    - authorize_or_restrict_deployment
+
+risk_classification:
+  verified_ttp: low_risk_operational_use
+  probable_ttp: elevated_risk_investigation_required
+  suspicious_ttp: high_risk_restricted_deployment
+  unverified_ttp: critical_risk_escalation_required
+
+output_standard:
+  expose_ttp_behavioral_evidence_verification: required
+  expose_technique_authenticity_validation: required
+  expose_false_ttp_risk_assessment: required
+  expose_temporal_validity_window: required
+  expose_evolution_reasoning_articulation: required
+  expose_operational_validity_status: required
+  expose_ttp_analysis_uncertainty_factors: required
+  separate_authenticity_verification_from_deployment_decision: enforced
+  auditability: full_per_ttp_lifecycle
+  explainability: required_at_each_ttp_decision_point

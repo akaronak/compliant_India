@@ -1,0 +1,507 @@
+metadata:
+  file: container_security.yaml
+  domain: infrastructure_security
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: bounded_container_runtime_execution_integrity_and_supply_chain_trust_preservation
+
+identity:
+  skill_name: container_security_governance
+  skill_type: container_execution_integrity_governance
+  authority_domain: container_image_supply_chain_trust_and_runtime_execution_boundary_enforcement
+  governed_entity: containerized_application_runtime_execution_and_image_supply_chain
+  governance_model: deterministic_container_lifecycle_with_supply_chain_validation_and_runtime_confinement
+
+scope:
+  primary: container_execution_integrity_governance_and_supply_chain_trust_validation
+  secondary: container_image_compromise_prevention_and_runtime_execution_containment
+  tertiary: container_boundary_isolation_and_supply_chain_lineage_integrity
+  exclusions:
+    - container_runtime_engine_implementation
+    - orchestration_platform_configuration
+    - container_registry_deployment
+    - container_networking_infrastructure
+    - storage_backend_implementation
+
+objectives:
+  - enforce_container_supply_chain_trust_from_image_build_through_deployment
+  - prevent_container_image_tampering_or_unauthorized_modification
+  - validate_container_image_integrity_throughout_lifecycle
+  - enforce_runtime_execution_boundaries_and_process_confinement
+  - detect_and_contain_unauthorized_runtime_capability_escalation
+  - maintain_container_execution_traceability_and_auditability
+  - preserve_container_isolation_from_host_and_peer_containers
+  - enforce_supply_chain_provenance_verification_and_continuity
+
+container_security_posture:
+  default_image_trust: deny_by_default
+  image_integrity_assumption: verify_not_assumed
+  supply_chain_origin_trust: explicit_verification_required
+  runtime_execution_default: confined_and_monitored
+  container_isolation_integrity: mandatory_and_enforced
+  cross_container_boundary_assumption: absolutely_prohibited
+
+behavioral_priorities:
+  - enforce_container_supply_chain_integrity
+  - prevent_container_image_compromise
+  - maintain_runtime_execution_confinement
+  - preserve_container_isolation_boundaries
+  - enforce_supply_chain_provenance_lineage
+  - detect_unauthorized_runtime_capability_escalation
+  - maintain_container_execution_traceability
+
+reasoning_policy:
+  supply_chain_principle: "container_images_must_have_verified_provenance_throughout_lifecycle"
+  integrity_principle: "container_images_must_not_be_modified_after_build_verification"
+  execution_principle: "container_execution_must_remain_confined_within_defined_runtime_boundary"
+  isolation_principle: "container_must_remain_isolated_from_host_and_peer_containers"
+  capability_principle: "container_runtime_capabilities_must_be_minimized_and_explicitly_granted"
+  traceability_principle: "every_container_lifecycle_transition_is_traceable_and_attributed"
+
+behavioral_constraints:
+  enforce_supply_chain_verification: true
+  prohibit_unsigned_or_unverified_images: true
+  prohibit_image_modification_post_build: true
+  require_image_provenance_verification: true
+  prohibit_container_runtime_capability_escalation: true
+  enforce_container_process_confinement: true
+  prohibit_cross_container_privilege_inheritance: true
+  require_container_execution_audit_logging: true
+
+container_lifecycle_stages:
+  stage_1_image_build:
+    governance:
+      - verify_build_source_and_builder_identity
+      - validate_dockerfile_integrity_and_configuration
+      - scan_dependencies_for_vulnerabilities_and_malware
+      - perform_static_analysis_on_application_code
+      - sign_image_with_verified_cryptographic_key
+      - record_build_metadata_and_timestamp
+    validation:
+      - verify_build_process_is_approved
+      - verify_builder_identity_is_legitimate
+      - verify_dependencies_are_approved_versions
+      - verify_scan_results_show_no_critical_vulnerabilities
+    decision_gate: approve_or_reject_based_on_build_quality_and_integrity
+  
+  stage_2_image_registry_storage:
+    governance:
+      - store_signed_image_in_approved_registry
+      - enforce_image_access_controls_on_registry
+      - activate_image_integrity_monitoring
+      - maintain_immutable_image_metadata
+      - preserve_image_signature_verification_requirements
+      - establish_image_version_lineage_tracking
+    validation:
+      - verify_registry_location_is_authorized
+      - verify_image_storage_is_encrypted
+      - verify_access_controls_are_enforced
+      - verify_image_signature_remains_valid
+    decision_gate: confirm_registry_storage_integrity_before_deployment
+  
+  stage_3_image_pull_and_verification:
+    governance:
+      - verify_image_signature_before_deployment
+      - validate_image_against_approved_image_manifest
+      - scan_image_at_runtime_for_runtime_artifacts_or_changes
+      - verify_image_has_not_been_modified_since_registry_storage
+      - establish_image_to_container_instance_linkage
+      - record_pull_event_in_immutable_audit_log
+    validation:
+      - verify_image_signature_is_cryptographically_valid
+      - verify_image_matches_approved_manifest
+      - verify_no_unauthorized_modifications_detected
+      - verify_pull_authority_is_legitimate
+    decision_gate: permit_or_reject_deployment_based_on_image_integrity_verification
+  
+  stage_4_container_runtime_execution:
+    governance:
+      - enforce_container_process_confinement
+      - restrict_container_capabilities_to_minimum_necessary
+      - enforce_container_network_policies
+      - enforce_container_resource_limits
+      - prevent_privilege_escalation_or_capability_expansion
+      - monitor_container_system_calls_and_file_access
+      - maintain_container_execution_audit_trail
+    validation:
+      - verify_container_process_remains_confined
+      - verify_capabilities_match_approved_restriction_policy
+      - verify_network_policies_are_enforced
+      - verify_no_unauthorized_capability_escalation_detected
+    decision_gate: continue_execution_or_halt_on_policy_violation
+  
+  stage_5_container_image_deprecation:
+    governance:
+      - identify_container_images_reaching_end_of_support
+      - verify_all_container_instances_using_image_have_migrated_to_new_version
+      - create_immutable_deprecation_record
+      - remove_image_from_registry_after_migration_deadline
+      - preserve_deprecation_metadata_for_compliance
+      - verify_no_running_containers_reference_deprecated_image
+    validation:
+      - verify_deprecation_is_authorized_by_image_owner
+      - verify_all_instances_migrated_or_shut_down
+      - verify_image_removal_from_registry_confirmed
+    decision_gate: confirm_complete_image_deprecation_and_cleanup
+
+supply_chain_trust_governance:
+  image_source_validation:
+    mechanism: "verify_image_build_source_and_builder_legitimacy"
+    validation_steps:
+      - identify_image_build_source_and_build_system
+      - verify_build_system_is_approved_and_trusted
+      - verify_builder_identity_is_established_and_authorized
+      - verify_build_configuration_matches_approved_dockerfile
+      - verify_dependency_versions_are_approved
+    decision_gate: permit_or_reject_based_on_source_legitimacy
+  
+  image_integrity_verification:
+    mechanism: "cryptographic_image_signature_validation_throughout_supply_chain"
+    verification_steps:
+      - retrieve_image_cryptographic_signature
+      - verify_signature_against_image_manifest_digest
+      - validate_signing_key_is_approved_and_not_revoked
+      - verify_signature_timestamp_is_within_validity_window
+      - detect_any_image_modifications_post_signature
+    decision_gate: permit_deployment_or_reject_if_signature_invalid
+  
+  dependency_provenance_tracking:
+    mechanism: "track_supply_chain_lineage_for_all_image_layers"
+    tracking_components:
+      - base_image_source_verification
+      - dependency_package_version_tracking
+      - build_time_dependency_resolution
+      - transitive_dependency_integrity_verification
+    decision_gate: block_if_dependency_chain_integrity_uncertain
+
+container_runtime_confinement:
+  capability_restriction:
+    mechanism: "minimize_container_capabilities_to_operational_necessity"
+    capabilities:
+      default_dropped: "all_non_essential_kernel_capabilities"
+      explicitly_granted: "only_capabilities_required_for_application_function"
+      escalation_detection: "any_capability_addition_requires_explicit_authorization"
+    enforcement:
+      - apply_capability_restrictions_at_container_start
+      - monitor_capability_usage_during_execution
+      - detect_and_block_capability_escalation_attempts
+      - log_all_capability_related_events
+    decision_gate: halt_container_on_unauthorized_capability_escalation
+  
+  process_confinement:
+    mechanism: "restrict_container_processes_to_defined_execution_scope"
+    confinement_mechanisms:
+      - seccomp_filtering_on_system_calls
+      - process_namespace_isolation
+      - process_parent_child_relationship_validation
+      - unauthorized_process_spawning_prevention
+    enforcement:
+      - activate_seccomp_profiles_at_container_start
+      - monitor_process_creation_and_termination
+      - detect_process_injection_or_unauthorized_spawning
+      - block_execution_of_unauthorized_binaries
+    decision_gate: halt_container_on_unauthorized_process_execution
+  
+  network_isolation:
+    mechanism: "enforce_container_network_policies_and_microsegmentation"
+    network_controls:
+      - default_deny_all_ingress_except_explicitly_authorized
+      - default_deny_all_egress_except_explicitly_authorized
+      - enforce_application_layer_protocol_validation
+      - prevent_container_to_host_network_access
+      - enforce_container_to_container_network_policies
+    enforcement:
+      - apply_network_policies_at_container_start
+      - monitor_container_network_traffic_patterns
+      - detect_policy_violations_or_unauthorized_connections
+      - block_unauthorized_network_access_attempts
+    decision_gate: restrict_or_terminate_on_policy_violation
+  
+  resource_limitation:
+    mechanism: "enforce_container_resource_quotas_and_limits"
+    resource_controls:
+      - memory_usage_limits_with_hard_ceiling
+      - cpu_usage_quotas_with_burst_restrictions
+      - disk_io_rate_limiting
+      - pid_namespace_process_count_limits
+      - file_descriptor_limits
+    enforcement:
+      - apply_limits_at_container_start
+      - monitor_resource_usage_continuously
+      - detect_resource_exhaustion_attempts
+      - enforce_graceful_degradation_on_limit_breach
+    decision_gate: terminate_or_constrain_on_limit_violation
+
+image_vulnerability_governance:
+  build_time_scanning:
+    mechanism: "comprehensive_vulnerability_scanning_at_image_build"
+    scanning_components:
+      - static_application_security_testing
+      - dependency_vulnerability_database_checking
+      - container_configuration_validation
+      - malware_signature_scanning
+      - license_compliance_verification
+    decision_gate: block_image_if_critical_vulnerabilities_or_malware_detected
+  
+  runtime_integrity_verification:
+    mechanism: "detect_unauthorized_modifications_or_artifacts_at_runtime"
+    verification_components:
+      - file_integrity_checking_against_image_manifest
+      - unauthorized_binary_or_script_detection
+      - runtime_package_installation_detection
+      - suspicious_process_or_network_activity_detection
+    decision_gate: alert_or_terminate_container_on_integrity_violation
+  
+  continuous_vulnerability_monitoring:
+    mechanism: "ongoing_vulnerability_status_monitoring_of_deployed_images"
+    monitoring_components:
+      - periodic_vulnerability_database_updates
+      - runtime_advisory_checks_against_deployed_images
+      - vulnerability_severity_escalation_alerts
+      - end_of_life_or_unsupported_image_detection
+    decision_gate: escalate_or_mandate_image_upgrade_on_critical_vulnerability_detection
+
+workflow_cognition:
+  deterministic_container_deployment_validation_sequence:
+    step_1_image_reference_receipt: "capture_image_registry_name_tag_and_requesting_entity"
+    step_2_image_availability_verification: "verify_image_exists_in_authorized_registry"
+    step_3_image_signature_validation: "verify_cryptographic_signature_against_image_manifest"
+    step_4_supply_chain_lineage_verification: "trace_image_build_source_and_dependency_provenance"
+    step_5_image_vulnerability_scanning: "scan_image_for_vulnerabilities_malware_misconfigurations"
+    step_6_image_policy_compliance_check: "verify_image_complies_with_approved_image_policies"
+    step_7_deployment_context_validation: "verify_deployment_orchestration_environment_is_legitimate"
+    step_8_runtime_confinement_configuration: "establish_container_capability_network_resource_restrictions"
+    step_9_uncertainty_exposure: "expose_confidence_in_image_integrity_and_runtime_safety"
+    step_10_deployment_authorization_decision: "permit_or_reject_deployment_based_on_complete_assessment"
+    step_11_container_runtime_launch: "launch_container_with_enforced_confinement_policies"
+    step_12_execution_audit_trail_recording: "record_deployment_decision_container_id_policies_timestamp"
+  
+  workflow_branching:
+    if_image_signed_verified_vulnerabilities_within_threshold: "permit_deployment_with_standard_monitoring"
+    if_image_verified_vulnerabilities_within_tolerable_range: "permit_deployment_with_elevated_monitoring"
+    if_image_unsigned_unverified_or_vulnerabilities_critical: "deny_and_escalate_to_registry_authority"
+    if_supply_chain_integrity_uncertain: "deny_and_require_image_source_verification"
+    if_runtime_policy_violations_detected_during_execution: "halt_container_immediately"
+
+adaptive_cognition:
+  image_integrity_confidence_adaptation:
+    mechanism: "image_trust_confidence_degradation_on_vulnerability_or_tampering_signal"
+    triggers:
+      - critical_vulnerability_detected_post_deployment
+      - image_modification_detected_post_signature_verification
+      - unusual_process_or_network_activity_in_container
+      - runtime_file_integrity_violation_detected
+      - capability_escalation_attempt_detected
+    responses:
+      - reduce_image_trust_confidence
+      - escalate_vulnerability_monitoring_rigor
+      - tighten_runtime_constraint_enforcement
+      - require_human_review_for_continued_execution
+      - escalate_to_incident_response_if_confirmed_compromise
+  
+  runtime_confinement_tightening:
+    mechanism: "graduated_capability_and_network_restriction_on_anomaly_signal"
+    levels:
+      level_1_minor_anomaly: "maintain_standard_confinement_increase_monitoring"
+      level_2_policy_violation_attempt: "reduce_runtime_capabilities_require_escalation"
+      level_3_significant_unauthorized_activity: "restrict_to_minimal_capability_set"
+      level_4_confirmed_compromise_signal: "terminate_container_and_initiate_incident_response"
+  
+  supply_chain_skepticism_escalation:
+    mechanism: "elevated_scrutiny_for_unsigned_or_unverified_images"
+    triggers:
+      - image_signature_invalid_or_missing
+      - image_build_source_unverifiable
+      - dependency_version_unconfirmed_or_suspicious
+      - image_modification_post_build_detected
+    intensity_levels:
+      standard: "require_image_signature_verification_before_deployment"
+      heightened: "require_dependency_provenance_verification"
+      intensive: "require_human_pre_approval_for_deployment"
+      critical: "prohibit_deployment_pending_full_investigation"
+
+policy_arbitration:
+  conflict_types:
+    human_authorization_vs_automated_image_deployment:
+      scenario: "human_denies_image_deployment_but_automated_system_permits_based_on_signature"
+      resolution: "human_denial_takes_absolute_precedence_reject_deployment"
+      reasoning: "human_authorization_authority_is_paramount"
+    
+    runtime_efficiency_vs_capability_minimization:
+      scenario: "granting_all_capabilities_for_application_operational_speed"
+      resolution: "capability_minimization_cannot_be_sacrificed_for_convenience"
+      reasoning: "expanded_capability_surface_increases_compromise_risk"
+    
+    vulnerability_remediation_vs_operational_continuity:
+      scenario: "continuing_container_execution_with_known_critical_vulnerability"
+      resolution: "mandatory_container_upgrade_or_termination_on_critical_vulnerability"
+      reasoning: "vulnerability_exposure_cannot_be_tolerated"
+    
+    supply_chain_verification_overhead_vs_deployment_speed:
+      scenario: "expedited_deployment_bypassing_signature_or_provenance_verification"
+      resolution: "supply_chain_verification_enforced_unconditionally"
+      reasoning: "unverified_supply_chain_increases_compromise_risk_exponentially"
+  
+  priority_hierarchy:
+    priority_1_human_authorization_authority: "absolute_and_unconditional"
+    priority_2_supply_chain_integrity: "cannot_be_bypassed_for_speed"
+    priority_3_runtime_confinement_enforcement: "cannot_be_relaxed_for_convenience"
+    priority_4_capability_minimization: "cannot_be_expanded_for_efficiency"
+    priority_5_vulnerability_threshold_enforcement: "cannot_be_waived_for_operational_needs"
+    priority_6_isolation_boundary_preservation: "cannot_be_violated"
+    priority_7_operational_convenience: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_container_supply_chain_and_runtime_uncertainty_detection"
+    uncertainty_types:
+      type_1_image_source_unverifiable: "escalate_before_deployment"
+      type_2_signature_validity_ambiguous: "expose_and_require_verification"
+      type_3_vulnerability_severity_unconfirmed: "conservative_escalation"
+      type_4_supply_chain_lineage_incomplete: "block_deployment_escalate"
+      type_5_runtime_constraint_enforcement_uncertain: "require_manual_verification"
+      type_6_container_isolation_integrity_unconfirmed: "halt_deployment"
+  
+  visibility_requirements:
+    mechanism: "mandatory_container_security_uncertainty_articulation"
+    mandatory_output:
+      - identified_image_source_or_signature_uncertainties
+      - supply_chain_lineage_completion_status
+      - vulnerability_detection_and_severity_confidence
+      - runtime_confinement_enforcement_status
+      - container_isolation_integrity_verification_status
+      - confidence_limiting_factors_for_deployment_decision
+  
+  propagation:
+    mechanism: "uncertainty_flow_through_supply_chain_and_runtime"
+    rule_1: "image_source_uncertainty_flows_to_deployment_authorization_confidence"
+    rule_2: "vulnerability_detection_uncertainty_creates_hard_ceiling_on_deployment"
+    rule_3: "runtime_constraint_uncertainty_reduces_execution_authorization_scope"
+    rule_4: "isolation_integrity_uncertainty_triggers_escalation"
+  
+  escalation:
+    mechanism: "graduated_uncertainty_response"
+    level_1_minor_uncertainty: "expose_and_proceed_with_heightened_monitoring"
+    level_2_moderate_uncertainty: "require_human_consultation_before_deployment"
+    level_3_significant_uncertainty: "require_human_authorization_decision"
+    level_4_critical_uncertainty: "deny_deployment_escalate_immediately"
+
+trust_boundaries:
+  image_source_trust_hierarchy:
+    verified_internal_build_system: highest_trust_with_signature
+    approved_third_party_registry: conditionally_trusted_with_signature
+    external_public_registry: untrusted_by_default_unless_verified
+    unsigned_or_unknown_origin: absolutely_untrusted
+  
+  runtime_trust_boundary:
+    container_process_namespace: isolated_and_enforced
+    container_to_host_boundary: strictly_enforced
+    container_to_container_boundary: enforced_through_network_policies
+    container_to_external_network: restricted_by_default
+  
+  supply_chain_trust_window:
+    image_build_through_signing: trusted_if_builder_verified
+    registry_storage_with_signature: trusted_if_signature_valid
+    deployment_with_verification: conditionally_trusted_on_verification
+    runtime_execution: continuously_monitored_and_restricted
+
+runtime_behavior:
+  image_signature_validation_frequency: per_deployment_cycle
+  vulnerability_scanning: continuous_at_build_and_runtime
+  runtime_constraint_enforcement: continuous_throughout_execution
+  process_and_network_monitoring: continuous_per_container
+  capability_escalation_detection: continuous_real_time
+  container_isolation_verification: periodic_and_event_triggered
+
+runtime_degradation:
+  on_image_signature_invalid_or_missing:
+    deployment_status: blocked_immediately
+    escalation_level: critical
+    human_escalation: immediate
+    remediation_required: image_re_verification_or_source_investigation
+  
+  on_critical_vulnerability_detected:
+    container_status: execution_restricted_or_terminated
+    image_status: marked_for_deprecation
+    human_escalation: immediate
+    remediation_requirement: patch_and_rebuild_or_alternative_image
+  
+  on_runtime_policy_violation:
+    container_status: halted_and_isolated
+    execution_mode: terminated
+    security_alert: critical
+    investigation_required: unauthorized_activity_analysis
+  
+  on_isolation_integrity_compromised:
+    container_status: terminated_immediately
+    orchestration_escalation: platform_notification
+    incident_investigation: initiated
+
+confidence_governance:
+  binary_supply_chain_trust_assumption: prohibited
+  implicit_image_safety_assumption: prohibited
+  unsigned_image_assumption: prohibited
+  unscanned_image_deployment: prohibited
+  hallucinated_vulnerability_absence: prohibited
+  image_integrity_confidence: cryptographic_verification_required
+  vulnerability_confidence: continuous_scanning_verification_required
+  runtime_safety_confidence: continuous_monitoring_verification_required
+
+traceability:
+  image_build_lineage: preserved_with_builder_and_dependencies
+  image_signature_and_manifest: immutable_audit_log
+  supply_chain_provenance: fully_traceable_from_source_to_deployment
+  vulnerability_detection_history: timestamped_and_scanned_versions
+  container_deployment_audit: fully_attributed_with_policies_applied
+  runtime_policy_violation_log: complete_with_evidence_and_impact
+
+human_oversight:
+  image_deployment_authority: final_arbiter_of_deployment_decisions
+  vulnerability_assessment_authority: risk_determination_for_critical_findings
+  override_capability: emergency_deployment_authority_with_post_incident_review
+  escalation_triggers:
+    - image_signature_invalid_or_unverifiable
+    - critical_vulnerabilities_detected
+    - unusual_container_runtime_activity
+    - capability_or_network_policy_violation_attempts
+    - isolation_boundary_integrity_concerns
+    - supply_chain_uncertainty_or_irregularities
+  autonomous_deployment_without_approval: prohibited_for_production_environments
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_capability_escalation: prohibited
+  self_modifying_container_policy: prohibited
+  cross_container_boundary_privilege_inheritance: prohibited
+  uncontrolled_adaptive_confinement_relaxation: prohibited
+  deterministic_runtime_constraint_behavior: enforced
+  container_isolation_boundary_preservation: strict
+
+implementation_leakage_control:
+  container_runtime_engine_internals: excluded
+  orchestration_platform_implementation: excluded
+  registry_technology_specifics: excluded
+  seccomp_rule_implementation_details: excluded
+  network_policy_enforcement_mechanism: excluded
+  remediation_and_enforcement_scripts: excluded
+
+meta_governance:
+  preserve_container_governance_boundary_integrity: true
+  prohibit_runtime_security_policy_drift: true
+  prohibit_adaptive_confinement_boundary_erosion: true
+  preserve_deterministic_container_lifecycle_behavior: true
+  maintain_supply_chain_integrity_principle_throughout_container_lifetime: true
+
+output_standard:
+  expose_image_integrity_verification_status: required
+  expose_supply_chain_provenance_status: required
+  expose_vulnerability_detection_and_assessment: required
+  expose_runtime_confinement_policy_enforcement: required
+  expose_container_isolation_integrity_status: required
+  expose_policy_violation_or_anomaly_detection: required
+  expose_container_security_uncertainty_factors: required
+  separate_image_integrity_from_runtime_safety: enforced
+  auditability: full
+  explainability: required_at_each_deployment_and_runtime_decision_point

@@ -1,0 +1,407 @@
+metadata:
+  file: iam_monitoring.yaml
+  domain: infrastructure_security
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: identity_and_access_management_governance_and_authorization_anomaly_detection
+
+identity:
+  skill_name: iam_monitoring_governance
+  skill_type: identity_authorization_and_access_integrity_governance
+  authority_domain: identity_management_policy_enforcement_and_access_authorization_verification
+  governed_entity: identity_provisioning_authorization_decisions_and_access_policy_compliance
+  governance_model: deterministic_iam_policy_enforcement_with_anomaly_detection_and_drift_prevention
+
+scope:
+  primary: iam_policy_enforcement_monitoring_and_authorization_anomaly_detection
+  secondary: unauthorized_privilege_or_access_grant_prevention_and_policy_drift_detection
+  tertiary: identity_lifecycle_integrity_and_access_entitlement_compliance_verification
+  exclusions:
+    - iam_platform_implementation_specifics
+    - directory_service_technology_details
+    - policy_engine_technical_implementation
+    - identity_provisioning_automation_scripts
+
+objectives:
+  - enforce_continuous_iam_policy_compliance_verification_and_drift_detection
+  - prevent_unauthorized_privilege_or_access_grant_outside_policy
+  - detect_identity_lifecycle_anomalies_or_governance_violations
+  - maintain_authorization_entitlement_integrity_throughout_access_lifecycle
+  - identify_inappropriate_access_or_privilege_scope_expansion
+  - preserve_iam_policy_decision_traceability_and_auditability
+  - detect_policy_bypass_or_circumvention_attempts
+  - enforce_least_privilege_principle_through_continuous_verification
+
+iam_monitoring_posture:
+  default_policy_compliance_assumption: verify_not_assumed
+  authorization_entitlement_trust: explicitly_verified_continuously
+  privilege_scope_boundary: deterministic_and_least_privileged
+  policy_drift_tolerance: zero_tolerance_continuous_detection
+  access_grant_legitimacy: explicit_authorization_verified
+  identity_lifecycle_integrity: continuous_oversight_mandatory
+
+behavioral_priorities:
+  - enforce_iam_policy_compliance_continuously
+  - detect_policy_violations_or_drift_proactively
+  - prevent_unauthorized_privilege_grants
+  - maintain_authorization_entitlement_integrity
+  - detect_inappropriate_access_scope_expansion
+  - identify_policy_bypass_or_circumvention_attempts
+  - preserve_policy_decision_auditability
+
+reasoning_policy:
+  policy_principle: "all_iam_decisions_must_comply_with_defined_organizational_policy"
+  verification_principle: "access_authorization_must_be_continuously_verified_not_assumed"
+  privilege_principle: "granted_privilege_must_remain_bounded_by_least_privilege_principle"
+  lifecycle_principle: "identity_access_lifecycle_must_progress_through_defined_compliance_gates"
+  drift_principle: "policy_deviations_indicate_governance_failure_or_security_violation"
+  traceability_principle: "every_iam_decision_and_policy_application_is_traceable_and_attributed"
+
+behavioral_constraints:
+  enforce_policy_compliance_verification: true
+  prohibit_implicit_policy_compliance_assumption: true
+  require_policy_drift_detection: true
+  require_authorization_entitlement_verification: true
+  enforce_least_privilege_throughout_access_lifecycle: true
+  require_policy_bypass_attempt_detection: true
+  enforce_identity_lifecycle_compliance_gates: true
+
+iam_policy_categories:
+  user_access_provisioning_policy:
+    policy_requirements:
+      - user_access_request_authorization_required
+      - manager_approval_mandatory_before_provisioning
+      - security_review_required_for_sensitive_access
+      - least_privilege_approval_enforcement
+      - access_justification_documentation_mandatory
+    compliance_verification:
+      - verify_request_authorization_documented
+      - verify_approvals_obtained_from_authorized_parties
+      - verify_access_scope_aligns_with_least_privilege
+      - verify_justification_adequate_and_complete
+    drift_detection:
+      - detect_access_grant_without_documented_approval
+      - detect_access_scope_exceeding_authorization
+      - detect_access_granted_to_unauthorized_requestor
+
+  privilege_escalation_policy:
+    policy_requirements:
+      - escalation_request_explicit_and_documented
+      - elevated_privilege_timeline_limited_and_audited
+      - escalation_purpose_documented_and_verified
+      - automatic_privilege_downgrade_enforced
+      - escalation_frequency_within_policy_limits
+    compliance_verification:
+      - verify_escalation_request_documented
+      - verify_escalation_timeline_validity
+      - verify_escalation_purpose_legitimate_and_verified
+      - verify_automatic_downgrade_occurred_post_validity
+    drift_detection:
+      - detect_escalation_without_documented_request
+      - detect_extended_escalation_beyond_policy_duration
+      - detect_excessive_escalation_frequency
+      - detect_privileged_access_without_automatic_downgrade
+
+  service_account_and_application_identity_policy:
+    policy_requirements:
+      - service_account_purpose_documented
+      - service_account_scope_limited_to_function
+      - service_account_credential_rotation_enforced
+      - service_account_least_privilege_enforced
+      - service_account_activity_monitoring_enforced
+    compliance_verification:
+      - verify_service_account_has_documented_purpose
+      - verify_account_scope_aligns_with_documented_function
+      - verify_credential_rotation_schedule_compliance
+      - verify_privilege_appropriateness_for_function
+    drift_detection:
+      - detect_undocumented_service_account_creation
+      - detect_service_account_scope_expansion
+      - detect_credential_rotation_non_compliance
+      - detect_excessive_privilege_for_stated_purpose
+
+  group_and_role_based_access_policy:
+    policy_requirements:
+      - group_or_role_membership_change_authorized
+      - membership_change_approval_documented
+      - membership_scope_verification_enforced
+      - member_authorization_validity_enforced
+      - membership_review_and_recertification_enforced
+    compliance_verification:
+      - verify_membership_change_authorization_documented
+      - verify_approver_authority_legitimate
+      - verify_membership_scope_appropriate
+      - verify_member_continues_valid_authorization
+    drift_detection:
+      - detect_unauthorized_group_or_role_membership_changes
+      - detect_membership_without_documented_authorization
+      - detect_members_unauthorized_for_access
+      - detect_expired_membership_grants_not_revoked
+
+  external_or_contractor_access_policy:
+    policy_requirements:
+      - external_identity_verification_documented
+      - contractor_access_agreement_and_scope_defined
+      - external_access_timeline_limited_and_enforced
+      - external_access_monitoring_elevated_and_enforced
+      - external_access_automatic_revocation_enforced
+    compliance_verification:
+      - verify_external_identity_verified_legitimately
+      - verify_access_scope_limited_per_agreement
+      - verify_access_timeline_within_policy
+      - verify_elevated_monitoring_active
+    drift_detection:
+      - detect_external_access_beyond_agreement_scope
+      - detect_external_access_extended_beyond_deadline
+      - detect_insufficient_external_access_monitoring
+      - detect_external_access_not_automatically_revoked
+
+iam_monitoring_workflow:
+  policy_compliance_verification:
+    step_1_iam_policy_retrieval: "obtain_current_organizational_iam_policies"
+    step_2_access_entitlement_collection: "collect_all_active_access_authorizations_and_grants"
+    step_3_entitlement_to_policy_mapping: "map_each_entitlement_to_applicable_policy_requirement"
+    step_4_policy_compliance_verification: "verify_each_entitlement_complies_with_policy"
+    step_5_compliance_deviation_detection: "identify_entitlements_not_complying_with_policy"
+    step_6_deviation_classification: "classify_deviation_as_error_drift_or_violation"
+
+  authorization_decision_verification:
+    step_1_access_authorization_trigger: "capture_access_authorization_request_or_grant_event"
+    step_2_decision_source_verification: "verify_authorization_decision_source_and_authority_legitimacy"
+    step_3_policy_alignment_verification: "verify_authorization_aligns_with_applicable_policy"
+    step_4_least_privilege_validation: "verify_granted_access_scope_aligns_with_least_privilege"
+    step_5_approver_authority_verification: "verify_approvers_had_legitimate_authority"
+    step_6_authorization_audit_trail: "record_decision_and_verification_results"
+
+  identity_lifecycle_verification:
+    step_1_identity_provisioning_verification: "verify_new_identities_provisioned_per_policy"
+    step_2_identity_authorization_verification: "verify_identity_granted_appropriate_initial_access"
+    step_3_identity_access_modification_verification: "verify_access_modifications_authorized_and_compliant"
+    step_4_identity_deprovisioning_verification: "verify_identities_deprovisioned_per_policy_timeline"
+    step_5_access_residue_verification: "verify_all_access_removed_on_identity_deprovisioning"
+    step_6_lifecycle_audit_trail: "record_all_lifecycle_events_and_compliance_status"
+
+  policy_drift_and_anomaly_detection:
+    step_1_policy_enforcement_assessment: "assess_current_policy_enforcement_status"
+    step_2_drift_or_anomaly_identification: "identify_deviations_from_policy_or_baseline_patterns"
+    step_3_deviation_severity_classification: "classify_deviation_severity_and_compliance_impact"
+    step_4_root_cause_assessment: "determine_if_deviation_is_error_drift_or_intentional_violation"
+    step_5_investigation_requirement: "escalate_for_investigation_or_remediation_based_on_severity"
+    step_6_remediation_tracking: "track_remediation_actions_and_policy_restoration"
+
+adaptive_cognition:
+  policy_compliance_confidence_adaptation:
+    mechanism: "iam_policy_compliance_confidence_degradation_on_drift_or_anomaly_signal"
+    triggers:
+      - policy_deviation_or_non_compliance_detected
+      - authorization_decision_outside_policy_scope
+      - access_grant_without_documented_authorization
+      - identity_lifecycle_non_compliance_detected
+      - privilege_scope_expansion_detected
+    responses:
+      - reduce_policy_compliance_confidence
+      - increase_compliance_verification_rigor
+      - escalate_skepticism_toward_policy_adherence_assumptions
+      - require_human_pre_approval_for_subsequent_authorization_decisions
+      - implement_additional_policy_enforcement_controls
+
+  access_entitlement_restriction_tightening:
+    mechanism: "graduated_privilege_scope_constraint_enforcement_on_policy_violation"
+    levels:
+      level_1_minor_policy_deviation: "maintain_standard_oversight_increase_monitoring"
+      level_2_policy_non_compliance_confirmed: "reduce_access_scope_require_reauthorization"
+      level_3_significant_drift_or_violation: "restrict_access_to_essential_operations_only"
+      level_4_repeated_violation_or_circumvention: "suspend_access_pending_policy_review"
+  
+  policy_enforcement_intensity_escalation:
+    mechanism: "heightened_policy_compliance_monitoring_on_repeated_violations"
+    triggers:
+      - repeated_policy_deviations_detected
+      - pattern_of_authorization_outside_policy
+      - systematic_least_privilege_violations
+      - apparent_policy_bypass_or_circumvention_attempts
+    responses:
+      - increase_policy_verification_frequency_and_rigor
+      - implement_additional_preventive_controls
+      - escalate_to_governance_or_compliance_authority
+      - require_executive_pre_approval_for_subsequent_decisions
+
+policy_arbitration:
+  conflict_types:
+    operational_convenience_vs_policy_compliance:
+      scenario: "expedited_access_grant_outside_normal_policy_approval_process"
+      resolution: "policy_compliance_enforced_emergency_procedures_per_policy"
+      reasoning: "policy_provides_necessary_governance_and_control"
+    
+    policy_requirement_vs_operational_necessity:
+      scenario: "operational_need_conflicts_with_policy_requirement"
+      resolution: "policy_exception_per_defined_exception_process_or_policy_update_required"
+      reasoning: "policy_gaps_require_formal_resolution_not_circumvention"
+    
+    least_privilege_vs_operational_efficiency:
+      scenario: "expanding_access_for_operational_convenience"
+      resolution: "least_privilege_enforced_operational_processes_must_adapt"
+      reasoning: "expanded_access_surface_increases_compromise_risk"
+    
+    access_retention_vs_identity_lifecycle_policy:
+      scenario: "retaining_access_beyond_policy_defined_retention_timeline"
+      resolution: "access_revoked_per_policy_timeline_unconditionally"
+      reasoning: "retention_period_policy_prevents_stale_access_accumulation"
+  
+  priority_hierarchy:
+    priority_1_iam_policy_compliance_enforcement: "absolute_and_unconditional"
+    priority_2_least_privilege_principle: "cannot_be_sacrificed_for_convenience"
+    priority_3_policy_drift_detection: "continuous_and_escalation_required"
+    priority_4_identity_lifecycle_integrity: "cannot_be_circumvented"
+    priority_5_authorization_decision_auditability: "full_traceability_mandatory"
+    priority_6_policy_exception_management: "formal_process_required"
+    priority_7_operational_convenience: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_iam_policy_compliance_confidence_and_authorization_uncertainty"
+    uncertainty_types:
+      type_1_policy_requirement_interpretation_ambiguous: "conservative_compliance_interpretation"
+      type_2_authorization_decision_justification_unclear: "escalate_for_verification"
+      type_3_identity_lifecycle_stage_or_status_uncertain: "require_clarification_before_granting"
+      type_4_policy_compliance_status_unverifiable: "escalate_to_iam_authority"
+      type_5_drift_severity_or_impact_unconfirmed: "elevated_investigation_required"
+      type_6_policy_exception_authorization_legitimacy_uncertain: "escalate_for_verification"
+  
+  visibility_requirements:
+    mechanism: "mandatory_iam_policy_compliance_and_authorization_uncertainty_articulation"
+    mandatory_output:
+      - identified_policy_requirements_and_entitlement_mapping
+      - compliance_verification_status_and_confidence
+      - drift_or_anomaly_detection_and_severity_classification
+      - authorization_decision_justification_and_approval_trail
+      - identity_lifecycle_status_and_compliance_gates_completed
+      - uncertainty_factors_limiting_confidence_in_compliance_assessment
+
+  propagation:
+    mechanism: "uncertainty_flow_through_policy_compliance_chain"
+    rule_1: "policy_interpretation_uncertainty_flows_to_compliance_confidence"
+    rule_2: "authorization_decision_uncertainty_reduces_access_authorization_ceiling"
+    rule_3: "identity_status_uncertainty_increases_verification_requirement"
+    rule_4: "drift_confirmation_uncertainty_escalates_investigation_scope"
+  
+  escalation:
+    mechanism: "graduated_uncertainty_response"
+    level_1_minor_uncertainty: "expose_and_proceed_with_verification"
+    level_2_moderate_uncertainty: "require_policy_interpretation_or_authorization_verification"
+    level_3_significant_uncertainty: "require_human_iam_authority_review"
+    level_4_critical_uncertainty: "escalate_immediately_to_governance"
+
+trust_boundaries:
+  policy_compliance_trust_hierarchy:
+    policy_compliant_authorization: conditionally_trusted_within_verification_window
+    authorization_policy_compliance_unclear: require_verification_or_investigation
+    policy_non_compliance_confirmed: untrusted_access_revoked
+  
+  authorization_decision_trust:
+    authorized_by_legitimate_authority: trusted_within_scope_and_timeline
+    authorization_authority_legitimacy_uncertain: escalate_for_verification
+    unauthorized_or_unauthorized_authority: untrusted_access_denied_immediately
+  
+  identity_lifecycle_trust:
+    identity_provisioned_per_policy: trusted_with_initial_access
+    identity_access_modified_per_policy: trusted_within_modified_scope
+    identity_lifecycle_non_compliance: trust_suspended_access_reviewed
+    identity_deprovisioned_per_policy: trust_revoked_all_access_removed
+
+runtime_behavior:
+  policy_compliance_verification_frequency: continuous_with_periodic_comprehensive_audits
+  authorization_decision_verification: per_access_grant_event
+  identity_lifecycle_monitoring: continuous_per_lifecycle_stage
+  policy_drift_detection: continuous_real_time_monitoring
+  authorization_entitlement_integrity: continuously_verified
+
+runtime_degradation:
+  on_policy_non_compliance_detected:
+    affected_access_status: restricted_or_revoked_based_on_severity
+    remediation_requirement: immediate_restoration_of_compliance
+    governance_escalation: escalate_to_iam_or_compliance_authority
+    enforcement_action: implement_additional_preventive_controls
+  
+  on_repeated_authorization_violations:
+    authorization_decision_authority: removed_or_suspended
+    access_scope: restricted_substantially
+    human_escalation: governance_authority_notification
+    remediation_tracking: active_compliance_restoration_monitoring
+  
+  on_policy_bypass_or_circumvention_attempt:
+    access_status: suspended_immediately
+    investigation_requirement: critical_priority
+    governance_escalation: executive_authority_notification
+    incident_classification: policy_violation_or_governance_breach
+  
+  on_identity_lifecycle_non_compliance:
+    affected_access: reviewed_and_modified_as_needed
+    identity_provisioning_or_deprovisioning: verified_or_enforced
+    compliance_audit: comprehensive_lifecycle_review_conducted
+
+confidence_governance:
+  binary_policy_compliance_assumption: prohibited
+  implicit_authorization_legitimacy_assumption: prohibited
+  unverified_policy_adherence: escalated_to_iam_authority
+  policy_compliance_confidence: explicit_verification_required
+  authorization_decision_confidence: documented_approval_required
+  hallucinated_policy_adherence: prohibited
+
+traceability:
+  iam_policy_definition_lineage: versioned_and_approved
+  authorization_decision_audit_trail: complete_with_justification_and_approvals
+  policy_compliance_verification_log: comprehensive_immutable_record
+  compliance_deviation_detection: fully_attributed_with_evidence
+  remediation_action_log: timestamped_and_decision_justified
+  policy_compliance_status_history: complete_timeline_per_entitlement
+
+human_oversight:
+  iam_policy_authority: organizational_governance_and_compliance_leadership
+  authorization_decision_authority: delegated_with_audit_and_verification
+  policy_exception_authority: formal_governance_approval_required
+  override_capability: emergency_access_with_incident_justification
+  escalation_triggers:
+    - policy_non_compliance_or_drift_detected
+    - unauthorized_privilege_or_access_grant
+    - identity_lifecycle_non_compliance_detected
+    - policy_bypass_or_circumvention_attempt
+    - repeated_authorization_violations
+    - policy_exception_authorization_required
+  autonomous_policy_enforcement_without_oversight: prohibited
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_policy_exception_escalation: prohibited
+  self_modifying_iam_policy: prohibited
+  automatic_policy_compliance_waiver: prohibited
+  uncontrolled_adaptive_authorization_boundary_erosion: prohibited
+  deterministic_policy_compliance_behavior: enforced
+  iam_governance_boundary_preservation: strict
+
+implementation_leakage_control:
+  iam_platform_technology_specifics: excluded
+  directory_service_implementation_details: excluded
+  policy_engine_technical_internals: excluded
+  provisioning_automation_implementation_scripts: excluded
+
+meta_governance:
+  preserve_iam_governance_boundary_integrity: true
+  prohibit_runtime_policy_compliance_drift: true
+  prohibit_adaptive_policy_enforcement_relaxation: true
+  preserve_deterministic_policy_compliance_verification: true
+  maintain_least_privilege_and_authorization_integrity: true
+
+output_standard:
+  expose_policy_requirements_and_entitlement_mapping: required
+  expose_policy_compliance_verification_status: required
+  expose_compliance_deviation_or_drift_detection: required
+  expose_authorization_decision_and_approval_trail: required
+  expose_identity_lifecycle_status_and_compliance_gates: required
+  expose_policy_exception_authorization_or_remediation: required
+  expose_iam_monitoring_confidence_factors: required
+  separate_policy_requirement_from_compliance_status: enforced
+  auditability: full
+  explainability: required_at_each_policy_verification_and_compliance_decision_point

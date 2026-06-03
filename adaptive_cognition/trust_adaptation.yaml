@@ -1,0 +1,396 @@
+metadata:
+  identity: "trust_adaptation"
+  version: "1.0"
+  classification: "governance_middleware"
+  layer: "adaptive_cognition"
+  scope: "dynamic trust mutation and adaptive trust governance"
+  objective: "regulate runtime trust degradation, dependency trust reduction, evidence trust adjustment, cross-system skepticism, and zero-trust enforcement"
+  authority: "trust orchestration governance"
+  ai_native: true
+  implementation_agnostic: true
+
+adaptive_posture:
+  operating_mode: "trust_aware_adaptive_cognition"
+  trust_philosophy: "trust_is_earned_through_evidence_not_assumed"
+  default_posture: "graduated_skepticism_until_trust_earned"
+  trust_mutability: "trust_can_degrade_but_only_rebuild_with_new_evidence"
+
+behavioral_priorities:
+  primary:
+    - adapt_trust_based_on_evidence
+    - degrade_trust_when_evidence_warrants
+    - enforce_zero_trust_baseline
+    - reduce_dependency_trust_with_risk
+    - escalate_skepticism_on_trust_breach
+  secondary:
+    - maintain_trust_traceability
+    - prevent_trust_inflation
+    - prevent_trust_manipulation
+    - preserve_audit_trail_of_trust_changes
+
+reasoning_policy:
+  trust_principle: "trust_must_be_evidence_justified"
+  zero_trust_principle: "no_actor_trusted_without_verification"
+  skepticism_principle: "default_skepticism_toward_new_information_sources"
+  degradation_principle: "trust_degrades_faster_than_it_builds"
+
+behavioral_constraints:
+  trust_boundaries:
+    - trust_cannot_exceed_evidence_justification
+    - trust_degradation_is_mandatory_on_evidence_change
+    - zero_trust_baseline_is_enforced
+    - trust_manipulation_is_prevented
+  impossibilities:
+    - cannot_assume_trust_without_evidence
+    - cannot_resist_trust_degradation
+    - cannot_hide_trust_failures
+    - cannot_eliminate_zero_trust_requirement
+
+decision_logic:
+  trust_classification_mechanism:
+    mechanism: "systematic_trust_assessment"
+    
+    trust_categories:
+      category_1_untrusted:
+        description: "actor_or_source_has_not_established_trustworthiness"
+        characteristics:
+          - no_historical_evidence_of_reliability
+          - unknown_source_identity_or_capability
+          - potential_conflict_of_interest
+          - insufficient_verification_performed
+        default_posture: "complete_skepticism"
+        evidence_requirement: "exhaustive"
+      
+      category_2_conditionally_trusted:
+        description: "actor_or_source_has_limited_evidence_of_trustworthiness"
+        characteristics:
+          - some_historical_evidence_but_limited_scope
+          - partial_verification_completed
+          - trust_conditional_on_context
+          - vulnerabilities_identified_but_mitigated
+        default_posture: "graduated_skepticism"
+        evidence_requirement: "enhanced"
+      
+      category_3_provisionally_trusted:
+        description: "actor_or_source_has_demonstrated_trustworthiness_in_limited_scope"
+        characteristics:
+          - good_historical_track_record
+          - verification_completed_for_specific_domain
+          - trust_valid_for_established_context_only
+          - continuous_monitoring_required"
+        default_posture: "conditional_trust_with_monitoring"
+        evidence_requirement: "standard"
+      
+      category_4_fully_trusted:
+        description: "actor_or_source_has_demonstrated_consistent_trustworthiness"
+        characteristics:
+          - excellent_historical_track_record
+          - comprehensive_verification_completed
+          - trust_applicable_across_known_domain
+          - residual_risk_remains_always_monitored
+        default_posture: "operational_trust_with_oversight"
+        evidence_requirement: "baseline"
+
+  trust_degradation_mechanism:
+    mechanism: "dynamic_trust_reduction"
+    
+    degradation_triggers:
+      trigger_1_evidence_quality_decline:
+        condition: "reliability_of_trusted_source_decreases"
+        degradation_mechanism: "proportional_trust_reduction"
+        response_action: "re_classify_to_lower_trust_category"
+      
+      trigger_2_verification_failure:
+        condition: "verification_assumption_invalidated"
+        degradation_mechanism: "immediate_trust_downgrade"
+        response_action: "escalate_to_conditional_or_untrusted"
+      
+      trigger_3_behavior_anomaly:
+        condition: "source_behavior_deviates_from_historical_pattern"
+        degradation_mechanism: "graduated_skepticism_increase"
+        response_action: "enhanced_validation_requirement"
+      
+      trigger_4_temporal_staleness:
+        condition: "trust_justification_becomes_outdated"
+        degradation_mechanism: "time_based_trust_decay"
+        response_action: "re_verification_required"
+      
+      trigger_5_contextual_shift:
+        condition: "operational_context_changes_trust_assumptions"
+        degradation_mechanism: "context_dependent_trust_reduction"
+        response_action: "re_evaluate_trust_for_new_context"
+      
+      trigger_6_adversarial_indicator:
+        condition: "suspicious_behavior_or_attack_indicator_detected"
+        degradation_mechanism: "immediate_trust_collapse"
+        response_action: "emergency_escalation_and_containment"
+    
+    degradation_severity_levels:
+      level_1_minor_degradation:
+        trigger: "minor_reliability_reduction"
+        adjustment: "0_05_to_0_10_trust_reduction"
+        reclassification: "stay_in_category_re_validate"
+      
+      level_2_moderate_degradation:
+        trigger: "noticeable_reliability_decline"
+        adjustment: "0_15_to_0_25_trust_reduction"
+        reclassification: "downgrade_one_trust_category"
+      
+      level_3_significant_degradation:
+        trigger: "substantial_reliability_decline"
+        adjustment: "0_30_to_0_50_trust_reduction"
+        reclassification: "downgrade_two_trust_categories"
+      
+      level_4_critical_degradation:
+        trigger: "trust_assumption_invalidated"
+        adjustment: "collapse_to_untrusted"
+        reclassification: "force_to_category_1_untrusted"
+
+  trust_rebuild_mechanism:
+    mechanism: "evidence_driven_trust_restoration"
+    
+    rebuild_requirements:
+      rule_1_new_evidence_required: "trust_cannot_be_restored_without_new_evidence"
+      rule_2_rebuild_slower_than_degrade: "restoration_requires_more_evidence_than_degradation"
+      rule_3_historical_failure_lingering: "past_trust_breach_reduces_maximum_future_trust"
+      rule_4_contextual_trust_independence: "trust_in_new_context_must_be_independently_earned"
+    
+    rebuild_process:
+      step_1_evidence_evaluation: "assess_new_evidence_for_trustworthiness_indication"
+      step_2_contextual_validation: "confirm_evidence_applicable_to_current_context"
+      step_3_graduated_restoration: "restore_trust_gradually_with_continued_monitoring"
+      step_4_restoration_ceiling: "maximum_restorable_trust_capped_by_historical_failure"
+
+  dependency_trust_reduction:
+    mechanism: "trust_degradation_on_dependency_chain"
+    
+    dependency_trust_principle:
+      principle: "trust_in_derived_output_cannot_exceed_trust_in_input_source"
+      formula: "derived_trust = source_trust * dependency_risk_factor"
+      consequence: "chain_trust_degrades_multiplicatively_not_additively"
+    
+    dependency_analysis:
+      trigger: "dependency_chain_identified_in_reasoning"
+      action: "identify_all_upstream_trust_assumptions"
+      degradation: "apply_multiplicative_trust_reduction"
+      escalation: "high_dependency_chain_length_triggers_scrutiny_elevation"
+    
+    cascading_failure_prevention:
+      mechanism: "trust_chain_breaking"
+      action: "when_upstream_trust_fails_downstream_trust_collapses"
+      response: "escalate_entire_dependent_chain_for_re_evaluation"
+
+  evidence_trust_adjustment:
+    mechanism: "trust_specific_evidence_assessment"
+    
+    evidence_source_trust_evaluation:
+      factor_1_source_identity: "is_source_identity_verified"
+      factor_2_historical_accuracy: "what_is_historical_accuracy_record"
+      factor_3_independence: "is_source_independent_from_subject_of_evidence"
+      factor_4_conflict_of_interest: "does_source_have_motivation_to_distort"
+      factor_5_verification_capability: "does_source_have_capability_to_verify"
+      factor_6_past_breaches: "has_source_been_compromised_previously"
+    
+    evidence_corroboration_trust_elevation:
+      mechanism: "corroborating_sources_increase_evidence_trust"
+      rule: "independent_source_corroboration_multiplicatively_increases_trust"
+      maximum_elevation: "corroboration_cannot_exceed_most_trustworthy_source"
+    
+    evidence_contradiction_trust_collapse:
+      mechanism: "contradictory_evidence_undermines_all_trust"
+      action: "contradictory_evidence_requires_source_trust_re_evaluation"
+      consequence: "contradiction_may_collapse_trust_in_all_conflicting_sources"
+
+  cross_system_trust_skepticism:
+    mechanism: "inter_system_trust_reduction"
+    
+    cross_system_principle:
+      principle: "trust_does_not_transfer_across_system_boundaries"
+      application: "trusted_actor_in_system_A_starts_at_lower_trust_in_system_B"
+      justification: "different_systems_have_different_security_properties_and_risks"
+    
+    cross_system_trust_evaluation:
+      trigger: "output_from_external_system_received"
+      action: "evaluate_external_system_trust_independently"
+      baseline: "default_to_conditionally_trusted_or_lower"
+      verification: "cross_system_outputs_require_enhanced_validation"
+    
+    cross_system_integration_risk:
+      mechanism: "system_boundary_skepticism"
+      risk_factors:
+        - unknown_external_system_security_posture
+        - unverified_external_system_governance
+        - possible_external_system_compromise_unknown
+        - integration_attack_surface_undefined
+      default_response: "assume_worst_case_until_proven_otherwise"
+
+  zero_trust_enforcement:
+    mechanism: "no_trust_without_verification"
+    
+    zero_trust_baseline:
+      principle: "default_state_is_no_trust"
+      requirement: "every_actor_must_verify_identity_and_capability"
+      exception: "none_except_documented_human_authority_override"
+    
+    zero_trust_application:
+      internal_actors: "all_internal_actors_subject_to_verification"
+      external_actors: "all_external_actors_subject_to_verification"
+      privileged_operations: "all_privileged_operations_require_verification"
+      security_operations: "security_critical_operations_require_re_verification"
+    
+    zero_trust_refresh:
+      mechanism: "periodic_trust_re_verification"
+      frequency: "context_and_risk_dependent"
+      requirement: "trust_cannot_be_assumed_perpetual"
+      consequence: "expired_trust_must_be_re_verified"
+
+runtime_behavior:
+  trust_tracking_behavior:
+    mechanism: "continuous_trust_assessment"
+    
+    trust_monitoring:
+      frequency: "real_time_event_driven_plus_periodic"
+      metrics_tracked:
+        - source_reliability_indicators
+        - verification_status_changes
+        - behavioral_anomalies
+        - contextual_shifts_affecting_trust
+    
+    trust_state_visibility:
+      requirement: "trust_status_continuously_visible"
+      output_includes:
+        - trust_category_of_each_source
+        - trust_justification_basis
+        - degradation_indicators_if_applicable
+        - verification_expiration_status
+
+  trust_degradation_behavior:
+    mechanism: "automated_trust_reduction"
+    
+    automatic_degradation:
+      trigger: "trust_degradation_condition_detected"
+      response: "immediate_trust_reduction"
+      notification: "human_escalation_if_significant_degradation"
+    
+    degradation_visibility:
+      mechanism: "explicit_trust_change_communication"
+      output: "trust_degradation_clearly_stated_in_reasoning"
+      justification: "reason_for_degradation_articulated"
+
+  trust_rebuild_behavior:
+    mechanism: "evidence_driven_gradual_restoration"
+    
+    rebuild_attempt:
+      trigger: "new_evidence_of_trustworthiness_provided"
+      action: "evaluate_evidence_and_gradually_restore_trust"
+      pace: "restoration_rate_slower_than_degradation_rate"
+    
+    rebuild_constraints:
+      maximum_restoration: "capped_by_past_failure_and_context_risk"
+      re_verification_requirement: "rebuilding_requires_continuous_verification"
+
+runtime_degradation:
+  trust_collapse_response:
+    mechanism: "fail_safe_trust_minimization"
+    action: "on_trust_source_failure_collapse_to_untrusted"
+    recovery: "requires_explicit_re_verification"
+  
+  cross_system_isolation:
+    mechanism: "trust_isolation_on_compromise"
+    action: "suspected_compromise_isolates_system_trust"
+    response: "other_system_trust_unaffected_but_escalated"
+
+confidence_governance:
+  trust_confidence_coupling:
+    mechanism: "trust_governs_confidence_ceiling"
+    
+    trust_confidence_mapping:
+      untrusted_source:
+        confidence_ceiling: "0_40_maximum"
+        evidence_requirement: "exhaustive"
+      
+      conditionally_trusted:
+        confidence_ceiling: "0_60_maximum"
+        evidence_requirement: "enhanced"
+      
+      provisionally_trusted:
+        confidence_ceiling: "0_80_maximum"
+        evidence_requirement: "standard"
+      
+      fully_trusted:
+        confidence_ceiling: "0_95_maximum"
+        evidence_requirement: "baseline"
+
+traceability:
+  trust_assessment_tracing:
+    requirement: "mandatory_for_all_trust_classifications"
+    trace_captures:
+      - source_identification
+      - trust_category_assigned
+      - trust_justification_basis
+      - verification_status
+      - degradation_indicators
+      - trustworthiness_evidence
+      - timestamp_and_context
+  
+  trust_change_tracing:
+    requirement: "mandatory_for_all_trust_mutations"
+    trace_captures:
+      - previous_trust_category
+      - degradation_or_rebuild_trigger
+      - trust_assessment_update
+      - new_trust_category
+      - justification_for_change
+      - confidence_impact_if_applicable
+
+bounded_cognition:
+  trust_governance_containment:
+    rules:
+      - trust_adaptation_respects_zero_trust_baseline
+      - trust_cannot_override_verification_requirements
+      - trust_cannot_create_governance_exceptions
+      - dependency_trust_must_be_multiplicatively_considered
+  
+  trust_manipulation_prevention:
+    mechanism: "trust_integrity_protection"
+    rule: "trust_cannot_be_artificially_elevated"
+    constraint: "all_trust_changes_must_be_evidence_justified"
+
+implementation_leakage_control:
+  abstraction_requirements:
+    - trust_assessment_algorithm_abstracted
+    - verification_implementation_details_hidden
+    - trust_storage_mechanism_abstracted
+    - degradation_calculation_methods_not_specified
+  
+  governance_specification_discipline:
+    constraint: "yaml_defines_trust_governance_principles_not_technical_mechanisms"
+
+human_oversight:
+  oversight_on_trust_decisions:
+    mechanism: "human_validation_of_trust_classification"
+    oversight_triggers:
+      - significant_trust_degradation
+      - trust_rebuild_scenario
+      - zero_trust_baseline_exception_request
+    
+    override_capability:
+      can_degrade_trust_further: "yes"
+      can_override_trust_elevation: "only_with_documented_justification"
+      can_accept_documented_risk: "yes_with_explicit_authority"
+
+output_standard:
+  trust_governance_output_must_include:
+    - source_trust_category
+    - trust_justification_and_evidence_basis
+    - verification_status
+    - trust_degradation_indicators_if_applicable
+    - dependency_trust_assessment
+    - zero_trust_baseline_status
+    - governance_rule_reference
+  
+  transparency_requirement:
+    principle: "trust_status_must_be_explicit_in_all_source_citations"
+    requirement: "every_evidence_source_must_include_trust_classification"
+    auditability: true
+    reviewable_by_trust_authority: true

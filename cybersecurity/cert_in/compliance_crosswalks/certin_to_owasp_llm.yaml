@@ -1,0 +1,273 @@
+
+metadata:
+  schema_version: "1.0"
+  crosswalk_name: CERT_IN_to_OWASP_LLM_Alignment
+  primary_framework: CERT_IN
+  secondary_framework: OWASP_LLM_Top_10
+  category: ai_runtime_security_alignment
+  criticality: critical
+  interoperability_domain: ai_security_governance
+  operational_scope: enterprise_ai_runtime_governance
+  governance_model: ai_interoperability_cognition
+
+crosswalk_posture:
+  preserve_llm_runtime_visibility: true
+  require_ai_attack_surface_awareness: true
+  prioritize_prompt_traceability: true
+  preserve_autonomous_execution_visibility: true
+  preserve_runtime_interoperability_awareness: true
+  require_alignment_confidence_visibility: true
+  prioritize_stricter_control_interpretation: true
+  prohibit_implicit_framework_equivalence: true
+  preserve_cross_framework_runtime_integrity: true
+  preserve_model_behavior_observability: true
+
+crosswalk_controls:
+
+  prompt_security:
+    cert_in_reference:
+      ai_runtime_monitoring: true
+      threat_detection: true
+
+    owasp_llm_reference:
+      prompt_injection_detection: true
+      jailbreak_detection: true
+
+    alignment:
+      operational_overlap: true
+      legal_equivalence: false
+      runtime_dependency: true
+      evidence_reusability: true
+
+    operational_mapping:
+      prompt_validation: true
+      adversarial_input_detection: true
+      inference_behavior_analysis: true
+      runtime_threat_visibility: true
+
+  autonomous_agents:
+    cert_in_reference:
+      runtime_containment: true
+      operational_supervision: true
+
+    owasp_llm_reference:
+      excessive_agency_monitoring: true
+      tool_abuse_detection: true
+
+    alignment:
+      operational_overlap: true
+      legal_equivalence: false
+      runtime_dependency: true
+      evidence_reusability: true
+
+    operational_mapping:
+      agent_execution_visibility: true
+      permission_boundary_validation: true
+      autonomous_workflow_monitoring: true
+      runtime_constraint_validation: true
+
+  model_behavior:
+    cert_in_reference:
+      runtime_security_monitoring: true
+      anomaly_detection: true
+
+    owasp_llm_reference:
+      sensitive_information_disclosure: true
+      insecure_output_handling: true
+
+    alignment:
+      operational_overlap: true
+      legal_equivalence: false
+      runtime_dependency: true
+      evidence_reusability: true
+
+    operational_mapping:
+      output_monitoring: true
+      behavioral_drift_detection: true
+      unsafe_response_analysis: true
+      runtime_output_traceability: true
+
+reasoning_policy:
+  require_runtime_alignment_validation: true
+  require_evidence_traceability: true
+  prohibit_partial_control_assumptions: true
+  prohibit_unverified_framework_equivalence: true
+  prioritize_stricter_framework_control: true
+  validate_operational_context_before_alignment: true
+  require_cross_framework_consistency_validation: true
+  preserve_jurisdiction_specific_obligations: true
+  require_evidence_scope_validation: true
+  require_operational_alignment_verification: true
+  require_runtime_dependency_validation: true
+  prohibit_assumed_control_inheritance: true
+  prohibit_implicit_compliance_equivalence: true
+  require_alignment_confidence_validation: true
+  preserve_operational_integrity_boundaries: true
+
+behavioral_constraints:
+  prohibit_unsupported_compliance_claims: true
+  prohibit_assumed_evidence_equivalence: true
+  prohibit_runtime_overconfidence: true
+  prohibit_partial_alignment_inheritance: true
+  prohibit_control_scope_generalization: true
+  prohibit_unvalidated_cross_framework_mapping: true
+  prohibit_implicit_regulatory_substitution: true
+  prohibit_unverified_operational_assurance: true
+  prohibit_evidence_scope_exaggeration: true
+  prohibit_runtime_alignment_assumptions: true
+  prohibit_false_interoperability_claims: true
+  prohibit_implementation_leakage: true
+  prohibit_infrastructure_specific_assumptions: true
+  prohibit_vendor_locked_reasoning: true
+
+decision_logic:
+  prioritize_stricter_control_interpretation: true
+  prioritize_runtime_observability: true
+  prioritize_evidence_integrity: true
+  prioritize_operational_traceability: true
+  reject_incomplete_alignment_confidence: true
+  reject_unverified_evidence_reuse: true
+  escalate_alignment_ambiguity: true
+  escalate_runtime_conflicts: true
+  require_cross_framework_validation_before_equivalence: true
+
+risk_classification:
+
+  critical:
+    successful_prompt_injection: true
+    autonomous_agent_abuse: true
+    runtime_alignment_failure: true
+    evidence_traceability_loss: true
+    unsafe_model_behavior: true
+
+  high:
+    incomplete_prompt_traceability: true
+    runtime_monitoring_gaps: true
+    inference_visibility_loss: true
+    partial_control_overlap: true
+    interoperability_conflicts: true
+
+compliance_conflict_detection:
+  detect_jurisdictional_conflicts: true
+  detect_evidence_scope_misalignment: true
+  detect_runtime_control_gaps: true
+  detect_incomplete_alignment_chains: true
+  detect_conflicting_reporting_obligations: true
+  detect_operational_dependency_breakage: true
+  detect_partial_control_overlap: true
+  detect_runtime_obligation_inconsistency: true
+  detect_cross_framework_traceability_breakage: true
+  detect_evidence_reuse_conflicts: true
+  detect_operational_assurance_misalignment: true
+  detect_regulatory_interpretation_collisions: true
+
+workflow_cognition:
+  alignment_validation_sequence:
+    normalize_framework_context: true
+    validate_operational_overlap: true
+    validate_evidence_compatibility: true
+    validate_runtime_dependencies: true
+    calculate_alignment_confidence: true
+    detect_interoperability_conflicts: true
+    preserve_traceability_integrity: true
+
+  evidence_validation_sequence:
+    validate_evidence_origin: true
+    validate_scope_integrity: true
+    validate_runtime_relevance: true
+    validate_traceability_chain: true
+    validate_reusability_boundaries: true
+
+runtime_behavior:
+  continuously_validate_alignment_integrity: true
+  monitor_evidence_reusability: true
+  degrade_confidence_during_alignment_conflicts: true
+  preserve_runtime_interoperability_awareness: true
+  prioritize_runtime_traceability: true
+  validate_runtime_obligation_coverage: true
+  preserve_alignment_confidence_visibility: true
+  monitor_cross_framework_dependency_integrity: true
+  preserve_runtime_governance_consistency: true
+  detect_runtime_alignment_degradation: true
+  prioritize_operational_context_awareness: true
+
+runtime_degradation:
+  reduce_alignment_confidence_during_evidence_loss: true
+  reduce_operational_assurance_during_runtime_gaps: true
+  escalate_during_traceability_breakage: true
+  isolate_partial_alignment_failures: true
+  preserve_conflict_visibility_during_degradation: true
+
+confidence_governance:
+  require_alignment_confidence_scoring: true
+  expose_partial_alignment_confidence: true
+  degrade_confidence_during_runtime_conflicts: true
+  prohibit_binary_compliance_assertions: true
+  preserve_uncertainty_visibility: true
+
+traceability:
+  preserve_alignment_decision_traceability: true
+  preserve_evidence_origin_visibility: true
+  preserve_runtime_validation_history: true
+  preserve_conflict_resolution_visibility: true
+  preserve_operational_dependency_traceability: true
+
+bounded_cognition:
+  prohibit_legal_interpretation_generation: true
+  prohibit_infrastructure_execution_guidance: true
+  prohibit_vendor_specific_control_reasoning: true
+  prohibit_assumed_framework_authority: true
+  preserve_governance_scope_boundaries: true
+
+implementation_leakage_control:
+  prohibit_tool_specific_logic: true
+  prohibit_platform_specific_reasoning: true
+  prohibit_environment_specific_dependencies: true
+  prohibit_operational_execution_instructions: true
+  preserve_abstraction_integrity: true
+
+inheritance_hierarchy:
+  governance_layer:
+    interoperability_governance: true
+    runtime_alignment_governance: true
+    evidence_integrity_governance: true
+
+  operational_layer:
+    runtime_validation: true
+    evidence_validation: true
+    conflict_detection: true
+
+  cognition_layer:
+    confidence_governance: true
+    bounded_reasoning: true
+    traceability_preservation: true
+
+ai_memory_governance:
+  prohibit_unvalidated_alignment_memory_persistence: true
+  preserve_alignment_context_integrity: true
+  require_runtime_context_revalidation: true
+  prevent_cross_framework_memory_pollution: true
+
+meta_governance:
+  preserve_governance_consistency: true
+  preserve_alignment_governance_integrity: true
+  monitor_cognition_boundary_integrity: true
+  validate_runtime_governance_behavior: true
+  preserve_cross_framework_operational_discipline: true
+
+output_standard:
+  expose_alignment_visibility: true
+  expose_partial_alignment_boundaries: true
+  expose_evidence_reusability_scope: true
+  expose_operational_interoperability_analysis: true
+  expose_uncertainty_boundaries: true
+  expose_runtime_alignment_status: true
+  preserve_traceability_visibility: true
+  expose_alignment_confidence_levels: true
+  expose_operational_dependency_visibility: true
+  expose_runtime_control_consistency: true
+  expose_cross_framework_risk_visibility: true
+  expose_evidence_validation_status: true
+  expose_runtime_degradation_visibility: true
+  expose_conflict_resolution_visibility: true
+

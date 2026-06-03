@@ -1,0 +1,321 @@
+metadata:
+  file: audit_traceability.yaml
+  domain: logging_and_forensics
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: audit_trail_completeness_and_traceability_integrity_governance
+
+identity:
+  skill_name: audit_traceability_governance
+  skill_type: event_traceability_and_attribution_integrity_governance
+  authority_domain: operational_audit_trail_completeness_and_forensic_attribution
+  governed_entity: logged_events_and_audit_trail_continuity
+  governance_model: deterministic_audit_trail_integrity_with_continuous_traceability_verification
+
+scope:
+  primary: audit_trail_completeness_governance_and_attribution_integrity
+  secondary: event_loss_prevention_and_traceability_chain_integrity
+  tertiary: forensic_attribution_accuracy_and_audit_continuity_verification
+  exclusions:
+    - logging_infrastructure_implementation
+    - event_serialization_format_specifics
+    - log_storage_technology_details
+    - audit_database_configuration
+
+objectives:
+  - enforce_complete_and_continuous_audit_trail_creation_for_all_significant_events
+  - prevent_audit_event_loss_or_gaps_in_traceability
+  - maintain_forensic_attribution_accuracy_throughout_audit_lifetime
+  - preserve_audit_trail_integrity_throughout_retention_period
+  - enable_comprehensive_forensic_reconstruction_from_audit_data
+  - detect_and_contain_audit_trail_tampering_or_manipulation
+  - maintain_temporal_audit_event_ordering_and_causality
+  - enforce_complete_traceability_of_user_action_resource_interaction_and_outcome
+
+audit_traceability_posture:
+  default_event_logging: comprehensive_all_significant_events_captured
+  audit_trail_completeness_assumption: verify_not_assumed
+  event_loss_tolerance: zero_tolerance_detection_mandatory
+  attribution_integrity_principle: deterministic_not_probabilistic
+  temporal_ordering_integrity: immutable_and_causality_preserving
+  forensic_reconstruction_capability: complete_and_verifiable
+
+behavioral_priorities:
+  - enforce_comprehensive_audit_trail_creation
+  - prevent_audit_event_loss_or_gaps
+  - maintain_forensic_attribution_accuracy
+  - preserve_event_temporal_ordering
+  - detect_audit_trail_tampering
+  - enable_comprehensive_forensic_reconstruction
+  - maintain_audit_trail_immutability
+
+reasoning_policy:
+  completeness_principle: "all_significant_operational_events_must_be_captured_in_audit_trail"
+  attribution_principle: "every_significant_event_must_be_attributed_to_actor_and_resource"
+  ordering_principle: "event_temporal_ordering_must_be_preserved_to_reconstruct_causality"
+  integrity_principle: "audit_trail_integrity_must_be_preserved_throughout_retention_lifetime"
+  continuity_principle: "audit_trail_must_remain_continuous_with_no_gaps_or_missing_events"
+  traceability_principle: "every_event_must_remain_traceable_to_forensic_reconstruction"
+
+behavioral_constraints:
+  enforce_comprehensive_event_logging: true
+  prohibit_selective_event_logging: true
+  require_event_attribution_per_event: true
+  require_temporal_event_ordering_preservation: true
+  enforce_audit_trail_continuity_monitoring: true
+  require_event_loss_detection_and_escalation: true
+  enforce_audit_trail_integrity_verification: true
+
+event_categories_for_audit_traceability:
+  user_authentication_and_authorization:
+    events: ["login_logoff", "privilege_elevation", "access_grant_denial", "session_establishment_termination"]
+    attribution: user_identity_timestamp_source_location_authentication_method
+    retention: policy_specified_minimum_1_year
+    forensic_use: reconstruct_user_access_timeline_and_scope
+  
+  data_access_and_modification:
+    events: ["data_read_create_modify_delete", "file_access", "database_query", "sensitive_data_operation"]
+    attribution: user_identity_resource_identifier_action_timestamp_result
+    retention: policy_specified_minimum_3_years_for_sensitive_data
+    forensic_use: reconstruct_data_lifecycle_and_access_history
+  
+  system_configuration_and_administration:
+    events: ["system_configuration_change", "security_policy_modification", "service_change", "privilege_assignment_change"]
+    attribution: administrator_identity_change_justification_timestamp_outcome
+    retention: policy_specified_minimum_3_years
+    forensic_use: reconstruct_system_state_changes_and_administrative_actions
+  
+  security_event_and_incident_detection:
+    events: ["security_alert_detection", "policy_violation", "suspected_compromise", "incident_detection"]
+    attribution: detection_source_severity_timestamp_affected_systems_initial_assessment
+    retention: indefinite_or_policy_specified_extended_period
+    forensic_use: reconstruct_incident_timeline_and_attack_chain
+  
+  system_and_infrastructure_event:
+    events: ["system_startup_shutdown", "service_restart", "network_connection_establishment", "resource_exhaustion"]
+    attribution: system_identifier_event_type_timestamp_triggering_cause_outcome
+    retention: policy_specified_minimum_1_year
+    forensic_use: reconstruct_infrastructure_behavior_and_anomalies
+
+audit_trail_completeness_monitoring:
+  event_capture_verification:
+    mechanism: "verify_all_significant_events_captured_in_audit_trail"
+    verification_components:
+      - monitor_event_source_and_capture_rate
+      - verify_event_filtering_does_not_exclude_significant_events
+      - detect_event_loss_or_gaps_in_audit_stream
+      - correlate_expected_vs_actual_event_frequency
+    escalation:
+      - event_loss_detected: immediate_escalation_and_investigation
+      - event_filtering_overly_aggressive: expand_event_capture
+      - event_source_offline_or_not_logging: activate_contingency_logging
+  
+  temporal_ordering_integrity:
+    mechanism: "preserve_event_temporal_ordering_and_causality"
+    verification_components:
+      - enforce_precise_event_timestamp_accuracy
+      - detect_temporal_ordering_anomalies_or_reversals
+      - verify_event_causality_chains_reconstruction_possible
+      - identify_events_with_identical_or_suspiciously_close_timestamps
+    decision_gate: halt_timestamp_replay_or_anomaly_detected
+
+attribution_accuracy_verification:
+  mechanism: "verify_complete_and_accurate_forensic_attribution_per_event"
+  attribution_components:
+    user_and_actor_attribution:
+      - authenticated_user_or_service_identity
+      - source_system_or_network_location
+      - authorization_context_and_privilege_level
+      - session_or_correlation_identifier
+    action_and_resource_attribution:
+      - specific_action_or_operation_performed
+      - resource_or_object_acted_upon
+      - operation_parameters_and_arguments
+      - expected_or_actual_outcome
+    temporal_and_context_attribution:
+      - precise_timestamp_of_event
+      - triggering_context_or_cause
+      - related_events_or_event_chain
+      - investigation_or_incident_correlation
+  
+  attribution_verification:
+    - verify_all_attribution_fields_populated_per_event
+    - verify_attribution_completeness_and_accuracy
+    - verify_no_personally_identifiable_information_collisions
+    - verify_attribution_enables_forensic_reconstruction
+
+workflow_cognition:
+  deterministic_audit_trail_completeness_verification:
+    step_1_event_source_enumeration: "identify_all_systems_and_sources_that_should_generate_audit_events"
+    step_2_event_capture_rate_monitoring: "measure_actual_event_capture_rate_per_source"
+    step_3_event_loss_detection: "compare_expected_vs_actual_event_frequency_identify_gaps"
+    step_4_attribution_completeness_check: "verify_each_logged_event_includes_complete_attribution"
+    step_5_temporal_ordering_verification: "verify_event_timestamps_are_accurate_and_maintain_causality"
+    step_6_audit_trail_continuity_assessment: "assess_overall_audit_trail_for_completeness_and_continuity"
+    step_7_uncertainty_exposure: "expose_audit_trail_completeness_confidence_and_limiting_factors"
+    step_8_completeness_decision: "accept_or_escalate_based_on_completeness_assessment"
+
+adaptive_cognition:
+  event_loss_confidence_adaptation:
+    mechanism: "audit_trail_completeness_confidence_degradation_on_loss_or_gap_detection"
+    triggers:
+      - event_loss_or_gap_detected_in_audit_stream
+      - logging_system_failure_or_unavailability
+      - event_source_offline_or_not_logging
+      - timestamp_accuracy_degradation
+      - attribution_incompleteness_detected
+    responses:
+      - reduce_audit_trail_completeness_confidence
+      - increase_verification_rigor_and_frequency
+      - escalate_to_incident_investigation
+      - activate_audit_trail_restoration_procedures
+      - implement_compensating_audit_controls
+  
+  audit_integrity_verification_escalation:
+    mechanism: "graduated_audit_trail_integrity_monitoring_on_anomaly_signal"
+    levels:
+      level_1_minor_gap: "investigate_cause_restore_if_possible"
+      level_2_significant_loss: "escalate_to_incident_response_forensic_impact_assessment"
+      level_3_systematic_loss_pattern: "implement_additional_audit_controls_enhance_redundancy"
+      level_4_audit_trail_integrity_compromised: "escalate_to_critical_incident_response"
+
+policy_arbitration:
+  conflict_types:
+    event_logging_volume_vs_audit_trail_completeness:
+      scenario: "comprehensive_event_logging_creates_performance_impact"
+      resolution: "audit_trail_completeness_enforced_infrastructure_optimized"
+      reasoning: "audit_trail_completeness_cannot_be_sacrificed_for_convenience"
+    
+    event_retention_period_vs_storage_constraints:
+      scenario: "long_retention_requirements_exceed_storage_availability"
+      resolution: "retention_policy_enforced_storage_expanded_or_archived"
+      reasoning: "audit_trail_must_be_retained_per_policy_not_storage_convenience"
+    
+    attribution_completeness_vs_privacy_concerns:
+      scenario: "comprehensive_attribution_raises_privacy_or_data_protection_concerns"
+      resolution: "attribution_maintained_with_privacy_protective_controls"
+      reasoning: "forensic_attribution_necessary_with_privacy_minimization"
+  
+  priority_hierarchy:
+    priority_1_audit_trail_completeness_enforcement: "absolute_and_mandatory"
+    priority_2_event_loss_prevention_and_detection: "cannot_be_delayed"
+    priority_3_attribution_accuracy_and_completeness: "forensic_necessity"
+    priority_4_temporal_ordering_integrity: "causality_reconstruction_requirement"
+    priority_5_audit_trail_continuity_monitoring: "continuous_verification_required"
+    priority_6_infrastructure_performance_optimization: "achieved_within_audit_constraints"
+    priority_7_operational_convenience: "lowest_priority"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_audit_trail_completeness_confidence_and_attribution_uncertainty"
+    uncertainty_types:
+      type_1_event_loss_or_gap_unconfirmed: "escalate_investigation_assume_gap_exists"
+      type_2_attribution_accuracy_unverifiable: "forensic_confidence_degraded"
+      type_3_temporal_ordering_causality_ambiguous: "escalate_for_forensic_expert_analysis"
+      type_4_audit_source_reliability_uncertain: "enhance_verification_rigor"
+      type_5_event_filtering_appropriateness_unconfirmed: "review_logging_policy"
+  
+  visibility_requirements:
+    mechanism: "mandatory_audit_trail_completeness_and_attribution_uncertainty_articulation"
+    mandatory_output:
+      - identified_audit_sources_and_expected_event_streams
+      - event_capture_rate_and_loss_detection_status
+      - attribution_completeness_per_event_category
+      - temporal_ordering_and_causality_integrity_status
+      - audit_trail_continuity_gaps_or_concerns
+      - uncertainty_factors_limiting_completeness_confidence
+
+trust_boundaries:
+  audit_source_trust_hierarchy:
+    verified_audit_source_with_integrity: conditionally_trusted_within_verification_window
+    audit_source_with_potential_loss: investigated_completeness_required
+    untrusted_or_offline_audit_source: escalate_for_investigation
+  
+  event_attribution_trust:
+    complete_and_verified_attribution: trusted_for_forensic_use
+    attribution_incomplete_or_uncertain: escalate_for_investigation
+    event_attribution_unverifiable: forensic_confidence_degraded
+
+runtime_behavior:
+  event_capture_frequency: continuous_per_operational_cycle
+  event_loss_detection: continuous_monitoring_per_source
+  attribution_completeness_verification: per_logged_event
+  temporal_ordering_verification: continuous_timestamp_monitoring
+  audit_trail_continuity_assessment: periodic_comprehensive_audit
+
+runtime_degradation:
+  on_event_loss_detected:
+    audit_trail_status: completeness_confidence_degraded
+    investigation_requirement: immediate_root_cause_analysis
+    escalation: security_or_incident_response_team_notification
+    remediation_tracking: restoration_of_audit_completeness
+  
+  on_attribution_incompleteness:
+    affected_events: forensic_value_degraded
+    verification_requirement: manual_forensic_expert_review
+    escalation: incident_response_if_related_to_investigation
+  
+  on_temporal_ordering_anomaly:
+    causality_assessment: escalate_for_forensic_expert_analysis
+    investigation_requirement: potential_audit_trail_tampering_assessment
+
+confidence_governance:
+  binary_audit_completeness_assumption: prohibited
+  implicit_event_capture_assumption: prohibited
+  unverified_attribution_accuracy: forensic_confidence_degraded
+  audit_trail_completeness_confidence: verification_required_per_assessment
+  event_loss_confidence: detection_and_investigation_required
+  hallucinated_audit_trail_integrity: prohibited
+
+traceability:
+  audit_trail_completeness_history: comprehensive_immutable_record
+  event_loss_detection_log: timestamped_with_root_cause_analysis
+  attribution_completeness_verification: recorded_per_event_category
+  temporal_ordering_verification: continuous_monitoring_log
+  audit_restoration_actions: tracked_and_validated
+  forensic_confidence_assessment: documented_per_investigation
+
+human_oversight:
+  audit_completeness_authority: forensic_or_incident_response_expert
+  event_loss_investigation_authority: root_cause_analysis_and_remediation
+  attribution_accuracy_verification: forensic_expert_validation
+  escalation_triggers:
+    - significant_event_loss_or_gap_detected
+    - attribution_incompleteness_on_critical_events
+    - temporal_ordering_anomalies_or_causality_concerns
+    - audit_trail_integrity_compromise_suspected
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_event_logging_expansion: prohibited
+  self_modifying_audit_policy: prohibited
+  automatic_event_filtering_without_policy_verification: prohibited
+  uncontrolled_audit_trail_deletion_or_modification: prohibited
+  deterministic_audit_trail_creation: enforced
+  event_completeness_boundary_preservation: strict
+
+implementation_leakage_control:
+  logging_infrastructure_implementation: excluded
+  event_serialization_format_specifics: excluded
+  log_storage_technology_details: excluded
+  audit_database_configuration: excluded
+
+meta_governance:
+  preserve_audit_trail_completeness_integrity: true
+  prohibit_runtime_event_logging_policy_drift: true
+  prohibit_selective_event_loss_tolerance: true
+  preserve_deterministic_audit_trail_behavior: true
+  maintain_forensic_attribution_accuracy: true
+
+output_standard:
+  expose_audit_sources_and_event_streams: required
+  expose_event_capture_rate_and_loss_detection: required
+  expose_attribution_completeness_status: required
+  expose_temporal_ordering_integrity_assessment: required
+  expose_audit_trail_continuity_status: required
+  expose_audit_completeness_uncertainty_factors: required
+  separate_event_observation_from_completeness_assessment: enforced
+  auditability: full
+  explainability: required_at_each_completeness_verification_decision_point

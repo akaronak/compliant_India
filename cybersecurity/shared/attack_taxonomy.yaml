@@ -1,0 +1,51 @@
+# Attack Taxonomy
+# Classification taxonomy for attacks
+
+attack_taxonomy:
+  description: "Security attack classification taxonomy"
+  version: "1.0.0"
+
+attack_categories:
+  external_attacks:
+    - internet_facing_exploits
+    - phishing_campaigns
+    - supply_chain_attacks
+    - third_party_compromises
+  
+  internal_attacks:
+    - insider_threats
+    - privilege_escalation
+    - lateral_movement
+    - data_exfiltration
+  
+  advanced_attacks:
+    - apt_campaigns
+    - zero_day_exploits
+    - coordinated_attacks
+    - targeted_campaigns
+
+attack_vectors:
+  network_based:
+    - network_protocols
+    - web_applications
+    - remote_access
+    - cloud_services
+  
+  endpoint_based:
+    - malware
+    - exploitation
+    - credential_theft
+    - physical_access
+  
+  application_based:
+    - sql_injection
+    - cross_site_scripting
+    - api_exploitation
+    - business_logic_attacks
+
+attack_objectives:
+  - data_theft
+  - system_disruption
+  - financial_gain
+  - competitive_advantage
+  - espionage

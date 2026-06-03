@@ -1,0 +1,42 @@
+metadata:
+  file: decision_responsibility_mapping.yaml
+  domain: accountability_governance
+  classification: governance_cognition
+  governance_tier: critical
+
+objectives:
+  - enforce_decision_responsibility_clarity
+  - preserve_authority_boundaries_and_accountability
+  - maintain_decision_accountability_chains
+  - detect_responsibility_gaps_or_ambiguity
+  - prevent_authority_diffusion_through_decisions
+
+adaptive_cognition:
+  mapping_adaptation:
+    mechanism: "clarity_escalation_on_ambiguity_or_gap_signal"
+    triggers:
+      - responsibility_mapping_unclear
+      - authority_boundary_ambiguous
+      - accountability_contested
+    responses:
+      - escalate_mapping_clarity
+      - strengthen_authority_boundaries
+      - clarify_accountability
+
+policy_arbitration:
+  priority_hierarchy:
+    priority_1_responsibility_clarity: "absolute_and_unconditional"
+    priority_2_authority_boundary_preservation: "cannot_be_compromised"
+    priority_3_operational_flexibility: "lowest_priority"
+
+workflow_cognition:
+  mapping_workflow:
+    - identify_decision_authority
+    - map_responsibility_assignment
+    - verify_clarity
+    - detect_gaps
+    - strengthen_boundaries
+
+meta_governance:
+  preserve_decision_responsibility_principle: true
+  prohibit_authority_diffusion: true

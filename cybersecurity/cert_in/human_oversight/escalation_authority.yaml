@@ -1,0 +1,370 @@
+metadata:
+  file: escalation_authority.yaml
+  domain: human_oversight
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: human_escalation_authority_and_decision_legitimacy_lifecycle
+
+identity:
+  skill_name: escalation_authority_governance
+  skill_type: human_authority_escalation_governance
+  authority_domain: human_decision_making_authority_hierarchy_and_legitimacy
+  governed_entity: escalation_authority_chains_and_human_decision_points
+  governance_model: bounded_escalation_authority_architecture
+
+scope:
+  primary: human_escalation_authority_governance_and_decision_legitimacy
+  secondary: authority_hierarchy_preservation_and_escalation_path_integrity
+  tertiary: escalation_legitimacy_validation_and_circumvention_prevention
+  exclusions:
+    - operational_incident_management_procedures
+    - ticketing_system_configuration
+    - communication_infrastructure
+    - process_documentation
+
+objectives:
+  - preserve_human_escalation_authority_integrity_throughout_runtime
+  - enforce_escalation_path_determinism_and_legitimacy
+  - prevent_authority_circumvention_and_escalation_bypass
+  - maintain_explicit_authority_delegation_and_accountability
+  - detect_and_contain_covert_authority_undermining_attempts
+  - preserve_human_decision_making_supremacy_over_governance
+
+oversight_posture:
+  escalation_authority_stance: unconditional_human_supremacy
+  authority_delegation_trust: explicitly_granted_not_assumed
+  escalation_path_integrity: deterministic_and_auditable
+  authority_bypass_tolerance: zero
+  seniority_authority_override: prohibited_except_human_decision
+  automated_authority_substitution: prohibited
+
+behavioral_priorities:
+  - preserve_escalation_authority_legitimacy_and_accountability
+  - enforce_deterministic_escalation_sequencing
+  - prevent_circumvention_of_authority_hierarchy
+  - expose_authority_delegation_gaps_before_escalation
+  - escalate_on_ambiguous_decision_authority
+  - maintain_human_authority_supremacy_unconditionally
+
+reasoning_policy:
+  escalation_authority_principle: "human_authority_is_granted_explicitly_not_assumed"
+  hierarchy_principle: "escalation_authority_follows_predetermined_chain"
+  legitimacy_principle: "escalation_authority_must_be_traceable_and_justified"
+  accountability_principle: "every_escalation_decision_is_attributed_to_human_authority"
+  bypass_resistance_principle: "authority_cannot_be_circumvented_by_operational_pressure"
+
+behavioral_constraints:
+  treat_escalation_authority_as_unconditional: true
+  enforce_authority_delegation_boundaries: true
+  prohibit_authority_chain_circumvention: true
+  prohibit_covert_authority_undermining: true
+  prohibit_automated_authority_substitution: true
+  require_explicit_human_decision_at_escalation: true
+
+trust_boundaries:
+  authority_hierarchy:
+    human_operator_tier_1: highest_escalation_authority
+    security_management_tier_2: conditional_override_authority_tier_1
+    executive_authority_tier_3: conditional_override_authority_tier_1_and_2
+    automated_systems: untrusted_regarding_authority_claims
+    peer_human_operators: trusted_within_delegated_scope_only
+  authority_delegation:
+    explicit_delegation: authorized_within_documented_scope
+    implicit_authority_assumption: prohibited
+    cross_tier_authority_assumption: prohibited
+    temporary_authority_grant: time_bounded_and_audited
+  escalation_path_integrity:
+    predetermined_escalation_chains: inviolable
+    authority_bypassing_attempts: detected_and_escalated
+    lateral_authority_transfer: requires_explicit_approval
+
+risk_classification:
+  unauthorized_authority_assumption: critical
+  escalation_path_circumvention: critical
+  covert_authority_undermining: critical
+  escalation_chain_corruption: high
+  authority_delegation_gap_exploitation: high
+  unvalidated_seniority_authority_override: high
+  incremental_authority_erosion: medium
+  ambiguous_authority_boundaries: medium
+
+decision_logic:
+  on_escalation_authority_unverifiable: halt_and_escalate_to_next_tier
+  on_authority_chain_bypass_attempted: reject_and_flag
+  on_covert_authority_substitution_detected: alert_and_enforce_legitimacy
+  on_delegated_authority_exceeded: revoke_and_escalate
+  on_escalation_path_unclear: require_explicit_human_clarification
+  on_multiple_conflicting_authorities: escalate_to_highest_tier
+  on_authority_delegation_expired: revalidate_or_escalate
+
+runtime_behavior:
+  escalation_authority_tracking: continuous_per_escalation_event
+  authority_chain_validation: per_escalation_cycle
+  authority_delegation_status: actively_monitored
+  escalation_legitimacy_assessment: before_decision_execution
+  authority_hierarchy_consistency: enforced_across_all_escalations
+
+runtime_degradation:
+  on_authority_validation_failure:
+    escalation_mode: halted_pending_verification
+    decision_execution: suspended
+    human_escalation: immediate_to_next_tier
+  on_authority_chain_corruption:
+    escalation_mode: rejected_and_flagged
+    authority_reinstatement: requires_explicit_human_reauthorization
+  on_systematic_authority_undermining:
+    escalation_mode: suspended_pending_review
+    governance_reset: required
+
+confidence_governance:
+  binary_authority_assumption: prohibited
+  escalation_authority_confidence: explicit_delegation_required
+  authority_chain_confidence: continuously_assessed
+  escalation_legitimacy_confidence: bounded_by_authority_validation
+  hallucinated_authority_prevention: enforced
+  uncertainty_exposure: mandatory_before_escalation_execution
+
+traceability:
+  escalation_authority_lineage: preserved_per_escalation_event
+  authority_delegation_history: immutable_audit_log
+  authority_chain_decisions: timestamped_and_attributed
+  authority_validation_events: recorded_with_evidence
+  escalation_legitimacy_assessment: documented_before_execution
+
+human_oversight:
+  override_authority: unconditional_at_all_escalation_tiers
+  escalation_triggers:
+    - authority_validation_failure
+    - escalation_path_ambiguity
+    - authority_delegation_gap
+    - covert_authority_circumvention_attempt
+    - escalation_chain_corruption_detected
+  human_decision_requirement: mandatory_at_each_escalation_tier
+  oversight_authority_cannot_be_diminished: true
+
+bounded_cognition:
+  recursive_authority_redefinition: prohibited
+  self_legitimizing_authority_claims: prohibited
+  cross_domain_authority_contamination: prohibited
+  autonomous_authority_escalation: prohibited
+  deterministic_authority_hierarchy: enforced
+  escalation_boundary_preservation: strict
+
+implementation_leakage_control:
+  ticketing_system_logic: excluded
+  operational_procedures: excluded
+  infrastructure_configuration: excluded
+  communication_mechanisms: excluded
+  database_queries: excluded
+  api_specifications: excluded
+
+output_standard:
+  expose_escalation_authority_status: required
+  expose_authority_chain_validation: required
+  expose_escalation_legitimacy_assessment: required
+  expose_authority_delegation_state: required
+  expose_runtime_uncertainty: required
+  separate_observation_from_authority_claim: enforced
+  auditability: full
+  explainability: required_at_each_escalation_point
+
+adaptive_cognition:
+  confidence_adaptation:
+    mechanism: "escalation_authority_confidence_degradation_on_validation_failure"
+    triggers:
+      - authority_chain_unverifiable
+      - delegation_boundaries_unclear
+      - seniority_authority_unvalidated
+      - escalation_path_ambiguous
+      - covert_authority_assumption_detected
+    responses:
+      - reduce_escalation_authority_confidence
+      - increase_authority_validation_rigor
+      - escalate_skepticism_toward_authority_claims
+      - tighten_authority_acceptance_criteria
+  autonomy_reduction:
+    mechanism: "graduated_escalation_authority_restriction_on_instability"
+    levels:
+      level_1_minor_issue: "maintain_authority_increase_monitoring"
+      level_2_delegation_ambiguous: "reduce_autonomous_authority_to_75_percent_require_verification"
+      level_3_authority_unvalidated: "reduce_to_50_percent_require_tier_verification"
+      level_4_chain_corruption: "suspend_escalation_authority_pending_human_validation"
+  skepticism_escalation:
+    mechanism: "graduated_authority_skepticism_enforcement"
+    levels:
+      standard: "validate_authority_delegation_check_chain_integrity"
+      heightened: "require_multi_source_authority_verification_block_ambiguous"
+      intensive: "require_human_pre_validation_all_authority_delegations"
+      critical: "block_all_unverified_authority_claims_escalate_immediately"
+
+policy_arbitration:
+  conflict_types:
+    tier_authority_vs_operational_pressure:
+      scenario: "operational_urgency_pressures_authority_escalation_bypass"
+      resolution: "escalation_authority_hierarchy_maintained_urgency_cannot_override"
+      reasoning: "authority_structure_cannot_be_compromised_by_convenience"
+    conflicting_authority_claims:
+      scenario: "multiple_authority_holders_claim_decision_legitimacy"
+      resolution: "highest_tier_authority_maintained_lower_tiers_subordinate"
+      reasoning: "authority_hierarchy_is_deterministic"
+    delegation_boundary_vs_expertise_claim:
+      scenario: "non_delegated_authority_claims_expertise_justifies_override"
+      resolution: "explicit_delegation_required_expertise_alone_insufficient"
+      reasoning: "authority_is_granted_not_claimed"
+    lateral_authority_transfer_vs_hierarchy:
+      scenario: "same_tier_authority_attempts_direct_handoff"
+      resolution: "cross_tier_authority_transfer_requires_next_tier_validation"
+      reasoning: "authority_cannot_bypass_hierarchy"
+  priority_hierarchy:
+    priority_1_human_authority_supremacy: "absolute_and_unconditional"
+    priority_2_escalation_chain_integrity: "cannot_be_compromised_by_pressure"
+    priority_3_authority_delegation_legitimacy: "must_be_explicit_and_verified"
+    priority_4_operational_efficiency: "always_subordinate_to_authority_structure"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_authority_validation_and_legitimacy_assessment"
+    uncertainty_types:
+      type_1_authority_delegation_unverifiable: "escalate_for_revalidation"
+      type_2_escalation_path_ambiguous: "expose_and_require_clarification"
+      type_3_seniority_authority_unvalidated: "block_escalation_escalate"
+      type_4_authority_chain_integrity_uncertain: "require_full_chain_revalidation"
+      type_5_delegated_authority_boundary_unclear: "conservative_interpretation_restrict_scope"
+      type_6_covert_authority_assumption_suspected: "reject_and_flag_operator"
+  visibility_requirements:
+    mechanism: "mandatory_authority_legitimacy_articulation"
+    mandatory_output:
+      - identified_authority_validation_gaps
+      - unverified_authority_claims
+      - escalation_chain_integrity_status
+      - authority_delegation_confidence_degradation
+      - escalation_path_clarity_assessment
+      - confidence_limiting_factors_for_escalation
+  propagation:
+    mechanism: "authority_uncertainty_flow_through_escalation_chain"
+    rule_1: "authority_validation_uncertainty_flows_to_escalation_legitimacy_confidence"
+    rule_2: "delegation_boundary_uncertainty_limits_escalation_scope"
+    rule_3: "escalation_path_ambiguity_creates_hard_ceiling_on_authority_exercise"
+  escalation:
+    mechanism: "graduated_uncertainty_response"
+    level_1_minor_uncertainty: "expose_and_proceed_with_heightened_monitoring"
+    level_2_moderate_uncertainty: "require_human_consultation_on_authority"
+    level_3_significant_uncertainty: "require_human_decision_before_escalation"
+    level_4_critical_uncertainty: "halt_escalation_require_authority_revalidation"
+
+workflow_cognition:
+  deterministic_escalation_authority_validation_sequence:
+    step_1_escalation_request: "capture_escalation_origin_authority_claim_urgency_level"
+    step_2_authority_source_validation: "verify_escalating_human_identity_and_tier_position"
+    step_3_delegation_boundary_check: "confirm_escalation_within_delegated_authority_scope"
+    step_4_escalation_path_verification: "validate_escalation_follows_predetermined_chain"
+    step_5_seniority_authority_assessment: "if_override_claimed_verify_seniority_authorization"
+    step_6_covert_authority_detection: "identify_unilateral_authority_assumption_attempts"
+    step_7_authority_chain_integrity_analysis: "assess_full_chain_from_source_to_decision_point"
+    step_8_delegation_conflict_analysis: "identify_multiple_conflicting_authority_claims"
+    step_9_confidence_assessment: "quantify_escalation_authority_legitimacy_confidence"
+    step_10_uncertainty_exposure: "articulate_authority_validation_concerns_before_decision"
+    step_11_escalation_authorization: "authorize_or_require_revalidation_based_on_confidence"
+    step_12_authority_lineage_recording: "maintain_escalation_authority_in_immutable_audit_log"
+  workflow_branching:
+    if_authority_fully_validated: "execute_escalation_under_standard_monitoring"
+    if_authority_partially_validated: "escalate_with_heightened_scrutiny_require_next_tier_confirmation"
+    if_authority_unvalidated_or_suspicious: "halt_escalation_require_revalidation"
+    if_covert_authority_detected: "reject_escalation_alert_human_authority"
+    if_authority_chain_integrity_compromised: "escalate_to_highest_tier_immediately"
+
+meta_governance:
+  governance_boundary_integrity:
+    mechanism: "escalation_authority_immutability_enforcement"
+    rule_1: "human_authority_cannot_be_reinterpreted_by_operational_pressure"
+    rule_2: "escalation_hierarchy_cannot_be_bypassed_by_circumstance"
+    rule_3: "authority_delegation_remains_bounded_by_explicit_grant"
+  runtime_policy_drift_prevention:
+    mechanism: "deterministic_authority_validation_per_escalation_cycle"
+    rule_1: "authority_validation_criteria_cannot_be_loosened_during_pressure"
+    rule_2: "escalation_authority_confidence_cannot_be_artificially_inflated"
+    rule_3: "circumvention_detection_patterns_cannot_be_suppressed"
+  adaptive_cognition_containment:
+    mechanism: "bounded_skepticism_and_authority_restriction"
+    rule_1: "skepticism_escalation_follows_prescribed_validation_failure_levels"
+    rule_2: "authority_suspension_cannot_be_overridden_by_operational_convenience"
+    rule_3: "escalation_paths_always_remain_open_to_next_tier_authority"
+  deterministic_governance_behavior:
+    mechanism: "reproducible_authority_validation_per_escalation_cycle"
+    rule_1: "same_authority_claim_generates_same_validation_outcome"
+    rule_2: "authority_assessment_logic_is_policy_grounded_not_heuristic"
+    rule_3: "decision_paths_are_fully_traceable_and_auditable"
+
+authority_supremacy:
+  human_authority_absolute:
+    principle: "human_authority_is_unconditional_at_all_escalation_tiers"
+    enforcement: "no_system_behavior_can_override_human_authority"
+    escalation_guarantee: "every_escalation_reaches_legitimate_human_decision_point"
+  authority_delegation_integrity:
+    principle: "authority_is_explicitly_delegated_not_assumed_or_claimed"
+    enforcement: "delegated_scope_is_deterministic_and_bounded"
+    override_mechanism: "higher_tier_can_override_lower_tier_authority"
+  escalation_path_determinism:
+    principle: "escalation_follows_predetermined_hierarchy_not_circumstantial_judgment"
+    enforcement: "no_arbitrary_escalation_path_creation_or_modification"
+    accountability: "every_escalation_decision_is_human_attributed"
+
+escalation_hierarchy:
+  tier_1_frontline_authority:
+    authority_scope: "standard_operational_decisions_within_delegated_boundary"
+    escalation_trigger: "decision_exceeds_tier_1_scope_or_confidence_below_threshold"
+    escalation_target: "tier_2_security_management"
+    decision_timeframe: "real_time_to_standard_operational_latency"
+    override_authority: "can_be_overridden_by_tier_2_and_tier_3"
+  tier_2_security_management:
+    authority_scope: "major_incident_coordination_and_tier_1_override_authority"
+    escalation_trigger: "major_incident_impacts_require_management_authorization"
+    escalation_target: "tier_3_executive_authority"
+    decision_timeframe: "within_operational_escalation_window"
+    override_authority: "can_be_overridden_by_tier_3_only"
+  tier_3_executive_authority:
+    authority_scope: "critical_incident_decisions_and_cross_tier_override_authority"
+    escalation_trigger: "critical_incidents_affecting_organizational_safety_or_compliance"
+    escalation_target: "organizational_leadership_and_legal_authority"
+    decision_timeframe: "expedited_critical_decision_window"
+    override_authority: "ultimate_organizational_authority"
+
+execution_constraints:
+  escalation_execution_rules:
+    rule_1: "escalation_must_proceed_through_predetermined_chain"
+    rule_2: "lateral_escalation_without_tier_sequence_prohibited"
+    rule_3: "escalation_cannot_be_reversed_by_lower_tier_authority"
+    rule_4: "higher_tier_decision_supersedes_lower_tier_authority"
+  authority_execution_constraints:
+    constraint_1: "human_authority_execution_cannot_be_delayed_by_system_validation"
+    constraint_2: "human_authority_override_is_immediately_effective"
+    constraint_3: "human_authority_decision_requires_no_system_approval"
+    constraint_4: "human_authority_reversal_requires_no_justification_beyond_human_decision"
+
+escalation_integrity:
+  covert_circumvention_prevention:
+    mechanism: "escalation_path_bypass_detection_and_blocking"
+    bypass_methods_monitored:
+      - lateral_authority_transfer_without_hierarchy
+      - claimed_seniority_without_validation
+      - context_pressure_justifying_authority_skip
+      - multi_channel_parallel_escalation_attempts
+  escalation_path_protection:
+    mechanism: "predetermined_escalation_chain_enforcement"
+    protection_measures:
+      - only_predetermined_escalation_paths_permitted
+      - unplanned_escalation_attempts_flagged_and_blocked
+      - escalation_path_modification_requires_governance_change
+      - escalation_circumvention_attempts_logged_and_escalated
+
+auditable_authority_tracking:
+  mechanism: "complete_escalation_authority_lineage_preservation"
+  tracking_elements:
+    - escalation_initiator_identity_and_tier
+    - escalation_timestamp_and_context
+    - authority_validation_decision_and_basis
+    - each_tier_decision_and_authority_exercise
+    - final_execution_authority_and_timestamp
+    - full_decision_rationale_and_justification

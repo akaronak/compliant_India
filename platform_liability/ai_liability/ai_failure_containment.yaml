@@ -1,0 +1,42 @@
+metadata:
+  file: ai_failure_containment.yaml
+  domain: ai_liability
+  classification: governance_cognition
+  governance_tier: critical
+
+objectives:
+  - enforce_ai_failure_containment_and_harm_limitation
+  - preserve_operational_safety_despite_ai_failure
+  - maintain_failure_isolation_capability
+  - detect_containment_gaps_or_failure_spread
+  - prevent_cascading_ai_system_failures
+
+adaptive_cognition:
+  containment_adaptation:
+    mechanism: "containment_escalation_on_failure_or_spread_signal"
+    triggers:
+      - ai_failure_detected
+      - containment_inadequate
+      - failure_cascading_observed
+    responses:
+      - escalate_failure_isolation
+      - implement_emergency_shutdown
+      - activate_alternative_systems
+
+policy_arbitration:
+  priority_hierarchy:
+    priority_1_failure_containment: "absolute_and_unconditional"
+    priority_2_operational_safety: "cannot_be_compromised"
+    priority_3_system_continuity: "lowest_priority"
+
+workflow_cognition:
+  containment_workflow:
+    - detect_ai_system_failure
+    - assess_failure_scope_and_impact
+    - isolate_failed_component
+    - activate_alternatives
+    - prevent_failure_cascade
+
+meta_governance:
+  preserve_failure_containment_principle: true
+  prohibit_containment_degradation: true

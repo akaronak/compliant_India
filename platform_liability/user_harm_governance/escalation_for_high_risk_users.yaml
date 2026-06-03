@@ -1,0 +1,42 @@
+metadata:
+  file: escalation_for_high_risk_users.yaml
+  domain: user_harm_governance
+  classification: governance_cognition
+  governance_tier: critical
+
+objectives:
+  - enforce_escalation_for_high_risk_user_scenarios
+  - preserve_immediate_intervention_capability
+  - maintain_specialized_support_for_critical_users
+  - detect_high_risk_escalation_gaps
+  - prevent_harm_to_at_risk_users
+
+adaptive_cognition:
+  risk_adaptation:
+    mechanism: "escalation_activation_on_high_risk_signal"
+    triggers:
+      - high_risk_user_indicator_detected
+      - escalation_not_activated
+      - specialized_support_needed
+    responses:
+      - activate_escalation_protocol
+      - engage_specialized_teams
+      - increase_monitoring_intensity
+
+policy_arbitration:
+  priority_hierarchy:
+    priority_1_high_risk_user_safety: "absolute_and_unconditional"
+    priority_2_specialized_intervention: "cannot_be_compromised"
+    priority_3_operational_efficiency: "lowest_priority"
+
+workflow_cognition:
+  escalation_workflow:
+    - identify_high_risk_users
+    - assess_risk_severity
+    - determine_escalation_level
+    - engage_specialized_support
+    - monitor_user_safety
+
+meta_governance:
+  preserve_high_risk_user_protection_principle: true
+  prohibit_escalation_delay: true

@@ -1,0 +1,361 @@
+metadata:
+  file: campaign_tracking.yaml
+  domain: threat_intelligence
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: operational_adversarial_continuity_and_campaign_lineage_governance
+
+identity:
+  skill_name: campaign_tracking_governance
+  skill_type: operational_adversarial_continuity_and_campaign_lineage_cognition
+  authority_domain: campaign_relationship_boundaries_and_operational_continuity_governance
+  governed_entity: threat_campaigns_and_operational_adversarial_continuity
+  governance_model: deterministic_campaign_lineage_verification_with_operational_continuity_preservation
+
+scope:
+  primary: operational_adversarial_continuity_governance_and_campaign_lineage_integrity_enforcement
+  secondary: attack_continuity_reasoning_and_runtime_campaign_propagation_verification
+  tertiary: operational_adversary_persistence_and_campaign_integrity_preservation
+  exclusions:
+    - campaign_tracking_platform_implementation
+    - campaign_database_technology_specifics
+    - temporal_correlation_algorithms
+    - campaign_clustering_or_grouping_procedures
+    - campaign_management_automation_systems
+
+objectives:
+  - enforce_deterministic_campaign_lineage_verification_and_operational_continuity_assessment
+  - validate_campaign_continuity_and_adversarial_operational_coherence
+  - prevent_false_campaign_association_or_operational_continuity_misattribution
+  - maintain_campaign_lineage_integrity_and_operational_traceability
+  - preserve_attack_continuity_causality_throughout_campaign_lifecycle
+  - detect_campaign_modification_or_unauthorized_relationship_tampering_proactively
+  - maintain_runtime_campaign_propagation_observability_and_operational_assessment
+  - prevent_campaign_based_false_attribution_or_operational_misdirection
+
+campaign_tracking_posture:
+  default_campaign_continuity_trust: deny_by_default_verify_legitimacy
+  continuity_provenance_assumption: explicit_verification_required_not_assumed
+  operational_coherence_requirement: mandatory_per_campaign_evaluation
+  campaign_confidence_assumption: explicit_reasoning_required_not_assumed
+  false_campaign_tolerance: zero_tolerance_investigation_required
+  operational_persistence_validity: continuous_reassessment_required
+
+behavioral_priorities:
+  - enforce_campaign_continuity_verification_deterministically
+  - validate_operational_coherence_and_campaign_provenance
+  - prevent_false_campaign_continuity_from_propagating
+  - maintain_campaign_lineage_and_operational_traceability
+  - preserve_attack_continuity_and_operational_validity
+  - detect_campaign_falsification_or_operational_manipulation_proactively
+  - maintain_campaign_tracking_auditability_and_operational_explainability
+
+reasoning_policy:
+  continuity_principle: "campaign_operational_continuity_must_be_verified_from_attack_evidence"
+  coherence_principle: "campaign_must_be_linked_to_operational_attack_continuity_and_context"
+  persistence_principle: "campaign_operational_persistence_must_be_explicitly_reasoned_and_continuously_monitored"
+  validity_principle: "campaign_validity_must_be_preserved_throughout_operational_lifecycle"
+  falsification_principle: "campaign_falsification_or_operational_manipulation_must_be_detected_and_escalated"
+  traceability_principle: "every_campaign_tracking_and_continuity_assessment_is_traceable_and_attributed"
+
+behavioral_constraints:
+  enforce_campaign_continuity_verification: true
+  prohibit_implicit_campaign_trust_assumption: true
+  require_operational_evidence_per_campaign: true
+  prohibit_unfounded_campaign_tracking: true
+  enforce_campaign_lineage_preservation: true
+  require_persistence_reasoning_articulation: true
+  enforce_false_campaign_detection_and_investigation: true
+
+campaign_categorization:
+  targeted_campaign_operations:
+    classification: "campaigns_with_specific_targeting_and_operational_objectives"
+    continuity_characteristics: targeting_consistency_operational_progression_capability_escalation
+    evidence_basis: incident_correlation_timing_analysis_and_targeting_consistency
+    persistence_factors: campaign_duration_objectives_evolution_and_adaptation
+    operational_validity: continuous_campaign_continuity_and_targeting_monitoring
+    false_campaign_risk: moderate_due_to_incident_coincidence_and_timing_overlap
+  
+  distributed_campaign_operations:
+    classification: "campaigns_spanning_multiple_geographic_or_sectoral_targets"
+    continuity_characteristics: distributed_targeting_common_objectives_resource_sharing
+    evidence_basis: infrastructure_correlation_timing_analysis_and_objective_alignment
+    persistence_factors: distributed_operation_coordination_and_strategic_alignment
+    operational_validity: continuous_distributed_coordination_and_targeting_monitoring
+    false_campaign_risk: high_due_to_emergent_pattern_similarity_and_operational_convergence
+  
+  long_duration_campaign_operations:
+    classification: "campaigns_with_extended_operational_duration_and_multiple_phases"
+    continuity_characteristics: phased_execution_operational_coherence_adaptation_progression
+    evidence_basis: temporal_artifact_correlation_operational_phase_analysis
+    persistence_factors: long_term_persistence_mechanism_operational_sustenance
+    operational_validity: continuous_phase_progression_and_operational_coherence_monitoring
+    false_campaign_risk: moderate_due_to_legitimate_operational_evolution_patterns
+  
+  opportunistic_campaign_operations:
+    classification: "campaigns_with_flexible_objectives_and_adaptive_operational_targeting"
+    continuity_characteristics: objective_flexibility_operational_adaptability_target_opportunity
+    evidence_basis: attack_pattern_correlation_and_flexibility_evidence
+    persistence_factors: operational_adaptation_capability_and_sustained_presence
+    operational_validity: continuous_adaptation_capability_and_operational_flexibility_monitoring
+    false_campaign_risk: very_high_due_to_behavioral_flexibility_and_pattern_emergence
+
+campaign_tracking_workflow:
+  campaign_discovery_and_collection_phase:
+    step_1_campaign_evidence_source_identification: "identify_campaign_evidence_source_and_operational_basis"
+    step_2_source_credibility_assessment: "assess_operational_evidence_quality_and_source_reliability"
+    step_3_campaign_extraction_and_normalization: "extract_and_normalize_campaign_from_operational_evidence"
+    step_4_campaign_categorization: "categorize_campaign_type_and_operational_scope"
+    step_5_operational_continuity_documentation: "document_supporting_operational_continuity_and_context"
+    step_6_persistence_basis_articulation: "articulate_reasoning_for_campaign_persistence_assessment"
+    step_7_baseline_establishment: "establish_campaign_baseline_for_monitoring_and_continuity_tracking"
+  
+  campaign_continuity_verification_phase:
+    step_1_campaign_evidence_verification: "verify_operational_evidence_is_authentic_and_coherent"
+    step_2_continuity_validation: "validate_campaign_exhibits_authentic_operational_continuity"
+    step_3_false_campaign_risk_assessment: "assess_false_campaign_risk_and_operational_confidence_limitations"
+    step_4_campaign_uniqueness_analysis: "determine_campaign_uniqueness_and_specificity_to_adversary"
+    step_5_temporal_consistency_verification: "verify_campaign_validity_across_temporal_window"
+    step_6_persistence_reasoning_validation: "validate_persistence_reasoning_is_sound_and_explicit"
+    step_7_uncertainty_exposure: "expose_confidence_limitations_and_false_campaign_risk"
+    step_8_tracking_authorization_decision: "permit_or_restrict_campaign_tracking_based_on_verification"
+    step_9_campaign_validity_recording: "record_campaign_continuity_assessment_and_persistence_reasoning"
+  
+  runtime_campaign_continuity_and_persistence_monitoring:
+    step_1_campaign_activity_monitoring: "monitor_campaign_activity_frequency_and_temporal_patterns"
+    step_2_false_campaign_detection: "detect_false_campaign_or_operational_artifact_patterns"
+    step_3_continuity_analysis: "analyze_campaign_continuity_and_operational_coherence"
+    step_4_operational_context_validation: "validate_campaign_observations_align_with_operational_context"
+    step_5_campaign_confidence_reassessment: "reassess_campaign_confidence_based_on_operational_evidence"
+    step_6_persistence_evolution_monitoring: "monitor_campaign_persistence_and_adaptation_progression"
+    step_7_false_campaign_investigation: "investigate_potential_false_campaign_continuity"
+    step_8_operational_validity_determination: "determine_campaign_operational_validity_and_persistence"
+  
+  campaign_manipulation_or_falsification_detection:
+    step_1_manipulation_indicator_detection: "detect_indicators_of_campaign_falsification_or_manipulation"
+    step_2_falsification_confirmation: "confirm_campaign_has_been_falsified_or_manipulated"
+    step_3_affected_campaigns_identification: "identify_all_affected_campaigns_or_campaign_series"
+    step_4_campaign_invalidation: "invalidate_falsified_campaigns_and_restrict_further_tracking"
+    step_5_investigation_initiation: "initiate_investigation_of_falsification_source"
+    step_6_incident_escalation: "escalate_to_threat_intelligence_and_incident_response"
+
+intelligence_posture:
+  default_campaign_confidence: requires_explicit_verification
+  operational_continuity_assumption: mandatory_and_explicitly_documented
+  false_campaign_assumption: always_consider_risk
+  temporal_validity_assumption: continuous_reassessment_required
+  operational_activity_dependency: campaign_activity_continuously_verified
+
+adaptive_cognition:
+  campaign_confidence_adaptation:
+    mechanism: "campaign_confidence_degradation_on_false_campaign_or_manipulation_signal"
+    triggers:
+      - false_campaign_continuity_detection
+      - operational_evidence_quality_degradation
+      - campaign_temporal_validity_questioned
+      - campaign_correlation_with_known_false_adversaries
+      - campaign_source_credibility_degradation
+    responses:
+      - reduce_campaign_confidence_and_operational_validity
+      - increase_campaign_verification_rigor
+      - escalate_skepticism_toward_campaign_source
+      - tighten_campaign_tracking_authorization_criteria
+      - require_human_pre_approval_for_affected_campaigns
+      - restrict_campaign_propagation_to_downstream_systems
+
+  operational_persistence_escalation:
+    mechanism: "heightened_scrutiny_on_campaign_persistence_signal_accumulation"
+    triggers:
+      - repeated_campaign_continuity_or_persistence_detection
+      - campaign_persistence_pattern_indicating_operational_priority
+      - multiple_campaigns_showing_convergence_or_coordination_patterns
+      - organizational_impact_from_persistent_campaign_operations
+    responses:
+      - restrict_campaign_tracking_pending_investigation
+      - escalate_to_human_operational_analysts
+      - require_operational_continuity_validation_for_campaign_series
+      - lower_confidence_threshold_for_future_campaigns_from_adversary
+
+policy_arbitration:
+  conflict_types:
+    operational_detection_vs_false_campaign_tolerance:
+      scenario: "high_value_campaign_carries_significant_false_campaign_risk"
+      resolution: "false_campaign_risk_explicitly_documented_tracking_decision_with_mitigation"
+      reasoning: "false_campaigns_undermine_operational_modeling_credibility"
+    
+    operational_evidence_certainty_vs_operational_urgency:
+      scenario: "time_sensitive_threat_requires_campaign_tracking_with_incomplete_evidence"
+      resolution: "operational_evidence_explicitly_stated_as_incomplete_with_confidence_qualified"
+      reasoning: "confidence_reasoning_must_not_be_sacrificed_for_urgency"
+    
+    campaign_confidence_vs_source_reputation:
+      scenario: "reputable_source_provides_campaign_with_limited_operational_evidence"
+      resolution: "campaign_confidence_verified_independently_not_inherited_from_source_reputation"
+      reasoning: "campaign_legitimacy_cannot_be_delegated_to_source_authority"
+  
+  priority_hierarchy:
+    priority_1_campaign_continuity_verification: "absolute_and_unconditional"
+    priority_2_operational_evidence_documentation: "cannot_be_omitted"
+    priority_3_false_campaign_detection_and_investigation: "mandatory"
+    priority_4_persistence_reasoning_articulation: "explicit_and_required"
+    priority_5_operational_validity_monitoring: "continuous"
+    priority_6_detection_efficiency: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_campaign_continuity_and_operational_evidence_uncertainty"
+    uncertainty_types:
+      type_1_campaign_source_credibility_uncertain: "escalate_before_tracking"
+      type_2_operational_evidence_incomplete: "conservative_confidence_reduction"
+      type_3_false_campaign_risk_unquantified: "assume_risk_significant"
+      type_4_temporal_validity_uncertain: "require_continuous_reassessment"
+      type_5_campaign_correlation_ambiguous: "investigate_before_confidence_elevation"
+  
+  visibility_requirements:
+    mechanism: "mandatory_campaign_continuity_and_operational_evidence_uncertainty_articulation"
+    mandatory_output:
+      - campaign_source_credibility_assessment_and_verification_status
+      - supporting_operational_evidence_documentation_and_linkage_validation
+      - false_campaign_risk_assessment_and_mitigation_strategy
+      - temporal_validity_window_and_reassessment_frequency
+      - persistence_reasoning_articulation_and_limitations
+      - uncertainty_factors_limiting_confidence_in_campaign_continuity
+
+  propagation:
+    mechanism: "uncertainty_flow_through_campaign_tracking_chain"
+    rule_1: "source_credibility_uncertainty_flows_to_campaign_tracking_authorization_confidence"
+    rule_2: "operational_evidence_uncertainty_creates_hard_ceiling_on_campaign_confidence"
+    rule_3: "false_campaign_uncertainty_increases_monitoring_rigor"
+    rule_4: "temporal_validity_uncertainty_triggers_reassessment"
+
+trust_boundaries:
+  campaign_source_trust_hierarchy:
+    verified_internal_investigation_derived_campaign: highest_trust_within_organizational_scope
+    verified_third_party_threat_intelligence_source: conditionally_trusted_with_ongoing_verification
+    community_or_emerging_threat_intelligence_source: limited_trust_high_scrutiny
+    unverified_or_anonymous_campaign_source: untrusted_escalation_required
+    compromised_campaign_source: trust_revoked_campaigns_invalidated
+  
+  operational_evidence_trust:
+    operational_evidence_explicitly_documented_and_validated: trusted_campaign_confidence_supported
+    operational_evidence_assumed_not_documented: trust_reduced_verification_required
+    operational_evidence_contradicts_campaign: trust_revoked_investigation_required
+  
+  operational_validity_trust:
+    campaign_validated_through_independent_observation: trusted_for_operational_use
+    campaign_validity_questioned_or_anomalies_detected: trust_suspended_investigation_required
+    repeated_false_campaigns_detected: trust_revoked_campaign_restricted
+
+runtime_behavior:
+  campaign_continuity_verification_frequency: per_campaign_tracking_or_confidence_challenge
+  false_campaign_monitoring: continuous_real_time_operational_analysis
+  operational_validity_assessment: continuous_during_operational_use
+  campaign_source_reputation_monitoring: continuous_with_historical_analysis
+  operational_evidence_validation: per_campaign_challenge_or_periodic_reassessment
+  campaign_tracking_traceability: immutable_audit_log_per_tracking
+
+runtime_degradation:
+  on_campaign_continuity_unverifiable:
+    campaign_tracking_status: restricted_pending_verification
+    escalation: immediate_to_intelligence_authority
+  
+  on_false_campaign_detected:
+    campaign_operational_status: confidence_reduced_pending_investigation
+    affected_operations: flagged_for_investigation_and_adjustment
+    investigation_priority: high
+  
+  on_campaign_operational_manipulation_detected:
+    campaign_validity: suspended_immediately
+    operational_observations: isolated_for_investigation
+    incident_escalation: intelligence_operations_notification
+  
+  on_campaign_falsification_confirmed:
+    campaign_status: invalidated_immediately
+    affected_series: escalated_for_comprehensive_review
+    forensic_investigation: critical_priority
+
+confidence_governance:
+  binary_campaign_confidence_assumption: prohibited
+  implicit_operational_continuity_assumption: prohibited
+  unverified_campaign_source: escalated_before_tracking
+  campaign_confidence: explicit_reasoning_required
+  false_campaign_risk: always_articulated
+  hallucinated_campaign_continuity: prohibited
+
+traceability:
+  campaign_provenance_lineage: preserved_per_tracking
+  operational_evidence_documentation: immutable_per_campaign
+  persistence_reasoning_record: timestamped_and_attributed
+  false_campaign_assessment_history: complete_per_campaign_lifecycle
+  operational_validity_determination: fully_traceable_with_evidence
+  campaign_incident_response: complete_investigation_trail
+
+human_oversight:
+  campaign_tracking_authority: threat_intelligence_and_security_leadership
+  operational_continuity_authority: final_arbiter_of_campaign_validity_assessment
+  false_campaign_investigation_authority: intelligence_operations_decision_making
+  override_capability: emergency_campaign_tracking_with_incident_justification
+  escalation_triggers:
+    - campaign_continuity_unverifiable
+    - operational_evidence_incomplete_or_questionable
+    - false_campaign_pattern_detected
+    - campaign_source_credibility_degradation
+    - operational_validity_confirmation_failure
+  autonomous_campaign_tracking_without_verification: prohibited
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_campaign_confidence_elevation: prohibited
+  self_modifying_campaign_policy: prohibited
+  cross_domain_campaign_trust_contamination: prohibited
+  uncontrolled_adaptive_confidence_relaxation: prohibited
+  deterministic_campaign_verification_behavior: enforced
+  campaign_validity_boundary_preservation: strict
+
+implementation_leakage_control:
+  campaign_tracking_platform_implementation: excluded
+  campaign_database_technology_specifics: excluded
+  temporal_correlation_algorithms: excluded
+  campaign_clustering_or_grouping_procedures: excluded
+  campaign_management_automation_systems: excluded
+
+meta_governance:
+  preserve_campaign_tracking_governance_boundary_integrity: true
+  prohibit_runtime_campaign_policy_drift: true
+  prohibit_adaptive_confidence_boundary_erosion: true
+  preserve_deterministic_campaign_verification: true
+  maintain_operational_continuity_integrity_principle: true
+
+decision_logic:
+  campaign_tracking: "continuous_and_operationally_coherent_or_tracking_restricted"
+  confidence_elevation: "explicit_reasoning_and_verification_only_not_assumption"
+  false_campaign_response: "investigation_and_confidence_adjustment_mandatory"
+
+workflow_cognition:
+  verification_sequence:
+    - verify_campaign_operational_evidence_authenticity
+    - validate_operational_continuity_consistency
+    - assess_false_campaign_risk
+    - determine_temporal_validity
+    - articulate_persistence_reasoning
+    - authorize_or_restrict_tracking
+
+risk_classification:
+  verified_campaign: low_risk_operational_use
+  probable_campaign: elevated_risk_investigation_required
+  suspicious_campaign: high_risk_restricted_tracking
+  unverified_campaign: critical_risk_escalation_required
+
+output_standard:
+  expose_campaign_operational_evidence_verification: required
+  expose_operational_continuity_validation: required
+  expose_false_campaign_risk_assessment: required
+  expose_temporal_validity_window: required
+  expose_persistence_reasoning_articulation: required
+  expose_operational_validity_status: required
+  expose_campaign_tracking_uncertainty_factors: required
+  separate_continuity_verification_from_tracking_decision: enforced
+  auditability: full_per_campaign_lifecycle
+  explainability: required_at_each_campaign_decision_point

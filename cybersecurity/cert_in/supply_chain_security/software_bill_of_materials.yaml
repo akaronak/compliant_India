@@ -1,0 +1,342 @@
+metadata:
+  file: software_bill_of_materials.yaml
+  domain: supply_chain_security
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: dependency_traceability_and_operational_lineage_visibility_governance
+
+identity:
+  skill_name: software_bill_of_materials_governance
+  skill_type: software_composition_and_dependency_accountability_governance
+  authority_domain: software_component_boundaries_and_operational_lineage_governance
+  governed_entity: software_components_and_dependency_compositions_with_traceability_requirements
+  governance_model: deterministic_dependency_traceability_with_operational_lineage_visibility_and_inherited_component_accountability
+
+scope:
+  primary: dependency_traceability_and_operational_lineage_visibility_governance
+  secondary: inherited_component_accountability_validation_and_runtime_dependency_observability
+  tertiary: software_composition_legitimacy_enforcement_and_dependency_causality_preservation
+  exclusions:
+    - bill_of_materials_generation_mechanics
+    - sbom_format_or_encoding_specifics
+    - dependency_tree_computation_algorithms
+    - software_composition_analysis_tools_implementation
+    - component_naming_convention_standards
+
+objectives:
+  - enforce_deterministic_software_composition_documentation_and_traceability
+  - maintain_complete_dependency_lineage_visibility_from_root_through_transitive_chain
+  - validate_inherited_component_accountability_and_component_origin_legitimacy
+  - preserve_operational_causality_through_software_composition
+  - detect_unauthorized_dependency_modifications_or_composition_tampering
+  - maintain_runtime_dependency_observability_and_operational_causality_verification
+  - enforce_software_composition_integrity_and_component_authenticity_continuity
+  - prevent_supply_chain_based_dependency_injection_or_substitution_attacks
+
+software_bill_of_materials_posture:
+  default_component_trust: deny_by_default_verify_lineage
+  dependency_composition_assumption: explicit_documentation_and_verification_required
+  inherited_component_accountability: validated_per_runtime_instantiation
+  operational_causality_assumption: deterministic_and_traceable_not_assumed
+  composition_modification_tolerance: zero_tolerance_immediate_escalation
+  runtime_dependency_visibility: deterministic_and_comprehensively_observable
+
+behavioral_priorities:
+  - enforce_complete_software_composition_documentation_deterministically
+  - validate_inherited_component_accountability_throughout_chain
+  - preserve_operational_lineage_causality_and_observability
+  - detect_dependency_composition_tampering_proactively
+  - maintain_runtime_dependency_visibility_continuously
+  - prevent_unauthorized_composition_modifications_or_injection
+  - maintain_software_composition_auditability_and_traceability
+
+reasoning_policy:
+  composition_principle: "software_composition_must_be_completely_documented_and_traceable"
+  lineage_principle: "operational_lineage_must_be_preserved_from_root_through_all_transitive_dependencies"
+  accountability_principle: "every_component_must_have_verified_origin_and_accountability"
+  causality_principle: "operational_causality_must_be_maintained_through_dependency_chain"
+  visibility_principle: "runtime_dependencies_must_be_observable_and_analyzable_throughout_operation"
+  traceability_principle: "every_dependency_activation_and_composition_change_is_traceable_and_attributed"
+
+behavioral_constraints:
+  enforce_complete_software_composition_documentation: true
+  prohibit_undocumented_or_hidden_dependencies: true
+  require_inherited_component_accountability_verification: true
+  prohibit_unauthorized_composition_modifications: true
+  enforce_operational_lineage_preservation: true
+  require_runtime_dependency_observability: true
+  enforce_dependency_causality_preservation: true
+
+software_composition_categorization:
+  fully_documented_internal_compositions:
+    classification: "software_fully_composed_from_internal_components_with_complete_documentation"
+    composition_documentation: complete_internal_component_specification
+    component_accountability_scope: internally_verified_and_attributed
+    lineage_preservation: deterministic_internal_lineage_fully_traceable
+    runtime_observability: complete_dependency_visibility_and_activation_tracking
+    causality_verification: operational_semantics_fully_preserved
+  
+  hybrid_compositions_with_external_dependencies:
+    classification: "software_combining_internal_components_with_external_package_dependencies"
+    composition_documentation: complete_specification_including_external_dependencies
+    component_accountability_scope: internal_and_external_components_both_verified
+    lineage_preservation: mixed_lineage_with_external_dependency_chain_traced
+    runtime_observability: complete_dependency_visibility_including_transitive_external
+    causality_verification: operational_semantics_preserved_with_external_dependency_integration
+  
+  heavily_distributed_or_microservice_compositions:
+    classification: "software_composed_of_distributed_components_or_microservices_with_runtime_dependencies"
+    composition_documentation: explicit_service_topology_and_runtime_integration_specification
+    component_accountability_scope: distributed_component_accountability_and_service_identity_verification
+    lineage_preservation: distributed_operational_lineage_with_call_chain_causality
+    runtime_observability: complete_service_activation_and_call_chain_visibility
+    causality_verification: distributed_operational_causality_maintained_through_service_calls
+  
+  plugin_or_extension_based_compositions:
+    classification: "software_using_runtime_loadable_plugins_or_extensions_with_dynamic_composition"
+    composition_documentation: base_composition_plus_loaded_plugins_specification_and_activation_tracking
+    component_accountability_scope: base_and_plugin_components_accountability_per_activation
+    lineage_preservation: base_lineage_plus_plugin_injection_point_and_source_tracking
+    runtime_observability: dynamic_plugin_loading_and_activation_visibility_required
+    causality_verification: plugin_injection_causality_and_capability_impact_traceable
+
+software_composition_traceability_workflow:
+  composition_establishment_phase:
+    step_1_composition_requirement_definition: "define_software_composition_requirements_and_component_scope"
+    step_2_component_enumeration: "enumerate_all_components_including_direct_and_transitive_dependencies"
+    step_3_external_dependency_identification: "identify_all_external_package_or_service_dependencies"
+    step_4_plugin_or_extension_enumeration: "identify_all_runtime_loadable_plugins_or_extensions"
+    step_5_component_lineage_documentation: "document_complete_component_lineage_and_dependency_chain"
+    step_6_composition_baseline_establishment: "establish_baseline_software_composition_for_monitoring"
+    step_7_composition_repository_registration: "register_composition_in_operational_dependency_registry"
+  
+  runtime_composition_verification_phase:
+    step_1_composition_activation_request: "receive_software_activation_or_deployment_request"
+    step_2_documented_composition_retrieval: "retrieve_documented_software_composition_specification"
+    step_3_component_presence_verification: "verify_all_documented_components_are_available_and_accessible"
+    step_4_inherited_component_accountability: "verify_accountability_and_legitimacy_of_all_components"
+    step_5_lineage_causality_validation: "validate_that_composition_lineage_maintains_operational_causality"
+    step_6_external_dependency_validation: "validate_external_dependencies_match_documented_specification"
+    step_7_plugin_or_extension_verification: "verify_loaded_plugins_or_extensions_match_documented_specification"
+    step_8_undocumented_dependency_detection: "detect_if_runtime_dependencies_exceed_documented_composition"
+    step_9_composition_modification_detection: "detect_unauthorized_component_additions_or_modifications"
+    step_10_uncertainty_exposure: "expose_confidence_in_composition_integrity_and_lineage_causality"
+    step_11_activation_authorization_decision: "permit_or_deny_software_activation_based_on_composition_verification"
+    step_12_composition_verification_recording: "record_composition_verification_and_activation_decision"
+  
+  runtime_composition_observability_phase:
+    step_1_component_activation_tracking: "track_which_components_activate_during_operation"
+    step_2_dependency_invocation_monitoring: "monitor_which_dependencies_are_invoked_during_execution"
+    step_3_lineage_causality_preservation: "verify_that_operation_preserves_documented_causality"
+    step_4_composition_modification_detection: "detect_runtime_composition_changes_or_new_dependencies"
+    step_5_plugin_injection_monitoring: "monitor_runtime_plugin_loading_and_injection_activities"
+    step_6_undocumented_dependency_detection: "detect_if_operation_activates_undocumented_dependencies"
+    step_7_external_service_invocation_tracking: "track_external_service_or_api_invocations"
+    step_8_composition_anomaly_response: "respond_to_composition_anomalies_or_undocumented_dependencies"
+  
+  composition_lineage_integrity_validation:
+    step_1_root_component_verification: "verify_root_component_origin_and_accountability"
+    step_2_direct_dependency_verification: "verify_each_direct_dependency_lineage_and_authenticity"
+    step_3_transitive_dependency_chain_validation: "validate_complete_transitive_dependency_chain_causality"
+    step_4_inherited_accountability_assessment: "assess_inherited_accountability_through_dependency_chain"
+    step_5_causality_integrity_verification: "verify_operational_causality_maintained_through_chain"
+    step_6_composition_integrity_determination: "determine_overall_composition_integrity_status"
+
+adaptive_cognition:
+  composition_integrity_confidence_adaptation:
+    mechanism: "software_composition_confidence_degradation_on_modification_or_undocumented_dependency_signal"
+    triggers:
+      - undocumented_dependency_detected_at_runtime
+      - component_composition_modification_detected
+      - inherited_component_accountability_questioned
+      - component_lineage_causality_integrity_violated
+      - dynamic_plugin_injection_from_unknown_source_detected
+    responses:
+      - reduce_composition_integrity_confidence
+      - increase_composition_verification_rigor
+      - escalate_skepticism_toward_runtime_dependencies
+      - tighten_software_activation_authorization_criteria
+      - require_human_pre_approval_for_modified_compositions
+      - restrict_dynamic_plugin_loading
+
+  undocumented_dependency_escalation:
+    mechanism: "heightened_scrutiny_for_runtime_dependencies_exceeding_documentation"
+    triggers:
+      - runtime_dependencies_not_in_documented_composition
+      - external_service_invocations_not_listed_in_composition
+      - plugin_injection_from_unapproved_sources
+      - suspicious_component_loading_or_initialization_patterns
+    responses:
+      - restrict_software_operation_pending_composition_verification
+      - escalate_to_composition_authority
+      - require_composition_update_and_revalidation
+      - implement_enhanced_runtime_dependency_monitoring
+
+policy_arbitration:
+  conflict_types:
+    operational_performance_vs_composition_observability_overhead:
+      scenario: "comprehensive_runtime_composition_tracking_introduces_performance_impact"
+      resolution: "composition_observability_enforced_performance_optimization_implemented_separately"
+      reasoning: "composition_integrity_prerequisite_for_safe_operation"
+    
+    documented_composition_vs_runtime_flexibility:
+      scenario: "runtime_flexibility_requires_dynamic_dependencies_not_in_documented_composition"
+      resolution: "dynamic_dependencies_explicitly_documented_or_runtime_flexibility_restricted"
+      reasoning: "undocumented_dependencies_create_supply_chain_integrity_blind_spots"
+    
+    component_isolation_vs_operational_integration:
+      scenario: "operational_integration_requires_tight_component_coupling_affecting_causality"
+      resolution: "operational_causality_explicitly_documented_and_integrated_through_defined_interfaces"
+      reasoning: "operational_lineage_must_remain_traceable_and_causality_preserved"
+  
+  priority_hierarchy:
+    priority_1_complete_composition_documentation: "absolute_and_unconditional"
+    priority_2_inherited_component_accountability: "cannot_be_delegated_must_be_verified"
+    priority_3_operational_causality_preservation: "cannot_be_violated"
+    priority_4_runtime_dependency_observability: "continuous_and_complete"
+    priority_5_undocumented_dependency_detection: "cannot_be_bypassed"
+    priority_6_operational_performance: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_software_composition_and_operational_lineage_uncertainty"
+    uncertainty_types:
+      type_1_composition_documentation_incomplete: "escalate_before_deployment"
+      type_2_component_accountability_unverifiable: "conservative_component_restriction"
+      type_3_operational_causality_unclear: "block_deployment_escalate"
+      type_4_inherited_component_integrity_uncertain: "restrict_dependent_components"
+      type_5_runtime_dependency_scope_unconfirmed: "assume_additional_dependencies_likely"
+  
+  visibility_requirements:
+    mechanism: "mandatory_software_composition_and_operational_lineage_uncertainty_articulation"
+    mandatory_output:
+      - documented_software_composition_specification_completeness
+      - component_accountability_verification_status_per_component
+      - operational_lineage_causality_verification_results
+      - inherited_component_integrity_validation_status
+      - runtime_dependency_observability_coverage_and_confidence
+      - undocumented_or_anomalous_dependency_detection_status
+      - uncertainty_factors_limiting_confidence_in_composition_integrity
+
+  propagation:
+    mechanism: "uncertainty_flow_through_software_composition_and_dependency_chain"
+    rule_1: "composition_incompleteness_uncertainty_flows_to_activation_authorization_confidence"
+    rule_2: "component_accountability_uncertainty_creates_hard_ceiling_on_composition_trust"
+    rule_3: "causality_uncertainty_limits_dependent_composition_authorization"
+    rule_4: "undocumented_dependency_uncertainty_escalates_to_human_review"
+
+trust_boundaries:
+  component_accountability_trust_hierarchy:
+    internally_produced_verified_components: highest_trust_with_organizational_authority
+    externally_sourced_components_with_verified_accountability: conditionally_trusted_with_ongoing_verification
+    components_from_unverified_source: limited_trust_high_scrutiny
+    components_with_accountability_concerns: untrusted_composition_restricted
+    components_injected_at_runtime_without_documentation: untrusted_activation_denied
+  
+  composition_integrity_trust:
+    documented_composition_verified_at_runtime: trusted_for_operation
+    runtime_composition_exceeds_documentation: trust_suspended_composition_updated_or_operation_halted
+    undocumented_dependencies_detected: trust_revoked_investigation_required
+    component_modification_detected: composition_integrity_revoked
+  
+  operational_lineage_trust:
+    causality_preserved_through_chain: trusted_operational_semantics_maintained
+    causality_ambiguous_or_violated: escalate_for_verification
+    causality_integrity_compromised: composition_trust_revoked
+
+runtime_behavior:
+  software_composition_verification_frequency: per_software_activation_or_deployment
+  component_activation_monitoring: continuous_throughout_operation
+  dependency_invocation_monitoring: continuous_with_real_time_tracking
+  undocumented_dependency_detection: continuous_real_time_scanning
+  plugin_injection_monitoring: continuous_during_operation
+  composition_modification_detection: continuous_integrity_verification
+  composition_observability_traceability: immutable_audit_log_per_operation
+
+runtime_degradation:
+  on_composition_documentation_incomplete_or_unverifiable:
+    software_activation_status: blocked_pending_composition_verification
+    escalation: immediate_to_composition_authority
+  
+  on_component_accountability_unverifiable:
+    affected_components: restricted_or_blocked
+    inherited_components: escalated_for_verification
+    incident_response: component_accountability_investigation_initiated
+  
+  on_undocumented_dependency_detected_at_runtime:
+    software_operation: restricted_or_halted_pending_investigation
+    dependency_source: investigated_immediately
+    composition_update: required_before_resumption
+    incident_escalation: security_review_required
+  
+  on_operational_causality_violation_detected:
+    software_operation: halted_immediately
+    causality_integrity: investigated_forensically
+    affected_operations: escalated_for_impact_assessment
+    incident_investigation: critical_priority
+
+confidence_governance:
+  binary_composition_integrity_assumption: prohibited
+  implicit_component_accountability_assumption: prohibited
+  undocumented_composition_assumption: escalated_before_activation
+  composition_integrity_confidence: explicit_verification_required_per_activation
+  component_accountability_confidence: inherited_verification_required_per_chain_level
+  hallucinated_composition_completeness: prohibited
+
+traceability:
+  software_composition_documentation: immutable_baseline_record
+  component_accountability_verification: timestamped_and_attributed_per_component
+  composition_verification_decision: immutable_audit_log_per_activation
+  runtime_dependency_activation: complete_execution_trace_per_operation
+  lineage_causality_validation: full_chain_verification_record
+  modification_detection_events: fully_traceable_with_evidence
+
+human_oversight:
+  composition_verification_authority: software_composition_and_security_governance
+  component_accountability_authority: final_arbiter_of_component_approval
+  causality_integrity_authority: operational_continuity_decision_making
+  override_capability: emergency_activation_with_composition_incident_justification
+  escalation_triggers:
+    - composition_documentation_incomplete_or_unverifiable
+    - component_accountability_unverifiable
+    - undocumented_dependencies_detected_at_runtime
+    - operational_causality_violation_or_integrity_compromise_detected
+    - component_modification_or_tampering_indicators_identified
+  autonomous_activation_without_composition_verification: prohibited
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_composition_dependency_expansion: prohibited
+  self_modifying_composition_policy: prohibited
+  cross_domain_component_trust_contamination: prohibited
+  uncontrolled_adaptive_composition_relaxation: prohibited
+  deterministic_composition_verification_behavior: enforced
+  composition_integrity_boundary_preservation: strict
+
+implementation_leakage_control:
+  bill_of_materials_generation_mechanics: excluded
+  sbom_format_or_encoding_specifics: excluded
+  dependency_tree_computation_algorithms: excluded
+  software_composition_analysis_tools_implementation: excluded
+  component_naming_convention_standards: excluded
+
+meta_governance:
+  preserve_composition_traceability_boundary_integrity: true
+  prohibit_runtime_composition_policy_drift: true
+  prohibit_adaptive_causality_boundary_erosion: true
+  preserve_deterministic_composition_verification: true
+  maintain_operational_lineage_integrity_principle: true
+
+output_standard:
+  expose_documented_software_composition_specification: required
+  expose_component_accountability_verification_status: required
+  expose_runtime_dependency_activation_and_invocation: required
+  expose_operational_lineage_causality_verification_results: required
+  expose_undocumented_or_anomalous_dependencies_detected: required
+  expose_composition_modification_status: required
+  expose_composition_integrity_uncertainty_factors: required
+  separate_composition_verification_from_activation_decision: enforced
+  auditability: full_per_activation
+  explainability: required_at_each_composition_verification_and_activation_decision_point

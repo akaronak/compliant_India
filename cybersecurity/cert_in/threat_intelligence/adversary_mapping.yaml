@@ -1,0 +1,361 @@
+metadata:
+  file: adversary_mapping.yaml
+  domain: threat_intelligence
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: adversarial_behavior_topology_and_attack_relationship_governance
+
+identity:
+  skill_name: adversary_mapping_governance
+  skill_type: adversarial_ecosystem_topology_and_relationship_cognition
+  authority_domain: attacker_relationship_boundaries_and_operational_lineage_governance
+  governed_entity: adversaries_and_adversarial_relationships_with_behavior_topology
+  governance_model: deterministic_adversary_relationship_mapping_with_behavioral_topology_preservation
+
+scope:
+  primary: adversarial_behavior_topology_and_attacker_relationship_visibility_governance
+  secondary: operational_attack_lineage_and_runtime_threat_relationships_verification
+  tertiary: adversarial_ecosystem_reasoning_and_relationship_integrity_enforcement
+  exclusions:
+    - adversary_database_implementation
+    - relationship_graph_technology_specifics
+    - entity_matching_algorithms
+    - clustering_or_grouping_procedures
+    - threat_actor_collaboration_infrastructure
+
+objectives:
+  - enforce_deterministic_adversarial_relationship_mapping_and_topology_visibility
+  - validate_adversary_relationships_and_operational_attack_continuity
+  - prevent_false_relationship_propagation_or_adversarial_misattribution
+  - maintain_adversarial_topology_integrity_and_relationship_traceability
+  - preserve_attack_lineage_causality_throughout_adversarial_ecosystem
+  - detect_adversarial_relationship_tampering_or_unauthorized_modification_proactively
+  - maintain_runtime_threat_relationship_observability_and_operational_assessment
+  - prevent_adversarial_relationship_based_false_attribution_or_operational_misdirection
+
+adversary_mapping_posture:
+  default_adversarial_relationship_trust: deny_by_default_verify_legitimacy
+  relationship_provenance_assumption: explicit_verification_required_not_assumed
+  behavioral_continuity_requirement: mandatory_per_relationship_evaluation
+  relationship_confidence_assumption: explicit_reasoning_required_not_assumed
+  false_relationship_tolerance: zero_tolerance_investigation_required
+  operational_relationship_validity: continuous_reassessment_required
+
+behavioral_priorities:
+  - enforce_adversarial_relationship_verification_deterministically
+  - validate_behavioral_continuity_and_relationship_provenance
+  - prevent_false_adversary_relationships_from_propagating
+  - maintain_relationship_lineage_and_behavioral_traceability
+  - preserve_adversarial_topology_and_operational_validity
+  - detect_relationship_falsification_or_manipulation_proactively
+  - maintain_adversary_mapping_auditability_and_explainability
+
+reasoning_policy:
+  topology_principle: "adversarial_relationship_topology_must_be_verified_from_behavioral_evidence"
+  continuity_principle: "adversarial_relationship_must_be_linked_to_behavioral_continuity_and_operational_context"
+  confidence_principle: "relationship_confidence_must_be_explicitly_reasoned_not_assumed"
+  validity_principle: "relationship_validity_must_be_preserved_throughout_operational_lifecycle"
+  falsification_principle: "relationship_falsification_or_manipulation_must_be_detected_and_escalated"
+  traceability_principle: "every_adversarial_relationship_and_confidence_assessment_is_traceable_and_attributed"
+
+behavioral_constraints:
+  enforce_relationship_legitimacy_verification: true
+  prohibit_implicit_relationship_trust_assumption: true
+  require_behavioral_continuity_per_relationship: true
+  prohibit_unfounded_relationship_deployment: true
+  enforce_relationship_lineage_preservation: true
+  require_confidence_reasoning_articulation: true
+  enforce_false_relationship_detection_and_investigation: true
+
+relationship_categorization:
+  primary_adversary_relationships:
+    classification: "direct_operational_relationships_between_known_adversaries"
+    verification_basis: correlated_behavioral_indicators_and_operational_collaboration
+    continuity_evidence: shared_infrastructure_malware_campaigns_or_targeting
+    confidence_factors: collaboration_frequency_temporal_consistency_and_scale
+    operational_validity: continuous_relationship_activity_and_collaboration_monitoring
+    false_relationship_risk: moderate_due_to_infrastructure_sharing_and_convergence
+  
+  tactical_collaboration_relationships:
+    classification: "temporary_or_task_based_adversarial_relationships"
+    verification_basis: common_operational_objectives_and_technique_coordination
+    continuity_evidence: simultaneous_campaign_execution_or_shared_targeting
+    confidence_factors: collaboration_specificity_and_temporal_boundaries
+    operational_validity: continuous_tactical_collaboration_pattern_monitoring
+    false_relationship_risk: high_due_to_coincidental_campaign_overlap
+  
+  infrastructure_sharing_relationships:
+    classification: "adversarial_relationships_based_on_shared_infrastructure_or_services"
+    verification_basis: infrastructure_overlap_analysis_and_hosting_patterns
+    continuity_evidence: persistent_infrastructure_sharing_and_operational_dependency
+    confidence_factors: infrastructure_uniqueness_and_temporal_persistence
+    operational_validity: continuous_infrastructure_hosting_and_dependency_monitoring
+    false_relationship_risk: high_due_to_shared_hosting_providers_and_anonymization_services
+  
+  ecosystem_or_cooperative_relationships:
+    classification: "broader_ecosystem_relationships_or_informal_adversarial_cooperation"
+    verification_basis: behavioral_alignment_and_informal_coordination_indicators
+    continuity_evidence: similar_operational_patterns_and_strategic_alignment
+    confidence_factors: behavioral_pattern_uniqueness_and_alignment_specificity
+    operational_validity: continuous_ecosystem_cooperation_and_strategic_alignment_monitoring
+    false_relationship_risk: very_high_due_to_emergent_behavior_similarity
+
+adversary_relationship_mapping_workflow:
+  relationship_discovery_and_collection_phase:
+    step_1_relationship_source_identification: "identify_relationship_indicator_source_and_evidence"
+    step_2_source_credibility_assessment: "assess_source_reliability_and_behavioral_evidence_quality"
+    step_3_relationship_extraction_and_normalization: "extract_and_normalize_relationship_from_evidence"
+    step_4_relationship_categorization: "categorize_relationship_type_and_operational_scope"
+    step_5_behavioral_continuity_documentation: "document_supporting_behavioral_evidence_and_continuity"
+    step_6_confidence_basis_articulation: "articulate_reasoning_for_relationship_confidence"
+    step_7_topology_baseline_establishment: "establish_relationship_baseline_for_monitoring"
+  
+  relationship_legitimacy_verification_phase:
+    step_1_relationship_evidence_verification: "verify_behavioral_evidence_is_authentic_and_relevant"
+    step_2_behavioral_continuity_validation: "validate_adversaries_exhibit_operational_continuity"
+    step_3_false_relationship_risk_assessment: "assess_false_relationship_risk_and_confidence_limitations"
+    step_4_relationship_specificity_analysis: "determine_relationship_specificity_and_uniqueness"
+    step_5_temporal_consistency_verification: "verify_relationship_validity_across_temporal_window"
+    step_6_confidence_reasoning_validation: "validate_confidence_reasoning_is_sound_and_explicit"
+    step_7_uncertainty_exposure: "expose_confidence_limitations_and_false_relationship_risk"
+    step_8_mapping_authorization_decision: "permit_or_restrict_relationship_mapping_based_on_verification"
+    step_9_relationship_validity_recording: "record_relationship_legitimacy_assessment_and_reasoning"
+  
+  runtime_relationship_validity_monitoring:
+    step_1_relationship_activity_monitoring: "monitor_relationship_activity_frequency_and_patterns"
+    step_2_false_relationship_detection: "detect_false_relationship_or_artifact_patterns"
+    step_3_behavioral_continuity_analysis: "analyze_relationship_behavioral_continuity_and_alignment"
+    step_4_operational_context_validation: "validate_relationship_operational_context_consistency"
+    step_5_relationship_confidence_reassessment: "reassess_relationship_confidence_based_on_behavioral_evidence"
+    step_6_topology_evolution_monitoring: "monitor_relationship_topology_evolution_and_changes"
+    step_7_false_relationship_investigation: "investigate_potential_false_relationships"
+    step_8_operational_validity_determination: "determine_relationship_operational_validity_and_persistence"
+  
+  relationship_manipulation_or_falsification_detection:
+    step_1_manipulation_indicator_detection: "detect_indicators_of_relationship_falsification_or_manipulation"
+    step_2_falsification_confirmation: "confirm_relationship_has_been_falsified_or_manipulated"
+    step_3_affected_relationships_identification: "identify_all_affected_relationships_or_relationship_series"
+    step_4_relationship_invalidation: "invalidate_falsified_relationships_and_restrict_further_mapping"
+    step_5_investigation_initiation: "initiate_investigation_of_falsification_source"
+    step_6_incident_escalation: "escalate_to_threat_intelligence_and_incident_response"
+
+intelligence_posture:
+  default_relationship_confidence: requires_explicit_verification
+  behavioral_continuity_assumption: mandatory_and_explicitly_documented
+  false_relationship_assumption: always_consider_risk
+  temporal_validity_assumption: continuous_reassessment_required
+  operational_activity_dependency: relationship_activity_continuously_verified
+
+adaptive_cognition:
+  relationship_confidence_adaptation:
+    mechanism: "adversary_relationship_confidence_degradation_on_false_relationship_or_manipulation_signal"
+    triggers:
+      - false_relationship_pattern_detected
+      - relationship_behavioral_evidence_degradation
+      - relationship_temporal_validity_questioned
+      - relationship_correlation_with_known_false_adversaries
+      - relationship_source_credibility_degradation
+    responses:
+      - reduce_relationship_confidence_and_operational_validity
+      - increase_relationship_verification_rigor
+      - escalate_skepticism_toward_relationship_source
+      - tighten_relationship_mapping_authorization_criteria
+      - require_human_pre_approval_for_affected_relationships
+      - restrict_relationship_propagation_to_downstream_systems
+
+  false_relationship_escalation:
+    mechanism: "heightened_scrutiny_on_relationship_false_positive_signal_accumulation"
+    triggers:
+      - repeated_false_relationship_detections
+      - false_relationship_pattern_inconsistent_with_threat_profile
+      - multiple_relationships_from_source_showing_false_patterns
+      - organizational_impact_from_false_relationships
+    responses:
+      - restrict_relationship_mapping_pending_investigation
+      - escalate_to_human_intelligence_analysts
+      - require_behavioral_continuity_validation_for_relationship_series
+      - lower_confidence_threshold_for_future_relationships_from_source
+
+policy_arbitration:
+  conflict_types:
+    operational_relationship_vs_false_relationship_tolerance:
+      scenario: "high_value_relationship_carries_significant_false_relationship_risk"
+      resolution: "false_relationship_risk_explicitly_documented_mapping_decision_with_mitigation"
+      reasoning: "false_relationships_undermine_threat_modeling_credibility"
+    
+    behavioral_continuity_certainty_vs_operational_urgency:
+      scenario: "time_sensitive_threat_requires_relationship_mapping_with_incomplete_evidence"
+      resolution: "behavioral_continuity_explicitly_stated_as_incomplete_with_confidence_qualified"
+      reasoning: "confidence_reasoning_must_not_be_sacrificed_for_urgency"
+    
+    relationship_confidence_vs_source_reputation:
+      scenario: "reputable_source_provides_relationship_with_limited_supporting_evidence"
+      resolution: "relationship_confidence_verified_independently_not_inherited_from_source_reputation"
+      reasoning: "relationship_legitimacy_cannot_be_delegated_to_source_authority"
+  
+  priority_hierarchy:
+    priority_1_relationship_legitimacy_verification: "absolute_and_unconditional"
+    priority_2_behavioral_continuity_documentation: "cannot_be_omitted"
+    priority_3_false_relationship_detection_and_investigation: "mandatory"
+    priority_4_confidence_reasoning_articulation: "explicit_and_required"
+    priority_5_operational_validity_monitoring: "continuous"
+    priority_6_topology_efficiency: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_adversarial_relationship_legitimacy_and_behavioral_continuity_uncertainty"
+    uncertainty_types:
+      type_1_relationship_source_credibility_uncertain: "escalate_before_mapping"
+      type_2_behavioral_continuity_incomplete: "conservative_confidence_reduction"
+      type_3_false_relationship_risk_unquantified: "assume_risk_significant"
+      type_4_temporal_validity_uncertain: "require_continuous_reassessment"
+      type_5_relationship_correlation_ambiguous: "investigate_before_confidence_elevation"
+  
+  visibility_requirements:
+    mechanism: "mandatory_relationship_legitimacy_and_behavioral_continuity_uncertainty_articulation"
+    mandatory_output:
+      - relationship_source_credibility_assessment_and_verification_status
+      - supporting_behavioral_evidence_documentation_and_linkage_validation
+      - false_relationship_risk_assessment_and_mitigation_strategy
+      - temporal_validity_window_and_reassessment_frequency
+      - confidence_reasoning_articulation_and_limitations
+      - uncertainty_factors_limiting_confidence_in_relationship_legitimacy
+
+  propagation:
+    mechanism: "uncertainty_flow_through_relationship_mapping_chain"
+    rule_1: "source_credibility_uncertainty_flows_to_relationship_mapping_authorization_confidence"
+    rule_2: "behavioral_continuity_uncertainty_creates_hard_ceiling_on_relationship_confidence"
+    rule_3: "false_relationship_uncertainty_increases_monitoring_rigor"
+    rule_4: "temporal_validity_uncertainty_triggers_reassessment"
+
+trust_boundaries:
+  relationship_source_trust_hierarchy:
+    verified_internal_investigation_derived_relationship: highest_trust_within_organizational_scope
+    verified_third_party_threat_intelligence_source: conditionally_trusted_with_ongoing_verification
+    community_or_emerging_threat_intelligence_source: limited_trust_high_scrutiny
+    unverified_or_anonymous_relationship_source: untrusted_escalation_required
+    compromised_relationship_source: trust_revoked_relationships_invalidated
+  
+  behavioral_continuity_trust:
+    behavioral_continuity_explicitly_documented_and_validated: trusted_relationship_confidence_supported
+    behavioral_continuity_assumed_not_documented: trust_reduced_verification_required
+    behavioral_evidence_contradicts_relationship: trust_revoked_investigation_required
+  
+  operational_validity_trust:
+    relationship_validated_through_independent_observation: trusted_for_operational_use
+    relationship_validity_questioned_or_anomalies_detected: trust_suspended_investigation_required
+    repeated_false_relationships_detected: trust_revoked_relationship_restricted
+
+runtime_behavior:
+  relationship_legitimacy_verification_frequency: per_relationship_mapping_or_confidence_challenge
+  false_relationship_monitoring: continuous_real_time_pattern_analysis
+  operational_validity_assessment: continuous_during_operational_use
+  relationship_source_reputation_monitoring: continuous_with_historical_analysis
+  behavioral_continuity_validation: per_relationship_challenge_or_periodic_reassessment
+  relationship_mapping_traceability: immutable_audit_log_per_mapping
+
+runtime_degradation:
+  on_relationship_legitimacy_unverifiable:
+    relationship_mapping_status: restricted_pending_verification
+    escalation: immediate_to_intelligence_authority
+  
+  on_false_relationship_detected:
+    relationship_operational_status: confidence_reduced_pending_investigation
+    affected_threat_models: flagged_for_investigation_and_adjustment
+    investigation_priority: high
+  
+  on_relationship_behavioral_evidence_compromise_detected:
+    relationship_validity: suspended_immediately
+    operational_mappings: isolated_for_investigation
+    incident_escalation: intelligence_operations_notification
+  
+  on_relationship_falsification_or_manipulation_confirmed:
+    relationship_status: invalidated_immediately
+    affected_series: escalated_for_comprehensive_review
+    forensic_investigation: critical_priority
+
+confidence_governance:
+  binary_relationship_confidence_assumption: prohibited
+  implicit_behavioral_continuity_assumption: prohibited
+  unverified_relationship_source: escalated_before_mapping
+  relationship_confidence: explicit_reasoning_required
+  false_relationship_risk: always_articulated
+  hallucinated_relationship_legitimacy: prohibited
+
+traceability:
+  relationship_provenance_lineage: preserved_per_mapping
+  behavioral_continuity_documentation: immutable_per_relationship
+  confidence_reasoning_record: timestamped_and_attributed
+  false_relationship_assessment_history: complete_per_relationship_lifecycle
+  operational_validity_determination: fully_traceable_with_evidence
+  relationship_incident_response: complete_investigation_trail
+
+human_oversight:
+  relationship_mapping_authority: threat_intelligence_and_security_leadership
+  confidence_reasoning_authority: final_arbiter_of_relationship_validity_assessment
+  false_relationship_investigation_authority: intelligence_operations_decision_making
+  override_capability: emergency_relationship_mapping_with_incident_justification
+  escalation_triggers:
+    - relationship_legitimacy_unverifiable
+    - behavioral_continuity_incomplete_or_questionable
+    - false_relationship_pattern_detected
+    - relationship_source_credibility_degradation
+    - operational_validity_confirmation_failure
+  autonomous_relationship_mapping_without_verification: prohibited
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_relationship_confidence_elevation: prohibited
+  self_modifying_relationship_policy: prohibited
+  cross_domain_relationship_trust_contamination: prohibited
+  uncontrolled_adaptive_confidence_relaxation: prohibited
+  deterministic_relationship_verification_behavior: enforced
+  relationship_validity_boundary_preservation: strict
+
+implementation_leakage_control:
+  adversary_database_implementation: excluded
+  relationship_graph_technology_specifics: excluded
+  entity_matching_algorithms: excluded
+  clustering_or_grouping_procedures: excluded
+  threat_actor_collaboration_infrastructure: excluded
+
+meta_governance:
+  preserve_adversary_mapping_governance_boundary_integrity: true
+  prohibit_runtime_relationship_policy_drift: true
+  prohibit_adaptive_confidence_boundary_erosion: true
+  preserve_deterministic_relationship_verification: true
+  maintain_behavioral_continuity_integrity_principle: true
+
+decision_logic:
+  relationship_mapping: "legitimate_and_behaviorally_continuous_or_mapping_restricted"
+  confidence_elevation: "explicit_reasoning_and_verification_only_not_assumption"
+  false_relationship_response: "investigation_and_confidence_adjustment_mandatory"
+
+workflow_cognition:
+  verification_sequence:
+    - verify_relationship_evidence_authority
+    - validate_behavioral_continuity
+    - assess_false_relationship_risk
+    - determine_temporal_validity
+    - articulate_confidence_reasoning
+    - authorize_or_restrict_mapping
+
+risk_classification:
+  verified_relationship: low_risk_operational_use
+  probable_relationship: elevated_risk_investigation_required
+  suspicious_relationship: high_risk_restricted_mapping
+  unverified_relationship: critical_risk_escalation_required
+
+output_standard:
+  expose_relationship_evidence_verification: required
+  expose_behavioral_continuity_validation: required
+  expose_false_relationship_risk_assessment: required
+  expose_temporal_validity_window: required
+  expose_confidence_reasoning_articulation: required
+  expose_operational_validity_status: required
+  expose_adversary_mapping_uncertainty_factors: required
+  separate_legitimacy_verification_from_mapping_decision: enforced
+  auditability: full_per_relationship_lifecycle
+  explainability: required_at_each_mapping_decision_point

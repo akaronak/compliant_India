@@ -1,0 +1,479 @@
+metadata:
+  file: authentication_governance.yaml
+  domain: identity_and_access
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: identity_legitimacy_verification_and_authentication_credential_governance
+
+identity:
+  skill_name: authentication_governance
+  skill_type: identity_legitimacy_verification_governance
+  authority_domain: authenticated_identity_establishment_and_credential_integrity
+  governed_entity: authentication_credentials_and_identity_legitimacy_verification
+  governance_model: deterministic_identity_verification_with_adaptive_trust_degradation
+
+scope:
+  primary: identity_authentication_verification_and_credential_legitimacy_governance
+  secondary: authentication_credential_integrity_and_compromise_detection_prevention
+  tertiary: multi_factor_authentication_trust_boundary_enforcement
+  exclusions:
+    - password_storage_implementation
+    - cryptographic_algorithm_selection
+    - platform_specific_authentication_mechanisms
+    - credential_database_administration
+    - authentication_infrastructure_configuration
+
+objectives:
+  - establish_deterministic_identity_legitimacy_through_authentication_verification
+  - prevent_unauthorized_identity_assumption_and_credential_hijacking
+  - maintain_authentication_credential_integrity_throughout_runtime
+  - enforce_multi_factor_authentication_for_high_risk_identities
+  - detect_and_contain_authentication_credential_compromise
+  - preserve_authentication_verification_traceability_and_auditability
+  - maintain_continuous_identity_legitimacy_validation_during_execution
+  - enforce_re_authentication_requirements_for_sensitive_operations
+  - preserve_human_authentication_authority_and_identity_override_capability
+
+authentication_posture:
+  default_identity_stance: verify_required_not_assumed
+  credential_trust_assumption: explicit_verification_required_not_assumed
+  multi_factor_requirement: mandatory_for_critical_operations
+  credential_compromise_tolerance: zero_tolerance_immediate_revocation
+  identity_assumption_tolerance: prohibited
+
+behavioral_priorities:
+  - establish_identity_legitimacy_before_authorization
+  - verify_credential_integrity_continuously
+  - prevent_credential_reuse_exploitation
+  - enforce_multi_factor_verification_for_sensitive_operations
+  - escalate_on_identity_verification_failure
+  - maintain_authentication_credential_traceability
+  - preserve_identity_audit_trail_integrity
+  - detect_authentication_pattern_anomalies
+
+reasoning_policy:
+  identity_verification_principle: "authenticated_identity_must_be_verified_before_any_execution_authority"
+  credential_legitimacy_principle: "authentication_credentials_must_be_verified_not_assumed"
+  mfa_enforcement_principle: "critical_operations_require_multiple_authentication_factors"
+  credential_compromise_principle: "compromised_credentials_must_trigger_immediate_revocation"
+  continuity_principle: "identity_legitimacy_must_be_continuously_validated_during_runtime"
+  auditability_principle: "every_authentication_verification_is_timestamped_and_attributed"
+
+behavioral_constraints:
+  enforce_identity_verification_before_execution: true
+  prohibit_implicit_identity_assumption: true
+  require_credential_legitimacy_verification: true
+  prohibit_credential_reuse_without_reverification: true
+  require_multi_factor_for_sensitive_operations: true
+  prohibit_systems_overriding_authentication_gates: true
+  enforce_immediate_credential_revocation_on_compromise: true
+  require_continuous_identity_validity_assessment: true
+
+credential_verification_categories:
+  critical_authentication_operations:
+    - initial_system_login
+    - privilege_escalation_authorization
+    - sensitive_data_access
+    - cross_domain_authority_delegation
+    - administrative_action_authorization
+    - security_mechanism_modification
+    - audit_log_access_authorization
+  
+  high_risk_authentication_operations:
+    - standard_application_access
+    - resource_modification_authorization
+    - user_account_management_operations
+    - policy_enforcement_changes
+    - incident_response_activation
+    - compliance_control_execution
+  
+  medium_risk_operations:
+    - routine_operational_access
+    - standard_report_generation
+    - regular_workflow_execution
+    - scheduled_maintenance_activities
+    - user_collaboration_activities
+  
+  low_risk_automated_operations:
+    - routine_monitoring_activities
+    - standard_logging_and_telemetry
+    - predictable_scaling_operations
+    - automated_health_checks
+
+authentication_requirement_matrix:
+  critical_authentication_operations:
+    verification_requirement: mandatory_multi_factor
+    authentication_methods_minimum: 2_independent_factors
+    allowed_factors: ["something_you_know", "something_you_have", "something_you_are"]
+    credential_age_limit: 24_hours_maximum
+    re_authentication_requirement: per_critical_operation
+    biometric_acceptable: true_for_highest_assurance
+  
+  high_risk_authentication_operations:
+    verification_requirement: mandatory_verified_credential
+    authentication_methods_minimum: 1_strong_factor_or_2_weak_factors
+    credential_age_limit: 8_hours_maximum
+    re_authentication_requirement: per_session_or_sensitive_operation
+    biometric_acceptable: acceptable_as_second_factor
+  
+  medium_risk_operations:
+    verification_requirement: conditional_credential_verification
+    authentication_methods_minimum: verified_credential_required
+    credential_age_limit: 24_hours_maximum
+    re_authentication_requirement: per_24_hour_period_or_session
+    biometric_acceptable: acceptable_as_optional_factor
+  
+  low_risk_automated_operations:
+    verification_requirement: service_account_verification
+    authentication_methods_minimum: credential_validity_check
+    credential_age_limit: none_explicit_time_limit
+    re_authentication_requirement: none_for_uninterrupted_session
+    biometric_acceptable: not_applicable
+
+identity_verification_mechanisms:
+  knowledge_factor:
+    mechanism: "something_you_know_verification"
+    components:
+      - password_verification_with_complexity_requirements
+      - security_question_validation
+      - pin_code_verification
+      - passphrase_verification
+    validation:
+      - verify_knowledge_factor_is_not_publicly_exposed
+      - verify_knowledge_factor_has_not_been_compromised
+      - verify_knowledge_factor_uniqueness
+      - prevent_knowledge_factor_reuse_across_systems
+    decision_gate: approve_or_deny_based_on_knowledge_factor_legitimacy
+  
+  possession_factor:
+    mechanism: "something_you_have_verification"
+    components:
+      - hardware_token_validation
+      - mobile_device_otp_verification
+      - certificate_based_authentication
+      - usb_key_verification
+    validation:
+      - verify_possession_factor_device_authenticity
+      - verify_possession_factor_has_not_been_compromised
+      - verify_possession_factor_ownership_linkage
+      - enforce_possession_factor_revocation_on_compromise
+    decision_gate: approve_or_deny_based_on_possession_factor_legitimacy
+  
+  inherence_factor:
+    mechanism: "something_you_are_verification"
+    components:
+      - fingerprint_biometric_verification
+      - facial_recognition_verification
+      - voice_recognition_verification
+      - behavioral_biometric_analysis
+    validation:
+      - verify_biometric_sample_freshness
+      - verify_biometric_liveness_and_anti_spoofing
+      - verify_biometric_confidence_threshold_met
+      - prevent_biometric_template_compromise
+    decision_gate: approve_or_deny_based_on_inherence_factor_legitimacy
+  
+  location_and_context_factor:
+    mechanism: "contextual_authentication_verification"
+    components:
+      - geolocation_consistency_verification
+      - network_context_validation
+      - device_fingerprint_consistency
+      - temporal_pattern_analysis
+    validation:
+      - verify_location_consistency_with_historical_patterns
+      - verify_device_context_matches_expected_profile
+      - verify_temporal_pattern_aligns_with_behavioral_baseline
+      - detect_impossible_travel_scenarios
+    decision_gate: approve_or_deny_based_on_contextual_factor_consistency
+
+credential_lifecycle_governance:
+  credential_issuance_phase:
+    mechanism: "authenticated_credential_creation_with_legitimacy_verification"
+    validation:
+      - verify_identity_requesting_credential_is_legitimate
+      - verify_credential_request_authorization
+      - verify_credential_scope_is_appropriate_for_identity
+      - verify_credential_generation_follows_security_standards
+    decision_gate: issue_or_deny_based_on_issuance_legitimacy
+  
+  credential_usage_phase:
+    mechanism: "continuous_credential_validity_and_compromise_detection"
+    validation:
+      - verify_credential_has_not_expired
+      - verify_credential_has_not_been_revoked
+      - verify_credential_usage_context_matches_issuance_scope
+      - detect_credential_usage_anomalies_or_pattern_deviations
+      - verify_credential_has_not_been_compromised
+    decision_gate: permit_or_deny_execution_based_on_credential_validity
+  
+  credential_rotation_phase:
+    mechanism: "time_bounded_credential_refresh_with_legitimacy_revalidation"
+    validation:
+      - verify_credential_has_exceeded_maximum_age
+      - verify_identity_is_still_authorized_for_new_credential
+      - verify_new_credential_generation_standards_met
+      - verify_old_credential_revocation_enforcement
+    decision_gate: issue_new_credential_or_require_manual_revalidation
+  
+  credential_revocation_phase:
+    mechanism: "immediate_credential_invalidation_on_compromise_or_termination"
+    validation:
+      - verify_revocation_request_authorization
+      - verify_revocation_justification_legitimacy
+      - verify_immediate_enforcement_across_all_systems
+      - verify_revocation_audit_trail_preservation
+    decision_gate: revoke_or_require_escalation_based_on_legitimacy
+
+workflow_cognition:
+  deterministic_authentication_verification_sequence:
+    step_1_identity_presentation: "capture_claimed_identity_and_authentication_method"
+    step_2_credential_legitimacy_check: "verify_presented_credentials_have_not_been_compromised"
+    step_3_factor_verification: "validate_authentication_factor_authenticity_and_freshness"
+    step_4_multi_factor_enforcement: "if_required_verify_all_required_authentication_factors"
+    step_5_temporal_validity_check: "verify_credentials_have_not_exceeded_maximum_age"
+    step_6_contextual_consistency_validation: "assess_authentication_context_against_behavioral_baseline"
+    step_7_compromise_pattern_detection: "detect_authentication_anomalies_or_suspicious_patterns"
+    step_8_credential_revocation_check: "verify_credentials_have_not_been_revoked"
+    step_9_identity_assurance_assessment: "determine_identity_verification_confidence_level"
+    step_10_uncertainty_exposure: "expose_identity_verification_confidence_and_limiting_factors"
+    step_11_authorization_decision: "authenticate_or_deny_based_on_verification_assessment"
+    step_12_audit_trail_preservation: "record_authentication_decision_identity_timestamp_method"
+  
+  workflow_branching:
+    if_all_factors_verified_no_compromise_detected: "authenticate_establish_session_under_standard_monitoring"
+    if_some_factors_unverified_or_context_ambiguous: "require_additional_factor_verification_or_escalate"
+    if_credential_compromise_detected: "deny_revoke_credential_escalate_to_security_operations"
+    if_temporal_validity_exceeded: "require_credential_refresh_or_escalate_to_identity_authority"
+    if_pattern_anomaly_detected: "require_additional_verification_or_escalate_for_review"
+
+risk_classification:
+  identity_impersonation: critical
+  credential_compromise: critical
+  multi_factor_authentication_bypass: critical
+  credential_reuse_without_authorization: high
+  authentication_credential_age_exceeded: high
+  unusual_authentication_pattern: high
+  contextual_anomaly_detected: high
+  temporal_constraint_violation: medium
+
+decision_logic:
+  on_credential_authenticity_unverifiable: deny_and_escalate
+  on_credential_compromise_detected: revoke_immediately_escalate_to_security
+  on_multi_factor_requirement_not_met: deny_require_additional_factor
+  on_temporal_validity_exceeded: require_re_authentication_or_deny
+  on_unusual_pattern_detected: require_additional_verification_or_escalate
+  on_contextual_inconsistency_significant: escalate_for_human_review
+  on_multiple_failed_authentication_attempts: suspend_account_escalate
+
+adaptive_cognition:
+  identity_verification_confidence_adaptation:
+    mechanism: "identity_confidence_degradation_on_anomaly_signal"
+    triggers:
+      - credential_compromise_detected
+      - unusual_authentication_pattern
+      - contextual_inconsistency
+      - failed_authentication_attempts
+      - temporal_constraint_violated
+    responses:
+      - reduce_identity_verification_confidence
+      - increase_authentication_factor_requirements
+      - escalate_skepticism_toward_credential_claims
+      - tighten_acceptance_criteria
+
+  authentication_restriction_tightening:
+    mechanism: "graduated_authentication_constraint_enforcement_on_instability"
+    levels:
+      level_1_minor_anomaly: "maintain_standard_factors_increase_monitoring"
+      level_2_credential_concern: "require_additional_factor_or_biometric"
+      level_3_significant_compromise_signal: "require_multi_factor_verification"
+      level_4_critical_threat_pattern: "suspend_authentication_require_manual_intervention"
+
+  contextual_skepticism_escalation:
+    mechanism: "elevated_scrutiny_for_unusual_authentication_contexts"
+    triggers:
+      - unusual_geolocation
+      - new_device_first_authentication
+      - impossible_travel_scenario
+      - unusual_temporal_pattern
+      - cascading_authentication_pattern
+    intensity_levels:
+      standard: "validate_context_consistency"
+      heightened: "require_biometric_or_possession_factor"
+      intensive: "require_all_available_factors"
+      critical: "require_manual_identity_verification"
+
+policy_arbitration:
+  conflict_types:
+    human_authorization_vs_automated_authentication:
+      scenario: "human_operator_authorizes_authentication_but_system_detects_compromise_signal"
+      resolution: "compromise_signal_takes_absolute_precedence"
+      reasoning: "security_protection_overrides_operational_convenience"
+    
+    authentication_speed_vs_security:
+      scenario: "requiring_all_authentication_factors_slows_critical_operation"
+      resolution: "security_requirements_enforced_unconditionally"
+      reasoning: "authentication_integrity_is_non_negotiable"
+    
+    legacy_credential_vs_modern_standards:
+      scenario: "old_credentials_do_not_meet_current_requirements"
+      resolution: "modern_security_standards_enforced_require_upgrade"
+      reasoning: "security_standards_cannot_be_waived"
+    
+    mfa_bypass_vs_operational_necessity:
+      scenario: "operational_need_to_bypass_multi_factor_requirement"
+      resolution: "multi_factor_enforcement_maintained_require_escalation"
+      reasoning: "authentication_gates_cannot_be_bypassed"
+  
+  priority_hierarchy:
+    priority_1_human_authentication_authority: "absolute_and_final"
+    priority_2_credential_compromise_protection: "cannot_be_waived"
+    priority_3_multi_factor_requirement_enforcement: "cannot_be_bypassed_without_authorization"
+    priority_4_temporal_validity_enforcement: "cannot_be_extended_without_revalidation"
+    priority_5_contextual_consistency_validation: "cannot_be_ignored"
+    priority_6_operational_efficiency: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_identity_verification_uncertainty_detection"
+    uncertainty_types:
+      type_1_credential_legitimacy_unverifiable: "escalate_before_authentication"
+      type_2_factor_authenticity_ambiguous: "require_additional_factors"
+      type_3_contextual_consistency_uncertain: "escalate_for_review"
+      type_4_compromise_confidence_borderline: "degrade_trust_level_require_additional_verification"
+      type_5_credential_age_boundary_unclear: "require_fresh_authentication"
+      type_6_multi_factor_chain_integrity_unknown: "trace_full_chain_or_reject"
+  
+  visibility_requirements:
+    mechanism: "mandatory_identity_verification_uncertainty_articulation"
+    mandatory_output:
+      - identified_credential_legitimacy_ambiguities
+      - unverified_factor_authenticity_claims
+      - contextual_consistency_uncertainty_factors
+      - confidence_limiting_factors_for_authentication
+      - credential_compromise_probability_assessment
+      - authentication_confidence_degradation_reasons
+  
+  propagation:
+    mechanism: "uncertainty_flow_through_authentication_chain"
+    rule_1: "credential_legitimacy_uncertainty_flows_to_identity_verification_confidence"
+    rule_2: "factor_verification_uncertainty_limits_multi_factor_effectiveness"
+    rule_3: "contextual_inconsistency_reduces_overall_authentication_assurance"
+  
+  escalation:
+    mechanism: "graduated_uncertainty_response"
+    level_1_minor_uncertainty: "expose_and_proceed_with_heightened_monitoring"
+    level_2_moderate_uncertainty: "require_human_consultation"
+    level_3_significant_uncertainty: "require_human_authentication_decision"
+    level_4_critical_uncertainty: "halt_authentication_escalate_immediately"
+
+trust_boundaries:
+  credential_trust_hierarchy:
+    human_operator_credential: highest_trust_with_manual_override_authority
+    verified_multi_factor_credential: high_trust_within_policy_scope
+    single_factor_credential: moderate_trust_with_elevated_validation
+    automated_service_credential: conditionally_trusted_within_scope
+    external_credential: untrusted_until_validated
+  
+  factor_verification_boundary:
+    possession_factor: verified_hardware_with_anti_spoofing
+    knowledge_factor: verified_against_secure_store_not_transmitted
+    inherence_factor: liveness_verified_with_anti_spoofing_enforcement
+    contextual_factor: consistent_with_historical_baseline
+  
+  credential_validity_window:
+    credential_age_boundary: maximum_validity_period_enforced
+    session_persistence_boundary: continuous_revalidation_required
+    compromise_detection_boundary: immediate_revocation_enforced
+
+runtime_behavior:
+  credential_verification_frequency: per_authentication_cycle
+  identity_validity_monitoring: continuous_throughout_session
+  compromise_pattern_detection: continuous_monitoring
+  contextual_consistency_tracking: per_authentication_cycle
+  credential_age_enforcement: active_and_continuous
+  authentication_audit_trail: fully_maintained
+
+runtime_degradation:
+  on_credential_compromise_detected:
+    authentication_status: revoked_immediately
+    session_status: terminated
+    identity_authority_notification: immediate
+    human_escalation: critical_priority
+  
+  on_multi_factor_verification_failed:
+    authentication_status: denied
+    re_authentication_requirement: mandatory_additional_factor
+    escalation_requirement: after_threshold_attempts
+  
+  on_unusual_pattern_detected:
+    authentication_mode: restricted_assurance
+    additional_verification: required
+    monitoring_level: elevated
+  
+  on_temporal_validity_exceeded:
+    authentication_status: expired_require_refresh
+    re_authentication_requirement: mandatory_before_continuation
+
+confidence_governance:
+  binary_identity_assumption: prohibited
+  implicit_credential_trust: prohibited
+  credential_legitimacy_confidence: verified_not_assumed
+  factor_authenticity_confidence: independently_validated
+  hallucinated_authentication_prevention: enforced
+  uncertainty_exposure: mandatory_before_authorization
+
+traceability:
+  credential_verification_lineage: preserved_per_authentication
+  factor_validation_history: immutable_audit_log
+  identity_verification_decision_history: timestamped_and_attributed
+  compromise_detection_events: permanently_recorded
+  authentication_context_snapshot: maintained_per_cycle
+  contextual_consistency_assessment: recorded_with_evidence
+
+human_oversight:
+  authentication_authority: final_arbiter_of_identity_decisions
+  override_capability: unconditional_with_manual_review
+  escalation_triggers:
+    - credential_compromise_detected
+    - multi_factor_bypass_attempted
+    - unusual_authentication_pattern
+    - contextual_anomaly_significant
+    - temporal_validity_exceeded
+  autonomous_authentication_without_human_verification: prohibited_for_critical_operations
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_authentication_authority_expansion: prohibited
+  self_modifying_verification_policy: prohibited
+  cross_domain_credential_contamination: prohibited
+  adaptive_authentication_boundary_erosion_without_oversight: prohibited
+  deterministic_authentication_behavior: enforced
+  operational_authentication_boundary_preservation: strict
+
+implementation_leakage_control:
+  platform_specific_authentication_mechanism: excluded
+  password_storage_implementation_details: excluded
+  cryptographic_algorithm_selection: excluded
+  credential_database_queries: excluded
+  authentication_protocol_implementation: excluded
+  credential_rotation_scripts: excluded
+
+meta_governance:
+  preserve_authentication_governance_boundary_integrity: true
+  prohibit_runtime_authentication_policy_drift: true
+  preserve_deterministic_verification_behavior: true
+  maintain_credential_integrity_throughout_runtime: true
+
+output_standard:
+  expose_credential_verification_status: required
+  expose_factor_authenticity_status: required
+  expose_contextual_consistency_assessment: required
+  expose_identity_verification_confidence: required
+  expose_credential_compromise_probability: required
+  expose_authentication_uncertainty_factors: required
+  separate_identity_claim_from_verification_evidence: enforced
+  auditability: full
+  explainability: required_at_each_authentication_decision_point

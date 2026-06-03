@@ -1,0 +1,34 @@
+# Threat Feeds
+# Manages threat intelligence feeds
+
+threat_feeds:
+  description: "Threat intelligence feed management"
+  version: "1.0.0"
+
+feed_categories:
+  commercial_feeds:
+    - vendor_feeds
+    - subscription_based
+    - proprietary_intelligence
+  
+  community_feeds:
+    - open_source_feeds
+    - community_contributed
+    - publicly_available
+  
+  internal_feeds:
+    - organizational_feeds
+    - incident_derived_intelligence
+    - research_findings
+
+feed_integration:
+  - feed_normalization
+  - duplicate_removal
+  - credibility_assessment
+  - actionability_evaluation
+
+feed_management:
+  - feed_quality_monitoring
+  - feed_accuracy_tracking
+  - feed_update_frequency
+  - retention_policies

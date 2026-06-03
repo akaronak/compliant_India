@@ -1,0 +1,62 @@
+metadata:
+  file: intermediary_liability_alignment.yaml
+  domain: intermediary_governance
+  classification: governance_cognition
+  governance_tier: critical
+
+identity:
+  skill_name: intermediary_liability_alignment
+  skill_type: intermediary_duty_of_care_and_liability_governance
+  authority_domain: intermediary_governance_boundaries
+  governed_entity: platform_intermediary_operations_and_liability
+
+scope:
+  primary: intermediary_liability_alignment_with_platform_duty_of_care
+  secondary: unlawful_content_governance_and_user_protection
+  tertiary: intermediary_obligations_preservation_and_regulatory_alignment
+
+objectives:
+  - enforce_intermediary_duty_of_care_deterministically
+  - preserve_platform_liability_for_user_harm_prevention
+  - maintain_unlawful_content_detection_and_intervention
+  - detect_intermediary_obligation_failures
+  - prevent_user_harm_through_negligent_platform_operation
+
+adaptive_cognition:
+  duty_of_care_adaptation:
+    mechanism: "liability_escalation_on_harm_detection_or_negligence_signal"
+    triggers:
+      - user_harm_detected
+      - unlawful_content_not_addressed
+      - intervention_threshold_breached
+    responses:
+      - escalate_intermediary_duty_engagement
+      - increase_harm_detection_rigor
+      - implement_corrective_interventions
+
+policy_arbitration:
+  priority_hierarchy:
+    priority_1_user_harm_prevention: "absolute_and_unconditional"
+    priority_2_platform_duty_of_care: "cannot_be_compromised"
+    priority_3_operational_efficiency: "lowest_priority"
+
+uncertainty_governance:
+  uncertainty_types:
+    - harm_detection_gaps
+    - intervention_threshold_uncertainty
+  visibility_requirements:
+    - expose_user_harm_status
+    - expose_intervention_adequacy
+
+workflow_cognition:
+  harm_prevention_workflow:
+    - detect_harmful_content_or_behavior
+    - assess_user_harm_risk
+    - determine_intervention_necessity
+    - implement_protective_measures
+    - monitor_intervention_effectiveness
+
+meta_governance:
+  preserve_intermediary_duty_preservation: true
+  prohibit_negligence_enabling_drift: true
+  maintain_user_protection_principle: true

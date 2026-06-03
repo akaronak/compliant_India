@@ -1,0 +1,63 @@
+metadata:
+  file: india_to_global_platform_governance.yaml
+  domain: lawful_global_platform_interoperability
+  classification: governance_cognition
+  governance_tier: critical
+
+identity:
+  skill_name: india_to_global_platform_governance
+  skill_type: sovereign_platform_interoperability_and_global_alignment_governance
+  authority_domain: platform_interoperability_boundaries
+  governed_entity: india_platform_operations_and_global_interoperability
+
+scope:
+  primary: india_platform_governance_preservation_in_global_context
+  secondary: sovereign_interoperability_and_lawful_alignment
+  tertiary: regulatory_equivalence_and_operational_integrity
+
+objectives:
+  - enforce_india_platform_sovereignty_in_global_operations
+  - preserve_india_governance_principles_through_interoperability
+  - maintain_lawful_cross_border_platform_operations
+  - detect_sovereignty_preservation_failures
+  - prevent_regulatory_alignment_drift_or_compromise
+
+adaptive_cognition:
+  sovereignty_adaptation:
+    mechanism: "sovereignty_escalation_on_alignment_pressure_or_drift_signal"
+    triggers:
+      - global_governance_pressure_detected
+      - india_sovereignty_threatened
+      - regulatory_equivalence_questioned
+    responses:
+      - escalate_sovereignty_preservation_rigor
+      - strengthen_india_governance_enforcement
+      - restrict_compromising_operations
+
+policy_arbitration:
+  priority_hierarchy:
+    priority_1_india_platform_sovereignty: "absolute_and_unconditional"
+    priority_2_governance_preservation: "cannot_be_compromised"
+    priority_3_operational_efficiency: "lowest_priority"
+
+uncertainty_governance:
+  uncertainty_types:
+    - sovereignty_preservation_uncertain
+    - regulatory_equivalence_unclear
+  visibility_requirements:
+    - expose_india_governance_status
+    - expose_interoperability_impact
+    - expose_sovereignty_risks
+
+workflow_cognition:
+  interoperability_workflow:
+    - assess_global_operation_sovereignty_impact
+    - verify_india_governance_preservation
+    - ensure_regulatory_equivalence
+    - maintain_operational_integrity
+    - monitor_sovereignty_preservation
+
+meta_governance:
+  preserve_india_platform_sovereignty_principle: true
+  prohibit_sovereignty_erosion_drift: true
+  maintain_india_first_governance_principle: true

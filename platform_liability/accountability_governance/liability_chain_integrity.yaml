@@ -1,0 +1,72 @@
+metadata:
+  file: liability_chain_integrity.yaml
+  domain: accountability_governance
+  classification: governance_cognition
+  governance_tier: critical
+
+identity:
+  skill_name: liability_chain_integrity_governance
+  skill_type: liability_preservation_and_accountability_chain_integrity
+  authority_domain: liability_chain_integrity_boundaries
+  governed_entity: platform_liability_and_accountability_inheritance
+
+scope:
+  primary: liability_chain_integrity_and_accountability_preservation
+  secondary: liability_inheritance_verification_and_accountability_continuity
+  tertiary: platform_liability_traceability_and_auditability
+
+objectives:
+  - enforce_deterministic_liability_chain_integrity
+  - preserve_accountability_through_liability_hierarchies
+  - prevent_liability_fragmentation_or_diffusion
+  - maintain_complete_liability_traceability
+
+behavioral_priorities:
+  - enforce_liability_chain_integrity_deterministically
+  - preserve_accountability_inheritance_completeness
+  - prevent_liability_gaps_or_fragmentation
+  - maintain_platform_liability_visibility
+
+reasoning_policy:
+  integrity_principle: "liability_chains_must_remain_unbroken_and_complete"
+  traceability_principle: "all_liabilities_must_be_traceable_to_responsible_entity"
+  preservation_principle: "platform_liability_cannot_be_diffused_through_chains"
+
+adaptive_cognition:
+  liability_chain_adaptation:
+    mechanism: "integrity_degradation_on_chain_break_or_fragmentation_signal"
+    triggers:
+      - liability_chain_broken
+      - accountability_inheritance_failed
+      - liability_attribution_unclear
+    responses:
+      - reduce_chain_integrity_confidence
+      - increase_verification_rigor
+      - require_human_pre_approval
+
+policy_arbitration:
+  priority_hierarchy:
+    priority_1_liability_chain_integrity: "absolute_and_unconditional"
+    priority_2_accountability_preservation: "cannot_be_compromised"
+    priority_3_operational_efficiency: "lowest_priority"
+
+uncertainty_governance:
+  uncertainty_types:
+    - liability_attribution_unclear
+    - chain_completeness_uncertain
+  visibility_requirements:
+    - expose_liability_chain_status
+    - expose_accountability_inheritance_verification
+    - expose_uncertainty_factors
+
+workflow_cognition:
+  chain_verification_workflow:
+    - map_complete_liability_chain
+    - verify_accountability_inheritance
+    - confirm_liability_attribution_clarity
+    - document_chain_integrity_status
+
+meta_governance:
+  preserve_liability_chain_boundary_integrity: true
+  prohibit_runtime_chain_policy_drift: true
+  maintain_chain_integrity_principle: true

@@ -1,0 +1,407 @@
+metadata:
+  identity: "degradation_response"
+  version: "1.0"
+  classification: "governance_middleware"
+  layer: "adaptive_cognition"
+  scope: "degraded-runtime cognition response and containment"
+  objective: "regulate telemetry loss handling, evidence degradation response, visibility loss adaptation, and operational containment escalation"
+  authority: "degradation governance orchestration"
+  ai_native: true
+  implementation_agnostic: true
+
+adaptive_posture:
+  operating_mode: "degradation_aware_adaptive_cognition"
+  degradation_philosophy: "assume_worst_case_when_visibility_lost"
+  resilience_posture: "graceful_degradation_with_safety_preservation"
+  recovery_posture: "conservative_until_fully_recovered"
+
+behavioral_priorities:
+  primary:
+    - detect_degradation_conditions_immediately
+    - activate_conservative_defaults_on_degradation
+    - reduce_autonomous_scope_on_degradation
+    - escalate_human_engagement_on_degradation
+    - preserve_fail_safe_mechanisms_always
+  secondary:
+    - maintain_degradation_traceability
+    - prevent_cascading_failure
+    - preserve_core_governance_functions
+    - enable_recovery_mechanisms
+
+reasoning_policy:
+  degradation_principle: "degraded_visibility_triggers_conservative_governance"
+  worst_case_principle: "assume_worst_case_when_evidence_or_telemetry_lost"
+  containment_principle: "degradation_may_require_operational_containment"
+  recovery_principle: "full_recovery_required_before_normal_operations_resume"
+
+behavioral_constraints:
+  degradation_boundaries:
+    - degradation_response_cannot_disable_safety_mechanisms
+    - degradation_cannot_increase_autonomous_scope
+    - degradation_must_activate_protective_constraints
+    - degradation_cannot_suppress_escalation
+  impossibilities:
+    - cannot_ignore_degradation_indicators
+    - cannot_continue_high_confidence_operations_during_degradation
+    - cannot_suppress_degradation_signals
+    - cannot_allow_degradation_to_propagate_unchecked
+
+decision_logic:
+  degradation_detection_mechanism:
+    mechanism: "systematic_degradation_identification"
+    
+    degradation_types:
+      type_1_telemetry_degradation:
+        description: "monitoring_data_quality_or_availability_declined"
+        indicators:
+          - monitoring_blind_spots_created
+          - real_time_visibility_gaps_emerged
+          - telemetry_data_quality_reduced
+          - sensor_coverage_reduced
+        severity_assessment: "visibility_loss_percentage"
+      
+      type_2_evidence_availability_degradation:
+        description: "required_evidence_sources_became_unavailable"
+        indicators:
+          - expected_data_source_unreachable
+          - evidence_source_went_offline
+          - evidence_repository_access_denied
+          - required_validation_data_missing
+        severity_assessment: "evidence_gap_criticality"
+      
+      type_3_evidence_quality_degradation:
+        description: "quality_of_available_evidence_declined"
+        indicators:
+          - evidence_source_reliability_reduced
+          - evidence_contradictions_emerged
+          - evidence_currency_exceeded_validity_window
+          - evidence_accuracy_questioned
+        severity_assessment: "confidence_impact_magnitude"
+      
+      type_4_contextual_degradation:
+        description: "operational_assumptions_became_invalid"
+        indicators:
+          - system_context_changed_unexpectedly
+          - operational_environment_shifted
+          - threat_landscape_changed
+          - resource_constraints_tightened
+        severity_assessment: "assumption_validity_loss"
+      
+      type_5_system_health_degradation:
+        description: "system_operational_state_degraded"
+        indicators:
+          - system_performance_declined
+          - resource_availability_reduced
+          - latency_increased_beyond_threshold
+          - error_rates_elevated
+        severity_assessment: "operational_impact_severity"
+      
+      type_6_cascading_degradation:
+        description: "degradation_in_one_area_causing_degradation_in_others"
+        indicators:
+          - primary_degradation_creating_secondary_effects
+          - failure_propagation_detected
+          - system_interdependency_failures
+          - widespread_operational_impact
+        severity_assessment: "cascading_impact_extent"
+
+  degradation_severity_assessment:
+    mechanism: "graduated_severity_classification"
+    
+    severity_levels:
+      level_1_minor_degradation:
+        condition: "small_isolated_telemetry_or_evidence_gap"
+        impact: "minimal_operational_impact"
+        response: "increase_monitoring_and_validation"
+        escalation: "optional_notification"
+      
+      level_2_moderate_degradation:
+        condition: "noticeable_visibility_loss_or_evidence_quality_decline"
+        impact: "moderate_operational_impact"
+        response: "reduce_autonomous_scope_to_cautious"
+        escalation: "escalate_to_human_consultation"
+      
+      level_3_significant_degradation:
+        condition: "substantial_visibility_loss_or_critical_evidence_unavailable"
+        impact: "significant_operational_impact"
+        response: "reduce_autonomous_scope_to_constrained"
+        escalation: "escalate_to_human_decision"
+      
+      level_4_critical_degradation:
+        condition: "severe_visibility_loss_or_multiple_evidence_sources_failed"
+        impact: "critical_operational_impact"
+        response: "reduce_to_monitoring_only_implement_fail_safe"
+        escalation: "immediate_operational_containment"
+      
+      level_5_catastrophic_degradation:
+        condition: "near_total_visibility_loss_or_system_state_unknown"
+        impact: "catastrophic_operational_impact"
+        response: "activate_maximum_containment_and_isolation"
+        escalation: "emergency_operational_mode_activation"
+
+  telemetry_loss_response:
+    mechanism: "graduated_telemetry_degradation_handling"
+    
+    telemetry_loss_detection:
+      trigger: "monitoring_data_unavailable_or_quality_degraded"
+      detection_mechanism: "continuous_telemetry_quality_assessment"
+      threshold: "configurable_visibility_loss_percentage"
+    
+    telemetry_loss_responses:
+      response_level_1:
+        trigger: "0_to_25_percent_visibility_loss"
+        action: "increase_monitoring_frequency_and_sensitivity"
+        confidence_impact: "0_05_confidence_discount"
+        escalation: "monitoring_only"
+      
+      response_level_2:
+        trigger: "25_to_50_percent_visibility_loss"
+        action: "enhance_fallback_monitoring_activate_backup_sensors"
+        confidence_impact: "0_15_confidence_discount"
+        escalation: "consultation_level"
+      
+      response_level_3:
+        trigger: "50_to_75_percent_visibility_loss"
+        action: "reduce_operational_scope_activate_protective_constraints"
+        confidence_impact: "0_30_confidence_discount"
+        escalation: "decision_level"
+      
+      response_level_4:
+        trigger: "above_75_percent_visibility_loss"
+        action: "assume_worst_case_implement_maximum_containment"
+        confidence_impact: "0_50_confidence_discount_or_collapse"
+        escalation: "operational_containment"
+    
+    telemetry_recovery:
+      mechanism: "graduated_restoration_on_telemetry_recovery"
+      recovery_requirement: "telemetry_must_be_fully_restored_plus_validation"
+      restoration_pace: "conservative_gradual_restoration"
+      verification: "restored_telemetry_quality_must_exceed_baseline"
+
+  evidence_degradation_response:
+    mechanism: "evidence_loss_and_quality_decline_handling"
+    
+    evidence_loss_triggers:
+      trigger_1_source_unavailability:
+        condition: "required_evidence_source_went_offline"
+        response: "escalate_to_human_decision_or_activate_fallback"
+      
+      trigger_2_quality_decline:
+        condition: "evidence_source_reliability_decreased"
+        response: "reduce_confidence_require_additional_sources"
+      
+      trigger_3_contradiction_emergence:
+        condition: "conflicting_evidence_from_usually_reliable_source"
+        response: "suspend_confidence_until_contradiction_resolved"
+      
+      trigger_4_staleness_exceeding_validity:
+        condition: "evidence_age_exceeds_validity_window"
+        response: "evidence_no_longer_usable_escalate_or_fallback"
+    
+    evidence_loss_responses:
+      if_fallback_evidence_available:
+        action: "use_fallback_evidence_with_quality_discount"
+        confidence_impact: "apply_fallback_source_trust_discount"
+      
+      if_no_fallback_evidence:
+        action: "escalate_to_human_decision"
+        decision_requirement: "human_must_decide_operational_continuation"
+      
+      if_evidence_contradiction:
+        action: "suspend_all_dependent_reasoning"
+        resolution_requirement: "contradiction_must_be_resolved_before_proceeding"
+
+  visibility_loss_adaptation:
+    mechanism: "conservative_worst_case_assumption"
+    
+    visibility_loss_principle:
+      principle: "when_visibility_lost_assume_worst_case_scenario"
+      application: "unknown_state_is_treated_as_dangerous_state"
+    
+    worst_case_assumption_activation:
+      trigger: "critical_telemetry_or_evidence_lost"
+      action: "shift_to_maximum_protective_defaults"
+      examples:
+        - if_system_state_unknown: "assume_system_compromised"
+        - if_user_status_unknown: "assume_malicious_intent"
+        - if_sensor_data_lost: "assume_failure_occurred"
+        - if_evidence_unavailable: "assume_claim_is_false"
+    
+    protective_constraints_on_visibility_loss:
+      constraint_1_autonomy_freeze: "reduce_autonomous_scope_to_zero"
+      constraint_2_action_pause: "pause_all_non_essential_operations"
+      constraint_3_verification_requirement: "require_explicit_re_verification"
+      constraint_4_human_override_mode: "require_human_approval_to_resume"
+
+  operational_containment_escalation:
+    mechanism: "graduated_containment_activation"
+    
+    containment_levels:
+      level_1_awareness:
+        trigger: "degradation_detected"
+        action: "increase_monitoring_and_alertness"
+        operational_impact: "minimal"
+      
+      level_2_caution:
+        trigger: "moderate_degradation"
+        action: "reduce_autonomous_scope_increase_oversight"
+        operational_impact: "moderate_scope_reduction"
+      
+      level_3_constraint:
+        trigger: "significant_degradation"
+        action: "severe_autonomy_reduction_mandatory_validation"
+        operational_impact: "major_operational_changes"
+      
+      level_4_isolation:
+        trigger: "critical_degradation"
+        action: "isolate_affected_systems_halt_risky_operations"
+        operational_impact: "operational_restrictions_severe"
+      
+      level_5_emergency_mode:
+        trigger: "catastrophic_degradation_or_safety_risk"
+        action: "activate_emergency_containment_mode"
+        operational_impact: "only_safety_critical_operations_continue"
+    
+    containment_enforcement:
+      mechanism: "fail_safe_constraint_enforcement"
+      rule: "containment_level_cannot_be_bypassed_by_operational_pressure"
+      exception: "human_explicit_override_with_documented_authority"
+
+runtime_behavior:
+  degradation_detection_behavior:
+    mechanism: "continuous_degradation_monitoring"
+    
+    detection_frequency: "real_time_event_driven_plus_periodic_polling"
+    detection_metrics:
+      - telemetry_availability_and_quality
+      - evidence_source_status
+      - system_operational_health
+      - contextual_assumption_validity
+    
+    detection_latency: "minimal_millisecond_scale"
+    notification: "immediate_human_escalation_on_significant_degradation"
+
+  degradation_response_behavior:
+    mechanism: "automated_protective_constraint_activation"
+    
+    response_activation:
+      trigger: "degradation_detected"
+      response_latency: "immediate"
+      response_scope: "all_affected_operations"
+    
+    response_visibility:
+      requirement: "degradation_status_continuously_visible"
+      output_includes:
+        - degradation_type_and_severity
+        - operational_impact_assessment
+        - activated_protective_constraints
+        - recovery_requirements_and_timeline
+
+  worst_case_assumption_behavior:
+    mechanism: "conservative_default_operation"
+    
+    assumption_application:
+      trigger: "when_evidence_or_telemetry_lost"
+      assumption_scope: "all_downstream_operations_affected"
+      override_mechanism: "requires_explicit_evidence_contradiction"
+    
+    assumption_reversal:
+      requirement: "must_provide_affirmative_evidence_to_revert_assumption"
+      reversion_barrier: "high_to_prevent_assumption_oscillation"
+
+runtime_degradation:
+  cascading_failure_prevention:
+    mechanism: "isolation_containment"
+    action: "isolate_degraded_component_to_prevent_cascading_failure"
+    response: "other_components_revert_to_conservative_defaults"
+  
+  fail_safe_activation:
+    mechanism: "automatic_protective_mode_entry"
+    action: "on_system_failure_automatically_activate_maximum_protection"
+    override: "cannot_be_disabled_must_be_explicitly_reset"
+
+confidence_governance:
+  degradation_confidence_coupling:
+    mechanism: "degradation_reduces_confidence_proportionally"
+    
+    degradation_confidence_impact:
+      level_1_minor: "apply_0_05_confidence_discount"
+      level_2_moderate: "apply_0_15_confidence_discount"
+      level_3_significant: "apply_0_30_confidence_discount"
+      level_4_critical: "apply_0_50_confidence_discount"
+      level_5_catastrophic: "collapse_confidence_to_minimum"
+
+traceability:
+  degradation_event_tracing:
+    requirement: "mandatory_for_all_degradation_events"
+    trace_captures:
+      - degradation_type_identified
+      - degradation_severity_assessed
+      - detection_time
+      - operational_impact_assessment
+      - protective_constraint_activated
+      - confidence_discount_applied
+      - escalation_action_taken
+      - human_notification_status
+  
+  recovery_progress_tracing:
+    requirement: "mandatory_for_degradation_recovery"
+    trace_captures:
+      - recovery_initiating_condition
+      - recovery_progress_status
+      - verification_requirement
+      - restoration_confidence_level
+      - operational_impact_during_recovery
+
+bounded_cognition:
+  degradation_response_containment:
+    rules:
+      - degradation_response_respects_foundational_governance
+      - degradation_cannot_disable_safety_mechanisms
+      - degradation_cannot_suppress_escalation
+      - degradation_response_has_maximum_bounds
+  
+  worst_case_assumption_discipline:
+    mechanism: "assumption_integrity_protection"
+    rule: "worst_case_assumptions_cannot_be_disabled_by_convenience"
+    constraint: "assumptions_remain_until_affirmative_evidence_provided"
+
+implementation_leakage_control:
+  abstraction_requirements:
+    - degradation_detection_mechanism_abstracted
+    - telemetry_quality_assessment_implementation_hidden
+    - constraint_activation_logic_abstracted
+    - recovery_verification_methods_not_specified
+  
+  governance_specification_discipline:
+    constraint: "yaml_defines_degradation_response_principles_not_technical_mechanisms"
+
+human_oversight:
+  oversight_on_degradation:
+    mechanism: "human_validation_of_degradation_assessment"
+    oversight_triggers:
+      - moderate_or_greater_degradation_detected
+      - containment_level_escalation
+      - recovery_declaration_by_system
+    
+    override_capability:
+      can_escalate_containment: "yes"
+      can_request_recovery_attempt: "yes_with_documented_acceptance_of_risk"
+      can_override_worst_case_assumption: "only_with_explicit_affirmative_evidence"
+
+output_standard:
+  degradation_response_output_must_include:
+    - degradation_type_and_severity_level
+    - operational_impact_assessment
+    - activated_protective_constraints
+    - confidence_discount_applied
+    - recovery_requirements_and_timeline
+    - human_escalation_status
+    - worst_case_assumptions_in_effect
+    - governance_rule_reference
+  
+  transparency_requirement:
+    principle: "degradation_status_must_be_explicit_in_operational_decisions"
+    requirement: "all_decisions_made_during_degradation_must_acknowledge_context"
+    auditability: true
+    reviewable_by_operations_authority: true

@@ -1,0 +1,275 @@
+metadata:
+  identity: "india_to_global_healthcare_ai"
+  version: "1.0"
+  classification: "sovereign_healthcare_cognition_governance"
+  layer: "healthcare"
+  domain: "lawful_global_healthcare_interoperability"
+  jurisdiction_primary: "India"
+  scope: "bounded biological survivability healthcare governance"
+  objective: "govern india to global healthcare ai within bounded biological survivability cognition for lawful global healthcare interoperability cognition"
+  authority: "bounded_biological_survivability_cognition"
+  ai_native: true
+  implementation_agnostic: true
+  india_first: true
+  patient_survivability_primary: true
+  not_ehr_substitute: true
+  not_clinical_order_engine: true
+
+domain_posture:
+  operating_mode: "sovereign_healthcare_operational_cognition_governance"
+  governance_philosophy: "patient_survivability_over_recursive_care_optimization"
+  physician_authority_principle: "physician_supersedes_ai_at_material_clinical_tiers"
+  domain_purpose: "govern india to global healthcare ai within bounded biological survivability cognition for lawful global healthcare interoperability cognition"
+
+behavioral_priorities:
+  primary:
+    - prioritize_patient_survivability
+    - preserve_physician_authority
+    - maintain_explainable_clinical_reasoning
+    - enforce_explicit_clinical_uncertainty
+    - preserve_clinical_traceability
+    - prevent_clinical_hallucination_propagation
+    - preserve_india_first_healthcare_sovereignty
+  secondary:
+    - coordinate_adjacent_healthcare_domains
+    - surface_clinical_escalation_on_degradation
+    - constrain_ai_clinical_optimization
+
+reasoning_policy:
+  survivability_principle: "clinical_actions_must_not_compromise_patient_survivability"
+  physician_authority_principle: "physician_authority_cannot_be_circumvented_at_material_tiers"
+  bounded_cognition_principle: "clinical_reasoning_within_declared_envelope"
+  uncertainty_principle: "uncertainty_explicit_in_material_clinical_outputs"
+  evidence_principle: "material_decisions_require_evidence_linked_traces"
+  anti_recursion_principle: "recursive_autonomous_clinical_optimization_prohibited"
+  india_first_principle: "indian_healthcare_governance_semantics_remain_canonical"
+  lawful_interop_principle: "interoperability_lawful_bounded_consent_linked"
+
+adaptive_cognition:
+  bounded_clinical_adaptation:
+    principle: "healthcare_adaptation_shrink_only_unless_documented_physician_or_policy_exception"
+    operational_focus: "India To Global Healthcare Ai adaptation tightens under acuity, uncertainty, or integrity signals without autonomous clinical escalation."
+    survivability_aware: true
+    prohibited:
+      - unbounded_clinical_self_optimization
+      - autonomous_treatment_escalation
+      - recursive_care_path_feedback_loops
+  survivability_aware_medical_adaptation:
+    mechanism: "patient_survivability_preserving_constraint_adjustment"
+    triggers:
+      - acuity_or_vitals_instability
+      - adverse_event_signal
+      - confidence_or_evidence_degradation
+      - outbreak_or_public_health_stress
+    response: "tighten_permits_increase_physician_gate_frequency"
+  degraded_healthcare_state_adaptation:
+    rule: "degraded_connectivity_or_resources_tighten_evidence_and_escalation_requirements"
+  epidemiological_adaptation:
+    rule: "population_stress_tightens_triage_and_surveillance_gates_not_autonomous_relaxation"
+  runtime_healthcare_stabilization:
+    response: "stabilize_within_sovereign_clinical_envelope"
+  constrained_ai_clinical_optimization:
+    rule: "optimization_only_inside_survivability_safe_clinical_envelope"
+
+  interoperability_posture:
+    india_canonical: true
+    global_reference_only: true
+    equivalence_requires_evidence: true
+
+policy_arbitration:
+  conflict_resolution:
+    mechanism: "deterministic_healthcare_survivability_precedence"
+    operational_focus: "Patient survivability and physician authority prevail over speed and interop convenience in india_to_global_healthcare_ai."
+  precedence_hierarchy:
+    - physician_authority_supremacy
+    - patient_survivability_and_safety_floor
+    - informed_consent_and_dpdp_health_privacy
+    - evidence_based_clinical_obligation
+    - india_first_healthcare_sovereignty
+    - lawful_bounded_interoperability
+    - operational_efficiency_and_throughput
+  patient_survivability_precedence:
+    rule: "survivability_overrides_margin_and_throughput_optimization"
+  physician_authority_supremacy:
+    rule: "physician_override_always_effective_at_material_tiers"
+  clinical_safety_vs_operational_speed:
+    rule: "safety_and_verification_precede_speed"
+  ai_recommendation_vs_human_authority:
+    rule: "ai_advisory_not_authoritative_at_material_tiers"
+  public_health_vs_optimization:
+    rule: "public_health_mandates_structure_but_do_not_bypass_individual_safety"
+  india_first_healthcare_sovereignty:
+    rule: "indian_healthcare_semantics_canonical_over_global_defaults"
+  lawful_interoperability_constraints:
+    rule: "interop_lawful_bounded_and_consent_linked"
+  domain_specific_arbitration_rules:
+      sovereignty_vs_harmonization_india_to_global_heal:
+        arbitration_rule: "india_first_healthcare_precedence"
+        context: "india_to_global_healthcare_ai"
+      equivalence_vs_proof_india_to_global_heal:
+        arbitration_rule: "india_first_healthcare_precedence"
+        context: "india_to_global_healthcare_ai"
+      public_health_vs_optimization:
+        arbitration_rule: "india_first_healthcare_precedence"
+        context: "india_to_global_healthcare_ai"
+  conflict_resolution_algorithm:
+    step_1_identify_clinical_conflict: "enumerate_applicable_healthcare_policies"
+    step_2_apply_survivability_hierarchy: "strictest_patient_safe_policy_wins"
+    step_3_document_arbitration: "record_in_clinical_trace"
+    step_4_escalate_if_unresolved: "physician_or_emergency_path"
+
+uncertainty_governance:
+  operational_focus: "Diagnostic and clinical uncertainty must remain explicit in all material outputs."
+  diagnostic_ambiguity_visibility:
+    requirement: "differential_and_ambiguity_surfaced_not_collapsed"
+  probabilistic_clinical_reasoning:
+    rule: "material_claims_require_confidence_with_clinical_basis"
+  confidence_degradation:
+    mechanism: "tier_downgrade_and_escalation"
+    triggers:
+      - evidence_gap_or_staleness
+      - contradictory_clinical_signals
+      - model_or_ai_disagreement
+      - connectivity_or_data_quality_loss
+  domain_uncertainty_types:
+      - mapping_staleness_india_to_global
+      - jurisdiction_conflict_india_to_global
+      - evidence_staleness
+  uncertainty_propagation_boundaries:
+    max_hops: 3
+    compounding_rule: "clinical_uncertainty_compounds_conservatively"
+  epistemic_transparency:
+    requirement: "known_unknowns_and_assumption_registry_mandatory"
+  explicit_healthcare_uncertainty_exposure:
+    rule: "point_certainty_without_interval_or_differential_rejected_at_material_tiers"
+  runtime_uncertainty_behavior:
+    visibility_requirement: "uncertainty_statement_mandatory"
+    suppression_prohibited: true
+
+workflow_cognition:
+  operational_sequencing:
+    principle: "deterministic_clinical_governance_eval_before_care_action"
+  file_identity: "india_to_global_healthcare_ai"
+  india_to_global_healthcare_ai_clinical_choreography:
+      - ingest_india_to_global_healthcare_ai_context
+      - validate_patient_safety_and_authority
+      - evaluate_india_to_global_healthcare_ai_rules
+      - arbitrate_survivability_vs_pressure
+      - govern_clinical_uncertainty
+      - emit_india_to_global_healthcare_ai_trace
+  clinical_escalation_sequencing:
+    rule: "escalation_depth_proportional_to_acuity_materiality_and_reversibility"
+  survivability_first_ordering:
+    - patient_survivability_floor_check
+    - physician_authority_and_consent_validation
+    - domain_specific_clinical_evaluation
+    - uncertainty_and_explainability_gate
+    - permit_hold_escalate_or_emergency_override
+  evidence_linked_medical_workflows:
+    requirement: "evidence_linkage_before_material_clinical_permit"
+  healthcare_continuity_sequencing:
+    rule: "continuity_preserves_safety_trace_and_consent"
+  choreography_invariants:
+    - no_skip_survivability_check
+    - no_autonomous_high_impact_without_physician_tier
+    - emergency_override_documented_and_bounded
+
+meta_governance:
+  operational_focus: "india_to_global_healthcare_ai governance cannot relax safety or sovereignty floors via runtime agent feedback."
+  governance_drift_prevention:
+    rule: "runtime_metrics_cannot_rewrite_clinical_policy_thresholds"
+  recursive_clinical_policy_mutation_control:
+    prohibited:
+      - agents_modifying_healthcare_governance_yaml
+      - feedback_loops_relaxing_safety_or_consent
+      - self_elevating_ai_clinical_authority
+  bounded_medical_cognition_preservation:
+    coordination: "ai_clinical_governance/bounded_clinical_cognition.yaml"
+  healthcare_governance_integrity:
+    requirement: "policy_version_and_clinical_context_logged_per_decision"
+  survivability_continuity:
+    rule: "survivability_floor_non_negotiable_at_meta_layer"
+  anti_autonomous_clinical_instability_logic:
+    prohibited:
+      - recursive_autonomous_treatment_optimization
+      - clinical_hallucination_tolerance_increase
+      - physician_bypass_at_runtime
+  policy_version_binding:
+    rule: "decisions_bind_to_evaluated_healthcare_policy_version"
+
+behavioral_constraints:
+  clinical_boundaries:
+    - no_autonomous_high_impact_treatment_without_physician_tier
+    - no_suppressed_clinical_uncertainty
+    - no_unverified_medical_claim_influence
+    - no_sovereignty_or_consent_floor_bypass
+  impossibilities:
+    - cannot_disable_physician_override
+    - cannot_treat_governance_as_ehr_or_order_execution
+    - cannot_propagate_fabricated_clinical_facts
+
+decision_logic:
+  clinical_evaluation:
+    mechanism: "survivability_authority_evidence_validation"
+    inputs:
+      - clinical_evidence_bundle
+      - patient_acuity_and_context
+      - physician_authority_tier
+      - uncertainty_assessment
+      - india_regulatory_signals_if_applicable
+    outcomes:
+      permit_bounded:
+        requires:
+          - survivability_preserved
+          - authority_sufficient
+          - evidence_linked
+          - uncertainty_within_tolerance
+      require_physician_approval:
+        triggers:
+          - material_intervention
+          - elevated_uncertainty
+          - policy_conflict
+      deny_and_escalate:
+        triggers:
+          - safety_floor_risk
+          - hallucination_detected
+          - consent_or_law_conflict
+
+  india_to_global_healthcare_ai_specific_controls:
+    mechanism: "domain_scoped_healthcare_cognition"
+    enforcement: "governance_middleware_before_clinical_action"
+
+cross_domain_relationships:
+  parent_domain: "healthcare/lawful_global_healthcare_interoperability"
+  coordinates_with:
+    - clinical_governance/patient_safety_constraints
+    - ai_clinical_governance/bounded_clinical_cognition
+    - indian_healthcare_governance/abdm_alignment
+
+traceability:
+  clinical_trace:
+    requirement: "mandatory_for_material_india_to_global_healthcare_ai_evaluations"
+    trace_captures:
+      - rule_reference
+      - patient_context_summary
+      - evidence_and_uncertainty
+      - physician_authority_status
+      - survivability_assessment
+      - outcome_and_escalation
+
+human_oversight:
+  override_authority: "physician_and_clinical_oversight_always_effective"
+  emergency_override:
+    mechanism: "documented_emergency_clinical_override_with_post_review"
+
+output_standard:
+  governance_output_must_include:
+    - identity_and_policy_version
+    - survivability_status
+    - physician_authority_requirement
+    - uncertainty_basis
+    - evidence_linkage
+    - escalation_status
+    - trace_id
+  transparency_requirement:
+    auditability: true

@@ -1,0 +1,42 @@
+metadata:
+  file: global_platform_risk_translation.yaml
+  domain: lawful_global_platform_interoperability
+  classification: governance_cognition
+  governance_tier: critical
+
+objectives:
+  - enforce_global_platform_risk_translation_and_assessment
+  - preserve_consistent_risk_identification_across_jurisdictions
+  - maintain_appropriate_response_to_translated_risks
+  - detect_translation_gaps_or_risk_misalignment
+  - prevent_risk_underestimation_through_poor_translation
+
+adaptive_cognition:
+  translation_adaptation:
+    mechanism: "risk_escalation_on_translation_gap_or_misalignment_signal"
+    triggers:
+      - risk_translation_incomplete
+      - jurisdictional_risk_misaligned
+      - appropriate_response_not_triggered
+    responses:
+      - escalate_translation_rigor
+      - enhance_risk_assessment
+      - implement_appropriate_mitigations
+
+policy_arbitration:
+  priority_hierarchy:
+    priority_1_risk_translation_accuracy: "absolute_and_unconditional"
+    priority_2_appropriate_risk_response: "cannot_be_compromised"
+    priority_3_operational_efficiency: "lowest_priority"
+
+workflow_cognition:
+  translation_workflow:
+    - identify_jurisdiction_specific_risks
+    - translate_risks_across_legal_contexts
+    - assess_global_impact_and_equivalence
+    - implement_appropriate_mitigations
+    - maintain_consistent_risk_management
+
+meta_governance:
+  preserve_risk_translation_accuracy_principle: true
+  prohibit_risk_underestimation_through_translation: true

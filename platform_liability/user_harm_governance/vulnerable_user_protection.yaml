@@ -1,0 +1,42 @@
+metadata:
+  file: vulnerable_user_protection.yaml
+  domain: user_harm_governance
+  classification: governance_cognition
+  governance_tier: critical
+
+objectives:
+  - enforce_enhanced_protection_for_vulnerable_users
+  - preserve_vulnerability_detection_capability
+  - maintain_tailored_protection_measures
+  - detect_vulnerability_protection_gaps
+  - prevent_disproportionate_harm_to_vulnerable_users
+
+adaptive_cognition:
+  vulnerability_adaptation:
+    mechanism: "protection_escalation_on_vulnerability_or_harm_signal"
+    triggers:
+      - vulnerable_user_identified
+      - disproportionate_harm_pattern_detected
+      - protection_measure_failure_observed
+    responses:
+      - escalate_protection_level
+      - enhance_support_services
+      - increase_monitoring_intensity
+
+policy_arbitration:
+  priority_hierarchy:
+    priority_1_vulnerable_user_protection: "absolute_and_unconditional"
+    priority_2_harm_prevention: "cannot_be_compromised"
+    priority_3_operational_efficiency: "lowest_priority"
+
+workflow_cognition:
+  protection_workflow:
+    - identify_vulnerable_user_categories
+    - assess_specific_vulnerabilities
+    - implement_tailored_protections
+    - monitor_protection_effectiveness
+    - escalate_based_on_need
+
+meta_governance:
+  preserve_vulnerable_user_protection_principle: true
+  prohibit_protection_degradation: true

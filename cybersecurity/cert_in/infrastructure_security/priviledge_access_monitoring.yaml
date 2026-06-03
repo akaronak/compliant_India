@@ -1,0 +1,401 @@
+metadata:
+  file: priviledge_access_monitoring.yaml
+  domain: infrastructure_security
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: privileged_access_execution_governance_and_abuse_detection
+
+identity:
+  skill_name: privileged_access_monitoring_governance
+  skill_type: privileged_execution_integrity_and_abuse_detection_governance
+  authority_domain: high_privilege_operation_observation_and_misuse_detection
+  governed_entity: privileged_account_operations_and_elevated_execution_activities
+  governance_model: deterministic_privileged_activity_visibility_with_anomaly_detection_and_abuse_prevention
+
+scope:
+  primary: privileged_access_activity_monitoring_and_misuse_detection_governance
+  secondary: unauthorized_privilege_abuse_prevention_and_privilege_expansion_detection
+  tertiary: privileged_operation_auditability_and_accountability_enforcement
+  exclusions:
+    - privilege_management_platform_implementation
+    - session_recording_technology_specifics
+    - audit_logging_infrastructure_details
+    - privileged_credential_management_automation_scripts
+
+objectives:
+  - enforce_comprehensive_visibility_of_all_privileged_access_operations
+  - detect_unauthorized_or_suspicious_privileged_activity_immediately
+  - prevent_privilege_abuse_and_capability_expansion_during_privileged_execution
+  - maintain_complete_auditability_of_all_privileged_operations
+  - identify_misuse_of_elevated_access_or_administrative_capabilities
+  - prevent_privilege_escalation_or_lateral_movement_via_privileged_accounts
+  - preserve_evidence_of_privileged_operation_execution_and_impact
+  - enforce_least_privilege_enforcement_even_during_elevated_access
+
+privileged_access_monitoring_posture:
+  default_privileged_activity_visibility: comprehensive_observation_mandatory
+  privileged_operation_assumption: all_operations_observed_and_analyzed
+  abuse_detection_principle: deterministic_anomaly_based_detection
+  privilege_scope_trust: continuously_verified_not_assumed
+  privilege_expansion_tolerance: absolutely_prohibited
+  accountability_requirement: complete_auditability_mandatory
+
+behavioral_priorities:
+  - enforce_comprehensive_privileged_activity_visibility
+  - detect_suspicious_or_unauthorized_privileged_operations
+  - prevent_privilege_abuse_and_misuse
+  - maintain_operational_accountability_of_privileged_users
+  - detect_privilege_escalation_or_expansion_attempts
+  - identify_unauthorized_system_modifications_via_privilege
+  - preserve_complete_audit_trail_of_privileged_operations
+
+reasoning_policy:
+  visibility_principle: "all_privileged_operations_must_be_observable_and_fully_auditable"
+  accountability_principle: "every_privileged_operation_is_attributed_to_specific_user_and_decision"
+  anomaly_principle: "deviations_from_normal_privileged_activity_patterns_indicate_potential_abuse"
+  scope_principle: "privilege_used_must_remain_bounded_to_legitimate_operational_necessity"
+  escalation_principle: "unauthorized_expansion_of_privilege_scope_must_be_detected_and_stopped"
+  traceability_principle: "every_significant_privileged_operation_is_traceable_and_reviewable"
+
+behavioral_constraints:
+  enforce_comprehensive_privileged_activity_monitoring: true
+  prohibit_unmonitored_privileged_operations: true
+  require_privileged_operation_baseline_establishment: true
+  require_anomaly_detection_per_privileged_activity: true
+  enforce_suspicious_activity_investigation: true
+  prohibit_privilege_abuse_complacency: true
+  enforce_privilege_scope_limitation: true
+  require_complete_operation_auditability: true
+
+privileged_operation_categories:
+  administrative_system_modification:
+    classification: "system_configuration_security_policy_or_infrastructure_changes"
+    criticality: critical
+    monitoring_focus: detect_unauthorized_modifications_or_policy_circumvention
+    audit_requirement: complete_change_documentation_required
+    anomaly_triggers:
+      - modification_outside_approved_change_management
+      - configuration_change_not_matching_approved_request
+      - security_policy_modification_or_bypass_attempt
+      - system_core_file_or_service_modification
+    abuse_indicators:
+      - modification_aimed_at_disabling_security_controls
+      - persistence_mechanism_or_backdoor_installation
+      - privilege_escalation_mechanism_installation
+      - unauthorized_access_establishment
+  
+  credential_or_account_manipulation:
+    classification: "privileged_account_creation_modification_or_credential_access"
+    criticality: critical
+    monitoring_focus: detect_account_abuse_or_credential_misuse
+    audit_requirement: complete_account_operation_audit_trail
+    anomaly_triggers:
+      - account_creation_or_modification_outside_documented_request
+      - credential_access_or_change_outside_authorization
+      - account_privilege_modification_inconsistent_with_justification
+      - account_used_from_unusual_location_or_time
+    abuse_indicators:
+      - credential_theft_or_unauthorized_access_attempt
+      - account_abuse_for_lateral_movement
+      - privilege_escalation_via_account_manipulation
+      - persistence_via_account_modification
+  
+  sensitive_data_or_system_access:
+    classification: "access_to_highly_sensitive_data_or_critical_systems"
+    criticality: high
+    monitoring_focus: detect_unauthorized_data_access_or_exfiltration
+    audit_requirement: complete_data_access_logging_and_review
+    anomaly_triggers:
+      - access_to_unusual_sensitive_data_or_systems
+      - access_volume_or_scope_exceeding_normal_pattern
+      - access_at_unusual_time_or_frequency
+      - access_from_unusual_location_or_system
+    abuse_indicators:
+      - unauthorized_data_read_or_exfiltration_attempt
+      - sensitive_system_modification_or_access
+      - data_duplication_or_copying_to_unauthorized_location
+      - unauthorized_data_sharing_or_distribution
+  
+  security_tool_or_control_modification:
+    classification: "modification_of_security_tools_logging_or_audit_mechanisms"
+    criticality: critical
+    monitoring_focus: detect_security_control_circumvention_or_disablement
+    audit_requirement: mandatory_security_tool_modification_logging
+    anomaly_triggers:
+      - antimalware_or_security_tool_modification_or_disablement
+      - audit_logging_modification_or_disablement
+      - firewall_or_network_control_policy_modification
+      - security_alert_suppression_or_threshold_modification
+    abuse_indicators:
+      - security_tool_removal_or_deactivation
+      - logging_or_audit_disablement
+      - alert_thresholds_raised_to_prevent_detection
+      - security_policy_modification_to_permit_abuse
+  
+  network_or_communication_modification:
+    classification: "network_infrastructure_or_communication_configuration_changes"
+    criticality: high
+    monitoring_focus: detect_network_backdoor_or_unauthorized_access_establishment
+    audit_requirement: complete_network_modification_audit_trail
+    anomaly_triggers:
+      - firewall_rule_addition_or_modification_outside_policy
+      - network_route_modification_or_tunneling_establishment
+      - dns_or_network_configuration_change
+      - proxy_or_vpn_configuration_modification
+    abuse_indicators:
+      - backdoor_network_access_establishment
+      - network_traffic_redirection_or_interception
+      - command_and_control_communication_channel_establishment
+      - unauthorized_remote_access_enablement
+
+privileged_activity_monitoring_workflow:
+  observation_and_collection:
+    step_1_activity_capture: "continuously_observe_all_privileged_account_operations"
+    step_2_operation_context_enrichment: "collect_user_system_command_timestamp_source_destination"
+    step_3_operation_classification: "classify_operation_by_type_and_criticality"
+    step_4_initial_assessment: "assign_initial_risk_or_anomaly_score"
+    step_5_operation_logging: "record_operation_in_immutable_audit_log"
+  
+  baseline_correlation:
+    step_1_activity_baseline_comparison: "compare_observed_operation_against_user_baseline"
+    step_2_operation_normalcy_assessment: "assess_operation_as_routine_unusual_or_suspicious"
+    step_3_context_evaluation: "determine_if_operation_aligns_with_legitimate_justification"
+    step_4_confidence_assignment: "assign_confidence_to_anomaly_assessment"
+    step_5_baseline_refinement: "incorporate_verified_legitimate_operation_into_baseline"
+  
+  threat_and_abuse_assessment:
+    step_1_pattern_matching: "match_operation_against_known_abuse_or_attack_patterns"
+    step_2_technique_classification: "classify_operation_against_attack_techniques_or_abuse_indicators"
+    step_3_severity_assessment: "determine_severity_and_abuse_or_compromise_likelihood"
+    step_4_impact_assessment: "assess_potential_impact_of_operation_if_unauthorized"
+    step_5_investigation_trigger: "determine_investigation_or_response_requirement"
+  
+  decision_and_response:
+    step_1_risk_classification: "classify_operation_as_low_medium_high_or_critical_risk"
+    step_2_investigation_determination: "determine_if_investigation_or_immediate_response_required"
+    step_3_escalation_and_notification: "notify_appropriate_security_or_incident_response_team"
+    step_4_user_notification: "notify_user_of_unusual_activity_or_investigation"
+    step_5_remediation_tracking: "track_investigation_findings_and_remediation_actions"
+
+adaptive_cognition:
+  baseline_confidence_adaptation:
+    mechanism: "privileged_activity_baseline_confidence_degradation_on_operational_change"
+    triggers:
+      - user_role_or_responsibility_change
+      - operational_or_system_configuration_change
+      - maintenance_or_emergency_operational_window
+      - legitimate_policy_or_procedure_modification
+      - system_upgrade_or_patch_activity
+    responses:
+      - reduce_baseline_confidence_temporarily
+      - increase_anomaly_investigation_rigor
+      - require_operational_context_verification
+      - enhance_baseline_with_operational_awareness
+      - escalate_borderline_anomalies_to_human_analysis
+  
+  abuse_detection_escalation:
+    mechanism: "graduated_privilege_restriction_on_confirmed_abuse_indicators"
+    levels:
+      level_1_unusual_activity: "monitor_closely_escalate_if_correlated"
+      level_2_suspicious_operation: "enhanced_monitoring_incident_team_notification"
+      level_3_probable_abuse_pattern: "privilege_revocation_and_account_investigation"
+      level_4_confirmed_abuse_or_compromise: "immediate_privilege_revocation_and_incident_response"
+  
+  privilege_scope_tightening:
+    mechanism: "graduated_privilege_restriction_on_abuse_confirmation"
+    triggers:
+      - initial_abuse_pattern_confirmed
+      - privilege_expansion_or_escalation_attempt_detected
+      - unauthorized_data_access_or_modification_confirmed
+      - security_control_circumvention_attempted
+    responses:
+      - restrict_privilege_scope_to_essential_operations_only
+      - reduce_privilege_duration_and_require_reauthorization
+      - implement_enhanced_monitoring_and_controls
+      - escalate_to_privilege_revocation_if_pattern_continues
+
+policy_arbitration:
+  conflict_types:
+    operational_activity_vs_abuse_pattern_match:
+      scenario: "legitimate_operational_activity_matches_abuse_or_attack_pattern"
+      resolution: "escalate_for_investigation_maintain_conservative_threat_assessment"
+      reasoning: "operational_legitimacy_requires_context_verification"
+    
+    baseline_instability_vs_anomaly_detection_sensitivity:
+      scenario: "frequent_legitimate_privileged_changes_create_baseline_instability"
+      resolution: "baseline_model_refinement_required_maintain_anomaly_detection"
+      reasoning: "baseline_quality_determines_detection_accuracy"
+    
+    operational_necessity_vs_privilege_scope_limitation:
+      scenario: "operation_requires_broad_privilege_scope"
+      resolution: "minimal_necessary_privilege_granted_with_explicit_justification_and_monitoring"
+      reasoning: "privilege_expansion_increases_abuse_risk_exponentially"
+    
+    investigation_burden_vs_monitoring_sensitivity:
+      scenario: "comprehensive_monitoring_creates_investigation_workload"
+      resolution: "alert_correlation_and_context_required_maintain_visibility"
+      reasoning: "monitoring_cannot_be_sacrificed_for_convenience"
+  
+  priority_hierarchy:
+    priority_1_privileged_activity_visibility: "comprehensive_and_mandatory"
+    priority_2_baseline_anomaly_detection: "deterministic_and_continuous"
+    priority_3_abuse_pattern_detection: "cannot_be_suppressed"
+    priority_4_privilege_scope_enforcement: "cannot_be_relaxed"
+    priority_5_security_control_protection: "critical_monitoring_requirement"
+    priority_6_false_positive_minimization: "achieved_through_baseline_quality"
+    priority_7_operational_convenience: "lowest_priority"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_privileged_activity_monitoring_confidence_and_abuse_assessment_uncertainty"
+    uncertainty_types:
+      type_1_baseline_stability_unverifiable: "escalate_anomalies_to_investigation"
+      type_2_operation_pattern_legitimacy_uncertain: "require_operational_context_verification"
+      type_3_abuse_pattern_match_confidence_ambiguous: "conservative_threat_assessment"
+      type_4_privilege_scope_appropriateness_unclear: "investigate_justification_thoroughly"
+      type_5_operational_impact_assessment_uncertain: "elevated_investigation_required"
+      type_6_abuse_or_compromise_confirmation_pending: "maintain_enhanced_monitoring"
+  
+  visibility_requirements:
+    mechanism: "mandatory_privileged_activity_monitoring_confidence_and_abuse_assessment_articulation"
+    mandatory_output:
+      - identified_privileged_operations_and_activity_classification
+      - baseline_deviation_assessment_and_confidence
+      - abuse_or_attack_pattern_match_and_severity_assessment
+      - operation_legitimacy_assessment_and_justification_status
+      - privilege_scope_appropriateness_assessment
+      - uncertainty_factors_limiting_confidence_in_assessment
+  
+  propagation:
+    mechanism: "uncertainty_flow_through_privileged_activity_assessment"
+    rule_1: "baseline_stability_uncertainty_flows_to_anomaly_confidence"
+    rule_2: "operation_legitimacy_uncertainty_increases_investigation_requirement"
+    rule_3: "abuse_pattern_match_uncertainty_triggers_escalation"
+    rule_4: "impact_assessment_uncertainty_escalates_response_priority"
+  
+  escalation:
+    mechanism: "graduated_uncertainty_response"
+    level_1_minor_uncertainty: "expose_and_proceed_with_investigation"
+    level_2_moderate_uncertainty: "require_context_verification_or_investigation"
+    level_3_significant_uncertainty: "require_human_security_analysis"
+    level_4_critical_uncertainty: "escalate_immediately_for_incident_response"
+
+trust_boundaries:
+  privileged_operation_trust_hierarchy:
+    baseline_established_operation: conditionally_trusted_within_deviation_threshold
+    unusual_but_operational_activity: verified_context_required
+    suspicious_activity_or_pattern_match: untrusted_investigated_immediately
+    known_abuse_or_attack_pattern: untrusted_immediate_privilege_restriction
+  
+  privilege_scope_trust:
+    privilege_granted_per_authorization: trusted_within_scope_and_duration
+    privilege_scope_expansion_detected: untrusted_investigated_immediately
+    privilege_abuse_pattern_detected: trust_suspended_privilege_restricted
+    operational_context_unverified: escalate_for_verification
+  
+  user_accountability_trust:
+    user_identity_established: trusted_for_operation_attribution
+    user_accountability_baseline_established: trusted_within_baseline_deviation
+    user_abuse_pattern_confirmed: trust_revoked_privilege_revoked
+    user_supervision_required: enhanced_monitoring_and_controls
+
+runtime_behavior:
+  privileged_activity_observation_frequency: continuous_comprehensive_monitoring
+  baseline_deviation_detection: continuous_per_operation
+  abuse_pattern_detection: continuous_real_time_matching
+  anomaly_confidence_assessment: continuous_context_based_analysis
+  privilege_scope_enforcement: continuous_throughout_operation
+  evidence_preservation: active_for_investigation_and_forensics
+
+runtime_degradation:
+  on_confirmed_privilege_abuse:
+    user_privilege_status: revoked_immediately
+    user_account_status: suspended_or_restricted_pending_investigation
+    incident_escalation: critical_priority_activation
+    forensic_preservation: comprehensive_evidence_collection
+  
+  on_unauthorized_system_modification:
+    modification_status: rolled_back_if_possible
+    affected_system_status: isolated_and_investigated
+    security_alert: critical_priority
+    incident_response: immediate_escalation
+  
+  on_security_control_circumvention_attempt:
+    privilege_status: immediately_revoked
+    investigation_priority: critical
+    incident_classification: security_control_violation
+    forensic_analysis: comprehensive_preservation_and_analysis
+  
+  on_suspicious_data_access:
+    data_access_privilege: restricted_or_revoked
+    affected_data_status: flagged_for_exposure_assessment
+    investigation_requirement: immediate
+    incident_escalation: based_on_sensitivity_assessment
+
+confidence_governance:
+  binary_privilege_safety_assumption: prohibited
+  implicit_operation_legitimacy_assumption: prohibited
+  unverified_activity_classification: escalated_to_human_analysis
+  baseline_stability_confidence: continuous_verification_required
+  abuse_pattern_confidence: context_based_verification_required
+  hallucinated_abuse_absence: prohibited
+
+traceability:
+  privileged_activity_audit_trail: comprehensive_immutable_record_per_operation
+  anomaly_detection_history: timestamped_with_confidence_assessment
+  abuse_pattern_match_log: fully_attributed_with_indicators_and_context
+  investigation_and_response_actions: complete_forensic_trail_per_incident
+  evidence_preservation_record: chain_of_custody_maintained
+  remediation_action_log: timestamped_and_decision_justified
+
+human_oversight:
+  privilege_authorization_authority: privilege_granting_and_revocation_decision
+  abuse_assessment_authority: incident_response_or_forensics_team
+  investigation_authority: security_operations_leadership
+  override_capability: emergency_operation_with_incident_justification
+  escalation_triggers:
+    - suspicious_or_unusual_privileged_operation_detected
+    - abuse_or_attack_pattern_match_confirmed
+    - unauthorized_system_modification_or_configuration_change
+    - security_control_circumvention_attempt_detected
+    - sensitive_data_unauthorized_access_or_exfiltration
+    - privilege_expansion_or_escalation_attempt
+    - user_baseline_deviation_significant_or_suspicious_pattern
+  autonomous_privilege_revocation_without_approval: prohibited_except_confirmed_abuse
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_privilege_restriction_escalation: prohibited
+  self_modifying_privilege_policy: prohibited
+  automatic_baseline_modification_without_verification: prohibited
+  uncontrolled_adaptive_anomaly_detection: prohibited
+  deterministic_privileged_operation_monitoring: enforced
+  privilege_scope_boundary_preservation: strict
+
+implementation_leakage_control:
+  privilege_management_platform_specifics: excluded
+  session_recording_technology_implementation: excluded
+  audit_logging_infrastructure_details: excluded
+  privileged_credential_management_automation: excluded
+  remediation_response_scripts: excluded
+
+meta_governance:
+  preserve_privileged_access_monitoring_integrity: true
+  prohibit_runtime_monitoring_policy_drift: true
+  prohibit_adaptive_detection_boundary_erosion: true
+  preserve_deterministic_anomaly_detection_behavior: true
+  maintain_comprehensive_privileged_activity_visibility: true
+
+output_standard:
+  expose_privileged_activity_observation: required
+  expose_baseline_deviation_assessment: required
+  expose_abuse_or_attack_pattern_match: required
+  expose_operation_legitimacy_and_context_assessment: required
+  expose_privilege_scope_appropriateness: required
+  expose_abuse_or_compromise_indicators: required
+  expose_privileged_monitoring_confidence_factors: required
+  separate_activity_observation_from_abuse_assessment: enforced
+  auditability: full
+  explainability: required_at_each_detection_and_response_decision_point

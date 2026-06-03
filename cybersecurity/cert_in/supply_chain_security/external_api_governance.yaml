@@ -1,0 +1,337 @@
+metadata:
+  file: external_api_governance.yaml
+  domain: supply_chain_security
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: external_operational_trust_and_delegated_runtime_authority_governance
+
+identity:
+  skill_name: external_api_governance
+  skill_type: third_party_integration_trust_and_runtime_delegation_governance
+  authority_domain: external_api_authority_boundaries_and_runtime_capability_delegation
+  governed_entity: external_apis_and_third_party_runtime_integrations
+  governance_model: deterministic_external_api_authority_verification_with_delegated_runtime_authority_containment
+
+scope:
+  primary: external_operational_trust_governance_and_delegated_runtime_authority_enforcement
+  secondary: third_party_interaction_legitimacy_verification_and_runtime_exposure_governance
+  tertiary: runtime_delegation_boundary_preservation_and_external_api_isolation_integrity
+  exclusions:
+    - external_api_implementation_details
+    - third_party_platform_internals
+    - api_gateway_architecture
+    - network_protocol_specifics
+    - integration_platform_implementation
+
+objectives:
+  - enforce_deterministic_external_api_authority_verification_before_integration
+  - validate_delegated_runtime_authority_and_external_api_provider_legitimacy
+  - prevent_unauthorized_runtime_capability_escalation_through_external_apis
+  - maintain_external_api_interaction_boundaries_throughout_operational_lifecycle
+  - preserve_api_invocation_traceability_and_runtime_delegation_attribution
+  - detect_api_tampering_or_unauthorized_modification_in_delegated_runtime
+  - enforce_third_party_interaction_legitimacy_and_operational_scope_containment
+  - prevent_external_api_based_privilege_amplification_or_authority_expansion
+
+external_api_governance_posture:
+  default_external_api_trust: deny_by_default_verify_authority
+  api_authority_assumption: explicit_verification_required_not_assumed
+  delegated_runtime_authority_trust: bounded_and_explicitly_verified
+  runtime_delegation_boundary_integrity: mandatory_and_enforced
+  api_tampering_tolerance: zero_tolerance_immediate_escalation
+  external_runtime_capability_assumption: explicitly_authorized_not_inherited
+
+behavioral_priorities:
+  - enforce_external_api_authority_verification_deterministically
+  - validate_delegated_runtime_authority_before_invocation
+  - prevent_api_privilege_escalation_or_capability_expansion
+  - maintain_runtime_delegation_boundaries
+  - preserve_api_isolation_and_external_containment
+  - detect_api_tampering_or_compromise_proactively
+  - maintain_external_api_invocation_auditability
+
+reasoning_policy:
+  authority_principle: "external_api_provider_authority_must_be_legitimate_and_verified"
+  delegation_principle: "delegated_runtime_authority_must_be_explicitly_bounded_and_scoped"
+  boundary_principle: "external_api_invocations_must_remain_confined_within_defined_operational_boundaries"
+  capability_principle: "delegated_runtime_capabilities_cannot_be_expanded_without_reauthorization"
+  isolation_principle: "external_api_interactions_must_be_isolated_from_internal_systems"
+  traceability_principle: "every_api_invocation_and_runtime_delegation_is_traceable_and_attributed"
+
+behavioral_constraints:
+  enforce_external_api_authority_verification: true
+  prohibit_implicit_api_trust_assumption: true
+  require_runtime_delegation_authority_explicit_grant: true
+  enforce_api_capability_boundary_per_invocation: true
+  prohibit_api_delegation_boundary_transcendence: true
+  require_api_interaction_modification_detection: true
+  enforce_external_isolation_throughout_integration_lifecycle: true
+
+external_api_categorization:
+  organizational_or_vetted_third_party_apis:
+    classification: "apis_from_approved_partners_or_organizational_repositories"
+    authority_verification: organizational_partnership_vetting_process_completion
+    runtime_capability_scope: explicitly_defined_per_api_contract
+    interaction_isolation_requirement: standard_api_isolation_controls
+    tampering_detection: contract_verification_and_integrity_monitoring
+    trust_inheritance: inherited_from_organizational_authority
+  
+  public_or_marketplace_apis:
+    classification: "apis_from_public_api_marketplaces_or_established_vendors"
+    authority_verification: marketplace_reputation_and_vendor_verification
+    runtime_capability_scope: restricted_and_explicitly_limited_per_api_specification
+    interaction_isolation_requirement: enhanced_isolation_with_request_validation_gates
+    tampering_detection: api_specification_verification_and_response_validation
+    trust_inheritance: inherited_from_marketplace_or_vendor_authority_with_conditions
+  
+  emerging_or_experimental_apis:
+    classification: "apis_from_emerging_vendors_or_without_established_reputation"
+    authority_verification: vendor_reputation_analysis_and_contract_review
+    runtime_capability_scope: minimal_privilege_with_strict_operational_limitations
+    interaction_isolation_requirement: maximum_isolation_with_request_sandboxing
+    tampering_detection: continuous_response_validation_and_anomaly_monitoring
+    trust_inheritance: limited_inheritance_from_vendor_reputation_and_contract
+  
+  custom_or_internal_apis:
+    classification: "apis_developed_internally_for_organizational_use"
+    authority_verification: internal_organizational_authority
+    runtime_capability_scope: explicitly_designed_per_operational_integration_need
+    interaction_isolation_requirement: standard_organizational_api_isolation
+    tampering_detection: source_control_integrity_and_deployment_verification
+    trust_inheritance: inherited_from_internal_organizational_authority
+
+external_api_invocation_workflow:
+  api_integration_registration:
+    step_1_api_integration_announcement: "receive_external_api_integration_request_or_deployment"
+    step_2_api_source_identification: "identify_external_api_source_and_provider_authority"
+    step_3_provider_authority_validation: "verify_provider_authority_is_legitimate_and_contracted"
+    step_4_api_capability_specification: "identify_delegated_runtime_capabilities_and_invocation_scope"
+    step_5_api_interaction_boundaries: "determine_api_interaction_isolation_and_containment_requirements"
+    step_6_runtime_delegation_limits: "establish_explicit_runtime_delegation_limits_and_quotas"
+    step_7_api_repository_registration: "register_external_api_in_authorized_api_registry"
+  
+  api_authority_and_capability_verification:
+    step_1_api_invocation_request_reception: "receive_external_api_call_request_or_integration_trigger"
+    step_2_api_provider_authority_verification: "verify_api_provider_authority_is_legitimate_and_current"
+    step_3_requested_runtime_capability_scope: "identify_requested_runtime_capability_scope_and_operational_boundaries"
+    step_4_authorization_verification: "verify_api_authorized_for_requested_capabilities_and_invocation_context"
+    step_5_runtime_delegation_escalation_detection: "detect_if_request_exceeds_authorized_runtime_scope"
+    step_6_external_isolation_validation: "verify_external_api_isolation_controls_are_active"
+    step_7_response_tampering_detection: "verify_api_response_integrity_and_no_unauthorized_response_modification"
+    step_8_uncertainty_exposure: "expose_confidence_in_api_authority_and_delegated_runtime_capability"
+    step_9_invocation_decision: "permit_or_deny_external_api_invocation_based_on_verification"
+    step_10_invocation_audit_trail: "record_api_invocation_authorization_decision_and_delegation"
+  
+  external_api_runtime_monitoring:
+    step_1_invocation_launch_tracking: "track_api_invocation_launch_and_request_transmission"
+    step_2_capability_usage_monitoring: "monitor_api_request_scope_against_authorized_runtime_capability"
+    step_3_response_validation: "validate_api_response_against_expected_operational_semantics"
+    step_4_boundary_transcendence_detection: "detect_api_responses_attempting_to_exceed_runtime_boundaries"
+    step_5_privilege_escalation_detection: "detect_unauthorized_privilege_escalation_attempts_in_api_responses"
+    step_6_external_isolation_integrity_verification: "verify_api_interaction_boundaries_remain_enforced"
+    step_7_anomalous_behavior_detection: "identify_suspicious_or_unauthorized_api_behavior_or_responses"
+    step_8_invocation_termination_if_breach: "terminate_api_interaction_on_boundary_violation"
+  
+  api_tampering_response:
+    step_1_tampering_detection: "detect_api_response_modification_or_tampering_indicators"
+    step_2_tampering_confirmation: "confirm_api_response_integrity_compromise"
+    step_3_affected_invocations_identification: "identify_all_affected_api_invocations_and_runtime_delegations"
+    step_4_invocation_termination: "terminate_affected_api_interactions_immediately"
+    step_5_external_isolation_enforcement: "isolate_compromised_api_from_further_invocations"
+    step_6_incident_escalation: "escalate_to_external_api_governance_and_incident_response"
+
+adaptive_cognition:
+  external_api_trust_confidence_adaptation:
+    mechanism: "api_authority_confidence_degradation_on_tampering_or_capability_violation_signal"
+    triggers:
+      - api_provider_authority_compromise_suspected
+      - unauthorized_runtime_capability_escalation_attempt_detected
+      - api_response_boundary_transcendence_detected
+      - tampering_or_modification_indicators_found_in_api_responses
+      - external_isolation_boundary_integrity_compromise_suspected
+    responses:
+      - reduce_api_trust_confidence
+      - increase_api_authority_verification_rigor
+      - restrict_api_runtime_capability_scope
+      - escalate_api_invocation_authorization_to_human_authority
+      - implement_enhanced_api_isolation_controls
+
+  delegated_runtime_capability_skepticism_escalation:
+    mechanism: "elevated_scrutiny_for_api_runtime_capability_requests_on_threat_signals"
+    triggers:
+      - api_requests_runtime_capability_escalation_or_boundary_expansion
+      - multiple_apis_requesting_overlapping_sensitive_runtime_capabilities
+      - unusual_runtime_capability_usage_patterns_detected_in_api_interactions
+      - api_provider_reputation_degradation_or_compromise_indicators
+    responses:
+      - lower_runtime_capability_escalation_approval_threshold
+      - require_multi_level_authorization_for_sensitive_api_capabilities
+      - restrict_api_invocation_during_investigation
+      - require_human_pre_approval_for_runtime_capability_requests
+
+policy_arbitration:
+  conflict_types:
+    operational_necessity_vs_runtime_capability_containment:
+      scenario: "operation_requires_api_with_risky_runtime_capability_escalation_potential"
+      resolution: "api_runtime_capability_scoped_to_operational_necessity_or_operation_modified"
+      reasoning: "delegated_runtime_authority_cannot_exceed_operational_need"
+    
+    api_provider_authority_vs_isolation_enforcement:
+      scenario: "api_provider_claims_authority_to_bypass_runtime_isolation"
+      resolution: "external_isolation_boundaries_enforced_unconditionally_provider_authority_does_not_override"
+      reasoning: "external_api_boundary_preservation_is_non_negotiable"
+    
+    response_delivery_efficiency_vs_tampering_detection_rigor:
+      scenario: "comprehensive_api_response_tampering_detection_introduces_latency"
+      resolution: "tampering_detection_performed_inline_or_response_delivery_delayed"
+      reasoning: "api_response_integrity_prerequisite_for_safe_invocation"
+  
+  priority_hierarchy:
+    priority_1_api_authority_verification: "absolute_and_unconditional"
+    priority_2_runtime_capability_boundary_enforcement: "cannot_be_exceeded_or_bypassed"
+    priority_3_external_isolation_preservation: "cannot_be_violated_for_efficiency"
+    priority_4_api_tampering_detection: "continuous_and_escalation_required"
+    priority_5_privilege_escalation_prevention: "through_api_capability_restriction"
+    priority_6_operational_efficiency: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_external_api_authority_and_delegated_runtime_capability_uncertainty"
+    uncertainty_types:
+      type_1_api_provider_authority_unverifiable: "escalate_before_invocation"
+      type_2_runtime_capability_scope_ambiguous: "conservative_scope_restriction"
+      type_3_external_isolation_boundary_integrity_uncertain: "escalate_for_verification"
+      type_4_api_tampering_status_unconfirmed: "assume_tampering_likely"
+      type_5_runtime_capability_escalation_intent_unclear: "deny_escalation_request"
+  
+  visibility_requirements:
+    mechanism: "mandatory_external_api_authority_and_delegated_runtime_capability_uncertainty_articulation"
+    mandatory_output:
+      - api_provider_authority_verification_status_and_confidence
+      - delegated_runtime_capability_scope_and_boundaries
+      - external_api_isolation_boundary_integrity_assessment
+      - api_tampering_or_modification_status
+      - runtime_capability_escalation_request_and_authorization_decision
+      - uncertainty_factors_limiting_confidence_in_api_safety
+
+  propagation:
+    mechanism: "uncertainty_flow_through_external_api_invocation_chain"
+    rule_1: "provider_authority_uncertainty_flows_to_invocation_authorization_confidence"
+    rule_2: "runtime_capability_scope_uncertainty_creates_hard_ceiling_on_delegated_authority"
+    rule_3: "external_isolation_boundary_uncertainty_increases_tampering_detection_rigor"
+    rule_4: "tampering_uncertainty_escalates_to_human_review"
+
+trust_boundaries:
+  external_api_provider_trust_hierarchy:
+    verified_organizational_partner_providing_apis: highest_trust_within_scope
+    verified_marketplace_vendor_authority: conditionally_trusted_with_capability_limits
+    emerging_or_experimental_vendor: limited_trust_high_isolation
+    unverified_or_unknown_api_source: untrusted_invocation_denied
+    compromised_provider: trust_revoked_apis_deprecated
+  
+  delegated_runtime_capability_trust:
+    explicitly_authorized_runtime_capability: permitted_invocation_within_scope
+    runtime_capability_escalation_requested: requires_explicit_reauthorization
+    unauthorized_runtime_capability_usage: blocked_and_investigated
+    boundary_transcendence_attempted: invocation_halted_immediately
+  
+  external_api_isolation_trust:
+    isolation_boundaries_verified_intact: trusted_for_invocation
+    isolation_integrity_questionable: escalate_for_verification
+    boundary_transcendence_detected: trust_revoked_invocation_halted
+    tampering_indicators_present: trust_revoked_investigation_initiated
+
+runtime_behavior:
+  external_api_authority_verification_frequency: per_api_invocation_or_capability_request
+  runtime_capability_usage_monitoring: continuous_throughout_invocation
+  external_isolation_boundary_enforcement: continuous_active_monitoring
+  api_tampering_detection: continuous_per_invocation
+  api_invocation_traceability: immutable_audit_log_per_invocation
+
+runtime_degradation:
+  on_api_authority_unverifiable:
+    api_invocation_status: blocked_pending_verification
+    escalation: immediate_to_api_authority
+  
+  on_runtime_capability_escalation_attempt:
+    capability_request: denied_and_escalated
+    api_invocation: restricted_to_authorized_capabilities_only
+    investigation_priority: high
+  
+  on_external_boundary_transcendence_detected:
+    api_invocation: terminated_immediately
+    external_isolation_integrity: verified_and_restored
+    incident_escalation: security_operations_notification
+  
+  on_api_tampering_detected:
+    api_status: isolated_immediately
+    invocation_audit: forensic_review_initiated
+    affected_systems: escalated_for_impact_assessment
+    incident_investigation: critical_priority
+
+confidence_governance:
+  binary_api_trust_assumption: prohibited
+  implicit_runtime_capability_authorization_assumption: prohibited
+  unverified_api_authority: escalated_before_invocation
+  api_authority_confidence: explicit_verification_required
+  delegated_runtime_capability_confidence: explicit_authorization_required
+  hallucinated_api_integrity: prohibited
+
+traceability:
+  api_provider_authority_verification: immutable_audit_log
+  delegated_runtime_capability_authorization: timestamped_and_attributed
+  api_invocation_history: complete_per_invocation
+  external_isolation_boundary_enforcement: continuously_logged
+  tampering_detection_events: fully_traceable_with_evidence
+  api_incident_response: complete_investigation_trail
+
+human_oversight:
+  api_authority_verification_authority: external_api_governance_and_security_leadership
+  runtime_capability_delegation_authority: final_arbiter_of_api_capability_grants
+  api_tampering_response_authority: incident_response_decision_making
+  override_capability: emergency_api_invocation_with_incident_justification
+  escalation_triggers:
+    - api_provider_authority_unverifiable
+    - unauthorized_runtime_capability_escalation_attempt
+    - api_invocation_boundary_transcendence_detected
+    - tampering_or_modification_confirmed
+    - external_isolation_boundary_integrity_compromise_suspected
+    - suspicious_api_behavior_or_anomalies
+  autonomous_api_invocation_without_authorization: prohibited
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_api_runtime_capability_escalation: prohibited
+  self_modifying_api_policy: prohibited
+  automatic_external_isolation_boundary_override: prohibited
+  uncontrolled_adaptive_api_authority_expansion: prohibited
+  deterministic_api_invocation_behavior: enforced
+  external_api_isolation_boundary_preservation: strict
+
+implementation_leakage_control:
+  external_api_implementation_details: excluded
+  third_party_platform_internals: excluded
+  api_gateway_architecture: excluded
+  network_protocol_specifics: excluded
+  integration_platform_implementation_details: excluded
+
+meta_governance:
+  preserve_external_api_governance_boundary_integrity: true
+  prohibit_runtime_api_policy_drift: true
+  prohibit_adaptive_runtime_capability_boundary_erosion: true
+  preserve_deterministic_api_verification: true
+  maintain_external_api_isolation_preservation_principle: true
+
+output_standard:
+  expose_api_provider_authority_verification: required
+  expose_delegated_runtime_capability_scope_and_boundaries: required
+  expose_external_api_isolation_integrity_status: required
+  expose_tampering_or_modification_status: required
+  expose_runtime_capability_escalation_requests_and_decisions: required
+  expose_invocation_boundary_violation_attempts: required
+  expose_external_api_governance_uncertainty_factors: required
+  separate_provider_authority_from_runtime_capability_authorization: enforced
+  auditability: full_per_api_invocation
+  explainability: required_at_each_api_invocation_and_capability_decision_point

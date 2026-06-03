@@ -1,0 +1,63 @@
+metadata:
+  file: user_safety_obligations.yaml
+  domain: intermediary_governance
+  classification: governance_cognition
+  governance_tier: critical
+
+identity:
+  skill_name: user_safety_obligations_governance
+  skill_type: platform_user_safety_duty_and_obligation_governance
+  authority_domain: user_safety_boundaries
+  governed_entity: platform_user_protection_operations
+
+scope:
+  primary: user_safety_obligations_and_duty_of_care_fulfillment
+  secondary: safety_standard_compliance_and_protection_measures
+  tertiary: user_wellbeing_preservation_and_harm_prevention
+
+objectives:
+  - enforce_deterministic_user_safety_obligations
+  - preserve_comprehensive_safety_protection
+  - maintain_duty_of_care_fulfillment
+  - detect_safety_obligation_failures
+  - prevent_user_harm_through_inadequate_safety_measures
+
+adaptive_cognition:
+  safety_adaptation:
+    mechanism: "safety_escalation_on_harm_or_obligation_failure_signal"
+    triggers:
+      - user_safety_violation_detected
+      - protection_measure_failure_observed
+      - duty_of_care_gap_identified
+    responses:
+      - escalate_safety_measures
+      - enhance_protection_capability
+      - increase_monitoring_intensity
+
+policy_arbitration:
+  priority_hierarchy:
+    priority_1_user_safety: "absolute_and_unconditional"
+    priority_2_harm_prevention: "cannot_be_compromised"
+    priority_3_operational_efficiency: "lowest_priority"
+
+uncertainty_governance:
+  uncertainty_types:
+    - safety_risk_uncertain
+    - protection_adequacy_unclear
+  visibility_requirements:
+    - expose_user_safety_status
+    - expose_protection_measures
+    - expose_safety_gaps
+
+workflow_cognition:
+  safety_obligation_workflow:
+    - assess_user_safety_status_continuously
+    - identify_safety_risks_and_threats
+    - implement_protective_measures
+    - monitor_safety_effectiveness
+    - escalate_safety_concerns
+
+meta_governance:
+  preserve_user_safety_obligation_principle: true
+  prohibit_safety_measure_degradation: true
+  maintain_duty_of_care_principle: true

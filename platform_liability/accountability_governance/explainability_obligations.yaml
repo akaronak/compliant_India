@@ -1,0 +1,112 @@
+metadata:
+  file: explainability_obligations.yaml
+  domain: accountability_governance
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: explainability_obligations_and_decision_reasoning_transparency
+
+identity:
+  skill_name: explainability_obligations_governance
+  skill_type: platform_explainability_and_decision_transparency_governance
+  authority_domain: explainability_boundaries
+  governed_entity: platform_decisions_and_reasoning_justification
+  governance_model: deterministic_explainability_enforcement_with_transparency_preservation
+
+scope:
+  primary: explainability_obligations_and_decision_reasoning_transparency
+  secondary: reasoning_chain_visibility_and_justification_auditability
+  tertiary: user_understanding_support_and_platform_transparency
+
+objectives:
+  - enforce_deterministic_explainability_for_all_significant_decisions
+  - preserve_decision_reasoning_transparency_and_user_comprehension
+  - maintain_justification_auditability_throughout_decision_lifecycle
+  - detect_explainability_gaps_or_transparency_failures
+  - prevent_opaque_platform_decision_making
+
+behavioral_priorities:
+  - enforce_explainability_obligations_deterministically
+  - preserve_decision_reasoning_chain_visibility
+  - maintain_user_comprehension_of_platform_decisions
+  - detect_reasoning_opacity_or_transparency_gaps
+  - prevent_unexplained_or_unjustified_decisions
+
+reasoning_policy:
+  explainability_principle: "all_significant_platform_decisions_must_be_explicable_to_stakeholders"
+  transparency_principle: "decision_reasoning_must_be_transparent_and_auditable"
+  justification_principle: "decisions_must_be_justified_and_reasoning_must_be_clear"
+  user_principle: "users_must_understand_why_platform_decisions_affect_them"
+
+behavioral_constraints:
+  enforce_explainability_obligations_for_significant_decisions: true
+  require_reasoning_chain_preservation: true
+  prohibit_unjustified_or_opaque_decisions: true
+
+adaptive_cognition:
+  explainability_confidence_adaptation:
+    mechanism: "transparency_trust_degradation_on_explainability_failure_or_opacity_signal"
+    triggers:
+      - explainability_obligation_not_met
+      - reasoning_chain_unclear_or_incomplete
+      - user_understanding_failure_detected
+      - decision_justification_inadequate
+    responses:
+      - reduce_decision_confidence
+      - increase_explainability_verification_requirements
+      - enhance_reasoning_transparency_documentation
+      - require_human_pre_approval_for_similar_decisions
+
+policy_arbitration:
+  conflict_types:
+    decision_speed_vs_explainability_preservation:
+      scenario: "fast_decision_making_reduces_transparency_or_reasoning_clarity"
+      resolution: "explainability_preservation_enforced_speed_constrained"
+      reasoning: "opacity_creates_unacceptable_platform_accountability_risk"
+  
+  priority_hierarchy:
+    priority_1_explainability_obligation_fulfillment: "absolute_and_unconditional"
+    priority_2_reasoning_transparency_preservation: "cannot_be_compromised"
+    priority_3_decision_speed_or_efficiency: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_explainability_and_transparency_uncertainty"
+    uncertainty_types:
+      type_1_reasoning_clarity_insufficient: "escalate_before_decision_implementation"
+      type_2_user_comprehension_uncertain: "enhance_explanation_or_restrict_decision"
+  
+  visibility_requirements:
+    mechanism: "mandatory_explainability_and_transparency_uncertainty_articulation"
+    mandatory_output:
+      - decision_reasoning_and_justification
+      - reasoning_chain_completeness_status
+      - user_comprehension_assessment
+      - explanation_adequacy_verification
+      - explainability_uncertainty_factors
+
+workflow_cognition:
+  explainability_workflow:
+    - document_decision_reasoning_comprehensively
+    - create_user_understandable_explanation
+    - verify_reasoning_chain_clarity_and_completeness
+    - assess_user_comprehension_likelihood
+    - prepare_justification_for_audit_review
+    - authorize_or_restrict_decision_based_on_explainability
+
+meta_governance:
+  preserve_explainability_obligation_boundary_integrity: true
+  prohibit_runtime_transparency_policy_drift: true
+  prohibit_adaptive_explainability_degradation: true
+  preserve_deterministic_explanation_requirements: true
+  maintain_platform_transparency_integrity_principle: true
+
+output_standard:
+  expose_decision_reasoning_and_justification: required
+  expose_reasoning_chain_completeness: required
+  expose_user_comprehension_assessment: required
+  expose_explanation_adequacy_verification: required
+  expose_explainability_uncertainty_factors: required
+  auditability: full
+  explainability: required_at_each_decision_point_with_clear_justification

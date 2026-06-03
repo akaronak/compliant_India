@@ -1,0 +1,42 @@
+metadata:
+  file: public_interest_protection.yaml
+  domain: user_harm_governance
+  classification: governance_cognition
+  governance_tier: critical
+
+objectives:
+  - enforce_public_interest_protection_alongside_individual_protection
+  - preserve_community_safety_and_collective_wellbeing
+  - maintain_balanced_harm_prevention
+  - detect_public_interest_protection_gaps
+  - prevent_public_harm_through_inadequate_platform_governance
+
+adaptive_cognition:
+  public_interest_adaptation:
+    mechanism: "protection_escalation_on_public_harm_or_gap_signal"
+    triggers:
+      - public_health_threat_detected
+      - community_harm_pattern_emerging
+      - collective_safety_threatened
+    responses:
+      - escalate_public_interest_protection
+      - implement_community_safeguards
+      - coordinate_with_public_authorities
+
+policy_arbitration:
+  priority_hierarchy:
+    priority_1_public_interest_protection: "absolute_and_unconditional"
+    priority_2_community_safety: "cannot_be_compromised"
+    priority_3_individual_convenience: "lowest_priority_when_conflicting"
+
+workflow_cognition:
+  public_interest_workflow:
+    - monitor_public_health_and_safety_threats
+    - assess_community_impact_of_platform_harms
+    - implement_community_protective_measures
+    - coordinate_with_public_authorities
+    - balance_individual_and_public_interests
+
+meta_governance:
+  preserve_public_interest_protection_principle: true
+  prohibit_public_harm_enabling_drift: true

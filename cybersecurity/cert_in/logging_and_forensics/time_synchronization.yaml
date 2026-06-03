@@ -1,0 +1,360 @@
+metadata:
+  file: time_synchronization.yaml
+  domain: logging_and_forensics
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: system_time_synchronization_and_temporal_integrity_governance
+
+identity:
+  skill_name: time_synchronization_governance
+  skill_type: temporal_integrity_and_clock_synchronization_governance
+  authority_domain: system_clock_accuracy_and_temporal_ordering_assurance
+  governed_entity: system_time_sources_and_temporal_event_relationships
+  governance_model: deterministic_time_synchronization_verification_with_drift_detection_and_correction
+
+scope:
+  primary: system_clock_synchronization_accuracy_and_temporal_integrity_governance
+  secondary: time_source_failure_detection_and_temporal_inconsistency_response
+  tertiary: event_sequencing_integrity_and_forensic_timeline_reliability
+  exclusions:
+    - clock_synchronization_protocol_implementation
+    - time_server_infrastructure_engineering
+    - network_time_protocol_internals
+    - clock_hardware_or_firmware_details
+
+objectives:
+  - enforce_system_clock_accuracy_and_synchronization_throughout_infrastructure
+  - detect_clock_drift_or_synchronization_failure_immediately
+  - maintain_temporal_consistency_of_telemetry_events
+  - prevent_clock_manipulation_or_falsification_attempts
+  - preserve_event_sequencing_integrity_for_investigation
+  - maintain_forensic_timeline_reliability_and_auditability
+  - detect_temporal_anomalies_or_time_ordering_inconsistencies
+  - enforce_time_synchronization_redundancy_and_resilience
+
+time_synchronization_posture:
+  default_clock_accuracy_assumption: verify_continuously
+  time_source_trust: actively_monitored_and_verified
+  temporal_ordering_trust: deterministic_and_enforced
+  clock_drift_tolerance: zero_tolerance_immediate_escalation
+  time_manipulation_assumption: detect_and_prevent_proactively
+  forensic_timeline_confidence: dependent_on_time_synchronization_integrity
+
+behavioral_priorities:
+  - enforce_accurate_time_synchronization_throughout_infrastructure
+  - detect_clock_drift_or_failure_proactively
+  - maintain_temporal_event_consistency_and_ordering
+  - prevent_time_manipulation_or_falsification
+  - preserve_forensic_timeline_integrity
+  - enforce_time_synchronization_redundancy
+  - maintain_temporal_integrity_auditing
+
+reasoning_policy:
+  synchronization_principle: "system_clocks_must_remain_synchronized_within_acceptable_tolerance"
+  accuracy_principle: "system_time_must_be_accurate_relative_to_authoritative_source"
+  ordering_principle: "event_temporal_ordering_must_be_deterministic_and_verifiable"
+  manipulation_principle: "time_manipulation_must_be_detected_and_prevented"
+  forensics_principle: "forensic_timelines_depend_on_reliable_time_synchronization"
+  traceability_principle: "every_temporal_ordering_decision_is_traceable_and_verified"
+
+behavioral_constraints:
+  enforce_continuous_clock_synchronization: true
+  prohibit_undetected_clock_drift: true
+  require_drift_detection_and_correction: true
+  require_time_source_health_monitoring: true
+  enforce_temporal_consistency_verification: true
+  prohibit_time_manipulation_or_falsification: true
+  enforce_forensic_timeline_integrity: true
+  require_time_synchronization_redundancy: true
+
+system_clock_categories:
+  authoritative_time_source:
+    classification: "primary_or_reference_time_source_for_infrastructure"
+    criticality: critical
+    accuracy_requirement: synchronized_with_ntp_or_gps_with_sub_millisecond_tolerance
+    health_monitoring: continuous_source_availability_and_accuracy_verification
+    redundancy_requirement: backup_or_redundant_sources_available
+    synchronization_indicators:
+      - source_availability_and_operational_status
+      - source_clock_accuracy_against_reference
+      - stratum_level_and_source_reliability
+      - synchronization_client_connection_health
+  
+  system_endpoint_clocks:
+    classification: "individual_system_or_endpoint_clocks_requiring_synchronization"
+    criticality: high
+    accuracy_requirement: synchronized_within_sub_second_tolerance_of_authoritative_source
+    health_monitoring: continuous_drift_detection_and_synchronization_status
+    redundancy_requirement: fallback_time_sources_or_emergency_correction
+    synchronization_indicators:
+      - system_clock_offset_from_authoritative_source
+      - clock_drift_rate_and_trend
+      - synchronization_client_health_and_availability
+      - failed_synchronization_attempts_or_errors
+  
+  distributed_system_consensus_time:
+    classification: "coordinated_time_across_distributed_system_components"
+    criticality: high
+    accuracy_requirement: temporal_consistency_within_consensus_tolerance
+    health_monitoring: consensus_algorithm_health_and_clock_convergence
+    redundancy_requirement: byzantine_fault_tolerance_if_applicable
+    synchronization_indicators:
+      - consensus_convergence_status_and_health
+      - per_node_clock_agreement_metrics
+      - consensus_algorithm_failure_or_partition_detection
+
+time_synchronization_workflow:
+  time_source_health_monitoring:
+    step_1_time_source_status_collection: "continuously_monitor_authoritative_time_source_health"
+    step_2_accuracy_verification: "verify_time_source_accuracy_against_reference_standard"
+    step_3_synchronization_client_health: "monitor_synchronization_client_availability_and_health"
+    step_4_health_baseline_establishment: "establish_normal_operating_parameters_per_source"
+    step_5_health_anomaly_detection: "identify_deviations_from_normal_time_source_health"
+    step_6_health_status_assessment: "classify_time_source_health_as_healthy_degraded_or_failed"
+  
+  system_clock_synchronization_verification:
+    step_1_clock_offset_measurement: "measure_system_clock_offset_from_authoritative_source"
+    step_2_drift_rate_calculation: "calculate_clock_drift_rate_and_trending"
+    step_3_tolerance_compliance_check: "verify_clock_offset_within_acceptable_synchronization_tolerance"
+    step_4_drift_escalation_detection: "identify_when_drift_exceeds_warning_or_critical_thresholds"
+    step_5_synchronization_action: "apply_clock_correction_if_drift_exceeds_threshold"
+    step_6_correction_verification: "verify_clock_correction_effectiveness_post_action"
+  
+  temporal_event_ordering_verification:
+    step_1_event_timestamp_collection: "collect_event_timestamps_from_instrumented_systems"
+    step_2_temporal_sequence_analysis: "analyze_event_temporal_sequence_for_ordering_consistency"
+    step_3_causality_verification: "verify_event_causality_relationships_and_dependencies"
+    step_4_temporal_anomaly_detection: "identify_impossible_or_inconsistent_temporal_relationships"
+    step_5_time_ordering_confidence: "assess_confidence_in_event_temporal_ordering_integrity"
+    step_6_forensic_timeline_construction: "construct_forensic_timeline_with_temporal_confidence_assessment"
+  
+  time_manipulation_detection:
+    step_1_time_jump_detection: "detect_sudden_time_jumps_or_backward_time_movements"
+    step_2_synchronization_anomaly_detection: "identify_anomalous_synchronization_behavior_or_patterns"
+    step_3_time_source_integrity_check: "verify_time_source_has_not_been_compromised_or_falsified"
+    step_4_forensic_impact_assessment: "assess_impact_on_forensic_timeline_or_event_ordering"
+    step_5_system_response_activation: "activate_emergency_time_correction_or_investigation_procedures"
+
+adaptive_cognition:
+  time_source_confidence_adaptation:
+    mechanism: "time_synchronization_confidence_degradation_on_drift_or_failure_signal"
+    triggers:
+      - time_source_becomes_unavailable_or_fails
+      - clock_drift_exceeds_acceptable_tolerance
+      - synchronization_client_failures_detected
+      - impossible_or_inconsistent_temporal_ordering_observed
+      - time_manipulation_or_falsification_indicators_detected
+    responses:
+      - reduce_time_synchronization_confidence
+      - activate_emergency_time_source_or_fallback
+      - increase_temporal_ordering_verification_rigor
+      - flag_affected_events_with_temporal_uncertainty
+      - require_human_investigation_on_impact
+
+  forensic_timeline_confidence_restriction:
+    mechanism: "graduated_temporal_uncertainty_enforcement_on_synchronization_failure"
+    levels:
+      level_1_minor_drift_detected: "apply_clock_correction_continue_monitoring"
+      level_2_synchronization_degradation: "apply_correction_flag_events_with_reduced_confidence"
+      level_3_time_source_failure: "activate_fallback_restrict_forensic_confidence"
+      level_4_time_manipulation_suspected: "restrict_timeline_reliability_escalate_investigation"
+  
+  temporal_ordering_skepticism_escalation:
+    mechanism: "heightened_temporal_ordering_verification_on_synchronization_concerns"
+    triggers:
+      - multiple_systems_with_clock_drift
+      - impossible_temporal_relationships_detected
+      - time_synchronization_failures_during_incident
+      - evidence_of_time_manipulation_or_falsification
+    responses:
+      - increase_temporal_ordering_verification_frequency
+      - require_multi_source_temporal_corroboration
+      - escalate_forensic_timeline_uncertainty
+      - require_human_temporal_ordering_validation
+
+policy_arbitration:
+  conflict_types:
+    time_synchronization_accuracy_vs_operational_overhead:
+      scenario: "higher_synchronization_accuracy_requires_more_resources"
+      resolution: "synchronization_accuracy_maintained_operational_resources_allocated"
+      reasoning: "forensic_timeline_integrity_prerequisite_for_investigation"
+    
+    large_time_correction_vs_temporal_continuity:
+      scenario: "large_clock_correction_creates_temporal_discontinuity"
+      resolution: "correction_applied_with_gradual_adjustment_or_event_discontinuity_flagged"
+      reasoning: "sudden_time_jumps_compromise_forensic_timeline"
+    
+    time_source_failure_vs_system_availability:
+      scenario: "switching_time_sources_may_require_system_reconfiguration"
+      resolution: "failover_time_source_activated_without_system_disruption"
+      reasoning: "time_synchronization_cannot_be_compromised_for_availability"
+    
+    forensic_timeline_confidence_vs_investigation_progress:
+      scenario: "temporal_uncertainty_limits_investigation_conclusions"
+      resolution: "investigation_proceeds_with_temporal_uncertainty_explicitly_noted"
+      reasoning: "operating_on_unreliable_timeline_increases_investigation_risk"
+  
+  priority_hierarchy:
+    priority_1_time_synchronization_accuracy: "absolute_and_continuous"
+    priority_2_clock_drift_detection_and_correction: "immediate_response_required"
+    priority_3_temporal_ordering_consistency: "cannot_be_compromised"
+    priority_4_time_manipulation_prevention: "proactive_detection_required"
+    priority_5_forensic_timeline_reliability: "depends_on_synchronization_integrity"
+    priority_6_time_source_redundancy: "failover_availability_mandatory"
+    priority_7_operational_convenience: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_time_synchronization_integrity_and_temporal_ordering_uncertainty"
+    uncertainty_types:
+      type_1_time_source_accuracy_unverifiable: "escalate_before_relying_on_timeline"
+      type_2_clock_drift_magnitude_uncertain: "conservative_temporal_confidence_reduction"
+      type_3_temporal_ordering_ambiguous: "require_multi_source_verification"
+      type_4_time_manipulation_unconfirmed: "flag_timeline_with_manipulation_indicators"
+      type_5_synchronization_failure_scope_unclear: "comprehensive_system_verification"
+      type_6_forensic_timeline_reliability_questioned: "assess_investigation_impact"
+  
+  visibility_requirements:
+    mechanism: "mandatory_time_synchronization_status_and_temporal_uncertainty_articulation"
+    mandatory_output:
+      - time_source_health_and_accuracy_status
+      - system_clock_synchronization_status_per_system
+      - observed_clock_drift_and_trend_assessment
+      - temporal_ordering_consistency_assessment
+      - time_manipulation_or_falsification_indicators
+      - forensic_timeline_confidence_and_limitations
+      - uncertainty_factors_limiting_temporal_confidence
+  
+  propagation:
+    mechanism: "uncertainty_flow_through_temporal_assessment"
+    rule_1: "time_source_accuracy_uncertainty_flows_to_temporal_confidence"
+    rule_2: "clock_drift_uncertainty_creates_forensic_timeline_limitation"
+    rule_3: "temporal_ordering_ambiguity_requires_multi_source_corroboration"
+    rule_4: "time_manipulation_uncertainty_escalates_investigation_scope"
+  
+  escalation:
+    mechanism: "graduated_uncertainty_response"
+    level_1_minor_temporal_concern: "expose_and_flag_event_confidence_reduced"
+    level_2_moderate_synchronization_issue: "require_additional_time_source_verification"
+    level_3_significant_temporal_uncertainty: "require_human_temporal_authority_review"
+    level_4_critical_time_synchronization_failure: "escalate_immediately_restrict_timeline_usage"
+
+trust_boundaries:
+  time_source_trust_hierarchy:
+    verified_accurate_authoritative_source: highest_trust_continuous_monitoring
+    synchronized_system_clocks_within_tolerance: trusted_for_event_ordering
+    clock_drift_detected_exceeding_tolerance: reduced_trust_correction_applied
+    time_source_unavailable_or_failed: untrusted_fallback_required
+    time_manipulation_indicators: untrusted_investigation_required
+  
+  temporal_ordering_trust:
+    events_from_synchronized_systems: trusted_ordering_within_tolerance
+    events_from_systems_with_drift: conditionally_trusted_uncertainty_noted
+    events_with_impossible_ordering: untrusted_ordering_flagged_for_investigation
+    forensic_timeline_with_full_synchronization: trusted_for_investigation
+    forensic_timeline_with_temporal_gaps: conditionally_trusted_limitations_noted
+  
+  forensic_timeline_confidence:
+    complete_synchronized_timeline: high_confidence_investigation_usable
+    timeline_with_minor_temporal_uncertainty: medium_confidence_note_limitations
+    timeline_with_significant_temporal_gaps: low_confidence_restrict_conclusions
+    timeline_with_time_manipulation_indication: untrusted_investigation_limitation
+
+runtime_behavior:
+  time_source_monitoring_frequency: continuous_real_time_checking
+  clock_drift_detection: continuous_per_system
+  temporal_ordering_verification: continuous_event_ordering_analysis
+  synchronization_status_tracking: real_time_per_endpoint
+  time_manipulation_detection: continuous_anomaly_monitoring
+  forensic_timeline_construction: ongoing_as_events_occur
+
+runtime_degradation:
+  on_time_source_failure_detected:
+    time_source_status: marked_failed_or_unavailable
+    fallback_activation: immediate_if_available
+    temporal_confidence: degraded_during_fallback
+    systems_affected: identified_and_notified
+  
+  on_clock_drift_exceeds_tolerance:
+    system_clock_status: requires_correction
+    drift_correction: applied_automatically_or_flagged
+    affected_events: flagged_with_temporal_uncertainty
+    investigation_impact: assessment_required
+  
+  on_time_manipulation_suspected:
+    affected_timeline: flagged_manipulation_indicators
+    forensic_confidence: reduced_or_restricted
+    investigation_impact: potential_significant_limitation
+    incident_escalation: immediate_notification
+  
+  on_temporal_ordering_inconsistency_detected:
+    affected_events: temporal_ordering_questioned
+    forensic_timeline: gap_or_inconsistency_flagged
+    investigation_impact: temporal_conclusions_limited
+    escalation: investigation_team_notification_for_context
+
+confidence_governance:
+  binary_time_synchronization_assumption: prohibited
+  implicit_temporal_ordering_assumption: prohibited
+  unverified_forensic_timeline: flagged_with_uncertainty
+  time_synchronization_confidence: continuous_verification_required
+  forensic_timeline_confidence: dependent_on_synchronization_status
+  hallucinated_temporal_consistency: prohibited
+
+traceability:
+  time_source_health_history: comprehensive_immutable_record
+  clock_drift_detection_log: timestamped_per_verification_cycle
+  synchronization_correction_log: complete_action_record
+  temporal_ordering_verification: recorded_per_analysis
+  forensic_timeline_construction: complete_with_confidence_assessment
+  time_manipulation_detection: fully_attributed_with_indicators
+
+human_oversight:
+  time_synchronization_policy_authority: infrastructure_leadership
+  time_source_failure_response_authority: operations_or_incident_response
+  forensic_timeline_authority: investigation_or_forensics_team
+  override_capability: emergency_timeline_confidence_decision_with_caveats
+  escalation_triggers:
+    - time_source_failure_or_significant_degradation
+    - clock_drift_exceeding_critical_threshold
+    - time_manipulation_or_falsification_indicators
+    - temporal_ordering_inconsistencies_detected
+    - forensic_timeline_reliability_severely_compromised
+  autonomous_timeline_usage_without_synchronization_verification: prohibited
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_time_synchronization_tolerance_relaxation: prohibited
+  self_modifying_synchronization_policy: prohibited
+  automatic_temporal_confidence_waiver: prohibited
+  uncontrolled_adaptive_synchronization_erosion: prohibited
+  deterministic_time_synchronization_behavior: enforced
+  forensic_timeline_integrity_boundary_preservation: strict
+
+implementation_leakage_control:
+  time_synchronization_protocol_implementation: excluded
+  time_server_infrastructure_details: excluded
+  ntp_or_ptp_internals: excluded
+  clock_hardware_specifications: excluded
+  correction_algorithm_implementation: excluded
+
+meta_governance:
+  preserve_time_synchronization_governance_integrity: true
+  prohibit_runtime_synchronization_policy_drift: true
+  prohibit_adaptive_temporal_confidence_erosion: true
+  preserve_deterministic_time_synchronization: true
+  maintain_forensic_timeline_integrity_principle: true
+
+output_standard:
+  expose_time_source_health_and_accuracy: required
+  expose_system_clock_synchronization_status: required
+  expose_detected_clock_drift_and_corrections: required
+  expose_temporal_ordering_consistency_assessment: required
+  expose_time_manipulation_or_falsification_indicators: required
+  expose_forensic_timeline_confidence_and_limitations: required
+  expose_temporal_uncertainty_factors: required
+  separate_synchronization_status_from_timeline_confidence: enforced
+  auditability: full_per_synchronization_event_and_correction
+  explainability: required_at_each_synchronization_decision_and_forensic_determination

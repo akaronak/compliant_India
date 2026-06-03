@@ -1,0 +1,328 @@
+metadata:
+  file: forensic_integrity.yaml
+  domain: logging_and_forensics
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: forensic_evidence_integrity_verification_and_tampering_detection
+
+identity:
+  skill_name: forensic_integrity_governance
+  skill_type: forensic_evidence_integrity_protection_and_verification_governance
+  authority_domain: evidence_integrity_validation_and_tampering_detection_enforcement
+  governed_entity: forensic_evidence_integrity_state_and_verification_status
+  governance_model: deterministic_integrity_verification_with_cryptographic_validation_and_anomaly_detection
+
+scope:
+  primary: forensic_evidence_integrity_protection_and_tampering_detection_governance
+  secondary: evidence_modification_prevention_and_integrity_compromise_detection
+  tertiary: integrity_verification_confidence_and_forensic_validity_preservation
+  exclusions:
+    - cryptographic_algorithm_implementation
+    - hash_computation_technical_details
+    - storage_medium_technology_specifics
+    - evidence_acquisition_tool_implementation
+
+objectives:
+  - enforce_cryptographic_integrity_verification_of_all_forensic_evidence
+  - detect_unauthorized_evidence_modification_or_tampering_immediately
+  - maintain_evidence_integrity_throughout_lifecycle_and_storage
+  - prevent_evidence_degradation_or_corruption
+  - preserve_forensic_validity_through_integrity_protection
+  - maintain_integrity_verification_evidence_and_audit_trail
+  - enforce_redundancy_and_backup_integrity_verification
+  - detect_integrity_compromise_indicators_proactively
+
+forensic_integrity_posture:
+  default_evidence_state_assumption: verify_not_assumed_continuously
+  modification_tolerance: zero_tolerance_detect_immediately
+  integrity_verification_requirement: mandatory_per_access_and_time_interval
+  tampering_detection_principle: deterministic_hash_based_and_anomaly_based
+  integrity_compromise_assumption: treat_as_compromise_immediately
+
+behavioral_priorities:
+  - enforce_continuous_integrity_verification
+  - detect_evidence_tampering_or_modification
+  - prevent_evidence_degradation_or_corruption
+  - maintain_integrity_verification_evidence
+  - preserve_forensic_evidence_validity
+
+reasoning_policy:
+  integrity_principle: "forensic_evidence_integrity_must_be_continuously_verified_and_protected"
+  modification_principle: "any_evidence_modification_indicates_compromise_or_tampering"
+  verification_principle: "integrity_verification_must_be_cryptographic_and_deterministic"
+  validity_principle: "forensic_validity_depends_on_proven_integrity_throughout_lifecycle"
+  traceability_principle: "every_integrity_verification_event_is_traceable_and_immutable"
+
+behavioral_constraints:
+  enforce_cryptographic_integrity_hashing: true
+  prohibit_unverified_evidence_access: true
+  require_integrity_verification_per_access: true
+  require_periodic_integrity_re_verification: true
+  require_hash_mismatch_investigation: true
+  prohibit_evidence_modification_tolerance: true
+  enforce_backup_integrity_verification: true
+
+integrity_verification_categories:
+  initial_integrity_establishment:
+    timing: "immediately_upon_evidence_acquisition"
+    procedure:
+      - calculate_cryptographic_hash_of_evidence
+      - record_hash_with_timestamp_and_metadata
+      - verify_hash_calculation_method_compliance
+      - store_hash_in_secure_immutable_location
+      - document_integrity_baseline_in_chain_of_custody
+  
+  access_based_integrity_verification:
+    timing: "prior_to_each_evidence_access"
+    procedure:
+      - retrieve_baseline_integrity_hash
+      - recalculate_hash_of_current_evidence
+      - compare_hashes_for_match
+      - escalate_immediately_on_mismatch
+      - document_verification_result_in_access_log
+  
+  periodic_integrity_re_verification:
+    timing: "at_defined_intervals_or_storage_transitions"
+    procedure:
+      - schedule_periodic_verification_per_policy
+      - retrieve_baseline_integrity_hash
+      - recalculate_hash_of_evidence_in_storage
+      - compare_hashes_for_match
+      - investigate_any_discrepancies
+      - update_integrity_verification_record
+  
+  backup_and_redundancy_verification:
+    timing: "per_backup_creation_and_periodic_verification"
+    procedure:
+      - verify_backup_hash_matches_original
+      - independently_verify_backup_integrity
+      - test_backup_restoration_process
+      - verify_restored_evidence_hash_integrity
+      - document_backup_integrity_status
+
+integrity_compromise_response:
+  on_hash_mismatch_detected:
+    detection_classification: "evidence_modification_or_storage_corruption_detected"
+    immediate_action: "halt_forensic_processing_preserve_all_versions"
+    investigation_requirement: "determine_cause_tampering_vs_corruption_vs_error"
+    forensic_authority_notification: "critical_priority_integrity_breach"
+    evidence_status: "integrity_compromised_admissibility_at_risk"
+    response_escalation: "incident_response_and_legal_authority_notification"
+  
+  on_storage_corruption_detected:
+    detection_classification: "evidence_storage_or_backup_corruption_detected"
+    recovery_attempt: "restore_from_verified_backup_if_available"
+    integrity_reverification: "verify_restored_evidence_hash_integrity"
+    if_recovery_successful: "document_recovery_and_re_baseline_if_needed"
+    if_recovery_unsuccessful: "evidence_unrecoverable_admissibility_lost"
+  
+  on_backup_integrity_failure:
+    detection_classification: "backup_integrity_verification_failure"
+    backup_status: "backup_unreliable_cannot_be_used_for_recovery"
+    primary_evidence_vulnerability: "escalate_integrity_protection_on_primary"
+    backup_recreation_requirement: "create_new_verified_backup"
+    redundancy_status: "redundancy_compromised_integrity_protection_reduced"
+
+integrity_verification_workflow:
+  hash_calculation_and_storage:
+    step_1_evidence_preparation: "prepare_evidence_for_hash_calculation_per_standards"
+    step_2_hash_algorithm_selection: "select_standards_compliant_hash_algorithm"
+    step_3_hash_calculation: "calculate_cryptographic_hash_of_evidence"
+    step_4_hash_verification: "independently_verify_hash_calculation"
+    step_5_secure_storage: "store_hash_in_write_protected_immutable_location"
+    step_6_metadata_documentation: "document_hash_timestamp_algorithm_evidence_identifier"
+  
+  access_verification:
+    step_1_access_initiation: "capture_access_request_and_timestamp"
+    step_2_pre_access_integrity_check: "retrieve_baseline_hash_and_recalculate"
+    step_3_hash_comparison: "compare_current_hash_with_baseline"
+    step_4_verification_result: "document_match_or_mismatch"
+    step_5_access_authorization: "permit_access_if_match_deny_and_escalate_if_mismatch"
+    step_6_post_access_reverification: "optionally_verify_evidence_unchanged_post_access"
+  
+  compromise_investigation:
+    step_1_incident_documentation: "document_integrity_failure_with_context"
+    step_2_cause_determination: "investigate_tampering_vs_storage_error_vs_corruption"
+    step_3_scope_assessment: "determine_if_single_evidence_or_broader_compromise"
+    step_4_forensic_preservation: "preserve_all_evidence_versions_and_logs"
+    step_5_evidence_status_determination: "assess_admissibility_and_validity_impact"
+    step_6_incident_escalation: "escalate_to_forensic_authority_and_legal_team"
+
+adaptive_cognition:
+  integrity_confidence_adaptation:
+    mechanism: "forensic_integrity_confidence_degradation_on_verification_concern"
+    triggers:
+      - hash_mismatch_or_modification_detected
+      - storage_access_pattern_anomaly_detected
+      - backup_integrity_verification_failure
+      - evidence_condition_inconsistency_noted
+      - integrity_verification_process_questioned
+    responses:
+      - reduce_integrity_verification_confidence
+      - escalate_investigation_priority
+      - intensify_integrity_monitoring
+      - implement_additional_protective_controls
+      - escalate_to_forensic_authority_immediately
+  
+  corruption_detection_escalation:
+    mechanism: "graduated_storage_and_access_restriction_on_corruption_indicator"
+    levels:
+      level_1_isolated_hash_mismatch: "investigate_and_reverify"
+      level_2_repeated_hash_inconsistency: "restrict_access_enhance_monitoring"
+      level_3_storage_corruption_confirmed: "activate_backup_recovery_protocol"
+      level_4_widespread_corruption_or_tampering: "critical_incident_response_activation"
+
+policy_arbitration:
+  conflict_types:
+    performance_vs_integrity_verification_frequency:
+      scenario: "frequent_hash_verification_creates_performance_impact"
+      resolution: "integrity_verification_frequency_balanced_with_risk_level"
+      reasoning: "forensic_validity_depends_on_integrity_verification_rigor"
+    
+    evidence_access_vs_integrity_protection:
+      scenario: "immutable_storage_prevents_authorized_evidence_handling"
+      resolution: "write_protection_enforced_read_access_permitted_with_verification"
+      reasoning: "read_only_access_preserves_integrity_while_permitting_forensic_analysis"
+    
+    cost_vs_backup_redundancy:
+      scenario: "maintaining_multiple_verified_backups_creates_cost"
+      resolution: "minimum_redundancy_with_verified_integrity_maintained"
+      reasoning: "backup_integrity_failure_creates_evidence_loss_risk"
+  
+  priority_hierarchy:
+    priority_1_evidence_integrity_verification: "continuous_and_mandatory"
+    priority_2_tampering_or_modification_detection: "cannot_be_compromised"
+    priority_3_backup_integrity_verification: "mandatory_per_backup"
+    priority_4_integrity_compromise_investigation: "immediate_escalation"
+    priority_5_evidence_admissibility_preservation: "through_integrity_proof"
+    priority_6_operational_efficiency: "lowest_priority"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_integrity_verification_confidence_and_compromise_detection"
+    uncertainty_types:
+      type_1_hash_mismatch_cause_unconfirmed: "escalate_investigation"
+      type_2_storage_corruption_vs_tampering_unclear: "treat_as_compromise_until_verified"
+      type_3_backup_integrity_verification_failure: "backup_unreliable_requires_new_backup"
+      type_4_integrity_verification_process_questioned: "conduct_methodology_review"
+      type_5_multiple_integrity_failures_detected: "escalate_critical_incident"
+  
+  visibility_requirements:
+    mechanism: "mandatory_integrity_verification_status_and_compromise_detection_articulation"
+    mandatory_output:
+      - baseline_integrity_hash_and_verification_methodology
+      - current_integrity_verification_status
+      - hash_mismatch_or_modification_detection
+      - backup_integrity_verification_results
+      - evidence_compromise_investigation_status
+      - forensic_validity_assessment_based_on_integrity
+
+  propagation:
+    mechanism: "uncertainty_flow_through_integrity_verification_chain"
+    rule_1: "hash_mismatch_flows_to_evidence_admissibility_confidence"
+    rule_2: "storage_corruption_suspected_affects_all_stored_evidence"
+    rule_3: "backup_integrity_failure_creates_recovery_risk"
+    rule_4: "tampering_suspected_escalates_entire_investigation"
+  
+  escalation:
+    mechanism: "graduated_integrity_response"
+    level_1_isolated_verification_failure: "investigate_and_reverify"
+    level_2_modification_suspected: "escalate_to_forensic_authority"
+    level_3_tampering_confirmed: "escalate_immediately_integrity_compromised"
+    level_4_widespread_compromise: "critical_incident_response_activation"
+
+trust_boundaries:
+  integrity_verification_trust:
+    baseline_hash_verified_valid: trusted_for_comparison
+    hash_verification_passed: evidence_integrity_verified
+    hash_mismatch_detected: trust_revoked_evidence_compromised
+  
+  evidence_integrity_trust:
+    integrity_verified_unchanged: trusted_for_forensic_analysis
+    hash_mismatch_or_modification_detected: untrusted_compromised
+    storage_corruption_detected: untrusted_unrecoverable_if_no_backup
+
+runtime_behavior:
+  integrity_verification_frequency: per_access_and_periodic_intervals
+  hash_calculation_methodology: standards_compliant_cryptographic
+  hash_storage_security: write_protected_immutable_location
+  modification_detection: immediate_upon_hash_mismatch
+  evidence_access_restriction: blocked_on_integrity_concern
+
+runtime_degradation:
+  on_hash_mismatch_detected:
+    evidence_access_status: blocked_immediately
+    forensic_processing: halted_pending_investigation
+    forensic_authority_notification: critical_priority
+    investigation_requirement: urgent_cause_determination
+  
+  on_storage_corruption:
+    affected_evidence_status: inaccessible_pending_recovery
+    backup_recovery_activation: immediate_if_available
+    evidence_admissibility: at_risk_pending_recovery_success
+    incident_escalation: critical_priority
+  
+  on_backup_integrity_failure:
+    backup_status: unreliable_cannot_be_used
+    recovery_capability: compromised_or_lost
+    primary_evidence_protection: intensified
+    incident_escalation: high_priority
+
+confidence_governance:
+  binary_integrity_assumption: prohibited
+  implicit_evidence_unmodified_assumption: prohibited
+  unverified_hash_comparison: prohibited
+  integrity_confidence: cryptographic_verification_required
+  evidence_validity_confidence: continuous_integrity_verification_required
+
+traceability:
+  integrity_hash_calculation_record: timestamped_with_algorithm_and_evidence_id
+  hash_verification_history: complete_per_access_and_periodic_verification
+  hash_mismatch_detection: immediately_documented_and_escalated
+  compromise_investigation_log: complete_forensic_trail
+  backup_integrity_verification: documented_per_backup_creation_and_verification
+  evidence_integrity_status: continuously_maintained_and_accessible
+
+human_oversight:
+  integrity_verification_authority: forensic_authority_verification_methodology
+  hash_mismatch_investigation_authority: forensic_or_incident_response_authority
+  evidence_admissibility_determination_authority: legal_or_prosecution_authority
+  override_capability: none_for_integrity_compromise_admissibility_lost
+  escalation_triggers:
+    - hash_mismatch_or_modification_detected
+    - storage_corruption_or_data_loss_risk
+    - backup_integrity_verification_failure
+    - tampering_suspected_or_confirmed
+    - widespread_integrity_compromise
+  autonomous_integrity_verification: mandatory_per_policy
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_hash_recalculation_or_rebaselining: prohibited_without_justification
+  self_modifying_integrity_policy: prohibited
+  automatic_hash_update_without_verification: prohibited
+  uncontrolled_integrity_protection_relaxation: prohibited
+  deterministic_integrity_verification_behavior: enforced
+
+implementation_leakage_control:
+  hash_algorithm_implementation_details: excluded
+  cryptographic_implementation_specifics: excluded
+  storage_technology_implementation_details: excluded
+
+meta_governance:
+  preserve_forensic_integrity_governance_boundary: true
+  prohibit_runtime_integrity_policy_drift: true
+  preserve_deterministic_integrity_verification_behavior: true
+  maintain_forensic_validity_through_integrity_protection: true
+
+output_standard:
+  expose_baseline_integrity_hash_and_methodology: required
+  expose_current_integrity_verification_status: required
+  expose_hash_mismatch_or_modification_detection: required
+  expose_evidence_compromise_assessment: required
+  expose_backup_integrity_verification_results: required
+  expose_forensic_validity_based_on_integrity: required
+  auditability: full
+  explainability: required_at_each_integrity_verification_decision_point

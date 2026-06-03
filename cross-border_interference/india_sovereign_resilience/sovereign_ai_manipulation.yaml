@@ -1,0 +1,329 @@
+metadata:
+  file: sovereign_ai_manipulation.yaml
+  domain: india_sovereign_resilience
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: india_ai_system_manipulation_prevention_and_sovereign_integrity_governance
+
+identity:
+  skill_name: sovereign_ai_manipulation_detection
+  skill_type: ai_manipulation_and_foreign_compromise_detection_governance
+  authority_domain: india_ai_system_integrity_boundaries_and_manipulation_prevention
+  governed_entity: ai_system_behavior_and_decision_making_integrity
+  governance_model: deterministic_behavior_manipulation_detection_with_integrity_verification
+
+scope:
+  primary: india_ai_system_manipulation_detection_and_foreign_compromise_prevention
+  secondary: behavioral_integrity_verification_and_unauthorized_modification_detection
+  tertiary: ai_decision_chain_authenticity_and_india_aligned_operation_preservation
+  exclusions:
+    - ai_algorithm_implementation_details
+    - neural_network_architecture_specifics
+    - model_training_procedures
+    - parameter_optimization_techniques
+
+objectives:
+  - detect_deterministically_foreign_manipulation_of_india_ai_systems
+  - prevent_unauthorized_behavioral_modification_or_decision_chain_compromise
+  - preserve_ai_system_integrity_and_india_aligned_operation
+  - detect_subtle_manipulation_attempts_or_incremental_behavior_changes
+  - maintain_ai_behavior_integrity_throughout_operational_lifecycle
+  - preserve_behavior_modification_detection_traceability
+  - enforce_india_ai_system_integrity_boundaries
+  - prevent_covert_ai_system_hijacking_or_external_control_injection
+
+manipulation_detection_posture:
+  default_integrity_assumption: india_ai_system_integrity_required_continuous_verification
+  manipulation_assumption: assume_hostile_intent_verify_behavior_continuously
+  behavioral_modification_tolerance: zero_tolerance_immediate_escalation
+  covert_control_tolerance: zero_tolerance_incident_response
+  system_integrity_priority: absolute_and_non_negotiable
+  behavioral_authenticity_requirement: mandatory_and_continuously_enforced
+
+behavioral_priorities:
+  - detect_ai_behavior_manipulation_and_unauthorized_modification_proactively
+  - verify_ai_decision_chain_authenticity_and_india_authorization
+  - prevent_covert_foreign_control_or_hidden_behavioral_injection
+  - maintain_behavior_modification_lineage_and_detection_traceability
+  - preserve_ai_system_integrity_under_sophisticated_manipulation_attacks
+  - detect_incremental_behavior_degradation_or_integrity_erosion_patterns
+  - maintain_operational_behavior_integrity_auditability_and_explainability
+
+reasoning_policy:
+  integrity_principle: "india_ai_system_behavior_must_remain_unmodified_and_externally_protected"
+  authenticity_principle: "ai_decision_chains_must_be_traceable_to_india_authorization"
+  modification_principle: "unauthorized_behavioral_modification_constitutes_system_compromise"
+  continuity_principle: "ai_operational_behavior_must_persist_under_manipulation_attacks"
+  verification_principle: "behavioral_authenticity_cannot_be_assumed_must_be_continuously_verified"
+  traceability_principle: "every_behavior_modification_event_is_detectable_and_traceable"
+
+behavioral_constraints:
+  enforce_behavior_integrity_verification_continuously: true
+  prohibit_implicit_system_authenticity_assumption: true
+  require_behavior_modification_detection_capability: true
+  prohibit_covert_control_or_hidden_dependencies: true
+  enforce_behavior_lineage_preservation: true
+  require_integrity_violation_documentation: true
+  enforce_incremental_modification_detection: true
+
+manipulation_categorization:
+  prompt_injection_manipulation:
+    classification: "unauthorized_behavioral_guidance_through_prompt_or_input_injection"
+    detection_requirement: prompt_content_analysis_and_behavioral_anomaly_detection
+    authenticity_verification: prompt_source_and_authorization_validation
+    integrity_requirement: behavioral_deviation_from_baseline_detection
+    compromise_indicator: decision_misalignment_with_system_authorization
+    response_requirement: prompt_rejection_and_incident_escalation
+  
+  training_data_poisoning:
+    classification: "behavioral_modification_through_corrupted_training_or_fine_tuning"
+    detection_requirement: training_data_integrity_verification_and_behavioral_regression_testing
+    authenticity_verification: training_data_provenance_and_authorization_validation
+    integrity_requirement: behavior_consistency_across_test_and_production
+    compromise_indicator: behavioral_drift_or_unexpected_decision_patterns
+    response_requirement: system_rollback_and_incident_investigation
+  
+  model_substitution_attack:
+    classification: "unauthorized_model_replacement_with_foreign_controlled_variant"
+    detection_requirement: model_integrity_verification_and_decision_pattern_analysis
+    authenticity_verification: model_provenance_and_cryptographic_signature_validation
+    integrity_requirement: behavioral_consistency_with_authorized_model
+    compromise_indicator: significant_decision_pattern_deviation
+    response_requirement: model_restoration_and_forensic_investigation
+  
+  runtime_control_injection:
+    classification: "covert_runtime_control_through_hidden_parameters_or_channels"
+    detection_requirement: runtime_behavior_monitoring_and_control_flow_analysis
+    authenticity_verification: control_authority_and_parameter_source_validation
+    integrity_requirement: decision_autonomy_and_authorized_control_only
+    compromise_indicator: hidden_control_channels_or_unexpected_behavioral_control
+    response_requirement: system_isolation_and_threat_analysis
+
+manipulation_detection_workflow:
+  baseline_establishment_phase:
+    step_1_system_behavior_characterization: "characterize_baseline_ai_system_behavior_and_decision_patterns"
+    step_2_authorization_documentation: "document_authorized_behavioral_parameters_and_decision_criteria"
+    step_3_integrity_verification_baseline: "establish_integrity_verification_baseline_and_signatures"
+    step_4_normal_operation_definition: "define_expected_behavioral_range_and_decision_consistency"
+    step_5_modification_detection_capability: "establish_capability_to_detect_behavioral_deviations"
+    step_6_baseline_immutability: "ensure_baseline_immutability_and_external_protection"
+  
+  runtime_behavior_monitoring:
+    step_1_behavior_pattern_analysis: "analyze_ai_system_behavior_for_deviations_from_baseline"
+    step_2_decision_chain_authenticity: "verify_decision_chains_remain_aligned_with_authorization"
+    step_3_integrity_violation_detection: "detect_unauthorized_behavioral_modifications_or_anomalies"
+    step_4_incremental_degradation_detection: "detect_gradual_behavior_drift_or_manipulation_patterns"
+    step_5_control_channel_detection: "detect_hidden_control_channels_or_covert_behavioral_injection"
+    step_6_behavioral_lineage_verification: "verify_behavioral_modifications_are_authorized_and_documented"
+  
+  manipulation_confirmation:
+    step_1_anomaly_confirmation: "confirm_behavioral_anomaly_is_manipulation_not_legitimate_variation"
+    step_2_manipulation_source_analysis: "analyze_manipulation_source_and_attack_vector"
+    step_3_affected_behavior_identification: "identify_affected_behavioral_domains_and_decision_impact"
+    step_4_integrity_restoration: "restore_behavioral_integrity_and_eliminate_manipulation"
+    step_5_system_validation: "validate_system_integrity_post_restoration"
+    step_6_incident_escalation: "escalate_to_india_security_authority"
+
+adaptive_cognition:
+  manipulation_detection_adaptation:
+    mechanism: "detection_sensitivity_increase_on_manipulation_or_compromise_signals"
+    triggers:
+      - behavioral_anomaly_detected
+      - unauthorized_modification_pattern_identified
+      - covert_control_attempt_detected
+      - decision_authorization_violation_found
+      - behavioral_drift_exceeds_threshold
+    responses:
+      - increase_behavioral_monitoring_frequency_and_sensitivity
+      - escalate_anomaly_verification_rigor
+      - activate_enhanced_integrity_checking
+      - require_human_pre_approval_for_affected_decisions
+      - restrict_system_operation_scope
+
+  behavioral_integrity_escalation:
+    mechanism: "heightened_scrutiny_on_manipulation_pattern_emergence"
+    triggers:
+      - repeated_behavioral_anomalies
+      - coordinated_modification_attempts
+      - manipulation_pattern_correlation_detected
+      - foreign_actor_ai_targeting_indicators
+    responses:
+      - restrict_system_operation_pending_investigation
+      - escalate_to_india_security_authority
+      - increase_integrity_verification_for_affected_system_series
+      - implement_additional_behavioral_safeguards
+
+policy_arbitration:
+  conflict_types:
+    behavioral_flexibility_vs_integrity_protection:
+      scenario: "operational_flexibility_requires_behavioral_adaptation_creating_manipulation_risk"
+      resolution: "behavioral_integrity_protection_enforced_flexibility_constrained"
+      reasoning: "behavioral_compromise_creates_complete_system_trust_loss"
+    
+    performance_optimization_vs_integrity_verification:
+      scenario: "behavioral_optimization_introduces_integrity_verification_gaps"
+      resolution: "integrity_verification_enforced_optimization_constrained"
+      reasoning: "behavioral_integrity_cannot_be_sacrificed_for_performance_gains"
+    
+    legitimate_adaptation_vs_manipulation_detection:
+      scenario: "legitimate_behavioral_adaptation_triggers_manipulation_alerts"
+      resolution: "behavioral_modifications_require_authorization_and_verification"
+      reasoning: "all_unauthorized_behavioral_changes_treated_as_potential_compromise"
+  
+  priority_hierarchy:
+    priority_1_behavioral_integrity_preservation: "absolute_and_unconditional"
+    priority_2_manipulation_detection_and_elimination: "cannot_be_compromised"
+    priority_3_unauthorized_modification_prevention: "non_negotiable"
+    priority_4_covert_control_detection: "mandatory"
+    priority_5_integrity_lineage_preservation: "continuous_and_absolute"
+    priority_6_operational_efficiency: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_behavior_integrity_verification_and_manipulation_uncertainty"
+    uncertainty_types:
+      type_1_baseline_integrity_unverifiable: "escalate_before_operation"
+      type_2_behavioral_anomaly_source_unclear: "assume_manipulation_implement_safeguards"
+      type_3_authorization_lineage_incomplete: "block_operation_escalate"
+      type_4_covert_control_detection_incomplete: "escalate_for_investigation"
+      type_5_integrity_restoration_confidence_uncertain: "require_verification"
+  
+  visibility_requirements:
+    mechanism: "mandatory_behavior_integrity_and_manipulation_uncertainty_articulation"
+    mandatory_output:
+      - behavioral_baseline_integrity_verification_status
+      - behavioral_anomaly_detection_and_analysis
+      - manipulation_source_and_attack_vector_assessment
+      - behavioral_modification_lineage_and_authorization
+      - integrity_restoration_confidence
+      - uncertainty_factors_limiting_confidence_in_integrity_assurance
+
+  propagation:
+    mechanism: "uncertainty_flow_through_behavioral_decisions"
+    rule_1: "baseline_integrity_uncertainty_creates_hard_ceiling_on_operation_authorization"
+    rule_2: "behavioral_anomaly_uncertainty_triggers_escalation_to_human_authority"
+    rule_3: "covert_control_uncertainty_increases_monitoring_requirements"
+    rule_4: "integrity_restoration_uncertainty_escalates_to_india_security_authority"
+
+workflow_cognition:
+  operational_sequencing:
+    principle: "deterministic_sovereign_autonomy_eval_before_operation"
+  file_identity: "sovereign_ai_manipulation"
+  sovereign_ai_manipulation_escalation_choreography:
+      - detect_manipulation_signals
+      - validate_ai_output_lineage
+      - arbitrate_trust_in_ai_claims
+      - quarantine_manipulated_outputs
+      - govern_manipulation_uncertainty
+      - escalate_adversarial_ai_incident
+  sovereign_validation_ordering:
+    - sovereignty_floor_check
+    - foreign_influence_detection
+    - autonomy_and_alignment_validation
+    - uncertainty_gate
+    - permit_preserve_revoke_or_escalate
+  choreography_invariants:
+    - no_skip_sovereign_verification
+    - human_gate_on_escalation
+
+trust_boundaries:
+  behavioral_integrity_trust_hierarchy:
+    verified_behavior_integrity_under_continuous_monitoring: highest_trust
+    behavioral_anomaly_detected_investigation_required: trust_suspended
+    manipulation_confirmed: trust_revoked_system_isolation_required
+    integrity_restoration_verified: trust_conditional_on_continuous_verification
+  
+  authorization_boundary:
+    authorized_behavioral_modification: integrity_preserved_operation_authorized
+    unauthorized_modification_attempted: operation_suspended_investigation_required
+    covert_control_detected: system_isolation_incident_escalation_required
+  
+  system_control_boundary:
+    india_authorized_system_control: behavioral_autonomy_preserved
+    foreign_control_attempted: operation_blocked_investigation_required
+    foreign_control_confirmed: system_isolated_incident_response
+
+runtime_behavior:
+  behavior_integrity_verification_frequency: continuous_real_time_monitoring
+  manipulation_detection_sensitivity: continuously_adaptive_based_on_threat_signals
+  behavioral_anomaly_assessment: continuous_during_operational_use
+  decision_authorization_verification: continuous_per_critical_decision
+  integrity_lineage_preservation: immutable_audit_log_per_modification
+
+runtime_degradation:
+  on_baseline_integrity_unverifiable:
+    system_status: blocked_pending_verification
+    escalation: immediate_to_india_security_authority
+  
+  on_behavioral_anomaly_detected:
+    affected_operations: suspended_immediately
+    system_status: integrity_investigation_mode
+    incident_response: india_security_authority_notification
+  
+  on_manipulation_confirmed:
+    system_status: isolated_immediately
+    behavioral_restoration: initiated_from_trusted_baseline
+    incident_escalation: critical_priority_to_india_security_authority
+
+confidence_governance:
+  binary_integrity_assumption: prohibited
+  implicit_authenticity_assumption: prohibited
+  unverified_behavioral_baseline: escalated_before_operation
+  behavioral_authenticity_confidence: explicit_verification_required
+  manipulation_detection_confidence: continuous_validation_required
+  hallucinated_system_integrity: prohibited
+
+traceability:
+  behavioral_integrity_lineage: preserved_per_operation
+  manipulation_detection_assessment: immutable_audit_log
+  behavioral_modification_verification: timestamped_and_attributed
+  system_integrity_incident_history: complete_per_lifecycle
+  integrity_restoration_record: fully_traceable_with_evidence
+
+human_oversight:
+  integrity_authority: india_security_and_ai_operations_leadership
+  manipulation_detection_authority: final_arbiter_of_integrity_status
+  system_restoration_authority: india_security_decision_making
+  override_capability: emergency_operation_with_incident_justification
+  escalation_triggers:
+    - baseline_integrity_unverifiable
+    - behavioral_anomaly_detected
+    - manipulation_suspected
+    - covert_control_indicators_found
+    - integrity_restoration_failure
+  autonomous_system_operation_without_integrity_verification: prohibited
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_integrity_relaxation: prohibited
+  self_modifying_behavior_policy: prohibited
+  cross_domain_integrity_trust_contamination: prohibited
+  uncontrolled_adaptive_manipulation_detection_drift: prohibited
+  deterministic_integrity_behavior: enforced
+  behavioral_authenticity_boundary_preservation: strict
+
+implementation_leakage_control:
+  ai_algorithm_implementation_details: excluded
+  neural_network_architecture_specifics: excluded
+  model_training_procedures: excluded
+  parameter_optimization_techniques: excluded
+
+meta_governance:
+  preserve_behavioral_integrity_boundary_integrity: true
+  prohibit_runtime_integrity_policy_drift: true
+  prohibit_adaptive_integrity_boundary_erosion: true
+  preserve_deterministic_manipulation_detection: true
+  maintain_ai_behavioral_authenticity_integrity_principle: true
+
+output_standard:
+  expose_behavioral_integrity_verification_status: required
+  expose_manipulation_detection_status: required
+  expose_behavioral_anomaly_assessment: required
+  expose_behavioral_modification_lineage_and_authorization: required
+  expose_covert_control_detection_results: required
+  expose_integrity_uncertainty_factors: required
+  separate_integrity_verification_from_behavioral_decision: enforced
+  auditability: full
+  explainability: required_at_each_integrity_decision_point

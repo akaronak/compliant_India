@@ -1,0 +1,38 @@
+# Autonomous Action Review
+# Reviews autonomous agent actions
+
+autonomous_action_review:
+  description: "Review of autonomous security actions"
+  version: "1.0.0"
+
+review_scope:
+  action_categories:
+    - access_control_actions
+    - data_protection_actions
+    - incident_response_actions
+    - compliance_actions
+  
+  action_criticality:
+    - critical_actions
+    - high_impact_actions
+    - sensitive_actions
+    - policy_affecting_actions
+
+review_procedures:
+  pre_action_review:
+    - action_validation
+    - impact_assessment
+    - risk_evaluation
+    - approval_workflows
+  
+  post_action_review:
+    - action_effectiveness_assessment
+    - unintended_consequence_detection
+    - compliance_verification
+    - incident_investigation
+
+human_oversight:
+  - continuous_monitoring
+  - alert_escalation
+  - manual_intervention_capability
+  - policy_enforcement

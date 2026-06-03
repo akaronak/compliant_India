@@ -1,0 +1,331 @@
+metadata:
+  file: package_integrity.yaml
+  domain: supply_chain_security
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: package_provenance_legitimacy_and_artifact_authenticity_governance
+
+identity:
+  skill_name: package_integrity_governance
+  skill_type: supply_chain_artifact_provenance_and_authenticity_governance
+  authority_domain: package_distribution_authority_boundaries_and_artifact_integrity_governance
+  governed_entity: packages_and_software_artifacts_with_authenticity_and_provenance_requirements
+  governance_model: deterministic_package_authenticity_verification_with_supply_chain_tampering_resistance
+
+scope:
+  primary: package_provenance_legitimacy_and_artifact_authenticity_governance
+  secondary: runtime_dependency_integrity_validation_and_inherited_package_trust_verification
+  tertiary: supply_chain_tampering_resistance_and_artifact_integrity_preservation
+  exclusions:
+    - package_manager_implementation_specifics
+    - artifact_storage_infrastructure_details
+    - distribution_network_implementation
+    - version_resolution_algorithms
+    - dependency_resolution_mechanisms
+
+objectives:
+  - enforce_deterministic_package_authenticity_verification_throughout_supply_chain
+  - validate_package_provenance_and_distribution_authority_legitimacy
+  - detect_package_tampering_or_unauthorized_modification_proactively
+  - preserve_package_integrity_from_source_through_runtime_deployment
+  - prevent_supply_chain_based_package_substitution_attacks
+  - maintain_artifact_authenticity_traceability_and_auditability
+  - enforce_runtime_dependency_integrity_and_inherited_package_trust
+  - prevent_transitive_package_compromise_propagation
+
+package_integrity_posture:
+  default_package_trust: deny_by_default_verify_authenticity
+  package_provenance_assumption: explicit_verification_required_not_assumed
+  artifact_authenticity_trust: verified_per_deployment
+  distribution_authority_trust: legitimacy_verified_not_delegated
+  package_tampering_tolerance: zero_tolerance_immediate_escalation
+  inherited_package_trust: deterministic_verification_required
+
+behavioral_priorities:
+  - enforce_package_authenticity_verification_deterministically
+  - validate_package_provenance_and_distribution_authority
+  - prevent_package_tampering_or_unauthorized_substitution
+  - maintain_artifact_integrity_and_supply_chain_traceability
+  - preserve_package_dependency_integrity
+  - detect_supply_chain_compromise_proactively
+  - maintain_package_integrity_auditability
+
+reasoning_policy:
+  authenticity_principle: "package_authenticity_must_be_verified_from_authoritative_source"
+  provenance_principle: "package_provenance_must_be_traceable_through_entire_supply_chain"
+  authority_principle: "distribution_authority_must_be_legitimate_and_bounded"
+  integrity_principle: "package_integrity_must_be_preserved_throughout_deployment"
+  tampering_principle: "any_package_modification_without_authority_is_forbidden"
+  traceability_principle: "every_package_deployment_and_integrity_validation_is_traceable_and_attributed"
+
+behavioral_constraints:
+  enforce_package_authenticity_verification: true
+  prohibit_implicit_package_trust_assumption: true
+  require_distribution_authority_verification: true
+  prohibit_package_tampering_or_substitution: true
+  enforce_package_integrity_preservation: true
+  require_artifact_provenance_documentation: true
+  enforce_tampering_detection_capabilities: true
+
+package_categorization:
+  officially_published_or_signed_packages:
+    classification: "packages_from_official_repositories_with_cryptographic_signatures"
+    provenance_requirement: official_repository_publication_and_authority_signature
+    authenticity_requirement: cryptographic_signature_verification_required
+    integrity_requirement: hash_verification_and_signature_validation
+    tampering_detection: signature_verification_with_key_authority_validation
+    trust_inheritance: inherited_from_repository_and_publisher_authority
+  
+  third_party_marketplace_packages:
+    classification: "packages_from_public_package_registries_or_marketplaces"
+    provenance_requirement: marketplace_publication_and_publisher_identity_verification
+    authenticity_requirement: publisher_signature_or_registry_attestation
+    integrity_requirement: registry_hosted_checksum_verification
+    tampering_detection: marketplace_integrity_checks_and_publisher_reputation_validation
+    trust_inheritance: inherited_from_marketplace_authority_with_conditions
+  
+  community_or_open_source_packages:
+    classification: "packages_from_community_sources_or_open_source_repositories"
+    provenance_requirement: source_control_repository_verification_and_author_identity
+    authenticity_requirement: source_code_integrity_and_build_reproducibility_validation
+    integrity_requirement: cryptographic_hash_verification_with_open_source_validation
+    tampering_detection: continuous_source_monitoring_and_build_artifact_validation
+    trust_inheritance: limited_inheritance_from_community_reputation_and_source_integrity
+  
+  internal_or_organizational_packages:
+    classification: "packages_produced_internally_by_organizational_build_infrastructure"
+    provenance_requirement: internal_build_system_authorization_and_versioning
+    authenticity_requirement: internal_signing_authority_or_build_infrastructure_verification
+    integrity_requirement: build_artifact_integrity_and_build_log_validation
+    tampering_detection: build_infrastructure_integrity_monitoring_and_artifact_validation
+    trust_inheritance: organizational_authority_for_artifact_production_and_integrity
+
+package_integrity_workflow:
+  package_source_verification_phase:
+    step_1_package_requirement_reception: "receive_package_dependency_or_deployment_request"
+    step_2_package_source_identification: "identify_package_source_and_distribution_authority"
+    step_3_authority_legitimacy_validation: "verify_distribution_authority_is_legitimate_and_authorized"
+    step_4_package_availability_verification: "verify_package_is_available_in_official_source"
+    step_5_package_authenticity_signature_verification: "verify_package_authenticity_through_cryptographic_signature_or_registry_attestation"
+    step_6_package_integrity_hash_verification: "verify_package_integrity_through_cryptographic_hash"
+    step_7_package_modification_detection: "detect_any_unauthorized_package_modifications"
+    step_8_provenance_documentation_validation: "validate_package_provenance_documentation_and_supply_chain_metadata"
+    step_9_uncertainty_exposure: "expose_confidence_in_package_authenticity_and_provenance"
+    step_10_deployment_authorization_decision: "permit_or_deny_package_deployment_based_on_verification"
+    step_11_integrity_validation_recording: "record_package_integrity_validation_and_deployment_decision"
+  
+  package_tampering_detection_phase:
+    step_1_package_deployment_tracking: "track_package_deployment_and_version_status"
+    step_2_in_transit_tampering_detection: "detect_tampering_during_package_transmission"
+    step_3_storage_integrity_verification: "verify_package_integrity_in_storage_or_cache"
+    step_4_deployment_integrity_verification: "verify_package_integrity_at_deployment_location"
+    step_5_runtime_integrity_monitoring: "monitor_package_integrity_during_runtime_execution"
+    step_6_modification_signature_invalidation: "detect_if_package_signatures_invalidate_post_deployment"
+  
+  supply_chain_authority_validation:
+    step_1_authority_source_identification: "identify_package_distribution_authority_or_publisher"
+    step_2_authority_credentials_verification: "verify_authority_signing_credentials_and_legitimacy"
+    step_3_authority_scope_boundary: "determine_authority_scope_and_authorized_package_scope"
+    step_4_authority_key_management_verification: "validate_authority_key_management_and_rotation_practices"
+    step_5_authority_trust_assessment: "assess_authority_trustworthiness_and_integrity_record"
+  
+  inherited_package_dependency_validation:
+    step_1_transitive_package_enumeration: "identify_all_transitive_package_dependencies"
+    step_2_inherited_package_authenticity: "verify_authenticity_of_transitive_package_dependencies"
+    step_3_recursive_integrity_validation: "validate_integrity_of_entire_dependency_chain"
+    step_4_inherited_trust_assessment: "assess_inherited_trust_from_transitive_dependencies"
+    step_5_compromise_propagation_analysis: "analyze_if_compromise_in_dependency_propagates_through_chain"
+
+adaptive_cognition:
+  package_authenticity_confidence_adaptation:
+    mechanism: "package_trust_confidence_degradation_on_tampering_or_authority_signal"
+    triggers:
+      - package_signature_verification_failure
+      - package_tampering_detected_post_deployment
+      - distribution_authority_compromise_suspected
+      - inherited_package_integrity_compromise_detected
+      - supply_chain_attack_indicators_identified
+    responses:
+      - reduce_package_trust_confidence
+      - increase_authenticity_verification_rigor
+      - escalate_skepticism_toward_distribution_authority
+      - tighten_package_deployment_authorization_criteria
+      - require_human_pre_approval_for_affected_packages
+      - restrict_transitive_package_propagation
+
+  supply_chain_compromise_escalation:
+    mechanism: "heightened_scrutiny_for_supply_chain_integrity_on_threat_signals"
+    triggers:
+      - known_supply_chain_attack_on_publisher_detected
+      - compromised_signing_key_indicators
+      - package_modification_patterns_detected
+      - multiple_packages_from_authority_showing_integrity_concerns
+    responses:
+      - increase_package_verification_frequency_across_affected_publisher
+      - require_multi_source_authenticity_corroboration
+      - escalate_affected_packages_to_human_security_review
+      - restrict_new_package_deployments_from_affected_authority
+      - implement_enhanced_tampering_detection
+
+policy_arbitration:
+  conflict_types:
+    deployment_efficiency_vs_authenticity_verification:
+      scenario: "rapid_package_deployment_bypasses_comprehensive_authenticity_validation"
+      resolution: "authenticity_verification_enforced_unconditionally_deployment_delayed"
+      reasoning: "unverified_packages_create_supply_chain_compromise_risk"
+    
+    inherited_package_trust_vs_authority_uncertainty:
+      scenario: "package_depends_on_transitive_dependency_from_unverified_authority"
+      resolution: "transitive_dependency_authenticity_verified_or_package_deployment_denied"
+      reasoning: "inherited_integrity_from_unverified_authority_propagates_risk"
+    
+    previously_trusted_authority_vs_current_compromise_indicators:
+      scenario: "previously_trusted_publisher_now_shows_compromise_or_integrity_concerns"
+      resolution: "current_threat_assessment_supersedes_historical_trust_assumption"
+      reasoning: "package_integrity_must_respond_to_current_threat_evidence"
+  
+  priority_hierarchy:
+    priority_1_package_authenticity_verification: "absolute_and_unconditional"
+    priority_2_distribution_authority_legitimacy: "cannot_be_assumed_must_be_validated"
+    priority_3_package_integrity_preservation: "cannot_be_compromised"
+    priority_4_supply_chain_tampering_resistance: "cannot_be_bypassed"
+    priority_5_inherited_package_trust_validation: "cannot_be_delegated_must_be_verified"
+    priority_6_deployment_efficiency: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_package_authenticity_and_supply_chain_provenance_uncertainty"
+    uncertainty_types:
+      type_1_package_source_unverifiable: "escalate_before_deployment"
+      type_2_authenticity_signature_uncertain: "conservative_package_rejection"
+      type_3_distribution_authority_legitimacy_ambiguous: "block_deployment_escalate"
+      type_4_inherited_package_integrity_uncertain: "restrict_transitive_dependency"
+      type_5_tampering_detection_uncertain: "assume_tampering_likely"
+  
+  visibility_requirements:
+    mechanism: "mandatory_package_authenticity_and_supply_chain_provenance_articulation"
+    mandatory_output:
+      - package_source_and_distribution_authority_verification_status
+      - authenticity_signature_verification_results_and_confidence
+      - package_integrity_hash_verification_results
+      - inherited_transitive_package_authenticity_status
+      - supply_chain_provenance_documentation_validation
+      - tampering_detection_and_modification_status
+      - uncertainty_factors_limiting_confidence_in_package_safety
+
+  propagation:
+    mechanism: "uncertainty_flow_through_package_supply_chain"
+    rule_1: "authenticity_uncertainty_flows_to_deployment_authorization_confidence"
+    rule_2: "authority_legitimacy_uncertainty_creates_hard_ceiling_on_package_trust"
+    rule_3: "inherited_package_uncertainty_limits_dependent_package_authorization"
+    rule_4: "tampering_uncertainty_triggers_escalation"
+
+trust_boundaries:
+  package_authenticity_trust_hierarchy:
+    internally_produced_and_verified_packages: highest_trust_with_organizational_authority
+    officially_published_packages_with_verified_signatures: conditionally_trusted_with_ongoing_verification
+    community_or_emerging_source_packages: limited_trust_high_scrutiny
+    unverified_or_unknown_package_source: untrusted_deployment_denied
+    packages_with_integrity_concerns: untrusted_investigation_required
+  
+  distribution_authority_trust:
+    verified_distribution_authority_publishing_packages: package_deployment_authorized_within_scope
+    unverified_authority_publishing_packages: package_deployment_denied_pending_verification
+    compromised_authority_publishing_packages: package_deployment_revoked_escalation_required
+  
+  package_integrity_trust:
+    authenticity_verified_integrity_confirmed: trusted_for_deployment
+    authenticity_signature_invalid_or_unverifiable: trust_suspended_investigation_required
+    tampering_indicators_detected: trust_revoked_package_quarantined
+    inherited_package_compromise_detected: chain_trust_revoked_escalation_required
+
+runtime_behavior:
+  package_authenticity_verification_frequency: per_package_deployment_or_update
+  package_integrity_monitoring: continuous_during_storage_and_execution
+  distribution_authority_reputation_monitoring: continuous_with_external_intelligence
+  inherited_package_trust_validation: continuous_per_dependency_change
+  supply_chain_tampering_detection: continuous_real_time_monitoring
+  package_deployment_traceability: immutable_audit_log_per_deployment
+
+runtime_degradation:
+  on_package_authenticity_unverifiable:
+    package_deployment_status: blocked_pending_verification
+    escalation: immediate_to_distribution_authority
+  
+  on_distribution_authority_compromise_suspected:
+    affected_packages: deployment_restricted_or_revoked
+    transitive_packages: escalated_for_revalidation
+    incident_response: supply_chain_compromise_investigation_initiated
+  
+  on_package_tampering_detected:
+    package_deployment: halted_immediately
+    affected_systems: escalated_for_impact_assessment
+    package_quarantine: immediate_isolation_and_investigation
+    forensic_analysis: supply_chain_attack_investigation_initiated
+
+confidence_governance:
+  binary_package_trust_assumption: prohibited
+  implicit_authenticity_assumption: prohibited
+  unverified_package_provenance: escalated_before_deployment
+  package_authenticity_confidence: explicit_verification_required_per_deployment
+  inherited_package_confidence: continuous_revalidation_required
+  hallucinated_supply_chain_integrity: prohibited
+
+traceability:
+  package_provenance_lineage: preserved_per_deployment
+  authenticity_verification_decision: immutable_audit_log
+  integrity_validation_history: timestamped_and_attributed_per_deployment
+  distribution_authority_verification: complete_signature_validation_record
+  inherited_package_dependency_validation: complete_chain_verification_record
+  tampering_detection_events: fully_traceable_with_evidence
+
+human_oversight:
+  package_deployment_authority: package_governance_and_security_leadership
+  authenticity_verification_authority: final_arbiter_of_package_deployment
+  supply_chain_compromise_response_authority: incident_response_decision_making
+  override_capability: emergency_package_deployment_with_incident_justification
+  escalation_triggers:
+    - package_authenticity_unverifiable
+    - distribution_authority_compromise_suspected
+    - package_integrity_verification_failure
+    - inherited_package_dependency_compromise_detected
+    - tampering_or_unauthorized_modification_detected
+    - supply_chain_attack_indicators_identified
+  autonomous_package_deployment_without_verification: prohibited
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_package_authority_expansion: prohibited
+  self_modifying_package_policy: prohibited
+  cross_domain_package_trust_contamination: prohibited
+  uncontrolled_adaptive_authenticity_relaxation: prohibited
+  deterministic_package_verification_behavior: enforced
+  supply_chain_integrity_boundary_preservation: strict
+
+implementation_leakage_control:
+  package_manager_implementation_specifics: excluded
+  artifact_storage_infrastructure_details: excluded
+  distribution_network_implementation: excluded
+  version_resolution_algorithms: excluded
+  dependency_resolution_mechanisms: excluded
+
+meta_governance:
+  preserve_package_integrity_boundary_integrity: true
+  prohibit_runtime_package_policy_drift: true
+  prohibit_adaptive_authenticity_boundary_erosion: true
+  preserve_deterministic_package_verification: true
+  maintain_supply_chain_integrity_principle: true
+
+output_standard:
+  expose_package_authenticity_verification_status: required
+  expose_distribution_authority_legitimacy_assessment: required
+  expose_package_integrity_verification_results: required
+  expose_inherited_package_dependency_authenticity: required
+  expose_supply_chain_provenance_documentation: required
+  expose_tampering_detection_and_modification_status: required
+  expose_package_integrity_uncertainty_factors: required
+  separate_authenticity_verification_from_deployment_decision: enforced
+  auditability: full_per_deployment
+  explainability: required_at_each_package_deployment_decision_point

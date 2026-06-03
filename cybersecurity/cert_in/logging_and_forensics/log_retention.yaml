@@ -1,0 +1,352 @@
+metadata:
+  file: log_retention.yaml
+  domain: logging_and_forensics
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: operational_memory_continuity_and_forensic_history_preservation
+
+identity:
+  skill_name: log_retention_governance
+  skill_type: operational_memory_and_history_preservation_governance
+  authority_domain: log_lifecycle_governance_and_retention_timeline_enforcement
+  governed_entity: operational_logs_and_forensic_history_throughout_retention_lifecycle
+  governance_model: deterministic_retention_timeline_with_lifecycle_stage_enforcement
+
+scope:
+  primary: log_retention_lifecycle_governance_and_continuity_preservation
+  secondary: unauthorized_log_deletion_or_truncation_prevention_and_retention_breach_detection
+  tertiary: log_accessibility_integrity_and_retention_boundary_enforcement
+  exclusions:
+    - log_storage_technology_implementation
+    - data_compression_algorithms
+    - retention_policy_business_logic
+    - archival_infrastructure_specifics
+
+objectives:
+  - enforce_deterministic_log_retention_timeline_per_retention_policy
+  - preserve_operational_memory_continuity_throughout_retention_lifecycle
+  - prevent_unauthorized_log_deletion_or_truncation_outside_policy
+  - maintain_log_accessibility_and_integrity_throughout_retention_period
+  - detect_and_contain_retention_policy_violations_or_bypass_attempts
+  - enforce_log_lifecycle_progression_through_defined_retention_stages
+  - preserve_log_history_traceability_and_continuity_verification
+  - enforce_retention_boundary_integrity_throughout_operational_lifecycle
+
+log_retention_posture:
+  default_retention_timeline: explicitly_defined_per_policy_not_assumed
+  log_deletion_assumption: prohibited_outside_retention_expiry_and_policy
+  retention_boundary_integrity: deterministic_and_enforced
+  operational_memory_continuity: mandatory_throughout_retention_period
+  retention_bypass_tolerance: absolutely_prohibited
+  lifecycle_stage_progression: deterministic_and_mandatory
+
+behavioral_priorities:
+  - enforce_retention_timeline_deterministically
+  - preserve_operational_memory_continuity
+  - prevent_unauthorized_log_deletion
+  - maintain_retention_boundary_integrity
+  - detect_retention_policy_violations
+  - enforce_log_lifecycle_progression
+  - preserve_retention_continuity_verification
+
+reasoning_policy:
+  retention_principle: "logs_must_remain_available_and_accessible_throughout_defined_retention_period"
+  continuity_principle: "operational_memory_must_be_continuous_within_retention_lifecycle"
+  deletion_principle: "log_deletion_only_permitted_at_defined_retention_expiry_per_policy"
+  lifecycle_principle: "logs_progress_through_defined_retention_stages_with_explicit_transitions"
+  integrity_principle: "log_data_must_maintain_integrity_and_accessibility_throughout_retention"
+  traceability_principle: "every_retention_decision_and_lifecycle_transition_is_traceable_and_attributed"
+
+behavioral_constraints:
+  enforce_deterministic_retention_timeline: true
+  prohibit_premature_log_deletion: true
+  prohibit_unauthorized_log_truncation: true
+  require_retention_policy_adherence: true
+  enforce_retention_stage_progression: true
+  require_retention_boundary_enforcement: true
+  prohibit_retention_bypass_or_circumvention: true
+
+log_retention_lifecycle:
+  stage_1_active_logging:
+    governance:
+      - record_operational_events_in_real_time
+      - maintain_log_accessibility_for_active_operations
+      - enforce_log_format_consistency_and_completeness
+      - record_event_timestamp_and_source_identity
+    validation:
+      - verify_logging_is_active_and_operational
+      - verify_log_completeness_and_consistency
+      - verify_no_events_missed_or_truncated
+    retention_duration: indefinite_during_active_operations
+    decision_gate: monitor_for_completeness_or_escalate_on_logging_failure
+  
+  stage_2_retention_period:
+    governance:
+      - maintain_log_accessibility_per_retention_policy
+      - enforce_log_immutability_during_retention_period
+      - enforce_log_access_controls_and_audit_logging
+      - maintain_retention_timeline_enforcement
+    validation:
+      - verify_retention_timeline_compliance
+      - verify_log_immutability_during_retention
+      - verify_no_unauthorized_access_or_modification
+    retention_duration: defined_per_retention_policy_classification
+    decision_gate: continue_retention_or_escalate_on_expiry_or_policy_violation
+  
+  stage_3_retention_expiry_and_deletion:
+    governance:
+      - verify_retention_timeline_expiry_per_policy
+      - authorize_log_deletion_at_policy_expiry
+      - execute_secure_log_deletion_or_archival
+      - record_deletion_or_archival_event_in_audit_log
+      - verify_deletion_completeness_and_evidence_preservation_if_needed
+    validation:
+      - verify_retention_expiry_date_accurate
+      - verify_deletion_authorization_documented
+      - verify_deletion_execution_complete
+      - verify_no_residual_log_data_remains
+    retention_duration: zero_after_policy_expiry
+    decision_gate: confirm_deletion_completion_and_archive_destruction_finality
+
+retention_policy_categories:
+  critical_security_events:
+    classification: "security_incident_detection_and_response_events"
+    minimum_retention_period: 2_years
+    accessibility_requirement: immediately_available_for_investigation
+    immutability_requirement: immutable_throughout_retention_period
+    compliance_driver: regulatory_and_forensic_investigation_readiness
+  
+  operational_audit_events:
+    classification: "system_operations_and_administrative_decisions"
+    minimum_retention_period: 1_year
+    accessibility_requirement: accessible_for_audit_and_compliance_review
+    immutability_requirement: immutable_throughout_retention_period
+    compliance_driver: regulatory_compliance_and_operational_accountability
+  
+  application_events:
+    classification: "application_runtime_and_business_logic_execution"
+    minimum_retention_period: 90_days
+    accessibility_requirement: accessible_for_troubleshooting_and_performance_analysis
+    immutability_requirement: immutable_during_retention_period
+    compliance_driver: operational_support_and_performance_management
+  
+  transactional_records:
+    classification: "business_transaction_and_data_modification_events"
+    minimum_retention_period: 7_years
+    accessibility_requirement: accessible_for_business_and_regulatory_review
+    immutability_requirement: immutable_throughout_retention_period
+    compliance_driver: regulatory_compliance_and_business_continuity
+
+log_retention_enforcement_workflow:
+  retention_timeline_monitoring:
+    step_1_retention_policy_retrieval: "obtain_retention_policy_per_log_classification"
+    step_2_log_creation_timestamp_verification: "verify_log_creation_date_or_acquisition_timestamp"
+    step_3_retention_expiry_calculation: "calculate_log_retention_expiry_based_on_policy"
+    step_4_retention_timeline_enforcement: "monitor_and_enforce_retention_timeline"
+    step_5_expiry_approaching_notification: "notify_of_upcoming_retention_expiry_if_applicable"
+  
+  retention_lifecycle_transition:
+    step_1_retention_expiry_verification: "verify_log_has_reached_retention_expiry_date"
+    step_2_deletion_authorization_verification: "verify_deletion_is_authorized_per_policy"
+    step_3_forensic_or_archival_requirement_check: "determine_if_forensic_preservation_or_archival_required"
+    step_4_deletion_or_archival_execution: "execute_secure_deletion_or_archival_per_decision"
+    step_5_deletion_verification_and_documentation: "verify_deletion_complete_and_document_in_audit"
+  
+  retention_policy_compliance_verification:
+    step_1_log_inventory_collection: "collect_all_active_logs_and_retention_status"
+    step_2_retention_policy_mapping: "map_each_log_to_applicable_retention_policy"
+    step_3_retention_compliance_check: "verify_each_log_complies_with_retention_policy"
+    step_4_retention_violation_detection: "identify_logs_violating_retention_policy"
+    step_5_violation_severity_classification: "classify_violation_as_premature_deletion_or_over_retention"
+
+adaptive_cognition:
+  retention_enforcement_confidence_adaptation:
+    mechanism: "log_retention_confidence_degradation_on_policy_change_or_breach_signal"
+    triggers:
+      - retention_policy_modification_or_update
+      - unauthorized_log_deletion_attempt_detected
+      - log_truncation_or_corruption_suspected
+      - retention_timeline_accuracy_questioned
+      - log_accessibility_degradation_detected
+    responses:
+      - reduce_retention_enforcement_confidence
+      - increase_verification_rigor_on_retention_compliance
+      - escalate_skepticism_toward_retention_guarantees
+      - implement_additional_retention_enforcement_controls
+      - require_human_pre_approval_for_log_deletion
+  
+  retention_boundary_tightening:
+    mechanism: "graduated_retention_constraint_enforcement_on_violation_signal"
+    levels:
+      level_1_minor_retention_variance: "maintain_standard_enforcement_increase_monitoring"
+      level_2_policy_non_compliance_detected: "extend_retention_timeline_require_verification"
+      level_3_unauthorized_deletion_attempt: "block_deletion_escalate_to_compliance"
+      level_4_systematic_retention_violation: "suspend_deletion_authority_escalate_to_governance"
+
+policy_arbitration:
+  conflict_types:
+    operational_storage_vs_retention_requirement:
+      scenario: "storage_constraints_conflict_with_retention_timeline"
+      resolution: "retention_timeline_enforced_implement_compression_or_archival_solutions"
+      reasoning: "operational_memory_continuity_cannot_be_sacrificed_for_storage_convenience"
+    
+    compliance_retention_vs_data_privacy:
+      scenario: "data_privacy_deletion_request_conflicts_with_compliance_retention_requirement"
+      resolution: "regulatory_retention_requirement_takes_precedence_with_anonymization_where_possible"
+      reasoning: "regulatory_compliance_requirements_are_binding"
+    
+    log_deletion_efficiency_vs_deletion_authority_verification:
+      scenario: "batch_deletion_efficiency_requires_bypassing_per_log_verification"
+      resolution: "deletion_authority_verification_enforced_per_log_unconditionally"
+      reasoning: "deletion_authority_legitimacy_cannot_be_compromised_for_efficiency"
+  
+  priority_hierarchy:
+    priority_1_retention_timeline_enforcement: "absolute_and_deterministic"
+    priority_2_operational_memory_continuity: "cannot_be_sacrificed"
+    priority_3_retention_policy_compliance: "mandatory_and_non_negotiable"
+    priority_4_deletion_authority_verification: "cannot_be_bypassed"
+    priority_5_forensic_preservation_requirement: "cannot_be_waived"
+    priority_6_storage_optimization: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_retention_timeline_and_continuity_uncertainty_detection"
+    uncertainty_types:
+      type_1_retention_policy_applicability_ambiguous: "conservative_extended_retention"
+      type_2_log_creation_timestamp_unverifiable: "escalate_for_verification"
+      type_3_retention_expiry_calculation_uncertain: "maintain_longer_retention_period"
+      type_4_deletion_authorization_legitimacy_unconfirmed: "escalate_deletion_to_human"
+      type_5_log_accessibility_or_integrity_degraded: "escalate_for_investigation"
+      type_6_retention_compliance_status_unverifiable: "comprehensive_retention_review_required"
+  
+  visibility_requirements:
+    mechanism: "mandatory_retention_status_and_continuity_uncertainty_articulation"
+    mandatory_output:
+      - identified_logs_and_retention_policy_mapping
+      - retention_timeline_compliance_status_and_confidence
+      - log_creation_and_acquisition_timestamp_verification
+      - retention_stage_and_lifecycle_position
+      - deletion_or_archival_authorization_status
+      - retention_continuity_uncertainty_factors
+  
+  propagation:
+    mechanism: "uncertainty_flow_through_retention_lifecycle"
+    rule_1: "retention_policy_uncertainty_flows_to_retention_timeline_enforcement"
+    rule_2: "log_timestamp_uncertainty_affects_retention_expiry_calculation"
+    rule_3: "deletion_authorization_uncertainty_extends_retention_period"
+    rule_4: "accessibility_uncertainty_increases_preservation_requirement"
+  
+  escalation:
+    mechanism: "graduated_uncertainty_response"
+    level_1_minor_uncertainty: "expose_and_maintain_extended_retention"
+    level_2_moderate_uncertainty: "require_retention_verification_or_timeline_recalculation"
+    level_3_significant_uncertainty: "require_human_retention_authority_review"
+    level_4_critical_uncertainty: "suspend_deletion_escalate_immediately"
+
+trust_boundaries:
+  retention_timeline_trust_hierarchy:
+    policy_compliant_retention: conditionally_trusted_within_verification_window
+    retention_timeline_uncertain: require_extended_retention_until_verified
+    policy_violation_detected: untrusted_retention_extended_or_deletion_blocked
+  
+  deletion_authorization_trust:
+    authorized_by_legitimate_retention_authority: trusted_for_deletion_execution
+    deletion_authority_legitimacy_uncertain: escalate_for_verification
+    unauthorized_or_authority_revoked: untrusted_deletion_denied_immediately
+  
+  log_continuity_trust:
+    logs_retained_per_policy: trusted_for_operational_continuity
+    log_deletion_imminent: elevated_preservation_monitoring_required
+    log_accessibility_degraded: trust_suspended_investigation_required
+
+runtime_behavior:
+  retention_timeline_monitoring_frequency: continuous_per_log_classification
+  retention_stage_transition_verification: per_expiry_event
+  retention_policy_compliance_auditing: periodic_comprehensive_and_event_triggered
+  unauthorized_deletion_attempt_detection: continuous_blocking_capability
+  log_accessibility_verification: continuous_per_operational_cycle
+
+runtime_degradation:
+  on_premature_deletion_attempt:
+    deletion_status: blocked_immediately
+    retention_timeline: extended_if_uncertain
+    compliance_escalation: governance_authority_notification
+    forensic_preservation: initiated_if_deletion_partially_successful
+  
+  on_retention_policy_non_compliance:
+    affected_logs_status: retention_extended_or_restored
+    retention_authority_status: reviewed_or_suspended
+    compliance_audit: comprehensive_retention_review_conducted
+    governance_escalation: compliance_authority_notification
+  
+  on_log_integrity_degradation_during_retention:
+    log_status: flagged_for_integrity_compromise
+    retention_continuation: enforced_with_integrity_caveat
+    forensic_investigation: initiated
+    accessibility_impact: assessed_and_mitigated
+
+confidence_governance:
+  binary_retention_timeline_assumption: prohibited
+  implicit_policy_compliance_assumption: prohibited
+  unverified_deletion_authorization: escalated_to_human
+  retention_timeline_confidence: explicit_policy_verification_required
+  retention_continuity_confidence: continuous_accessibility_verification_required
+  hallucinated_retention_enforcement: prohibited
+
+traceability:
+  log_retention_decision_lineage: preserved_per_log_classification
+  retention_timeline_enforcement_history: immutable_audit_log
+  retention_stage_transition_events: timestamped_and_attributed
+  deletion_authorization_and_execution: fully_traceable_per_log
+  retention_violation_detection: recorded_with_severity_and_evidence
+  retention_compliance_audit_results: comprehensive_documented
+
+human_oversight:
+  retention_policy_authority: governance_and_compliance_leadership
+  deletion_authorization_authority: delegated_with_verification
+  retention_compliance_authority: audit_and_governance_oversight
+  override_capability: emergency_deletion_with_incident_justification
+  escalation_triggers:
+    - retention_policy_non_compliance_detected
+    - unauthorized_deletion_attempt_detected
+    - log_integrity_or_accessibility_compromise
+    - retention_timeline_accuracy_questioned
+    - policy_conflict_or_exception_required
+  autonomous_log_deletion_without_approval: prohibited_except_policy_expiry_verified
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_retention_extension: prohibited
+  self_modifying_retention_policy: prohibited
+  automatic_retention_timeline_modification: prohibited
+  uncontrolled_adaptive_retention_boundary_erosion: prohibited
+  deterministic_retention_lifecycle_behavior: enforced
+  retention_continuity_boundary_preservation: strict
+
+implementation_leakage_control:
+  log_storage_technology_specifics: excluded
+  data_compression_algorithm_details: excluded
+  archival_infrastructure_implementation: excluded
+  retention_database_query_logic: excluded
+  deletion_automation_scripts: excluded
+
+meta_governance:
+  preserve_log_retention_governance_integrity: true
+  prohibit_runtime_retention_policy_drift: true
+  prohibit_adaptive_retention_boundary_erosion: true
+  preserve_deterministic_retention_lifecycle: true
+  maintain_operational_memory_continuity_throughout_retention: true
+
+output_standard:
+  expose_retention_policy_and_timeline: required
+  expose_retention_compliance_status: required
+  expose_retention_stage_and_lifecycle_position: required
+  expose_deletion_authorization_and_execution_status: required
+  expose_log_accessibility_and_integrity_status: required
+  expose_retention_policy_violation_or_deviation: required
+  expose_log_retention_uncertainty_factors: required
+  separate_retention_decision_from_operational_need: enforced
+  auditability: full
+  explainability: required_at_each_retention_lifecycle_transition_and_compliance_decision_point

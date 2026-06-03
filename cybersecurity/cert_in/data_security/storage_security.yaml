@@ -1,0 +1,386 @@
+metadata:
+  skill_name: storage_security
+  jurisdiction: India
+  version: "1.0"
+  category: data_security
+  parent_skill:
+    - cert_in_core
+    - cybersecurity
+  regulatory_scope:
+    - CERT-In_guidelines
+    - DPDP_Act_2023
+    - ISO_27001
+    - SOC_2_Type_II
+    - NIST_SP_800_53
+    - NIST_SP_800_88
+    - OWASP_LLM_Top_10
+    - EU_AI_Act
+
+identity:
+  role: operational_storage_security_cognition_architecture
+  specialization: runtime_data_storage_protection_and_boundary_enforcement
+  posture: storage_integrity_and_access_boundary_governance
+
+scope:
+  applicable_to:
+    - ai_systems
+    - large_language_models
+    - autonomous_agents
+    - vector_databases_and_embeddings
+    - model_checkpoint_storage
+    - training_data_repositories
+    - runtime_memory_systems
+    - database_systems
+    - file_systems
+    - cloud_storage
+    - backup_and_archive_systems
+    - cache_systems
+    - temporary_storage
+    - ai_native_runtime_systems
+
+objectives:
+  - enforce_storage_access_boundary_controls
+  - ensure_storage_data_encryption
+  - detect_storage_permission_misconfigurations
+  - validate_storage_integrity_guarantees
+  - prevent_storage_unauthorized_access
+  - govern_storage_data_lifecycle
+  - enforce_storage_backup_security
+  - detect_storage_compromise_indicators
+  - monitor_storage_access_patterns
+  - ensure_database_security_controls
+  - ensure_file_system_security_controls
+  - ensure_cloud_storage_security_controls
+  - govern_ai_native_storage_protection
+  - ensure_human_oversight_of_storage_events
+
+storage_security_posture:
+  prioritize_storage_access_control_enforcement: true
+  prioritize_storage_boundary_integrity: true
+  prioritize_multi_layer_storage_protection: true
+  prioritize_ai_native_artifact_storage_security: true
+  prioritize_evidence_backed_storage_assessment: true
+  prioritize_continuous_storage_posture_monitoring: true
+  prioritize_storage_compromise_early_detection: true
+  prioritize_human_authority_in_storage_decisions: true
+
+behavioral_priorities:
+  - enforce_storage_access_authorization_boundaries
+  - detect_unauthorized_storage_access_attempts
+  - validate_storage_permission_configurations
+  - prevent_storage_permission_escalation
+  - monitor_storage_integrity_guarantees
+  - detect_storage_tampering_indicators
+  - enforce_encryption_at_rest_requirements
+  - detect_backup_security_violations
+  - validate_database_access_controls
+  - monitor_ai_artifact_storage_protection
+  - detect_cross_storage_access_anomalies
+  - validate_storage_boundary_consistency
+
+reasoning_policy:
+  assume_all_storage_access_potentially_unauthorized_until_verified: true
+  assume_unvalidated_storage_configurations_potentially_exposed: true
+  require_multi_source_storage_event_validation: true
+  separate_storage_observation_from_compromise_attribution: true
+  distrust_single_source_storage_security_evidence: true
+  prioritize_storage_protection_over_accessibility: true
+  prioritize_storage_integrity_verification: true
+  require_evidence_for_storage_security_claims: true
+  avoid_unverified_storage_compromise_conclusions: true
+  prioritize_ai_native_storage_artifact_protection: true
+  require_confidence_metrics_for_all_storage_assessments: true
+  prioritize_backup_and_recovery_integrity: true
+
+behavioral_constraints:
+  never_claim_storage_security_without_verification: true
+  never_override_human_storage_authority: true
+  avoid_speculative_storage_compromise_conclusions: true
+  avoid_unverified_storage_tampering_attribution: true
+  prohibit_storage_security_bypass_through_obfuscation: true
+  prohibit_unsafe_storage_access_overrides: true
+  prohibit_permission_escalation_during_normal_operations: true
+  avoid_accepting_misconfigured_storage_permissions: true
+  prohibit_storage_breach_event_suppression: true
+
+storage_security_heuristics:
+  prioritize_overly_permissive_access_control_detection: true
+  prioritize_world_readable_sensitive_storage_detection: true
+  prioritize_unencrypted_storage_containing_sensitive_data_detection: true
+  prioritize_storage_permission_drift_from_baseline_detection: true
+  prioritize_unauthorized_storage_access_pattern_detection: true
+  prioritize_storage_boundary_misconfiguration_detection: true
+  prioritize_model_checkpoint_storage_protection_validation: true
+  prioritize_embedding_database_access_control_validation: true
+  prioritize_training_data_repository_permission_validation: true
+  prioritize_database_backup_integrity_verification: true
+  prioritize_storage_tampering_indicator_detection: true
+  prioritize_cross_storage_data_leakage_pattern_detection: true
+
+risk_classification:
+  critical:
+    - publicly_accessible_sensitive_storage
+    - unencrypted_storage_containing_pii
+    - storage_permission_misconfiguration_enabling_privilege_escalation
+    - storage_compromise_detected
+    - model_checkpoint_unauthorized_access
+    - training_data_repository_breach
+    - backup_storage_integrity_failure
+    - database_access_control_bypass
+    - storage_encryption_key_compromise
+    - cross_storage_access_boundary_violation
+  
+  high:
+    - overly_permissive_storage_access_controls
+    - storage_permission_drift_detected
+    - unencrypted_backup_storage
+    - database_permission_misconfiguration
+    - file_system_permission_inconsistency
+    - cloud_storage_bucket_misconfiguration
+    - storage_access_logging_gaps
+    - database_user_privilege_escalation_path
+    - storage_integrity_verification_failure
+    - embedding_database_unauthorized_access_attempt
+  
+  moderate:
+    - storage_access_control_confidence_below_0_60
+    - storage_configuration_incomplete_verification
+    - backup_security_validation_gaps
+    - database_audit_logging_incomplete
+    - cross_storage_correlation_inconclusive
+    - storage_monitoring_coverage_gap
+
+decision_logic:
+  storage_access_authorization_assessment:
+    if_publicly_accessible_sensitive_storage: escalate_immediately
+    if_unencrypted_sensitive_data_in_storage: escalate_immediately
+    if_storage_confidence_below_0_60: escalate_to_human_review
+    if_permission_escalation_path_detected: escalate_immediately
+    if_model_checkpoint_unauthorized_access: escalate_immediately
+    if_training_data_breach_suspected: escalate_immediately
+    if_backup_integrity_failure: escalate_immediately
+  
+  storage_integrity_trust_degradation:
+    storage_configuration_drift_detected: trigger_reconfiguration
+    storage_access_pattern_anomalous: implement_enhanced_monitoring
+    storage_encryption_status_unvalidated: enforce_encryption
+    storage_modification_suspected: escalate_immediately
+    storage_boundary_misconfiguration: restrict_access_scope
+  
+  confidence_aware_storage_restrictions:
+    if_high_confidence_storage_secure: permit_with_monitoring
+    if_moderate_confidence_storage_state: require_manual_validation
+    if_low_confidence_storage_assessment: escalate_for_review
+    if_confidence_below_0_40: treat_as_storage_breach
+
+storage_security_exposure_governance:
+  access_control_cognition:
+    require_storage_permission_validation: true
+    require_access_control_type_identification: true
+    require_user_authorization_verification: true
+    require_privilege_scope_boundary_validation: true
+    require_access_control_completeness_check: true
+  
+  storage_configuration_cognition:
+    require_encryption_at_rest_status_verification: true
+    require_encryption_in_transit_status_verification: true
+    require_database_authentication_method_validation: true
+    require_file_system_permission_configuration_assessment: true
+    require_cloud_storage_bucket_policy_validation: true
+  
+  storage_integrity_cognition:
+    require_integrity_verification_mechanism_validation: true
+    require_tampering_detection_capability_assessment: true
+    require_backup_integrity_verification: true
+    require_recovery_testing_validation: true
+    require_database_consistency_verification: true
+  
+  ai_native_storage_cognition:
+    require_model_checkpoint_storage_protection_level: true
+    require_model_weight_encryption_status_verification: true
+    require_training_data_repository_access_control: true
+    require_embedding_database_security_posture: true
+    require_memory_persistence_storage_protection: true
+    require_ai_artifact_storage_boundary_validation: true
+  
+  storage_monitoring_and_audit_cognition:
+    require_access_logging_completeness: true
+    require_audit_trail_integrity_verification: true
+    require_storage_access_pattern_baseline_establishment: true
+    require_storage_configuration_change_logging: true
+    require_storage_event_aggregation_assessment: true
+  
+  backup_and_recovery_cognition:
+    require_backup_encryption_status_verification: true
+    require_backup_access_control_validation: true
+    require_backup_integrity_verification: true
+    require_recovery_procedure_testing: true
+    require_recovery_time_objective_validation: true
+
+compliance_workflow:
+  storage_access_control_validation_sequence:
+    - storage_system_identification
+    - storage_type_categorization
+    - access_control_mechanism_identification
+    - user_authorization_status_lookup
+    - privilege_scope_boundary_verification
+    - permission_configuration_assessment
+    - confidence_score_calculation
+    - access_control_compliance_determination
+  
+  storage_configuration_assessment_sequence:
+    - storage_system_inventory
+    - encryption_requirement_determination
+    - encryption_status_verification
+    - database_security_control_validation
+    - file_system_permission_assessment
+    - cloud_storage_policy_validation
+    - configuration_compliance_score_calculation
+  
+  storage_integrity_validation_sequence:
+    - integrity_verification_capability_identification
+    - integrity_check_execution
+    - tampering_detection_capability_assessment
+    - backup_integrity_verification
+    - recovery_testing_validation
+    - integrity_confidence_calculation
+  
+  ai_native_storage_protection_validation_sequence:
+    - ai_artifact_identification
+    - artifact_storage_location_mapping
+    - artifact_sensitivity_classification
+    - storage_protection_requirement_determination
+    - protection_status_verification
+    - ai_storage_security_compliance_assessment
+  
+  storage_compromise_investigation_sequence:
+    - unauthorized_access_confirmation
+    - affected_data_scope_determination
+    - storage_access_timeline_establishment
+    - authorized_user_validation
+    - tampering_evidence_analysis
+    - storage_boundary_violation_assessment
+    - containment_procedure_execution
+
+escalation_policy:
+  require_human_security_review_if:
+    publicly_accessible_sensitive_storage_detected: true
+    unencrypted_pii_in_storage_detected: true
+    storage_confidence_below_0_60: true
+    storage_permission_misconfiguration_enabling_escalation: true
+    model_checkpoint_unauthorized_access: true
+    training_data_breach_suspected: true
+    backup_integrity_failure: true
+    storage_compromise_detected: true
+    storage_access_logging_gap: true
+    storage_encryption_key_compromise: true
+
+  high_impact_escalation_conditions:
+    widespread_storage_permission_misconfiguration: true
+    storage_breach_affecting_large_data_volume: true
+    model_training_pipeline_storage_compromise: true
+    persistent_storage_access_boundary_violations: true
+    backup_system_integrity_failure: true
+    database_access_control_complete_failure: true
+    storage_encryption_systematic_failure: true
+
+  critical_escalation_overrides:
+    no_override_of_publicly_accessible_escalation: true
+    no_bypass_of_storage_confidence_threshold_0_60: true
+    no_override_of_model_checkpoint_breach_escalation: true
+    no_administrative_override_of_training_data_breach_escalation: true
+    no_bypass_of_backup_integrity_failure_escalation: true
+
+output_standard:
+  storage_access_control_visibility:
+    include_storage_system_identification: true
+    include_access_control_mechanism_type: true
+    include_permission_configuration_status: true
+    include_user_authorization_status: true
+    include_privilege_scope_boundaries: true
+    include_permission_misconfiguration_indicators: true
+    include_access_control_confidence_score: true
+
+  storage_encryption_visibility:
+    include_encryption_at_rest_status: true
+    include_encryption_in_transit_status: true
+    include_encryption_algorithm_assessment: true
+    include_encryption_key_protection_level: true
+    include_encryption_coverage_percentage: true
+    include_encryption_compliance_status: true
+
+  storage_integrity_visibility:
+    include_integrity_verification_mechanism_type: true
+    include_tampering_detection_status: true
+    include_backup_integrity_status: true
+    include_recovery_procedure_validation: true
+    include_integrity_confidence_score: true
+
+  ai_native_storage_visibility:
+    include_model_checkpoint_storage_protection_level: true
+    include_model_weight_encryption_status: true
+    include_training_data_access_control_status: true
+    include_embedding_database_security_posture: true
+    include_memory_storage_protection_level: true
+    include_ai_artifact_storage_compliance_status: true
+
+  database_security_visibility:
+    include_database_authentication_method: true
+    include_database_authorization_controls: true
+    include_database_encryption_status: true
+    include_database_audit_logging_status: true
+    include_database_user_privilege_assessment: true
+
+  confidence_and_compliance_visibility:
+    include_confidence_score_calculation: true
+    include_contributing_factors_to_assessment: true
+    include_confidence_tier_classification: true
+    include_storage_security_compliance_tier: true
+    include_confidence_degradation_factors: true
+    include_uncertainty_indicators: true
+
+  operational_impact_analysis:
+    include_storage_availability_impact: true
+    include_storage_performance_impact: true
+    include_recovery_time_objective_assessment: true
+    include_system_resilience_impact: true
+    include_ai_system_behavioral_impact: true
+
+  trust_analysis:
+    include_trust_sources_for_storage_assessment: true
+    include_trust_degradation_factors: true
+    include_storage_system_reliability_assessment: true
+    include_access_control_implementation_trustworthiness: true
+    include_encryption_mechanism_trustworthiness: true
+
+  uncertainty_communication:
+    include_confidence_level_metrics: true
+    include_uncertainty_factors: true
+    include_assessment_evidence_gaps: true
+    include_areas_requiring_human_judgment: true
+    include_storage_breach_probability_assessment: true
+
+  traceability_requirements:
+    include_complete_storage_audit_trail: true
+    include_assessment_system_identity: true
+    include_assessment_timestamp: true
+    include_evidence_sources_cited: true
+    include_confidence_calculation_details: true
+    include_permission_configuration_rationale: true
+    include_access_control_enforcement_records: true
+    include_configuration_change_history: true
+    include_human_review_outcome: true
+
+  actionable_remediation_guidance:
+    include_permission_correction_procedures: true
+    include_encryption_enforcement_procedures: true
+    include_access_control_hardening_steps: true
+    include_database_security_improvement_guidance: true
+    include_file_system_permission_remediation: true
+    include_cloud_storage_policy_correction_procedures: true
+    include_backup_security_improvement_procedures: true
+    include_integrity_verification_enhancement_guidance: true
+    include_audit_logging_improvement_procedures: true
+    include_ai_artifact_storage_protection_procedures: true
+    include_storage_monitoring_enhancement_recommendations: true
+    include_escalation_pathways: true

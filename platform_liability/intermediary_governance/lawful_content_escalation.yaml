@@ -1,0 +1,42 @@
+metadata:
+  file: lawful_content_escalation.yaml
+  domain: intermediary_governance
+  classification: governance_cognition
+  governance_tier: critical
+
+objectives:
+  - enforce_escalation_of_lawful_but_harmful_content_decisions
+  - preserve_human_authority_over_complex_content_decisions
+  - maintain_proportional_content_enforcement
+  - detect_escalation_gaps_in_content_decisions
+  - prevent_inappropriate_content_removal
+
+adaptive_cognition:
+  escalation_adaptation:
+    mechanism: "escalation_activation_on_complex_decision_or_gap_signal"
+    triggers:
+      - lawful_content_harm_ambiguous
+      - human_judgment_necessary
+      - escalation_not_activated
+    responses:
+      - activate_human_review
+      - ensure_careful_assessment
+      - implement_appropriate_response
+
+policy_arbitration:
+  priority_hierarchy:
+    priority_1_proportional_content_enforcement: "absolute_and_unconditional"
+    priority_2_human_judgment_preservation: "cannot_be_compromised"
+    priority_3_automation_efficiency: "lowest_priority"
+
+workflow_cognition:
+  escalation_workflow:
+    - identify_complex_content_scenarios
+    - assess_legal_status_of_content
+    - determine_escalation_necessity
+    - engage_human_reviewers
+    - document_decision_rationale
+
+meta_governance:
+  preserve_proportional_enforcement_principle: true
+  prohibit_inappropriate_escalation_bypass: true

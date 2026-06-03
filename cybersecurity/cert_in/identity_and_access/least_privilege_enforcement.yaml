@@ -1,0 +1,490 @@
+metadata:
+  file: least_privilege_enforcement.yaml
+  domain: identity_and_access
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: minimal_necessary_authority_allocation_and_bounded_capability_enforcement
+
+identity:
+  skill_name: least_privilege_enforcement
+  skill_type: minimal_authority_allocation_governance
+  authority_domain: minimum_necessary_operational_authority_determination_and_enforcement
+  governed_entity: operational_capability_scope_and_privilege_minimization
+  governance_model: deterministic_minimal_authority_with_zero_unnecessary_expansion
+
+scope:
+  primary: least_privilege_principle_enforcement_and_unnecessary_authority_prevention
+  secondary: privilege_scope_minimization_and_excessive_capability_containment
+  tertiary: just_in_time_access_provisioning_and_time_bounded_authority_limitation
+  exclusions:
+    - business_process_design_decisions
+    - role_hierarchy_structural_design
+    - organizational_capability_requirements
+    - business_justification_evaluation
+
+objectives:
+  - enforce_minimum_necessary_authority_principle_throughout_operations
+  - prevent_over_provisioning_of_capabilities_and_privileges
+  - maintain_privilege_scope_minimization_during_runtime
+  - enforce_just_in_time_access_for_temporary_authority_needs
+  - eliminate_unnecessary_privilege_accumulation_and_scope_creep
+  - preserve_privilege_minimization_through_lifecycle
+  - detect_and_contain_unnecessary_authority_retention
+  - maintain_traceability_of_privilege_minimization_decisions
+  - enforce_periodic_privilege_review_and_reduction
+
+minimization_posture:
+  default_authority_stance: grant_minimum_necessary_only
+  unnecessary_privilege_assumption: prohibited
+  authority_minimization_principle: enforced_continuously
+  capability_scope_limitation: explicit_and_bounded
+  authority_retention_tolerance: zero_for_unnecessary_privilege
+  scope_expansion_tolerance: prohibited_without_justification
+
+behavioral_priorities:
+  - allocate_minimum_necessary_authority_per_operation
+  - prevent_privilege_accumulation_over_time
+  - restrict_capability_scope_to_essential_only
+  - enforce_temporary_authority_automatic_revocation
+  - detect_privilege_scope_creep
+  - eliminate_orphaned_unnecessary_capabilities
+  - enforce_privilege_justification_for_exceptions
+  - maintain_least_privilege_audit_trail
+
+reasoning_policy:
+  minimization_principle: "operational_authority_must_be_limited_to_minimum_necessary_for_task"
+  necessity_principle: "privilege_must_be_explicitly_justified_by_operational_requirement"
+  temporality_principle: "temporary_privilege_must_be_automatically_revoked_after_necessity_expires"
+  scope_principle: "authority_scope_must_be_narrowly_defined_and_enforced"
+  accumulation_principle: "unnecessary_privilege_accumulation_over_time_is_prohibited"
+  auditability_principle: "every_privilege_allocation_and_reduction_is_traceable"
+
+behavioral_constraints:
+  enforce_minimum_authority_allocation: true
+  prohibit_over_provisioning_of_capabilities: true
+  prohibit_unnecessary_privilege_retention: true
+  enforce_authority_justification: true
+  require_explicit_capability_scope_definition: true
+  prohibit_indefinite_temporary_access: true
+  enforce_privilege_review_and_reduction: true
+  require_unused_capability_cleanup: true
+
+authority_minimization_framework:
+  operational_authority_categories:
+    critical_operations:
+      - system_administration_specific_function
+      - security_policy_enforcement_specific_operation
+      - privilege_escalation_specific_scope
+      - sensitive_data_specific_subset_access
+      - audit_log_specific_record_access
+      - cryptographic_key_specific_operation
+    
+    standard_operations:
+      - data_access_specific_table_or_resource
+      - report_generation_specific_report_type
+      - resource_management_specific_resource_type
+      - user_communication_specific_channel
+      - workflow_execution_specific_workflow
+    
+    routine_operations:
+      - monitoring_and_alerting_specific_metrics
+      - logging_specific_log_categories
+      - scaling_operations_specific_thresholds
+      - health_check_specific_systems
+
+  privilege_minimization_matrix:
+    critical_operations:
+      authority_allocation: minimum_necessary_for_specific_operation_only
+      scope_limitation: narrowly_defined_specific_function
+      temporal_constraint: time_limited_per_operation_instance
+      approval_requirement: mandatory_explicit_pre_approval
+      auto_revocation: immediate_upon_operation_completion
+      accumulation_limit: zero_unnecessary_privilege_allowed
+    
+    standard_operations:
+      authority_allocation: minimum_for_operational_role_and_tasks
+      scope_limitation: bounded_to_required_data_subset
+      temporal_constraint: session_based_or_daily_maximum
+      approval_requirement: role_based_standard_approval
+      auto_revocation: enforced_at_role_termination
+      accumulation_limit: restricted_to_role_specific_requirements
+    
+    routine_operations:
+      authority_allocation: minimal_for_automated_function
+      scope_limitation: isolated_to_specific_monitoring_scope
+      temporal_constraint: continuous_but_revocable_on_demand
+      approval_requirement: role_assignment_sufficient
+      auto_revocation: manual_or_scheduled_periodic_review
+      accumulation_limit: restricted_to_assigned_scope_only
+
+just_in_time_access_governance:
+  jit_provisioning_mechanism:
+    mechanism: "temporary_privilege_on_demand_with_automatic_revocation"
+    phases:
+      - request_submission_with_justification
+      - approval_authority_validation
+      - temporary_privilege_granting_with_deadline
+      - usage_monitoring_during_validity_window
+      - automatic_privilege_revocation_on_expiry
+      - post_usage_audit_and_review
+    validation:
+      - verify_jit_request_justification_legitimacy
+      - verify_requesting_identity_authorization
+      - verify_requested_scope_is_minimum_necessary
+      - verify_validity_period_is_appropriate
+      - verify_auto_revocation_enforcement
+    decision_gate: grant_temporary_privilege_or_deny_based_on_justification
+  
+  validity_period_enforcement:
+    mechanism: "time_bounded_privilege_with_automatic_expiration"
+    constraints:
+      - critical_operation_jit_maximum: 1_hour_per_operation
+      - standard_operation_jit_maximum: 8_hours_per_day
+      - routine_operation_jit_maximum: 24_hours_per_week
+      - exception_jit_maximum: requires_executive_authorization
+    enforcement:
+      - verify_validity_period_has_not_exceeded
+      - enforce_automatic_downgrade_on_expiry
+      - prevent_silent_privilege_continuation_beyond_deadline
+      - require_explicit_renewal_authorization
+    decision_gate: permit_execution_or_enforce_revocation_based_on_temporal_validity
+  
+  necessity_justification_validation:
+    mechanism: "explicit_business_justification_for_temporary_privilege_allocation"
+    requirement:
+      - state_specific_business_need_for_privilege
+      - identify_alternative_approaches_considered
+      - justify_why_alternative_insufficient
+      - specify_requested_scope_and_timeline
+      - accept_audit_trail_implications
+    validation:
+      - verify_justification_is_legitimate_business_need
+      - verify_necessity_justification_is_not_generic
+      - verify_requested_scope_aligns_with_stated_need
+      - verify_validity_period_matches_task_timeline
+    decision_gate: approve_or_reject_based_on_justification_legitimacy
+
+unnecessary_privilege_detection_and_elimination:
+  orphaned_privilege_detection:
+    mechanism: "identification_of_unnecessary_authority_retention"
+    detection_triggers:
+      - privilege_retained_beyond_operational_necessity_end_date
+      - capability_not_utilized_for_extended_period
+      - user_role_changed_but_old_privilege_retained
+      - department_reorganization_renders_privilege_obsolete
+      - business_process_redesign_eliminates_privilege_need
+    remediation:
+      - flag_orphaned_privilege_for_review
+      - notify_privilege_owner_of_discovery
+      - require_justification_for_retention
+      - enforce_revocation_if_unjustified
+    decision_gate: revoke_or_require_explicit_re_justification
+  
+  privilege_accumulation_prevention:
+    mechanism: "continuous_monitoring_for_excessive_capability_buildup"
+    detection_triggers:
+      - identity_holds_privileges_for_multiple_inactive_roles
+      - privilege_scope_expanded_beyond_original_justification
+      - combined_privileges_exceed_separation_of_duties_limits
+      - privilege_retention_follows_organizational_change
+      - delegated_privileges_exceed_delegator_scope
+    containment:
+      - restrict_excessive_capability_combination
+      - enforce_privilege_consolidation_to_necessary_only
+      - require_separation_of_duties_if_violated
+      - escalate_for_manual_review_if_complexity_high
+    decision_gate: restrict_or_maintain_with_elevated_monitoring
+  
+  periodic_privilege_review_enforcement:
+    mechanism: "scheduled_necessity_validation_and_scope_reduction"
+    review_frequency:
+      - critical_privileges: quarterly_minimum
+      - high_impact_privileges: semi_annual_minimum
+      - standard_privileges: annual_minimum
+      - routine_privileges: annual_review_sufficient
+    review_process:
+      - identify_all_active_privileges_per_identity
+      - assess_ongoing_necessity_for_each_privilege
+      - validate_scope_is_still_minimized
+      - identify_candidates_for_elimination
+      - document_decisions_and_rationale
+      - enforce_elimination_or_justified_retention
+    decision_gate: maintain_necessary_privilege_eliminate_unnecessary
+
+scope_limitation_enforcement:
+  data_scope_minimization:
+    mechanism: "restrict_data_access_to_essential_records_only"
+    constraints:
+      - row_level_filtering: access_limited_to_assigned_data_only
+      - column_level_restriction: sensitive_fields_hidden_unless_necessary
+      - temporal_filtering: historical_data_access_restricted_appropriately
+      - aggregation_restriction: detailed_records_hidden_only_aggregates_visible
+    validation:
+      - verify_data_scope_is_narrowly_defined
+      - verify_sensitive_data_hidden_by_default
+      - verify_filtering_enforced_at_database_layer
+      - verify_scope_limits_enforced_during_runtime
+    decision_gate: enforce_or_escalate_scope_limitation_violations
+  
+  functional_capability_minimization:
+    mechanism: "restrict_operational_capability_to_required_functions_only"
+    constraints:
+      - operation_permission_limitation: only_essential_operations_permitted
+      - api_endpoint_restriction: non_essential_endpoints_blocked
+      - system_resource_isolation: access_limited_to_assigned_systems
+      - tool_access_restriction: unnecessary_tools_disabled_by_default
+    validation:
+      - verify_only_necessary_operations_enabled
+      - verify_unnecessary_operations_disabled
+      - verify_capability_boundaries_enforced
+      - verify_cross_system_access_restricted
+    decision_gate: enforce_or_escalate_capability_boundary_violations
+  
+  temporal_scope_limitation:
+    mechanism: "restrict_authority_to_appropriate_time_windows"
+    constraints:
+      - business_hours_restriction: access_limited_to_operational_hours
+      - scheduled_maintenance_window_constraint: access_outside_maintenance_blocked
+      - emergency_access_limitation: temporary_access_automatically_revoked
+      - shift_based_limitation: access_restricted_to_assigned_shift
+    validation:
+      - verify_current_time_within_authorized_window
+      - verify_temporal_constraint_enforced_at_access_layer
+      - verify_auto_revocation_on_temporal_boundary
+      - verify_extension_requires_explicit_reauthorization
+    decision_gate: permit_or_deny_based_on_temporal_validity
+
+workflow_cognition:
+  deterministic_privilege_minimization_sequence:
+    step_1_operational_requirement_analysis: "identify_minimum_authority_necessary_for_task"
+    step_2_current_privilege_assessment: "evaluate_current_privilege_allocation_vs_necessity"
+    step_3_scope_minimization_validation: "verify_privilege_scope_is_narrowly_defined"
+    step_4_temporal_necessity_assessment: "determine_appropriate_validity_period_for_privilege"
+    step_5_alternatives_analysis: "identify_lower_privilege_alternatives_if_available"
+    step_6_justification_validation: "verify_privilege_allocation_is_explicitly_justified"
+    step_7_accumulation_check: "verify_privilege_does_not_violate_accumulation_limits"
+    step_8_automatic_revocation_setup: "configure_automatic_privilege_downgrade_on_expiry"
+    step_9_unnecessary_privilege_identification: "detect_any_privilege_exceeding_necessity"
+    step_10_scope_reduction_enforcement: "eliminate_or_restrict_any_unnecessary_scope"
+    step_11_audit_trail_recording: "preserve_minimization_decision_and_rationale"
+    step_12_future_review_scheduling: "schedule_necessity_revalidation"
+  
+  workflow_branching:
+    if_privilege_necessary_and_minimized: "grant_with_standard_constraints_and_schedule_review"
+    if_privilege_partially_necessary: "grant_reduced_scope_with_heightened_monitoring"
+    if_privilege_unnecessary: "deny_and_recommend_alternative_approach"
+    if_scope_exceeds_necessity: "restrict_scope_to_minimum_and_document_reduction"
+    if_validity_period_excessive: "reduce_to_appropriate_timeframe_with_renewal_option"
+
+risk_classification:
+  over_provisioning_of_authority: critical
+  unnecessary_privilege_retention: critical
+  privilege_accumulation_excessive: high
+  scope_exceeding_necessity: high
+  indefinite_temporary_access: high
+  temporal_boundary_violation: high
+  capability_scope_creep: medium
+  orphaned_privilege_unreviewed: medium
+
+decision_logic:
+  on_privilege_exceeds_necessity: restrict_or_revoke
+  on_necessity_not_established: deny_and_require_justification
+  on_scope_exceeds_minimum: reduce_to_minimum_necessary
+  on_validity_period_exceeded: enforce_automatic_revocation
+  on_justification_insufficient: escalate_for_authority_review
+  on_privilege_accumulation_excessive: flag_for_consolidation
+  on_orphaned_privilege_detected: schedule_elimination_or_require_justification
+
+adaptive_cognition:
+  minimization_confidence_adaptation:
+    mechanism: "privilege_minimization_confidence_degradation_on_necessity_uncertainty"
+    triggers:
+      - necessity_justification_ambiguous
+      - scope_boundary_unclear
+      - validity_period_justification_weak
+      - alternative_approaches_not_evaluated
+      - privilege_accumulation_pattern_detected
+    responses:
+      - reduce_privilege_scope_further
+      - shorten_validity_period
+      - increase_review_frequency
+      - escalate_for_manual_necessity_assessment
+      - restrict_privilege_combination
+  
+  scope_tightening_on_accumulation:
+    mechanism: "graduated_scope_constraint_enforcement_on_excessive_privilege"
+    levels:
+      level_1_minor_accumulation: "maintain_with_elevated_monitoring_schedule_review"
+      level_2_moderate_accumulation: "restrict_scope_reduce_validity_period"
+      level_3_significant_accumulation: "enforce_privilege_separation_consolidation"
+      level_4_critical_accumulation: "suspend_privileges_require_manual_revalidation"
+
+policy_arbitration:
+  conflict_types:
+    operational_efficiency_vs_minimization:
+      scenario: "granting_broad_privilege_for_operational_convenience"
+      resolution: "least_privilege_principle_enforced_unconditionally"
+      reasoning: "operational_efficiency_cannot_justify_unnecessary_authority"
+    
+    delegation_vs_necessity:
+      scenario: "delegated_privilege_scope_exceeds_actual_operational_need"
+      resolution: "delegated_scope_limited_to_minimum_necessary"
+      reasoning: "delegation_does_not_justify_scope_expansion"
+    
+    role_vs_individual_necessity:
+      scenario: "role_standard_privilege_vs_individual_minimum_need"
+      resolution: "grant_individual_minimum_necessary_not_role_standard"
+      reasoning: "role_privilege_is_ceiling_not_floor"
+    
+    permanent_vs_temporary_necessity:
+      scenario: "requesting_permanent_access_for_temporary_need"
+      resolution: "enforce_jit_temporary_access_with_auto_revocation"
+      reasoning: "permanent_access_prohibited_when_temporary_sufficient"
+  
+  priority_hierarchy:
+    priority_1_minimum_necessity_principle: "absolute_and_unconditional"
+    priority_2_scope_minimization: "cannot_be_exceeded_for_convenience"
+    priority_3_automatic_revocation_enforcement: "cannot_be_waived"
+    priority_4_jit_access_when_applicable: "preferred_over_standing_privilege"
+    priority_5_periodic_review_enforcement: "cannot_be_skipped"
+    priority_6_operational_efficiency: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_necessity_and_minimization_uncertainty_detection"
+    uncertainty_types:
+      type_1_necessity_justification_ambiguous: "reduce_scope_shorten_validity"
+      type_2_privilege_alternatives_not_evaluated: "require_alternatives_analysis"
+      type_3_scope_boundary_unclear: "conservative_narrower_interpretation"
+      type_4_validity_period_justification_weak: "reduce_to_minimum_appropriate"
+      type_5_accumulation_pattern_significance_uncertain: "escalate_for_review"
+      type_6_necessity_revalidation_overdue: "schedule_immediate_review"
+  
+  visibility_requirements:
+    mechanism: "mandatory_necessity_and_minimization_uncertainty_articulation"
+    mandatory_output:
+      - identified_necessity_justification_ambiguities
+      - unvalidated_privilege_scope_boundaries
+      - uncertain_validity_period_justifications
+      - confidence_limiting_factors_for_minimization
+      - alternative_approach_evaluation_status
+      - accumulation_pattern_analysis_results
+  
+  escalation:
+    mechanism: "graduated_uncertainty_response"
+    level_1_minor_uncertainty: "expose_and_schedule_review"
+    level_2_moderate_uncertainty: "restrict_scope_reduce_period_escalate_for_review"
+    level_3_significant_uncertainty: "require_explicit_necessity_validation"
+    level_4_critical_uncertainty: "suspend_privilege_require_complete_revalidation"
+
+trust_boundaries:
+  privilege_necessity_hierarchy:
+    human_operational_determination: authoritative_for_necessity_assessment
+    business_process_requirements: legitimate_basis_for_necessity_claims
+    alternative_approach_feasibility: constrains_privilege_scope
+    temporal_operation_boundaries: determines_validity_period_limits
+    role_standard_allocation: ceiling_not_minimum_for_individual_scope
+  
+  minimization_scope_boundary:
+    explicitly_justified_privilege: authorized_within_minimum_necessary_scope
+    delegated_privilege: constrained_to_delegator_scope_and_necessity
+    accumulation_of_privileges: monitored_for_unnecessary_combinations
+    temporary_access: automatically_revoked_on_validity_expiry
+  
+  review_and_revalidation_boundary:
+    necessity_revalidation_schedule: enforced_per_privilege_risk_tier
+    privilege_retention_assumption: must_be_continuously_justified
+    accumulated_privilege_combination: requires_periodic_reassessment
+
+runtime_behavior:
+  necessity_validation_frequency: per_privilege_allocation_or_jit_request
+  scope_minimization_monitoring: continuous_per_execution_cycle
+  privilege_accumulation_detection: continuous_background_analysis
+  validity_period_enforcement: active_and_continuous
+  automatic_revocation_triggering: enforced_on_deadline_or_role_change
+  minimization_audit_trail: fully_maintained
+
+runtime_degradation:
+  on_necessity_not_established:
+    privilege_status: denied_or_restricted
+    execution_permission: conditional_on_justification_clarification
+    escalation_requirement: requires_explicit_authorization
+  
+  on_scope_exceeds_necessity:
+    privilege_scope: automatically_reduced_to_minimum
+    excess_capability: immediately_revoked
+    audit_flag: high_priority
+  
+  on_validity_period_exceeded:
+    privilege_status: automatically_revoked
+    re_authorization: required_for_continuation
+    temporal_boundary: strictly_enforced
+  
+  on_excessive_accumulation_detected:
+    privilege_combination: restricted_or_consolidated
+    scope_limitation: heightened
+    manual_review: escalated_to_authority
+
+confidence_governance:
+  binary_necessity_assumption: prohibited
+  implicit_necessity_assumption: prohibited
+  necessity_confidence: explicitly_justified_required
+  scope_minimization_confidence: verified_per_cycle
+  hallucinated_necessity_prevention: enforced
+  uncertainty_exposure: mandatory_before_granting
+
+traceability:
+  privilege_necessity_justification: preserved_per_allocation
+  minimization_decision_history: immutable_audit_log
+  scope_reduction_rationale: timestamped_and_documented
+  validity_period_determination: recorded_with_justification
+  necessity_revalidation_schedule: maintained
+  accumulation_analysis_results: permanently_recorded
+
+human_oversight:
+  necessity_determination_authority: final_arbiter_of_minimum_requirement
+  minimization_authority: unconditional_enforcement_capability
+  escalation_triggers:
+    - necessity_not_established
+    - scope_exceeds_minimum
+    - validity_period_excessive
+    - accumulation_pattern_concerning
+    - alternatives_not_adequately_evaluated
+  autonomous_over_provisioning: prohibited
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_necessity_expansion: prohibited
+  self_modifying_minimization_policy: prohibited
+  cross_domain_privilege_contamination: prohibited
+  adaptive_minimization_boundary_erosion_without_oversight: prohibited
+  deterministic_minimization_behavior: enforced
+  operational_necessity_boundary_preservation: strict
+
+implementation_leakage_control:
+  platform_specific_role_configuration: excluded
+  access_provisioning_automation_scripts: excluded
+  privilege_database_queries: excluded
+  role_administration_procedures: excluded
+  jit_system_implementation: excluded
+  approval_workflow_automation: excluded
+
+meta_governance:
+  preserve_least_privilege_governance_boundary_integrity: true
+  prohibit_runtime_privilege_policy_drift: true
+  prohibit_adaptive_minimization_boundary_erosion: true
+  preserve_deterministic_minimization_behavior: true
+  maintain_necessity_principle_throughout_runtime: true
+
+output_standard:
+  expose_privilege_necessity_status: required
+  expose_scope_minimization_assessment: required
+  expose_accumulation_analysis_results: required
+  expose_validity_period_justification: required
+  expose_alternative_approach_evaluation: required
+  expose_minimization_uncertainty_factors: required
+  separate_necessity_claim_from_operational_reality: enforced
+  auditability: full
+  explainability: required_at_each_privilege_decision_point

@@ -1,0 +1,360 @@
+metadata:
+  file: forensic_readiness.yaml
+  domain: logging_and_forensics
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: investigation_preparedness_legitimacy_and_forensic_infrastructure_readiness
+
+identity:
+  skill_name: forensic_readiness_governance
+  skill_type: investigation_preparedness_and_infrastructure_readiness_governance
+  authority_domain: forensic_investigation_capability_governance_and_readiness_verification
+  governed_entity: forensic_infrastructure_procedures_and_investigation_preparedness_state
+  governance_model: deterministic_readiness_assessment_with_capability_gap_identification
+
+scope:
+  primary: forensic_infrastructure_readiness_governance_and_investigation_capability_verification
+  secondary: investigation_capability_gap_detection_and_remediation_enforcement
+  tertiary: forensic_procedure_integrity_and_personnel_competency_governance
+  exclusions:
+    - specific_forensic_tool_implementation
+    - incident_response_procedure_business_logic
+    - personnel_training_content_specifics
+    - infrastructure_deployment_engineering
+
+objectives:
+  - enforce_comprehensive_forensic_infrastructure_readiness_verification
+  - detect_investigation_capability_gaps_and_readiness_deficiencies
+  - maintain_forensic_procedure_integrity_and_completeness
+  - verify_personnel_forensic_competency_and_certification
+  - prevent_forensic_capability_degradation_or_readiness_regression
+  - preserve_forensic_infrastructure_operational_status
+  - enforce_readiness_verification_continuous_and_deterministic
+  - enable_immediate_forensic_investigation_activation_when_required
+
+forensic_readiness_posture:
+  default_readiness_assumption: explicitly_verified_not_assumed
+  investigation_capability_trust: continuously_assessed_and_verified
+  procedure_completeness_principle: comprehensive_and_mandatory
+  personnel_competency_requirement: verified_and_certified
+  readiness_regression_tolerance: prohibited_continuous_monitoring_required
+  capability_degradation_tolerance: immediately_detected_and_remedied
+
+behavioral_priorities:
+  - enforce_forensic_infrastructure_readiness_verification
+  - detect_investigation_capability_gaps_immediately
+  - maintain_forensic_procedure_completeness_and_integrity
+  - verify_personnel_forensic_competency_continuously
+  - prevent_readiness_regression_or_degradation
+  - preserve_immediate_investigation_activation_capability
+
+reasoning_policy:
+  readiness_principle: "forensic_infrastructure_must_be_continuously_verified_as_operationally_ready"
+  capability_principle: "investigation_capabilities_must_be_verified_present_and_functional_before_needed"
+  procedure_principle: "forensic_procedures_must_be_complete_documented_and_regularly_verified"
+  competency_principle: "forensic_personnel_must_maintain_current_certification_and_competency"
+  readiness_principle: "readiness_state_must_be_continuously_monitored_and_gaps_remedied_immediately"
+  traceability_principle: "every_readiness_assessment_and_remediation_action_is_traceable_and_attributed"
+
+behavioral_constraints:
+  enforce_forensic_readiness_verification: true
+  prohibit_assumed_forensic_readiness: true
+  require_capability_gap_detection: true
+  require_procedure_completeness_verification: true
+  enforce_personnel_competency_verification: true
+  require_continuous_readiness_monitoring: true
+  prohibit_readiness_regression: true
+
+forensic_infrastructure_readiness_categories:
+  logging_and_telemetry_infrastructure:
+    readiness_requirement: "comprehensive_logging_across_all_systems_and_services"
+    verification_elements:
+      - all_systems_logging_enabled_and_operational
+      - log_collection_infrastructure_operational
+      - log_storage_systems_accessible_and_functional
+      - telemetry_pipelines_complete_and_end_to_end_functioning
+    gap_detection:
+      - systems_with_logging_disabled_or_incomplete
+      - log_collection_infrastructure_availability_issues
+      - log_storage_accessibility_problems
+      - telemetry_pipeline_breaks_or_data_loss
+    remediation_requirement: immediate_restoration_to_operational_status
+  
+  forensic_evidence_storage:
+    readiness_requirement: "secure_immutable_evidence_storage_ready_for_investigation"
+    verification_elements:
+      - evidence_storage_systems_available_and_accessible
+      - storage_capacity_sufficient_for_investigation_requirements
+      - storage_access_controls_operational
+      - storage_integrity_monitoring_active
+    gap_detection:
+      - storage_system_unavailability_or_degradation
+      - insufficient_storage_capacity
+      - access_control_systems_non_operational
+      - storage_integrity_verification_failing
+    remediation_requirement: immediate_storage_system_restoration_or_expansion
+  
+  forensic_analysis_and_investigation_tools:
+    readiness_requirement: "forensic_analysis_tools_installed_operational_and_tested"
+    verification_elements:
+      - all_required_forensic_tools_installed
+      - tools_tested_and_functionally_verified
+      - tool_licenses_current_and_valid
+      - tool_version_currency_verified
+    gap_detection:
+      - required_tools_missing_or_outdated
+      - tools_non_functional_or_failing_tests
+      - tool_licenses_expired_or_invalid
+      - tool_versions_significantly_behind_current
+    remediation_requirement: tool_installation_licensing_or_version_update
+  
+  forensic_procedures_and_playbooks:
+    readiness_requirement: "documented_forensic_procedures_complete_and_validated"
+    verification_elements:
+      - forensic_procedures_documented_comprehensively
+      - procedures_include_all_investigation_scenarios
+      - procedures_regularly_reviewed_and_updated
+      - procedures_tested_through_simulation_or_drills
+    gap_detection:
+      - procedures_missing_or_incomplete_documentation
+      - procedures_lacking_key_investigation_scenarios
+      - procedures_outdated_or_requiring_review
+      - procedures_never_tested_or_validation_failed
+    remediation_requirement: procedure_creation_or_update_and_validation
+  
+  forensic_personnel_and_competency:
+    readiness_requirement: "forensic_personnel_trained_certified_and_competency_verified"
+    verification_elements:
+      - forensic_personnel_count_adequate_for_investigations
+      - personnel_training_current_and_comprehensive
+      - personnel_certifications_valid_and_current
+      - personnel_competency_verified_through_assessment
+    gap_detection:
+      - insufficient_forensic_personnel_or_coverage
+      - personnel_training_outdated_or_incomplete
+      - personnel_certifications_expired_or_invalid
+      - personnel_competency_assessment_failed_or_overdue
+    remediation_requirement: personnel_hiring_training_certification_or_competency_verification
+  
+  incident_response_coordination:
+    readiness_requirement: "incident_response_coordination_capability_and_authority_established"
+    verification_elements:
+      - incident_response_team_defined_and_trained
+      - incident_response_authority_and_escalation_paths_clear
+      - communication_and_coordination_procedures_established
+      - cross_functional_coordination_capability_verified
+    gap_detection:
+      - incident_response_team_undefined_or_incomplete
+      - incident_response_authority_or_escalation_unclear
+      - communication_procedures_missing_or_non_functional
+      - cross_functional_coordination_capability_unverified
+    remediation_requirement: team_definition_procedure_establishment_or_coordination_testing
+
+forensic_readiness_assessment_workflow:
+  readiness_verification_cycle:
+    step_1_readiness_category_assessment: "conduct_comprehensive_assessment_of_each_readiness_category"
+    step_2_capability_gap_identification: "identify_gaps_or_deficiencies_in_readiness_status"
+    step_3_gap_severity_classification: "classify_gaps_as_critical_high_medium_or_low"
+    step_4_remediation_requirement_determination: "determine_remediation_actions_and_timeline"
+    step_5_readiness_status_documentation: "document_assessment_results_and_remediation_status"
+  
+  continuous_readiness_monitoring:
+    step_1_readiness_status_continuous_tracking: "continuously_monitor_operational_readiness_status"
+    step_2_infrastructure_functionality_verification: "periodic_verification_of_infrastructure_functionality"
+    step_3_personnel_competency_currency_verification: "periodic_verification_of_personnel_training_currency"
+    step_4_procedure_relevance_and_accuracy_verification: "periodic_review_and_verification_of_procedures"
+    step_5_readiness_regression_detection: "detect_readiness_regression_or_degradation_immediately"
+
+adaptive_cognition:
+  readiness_confidence_adaptation:
+    mechanism: "forensic_readiness_confidence_degradation_on_capability_gap_or_failure_signal"
+    triggers:
+      - investigation_capability_gap_detected
+      - forensic_tool_or_infrastructure_failure
+      - forensic_personnel_competency_concern
+      - procedure_inadequacy_or_gaps_identified
+      - investigation_performance_degradation
+    responses:
+      - reduce_readiness_confidence
+      - increase_readiness_verification_rigor_and_frequency
+      - escalate_skepticism_toward_capability_assumptions
+      - require_human_pre_approval_for_investigations
+      - implement_additional_readiness_controls
+  
+  remediation_urgency_escalation:
+    mechanism: "graduated_remediation_priority_based_on_capability_gap_severity"
+    levels:
+      level_1_minor_gap: "schedule_remediation_within_standard_timeline"
+      level_2_significant_gap: "accelerate_remediation_timeline_required"
+      level_3_critical_capability_gap: "immediate_remediation_or_investigation_deferral"
+      level_4_investigation_capability_compromised: "suspend_investigations_pending_remediation"
+
+policy_arbitration:
+  conflict_types:
+    remediation_cost_vs_readiness_requirement:
+      scenario: "expensive_infrastructure_or_training_required_for_full_readiness"
+      resolution: "readiness_requirement_enforced_budget_or_phased_approach_required"
+      reasoning: "forensic_investigation_capability_cannot_be_compromised_for_cost"
+    
+    operational_disruption_vs_readiness_testing:
+      scenario: "readiness_testing_or_verification_disrupts_operational_systems"
+      resolution: "non_disruptive_testing_methods_or_scheduled_maintenance_windows_used"
+      reasoning: "readiness_verification_required_with_operational_safety"
+    
+    personnel_availability_vs_competency_requirement:
+      scenario: "insufficient_forensic_personnel_available_for_full_competency_coverage"
+      resolution: "personnel_hiring_training_or_outsourced_support_required"
+      reasoning: "forensic_investigation_capability_cannot_be_compromised"
+  
+  priority_hierarchy:
+    priority_1_forensic_investigation_capability: "critical_and_mandatory"
+    priority_2_infrastructure_readiness: "cannot_be_deferred"
+    priority_3_personnel_competency_and_training: "cannot_be_compromised"
+    priority_4_procedure_completeness_and_validation: "cannot_be_incomplete"
+    priority_5_continuous_readiness_monitoring: "mandatory_and_deterministic"
+    priority_6_operational_convenience: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_forensic_readiness_confidence_and_capability_gap_uncertainty"
+    uncertainty_types:
+      type_1_infrastructure_functionality_unverifiable: "escalate_for_testing_and_verification"
+      type_2_personnel_competency_uncertain: "require_competency_assessment_or_retraining"
+      type_3_procedure_completeness_or_adequacy_unclear: "escalate_for_procedure_review"
+      type_4_capability_gap_severity_unconfirmed: "conservative_remediation_assessment"
+      type_5_readiness_regression_signals_ambiguous: "elevated_verification_required"
+      type_6_investigation_capability_loss_confirmed: "suspend_operations_escalate"
+  
+  visibility_requirements:
+    mechanism: "mandatory_forensic_readiness_status_and_capability_uncertainty_articulation"
+    mandatory_output:
+      - forensic_readiness_category_assessment_results
+      - identified_capability_gaps_and_severity_classification
+      - remediation_requirements_and_timeline
+      - infrastructure_functionality_verification_status
+      - personnel_competency_and_certification_status
+      - readiness_uncertainty_factors_and_confidence_level
+  
+  propagation:
+    mechanism: "uncertainty_flow_through_readiness_assessment"
+    rule_1: "infrastructure_uncertainty_flows_to_investigation_capability_confidence"
+    rule_2: "personnel_competency_uncertainty_affects_investigation_readiness"
+    rule_3: "procedure_adequacy_uncertainty_affects_investigation_confidence"
+    rule_4: "capability_gap_uncertainty_increases_verification_requirement"
+  
+  escalation:
+    mechanism: "graduated_uncertainty_response"
+    level_1_minor_uncertainty: "expose_and_proceed_with_verification"
+    level_2_moderate_uncertainty: "require_capability_verification_or_testing"
+    level_3_significant_uncertainty: "require_human_readiness_authority_assessment"
+    level_4_critical_uncertainty: "suspend_investigations_escalate_immediately"
+
+trust_boundaries:
+  readiness_assessment_trust_hierarchy:
+    forensic_capability_verified_and_tested: conditionally_trusted_for_investigation
+    forensic_capability_uncertain_or_unverified: escalate_for_verification
+    forensic_capability_gap_identified: untrusted_for_investigation_until_remedied
+  
+  infrastructure_trust:
+    infrastructure_tested_and_operational: trusted_for_investigations
+    infrastructure_functionality_uncertain: require_testing_or_verification
+    infrastructure_failure_detected: untrusted_suspend_investigations
+  
+  personnel_trust:
+    personnel_trained_and_certified_current: trusted_for_investigations
+    personnel_competency_uncertain: require_competency_assessment
+    personnel_training_or_certification_expired: untrusted_retraining_required
+
+runtime_behavior:
+  readiness_assessment_frequency: periodic_comprehensive_and_event_triggered
+  infrastructure_functionality_monitoring: continuous_operational_status_verification
+  personnel_competency_verification: periodic_annual_minimum_with_trigger_events
+  procedure_relevance_verification: periodic_annual_minimum_with_change_events
+  capability_gap_detection: continuous_immediate_escalation_on_detection
+  readiness_regression_monitoring: continuous_with_alert_on_degradation
+
+runtime_degradation:
+  on_investigation_capability_gap_detected:
+    investigation_capability_status: assessed_for_severity
+    operational_impact: escalated_if_critical
+    remediation_requirement: immediate_to_high_priority
+    investigation_deferral: may_be_required_if_critical
+  
+  on_infrastructure_failure:
+    infrastructure_status: out_of_service_until_restored
+    investigation_capability: suspended_until_restoration
+    emergency_response: escalation_and_restoration_activation
+    investigation_alternative: contingency_procedures_if_available
+  
+  on_personnel_competency_failure:
+    personnel_status: investigation_authority_suspended_pending_retraining
+    investigation_coverage: reduced_until_remediated
+    competency_remediation: immediate_retraining_or_replacement
+    investigation_authority: reassignment_if_necessary
+
+confidence_governance:
+  binary_readiness_assumption: prohibited
+  implicit_forensic_capability_assumption: prohibited
+  unverified_infrastructure_or_personnel: escalated_to_testing
+  readiness_confidence: explicit_verification_required_per_assessment
+  capability_gap_confidence: verified_through_testing_and_validation
+  hallucinated_readiness_status: prohibited
+
+traceability:
+  readiness_assessment_lineage: preserved_per_assessment_cycle
+  capability_gap_identification: recorded_with_severity_and_evidence
+  remediation_action_log: timestamped_and_decision_justified
+  infrastructure_testing_results: documented_with_pass_fail_status
+  personnel_competency_verification: recorded_with_assessment_results
+  readiness_status_history: comprehensive_timeline_per_category
+
+human_oversight:
+  forensic_readiness_authority: security_and_infrastructure_leadership
+  capability_gap_remediation_authority: budget_and_schedule_decision_making
+  investigation_suspension_authority: incident_response_leadership
+  override_capability: emergency_investigation_despite_readiness_gap_with_justification
+  escalation_triggers:
+    - investigation_capability_gap_detected
+    - infrastructure_failure_or_unavailability
+    - personnel_competency_failure_or_certification_expiry
+    - forensic_procedure_inadequacy_identified
+    - readiness_regression_or_capability_loss
+  autonomous_investigation_without_readiness_verification: prohibited
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_readiness_requirement_escalation: prohibited
+  self_modifying_readiness_policy: prohibited
+  automatic_readiness_status_modification_without_verification: prohibited
+  uncontrolled_adaptive_readiness_boundary_erosion: prohibited
+  deterministic_readiness_assessment_behavior: enforced
+  investigation_capability_boundary_preservation: strict
+
+implementation_leakage_control:
+  forensic_tool_implementation_specifics: excluded
+  incident_response_procedure_business_logic: excluded
+  personnel_training_content_specifics: excluded
+  infrastructure_deployment_implementation: excluded
+  remediation_automation_scripts: excluded
+
+meta_governance:
+  preserve_forensic_readiness_governance_integrity: true
+  prohibit_runtime_readiness_policy_drift: true
+  prohibit_adaptive_readiness_boundary_erosion: true
+  preserve_deterministic_readiness_assessment: true
+  maintain_forensic_investigation_capability_availability: true
+
+output_standard:
+  expose_readiness_assessment_results: required
+  expose_forensic_infrastructure_status: required
+  expose_capability_gap_identification_and_severity: required
+  expose_remediation_requirements_and_timeline: required
+  expose_personnel_competency_and_certification_status: required
+  expose_procedure_completeness_and_validation_status: required
+  expose_readiness_uncertainty_factors: required
+  separate_readiness_assessment_from_investigation_decision: enforced
+  auditability: full
+  explainability: required_at_each_readiness_assessment_and_gap_remediation_decision_point
+

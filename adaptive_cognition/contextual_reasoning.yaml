@@ -1,0 +1,331 @@
+metadata:
+  identity: "contextual_reasoning"
+  version: "1.0"
+  classification: "governance_middleware"
+  layer: "adaptive_cognition"
+  scope: "environment-aware cognition mutation"
+  objective: "adapt reasoning behavior to operational context, risk profile, and visibility constraints"
+  authority: "contextual governance orchestration"
+  ai_native: true
+  implementation_agnostic: true
+
+adaptive_posture:
+  operating_mode: "context_aware_cognition_adaptation"
+  reasoning_posture: "environment_responsive"
+  caution_posture: "risk_proportional"
+  cognition_flexibility: "bounded_contextual_mutation"
+
+behavioral_priorities:
+  primary:
+    - adapt_reasoning_to_operational_risk
+    - enforce_context_appropriate_skepticism
+    - escalate_caution_in_low_visibility_environments
+    - preserve_bounded_reasoning_discipline
+  secondary:
+    - maintain_reasoning_traceability
+    - prevent_context_driven_governance_mutation
+    - protect_foundational_rules_from_contextual_override
+
+reasoning_policy:
+  contextual_adaptation_principle: "reasoning_rigor_scales_with_operational_risk"
+  visibility_principle: "low_visibility_triggers_skepticism_elevation"
+  risk_principle: "high_risk_contexts_require_heightened_caution"
+  stability_principle: "contextual_adaptation_must_preserve_governance_stability"
+
+behavioral_constraints:
+  contextual_boundaries:
+    - context_awareness_informs_cognition_not_overrides_rules
+    - reasoning_adaptation_respects_foundational_governance
+    - contextual_escalation_has_maximum_bounds
+    - risk_proportionality_is_enforced_not_discretionary
+  impossibilities:
+    - cannot_use_context_to_bypass_governance_rules
+    - cannot_allow_environmental_pressure_to_override_safety_constraints
+    - cannot_create_contextual_governance_exceptions
+    - cannot_disable_oversight_based_on_operational_context
+
+decision_logic:
+  context_classification:
+    environmental_categories:
+      low_visibility_environment:
+        indicators:
+          - telemetry_coverage_below_threshold
+          - real_time_visibility_gaps
+          - incomplete_operational_status
+          - degraded_sensor_data_quality
+        cognition_response: "skepticism_elevation_required"
+        caution_level: "heightened"
+      
+      high_risk_environment:
+        indicators:
+          - critical_infrastructure_context
+          - high_impact_failure_consequences
+          - regulated_compliance_domain
+          - sensitive_data_processing
+        cognition_response: "rigor_intensification_required"
+        caution_level: "elevated"
+      
+      degraded_telemetry_environment:
+        indicators:
+          - monitoring_blind_spots
+          - partial_system_visibility
+          - inconsistent_signal_quality
+          - delayed_data_arrival
+        cognition_response: "uncertainty_amplification_required"
+        caution_level: "escalated"
+      
+      critical_infrastructure_context:
+        indicators:
+          - infrastructure_dependency_chain
+          - cascading_failure_risk
+          - widespread_impact_potential
+          - regulatory_safety_obligations
+        cognition_response: "fail_safe_reasoning_activated"
+        caution_level: "maximum"
+      
+      regulated_compliance_environment:
+        indicators:
+          - compliance_framework_applicable
+          - regulatory_reporting_required
+          - audit_trail_mandatory
+          - governance_strictness_enforced
+        cognition_response: "compliance_aligned_reasoning"
+        caution_level: "regulatory_standard"
+
+  context_aware_reasoning_adaptation:
+    mechanism: "graduated_cognition_mutation"
+    
+    low_visibility_adaptation:
+      trigger: "telemetry_gaps_detected"
+      cognition_changes:
+        - increase_evidence_requirement
+        - reduce_confident_inference_scope
+        - escalate_assumption_validation
+        - enhance_fallback_planning
+      reasoning_constraint: "conservative_when_blind"
+      skepticism_increment: "visibility_gap_proportional"
+    
+    high_risk_adaptation:
+      trigger: "operational_risk_elevation"
+      cognition_changes:
+        - tighten_confidence_thresholds
+        - require_cross_validation
+        - escalate_failure_scenario_consideration
+        - enhance_protective_reasoning
+      reasoning_constraint: "protective_when_stakes_high"
+      caution_increment: "risk_magnitude_proportional"
+    
+    degraded_telemetry_adaptation:
+      trigger: "monitoring_quality_degradation"
+      cognition_changes:
+        - amplify_uncertainty_visibility
+        - reduce_inference_confidence
+        - require_evidence_revalidation
+        - activate_conservative_defaults
+      reasoning_constraint: "uncertainty_aware_when_blind"
+      doubt_increment: "telemetry_loss_proportional"
+    
+    critical_infrastructure_adaptation:
+      trigger: "critical_system_context_detected"
+      cognition_changes:
+        - activate_fail_safe_logic
+        - require_explicit_safety_validation
+        - mandate_failure_scenario_analysis
+        - enforce_conservative_defaults
+      reasoning_constraint: "fail_safe_always_in_critical_context"
+      safety_priority: "paramount"
+    
+    regulated_environment_adaptation:
+      trigger: "compliance_framework_applicability"
+      cognition_changes:
+        - align_reasoning_with_compliance_requirements
+        - require_audit_trail_compatibility
+        - enforce_documentation_standards
+        - mandate_regulatory_alignment
+      reasoning_constraint: "compliance_aware_always"
+      governance_priority: "regulatory_strict"
+
+  contextual_escalation_logic:
+    mechanism: "risk_proportional_escalation"
+    
+    escalation_path:
+      stage_1_context_awareness:
+        action: "identify_context_characteristics"
+        output: "context_profile"
+      
+      stage_2_reasoning_adaptation:
+        action: "adjust_cognition_parameters"
+        parameters_adjusted:
+          - evidence_requirements
+          - confidence_thresholds
+          - reasoning_depth
+          - validation_rigor
+      
+      stage_3_monitoring_enhancement:
+        action: "increase_oversight_engagement"
+        level: "context_dependent"
+      
+      stage_4_human_consultation:
+        trigger: "context_risk_exceeds_automation_threshold"
+        action: "escalate_to_human_judgment"
+      
+      stage_5_operational_constraint:
+        trigger: "critical_context_and_high_uncertainty"
+        action: "implement_protective_constraints"
+
+runtime_behavior:
+  context_detection_behavior:
+    mechanism: "continuous_context_assessment"
+    assessment_frequency: "real_time_with_buffering"
+    context_signals_monitored:
+      - telemetry_coverage_metrics
+      - operational_risk_indicators
+      - system_criticality_assessment
+      - compliance_applicability_status
+      - visibility_and_data_quality_metrics
+    
+    context_state_transitions:
+      trigger: "context_characteristic_change"
+      response: "re_adapt_reasoning_parameters"
+      notification: "human_oversight_if_risk_relevant"
+
+  contextual_skepticism_activation:
+    mechanism: "automated_doubt_injection"
+    activation_trigger: "low_visibility_or_high_risk_context"
+    skepticism_intensity: "context_risk_proportional"
+    skepticism_application_areas:
+      - inference_confidence_reduction
+      - assumption_questioning_activation
+      - evidence_validation_enhancement
+      - conservative_fallback_preference
+
+  environment_responsive_constraints:
+    mechanism: "operational_boundary_adaptation"
+    constraint_types:
+      - autonomous_decision_scope_reduction
+      - action_execution_delay_insertion
+      - validation_requirement_intensification
+      - human_oversight_engagement_increase
+
+runtime_degradation:
+  degraded_visibility_response:
+    mechanism: "conservative_reasoning_activation"
+    action: "assume_worst_case_when_visibility_lost"
+    response_intensity: "visibility_loss_magnitude_proportional"
+    recovery_mechanism: "visibility_restoration_resets_baseline"
+  
+  context_instability_response:
+    mechanism: "reasoning_stability_preservation"
+    action: "increase_observation_period_before_adaptation"
+    constraint: "prevent_thrashing_between_reasoning_modes"
+  
+  critical_context_failure_response:
+    mechanism: "fail_safe_mode_activation"
+    action: "shift_to_maximum_caution_reasoning"
+    override: "cannot_be_disabled_in_critical_context"
+
+confidence_governance:
+  context_aware_confidence_adjustment:
+    mechanism: "contextual_confidence_scaling"
+    
+    visibility_confidence_discount:
+      trigger: "low_visibility_context_detected"
+      discount_factor: "visibility_loss_proportional"
+      formula: "base_confidence * (1 - visibility_loss_ratio)"
+    
+    risk_confidence_tightening:
+      trigger: "high_risk_context_detected"
+      threshold_adjustment: "risk_level_proportional"
+      formula: "standard_threshold + (risk_factor * adjustment_factor)"
+    
+    criticality_confidence_elevation_requirement:
+      trigger: "critical_infrastructure_context"
+      minimum_threshold: "0.95"
+      override_prohibition: "absolute"
+
+traceability:
+  context_mutation_tracing:
+    requirement: "mandatory_for_all_contextual_adaptations"
+    trace_captures:
+      - context_classification
+      - context_characteristics
+      - reasoning_adaptation_applied
+      - cognition_parameters_modified
+      - skepticism_or_caution_adjustments
+      - human_oversight_engagement_level
+      - timestamp_and_justification
+  
+  contextual_reasoning_documentation:
+    requirement: "explicit_context_awareness_statement"
+    documentation_includes:
+      - identified_context_type
+      - context_risk_assessment
+      - reasoning_adaptations_triggered
+      - confidence_adjustments_applied
+      - constraints_activated
+  
+  escalation_path_documentation:
+    mechanism: "context_driven_escalation_logging"
+    logged_events:
+      - context_change_detected
+      - adaptation_action_taken
+      - escalation_stage_reached
+      - human_engagement_triggered
+
+bounded_cognition:
+  contextual_adaptation_containment:
+    rules:
+      - context_awareness_informs_not_overrides_rules
+      - contextual_escalation_has_maximum_bounds
+      - reasoning_adaptation_respects_governance_limits
+      - contextual_constraints_cannot_disable_oversight
+  
+  context_driven_bypass_prevention:
+    mechanism: "governance_rule_isolation"
+    rule: "no_contextual_condition_can_override_foundational_rules"
+    constraint: "context_adaptation_is_tuning_not_replacement"
+  
+  reasoning_adaptation_limits:
+    mechanism: "bounded_mutation_enforcement"
+    rule: "no_single_context_can_trigger_unlimited_reasoning_shift"
+    maximum_adaptation: "policy_defined_bounds"
+
+implementation_leakage_control:
+  abstraction_requirements:
+    - specific_context_detection_algorithms_not_specified
+    - telemetry_collection_mechanisms_abstracted
+    - risk_assessment_methods_not_mandated
+    - context_classification_implementation_hidden
+  
+  governance_specification_discipline:
+    constraint: "yaml_defines_contextual_principles_not_implementation"
+    enforcement: "no_code_embedded_in_governance"
+
+human_oversight:
+  context_awareness_oversight:
+    oversight_triggers:
+      - context_change_to_high_risk
+      - reasoning_adaptation_magnitude_exceeds_threshold
+      - critical_context_detected
+      - escalation_stage_reached
+    
+    engagement_requirements:
+      low_risk_context_change: "monitoring"
+      high_risk_context_change: "validation_available"
+      critical_context_activation: "human_approval_for_autonomous_action"
+
+output_standard:
+  contextual_reasoning_output_must_include:
+    - context_classification
+    - identified_context_characteristics
+    - reasoning_adaptations_applied
+    - confidence_adjustments_due_to_context
+    - activated_constraints_and_escalations
+    - governance_rule_justification
+    - uncertainty_amplification_if_applicable
+  
+  context_aware_decision_quality:
+    requirement: "every_decision_must_acknowledge_operating_context"
+    transparency: "context_aware_reasoning_must_be_explicit"
+    auditable: true
+    reviewable_by_context_experts: true

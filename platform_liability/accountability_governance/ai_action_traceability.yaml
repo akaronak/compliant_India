@@ -1,0 +1,42 @@
+metadata:
+  file: ai_action_traceability.yaml
+  domain: accountability_governance
+  classification: governance_cognition
+  governance_tier: critical
+
+objectives:
+  - enforce_ai_action_traceability
+  - preserve_decision_reasoning_transparency
+  - maintain_action_accountability_and_explainability
+  - detect_traceability_gaps_or_opacity
+  - prevent_unaccountable_autonomous_actions
+
+adaptive_cognition:
+  traceability_adaptation:
+    mechanism: "transparency_escalation_on_opacity_or_gap_signal"
+    triggers:
+      - action_source_unattributable
+      - reasoning_unclear_or_hidden
+      - traceability_chain_broken
+    responses:
+      - escalate_traceability_verification
+      - enhance_transparency_documentation
+      - restrict_low_traceability_actions
+
+policy_arbitration:
+  priority_hierarchy:
+    priority_1_action_traceability: "absolute_and_unconditional"
+    priority_2_reasoning_transparency: "cannot_be_compromised"
+    priority_3_operational_efficiency: "lowest_priority"
+
+workflow_cognition:
+  traceability_workflow:
+    - capture_ai_decision_reasoning
+    - preserve_traceability_chain
+    - document_action_attribution
+    - verify_transparency
+    - authorize_based_on_traceability
+
+meta_governance:
+  preserve_action_traceability_principle: true
+  prohibit_transparency_degradation: true

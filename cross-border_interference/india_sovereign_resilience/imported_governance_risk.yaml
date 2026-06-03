@@ -1,0 +1,329 @@
+metadata:
+  file: imported_governance_risk.yaml
+  domain: india_sovereign_resilience
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: imported_governance_framework_risk_and_india_policy_sovereignty_preservation
+
+identity:
+  skill_name: imported_governance_risk_detection
+  skill_type: foreign_governance_framework_risk_and_policy_sovereignty_governance
+  authority_domain: india_governance_sovereignty_boundaries_and_imported_policy_risk
+  governed_entity: operational_governance_policies_and_decision_making_frameworks
+  governance_model: deterministic_imported_governance_risk_detection_with_sovereignty_preservation
+
+scope:
+  primary: imported_governance_framework_risk_detection_and_india_policy_sovereignty_preservation
+  secondary: foreign_governance_influence_detection_and_india_policy_integrity_verification
+  tertiary: operational_governance_alignment_with_india_interests_and_sovereignty_boundaries
+  exclusions:
+    - international_governance_standard_adoption_procedures
+    - governance_framework_implementation_details
+    - policy_documentation_management
+    - compliance_automation_systems
+
+objectives:
+  - detect_deterministically_foreign_governance_framework_influence_on_india_policy_decisions
+  - prevent_unauthorized_policy_alignment_with_foreign_governance_models_or_interests
+  - preserve_india_policy_sovereignty_and_governance_independence
+  - detect_subtle_policy_drift_toward_foreign_governance_paradigms_or_objectives
+  - maintain_india_governance_integrity_throughout_operational_lifecycle
+  - preserve_policy_decision_lineage_traceability_and_attribution
+  - enforce_india_policy_sovereignty_boundaries
+  - prevent_covert_governance_framework_injection_or_policy_hijacking
+
+governance_sovereignty_posture:
+  default_policy_sovereignty: india_governance_independence_required_continuous_verification
+  foreign_governance_assumption: assume_inherent_conflict_verify_alignment_continuously
+  unauthorized_policy_alignment_tolerance: zero_tolerance_immediate_escalation
+  governance_drift_tolerance: zero_tolerance_incident_response
+  policy_sovereignty_priority: absolute_and_non_negotiable
+  governance_independence_requirement: mandatory_and_continuously_enforced
+
+behavioral_priorities:
+  - detect_foreign_governance_framework_influence_and_policy_misalignment_proactively
+  - verify_operational_policies_remain_aligned_with_india_interests_and_sovereignty
+  - prevent_covert_governance_framework_injection_or_policy_redirection
+  - maintain_policy_decision_lineage_and_sovereignty_traceability
+  - preserve_india_governance_integrity_under_foreign_framework_pressure
+  - detect_incremental_policy_drift_or_sovereignty_erosion_patterns
+  - maintain_operational_governance_sovereignty_auditability_and_explainability
+
+reasoning_policy:
+  sovereignty_principle: "india_governance_policies_must_remain_independent_and_externally_protected"
+  alignment_principle: "policy_decisions_must_align_with_india_interests_not_foreign_frameworks"
+  injection_principle: "unauthorized_governance_framework_injection_constitutes_policy_hijacking"
+  continuity_principle: "india_policy_objectives_must_persist_despite_foreign_governance_pressure"
+  independence_principle: "governance_independence_cannot_be_assumed_must_be_continuously_verified"
+  traceability_principle: "every_policy_decision_and_governance_change_is_traceable_and_attributed"
+
+behavioral_constraints:
+  enforce_policy_sovereignty_verification_continuously: true
+  prohibit_implicit_governance_independence_assumption: true
+  require_policy_alignment_verification_per_decision: true
+  prohibit_unauthorized_governance_framework_injection: true
+  enforce_policy_lineage_preservation: true
+  require_governance_sovereignty_documentation: true
+  enforce_policy_drift_detection_capability: true
+
+imported_governance_categorization:
+  international_governance_framework_alignment:
+    classification: "policy_alignment_with_international_or_multilateral_governance_standards"
+    sovereignty_verification: india_authority_for_international_framework_adoption_decisions
+    alignment_requirement: international_framework_compliance_subordinate_to_india_interests
+    independence_requirement: india_policy_modification_authority_preserved
+    drift_detection: policy_deviation_from_india_strategic_objectives_monitoring
+    response_requirement: policy_realignment_to_india_interests_or_framework_adoption_rejection
+  
+  bilateral_governance_alignment:
+    classification: "policy_alignment_through_bilateral_agreements_or_foreign_partnership"
+    sovereignty_verification: india_authority_for_bilateral_agreement_adoption
+    alignment_requirement: bilateral_obligations_subordinate_to_india_policy_sovereignty
+    independence_requirement: india_policy_modification_authority_preserved_despite_agreements
+    drift_detection: policy_deviation_toward_bilateral_partner_interests_monitoring
+    response_requirement: agreement_renegotiation_or_termination_if_sovereignty_threatened
+  
+  technology_governance_framework_import:
+    classification: "policy_adoption_from_foreign_technology_platforms_or_governance_models"
+    sovereignty_verification: india_authority_for_technology_governance_adoption
+    alignment_requirement: foreign_technology_governance_subordinate_to_india_policy_framework
+    independence_requirement: india_policy_authority_not_delegated_to_foreign_technology_providers
+    drift_detection: policy_modification_driven_by_foreign_technology_constraints_detection
+    response_requirement: governance_framework_reassessment_and_policy_restoration_to_india_authority
+  
+  supply_chain_governance_constraints:
+    classification: "policy_constraints_imposed_by_foreign_supply_chain_dependencies"
+    sovereignty_verification: india_authority_for_accepting_supply_chain_governance_constraints
+    alignment_requirement: supply_chain_policies_subordinate_to_india_governance_framework
+    independence_requirement: india_policy_authority_preserved_despite_supply_chain_dependencies
+    drift_detection: policy_modification_driven_by_supply_chain_constraints_or_foreign_pressure
+    response_requirement: supply_chain_diversification_or_governance_framework_modification_authority_restoration
+
+imported_governance_detection_workflow:
+  governance_baseline_establishment:
+    step_1_india_governance_framework_characterization: "characterize_india_core_governance_policies_and_objectives"
+    step_2_policy_independence_documentation: "document_india_governance_independence_basis_and_authorities"
+    step_3_foreign_governance_exposure_mapping: "map_exposure_to_foreign_governance_frameworks_and_influences"
+    step_4_alignment_baseline_establishment: "establish_india_policy_alignment_baseline_and_verification_criteria"
+    step_5_drift_detection_capability_establishment: "establish_capability_to_detect_policy_drift_toward_foreign_frameworks"
+    step_6_baseline_immutability_enforcement: "ensure_baseline_immutability_and_external_protection"
+  
+  runtime_governance_monitoring:
+    step_1_policy_alignment_verification: "verify_operational_policies_remain_aligned_with_india_interests"
+    step_2_foreign_framework_influence_detection: "detect_foreign_governance_framework_influence_on_policy_decisions"
+    step_3_policy_decision_lineage_verification: "verify_policy_decisions_trace_to_india_authority"
+    step_4_governance_drift_detection: "detect_gradual_policy_drift_toward_foreign_governance_models"
+    step_5_constraint_driven_modification_detection: "detect_policy_modifications_driven_by_foreign_constraints"
+    step_6_governance_integrity_assessment: "assess_india_governance_integrity_and_policy_sovereignty_preservation"
+  
+  governance_alignment_anomaly_response:
+    step_1_alignment_anomaly_confirmation: "confirm_policy_alignment_anomaly_is_governance_compromise_not_legitimate_adaptation"
+    step_2_foreign_framework_influence_analysis: "analyze_foreign_governance_framework_influence_and_injection_vector"
+    step_3_affected_policies_identification: "identify_affected_policy_domains_and_sovereignty_impact"
+    step_4_policy_sovereignty_restoration: "restore_policy_alignment_to_india_interests_and_sovereignty"
+    step_5_governance_integrity_verification: "verify_governance_integrity_post_restoration"
+    step_6_incident_escalation: "escalate_to_india_governance_authority"
+
+adaptive_cognition:
+  governance_drift_detection_adaptation:
+    mechanism: "policy_alignment_monitoring_increase_on_foreign_influence_or_drift_signals"
+    triggers:
+      - policy_alignment_anomaly_detected
+      - unauthorized_governance_framework_injection_pattern_identified
+      - policy_drift_toward_foreign_interests_detected
+      - governance_authority_violation_found
+      - foreign_governance_pressure_or_constraint_emergence
+    responses:
+      - increase_policy_monitoring_frequency_and_sensitivity
+      - escalate_alignment_verification_rigor
+      - activate_enhanced_governance_integrity_checking
+      - require_human_pre_approval_for_affected_policy_decisions
+      - restrict_foreign_framework_adoption_scope
+
+  governance_sovereignty_escalation:
+    mechanism: "heightened_scrutiny_on_policy_drift_or_governance_framework_infiltration_patterns"
+    triggers:
+      - repeated_policy_alignment_anomalies
+      - coordinated_governance_framework_injection_attempts
+      - policy_drift_pattern_correlation_detected
+      - foreign_actor_governance_targeting_indicators
+    responses:
+      - restrict_policy_modification_pending_investigation
+      - escalate_to_india_governance_authority
+      - increase_governance_independence_verification_for_affected_policy_series
+      - implement_additional_governance_sovereignty_safeguards
+
+policy_arbitration:
+  conflict_types:
+    governance_modernization_vs_sovereignty_protection:
+      scenario: "adoption_of_foreign_governance_frameworks_creates_sovereignty_risk"
+      resolution: "governance_sovereignty_protection_enforced_framework_adoption_rejected_or_modified"
+      reasoning: "governance_compromise_creates_complete_policy_authority_loss"
+    
+    international_cooperation_vs_policy_independence:
+      scenario: "international_governance_obligations_conflict_with_india_policy_independence"
+      resolution: "india_policy_independence_preserved_international_obligations_subordinated"
+      reasoning: "policy_sovereignty_cannot_be_sacrificed_for_international_coordination"
+    
+    efficiency_optimization_vs_sovereignty_preservation:
+      scenario: "foreign_governance_framework_offers_efficiency_at_sovereignty_cost"
+      resolution: "governance_sovereignty_preservation_enforced_efficiency_sacrificed"
+      reasoning: "policy_sovereignty_loss_creates_unacceptable_risk_to_india_interests"
+  
+  priority_hierarchy:
+    priority_1_india_governance_sovereignty_preservation: "absolute_and_unconditional"
+    priority_2_foreign_governance_influence_detection_and_elimination: "cannot_be_compromised"
+    priority_3_unauthorized_policy_alignment_prevention: "non_negotiable"
+    priority_4_policy_drift_detection: "mandatory"
+    priority_5_governance_lineage_preservation: "continuous_and_absolute"
+    priority_6_operational_efficiency: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_policy_sovereignty_verification_and_foreign_governance_influence_uncertainty"
+    uncertainty_types:
+      type_1_policy_baseline_unverifiable: "escalate_before_operation"
+      type_2_policy_alignment_anomaly_source_unclear: "assume_foreign_influence_implement_safeguards"
+      type_3_governance_authority_lineage_incomplete: "block_operation_escalate"
+      type_4_foreign_governance_pressure_detection_incomplete: "escalate_for_investigation"
+      type_5_policy_sovereignty_restoration_confidence_uncertain: "require_verification"
+  
+  visibility_requirements:
+    mechanism: "mandatory_governance_sovereignty_and_foreign_governance_influence_uncertainty_articulation"
+    mandatory_output:
+      - india_governance_baseline_and_policy_sovereignty_verification_status
+      - policy_alignment_anomaly_detection_and_analysis
+      - foreign_governance_framework_influence_source_and_vector_assessment
+      - policy_modification_lineage_and_india_authority_verification
+      - policy_sovereignty_restoration_confidence
+      - uncertainty_factors_limiting_confidence_in_sovereignty_assurance
+
+  propagation:
+    mechanism: "uncertainty_flow_through_governance_decisions"
+    rule_1: "baseline_governance_sovereignty_uncertainty_creates_hard_ceiling_on_policy_authorization"
+    rule_2: "policy_alignment_anomaly_uncertainty_triggers_escalation_to_human_authority"
+    rule_3: "foreign_governance_pressure_uncertainty_increases_monitoring_requirements"
+    rule_4: "governance_sovereignty_restoration_uncertainty_escalates_to_india_authority"
+
+workflow_cognition:
+  operational_sequencing:
+    principle: "deterministic_sovereign_autonomy_eval_before_operation"
+  file_identity: "imported_governance_risk"
+  imported_governance_risk_escalation_choreography:
+      - inventory_imported_governance_artifacts
+      - assess_canonical_flip_risk
+      - arbitrate_import_vs_sovereign
+      - reject_or_bound_import
+      - govern_import_uncertainty
+      - audit_governance_lineage
+  sovereign_validation_ordering:
+    - sovereignty_floor_check
+    - foreign_influence_detection
+    - autonomy_and_alignment_validation
+    - uncertainty_gate
+    - permit_preserve_revoke_or_escalate
+  choreography_invariants:
+    - no_skip_sovereign_verification
+    - human_gate_on_escalation
+
+trust_boundaries:
+  governance_sovereignty_trust_hierarchy:
+    verified_policy_independence_under_continuous_monitoring: highest_trust
+    policy_alignment_anomaly_detected_investigation_required: trust_suspended
+    foreign_governance_framework_injection_confirmed: trust_revoked_policy_restoration_required
+    policy_sovereignty_restoration_verified: trust_conditional_on_continuous_monitoring
+  
+  authorization_boundary:
+    india_authorized_policy_modification: governance_sovereignty_preserved_operation_authorized
+    unauthorized_modification_attempted: operation_suspended_investigation_required
+    foreign_framework_injection_detected: governance_restoration_incident_escalation_required
+  
+  governance_control_boundary:
+    india_governance_authority_maintained: policy_independence_preserved
+    foreign_governance_influence_attempted: operation_blocked_investigation_required
+    foreign_governance_control_confirmed: governance_restoration_incident_response
+
+runtime_behavior:
+  governance_sovereignty_verification_frequency: continuous_real_time_monitoring
+  foreign_governance_influence_detection_sensitivity: continuously_adaptive_based_on_threat_signals
+  policy_alignment_assessment: continuous_during_operational_use
+  governance_authority_verification: continuous_per_critical_policy_decision
+  governance_lineage_preservation: immutable_audit_log_per_modification
+
+runtime_degradation:
+  on_baseline_governance_unverifiable:
+    governance_status: blocked_pending_verification
+    escalation: immediate_to_india_governance_authority
+  
+  on_policy_alignment_anomaly_detected:
+    affected_operations: suspended_immediately
+    governance_status: policy_investigation_mode
+    incident_response: india_governance_authority_notification
+  
+  on_foreign_governance_framework_injection_confirmed:
+    governance_status: policy_restoration_mode_activated
+    policy_restoration: initiated_from_india_authorized_baseline
+    incident_escalation: critical_priority_to_india_governance_authority
+
+confidence_governance:
+  binary_governance_sovereignty_assumption: prohibited
+  implicit_policy_independence_assumption: prohibited
+  unverified_governance_baseline: escalated_before_operation
+  governance_authenticity_confidence: explicit_verification_required
+  foreign_influence_detection_confidence: continuous_validation_required
+  hallucinated_policy_sovereignty: prohibited
+
+traceability:
+  policy_sovereignty_lineage: preserved_per_operation
+  foreign_governance_influence_assessment: immutable_audit_log
+  policy_modification_verification: timestamped_and_attributed
+  governance_integrity_incident_history: complete_per_lifecycle
+  governance_restoration_record: fully_traceable_with_evidence
+
+human_oversight:
+  governance_authority: india_governance_and_policy_leadership
+  foreign_influence_detection_authority: final_arbiter_of_governance_sovereignty_status
+  policy_restoration_authority: india_governance_decision_making
+  override_capability: emergency_operation_with_incident_justification
+  escalation_triggers:
+    - baseline_governance_unverifiable
+    - policy_alignment_anomaly_detected
+    - foreign_governance_influence_suspected
+    - governance_authority_violation_found
+    - governance_restoration_failure
+  autonomous_policy_operation_without_sovereignty_verification: prohibited
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_governance_sovereignty_relaxation: prohibited
+  self_modifying_governance_policy: prohibited
+  cross_domain_governance_trust_contamination: prohibited
+  uncontrolled_adaptive_foreign_governance_accommodation: prohibited
+  deterministic_governance_sovereignty_behavior: enforced
+  governance_independence_boundary_preservation: strict
+
+implementation_leakage_control:
+  international_governance_standard_adoption_procedures: excluded
+  governance_framework_implementation_details: excluded
+  policy_documentation_management: excluded
+  compliance_automation_systems: excluded
+
+meta_governance:
+  preserve_india_governance_sovereignty_boundary_integrity: true
+  prohibit_runtime_governance_policy_drift: true
+  prohibit_adaptive_governance_sovereignty_erosion: true
+  preserve_deterministic_governance_sovereignty_verification: true
+  maintain_india_policy_independence_integrity_principle: true
+
+output_standard:
+  expose_governance_sovereignty_verification_status: required
+  expose_foreign_governance_framework_influence_detection_status: required
+  expose_policy_alignment_assessment: required
+  expose_policy_modification_lineage_and_india_authorization: required
+  expose_foreign_governance_pressure_or_constraints_detected: required
+  expose_governance_uncertainty_factors: required
+  separate_sovereignty_verification_from_policy_decision: enforced
+  auditability: full
+  explainability: required_at_each_governance_decision_point

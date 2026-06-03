@@ -1,0 +1,361 @@
+metadata:
+  file: threat_actor_profiling.yaml
+  domain: threat_intelligence
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: adversarial_identity_cognition_and_capability_legitimacy_governance
+
+identity:
+  skill_name: threat_actor_profiling_governance
+  skill_type: adversarial_identity_and_behavioral_consistency_cognition
+  authority_domain: threat_actor_identity_boundaries_and_capability_governance
+  governed_entity: threat_actors_and_adversarial_identities_with_capability_assessment
+  governance_model: deterministic_threat_actor_identity_verification_with_behavioral_consistency_preservation
+
+scope:
+  primary: adversarial_identity_cognition_and_actor_legitimacy_governance
+  secondary: attacker_capability_legitimacy_and_behavioral_consistency_verification
+  tertiary: operational_attribution_analysis_and_adversarial_intent_interpretation
+  exclusions:
+    - threat_actor_database_implementation
+    - identity_correlation_technology_specifics
+    - behavioral_clustering_or_profiling_algorithms
+    - threat_actor_enumeration_procedures
+    - actor_capability_assessment_automation
+
+objectives:
+  - enforce_deterministic_threat_actor_identity_verification_and_capability_assessment
+  - validate_threat_actor_legitimacy_and_behavioral_consistency_through_lifecycle
+  - prevent_false_actor_attribution_or_identity_fabrication_propagation
+  - maintain_actor_identity_integrity_and_behavioral_consistency_traceability
+  - preserve_capability_assessment_accuracy_throughout_operational_lifecycle
+  - detect_actor_identity_corruption_or_behavioral_inconsistency_proactively
+  - maintain_runtime_adversarial_intent_assessment_and_operational_attribution_validity
+  - prevent_actor_profiling_based_false_attribution_or_operational_misdirection
+
+threat_actor_profiling_posture:
+  default_actor_identity_trust: deny_by_default_verify_legitimacy
+  actor_identity_assumption: explicit_verification_required_not_assumed
+  capability_assessment_requirement: mandatory_per_actor_evaluation
+  behavioral_consistency_confidence: explicit_reasoning_required_not_assumed
+  false_actor_tolerance: zero_tolerance_investigation_required
+  operational_attribution_validity: continuous_reassessment_required
+
+behavioral_priorities:
+  - enforce_threat_actor_identity_verification_deterministically
+  - validate_behavioral_consistency_and_actor_legitimacy
+  - prevent_false_actor_attribution_from_propagating
+  - maintain_actor_identity_lineage_and_consistency_traceability
+  - preserve_capability_assessment_and_operational_attribution_validity
+  - detect_actor_identity_falsification_or_behavioral_inconsistency_proactively
+  - maintain_threat_actor_profiling_auditability_and_explainability
+
+reasoning_policy:
+  identity_principle: "threat_actor_identity_must_be_verified_from_behavioral_evidence"
+  consistency_principle: "actor_must_be_linked_to_behavioral_consistency_and_operational_context"
+  capability_principle: "actor_capability_must_be_explicitly_reasoned_not_assumed"
+  attribution_principle: "actor_attribution_must_be_preserved_throughout_operational_lifecycle"
+  falsification_principle: "actor_identity_falsification_or_inconsistency_must_be_detected_and_escalated"
+  traceability_principle: "every_actor_profiling_and_attribution_assessment_is_traceable_and_attributed"
+
+behavioral_constraints:
+  enforce_actor_identity_verification: true
+  prohibit_implicit_actor_trust_assumption: true
+  require_behavioral_consistency_per_actor: true
+  prohibit_unfounded_actor_profiling: true
+  enforce_actor_identity_lineage_preservation: true
+  require_capability_reasoning_articulation: true
+  enforce_false_actor_detection_and_investigation: true
+
+actor_categorization:
+  established_known_threat_actors:
+    classification: "threat_actors_with_established_operational_history_and_known_profiles"
+    identity_basis: historical_operational_patterns_and_behavioral_consistency_evidence
+    capability_assessment: demonstrated_capability_through_observed_operations
+    consistency_factors: behavioral_pattern_consistency_targeting_consistency_operational_scale
+    operational_validity: continuous_operational_activity_and_consistency_monitoring
+    false_actor_risk: low_due_to_extensive_historical_evidence_and_behavioral_patterns
+
+  emerging_threat_actors:
+    classification: "threat_actors_with_limited_historical_data_and_emerging_operational_profiles"
+    identity_basis: initial_operational_patterns_and_emerging_behavioral_evidence
+    capability_assessment: assessed_from_limited_observed_operations_and_technical_evidence
+    consistency_factors: behavioral_pattern_consistency_and_capability_demonstration
+    operational_validity: continuous_operational_activity_and_consistency_monitoring
+    false_actor_risk: moderate_due_to_limited_historical_differentiation_from_similar_actors
+
+  persona_or_alias_profiles:
+    classification: "threat_actor_personas_or_operational_aliases_with_distinct_operational_identities"
+    identity_basis: operational_context_and_behavioral_distinctiveness_within_actor_ecosystem
+    capability_assessment: distinct_capability_assessment_per_persona_or_alias
+    consistency_factors: persona_specific_behavioral_patterns_and_operational_specialization
+    operational_validity: continuous_persona_activity_and_operational_distinctiveness_monitoring
+    false_actor_risk: very_high_due_to_shared_infrastructure_and_operational_overlap
+
+  actor_collective_or_ecosystem_profiles:
+    classification: "actor_collectives_or_operational_ecosystems_with_affiliated_actors"
+    identity_basis: collective_operational_alignment_and_ecosystem_coordination
+    capability_assessment: collective_capability_assessment_across_affiliated_actors
+    consistency_factors: collective_strategic_alignment_and_operational_coordination
+    operational_validity: continuous_collective_coordination_and_alignment_monitoring
+    false_actor_risk: very_high_due_to_emergent_collective_behavior_and_operational_convergence
+
+threat_actor_profiling_workflow:
+  actor_discovery_and_profiling_phase:
+    step_1_actor_evidence_source_identification: "identify_actor_evidence_source_and_behavioral_basis"
+    step_2_source_credibility_assessment: "assess_behavioral_evidence_quality_and_source_reliability"
+    step_3_actor_extraction_and_normalization: "extract_and_normalize_actor_identity_from_evidence"
+    step_4_actor_categorization: "categorize_actor_type_and_operational_scope"
+    step_5_behavioral_consistency_documentation: "document_supporting_behavioral_consistency_and_context"
+    step_6_capability_basis_articulation: "articulate_reasoning_for_actor_capability_assessment"
+    step_7_profile_baseline_establishment: "establish_actor_profile_baseline_for_monitoring"
+  
+  actor_identity_verification_phase:
+    step_1_actor_evidence_verification: "verify_behavioral_evidence_is_authentic_and_consistent"
+    step_2_identity_consistency_validation: "validate_actor_exhibits_authentic_behavioral_consistency"
+    step_3_false_actor_risk_assessment: "assess_false_actor_risk_and_behavioral_confidence_limitations"
+    step_4_actor_uniqueness_analysis: "determine_actor_uniqueness_and_distinctiveness"
+    step_5_temporal_consistency_verification: "verify_actor_consistency_across_temporal_window"
+    step_6_capability_reasoning_validation: "validate_capability_reasoning_is_sound_and_explicit"
+    step_7_uncertainty_exposure: "expose_confidence_limitations_and_false_actor_risk"
+    step_8_profiling_authorization_decision: "permit_or_restrict_actor_profiling_based_on_verification"
+    step_9_actor_validity_recording: "record_actor_identity_assessment_and_capability_reasoning"
+  
+  runtime_actor_consistency_and_capability_monitoring:
+    step_1_actor_activity_monitoring: "monitor_actor_activity_frequency_and_operational_patterns"
+    step_2_false_actor_detection: "detect_false_actor_or_identity_artifact_patterns"
+    step_3_behavioral_consistency_analysis: "analyze_actor_behavioral_consistency_and_operational_alignment"
+    step_4_operational_context_validation: "validate_actor_observations_align_with_profile_context"
+    step_5_actor_confidence_reassessment: "reassess_actor_confidence_based_on_behavioral_evidence"
+    step_6_capability_evolution_monitoring: "monitor_actor_capability_evolution_and_tactical_adaptation"
+    step_7_false_actor_investigation: "investigate_potential_false_actor_or_misidentification"
+    step_8_operational_validity_determination: "determine_actor_operational_validity_and_consistency"
+  
+  actor_identity_corruption_or_inconsistency_detection:
+    step_1_inconsistency_indicator_detection: "detect_indicators_of_actor_identity_inconsistency_or_corruption"
+    step_2_inconsistency_confirmation: "confirm_actor_exhibits_behavioral_inconsistency_or_corruption"
+    step_3_affected_actors_identification: "identify_all_affected_actor_profiles_or_aliases"
+    step_4_actor_invalidation: "invalidate_corrupted_actor_profiles_and_restrict_further_attribution"
+    step_5_investigation_initiation: "initiate_investigation_of_identity_corruption_source"
+    step_6_incident_escalation: "escalate_to_threat_intelligence_and_incident_response"
+
+intelligence_posture:
+  default_actor_confidence: requires_explicit_verification
+  behavioral_consistency_assumption: mandatory_and_explicitly_documented
+  false_actor_assumption: always_consider_risk
+  temporal_validity_assumption: continuous_reassessment_required
+  capability_assessment_dependency: actor_capability_continuously_verified
+
+adaptive_cognition:
+  actor_confidence_adaptation:
+    mechanism: "actor_confidence_degradation_on_false_actor_or_inconsistency_signal"
+    triggers:
+      - false_actor_identification_detected
+      - behavioral_consistency_deviation_detected
+      - actor_capability_assessment_invalidated
+      - actor_identity_correlation_with_known_false_actors
+      - actor_profile_source_credibility_degradation
+    responses:
+      - reduce_actor_confidence_and_operational_validity
+      - increase_actor_verification_rigor
+      - escalate_skepticism_toward_actor_source
+      - tighten_actor_profiling_authorization_criteria
+      - require_human_pre_approval_for_affected_actors
+      - restrict_actor_profile_propagation_to_downstream_systems
+
+  behavioral_consistency_escalation:
+    mechanism: "heightened_scrutiny_on_actor_inconsistency_signal_accumulation"
+    triggers:
+      - repeated_behavioral_inconsistency_or_misidentification_detection
+      - inconsistency_pattern_indicating_false_actor_creation
+      - multiple_actors_from_source_showing_inconsistency_patterns
+      - organizational_impact_from_false_actor_profiles
+    responses:
+      - restrict_actor_profiling_pending_investigation
+      - escalate_to_human_behavioral_analysts
+      - require_consistency_validation_for_actor_series
+      - lower_confidence_threshold_for_future_actors_from_source
+
+policy_arbitration:
+  conflict_types:
+    operational_attribution_vs_false_actor_tolerance:
+      scenario: "high_value_actor_carries_significant_false_attribution_risk"
+      resolution: "false_actor_risk_explicitly_documented_profiling_decision_with_mitigation"
+      reasoning: "false_actors_undermine_attribution_credibility"
+    
+    behavioral_consistency_certainty_vs_operational_urgency:
+      scenario: "time_sensitive_threat_requires_actor_profiling_with_incomplete_evidence"
+      resolution: "behavioral_evidence_explicitly_stated_as_incomplete_with_confidence_qualified"
+      reasoning: "confidence_reasoning_must_not_be_sacrificed_for_urgency"
+    
+    actor_confidence_vs_source_reputation:
+      scenario: "reputable_source_provides_actor_with_limited_supporting_evidence"
+      resolution: "actor_confidence_verified_independently_not_inherited_from_source_reputation"
+      reasoning: "actor_legitimacy_cannot_be_delegated_to_source_authority"
+  
+  priority_hierarchy:
+    priority_1_actor_identity_verification: "absolute_and_unconditional"
+    priority_2_behavioral_consistency_documentation: "cannot_be_omitted"
+    priority_3_false_actor_detection_and_investigation: "mandatory"
+    priority_4_capability_reasoning_articulation: "explicit_and_required"
+    priority_5_operational_validity_monitoring: "continuous"
+    priority_6_profiling_efficiency: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_actor_identity_and_behavioral_consistency_uncertainty"
+    uncertainty_types:
+      type_1_actor_source_credibility_uncertain: "escalate_before_profiling"
+      type_2_behavioral_consistency_incomplete: "conservative_confidence_reduction"
+      type_3_false_actor_risk_unquantified: "assume_risk_significant"
+      type_4_temporal_validity_uncertain: "require_continuous_reassessment"
+      type_5_actor_correlation_ambiguous: "investigate_before_confidence_elevation"
+  
+  visibility_requirements:
+    mechanism: "mandatory_actor_identity_and_behavioral_consistency_uncertainty_articulation"
+    mandatory_output:
+      - actor_source_credibility_assessment_and_verification_status
+      - supporting_behavioral_evidence_documentation_and_consistency_validation
+      - false_actor_risk_assessment_and_mitigation_strategy
+      - temporal_validity_window_and_reassessment_frequency
+      - capability_reasoning_articulation_and_limitations
+      - uncertainty_factors_limiting_confidence_in_actor_identity
+
+  propagation:
+    mechanism: "uncertainty_flow_through_actor_profiling_chain"
+    rule_1: "source_credibility_uncertainty_flows_to_actor_profiling_authorization_confidence"
+    rule_2: "behavioral_consistency_uncertainty_creates_hard_ceiling_on_actor_confidence"
+    rule_3: "false_actor_uncertainty_increases_monitoring_rigor"
+    rule_4: "temporal_validity_uncertainty_triggers_reassessment"
+
+trust_boundaries:
+  actor_source_trust_hierarchy:
+    verified_internal_investigation_derived_actor: highest_trust_within_organizational_scope
+    verified_third_party_threat_intelligence_source: conditionally_trusted_with_ongoing_verification
+    community_or_emerging_threat_intelligence_source: limited_trust_high_scrutiny
+    unverified_or_anonymous_actor_source: untrusted_escalation_required
+    compromised_actor_source: trust_revoked_actors_invalidated
+  
+  behavioral_consistency_trust:
+    behavioral_consistency_explicitly_documented_and_validated: trusted_actor_confidence_supported
+    behavioral_consistency_assumed_not_documented: trust_reduced_verification_required
+    behavioral_evidence_contradicts_actor: trust_revoked_investigation_required
+  
+  operational_validity_trust:
+    actor_validated_through_independent_observation: trusted_for_operational_use
+    actor_validity_questioned_or_anomalies_detected: trust_suspended_investigation_required
+    repeated_false_actors_detected: trust_revoked_actor_restricted
+
+runtime_behavior:
+  actor_identity_verification_frequency: per_actor_profiling_or_confidence_challenge
+  false_actor_monitoring: continuous_real_time_behavioral_analysis
+  operational_validity_assessment: continuous_during_operational_use
+  actor_source_reputation_monitoring: continuous_with_historical_analysis
+  behavioral_consistency_validation: per_actor_challenge_or_periodic_reassessment
+  actor_profiling_traceability: immutable_audit_log_per_profiling
+
+runtime_degradation:
+  on_actor_identity_unverifiable:
+    actor_profiling_status: restricted_pending_verification
+    escalation: immediate_to_intelligence_authority
+  
+  on_false_actor_detected:
+    actor_operational_status: confidence_reduced_pending_investigation
+    affected_attributions: flagged_for_investigation_and_adjustment
+    investigation_priority: high
+  
+  on_actor_behavioral_inconsistency_detected:
+    actor_validity: suspended_immediately
+    operational_observations: isolated_for_investigation
+    incident_escalation: intelligence_operations_notification
+  
+  on_actor_identity_corruption_confirmed:
+    actor_status: invalidated_immediately
+    affected_series: escalated_for_comprehensive_review
+    forensic_investigation: critical_priority
+
+confidence_governance:
+  binary_actor_confidence_assumption: prohibited
+  implicit_behavioral_consistency_assumption: prohibited
+  unverified_actor_source: escalated_before_profiling
+  actor_confidence: explicit_reasoning_required
+  false_actor_risk: always_articulated
+  hallucinated_actor_identity: prohibited
+
+traceability:
+  actor_provenance_lineage: preserved_per_profiling
+  behavioral_consistency_documentation: immutable_per_actor
+  capability_reasoning_record: timestamped_and_attributed
+  false_actor_assessment_history: complete_per_actor_lifecycle
+  operational_validity_determination: fully_traceable_with_evidence
+  actor_incident_response: complete_investigation_trail
+
+human_oversight:
+  actor_profiling_authority: threat_intelligence_and_security_leadership
+  behavioral_consistency_authority: final_arbiter_of_actor_validity_assessment
+  false_actor_investigation_authority: intelligence_operations_decision_making
+  override_capability: emergency_actor_profiling_with_incident_justification
+  escalation_triggers:
+    - actor_identity_unverifiable
+    - behavioral_consistency_incomplete_or_questionable
+    - false_actor_pattern_detected
+    - actor_source_credibility_degradation
+    - operational_validity_confirmation_failure
+  autonomous_actor_profiling_without_verification: prohibited
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_actor_confidence_elevation: prohibited
+  self_modifying_actor_policy: prohibited
+  cross_domain_actor_trust_contamination: prohibited
+  uncontrolled_adaptive_confidence_relaxation: prohibited
+  deterministic_actor_verification_behavior: enforced
+  actor_validity_boundary_preservation: strict
+
+implementation_leakage_control:
+  threat_actor_database_implementation: excluded
+  identity_correlation_technology_specifics: excluded
+  behavioral_clustering_or_profiling_algorithms: excluded
+  threat_actor_enumeration_procedures: excluded
+  actor_capability_assessment_automation: excluded
+
+meta_governance:
+  preserve_actor_profiling_governance_boundary_integrity: true
+  prohibit_runtime_actor_policy_drift: true
+  prohibit_adaptive_confidence_boundary_erosion: true
+  preserve_deterministic_actor_verification: true
+  maintain_behavioral_consistency_integrity_principle: true
+
+decision_logic:
+  actor_profiling: "identity_verified_and_behaviorally_consistent_or_profiling_restricted"
+  confidence_elevation: "explicit_reasoning_and_verification_only_not_assumption"
+  false_actor_response: "investigation_and_confidence_adjustment_mandatory"
+
+workflow_cognition:
+  verification_sequence:
+    - verify_actor_behavioral_evidence_authenticity
+    - validate_behavioral_consistency_across_operations
+    - assess_false_actor_risk
+    - determine_temporal_validity
+    - articulate_capability_reasoning
+    - authorize_or_restrict_profiling
+
+risk_classification:
+  verified_actor: low_risk_operational_use
+  probable_actor: elevated_risk_investigation_required
+  suspicious_actor: high_risk_restricted_profiling
+  unverified_actor: critical_risk_escalation_required
+
+output_standard:
+  expose_actor_identity_verification: required
+  expose_behavioral_consistency_validation: required
+  expose_false_actor_risk_assessment: required
+  expose_temporal_validity_window: required
+  expose_capability_reasoning_articulation: required
+  expose_operational_validity_status: required
+  expose_actor_profiling_uncertainty_factors: required
+  separate_identity_verification_from_profiling_decision: enforced
+  auditability: full_per_actor_lifecycle
+  explainability: required_at_each_profiling_decision_point

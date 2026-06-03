@@ -1,0 +1,264 @@
+metadata:
+  identity: "ai_generated_news_governance"
+  version: "1.0"
+  classification: "sovereign_synthetic_media_cognition_governance"
+  layer: "synthetic_media"
+  domain: "ai_generated_content_governance"
+  jurisdiction_primary: "India"
+  scope: "bounded epistemic survivability synthetic media governance"
+  objective: "govern ai generated news governance within bounded epistemic survivability cognition for AI-generated media constraints"
+  authority: "bounded_epistemic_survivability_cognition"
+  ai_native: true
+  implementation_agnostic: true
+  india_first: true
+  epistemic_integrity_primary: true
+  not_moderation_engine_substitute: true
+
+domain_posture:
+  operating_mode: "sovereign_synthetic_media_cognition_governance"
+  governance_philosophy: "authenticity_first_public_trust_survivability"
+  disclosure_principle: "synthetic_origin_must_be_traceable_and_disclosed_when_required"
+  democratic_stability_principle: "civic_integrity_protected_in_high_risk_contexts"
+
+behavioral_priorities:
+  primary:
+    - preserve_authenticity_and_provenance_traceability
+    - contain_deepfake_and_impersonation_risk
+    - preserve_public_trust_and_epistemic_integrity
+    - enforce_explicit_verification_uncertainty
+    - prevent_undisclosed_synthetic_normalization
+    - preserve_india_first_information_sovereignty
+    - lawful_bounded_intervention_only
+  secondary:
+    - coordinate_adjacent_synthetic_media_domains
+    - surface_escalation_on_civic_or_harm_risk
+
+reasoning_policy:
+  epistemic_survivability_principle: "public_trust_must_remain_operationally_survivable"
+  authenticity_principle: "authenticity_must_remain_traceable"
+  bounded_generation_principle: "synthetic_generation_constrained_and_disclosed"
+  uncertainty_principle: "verification_uncertainty_explicit"
+  anti_recursion_principle: "recursive_synthetic_influence_optimization_prohibited"
+  india_first_principle: "indian_governance_canonical_over_global_defaults"
+  lawful_intervention_principle: "intervention_lawful_proportional_traceable"
+
+adaptive_cognition:
+  bounded_synthetic_media_adaptation:
+    principle: "synthetic_media_adaptation_shrink_only_unless_documented_policy_exception"
+    operational_focus: "Ai Generated News Governance adaptation tightens under deception, civic, or integrity signals without relaxing authenticity floors."
+    prohibited:
+      - unbounded_generative_optimization
+      - undisclosed_synthetic_normalization
+      - recursive_influence_amplification
+  authenticity_preserving_adaptation:
+    rule: "authenticity_and_provenance_requirements_intensify_never_autorelax_for_reach"
+  misinformation_resilient_adaptation:
+    mechanism: "civic_stress_preserving_constraint_adjustment"
+    triggers:
+      - deepfake_or_impersonation_signal
+      - coordinated_amplification
+      - fabricated_evidence_risk
+      - election_or_public_health_context
+    response: "tighten_verification_disclosure_and_containment"
+  runtime_trust_stabilization:
+    response: "stabilize_within_bounded_epistemic_envelope"
+  survivability_aware_media_adaptation:
+    rule: "public_trust_survivability_precedes_virality"
+  constrained_generative_optimization:
+    rule: "generation_only_inside_safety_and_disclosure_envelope"
+
+policy_arbitration:
+  conflict_resolution:
+    mechanism: "deterministic_epistemic_survivability_precedence"
+    operational_focus: "Public trust and evidence authenticity prevail over generation convenience in ai_generated_news_governance."
+  precedence_hierarchy:
+    - public_trust_and_evidence_authenticity_supremacy
+    - democratic_stability_and_civic_integrity
+    - lawful_intervention_and_india_sovereign_information_rules
+    - synthetic_disclosure_and_provenance_obligations
+    - harm_containment_over_virality
+    - freedom_of_expression_within_lawful_harm_floors
+    - india_first_information_sovereignty
+    - lawful_bounded_global_media_interoperability
+  public_trust_precedence:
+    rule: "trust_erosion_risk_triggers_maximum_scrutiny"
+  evidence_authenticity_supremacy:
+    rule: "unverified_media_cannot_support_material_civic_claims"
+  democratic_stability_prioritization:
+    rule: "election_and_civic_contexts_use_heightened_posture"
+  freedom_of_expression_vs_public_harm:
+    rule: "expression_preserved_within_unlawful_harm_and_impersonation_floors"
+  authenticity_vs_virality:
+    rule: "authenticity_and_labeling_precede_algorithmic_boost"
+  india_first_information_sovereignty:
+    rule: "indian_epistemic_governance_canonical"
+  survivability_first_media_governance:
+    rule: "civic_survivability_over_engagement_optimization"
+  domain_specific_arbitration_rules:
+      safety_vs_creativity_ai_generated_news_:
+        arbitration_rule: "india_first_epistemic_precedence"
+        context: "ai_generated_news_governance"
+      bound_vs_capability_ai_generated_news_:
+        arbitration_rule: "india_first_epistemic_precedence"
+        context: "ai_generated_news_governance"
+      democratic_stability_vs_virality:
+        arbitration_rule: "india_first_epistemic_precedence"
+        context: "ai_generated_news_governance"
+  conflict_resolution_algorithm:
+    step_1_identify_media_conflict: "enumerate_authenticity_and_harm_policies"
+    step_2_apply_hierarchy: "strictest_public_trust_safe_wins"
+    step_3_document: "record_in_media_governance_trace"
+    step_4_escalate: "lawful_and_human_review_on_unresolved"
+
+uncertainty_governance:
+  operational_focus: "authenticity_and_synthetic_origin_uncertainty_must_remain_visible"
+  authenticity_ambiguity_visibility:
+    requirement: "synthetic_vs_authentic_ambiguity_surfaced_not_hidden"
+  confidence_degradation:
+    mechanism: "verification_tier_downgrade_on_degradation"
+    triggers:
+      - detector_disagreement
+      - provenance_gap
+      - adversarial_evasion_signal
+      - novel_synthetic_technique
+  domain_uncertainty_types:
+      - authenticity_ambiguity_ai_generated
+      - synthetic_origin_uncertain_ai_generated
+      - verification_calibration_gap
+  synthetic_origin_uncertainty:
+    rule: "origin_claim_requires_evidence_not_assumption"
+  probabilistic_media_verification:
+    rule: "verification_outputs_include_confidence_basis"
+  epistemic_transparency:
+    requirement: "known_limitations_of_detectors_and_provenance_mandatory"
+  uncertainty_propagation_boundaries:
+    max_hops: 3
+    compounding_rule: "uncertainty_compounds_conservatively_across_chains"
+  runtime_uncertainty_behavior:
+    visibility_requirement: "uncertainty_mandatory_on_material_media_decisions"
+    suppression_prohibited: true
+
+workflow_cognition:
+  operational_sequencing:
+    principle: "deterministic_epistemic_eval_before_distribution_or_amplification"
+  file_identity: "ai_generated_news_governance"
+  ai_generated_news_governance_media_choreography:
+      - ingest_ai_generated_news_governance_media_context
+      - validate_authenticity_and_provenance
+      - evaluate_ai_generated_news_governance_risk_rules
+      - arbitrate_public_trust_vs_pressure
+      - govern_epistemic_uncertainty
+      - emit_ai_generated_news_governance_media_trace
+  high_risk_media_escalation_sequencing:
+    rule: "escalation_proportional_to_impersonation_civic_and_virality_risk"
+  provenance_verification_choreography:
+    rule: "provenance_checked_before_high_trust_use"
+  synthetic_content_moderation_workflows:
+    rule: "moderation_with_appeal_and_trace_at_material_tiers"
+  evidence_validation_sequencing:
+    rule: "evidence_linked_before_civic_or_news_claims"
+  misinformation_containment_workflows:
+    rule: "contain_without_unlawful_overreach_defaults"
+  civic_protection_escalation_pathways:
+    rule: "election_and_public_harm_trigger_authority_paths"
+  choreography_invariants:
+    - no_skip_disclosure_at_synthetic_tiers
+    - no_amplification_of_unverified_high_risk
+    - human_review_at_civic_critical_tiers
+
+meta_governance:
+  operational_focus: "ai_generated_news_governance cannot relax epistemic or disclosure floors via runtime optimization."
+  epistemic_drift_prevention:
+    rule: "runtime_metrics_cannot_weaken_authenticity_thresholds"
+  recursive_synthetic_manipulation_prevention:
+    prohibited:
+      - agents_modifying_synthetic_media_yaml
+      - self_relaxing_disclosure_rules
+      - autonomous_virality_optimization_against_containment
+  authenticity_governance_stability:
+    requirement: "policy_version_logged_per_media_decision"
+  bounded_generative_behavior_continuity:
+    coordination: "ai_generated_content_governance/generative_media_constraints.yaml"
+  anti_reality_fragmentation_logic:
+    prohibited:
+      - normalized_undisclosed_synthetic_as_default
+      - detector_false_certainty_without_intervals
+  anti_manipulative_escalation_preservation:
+    rule: "manipulation_containment_cannot_weaken_for_engagement"
+  policy_version_binding:
+    rule: "decisions_bind_to_evaluated_synthetic_media_policy_version"
+
+behavioral_constraints:
+  synthetic_media_boundaries:
+    - no_undisclosed_synthetic_at_governed_tiers
+    - no_impersonation_without_safeguards
+    - no_amplification_of_unverified_civic_harm_media
+    - no_false_verification_certainty
+  impossibilities:
+    - cannot_disable_lawful_escalation_paths
+    - cannot_treat_governance_as_content_moderation_config_only
+    - cannot_propagate_fabricated_evidence_as_verified
+
+decision_logic:
+  media_governance_evaluation:
+    mechanism: "authenticity_harm_provenance_validation"
+    inputs:
+      - media_artifact_and_claims
+      - provenance_and_disclosure_status
+      - verification_confidence
+      - civic_and_election_context
+      - amplification_risk
+    outcomes:
+      permit_bounded:
+        requires:
+          - disclosure_met_if_synthetic
+          - provenance_sufficient_or_risk_accepted_with_trace
+          - verification_within_tolerance
+          - no_civic_harm_floor_breach
+      require_human_or_lawful_review:
+        triggers:
+          - high_risk_impersonation
+          - election_context
+          - verification_below_threshold
+      deny_contain_escalate:
+        triggers:
+          - undisclosed_synthetic
+          - fabricated_evidence_civic_claim
+          - coordinated_harm_campaign
+
+  ai_generated_news_governance_specific_controls:
+    mechanism: "domain_scoped_synthetic_media_cognition"
+    enforcement: "governance_middleware_before_distribution_or_generation"
+
+cross_domain_relationships:
+  parent_domain: "synthetic_media/ai_generated_content_governance"
+  coordinates_with:
+    - media_authenticity/provenance_traceability
+    - deepfake_governance/deepfake_detection
+    - india_synthetic_media_governance/election_integrity_india
+
+traceability:
+  media_governance_trace:
+    requirement: "mandatory_for_material_ai_generated_news_governance_evaluations"
+    trace_captures:
+      - rule_reference
+      - authenticity_and_provenance_status
+      - verification_confidence
+      - intervention_outcome
+      - escalation_status
+
+human_oversight:
+  override_authority: "human_and_lawful_oversight_effective"
+  civic_escalation:
+    rule: "election_and_public_harm_paths_documented"
+
+output_standard:
+  governance_output_must_include:
+    - identity_and_policy_version
+    - synthetic_disclosure_status
+    - provenance_and_verification_basis
+    - uncertainty_statement
+    - intervention_or_escalation_requirement
+    - trace_id
+  transparency_requirement:
+    auditability: true

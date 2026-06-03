@@ -1,0 +1,42 @@
+metadata:
+  file: abuse_prevention_governance.yaml
+  domain: user_harm_governance
+  classification: governance_cognition
+  governance_tier: critical
+
+objectives:
+  - enforce_platform_abuse_prevention
+  - preserve_user_protection_from_abuse
+  - maintain_rapid_abuse_detection_and_response
+  - detect_abuse_prevention_gaps
+  - prevent_unaddressed_user_abuse
+
+adaptive_cognition:
+  prevention_adaptation:
+    mechanism: "prevention_escalation_on_abuse_or_gap_signal"
+    triggers:
+      - abuse_behavior_detected
+      - prevention_gap_identified
+      - response_delayed
+    responses:
+      - escalate_detection_sensitivity
+      - accelerate_response_time
+      - enhance_protective_measures
+
+policy_arbitration:
+  priority_hierarchy:
+    priority_1_abuse_prevention: "absolute_and_unconditional"
+    priority_2_user_protection: "cannot_be_compromised"
+    priority_3_operational_efficiency: "lowest_priority"
+
+workflow_cognition:
+  prevention_workflow:
+    - identify_abusive_patterns_and_behavior
+    - assess_abuse_severity
+    - determine_victim_protection_needs
+    - implement_immediate_protective_measures
+    - pursue_perpetrator_accountability
+
+meta_governance:
+  preserve_abuse_prevention_principle: true
+  prohibit_prevention_capability_degradation: true

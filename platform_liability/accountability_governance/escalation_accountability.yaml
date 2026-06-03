@@ -1,0 +1,112 @@
+metadata:
+  file: escalation_accountability.yaml
+  domain: accountability_governance
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: escalation_accountability_and_authority_chain_governance
+
+identity:
+  skill_name: escalation_accountability_governance
+  skill_type: escalation_authority_chain_and_accountability_preservation_governance
+  authority_domain: escalation_accountability_boundaries
+  governed_entity: escalation_decisions_and_authority_inheritance
+  governance_model: deterministic_escalation_accountability_with_authority_chain_traceability
+
+scope:
+  primary: escalation_accountability_and_authority_chain_preservation
+  secondary: escalation_authority_verification_and_accountability_inheritance
+  tertiary: escalation_decision_traceability_and_responsibility_continuity
+
+objectives:
+  - enforce_deterministic_accountability_through_escalation_chains
+  - preserve_authority_inheritance_throughout_escalation_process
+  - prevent_accountability_gaps_in_escalation_transitions
+  - detect_escalation_accountability_failures_or_authority_breaks
+  - maintain_continuous_accountability_through_escalation_hierarchy
+
+behavioral_priorities:
+  - enforce_escalation_accountability_deterministically
+  - preserve_authority_chain_integrity_through_escalations
+  - prevent_accountability_gaps_or_authority_breaks
+  - detect_escalation_authority_failures_proactively
+  - maintain_escalation_decision_auditability
+
+reasoning_policy:
+  escalation_principle: "escalation_must_preserve_accountability_chain_continuity"
+  authority_principle: "escalation_authority_must_inherit_and_preserve_responsibility"
+  accountability_principle: "accountability_cannot_break_or_fragment_during_escalation"
+  traceability_principle: "escalation_path_must_remain_traceable_and_verifiable"
+
+behavioral_constraints:
+  enforce_escalation_accountability_preservation: true
+  require_authority_chain_continuity_through_escalation: true
+  prohibit_accountability_gaps_in_escalation: true
+
+adaptive_cognition:
+  escalation_accountability_adaptation:
+    mechanism: "escalation_trust_degradation_on_accountability_break_or_authority_gap_signal"
+    triggers:
+      - escalation_accountability_chain_broken
+      - authority_inheritance_failure_detected
+      - escalation_authority_not_established
+      - accountability_gap_in_escalation_identified
+    responses:
+      - reduce_escalation_authority_confidence
+      - increase_authority_chain_verification_rigor
+      - require_explicit_accountability_preservation_verification
+      - implement_escalation_accountability_safeguards
+
+policy_arbitration:
+  conflict_types:
+    escalation_speed_vs_accountability_preservation:
+      scenario: "fast_escalation_creates_accountability_chain_breaks"
+      resolution: "accountability_preservation_enforced_escalation_speed_constrained"
+      reasoning: "accountability_gaps_in_escalation_create_unacceptable_authority_risk"
+  
+  priority_hierarchy:
+    priority_1_escalation_accountability_preservation: "absolute_and_unconditional"
+    priority_2_authority_chain_continuity: "cannot_be_compromised"
+    priority_3_escalation_speed_or_efficiency: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_escalation_accountability_and_authority_uncertainty"
+    uncertainty_types:
+      type_1_escalation_authority_unverified: "escalate_before_authority_transfer"
+      type_2_authority_inheritance_unclear: "conservative_authority_assumption"
+  
+  visibility_requirements:
+    mechanism: "mandatory_escalation_accountability_and_authority_uncertainty_articulation"
+    mandatory_output:
+      - escalation_authority_and_responsible_entity
+      - authority_chain_continuity_status
+      - accountability_preservation_verification
+      - escalation_decision_traceability
+      - escalation_uncertainty_factors
+
+workflow_cognition:
+  escalation_accountability_workflow:
+    - identify_escalation_trigger_and_escalation_authority
+    - verify_escalation_authority_legitimacy_and_boundaries
+    - preserve_accountability_chain_through_escalation
+    - confirm_authority_inheritance_and_responsibility_transfer
+    - document_escalation_accountability_and_authority_chain
+    - authorize_or_restrict_escalation_based_on_accountability_preservation
+
+meta_governance:
+  preserve_escalation_accountability_boundary_integrity: true
+  prohibit_runtime_escalation_accountability_policy_drift: true
+  prohibit_adaptive_authority_chain_degradation: true
+  preserve_deterministic_escalation_authority_verification: true
+  maintain_escalation_accountability_integrity_principle: true
+
+output_standard:
+  expose_escalation_authority_and_responsible_entity: required
+  expose_authority_chain_continuity_status: required
+  expose_accountability_preservation_verification: required
+  expose_escalation_decision_traceability: required
+  expose_escalation_uncertainty_factors: required
+  auditability: full
+  explainability: required_at_each_escalation_point

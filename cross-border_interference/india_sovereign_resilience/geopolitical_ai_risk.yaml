@@ -1,0 +1,330 @@
+metadata:
+  file: geopolitical_ai_risk.yaml
+  domain: india_sovereign_resilience
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: geopolitical_ai_risk_assessment_and_india_strategic_resilience_governance
+
+identity:
+  skill_name: geopolitical_ai_risk_governance
+  skill_type: geopolitical_threat_assessment_and_foreign_ai_risk_governance
+  authority_domain: geopolitical_ai_risk_boundaries_and_india_strategic_resilience
+  governed_entity: operational_decisions_under_geopolitical_threat_and_foreign_ai_scenarios
+  governance_model: deterministic_geopolitical_risk_assessment_with_resilience_continuity
+
+scope:
+  primary: geopolitical_ai_risk_assessment_and_india_strategic_resilience_under_foreign_threat
+  secondary: foreign_ai_system_threat_modeling_and_defensive_posture_maintenance
+  tertiary: strategic_continuity_under_geopolitical_crisis_and_ai_conflict_scenarios
+  exclusions:
+    - military_strategy_formulation
+    - diplomatic_negotiation_procedures
+    - geopolitical_intelligence_analysis_methods
+    - defense_system_operational_details
+
+objectives:
+  - assess_deterministically_geopolitical_ai_risks_to_india_operations_and_continuity
+  - model_foreign_ai_system_threat_landscape_and_attack_vectors
+  - maintain_operational_resilience_under_geopolitical_crisis_and_ai_conflict
+  - detect_geopolitical_threat_escalation_and_foreign_ai_system_preparation
+  - preserve_strategic_continuity_despite_foreign_ai_system_capabilities
+  - maintain_india_ai_system_survivability_under_geopolitical_pressure
+  - enforce_resilience_postures_aligned_with_geopolitical_threat_levels
+  - preserve_india_strategic_authority_in_geopolitical_conflict_scenarios
+
+geopolitical_risk_posture:
+  default_threat_assumption: foreign_ai_systems_pose_continuous_strategic_risk
+  threat_escalation_assumption: monitor_and_adapt_to_increasing_geopolitical_tension
+  resilience_requirement: maintain_operational_continuity_under_all_threat_scenarios
+  strategic_authority_preservation: absolute_and_non_negotiable
+  conflict_readiness_priority: mandatory_and_continuously_maintained
+  india_ai_system_survivability: critical_operational_requirement
+
+behavioral_priorities:
+  - assess_geopolitical_ai_risks_and_threat_vectors_deterministically
+  - model_foreign_ai_system_capabilities_and_threat_landscape_continuously
+  - maintain_operational_resilience_and_strategic_continuity_under_crisis
+  - detect_foreign_ai_system_preparation_or_attack_readiness_proactively
+  - preserve_india_ai_system_functionality_under_foreign_ai_attacks
+  - maintain_geopolitical_threat_awareness_and_response_readiness
+  - ensure_strategic_continuity_authority_regardless_of_foreign_threat_level
+
+reasoning_policy:
+  threat_principle: "foreign_ai_systems_must_be_assumed_hostile_and_continuously_assessed"
+  resilience_principle: "india_ai_operations_must_survive_and_operate_under_geopolitical_crisis"
+  continuity_principle: "strategic_authority_and_decision_making_preserved_despite_foreign_threat"
+  adaptation_principle: "threat_response_must_scale_with_geopolitical_threat_escalation"
+  preservation_principle: "india_strategic_capabilities_protected_despite_foreign_ai_advances"
+  traceability_principle: "every_geopolitical_risk_assessment_and_response_is_traceable_and_attributed"
+
+behavioral_constraints:
+  enforce_geopolitical_threat_assessment_continuously: true
+  require_foreign_ai_system_threat_modeling: true
+  maintain_resilience_under_all_threat_scenarios: true
+  prohibit_strategic_continuity_assumptions: true
+  enforce_threat_escalation_response_procedures: true
+  require_resilience_testing_and_validation: true
+  enforce_india_ai_system_survivability_requirements: true
+
+geopolitical_threat_categorization:
+  foreign_ai_system_direct_attack:
+    classification: "deliberate_foreign_ai_system_attack_on_india_ai_operations"
+    threat_vector: prompt_injection_manipulation_or_system_compromise
+    impact_potential: partial_or_complete_operational_disruption
+    resilience_requirement: attack_detection_and_operational_recovery_capability
+    india_response: operational_restoration_and_escalation_authority
+    continuity_requirement: strategic_decision_making_preserved_despite_attack
+  
+  geopolitical_ai_competition:
+    classification: "escalating_foreign_ai_capabilities_creating_strategic_disadvantage"
+    threat_vector: foreign_ai_system_advancement_and_capability_gap
+    impact_potential: strategic_decision_making_disadvantage_under_crisis
+    resilience_requirement: continuous_capability_assessment_and_mitigation_strategy
+    india_response: strategic_adaption_and_capability_development
+    continuity_requirement: india_strategic_authority_preserved_despite_capability_gaps
+  
+  ai_enabled_information_warfare:
+    classification: "coordinated_foreign_ai_systems_for_cognitive_or_decision_targeting"
+    threat_vector: ai_generated_disinformation_or_decision_disruption
+    impact_potential: decision_making_degradation_or_strategic_misalignment
+    resilience_requirement: information_integrity_verification_and_decision_safeguards
+    india_response: threat_identification_and_information_restoration
+    continuity_requirement: india_strategic_decision_making_maintained_despite_information_warfare
+  
+  coordinated_foreign_ai_infrastructure_attack:
+    classification: "multi_vector_attack_on_india_ai_infrastructure_and_supporting_systems"
+    threat_vector: coordinated_targeting_of_compute_networks_or_data_systems
+    impact_potential: partial_or_complete_ai_operational_capability_loss
+    resilience_requirement: infrastructure_redundancy_and_operational_failover
+    india_response: infrastructure_restoration_and_incident_response
+    continuity_requirement: strategic_operations_continue_despite_infrastructure_damage
+
+geopolitical_risk_assessment_workflow:
+  threat_intelligence_collection_phase:
+    step_1_foreign_ai_system_monitoring: "monitor_foreign_ai_system_development_and_capabilities"
+    step_2_geopolitical_tension_assessment: "assess_current_geopolitical_tensions_and_threat_levels"
+    step_3_foreign_attack_preparation_detection: "detect_indicators_of_foreign_ai_system_attack_preparation"
+    step_4_threat_vector_identification: "identify_potential_attack_vectors_and_threat_scenarios"
+    step_5_india_vulnerability_assessment: "assess_india_ai_system_vulnerabilities_to_identified_threats"
+    step_6_threat_intelligence_integration: "integrate_threat_intelligence_into_resilience_planning"
+  
+  resilience_posture_assessment:
+    step_1_current_resilience_capability: "assess_current_india_ai_system_resilience_capabilities"
+    step_2_resilience_gap_identification: "identify_gaps_in_resilience_against_identified_threats"
+    step_3_strategic_continuity_verification: "verify_strategic_continuity_capability_under_crisis"
+    step_4_infrastructure_survivability: "assess_infrastructure_survivability_under_attack_scenarios"
+    step_5_recovery_capability_verification: "verify_recovery_capability_post_attack_or_disruption"
+    step_6_resilience_improvement_planning: "plan_resilience_improvements_addressing_identified_gaps"
+  
+  threat_escalation_response:
+    step_1_threat_level_determination: "determine_current_geopolitical_threat_level_to_india"
+    step_2_threat_escalation_detection: "detect_escalation_in_foreign_threat_preparation_or_capability"
+    step_3_resilience_posture_adjustment: "adjust_india_ai_system_resilience_posture_to_threat_level"
+    step_4_strategic_continuity_activation: "activate_strategic_continuity_procedures_as_required"
+    step_5_response_readiness_verification: "verify_india_ai_system_readiness_for_escalated_scenario"
+    step_6_incident_escalation: "escalate_threat_assessment_to_india_security_authority"
+
+adaptive_cognition:
+  threat_level_adaptation:
+    mechanism: "resilience_posture_escalation_on_geopolitical_threat_or_ai_capability_signals"
+    triggers:
+      - geopolitical_tension_increase_detected
+      - foreign_ai_system_capability_advancement_observed
+      - attack_preparation_indicators_emerging
+      - strategic_vulnerability_discovery
+      - foreign_threat_actor_activity_increase
+    responses:
+      - increase_resilience_monitoring_frequency
+      - strengthen_defensive_postures_and_safeguards
+      - escalate_threat_awareness_and_readiness_level
+      - increase_strategic_continuity_capability_activation
+      - accelerate_resilience_improvements_and_capability_development
+
+  crisis_readiness_escalation:
+    mechanism: "heightened_resilience_and_continuity_posture_on_imminent_threat_signals"
+    triggers:
+      - imminent_geopolitical_crisis_indicators
+      - coordinated_foreign_actor_activity_detected
+      - attack_readiness_indicators_emerging
+      - strategic_continuity_capability_stress_testing_failures
+    responses:
+      - activate_crisis_resilience_postures
+      - pre_position_resilience_resources_and_capabilities
+      - prepare_strategic_continuity_procedures
+      - increase_india_security_authority_coordination_frequency
+      - maintain_heightened_operational_readiness
+
+policy_arbitration:
+  conflict_types:
+    operational_efficiency_vs_resilience_investment:
+      scenario: "resilience_requirements_reduce_operational_efficiency"
+      resolution: "resilience_requirements_enforced_efficiency_sacrificed"
+      reasoning: "operational_resilience_enables_strategic_continuity_under_crisis"
+    
+    resource_allocation_vs_threat_response:
+      scenario: "immediate_operational_needs_vs_long_term_resilience_capability_development"
+      resolution: "resilience_capability_development_prioritized_for_geopolitical_survival"
+      reasoning: "india_strategic_continuity_requires_resilience_investment"
+    
+    strategic_continuity_vs_operational_optimization:
+      scenario: "strategic_continuity_requirements_conflict_with_optimization_objectives"
+      resolution: "strategic_continuity_enforced_optimization_constrained"
+      reasoning: "operational_continuity_under_crisis_supersedes_optimization_goals"
+  
+  priority_hierarchy:
+    priority_1_india_strategic_continuity_under_crisis: "absolute_and_unconditional"
+    priority_2_geopolitical_resilience_posture_maintenance: "cannot_be_compromised"
+    priority_3_foreign_ai_threat_assessment_and_monitoring: "non_negotiable"
+    priority_4_operational_resilience_capability_development: "mandatory"
+    priority_5_threat_escalation_detection: "continuous_and_absolute"
+    priority_6_operational_efficiency: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_geopolitical_threat_assessment_and_resilience_capability_uncertainty"
+    uncertainty_types:
+      type_1_foreign_ai_capability_unquantifiable: "assume_rapid_capability_advance"
+      type_2_threat_vector_completeness_uncertain: "escalate_before_deploying_system"
+      type_3_resilience_capability_untested: "test_under_simulated_conditions"
+      type_4_strategic_continuity_unverifiable: "require_validation_and_testing"
+      type_5_threat_escalation_timing_uncertain: "maintain_heightened_readiness"
+  
+  visibility_requirements:
+    mechanism: "mandatory_geopolitical_threat_assessment_and_resilience_capability_articulation"
+    mandatory_output:
+      - foreign_ai_system_threat_landscape_assessment
+      - identified_attack_vectors_and_vulnerabilities
+      - current_india_ai_system_resilience_capability
+      - strategic_continuity_capability_status
+      - resilience_gaps_and_improvement_roadmap
+      - uncertainty_factors_limiting_resilience_assurance
+
+  propagation:
+    mechanism: "uncertainty_flow_through_resilience_decisions"
+    rule_1: "foreign_threat_uncertainty_creates_conservative_resilience_requirements"
+    rule_2: "resilience_capability_uncertainty_triggers_escalation_to_testing_and_validation"
+    rule_3: "strategic_continuity_uncertainty_increases_backup_and_failover_requirements"
+    rule_4: "threat_escalation_uncertainty_maintains_heightened_readiness_posture"
+
+workflow_cognition:
+  operational_sequencing:
+    principle: "deterministic_sovereign_autonomy_eval_before_operation"
+  file_identity: "geopolitical_ai_risk"
+  geopolitical_ai_risk_escalation_choreography:
+      - ingest_geopolitical_ai_signals
+      - assess_sovereign_ai_impact
+      - arbitrate_risk_vs_operations
+      - tighten_ai_governance_gates
+      - govern_geopolitical_uncertainty
+      - escalate_critical_risk
+  sovereign_validation_ordering:
+    - sovereignty_floor_check
+    - foreign_influence_detection
+    - autonomy_and_alignment_validation
+    - uncertainty_gate
+    - permit_preserve_revoke_or_escalate
+  choreography_invariants:
+    - no_skip_sovereign_verification
+    - human_gate_on_escalation
+
+trust_boundaries:
+  threat_assessment_trust_hierarchy:
+    verified_threat_intelligence_with_high_confidence: baseline_defensive_posture
+    probable_threat_scenarios_with_moderate_confidence: heightened_defensive_posture
+    speculative_threats_with_low_confidence: contingency_planning_and_monitoring
+    unverifiable_threats: assume_potential_risk_implement_safeguards
+  
+  resilience_capability_trust:
+    resilience_capability_tested_and_verified: operational_continuity_assured
+    resilience_capability_untested_or_questionable: escalate_for_validation_and_testing
+    resilience_capability_gaps_identified: implement_improvements_before_crisis
+  
+  strategic_continuity_trust:
+    strategic_continuity_verified_under_simulated_crisis: continuity_confidence_high
+    strategic_continuity_untested_or_uncertain: conduct_testing_and_validation
+    strategic_continuity_failure_scenarios_identified: develop_mitigation_strategies
+
+runtime_behavior:
+  threat_assessment_frequency: continuous_with_intelligence_integration
+  resilience_capability_monitoring: continuous_assessment_and_testing
+  strategic_continuity_verification: periodic_testing_and_validation
+  foreign_ai_system_capability_monitoring: continuous_with_external_intelligence
+  threat_escalation_detection: real_time_continuous_monitoring
+
+runtime_degradation:
+  on_threat_assessment_unverifiable:
+    resilience_posture_status: escalated_pending_verification
+    escalation: immediate_to_india_security_authority
+  
+  on_resilience_gap_detected:
+    affected_capabilities: remediation_required_before_deployment
+    system_status: constrained_until_gap_resolved
+    incident_response: india_security_authority_notification
+  
+  on_strategic_continuity_failure_detected:
+    operational_status: crisis_mode_activated
+    system_isolation: failover_and_redundancy_activation
+    incident_escalation: critical_priority_to_india_security_authority
+
+confidence_governance:
+  binary_threat_assumption: prohibited
+  implicit_resilience_capability_assumption: prohibited
+  unverified_threat_assessment: escalated_before_deployment
+  resilience_confidence: explicit_testing_and_validation_required
+  strategic_continuity_confidence: continuous_verification_required
+  hallucinated_geopolitical_safety: prohibited
+
+traceability:
+  threat_assessment_lineage: preserved_per_assessment_cycle
+  resilience_capability_evaluation: immutable_audit_log
+  strategic_continuity_verification: timestamped_and_attributed
+  threat_escalation_response_history: complete_per_crisis_cycle
+  resilience_improvement_record: fully_traceable_with_evidence
+
+human_oversight:
+  threat_authority: india_security_and_strategic_leadership
+  resilience_authority: final_arbiter_of_resilience_capability_adequacy
+  crisis_response_authority: india_security_and_strategic_decision_making
+  override_capability: emergency_operation_with_incident_justification
+  escalation_triggers:
+    - threat_assessment_unverifiable
+    - resilience_gap_identified
+    - strategic_continuity_failure
+    - threat_escalation_indicators_emerging
+    - crisis_conditions_activated
+  autonomous_crisis_decisions_without_authorization: prohibited
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_threat_assumption_escalation: prohibited
+  self_modifying_resilience_policy: prohibited
+  cross_domain_threat_trust_contamination: prohibited
+  uncontrolled_adaptive_threat_inflation: prohibited
+  deterministic_threat_assessment_behavior: enforced
+  strategic_continuity_boundary_preservation: strict
+
+implementation_leakage_control:
+  military_strategy_formulation: excluded
+  diplomatic_negotiation_procedures: excluded
+  geopolitical_intelligence_analysis_methods: excluded
+  defense_system_operational_details: excluded
+
+meta_governance:
+  preserve_geopolitical_threat_assessment_boundary_integrity: true
+  prohibit_runtime_resilience_policy_drift: true
+  prohibit_adaptive_continuity_boundary_erosion: true
+  preserve_deterministic_threat_assessment: true
+  maintain_india_strategic_continuity_integrity_principle: true
+
+output_standard:
+  expose_threat_landscape_assessment: required
+  expose_resilience_capability_status: required
+  expose_strategic_continuity_verification_status: required
+  expose_identified_vulnerabilities_and_attack_vectors: required
+  expose_resilience_gaps_and_improvement_roadmap: required
+  expose_geopolitical_uncertainty_factors: required
+  separate_threat_assessment_from_operational_decision: enforced
+  auditability: full
+  explainability: required_at_each_threat_assessment_decision_point

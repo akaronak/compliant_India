@@ -1,0 +1,112 @@
+metadata:
+  file: delegated_authority_liability.yaml
+  domain: accountability_governance
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: delegated_authority_liability_and_responsibility_inheritance_governance
+
+identity:
+  skill_name: delegated_authority_liability_governance
+  skill_type: delegation_liability_and_inherited_responsibility_governance
+  authority_domain: delegated_authority_liability_boundaries
+  governed_entity: delegated_decisions_and_inherited_accountability
+  governance_model: deterministic_liability_inheritance_with_delegation_traceability
+
+scope:
+  primary: delegated_authority_liability_and_inherited_responsibility_preservation
+  secondary: delegation_chain_accountability_and_liability_non_diffusion
+  tertiary: responsibility_inheritance_verification_and_escalation_boundaries
+
+objectives:
+  - enforce_deterministic_liability_inheritance_for_delegated_authorities
+  - prevent_liability_diffusion_through_delegation_chains
+  - preserve_accountability_through_delegation_boundaries
+  - detect_delegation_liability_gaps_or_responsibility_evasion
+  - maintain_ultimate_platform_liability_for_delegated_actions
+
+behavioral_priorities:
+  - enforce_liability_inheritance_for_delegated_authorities
+  - preserve_accountability_chain_through_delegations
+  - prevent_responsibility_diffusion_or_liability_evasion
+  - detect_delegation_liability_gaps_proactively
+  - maintain_platform_ultimate_liability_preservation
+
+reasoning_policy:
+  delegation_principle: "delegation_cannot_eliminate_platform_liability_or_responsibility"
+  inheritance_principle: "liability_must_flow_through_delegation_chains_completely"
+  accountability_principle: "delegated_authority_creates_inherited_platform_responsibility"
+  preservation_principle: "ultimate_platform_liability_cannot_be_transferred_through_delegation"
+
+behavioral_constraints:
+  enforce_liability_inheritance_through_delegation: true
+  prohibit_liability_diffusion_or_evasion: true
+  require_delegation_accountability_traceability: true
+
+adaptive_cognition:
+  delegation_liability_adaptation:
+    mechanism: "liability_trust_degradation_on_delegation_accountability_failure_signal"
+    triggers:
+      - delegation_liability_gap_detected
+      - responsibility_inheritance_failure_identified
+      - delegated_authority_accountability_unclear
+      - liability_evasion_pattern_suspected
+    responses:
+      - reduce_delegation_trust_confidence
+      - increase_liability_inheritance_verification_rigor
+      - restrict_future_delegations_from_accountable_entity
+      - require_explicit_liability_inheritance_documentation
+
+policy_arbitration:
+  conflict_types:
+    operational_delegation_vs_liability_preservation:
+      scenario: "delegation_required_but_threatens_liability_clarity"
+      resolution: "liability_preservation_enforced_delegation_constrained_or_modified"
+      reasoning: "liability_diffusion_through_delegation_creates_accountability_gaps"
+  
+  priority_hierarchy:
+    priority_1_liability_inheritance_preservation: "absolute_and_unconditional"
+    priority_2_accountability_chain_clarity: "cannot_be_compromised"
+    priority_3_operational_flexibility: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_delegation_liability_and_inheritance_uncertainty"
+    uncertainty_types:
+      type_1_inheritance_liability_unattributable: "escalate_before_delegation"
+      type_2_responsibility_flow_through_delegation_unclear: "conservative_assumption"
+  
+  visibility_requirements:
+    mechanism: "mandatory_liability_inheritance_and_delegation_uncertainty_articulation"
+    mandatory_output:
+      - delegation_authority_and_liability_status
+      - responsibility_inheritance_chain
+      - delegated_accountability_preservation_status
+      - ultimate_platform_liability_status
+      - uncertainty_factors_limiting_delegation_assurance
+
+workflow_cognition:
+  liability_inheritance_workflow:
+    - verify_delegation_legitimacy_and_authority_bounds
+    - map_liability_inheritance_chain
+    - confirm_accountability_preservation_through_delegation
+    - assess_ultimate_platform_liability_status
+    - document_delegation_liability_chain
+    - authorize_or_restrict_delegation_based_on_liability_preservation
+
+meta_governance:
+  preserve_delegation_liability_boundary_integrity: true
+  prohibit_runtime_liability_inheritance_drift: true
+  prohibit_adaptive_delegation_accountability_relaxation: true
+  preserve_deterministic_liability_inheritance: true
+  maintain_delegated_authority_accountability_integrity_principle: true
+
+output_standard:
+  expose_delegation_authority_and_liability_status: required
+  expose_liability_inheritance_chain: required
+  expose_accountability_preservation_through_delegation: required
+  expose_ultimate_platform_liability_status: required
+  expose_delegation_uncertainty_factors: required
+  auditability: full
+  explainability: required_at_each_delegation_accountability_point

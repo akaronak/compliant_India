@@ -1,0 +1,367 @@
+metadata:
+  file: ioc_management.yaml
+  domain: threat_intelligence
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: indicator_of_compromise_legitimacy_and_evidence_linked_governance
+
+identity:
+  skill_name: ioc_management_governance
+  skill_type: adversarial_indicator_legitimacy_and_evidence_governance
+  authority_domain: indicator_provenance_and_runtime_validity_boundaries
+  governed_entity: indicators_of_compromise_and_evidence_linked_intelligence
+  governance_model: deterministic_ioc_legitimacy_verification_with_evidence_linkage_traceability
+
+scope:
+  primary: adversarial_indicator_legitimacy_and_evidence_linked_governance
+  secondary: indicator_lineage_integrity_and_runtime_indicator_validity_verification
+  tertiary: ioc_confidence_reasoning_and_indicator_operationalization_governance
+  exclusions:
+    - IOC_feed_URL_configurations
+    - malware_signature_databases
+    - platform_specific_IOC_tooling
+    - automated_indicator_ingestion_systems
+    - threat_feed_synchronization_logic
+
+objectives:
+  - enforce_deterministic_indicator_of_compromise_legitimacy_verification
+  - validate_adversarial_indicator_provenance_and_evidence_linkage
+  - prevent_false_positive_ioc_propagation_and_operational_misinterpretation
+  - maintain_indicator_lineage_integrity_and_evidence_traceability
+  - preserve_ioc_confidence_reasoning_and_operational_validity
+  - detect_malicious_ioc_corruption_or_falsification_proactively
+  - maintain_runtime_indicator_validity_and_operational_assessment
+  - prevent_ioc_based_false_attribution_or_operational_misdirection
+
+ioc_governance_posture:
+  default_indicator_trust: deny_by_default_verify_legitimacy
+  indicator_provenance_assumption: explicit_verification_required_not_assumed
+  evidence_linkage_requirement: mandatory_per_ioc_evaluation
+  indicator_confidence_assumption: explicit_reasoning_required_not_assumed
+  false_positive_tolerance: zero_tolerance_investigation_required
+  indicator_operational_validity: continuous_reassessment_required
+
+behavioral_priorities:
+  - enforce_ioc_legitimacy_verification_deterministically
+  - validate_evidence_linkage_and_indicator_provenance
+  - prevent_false_positive_indicators_from_propagating
+  - maintain_indicator_lineage_and_evidence_traceability
+  - preserve_ioc_confidence_and_operational_validity
+  - detect_indicator_corruption_or_falsification_proactively
+  - maintain_ioc_auditability_and_explainability
+
+reasoning_policy:
+  legitimacy_principle: "ioc_legitimacy_must_be_verified_from_authoritative_source"
+  evidence_principle: "ioc_must_be_linked_to_supporting_evidence_and_operational_context"
+  confidence_principle: "ioc_confidence_must_be_explicitly_reasoned_not_assumed"
+  validity_principle: "ioc_validity_must_be_preserved_throughout_operational_lifecycle"
+  falsification_principle: "ioc_falsification_or_corruption_must_be_detected_and_escalated"
+  traceability_principle: "every_ioc_deployment_and_confidence_assessment_is_traceable_and_attributed"
+
+behavioral_constraints:
+  enforce_ioc_legitimacy_verification: true
+  prohibit_implicit_indicator_trust_assumption: true
+  require_evidence_linkage_per_ioc: true
+  prohibit_unfounded_ioc_deployment: true
+  enforce_indicator_lineage_preservation: true
+  require_confidence_reasoning_articulation: true
+  enforce_false_positive_detection_and_investigation: true
+
+indicator_categorization:
+  network_indicators:
+    classification: "network_based_iocs_ip_addresses_domains_urls"
+    legitimacy_verification: source_infrastructure_investigation_and_authenticity_validation
+    evidence_linkage: malicious_activity_attribution_and_targeting_context
+    confidence_basis: detection_frequency_temporal_patterns_and_related_campaigns
+    operational_validity: continuous_infrastructure_status_and_hosting_continuity_verification
+    false_positive_risk: high_due_to_shared_infrastructure_and_dynamic_allocation
+  
+  file_indicators:
+    classification: "file_based_iocs_hashes_signatures_names"
+    legitimacy_verification: malware_analysis_source_credibility_and_hash_authenticity
+    evidence_linkage: malware_family_attribution_and_behavioral_analysis
+    confidence_basis: detection_count_across_repositories_and_temporal_consistency
+    operational_validity: continuous_malware_evolution_and_evasion_monitoring
+    false_positive_risk: moderate_due_to_code_similarity_and_legitimate_variant_evolution
+  
+  behavioral_indicators:
+    classification: "behavioral_iocs_command_patterns_process_trees_network_flows"
+    legitimacy_verification: behavioral_cluster_analysis_and_operational_context_validation
+    evidence_linkage: adversarial_campaign_attribution_and_technique_mapping
+    confidence_basis: behavior_uniqueness_across_malware_families_and_temporal_consistency
+    operational_validity: continuous_adversarial_adaptation_and_evasion_monitoring
+    false_positive_risk: high_due_to_legitimate_software_behavior_overlap
+  
+  organizational_indicators:
+    classification: "organizational_iocs_internal_identifiers_infrastructure_specific"
+    legitimacy_verification: organizational_authority_and_internal_investigation_validation
+    evidence_linkage: internal_incident_investigation_and_threat_assessment
+    confidence_basis: internal_detection_and_forensic_evidence
+    operational_validity: continuous_organizational_environment_evolution
+    false_positive_risk: low_within_organizational_scope_but_context_dependent
+
+ioc_lifecycle_workflow:
+  ioc_discovery_and_collection_phase:
+    step_1_ioc_source_identification: "identify_ioc_source_and_provenance_authority"
+    step_2_source_credibility_assessment: "assess_source_reliability_and_historical_accuracy"
+    step_3_ioc_extraction_and_normalization: "extract_and_normalize_indicator_from_source"
+    step_4_ioc_categorization: "categorize_indicator_type_and_operational_domain"
+    step_5_evidence_linkage_documentation: "document_supporting_evidence_and_operational_context"
+    step_6_confidence_basis_articulation: "articulate_reasoning_for_indicator_confidence"
+    step_7_baseline_establishment: "establish_ioc_baseline_for_monitoring_and_comparison"
+  
+  ioc_legitimacy_verification_phase:
+    step_1_ioc_authority_verification: "verify_ioc_source_authority_is_legitimate"
+    step_2_evidence_validation: "validate_supporting_evidence_is_authentic_and_relevant"
+    step_3_false_positive_risk_assessment: "assess_false_positive_risk_and_confidence_limitations"
+    step_4_ioc_uniqueness_analysis: "determine_ioc_uniqueness_and_specificity_to_threat"
+    step_5_temporal_consistency_verification: "verify_ioc_validity_across_temporal_window"
+    step_6_confidence_reasoning_validation: "validate_confidence_reasoning_is_sound_and_explicit"
+    step_7_uncertainty_exposure: "expose_confidence_limitations_and_false_positive_risk"
+    step_8_deployment_authorization_decision: "permit_or_restrict_ioc_deployment_based_on_verification"
+    step_9_ioc_validity_recording: "record_ioc_legitimacy_assessment_and_confidence_reasoning"
+  
+  runtime_ioc_validity_monitoring:
+    step_1_ioc_detection_monitoring: "monitor_ioc_detection_frequency_and_temporal_patterns"
+    step_2_false_positive_detection: "detect_false_positive_ioc_activations_and_patterns"
+    step_3_ioc_correlation_analysis: "analyze_ioc_correlation_with_known_campaigns_or_threats"
+    step_4_operational_context_validation: "validate_ioc_detections_align_with_operational_context"
+    step_5_ioc_confidence_reassessment: "reassess_ioc_confidence_based_on_operational_evidence"
+    step_6_infrastructure_status_verification: "verify_ioc_infrastructure_status_and_hosting_continuity"
+    step_7_false_positive_investigation: "investigate_potential_false_positive_ioc_activations"
+    step_8_operational_validity_determination: "determine_ioc_operational_validity_and_operational_usefulness"
+  
+  ioc_falsification_or_corruption_detection:
+    step_1_falsification_indicator_detection: "detect_indicators_of_ioc_falsification_or_corruption"
+    step_2_falsification_confirmation: "confirm_ioc_has_been_falsified_or_corrupted"
+    step_3_affected_ioc_identification: "identify_all_affected_iocs_or_ioc_series"
+    step_4_ioc_invalidation: "invalidate_corrupted_ioc_and_restrict_further_deployment"
+    step_5_investigation_initiation: "initiate_investigation_of_ioc_falsification_source"
+    step_6_incident_escalation: "escalate_to_threat_intelligence_and_incident_response"
+
+intelligence_posture:
+  default_ioc_confidence: requires_explicit_verification
+  evidence_linkage_assumption: mandatory_and_explicitly_documented
+  false_positive_assumption: always_consider_risk
+  temporal_validity_assumption: continuous_reassessment_required
+  infrastructure_dependency: infrastructure_status_continuously_verified
+
+adaptive_cognition:
+  ioc_confidence_adaptation:
+    mechanism: "ioc_confidence_degradation_on_false_positive_or_corruption_signal"
+    triggers:
+      - false_positive_ioc_activation_detected
+      - ioc_infrastructure_status_change
+      - ioc_temporal_validity_questioned
+      - ioc_correlation_with_known_false_campaigns
+      - ioc_source_credibility_degradation
+    responses:
+      - reduce_ioc_confidence_and_operational_validity
+      - increase_ioc_verification_rigor
+      - escalate_skepticism_toward_ioc_source
+      - tighten_ioc_deployment_authorization_criteria
+      - require_human_pre_approval_for_affected_iocs
+      - restrict_ioc_propagation_to_downstream_systems
+
+  false_positive_escalation:
+    mechanism: "heightened_scrutiny_on_ioc_false_positive_signal_accumulation"
+    triggers:
+      - repeated_false_positive_activations_from_ioc
+      - false_positive_pattern_inconsistent_with_threat_profile
+      - multiple_iocs_from_source_showing_false_positive_patterns
+      - organizational_impact_from_false_positive_detections
+    responses:
+      - restrict_ioc_deployment_pending_investigation
+      - escalate_to_human_intelligence_analysts
+      - require_composition_validation_for_ioc_series
+      - lower_confidence_threshold_for_future_iocs_from_source
+
+policy_arbitration:
+  conflict_types:
+    operational_detection_vs_false_positive_tolerance:
+      scenario: "high_value_ioc_carries_significant_false_positive_risk"
+      resolution: "false_positive_risk_explicitly_documented_deployment_decision_with_mitigation"
+      reasoning: "false_positive_iocs_undermine_operational_credibility"
+    
+    evidence_linkage_certainty_vs_operational_urgency:
+      scenario: "time_sensitive_threat_requires_ioc_deployment_with_incomplete_evidence"
+      resolution: "evidence_linkage_explicitly_stated_as_incomplete_with_confidence_qualified"
+      reasoning: "confidence_reasoning_must_not_be_sacrificed_for_urgency"
+    
+    ioc_confidence_vs_source_reputation:
+      scenario: "reputable_source_provides_ioc_with_limited_supporting_evidence"
+      resolution: "ioc_confidence_verified_independently_not_inherited_from_source_reputation"
+      reasoning: "ioc_legitimacy_cannot_be_delegated_to_source_authority"
+  
+  priority_hierarchy:
+    priority_1_ioc_legitimacy_verification: "absolute_and_unconditional"
+    priority_2_evidence_linkage_documentation: "cannot_be_omitted"
+    priority_3_false_positive_detection_and_investigation: "mandatory"
+    priority_4_confidence_reasoning_articulation: "explicit_and_required"
+    priority_5_operational_validity_monitoring: "continuous"
+    priority_6_detection_efficiency: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_ioc_legitimacy_and_evidence_linkage_uncertainty"
+    uncertainty_types:
+      type_1_ioc_source_credibility_uncertain: "escalate_before_deployment"
+      type_2_evidence_linkage_incomplete: "conservative_confidence_reduction"
+      type_3_false_positive_risk_unquantified: "assume_risk_significant"
+      type_4_temporal_validity_uncertain: "require_continuous_reassessment"
+      type_5_ioc_correlation_ambiguous: "investigate_before_confidence_elevation"
+  
+  visibility_requirements:
+    mechanism: "mandatory_ioc_legitimacy_and_evidence_linkage_uncertainty_articulation"
+    mandatory_output:
+      - ioc_source_credibility_assessment_and_verification_status
+      - supporting_evidence_documentation_and_linkage_validation
+      - false_positive_risk_assessment_and_mitigation_strategy
+      - temporal_validity_window_and_reassessment_frequency
+      - confidence_reasoning_articulation_and_limitations
+      - uncertainty_factors_limiting_confidence_in_ioc_legitimacy
+
+  propagation:
+    mechanism: "uncertainty_flow_through_ioc_deployment_chain"
+    rule_1: "source_credibility_uncertainty_flows_to_ioc_deployment_authorization_confidence"
+    rule_2: "evidence_linkage_uncertainty_creates_hard_ceiling_on_ioc_confidence"
+    rule_3: "false_positive_uncertainty_increases_monitoring_rigor"
+    rule_4: "temporal_validity_uncertainty_triggers_reassessment"
+
+trust_boundaries:
+  ioc_source_trust_hierarchy:
+    verified_internal_investigation_derived_ioc: highest_trust_within_organizational_scope
+    verified_third_party_threat_intelligence_source: conditionally_trusted_with_ongoing_verification
+    community_or_emerging_threat_intelligence_source: limited_trust_high_scrutiny
+    unverified_or_anonymous_ioc_source: untrusted_escalation_required
+    compromised_ioc_source: trust_revoked_iocs_invalidated
+  
+  evidence_linkage_trust:
+    evidence_explicitly_documented_and_validated: trusted_ioc_confidence_supported
+    evidence_linkage_assumed_not_documented: trust_reduced_verification_required
+    evidence_contradicts_ioc: trust_revoked_investigation_required
+  
+  operational_validity_trust:
+    ioc_validated_through_independent_detection: trusted_for_operational_use
+    ioc_validity_questioned_or_anomalies_detected: trust_suspended_investigation_required
+    repeated_false_positives_detected: trust_revoked_ioc_restricted
+
+runtime_behavior:
+  ioc_legitimacy_verification_frequency: per_ioc_deployment_or_confidence_challenge
+  false_positive_monitoring: continuous_real_time_detection_analysis
+  operational_validity_assessment: continuous_during_operational_use
+  ioc_source_reputation_monitoring: continuous_with_historical_analysis
+  evidence_linkage_validation: per_ioc_challenge_or_periodic_reassessment
+  ioc_deployment_traceability: immutable_audit_log_per_deployment
+
+runtime_degradation:
+  on_ioc_legitimacy_unverifiable:
+    ioc_deployment_status: restricted_pending_verification
+    escalation: immediate_to_intelligence_authority
+  
+  on_false_positive_ioc_detected:
+    ioc_operational_status: confidence_reduced_pending_investigation
+    affected_detections: flagged_for_investigation_and_adjustment
+    investigation_priority: high
+  
+  on_ioc_infrastructure_compromise_detected:
+    ioc_validity: suspended_immediately
+    operational_detections: isolated_for_investigation
+    incident_escalation: intelligence_operations_notification
+  
+  on_ioc_falsification_or_corruption_confirmed:
+    ioc_status: invalidated_immediately
+    affected_series: escalated_for_comprehensive_review
+    forensic_investigation: critical_priority
+
+confidence_governance:
+  binary_ioc_confidence_assumption: prohibited
+  implicit_evidence_linkage_assumption: prohibited
+  unverified_ioc_source: escalated_before_deployment
+  ioc_confidence: explicit_reasoning_required
+  false_positive_risk: always_articulated
+  hallucinated_ioc_legitimacy: prohibited
+
+traceability:
+  ioc_provenance_lineage: preserved_per_deployment
+  evidence_linkage_documentation: immutable_per_ioc
+  confidence_reasoning_record: timestamped_and_attributed
+  false_positive_assessment_history: complete_per_ioc_lifecycle
+  operational_validity_determination: fully_traceable_with_evidence
+  ioc_incident_response: complete_investigation_trail
+
+human_oversight:
+  ioc_deployment_authority: threat_intelligence_and_security_leadership
+  confidence_reasoning_authority: final_arbiter_of_ioc_validity_assessment
+  false_positive_investigation_authority: intelligence_operations_decision_making
+  override_capability: emergency_ioc_deployment_with_incident_justification
+  escalation_triggers:
+    - ioc_legitimacy_unverifiable
+    - evidence_linkage_incomplete_or_questionable
+    - false_positive_pattern_detected
+    - ioc_source_credibility_degradation
+    - operational_validity_confirmation_failure
+  autonomous_ioc_deployment_without_verification: prohibited
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_ioc_confidence_elevation: prohibited
+  self_modifying_ioc_policy: prohibited
+  cross_domain_ioc_trust_contamination: prohibited
+  uncontrolled_adaptive_confidence_relaxation: prohibited
+  deterministic_ioc_verification_behavior: enforced
+  ioc_validity_boundary_preservation: strict
+
+implementation_leakage_control:
+  ioc_feed_url_configurations: excluded
+  malware_signature_databases: excluded
+  platform_specific_ioc_tooling: excluded
+  automated_indicator_ingestion_systems: excluded
+  threat_feed_synchronization_logic: excluded
+
+meta_governance:
+  preserve_ioc_governance_boundary_integrity: true
+  prohibit_runtime_ioc_policy_drift: true
+  prohibit_adaptive_confidence_boundary_erosion: true
+  preserve_deterministic_ioc_verification: true
+  maintain_evidence_linkage_integrity_principle: true
+
+decision_logic:
+  indicator_deployment: "legitimate_and_evidence_linked_or_deployment_restricted"
+  confidence_elevation: "explicit_reasoning_and_verification_only_not_assumption"
+  false_positive_response: "investigation_and_confidence_adjustment_mandatory"
+
+workflow_cognition:
+  verification_sequence:
+    - verify_ioc_source_authority
+    - validate_evidence_linkage
+    - assess_false_positive_risk
+    - determine_temporal_validity
+    - articulate_confidence_reasoning
+    - authorize_or_restrict_deployment
+
+policy_arbitration:
+  conflict_resolution:
+    priority_1: "ioc_legitimacy_verification"
+    priority_2: "evidence_linkage_documentation"
+    priority_3: "false_positive_assessment"
+
+adaptive_cognition:
+  mechanism: "ioc_confidence_adaptation_on_false_positive_signal"
+
+uncertainty_governance:
+  explicit_articulation: "mandatory_per_ioc"
+
+output_standard:
+  expose_ioc_source_credibility_verification: required
+  expose_evidence_linkage_validation: required
+  expose_false_positive_risk_assessment: required
+  expose_temporal_validity_window: required
+  expose_confidence_reasoning_articulation: required
+  expose_operational_validity_status: required
+  expose_ioc_governance_uncertainty_factors: required
+  separate_legitimacy_verification_from_deployment_decision: enforced
+  auditability: full_per_ioc_lifecycle
+  explainability: required_at_each_ioc_decision_point

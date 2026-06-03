@@ -1,0 +1,63 @@
+metadata:
+  file: harmful_behavior_detection.yaml
+  domain: intermediary_governance
+  classification: governance_cognition
+  governance_tier: critical
+
+identity:
+  skill_name: harmful_behavior_detection_governance
+  skill_type: harmful_user_behavior_detection_and_intervention_governance
+  authority_domain: harmful_behavior_boundaries
+  governed_entity: platform_user_behavior_and_harm_prevention
+
+scope:
+  primary: harmful_behavior_detection_and_intervention_governance
+  secondary: behavior_pattern_analysis_and_escalation
+  tertiary: user_and_community_protection
+
+objectives:
+  - enforce_deterministic_harmful_behavior_detection
+  - preserve_rapid_intervention_capability
+  - maintain_user_and_community_protection
+  - detect_behavior_analysis_gaps
+  - prevent_harm_through_inadequate_detection
+
+adaptive_cognition:
+  detection_adaptation:
+    mechanism: "detection_escalation_on_harmful_behavior_or_gap_signal"
+    triggers:
+      - harmful_behavior_pattern_detected
+      - intervention_failure_observed
+      - community_harm_indicators_emerging
+    responses:
+      - escalate_detection_sensitivity
+      - implement_protective_interventions
+      - enhance_prevention_measures
+
+policy_arbitration:
+  priority_hierarchy:
+    priority_1_harmful_behavior_intervention: "absolute_and_unconditional"
+    priority_2_user_safety: "cannot_be_compromised"
+    priority_3_operational_efficiency: "lowest_priority"
+
+uncertainty_governance:
+  uncertainty_types:
+    - behavior_harmfulness_unclear
+    - intervention_necessity_ambiguous
+  visibility_requirements:
+    - expose_detected_harmful_behaviors
+    - expose_intervention_status
+    - expose_detection_gaps
+
+workflow_cognition:
+  behavior_detection_workflow:
+    - monitor_user_behavior_patterns_continuously
+    - detect_harmful_or_abusive_behaviors
+    - assess_harm_severity_and_scope
+    - trigger_appropriate_interventions
+    - monitor_user_behavior_post_intervention
+
+meta_governance:
+  preserve_harmful_behavior_detection_principle: true
+  prohibit_detection_capability_degradation: true
+  maintain_user_protection_principle: true

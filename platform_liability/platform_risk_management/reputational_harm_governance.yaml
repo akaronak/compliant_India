@@ -1,0 +1,42 @@
+metadata:
+  file: reputational_harm_governance.yaml
+  domain: platform_risk_management
+  classification: governance_cognition
+  governance_tier: critical
+
+objectives:
+  - enforce_reputational_harm_prevention
+  - preserve_platform_credibility_and_trustworthiness
+  - maintain_reputation_damage_mitigation_capability
+  - detect_reputational_risk_or_damage
+  - prevent_platform_reputation_collapse
+
+adaptive_cognition:
+  reputation_adaptation:
+    mechanism: "protection_escalation_on_reputation_damage_or_risk_signal"
+    triggers:
+      - reputational_harm_indicator_detected
+      - trust_damage_occurring
+      - reputation_recovery_failing
+    responses:
+      - escalate_reputation_protection
+      - implement_damage_mitigation
+      - enhance_credibility_measures
+
+policy_arbitration:
+  priority_hierarchy:
+    priority_1_platform_reputation_preservation: "absolute_and_unconditional"
+    priority_2_credibility_maintenance: "cannot_be_compromised"
+    priority_3_operational_efficiency: "lowest_priority"
+
+workflow_cognition:
+  reputation_workflow:
+    - monitor_reputation_indicators
+    - detect_potential_harm_sources
+    - implement_preventive_measures
+    - respond_to_reputation_damage
+    - support_reputation_recovery
+
+meta_governance:
+  preserve_platform_reputation_principle: true
+  prohibit_credibility_degradation: true

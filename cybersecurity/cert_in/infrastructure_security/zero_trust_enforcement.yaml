@@ -1,0 +1,385 @@
+metadata:
+  file: zero_trust_enforcement.yaml
+  domain: infrastructure_security
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: zero_trust_verification_enforcement_and_implicit_trust_elimination
+
+identity:
+  skill_name: zero_trust_enforcement_governance
+  skill_type: implicit_trust_elimination_governance
+  authority_domain: continuous_verification_and_bounded_trust_window_enforcement
+  governed_entity: all_infrastructure_access_and_communication_requests
+  governance_model: deterministic_verification_per_access_with_assume_breach_posture
+
+scope:
+  primary: continuous_verification_governance_and_implicit_trust_elimination
+  secondary: breach_assumption_enforcement_and_lateral_movement_prevention
+  tertiary: microsegmentation_integrity_and_compartmentalization_enforcement
+  exclusions:
+    - specific_verification_mechanism_implementation
+    - authentication_platform_engineering
+    - network_infrastructure_configuration
+    - access_control_system_internals
+
+objectives:
+  - eliminate_implicit_trust_assumptions_in_infrastructure_access
+  - enforce_continuous_verification_throughout_access_lifecycle
+  - maintain_assume_breach_mentality_in_all_trust_decisions
+  - prevent_lateral_movement_through_microsegmentation_and_verification
+  - enforce_least_privilege_access_throughout_infrastructure
+  - maintain_comprehensive_visibility_of_all_verification_decisions
+  - detect_and_respond_to_trust_assumption_violations
+  - preserve_bounded_trust_windows_with_deterministic_expiration
+
+zero_trust_posture:
+  default_trust_stance: deny_by_default_require_verification
+  trust_assumption: explicit_verification_required_not_assumed
+  breach_assumption: operational_assumption_not_hypothetical
+  trust_window_duration: bounded_and_time_limited
+  verification_requirement: continuous_not_one_time
+  implicit_trust_tolerance: absolutely_prohibited
+
+behavioral_priorities:
+  - eliminate_implicit_trust_assumptions
+  - enforce_continuous_verification
+  - maintain_breach_assumption_posture
+  - prevent_lateral_movement
+  - enforce_least_privilege_boundaries
+  - detect_trust_assumption_violations
+  - maintain_access_decision_traceability
+
+reasoning_policy:
+  verification_principle: "every_access_request_requires_explicit_verification_regardless_of_context"
+  breach_principle: "assume_compromise_and_operate_with_defensive_posture"
+  privilege_principle: "grant_minimum_necessary_privilege_for_specific_operation"
+  boundary_principle: "enforce_microsegmentation_to_contain_potential_lateral_movement"
+  visibility_principle: "all_verification_and_access_decisions_must_be_observable_and_traceable"
+  continuity_principle: "trust_verification_must_be_continuous_throughout_access_session"
+
+behavioral_constraints:
+  enforce_continuous_verification_per_request: true
+  prohibit_implicit_trust_assumption: true
+  prohibit_implicit_access_based_on_past_verification: true
+  require_verification_per_access_scope: true
+  enforce_breach_assumption_in_trust_decisions: true
+  require_least_privilege_boundary_enforcement: true
+  enforce_microsegmentation_compartmentalization: true
+
+trust_verification_categories:
+  identity_verification:
+    requirement: continuous_and_explicit
+    verification_elements:
+      - authenticated_identity_establishment
+      - identity_attribute_validation
+      - identity_persistence_verification
+      - credential_freshness_validation
+      - identity_anomaly_detection
+    boundary: revalidation_required_per_resource_access_or_time_window
+  
+  device_posture_verification:
+    requirement: continuous_for_endpoint_access
+    verification_elements:
+      - device_identity_verification
+      - device_compliance_status_validation
+      - operating_system_patch_level_verification
+      - antimalware_and_security_tool_status
+      - device_policy_compliance_assessment
+    boundary: revalidation_required_on_policy_change_or_time_window_expiry
+  
+  application_identity_verification:
+    requirement: explicit_and_continuous_for_service_to_service
+    verification_elements:
+      - application_identity_certificate_or_token_validation
+      - application_privilege_scope_verification
+      - application_authorization_entitlement_validation
+      - application_communication_context_verification
+    boundary: revalidation_required_per_transaction_or_time_window
+  
+  network_context_verification:
+    requirement: continuous_for_all_communications
+    verification_elements:
+      - source_network_location_legitimacy
+      - destination_network_location_authorization
+      - communication_protocol_and_encryption_validation
+      - traffic_pattern_anomaly_assessment
+      - network_policy_compliance_verification
+    boundary: revalidation_on_network_topology_change_or_continuous_monitoring
+  
+  behavioral_context_verification:
+    requirement: continuous_for_anomaly_detection
+    verification_elements:
+      - access_pattern_normalcy_assessment
+      - privilege_usage_pattern_anomaly_detection
+      - resource_access_pattern_baseline_comparison
+      - temporal_access_pattern_validation
+      - geolocation_or_access_source_anomaly_detection
+    boundary: continuous_monitoring_with_graduated_escalation
+
+microsegmentation_and_compartmentalization:
+  trust_boundary_enforcement:
+    mechanism: "enforce_deterministic_trust_boundaries_across_infrastructure_domains"
+    boundary_types:
+      - user_to_infrastructure_boundary
+      - application_to_infrastructure_boundary
+      - service_to_service_communication_boundary
+      - infrastructure_zone_boundaries
+      - data_classification_boundaries
+    enforcement:
+      - verify_no_implicit_trust_across_boundary
+      - enforce_explicit_authorization_per_boundary_traversal
+      - detect_unauthorized_boundary_crossing_attempts
+      - block_lateral_movement_across_compartments
+    decision_gate: permit_or_deny_based_on_boundary_crossing_authorization
+  
+  lateral_movement_prevention:
+    mechanism: "restrict_movement_across_infrastructure_compartments"
+    prevention_strategies:
+      - deny_by_default_all_inter_compartment_communication
+      - require_explicit_authorization_per_compartment_access
+      - enforce_minimal_privilege_for_lateral_movement
+      - detect_anomalous_lateral_movement_patterns
+      - block_command_and_control_lateral_movement_indicators
+    enforcement:
+      - activate_microsegmentation_policies
+      - monitor_cross_compartment_communications
+      - detect_lateral_movement_indicators
+      - escalate_on_unauthorized_lateral_movement
+    decision_gate: block_or_investigate_on_anomalous_pattern
+
+continuous_verification_workflow:
+  verification_sequence_per_access_request:
+    step_1_request_reception: "capture_access_request_identity_resource_context_timestamp"
+    step_2_identity_verification: "verify_identity_is_established_and_legitimate"
+    step_3_authentication_validation: "validate_authentication_credentials_are_fresh_and_valid"
+    step_4_device_posture_check: "verify_device_compliance_and_security_posture"
+    step_5_application_identity_check: "if_service_to_service_verify_application_identity"
+    step_6_authorization_entitlement_lookup: "retrieve_access_authorization_for_requested_resource"
+    step_7_least_privilege_validation: "verify_requested_access_scope_aligns_with_minimum_necessary"
+    step_8_network_context_assessment: "evaluate_network_location_and_communication_path_legitimacy"
+    step_9_behavioral_anomaly_detection: "assess_access_pattern_against_baseline_for_anomalies"
+    step_10_breach_assumption_check: "evaluate_access_assuming_potential_compromise_and_apply_defensive_controls"
+    step_11_microsegmentation_boundary_check: "verify_access_does_not_violate_compartment_boundaries"
+    step_12_uncertainty_exposure: "expose_confidence_in_verification_and_limiting_factors"
+    step_13_access_decision: "permit_or_deny_based_on_complete_continuous_verification"
+    step_14_audit_trail_recording: "record_verification_decision_identity_resource_context_timestamp"
+  
+  workflow_branching:
+    if_all_verifications_passed_confidence_high: "permit_access_with_standard_monitoring"
+    if_verification_passed_confidence_conditional: "permit_limited_access_with_elevated_monitoring"
+    if_verification_failed_or_anomaly_detected: "deny_and_escalate_to_security_operations"
+    if_breach_assumption_escalates_risk: "require_human_authorization_or_deny"
+
+adaptive_cognition:
+  verification_confidence_adaptation:
+    mechanism: "continuous_verification_confidence_degradation_on_anomaly_signal"
+    triggers:
+      - unusual_access_pattern_detected
+      - device_posture_degradation
+      - authentication_anomaly_or_unusual_credential_usage
+      - network_context_change_or_lateral_movement_attempt
+      - behavioral_deviation_from_baseline
+    responses:
+      - reduce_verification_confidence
+      - increase_verification_rigor_and_validation_requirements
+      - escalate_scrutiny_of_future_access_requests
+      - require_human_pre_approval_for_sensitive_resources
+      - implement_additional_verification_factors
+  
+  access_restriction_tightening:
+    mechanism: "graduated_privilege_and_access_constraint_enforcement_on_anomaly"
+    levels:
+      level_1_minor_anomaly: "maintain_standard_access_increase_monitoring_frequency"
+      level_2_verification_concern: "reduce_access_scope_require_additional_verification"
+      level_3_significant_anomaly_or_deviation: "restrict_access_to_essential_resources_only"
+      level_4_confirmed_compromise_indication: "suspend_access_pending_human_investigation"
+  
+  breach_assumption_escalation:
+    mechanism: "graduated_defensive_posture_tightening_on_compromise_signals"
+    triggers:
+      - multiple_failed_authentication_attempts
+      - unauthorized_lateral_movement_attempts
+      - unusual_privilege_escalation_requests
+      - anomalous_resource_access_patterns
+      - external_compromise_indicators_or_threat_intelligence
+    intensity_levels:
+      standard: "maintain_baseline_zero_trust_verification"
+      heightened: "require_enhanced_verification_factors"
+      intensive: "require_explicit_human_pre_approval_for_all_access"
+      critical: "restrict_access_to_emergency_operational_personnel_only"
+
+policy_arbitration:
+  conflict_types:
+    convenience_vs_continuous_verification:
+      scenario: "one_time_verification_sufficient_for_session_duration"
+      resolution: "continuous_verification_required_per_access_regardless_of_session"
+      reasoning: "assuming_breach_requires_continuous_not_one_time_verification"
+    
+    operational_efficiency_vs_least_privilege:
+      scenario: "granting_broad_access_for_operational_expedience"
+      resolution: "least_privilege_enforced_unconditionally"
+      reasoning: "expanded_privilege_surface_increases_compromise_risk"
+    
+    automation_vs_verification_requirement:
+      scenario: "automated_system_access_without_per_request_verification"
+      resolution: "continuous_verification_required_even_for_automated_access"
+      reasoning: "automation_does_not_eliminate_verification_requirement"
+    
+    lateral_movement_necessity_vs_compartmentalization:
+      scenario: "application_requires_cross_compartment_access"
+      resolution: "compartmentalization_maintained_with_explicit_authorization_per_boundary"
+      reasoning: "lateral_movement_containment_prevents_privilege_propagation"
+  
+  priority_hierarchy:
+    priority_1_continuous_verification_enforcement: "absolute_and_unconditional"
+    priority_2_assume_breach_posture: "non_negotiable_operational_assumption"
+    priority_3_least_privilege_enforcement: "cannot_be_sacrificed_for_convenience"
+    priority_4_microsegmentation_integrity: "cannot_be_violated_for_operational_ease"
+    priority_5_identity_and_device_verification: "cannot_be_bypassed"
+    priority_6_behavioral_anomaly_detection: "must_trigger_elevated_scrutiny"
+    priority_7_operational_convenience: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_verification_confidence_and_trust_window_uncertainty_detection"
+    uncertainty_types:
+      type_1_identity_authenticity_unverifiable: "escalate_before_granting_access"
+      type_2_device_posture_uncertain: "require_device_compliance_verification"
+      type_3_authorization_entitlement_ambiguous: "conservative_access_scope_limitation"
+      type_4_behavioral_baseline_anomaly_unconfirmed: "escalate_to_security_operations"
+      type_5_network_context_legitimacy_uncertain: "restrict_or_deny_access"
+      type_6_lateral_movement_pattern_ambiguous: "elevated_monitoring_required"
+  
+  visibility_requirements:
+    mechanism: "mandatory_verification_uncertainty_and_trust_confidence_articulation"
+    mandatory_output:
+      - identified_identity_or_authentication_uncertainties
+      - device_posture_verification_status_and_confidence
+      - behavioral_anomaly_assessment_and_confidence_factors
+      - authorization_entitlement_verification_confidence
+      - network_context_legitimacy_assessment_confidence
+      - breach_assumption_defensive_posture_level
+      - confidence_limiting_factors_for_access_decision
+  
+  propagation:
+    mechanism: "uncertainty_flow_through_verification_chain"
+    rule_1: "identity_verification_uncertainty_flows_to_access_authorization_confidence"
+    rule_2: "device_posture_uncertainty_limits_access_scope"
+    rule_3: "behavioral_anomaly_uncertainty_triggers_elevated_scrutiny"
+    rule_4: "network_context_uncertainty_restricts_lateral_movement"
+  
+  escalation:
+    mechanism: "graduated_uncertainty_response"
+    level_1_minor_uncertainty: "expose_and_proceed_with_heightened_monitoring"
+    level_2_moderate_uncertainty: "require_human_consultation_before_access"
+    level_3_significant_uncertainty: "require_human_authorization_decision"
+    level_4_critical_uncertainty: "deny_access_escalate_immediately"
+
+trust_boundaries:
+  verification_trust_hierarchy:
+    continuous_real_time_verification: highest_trust_with_active_monitoring
+    periodic_verification_within_time_window: conditionally_trusted_with_timeout
+    assumed_verification_without_continuous_validation: untrusted_prohibited
+  
+  compartment_trust_boundary:
+    same_compartment_access: permitted_with_authorization_verification
+    cross_compartment_access: requires_explicit_boundary_authorization
+    external_infrastructure_access: treated_as_untrusted_by_default
+  
+  anomaly_detection_trust_window:
+    baseline_behavior_confirmation: trusted_within_deviation_threshold
+    minor_anomaly_detected: reduced_trust_elevated_monitoring
+    significant_anomaly_confirmed: trust_suspended_escalation_required
+    breach_pattern_confirmed: trust_revoked_emergency_response
+
+runtime_behavior:
+  verification_execution_frequency: per_access_request_cycle
+  identity_persistence_monitoring: continuous_throughout_session
+  device_compliance_monitoring: continuous_per_verification_window
+  behavioral_anomaly_detection: continuous_real_time_per_activity
+  lateral_movement_attempt_detection: continuous_monitoring
+  trust_window_enforcement: active_timeout_enforcement_per_resource
+
+runtime_degradation:
+  on_verification_failure:
+    access_status: denied_immediately
+    session_status: may_be_terminated_if_persistent_failure
+    escalation: immediate_to_security_operations
+  
+  on_anomaly_or_breach_indication:
+    access_scope: restricted_to_essential_operations_only
+    privilege_level: reduced_immediately
+    human_escalation: security_team_notification
+    forensic_tracking: enhanced_evidence_collection
+  
+  on_lateral_movement_attempt:
+    access_status: blocked_and_investigated
+    compartment_access: terminated
+    security_alert: critical_priority
+    incident_investigation: initiated
+
+confidence_governance:
+  binary_verification_assumption: prohibited
+  implicit_trust_window_extension: prohibited
+  unverified_access_permission: prohibited
+  continuous_verification_confidence: explicit_per_access_cycle
+  breach_assumption_confidence: operational_posture_required
+  hallucinated_verification_elimination: prohibited
+
+traceability:
+  verification_decision_lineage: preserved_per_access_request
+  identity_verification_history: immutable_audit_log_per_session
+  device_posture_assessment: timestamped_per_verification_cycle
+  authorization_entitlement_lookup: recorded_per_access_decision
+  behavioral_anomaly_detection: tracked_with_confidence_assessment
+  lateral_movement_attempt: fully_traceable_with_impact_assessment
+
+human_oversight:
+  access_decision_authority: final_arbiter_of_trust_decisions
+  anomaly_escalation_authority: human_investigation_of_verification_concerns
+  override_capability: unconditional_for_emergency_access_with_audit
+  escalation_triggers:
+    - verification_failure_or_authentication_issue
+    - device_posture_degradation_or_compliance_failure
+    - behavioral_anomaly_or_deviation_from_baseline
+    - lateral_movement_attempt_detected
+    - breach_indicators_or_compromise_signals
+  autonomous_access_without_human_approval: prohibited_for_sensitive_resources
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_trust_expansion: prohibited
+  self_modifying_verification_policy: prohibited
+  automatic_trust_window_extension: prohibited
+  uncontrolled_privilege_escalation_adaptation: prohibited
+  deterministic_verification_behavior: enforced
+  compartment_boundary_preservation: strict
+
+implementation_leakage_control:
+  specific_verification_mechanism: excluded
+  authentication_technology_details: excluded
+  device_posture_check_implementation: excluded
+  anomaly_detection_algorithm_details: excluded
+  verification_platform_internals: excluded
+
+meta_governance:
+  preserve_zero_trust_governance_boundary_integrity: true
+  prohibit_runtime_trust_policy_drift: true
+  prohibit_implicit_trust_assumption_emergence: true
+  preserve_deterministic_continuous_verification: true
+  maintain_assume_breach_posture_throughout_operations: true
+
+output_standard:
+  expose_verification_decision_status: required
+  expose_identity_verification_status: required
+  expose_device_posture_status: required
+  expose_authorization_entitlement_status: required
+  expose_behavioral_anomaly_assessment: required
+  expose_breach_assumption_defensive_posture: required
+  expose_trust_window_validity_and_constraints: required
+  expose_verification_uncertainty_factors: required
+  separate_verification_decision_from_identity_claim: enforced
+  auditability: full
+  explainability: required_at_each_access_decision_point

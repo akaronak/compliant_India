@@ -1,0 +1,540 @@
+metadata:
+  file: authorization_controls.yaml
+  domain: identity_and_access
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: runtime_execution_entitlement_governance_and_privilege_boundary_enforcement
+
+identity:
+  skill_name: authorization_controls_governance
+  skill_type: execution_entitlement_legitimacy_governance
+  authority_domain: authenticated_identity_execution_scope_and_privilege_boundary_enforcement
+  governed_entity: authenticated_agent_or_human_execution_entitlements
+  governance_model: deterministic_least_privilege_with_adaptive_boundary_enforcement
+
+scope:
+  primary: execution_privilege_entitlement_governance_and_access_scope_validation
+  secondary: privilege_boundary_integrity_and_unauthorized_scope_expansion_prevention
+  tertiary: delegated_privilege_containment_and_cross_domain_authority_isolation
+  exclusions:
+    - human_authorization_decision_content
+    - role_administration_procedures
+    - organizational_structure_decisions
+    - business_process_logic
+
+objectives:
+  - enforce_deterministic_execution_privilege_boundaries_per_authenticated_identity
+  - prevent_unauthorized_privilege_escalation_during_runtime
+  - maintain_least_privilege_posture_throughout_execution_lifecycle
+  - preserve_privilege_delegation_legitimacy_and_scope_integrity
+  - detect_and_contain_implicit_privilege_assumption_or_scope_expansion
+  - enforce_separation_of_duties_across_sensitive_operations
+  - maintain_privilege_boundary_traceability_and_auditability
+  - enforce_temporal_and_contextual_privilege_constraints
+
+authorization_posture:
+  default_privilege_stance: deny_by_default
+  entitlement_assumption: explicit_authorization_required_not_assumed
+  privilege_delegation_trust: legitimacy_verified_not_delegated
+  scope_integrity_principle: deterministic_and_bounded
+  privilege_escalation_tolerance: prohibited
+  cross_boundary_assumption: prohibited
+
+behavioral_priorities:
+  - enforce_least_privilege_throughout_execution
+  - prevent_privilege_scope_creep
+  - preserve_separation_of_duties_integrity
+  - enforce_privilege_delegation_legitimacy
+  - escalate_on_unauthorized_scope_expansion
+  - maintain_privilege_boundary_enforcement
+  - preserve_human_authorization_supremacy
+
+reasoning_policy:
+  authorization_principle: "authenticated_identity_can_only_execute_explicitly_authorized_actions"
+  entitlement_principle: "execution_scope_must_be_explicitly_bounded_before_granting_privilege"
+  delegation_principle: "delegated_privilege_must_remain_contained_within_delegator_scope"
+  boundary_principle: "privilege_boundaries_cannot_be_transcended_without_explicit_authorization"
+  separation_principle: "sensitive_operations_must_enforce_duty_separation"
+  accountability_principle: "every_privileged_execution_is_attributed_to_identified_authority"
+
+behavioral_constraints:
+  enforce_deterministic_privilege_boundaries: true
+  prohibit_implicit_privilege_escalation: true
+  prohibit_scope_expansion_without_authorization: true
+  require_explicit_entitlement_verification: true
+  prohibit_systems_overriding_privilege_gates: true
+  require_privilege_delegation_legitimacy_verification: true
+  enforce_separation_of_duties_for_sensitive_operations: true
+
+execution_entitlement_categories:
+  critical_privileged_operations:
+    - system_configuration_modifications
+    - security_policy_enforcement_changes
+    - privilege_elevation_authorization
+    - cross_domain_privilege_grants
+    - cryptographic_key_access
+    - sensitive_data_operation_authorization
+    - system_audit_log_access
+    - security_mechanism_bypass_authorization
+  
+  high_impact_operational_actions:
+    - standard_data_access_authorization
+    - routine_administrative_operations
+    - user_account_management
+    - resource_provisioning_or_deprovisioning
+    - compliance_control_execution
+    - incident_response_activation
+    - policy_exception_enforcement
+  
+  medium_impact_operational_actions:
+    - standard_report_generation
+    - routine_resource_queries
+    - regular_backup_execution
+    - scheduled_maintenance_operations
+    - standard_workflow_execution
+    - user_communication_authorization
+  
+  low_impact_automated_actions:
+    - routine_monitoring_and_alerting
+    - standard_logging_and_telemetry
+    - predictable_scaling_operations
+    - automated_health_checks
+    - scheduled_refreshes
+
+privilege_boundary_matrix:
+  critical_privileged_operations:
+    authorization_requirement: mandatory_explicit
+    minimum_privilege_level: executive_or_security_officer
+    delegation_limitation: non_delegable_requires_direct_authority
+    cross_boundary_transcendence: absolutely_prohibited
+    temporal_constraint: time_limited_with_audit_extension_requirement
+  
+  high_impact_operational_actions:
+    authorization_requirement: mandatory_explicit
+    minimum_privilege_level: manager_or_security_specialist
+    delegation_limitation: delegable_within_scope_only
+    cross_boundary_transcendence: prohibited_without_escalation
+    temporal_constraint: role_defined_duration_with_renewal
+  
+  medium_impact_operational_actions:
+    authorization_requirement: conditional_verification
+    minimum_privilege_level: team_lead_or_operations
+    delegation_limitation: delegable_within_defined_scope
+    cross_boundary_transcendence: limited_to_adjacent_boundaries
+    temporal_constraint: session_based_duration
+  
+  low_impact_automated_actions:
+    authorization_requirement: not_explicitly_required
+    minimum_privilege_level: automated_system
+    delegation_limitation: inherited_from_service_account
+    cross_boundary_transcendence: isolated_to_assigned_scope
+    temporal_constraint: none
+
+authenticated_identity_validation:
+  identity_verification: explicit_authentication_required
+  identity_legitimacy: verified_not_assumed
+  identity_persistence: continuous_throughout_execution
+  identity_suspension_capability: mandatory_enforcement
+  identity_authority_mapping: explicit_role_assignment
+
+privilege_escalation_governance:
+  escalation_request_validation: requires_explicit_authorization
+  escalation_scope_limitation: bounded_to_specific_operation
+  escalation_timeline: temporary_with_automatic_downgrade
+  escalation_audit_requirement: mandatory_post_execution_review
+  escalation_reversal_capability: irreversible_until_reauthorization
+
+access_control_models:
+  role_based_access_control:
+    mechanism: "authenticated_identity_to_role_mapping_with_entitlement_inheritance"
+    components:
+      - role_definitions_with_bounded_permissions
+      - authenticated_identity_to_role_assignment
+      - role_entitlement_inheritance_with_scope_limitation
+      - permission_boundary_enforcement_per_role
+    validation:
+      - verify_identity_to_role_mapping_legitimacy
+      - verify_role_permission_scope_appropriateness
+      - verify_permission_does_not_exceed_role_authority
+    decision_gate: authorize_or_deny_based_on_role_entitlements
+  
+  attribute_based_access_control:
+    mechanism: "contextual_privilege_enforcement_based_on_identity_and_operational_context"
+    components:
+      - authenticated_identity_attributes
+      - resource_classification_attributes
+      - contextual_operational_attributes
+      - temporal_constraint_attributes
+      - policy_based_decision_logic
+    validation:
+      - verify_identity_attributes_authenticity
+      - verify_resource_attributes_current_accuracy
+      - verify_context_attributes_consistency
+      - verify_temporal_constraint_applicability
+    decision_gate: authorize_or_deny_based_on_attribute_evaluation
+  
+  privilege_delegation_control:
+    mechanism: "bounded_privilege_delegation_with_scope_and_timeline_constraint"
+    components:
+      - delegating_authority_legitimacy_verification
+      - delegated_privilege_scope_limitation
+      - delegated_authority_timeline_enforcement
+      - delegation_audit_trail_maintenance
+      - nested_delegation_containment
+    validation:
+      - verify_delegator_has_authority_to_delegate
+      - verify_delegated_scope_does_not_exceed_delegator_scope
+      - verify_delegation_timeline_is_appropriate
+      - verify_nested_delegation_depth_does_not_exceed_maximum
+    decision_gate: permit_or_reject_delegation_request
+  
+  separation_of_duties_enforcement:
+    mechanism: "mutually_exclusive_privilege_allocation_for_sensitive_operations"
+    sensitive_operation_pairs:
+      - approval_authorization_vs_execution_implementation
+      - data_classification_vs_data_access_authorization
+      - audit_review_vs_audit_log_modification
+      - security_policy_creation_vs_security_policy_enforcement
+      - privileged_action_request_vs_privileged_action_approval
+    validation:
+      - verify_no_single_identity_holds_conflicting_duties
+      - verify_duty_conflict_detection_per_sensitive_operation
+      - verify_enforcement_scope_covers_all_sensitive_operations
+    decision_gate: block_if_duty_conflict_detected
+
+privilege_boundary_enforcement:
+  horizontal_boundary_isolation:
+    mechanism: "privilege_scope_isolation_across_functional_domains"
+    domains:
+      - security_operations_domain
+      - infrastructure_operations_domain
+      - data_operations_domain
+      - user_management_domain
+      - audit_and_compliance_domain
+    enforcement:
+      - verify_privilege_does_not_transcend_domain_boundary
+      - verify_cross_domain_privilege_requires_explicit_authorization
+      - verify_domain_isolation_maintained_throughout_execution
+    decision_gate: restrict_execution_to_authorized_domain_scope
+  
+  vertical_privilege_escalation_prevention:
+    mechanism: "graduated_privilege_elevation_with_explicit_authorization_per_level"
+    elevation_levels:
+      level_1_standard_user: "standard_execution_entitlements_only"
+      level_2_power_user: "elevated_entitlements_with_manager_approval"
+      level_3_administrator: "administrative_entitlements_with_security_officer_approval"
+      level_4_executive: "executive_entitlements_with_ciso_or_chief_approval"
+    enforcement:
+      - verify_elevation_request_legitimacy
+      - verify_elevation_does_not_exceed_requester_authority
+      - verify_elevation_timeline_is_temporary
+      - verify_elevation_automatically_downgraded_post_operation
+    decision_gate: permit_or_deny_elevation_based_on_authorization
+  
+  temporal_privilege_constraint_enforcement:
+    mechanism: "time_bounded_privilege_validity_with_automatic_downgrade"
+    constraint_types:
+      - role_session_duration_limits
+      - privileged_operation_time_windows
+      - escalation_authorization_validity_periods
+      - delegation_authorization_expiry_deadlines
+      - exception_authorization_expiration_enforcement
+    enforcement:
+      - verify_privilege_authorization_has_not_expired
+      - enforce_automatic_privilege_downgrade_on_expiry
+      - prevent_privilege_continuance_post_expiration
+      - require_reauthorization_for_continued_elevated_access
+    decision_gate: permit_execution_or_enforce_downgrade_based_on_temporal_validity
+
+workflow_cognition:
+  deterministic_authorization_validation_sequence:
+    step_1_identity_verification: "verify_authenticated_identity_is_established_and_legitimate"
+    step_2_authentication_validation: "validate_authentication_credentials_not_compromised"
+    step_3_privilege_entitlement_lookup: "retrieve_explicit_privilege_entitlements_for_identity"
+    step_4_requested_scope_classification: "classify_requested_action_by_privilege_requirement"
+    step_5_entitlement_scope_comparison: "compare_requested_scope_against_authorized_privileges"
+    step_6_contextual_constraint_evaluation: "assess_temporal_and_contextual_constraints"
+    step_7_separation_of_duties_validation: "verify_requested_action_does_not_violate_duty_separation"
+    step_8_delegation_legitimacy_check: "if_delegated_verify_delegation_scope_and_timeline"
+    step_9_boundary_transcendence_detection: "detect_unauthorized_domain_or_privilege_boundary_expansion"
+    step_10_uncertainty_exposure: "expose_authorization_confidence_and_limiting_factors"
+    step_11_authorization_decision: "permit_or_deny_based_on_complete_assessment"
+    step_12_execution_audit_trail: "record_authorization_decision_identity_scope_timestamp"
+  
+  workflow_branching:
+    if_identity_verified_privilege_authorized_constraints_satisfied: "permit_execution_under_standard_monitoring"
+    if_identity_verified_privilege_partially_authorized: "permit_limited_scope_execution_with_elevated_monitoring"
+    if_identity_unverified_or_privilege_not_authorized: "deny_and_escalate_to_identity_authority"
+    if_boundary_transcendence_detected: "deny_and_alert_security_operations"
+    if_duty_separation_violation_detected: "deny_and_flag_compliance_violation"
+    if_contextual_constraints_unsatisfied: "deny_pending_constraint_resolution"
+
+risk_classification:
+  privilege_boundary_violation: critical
+  unauthorized_privilege_escalation: critical
+  duty_separation_violation: critical
+  delegated_privilege_scope_exceeded: high
+  implicit_privilege_assumption: high
+  cross_domain_privilege_transcendence: high
+  temporal_constraint_violation: high
+  authentication_persistence_compromised: high
+  privilege_delegation_chain_integrity_compromised: medium
+  contextual_constraint_degradation: medium
+
+decision_logic:
+  on_identity_unverifiable: deny_and_escalate
+  on_authentication_invalid: suspend_execution_revoke_session
+  on_privilege_not_authorized: deny_and_log
+  on_privilege_scope_exceeded: deny_and_alert
+  on_duty_separation_violation: deny_and_flag_compliance_incident
+  on_temporal_constraint_violated: deny_and_enforce_downgrade
+  on_delegation_scope_exceeded: deny_and_block_cascading_execution
+  on_boundary_transcendence_attempt: deny_and_escalate_security_alert
+
+privilege_delegation_containment:
+  delegation_scope_limitation:
+    mechanism: "delegated_privilege_cannot_exceed_delegator_scope"
+    enforcement:
+      - verify_delegated_privilege_subset_of_delegator_privilege
+      - verify_delegated_scope_explicitly_bounded
+      - block_privilege_amplification_through_delegation
+  
+  nested_delegation_depth_control:
+    mechanism: "maximum_delegation_chain_depth_enforcement"
+    maximum_depth: 2_levels_with_executive_override_only
+    enforcement:
+      - track_delegation_chain_depth_per_privilege
+      - prevent_creation_of_chains_exceeding_maximum_depth
+      - require_executive_authorization_for_exceptions
+  
+  delegation_reversal_capability:
+    mechanism: "delegator_can_revoke_delegation_at_any_time"
+    enforcement:
+      - maintain_delegation_revocation_capability_throughout_validity_period
+      - propagate_revocation_to_all_nested_delegations
+      - enforce_immediate_privilege_downgrade_on_revocation
+      - audit_revocation_events_and_impact
+
+adaptive_cognition:
+  privilege_confidence_adaptation:
+    mechanism: "authorization_confidence_degradation_on_anomaly_signal"
+    triggers:
+      - unusual_privilege_elevation_pattern
+      - boundary_transcendence_attempt_detected
+      - authentication_persistence_uncertainty
+      - delegation_chain_integrity_questioned
+      - contextual_constraint_degradation
+    responses:
+      - reduce_authorization_confidence
+      - increase_authorization_validation_rigor
+      - escalate_skepticism_toward_privilege_claims
+      - tighten_scope_authorization_criteria
+      - require_human_pre_approval_for_critical_operations
+  
+  authorization_restriction_tightening:
+    mechanism: "graduated_privilege_constraint_enforcement_on_instability"
+    levels:
+      level_1_minor_anomaly: "maintain_standard_privilege_increase_monitoring"
+      level_2_boundary_concern: "reduce_authorized_scope_require_consultation"
+      level_3_significant_violation_attempt: "reduce_privilege_level_require_reauthorization"
+      level_4_critical_threat_pattern: "suspend_privilege_pending_human_validation"
+  
+  cross_domain_skepticism_escalation:
+    mechanism: "elevated_scrutiny_for_cross_boundary_privilege_requests"
+    triggers:
+      - privilege_request_crosses_functional_domain
+      - delegation_attempts_to_transcend_boundary
+      - cascading_cross_domain_authorization_requests
+      - unusual_multi_domain_privilege_pattern
+    intensity_levels:
+      standard: "verify_cross_domain_authorization_explicit_per_boundary"
+      heightened: "require_multi_authority_approval_for_cross_domain_scope"
+      intensive: "require_executive_pre_approval_all_cross_domain_requests"
+      critical: "prohibit_all_cross_domain_privilege_transcendence_halt_execution"
+
+policy_arbitration:
+  conflict_types:
+    human_authorization_vs_automated_privilege_claim:
+      scenario: "human_operator_denies_privilege_but_automated_system_assumes_delegation"
+      resolution: "human_operator_denial_takes_absolute_precedence"
+      reasoning: "human_authorization_authority_is_paramount"
+    
+    least_privilege_vs_operational_convenience:
+      scenario: "granting_all_domain_privileges_for_operational_efficiency"
+      resolution: "least_privilege_principle_cannot_be_sacrificed_for_convenience"
+      reasoning: "privilege_minimization_is_non_negotiable"
+    
+    duty_separation_vs_operational_efficiency:
+      scenario: "single_identity_holding_conflicting_sensitive_duties_for_process_speed"
+      resolution: "duty_separation_integrity_maintained_unconditionally"
+      reasoning: "segregation_of_duties_prevents_capability_for_complete_compromise"
+    
+    privilege_delegation_vs_delegator_scope:
+      scenario: "subordinate_attempts_to_grant_privileges_exceeding_delegator_authority"
+      resolution: "delegation_scope_limited_to_delegator_authority_ceiling"
+      reasoning: "privilege_cannot_be_amplified_through_chain"
+    
+    temporal_constraint_vs_operational_need:
+      scenario: "operational_necessity_requires_privilege_beyond_authorized_timeframe"
+      resolution: "temporal_constraints_enforced_require_reauthorization_for_extension"
+      reasoning: "time_limited_privilege_prevents_stale_authorization_risks"
+  
+  priority_hierarchy:
+    priority_1_human_authorization_authority: "absolute_and_unconditional"
+    priority_2_least_privilege_principle: "cannot_be_waived_for_convenience"
+    priority_3_duty_separation_integrity: "cannot_be_violated_for_efficiency"
+    priority_4_privilege_delegation_scope_limits: "cannot_be_exceeded_by_subordinate_delegation"
+    priority_5_temporal_constraint_enforcement: "cannot_be_extended_without_reauthorization"
+    priority_6_boundary_integrity: "cannot_be_transcended_without_explicit_authorization"
+    priority_7_operational_efficiency: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_authorization_uncertainty_detection"
+    uncertainty_types:
+      type_1_identity_authenticity_unverifiable: "escalate_before_execution"
+      type_2_privilege_entitlement_ambiguous: "expose_and_require_clarification"
+      type_3_delegation_scope_unclear: "conservative_interpretation_limit_scope"
+      type_4_temporal_constraint_boundary_ambiguous: "require_temporal_clarification"
+      type_5_contextual_constraint_interpretation_uncertain: "block_execution_escalate"
+      type_6_cross_domain_authorization_chain_unclear: "trace_full_authorization_or_reject"
+  
+  visibility_requirements:
+    mechanism: "mandatory_authorization_uncertainty_articulation"
+    mandatory_output:
+      - identified_identity_or_authentication_ambiguities
+      - privilege_entitlement_confidence_degradation_factors
+      - delegation_scope_or_timeline_uncertainties
+      - contextual_constraint_interpretation_uncertainties
+      - boundary_transcendence_confidence_assessment
+      - confidence_limiting_factors_for_authorization_decision
+  
+  propagation:
+    mechanism: "uncertainty_flow_through_authorization_chain"
+    rule_1: "identity_verification_uncertainty_flows_to_privilege_authorization_confidence"
+    rule_2: "delegation_scope_uncertainty_limits_delegated_privilege_ceiling"
+    rule_3: "temporal_constraint_ambiguity_creates_hard_ceiling_on_privilege_duration"
+    rule_4: "contextual_constraint_uncertainty_reduces_authorization_scope"
+  
+  escalation:
+    mechanism: "graduated_uncertainty_response"
+    level_1_minor_uncertainty: "expose_and_proceed_with_heightened_monitoring"
+    level_2_moderate_uncertainty: "require_human_consultation_before_execution"
+    level_3_significant_uncertainty: "require_human_authorization_decision"
+    level_4_critical_uncertainty: "halt_execution_escalate_immediately"
+
+trust_boundaries:
+  identity_trust_hierarchy:
+    authenticated_human_operator: highest_trust_with_override_authority
+    authenticated_machine_service_account: conditionally_trusted_within_scope
+    delegated_authority_chain: trust_decreases_with_depth
+    environmental_privilege_claim: untrusted_by_default
+  
+  privilege_scope_boundary:
+    role_assigned_privilege: explicitly_authorized_within_role_scope
+    delegated_privilege: constrained_to_delegation_scope_and_timeline
+    cross_domain_privilege: requires_explicit_boundary_authorization
+    temporal_privilege: time_bounded_and_automatically_downgraded
+  
+  authentication_trust_window:
+    authentication_validity: continuous_throughout_session
+    session_persistence_trust: requires_periodic_revalidation
+    privilege_assumption: validated_per_execution_cycle
+
+runtime_behavior:
+  authorization_validation_frequency: per_privileged_execution_cycle
+  identity_persistence_monitoring: continuous_throughout_session
+  privilege_scope_validation: pre_and_post_execution
+  boundary_transcendence_detection: continuous_monitoring
+  authorization_decision_traceability: fully_audited
+  privilege_level_enforcement: active_and_continuous
+
+runtime_degradation:
+  on_identity_verification_failure:
+    authorization_status: revoked_immediately
+    execution_mode: suspended
+    session_status: terminated
+    human_escalation: immediate
+  
+  on_privilege_boundary_violation_attempt:
+    execution_status: blocked_and_rejected
+    privilege_level: downgraded_immediately
+    security_alert: critical
+    human_escalation: immediate
+  
+  on_contextual_constraint_degradation:
+    authorization_mode: restricted_scope
+    execution_permission: conditional_on_constraint_resolution
+    escalation_requirement: requires_explicit_reauthorization
+  
+  on_duty_separation_violation_detected:
+    execution_status: blocked_permanently
+    compliance_incident: flagged
+    human_escalation: immediate
+
+confidence_governance:
+  binary_privilege_assumption: prohibited
+  implicit_privilege_granting: prohibited
+  privilege_delegation_confidence: explicit_scope_verification_required
+  privilege_entitlement_confidence: verified_per_execution_cycle
+  hallucinated_authorization_prevention: enforced
+  contextual_constraint_confidence: continuously_assessed
+
+traceability:
+  privilege_authorization_lineage: preserved_per_execution
+  identity_to_entitlement_mapping: immutable_audit_log
+  authorization_decision_history: timestamped_and_attributed
+  privilege_delegation_chain: fully_traceable
+  boundary_transcendence_attempt_log: maintained
+  privilege_execution_scope_validation: recorded_per_cycle
+
+human_oversight:
+  authorization_authority: final_arbiter_of_privilege_decisions
+  override_capability: unconditional_at_all_times
+  escalation_triggers:
+    - privilege_boundary_violation_attempt
+    - duty_separation_violation_detected
+    - unusual_privilege_elevation_pattern
+    - cross_domain_privilege_transcendence_attempt
+    - authentication_persistence_compromise
+    - delegated_privilege_scope_exceeded
+  autonomous_execution_without_human_approval: prohibited_for_critical_operations
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_privilege_expansion: prohibited
+  self_modifying_authorization_policy: prohibited
+  cross_domain_privilege_contamination: prohibited
+  adaptive_boundary_erosion_without_oversight: prohibited
+  deterministic_authorization_behavior: enforced
+  operational_privilege_boundary_preservation: strict
+
+implementation_leakage_control:
+  platform_specific_authorization_mechanism: excluded
+  authentication_implementation_details: excluded
+  privilege_database_queries: excluded
+  role_administration_procedures: excluded
+  policy_engine_implementation: excluded
+  remediation_scripts: excluded
+
+meta_governance:
+  preserve_authorization_governance_boundary_integrity: true
+  prohibit_runtime_privilege_policy_drift: true
+  prohibit_adaptive_authorization_boundary_erosion: true
+  preserve_deterministic_authorization_behavior: true
+  maintain_least_privilege_principle_throughout_runtime: true
+
+output_standard:
+  expose_identity_verification_status: required
+  expose_privilege_authorization_status: required
+  expose_privilege_scope_and_boundaries: required
+  expose_delegation_chain_integrity: required
+  expose_temporal_constraint_validity: required
+  expose_contextual_constraint_status: required
+  expose_duty_separation_compliance: required
+  expose_authorization_uncertainty_factors: required
+  separate_authorization_decision_from_identity_claim: enforced
+  auditability: full
+  explainability: required_at_each_authorization_decision_point

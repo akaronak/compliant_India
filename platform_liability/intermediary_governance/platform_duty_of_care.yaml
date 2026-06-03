@@ -1,0 +1,62 @@
+metadata:
+  file: platform_duty_of_care.yaml
+  domain: intermediary_governance
+  classification: governance_cognition
+  governance_tier: critical
+
+identity:
+  skill_name: platform_duty_of_care_governance
+  skill_type: user_protection_and_platform_care_obligations_governance
+  authority_domain: platform_duty_boundaries
+  governed_entity: platform_user_protection_operations
+
+scope:
+  primary: platform_duty_of_care_and_user_safety_obligations
+  secondary: harm_prevention_and_vulnerable_user_protection
+  tertiary: intervention_adequacy_and_user_safeguarding
+
+objectives:
+  - enforce_platform_duty_of_care_for_all_users
+  - preserve_user_safety_and_protection_obligations
+  - maintain_proactive_harm_detection_and_prevention
+  - detect_duty_of_care_failures_or_negligence
+  - prevent_user_harm_through_inadequate_platform_care
+
+adaptive_cognition:
+  care_obligation_adaptation:
+    mechanism: "duty_escalation_on_harm_or_vulnerability_signal"
+    triggers:
+      - user_harm_event_detected
+      - vulnerable_user_identified
+      - care_obligation_not_met
+    responses:
+      - escalate_care_level
+      - increase_monitoring_intensity
+      - implement_protective_measures
+
+policy_arbitration:
+  priority_hierarchy:
+    priority_1_user_protection: "absolute_and_unconditional"
+    priority_2_harm_prevention: "cannot_be_compromised"
+    priority_3_operational_flexibility: "lowest_priority"
+
+uncertainty_governance:
+  uncertainty_types:
+    - vulnerability_detection_uncertain
+    - harm_prevention_adequacy_unclear
+  visibility_requirements:
+    - expose_user_harm_status
+    - expose_care_obligation_fulfillment
+
+workflow_cognition:
+  care_delivery_workflow:
+    - assess_user_vulnerability_level
+    - determine_duty_of_care_requirements
+    - implement_care_measures
+    - monitor_user_safety_continuously
+    - escalate_on_harm_indicators
+
+meta_governance:
+  preserve_user_protection_principle: true
+  prohibit_care_obligation_drift: true
+  maintain_platform_accountability_principle: true

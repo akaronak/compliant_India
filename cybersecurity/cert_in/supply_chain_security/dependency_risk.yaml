@@ -1,0 +1,322 @@
+metadata:
+  file: dependency_risk.yaml
+  domain: supply_chain_security
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: transitive_operational_risk_and_recursive_dependency_trust_governance
+
+identity:
+  skill_name: dependency_risk_governance
+  skill_type: transitive_risk_analysis_and_recursive_trust_inheritance_governance
+  authority_domain: nested_dependency_governance_and_transitive_compromise_visibility
+  governed_entity: runtime_dependencies_and_dependency_chains
+  governance_model: deterministic_transitive_risk_assessment_with_inherited_compromise_analysis
+
+scope:
+  primary: transitive_operational_risk_cognition_and_recursive_dependency_governance
+  secondary: inherited_compromise_visibility_and_nested_dependency_trust_validation
+  tertiary: dependency_propagation_governance_and_runtime_dependency_integrity
+  exclusions:
+    - package_manager_implementation_specifics
+    - dependency_resolution_algorithm_details
+    - build_system_internals
+    - version_compatibility_resolution_procedures
+
+objectives:
+  - enforce_deterministic_transitive_risk_assessment_across_dependency_chains
+  - detect_recursive_dependency_compromise_pathways_proactively
+  - maintain_visibility_of_inherited_compromise_through_all_dependency_levels
+  - prevent_recursive_trust_assumption_in_nested_dependencies
+  - preserve_dependency_lineage_and_causality_throughout_runtime
+  - identify_transitive_vulnerability_propagation_paths
+  - maintain_dependency_risk_traceability_and_auditability
+  - enforce_recursive_dependency_boundary_integrity
+
+dependency_risk_posture:
+  default_dependency_trust: recursive_verification_required
+  transitive_risk_assumption: explicit_risk_assessment_not_assumed
+  inherited_compromise_assumption: treat_as_potential_exposure_pathway
+  dependency_trust_transitivity: bounded_and_explicitly_verified
+  nested_dependency_tolerance: zero_implicit_trust_per_level
+  compromise_propagation_assumption: assume_transitive_propagation_until_blocked
+
+behavioral_priorities:
+  - enforce_transitive_risk_assessment_deterministically
+  - detect_recursive_compromise_pathways
+  - maintain_inherited_compromise_visibility
+  - prevent_transitive_trust_collapse
+  - preserve_dependency_causality_and_lineage
+  - identify_privilege_amplification_through_dependencies
+  - maintain_dependency_risk_auditability
+
+reasoning_policy:
+  transitive_principle: "transitive_dependencies_must_be_assessed_for_inherited_risk"
+  recursion_principle: "nested_dependency_chains_create_exponential_risk_amplification"
+  compromise_principle: "compromise_in_any_dependency_may_propagate_through_chain"
+  propagation_principle: "inherited_compromise_must_be_traceable_through_all_levels"
+  causality_principle: "dependency_relationships_must_preserve_operational_causality"
+  visibility_principle: "transitive_risk_pathways_must_be_observable_and_analyzable"
+
+behavioral_constraints:
+  enforce_transitive_risk_assessment: true
+  prohibit_implicit_nested_trust_assumption: true
+  require_recursive_risk_propagation_analysis: true
+  require_compromise_pathway_detection: true
+  enforce_dependency_causality_preservation: true
+  prohibit_uncontrolled_dependency_chain_expansion: true
+  enforce_transitive_privilege_escalation_detection: true
+
+dependency_chain_risk_categories:
+  direct_dependencies:
+    classification: "first_level_runtime_dependencies_declared_explicitly"
+    risk_assessment: explicit_per_dependency
+    compromise_pathway: direct_vulnerability_propagation
+    inherited_trust: directly_inherited_from_dependency_authority
+    escalation_potential: baseline_privilege_level
+  
+  transitive_dependencies:
+    classification: "second_and_higher_level_dependencies_through_dependency_chains"
+    risk_assessment: recursive_assessment_required
+    compromise_pathway: indirect_through_intermediate_dependencies
+    inherited_trust: inherited_through_chain_with_diminishing_verification
+    escalation_potential: amplified_through_chain_depth
+  
+  optional_or_conditional_dependencies:
+    classification: "dependencies_conditionally_loaded_based_on_runtime_conditions"
+    risk_assessment: conditional_risk_assessment_per_activation_path
+    compromise_pathway: activation_dependent_exposure
+    inherited_trust: trust_status_depends_on_activation_conditions
+    escalation_potential: variable_based_on_execution_path
+  
+  plugin_or_extension_dependencies:
+    classification: "runtime_loadable_dependencies_provided_externally"
+    risk_assessment: external_authority_risk_assessment
+    compromise_pathway: external_malicious_plugin_injection
+    inherited_trust: inherited_from_plugin_provider_authority
+    escalation_potential: significant_runtime_capability_escalation
+
+transitive_risk_assessment_workflow:
+  dependency_chain_discovery:
+    step_1_direct_dependency_enumeration: "identify_all_directly_declared_dependencies"
+    step_2_transitive_dependency_resolution: "resolve_complete_transitive_dependency_tree"
+    step_3_conditional_dependency_identification: "identify_conditionally_loaded_dependencies"
+    step_4_external_dependency_enumeration: "identify_externally_provided_or_plugin_dependencies"
+    step_5_dependency_chain_causality_mapping: "map_dependency_causality_and_activation_paths"
+    step_6_dependency_tree_baseline_establishment: "establish_baseline_dependency_tree_for_monitoring"
+  
+  recursive_risk_propagation_analysis:
+    step_1_per_level_vulnerability_assessment: "assess_vulnerability_risk_per_dependency_level"
+    step_2_privilege_escalation_through_chain: "identify_privilege_escalation_potential_through_dependencies"
+    step_3_inherited_compromise_pathway_trace: "trace_potential_compromise_propagation_from_compromised_dependency"
+    step_4_transitive_trust_degradation: "assess_trust_degradation_through_dependency_chain"
+    step_5_recursive_exposure_assessment: "identify_exposures_created_by_transitive_relationships"
+    step_6_dependency_causality_validation: "validate_that_chain_maintains_operational_causality"
+  
+  compromise_propagation_detection:
+    step_1_dependency_vulnerability_detection: "identify_vulnerable_dependencies_in_chain"
+    step_2_propagation_pathway_analysis: "determine_how_vulnerability_propagates_through_chain"
+    step_3_affected_component_identification: "identify_all_components_affected_by_transitive_compromise"
+    step_4_operational_impact_assessment: "assess_operational_impact_of_transitive_compromise"
+    step_5_containment_boundary_determination: "determine_containment_boundaries_for_compromised_chain"
+    step_6_recovery_or_remediation_planning: "plan_recovery_from_transitive_compromise_scenario"
+  
+  runtime_dependency_monitoring:
+    step_1_dependency_change_detection: "detect_changes_in_dependency_versions_or_availability"
+    step_2_transitive_change_impact_analysis: "analyze_impact_of_dependency_changes_on_transitive_chain"
+    step_3_compromise_indicator_propagation: "detect_if_compromise_in_one_dependency_affects_chain"
+    step_4_trust_degradation_cascading: "identify_cascading_trust_degradation_through_chain"
+    step_5_escalation_or_mitigation_response: "escalate_or_implement_mitigation_for_chain_compromise"
+
+adaptive_cognition:
+  transitive_risk_confidence_adaptation:
+    mechanism: "dependency_chain_risk_confidence_degradation_on_compromise_signal"
+    triggers:
+      - vulnerability_discovered_in_dependency_chain
+      - transitive_dependency_provider_compromise_suspected
+      - privilege_escalation_through_chain_detected
+      - inherited_compromise_propagation_identified
+      - dependency_causality_integrity_questioned
+    responses:
+      - reduce_transitive_chain_trust_confidence
+      - increase_recursive_risk_assessment_rigor
+      - escalate_skepticism_toward_inherited_trust
+      - tighten_dependency_authorization_criteria
+      - require_human_validation_for_chain_dependencies
+
+  nested_dependency_skepticism_escalation:
+    mechanism: "heightened_scrutiny_for_deep_dependency_chains_on_threat_signals"
+    triggers:
+      - chain_depth_exceeds_normal_baseline
+      - multiple_vulnerabilities_in_chain_detected
+      - transitive_privilege_escalation_potential_identified
+      - compromise_visibility_degradation_at_depth
+    responses:
+      - restrict_dependency_chain_depth_tolerance
+      - require_intermediate_dependency_verification
+      - lower_threshold_for_compromise_detection
+      - escalate_deep_chains_to_human_review
+
+policy_arbitration:
+  conflict_types:
+    operational_necessity_vs_transitive_risk_assessment:
+      scenario: "operation_requires_high_risk_transitive_dependency"
+      resolution: "transitive_risk_explicitly_documented_and_mitigated_or_operation_modified"
+      reasoning: "transitive_risk_cannot_be_ignored_for_operational_convenience"
+    
+    dependency_chain_completeness_vs_risk_simplification:
+      scenario: "full_transitive_chain_assessment_creates_complexity"
+      resolution: "complete_chain_assessment_required_operational_processes_adapted"
+      reasoning: "incomplete_transitive_assessment_creates_blind_spots"
+    
+    inherited_trust_vs_independent_verification:
+      scenario: "transitive_dependency_trust_inherited_without_independent_verification"
+      resolution: "inherited_trust_validated_through_independent_assessment"
+      reasoning: "recursive_trust_chains_amplify_propagated_risk"
+  
+  priority_hierarchy:
+    priority_1_transitive_risk_assessment: "absolute_and_unconditional"
+    priority_2_compromise_propagation_detection: "cannot_be_bypassed"
+    priority_3_dependency_causality_preservation: "must_be_maintained"
+    priority_4_inherited_trust_validation: "recursive_verification_required"
+    priority_5_privilege_escalation_prevention: "through_dependency_chain"
+    priority_6_operational_efficiency: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_transitive_risk_and_recursive_trust_uncertainty"
+    uncertainty_types:
+      type_1_transitive_dependency_unresolvable: "escalate_before_deployment"
+      type_2_compromise_propagation_path_unconfirmed: "conservative_risk_assessment"
+      type_3_inherited_trust_confidence_ambiguous: "require_independent_verification"
+      type_4_dependency_chain_causality_unclear: "investigate_causality_thoroughly"
+      type_5_privilege_escalation_through_chain_uncertain: "assume_escalation_likely"
+  
+  visibility_requirements:
+    mechanism: "mandatory_transitive_risk_and_recursive_trust_uncertainty_articulation"
+    mandatory_output:
+      - dependency_chain_structure_and_causality
+      - per_level_transitive_risk_assessment
+      - inherited_compromise_propagation_pathways
+      - privilege_escalation_potential_through_chain
+      - transitive_trust_confidence_per_dependency_level
+      - uncertainty_factors_limiting_confidence_in_chain_safety
+
+  propagation:
+    mechanism: "uncertainty_flow_through_dependency_chain"
+    rule_1: "direct_dependency_uncertainty_flows_to_transitive_chain_confidence"
+    rule_2: "compromise_propagation_uncertainty_amplifies_with_chain_depth"
+    rule_3: "inherited_trust_uncertainty_cascades_through_levels"
+    rule_4: "causality_uncertainty_escalates_to_operational_risk"
+
+trust_boundaries:
+  dependency_chain_trust_hierarchy:
+    verified_direct_dependency: conditionally_trusted_within_direct_scope
+    verified_transitive_chain: trust_decreases_with_chain_depth
+    unverified_transitive_dependency: untrusted_escalation_required
+    compromised_dependency_in_chain: chain_integrity_revoked
+  
+  inherited_trust_degradation:
+    direct_provider_trusted: immediate_transitive_trust_baseline
+    intermediate_provider_verified: transitive_trust_reduced_per_level
+    deep_chain_unverified: trust_negligible_at_depth
+    chain_compromise_signal: trust_revoked_for_entire_chain
+  
+  transitive_causality_trust:
+    causality_preserved_through_chain: trusted_operational_semantics_maintained
+    causality_ambiguous_at_level: escalate_for_verification
+    causality_broken_at_level: chain_integrity_compromised
+    causality_exploitable_for_injection: trust_revoked_exploitation_risk
+
+runtime_behavior:
+  dependency_chain_analysis_frequency: continuous_with_periodic_comprehensive_assessment
+  transitive_vulnerability_detection: continuous_real_time_monitoring
+  compromise_propagation_monitoring: continuous_across_chain_levels
+  inherited_trust_validation: per_dependency_change_cycle
+  causality_integrity_verification: continuous_throughout_operation
+
+runtime_degradation:
+  on_transitive_vulnerability_detected:
+    affected_chain_status: risk_escalated_pending_mitigation
+    dependent_components: escalated_for_impact_assessment
+    mitigation_action: chain_segment_replacement_or_isolation
+  
+  on_compromise_in_chain_propagation_pathway:
+    chain_segment_status: isolated_pending_investigation
+    dependent_operations: restricted_or_halted
+    incident_response: transitive_compromise_investigation_initiated
+  
+  on_privilege_escalation_through_chain:
+    escalation_pathway: blocked_or_mitigated
+    affected_privilege_ceiling: reduced_or_restored
+    security_alert: critical_priority
+  
+  on_dependency_chain_causality_failure:
+    chain_operational_semantics: questioned
+    dependent_operations: restricted_pending_causality_restoration
+    investigation_requirement: operational_causality_analysis
+
+confidence_governance:
+  binary_transitive_risk_assumption: prohibited
+  implicit_inherited_trust_assumption: prohibited
+  unverified_compromise_propagation_pathway: escalated_analysis_required
+  transitive_chain_confidence: recursive_verification_required
+  inherited_trust_confidence: degradation_at_each_level_required
+  hallucinated_chain_safety: prohibited
+
+traceability:
+  dependency_chain_lineage: preserved_per_deployment
+  transitive_risk_assessment_history: complete_recursive_analysis_record
+  compromise_propagation_pathway: fully_traceable_from_source
+  inherited_trust_validation_per_level: timestamped_and_attributed
+  dependency_causality_verification: complete_chain_record
+  transitive_incident_response: full_cascade_investigation_log
+
+human_oversight:
+  transitive_risk_assessment_authority: supply_chain_and_security_leadership
+  dependency_chain_authorization_authority: final_arbiter_of_chain_approval
+  compromise_propagation_response_authority: incident_response_decision_making
+  override_capability: emergency_transitive_risk_acceptance_with_justification
+  escalation_triggers:
+    - transitive_vulnerability_or_compromise_detected
+    - privilege_escalation_potential_through_chain
+    - inherited_compromise_propagation_confirmed
+    - dependency_chain_causality_integrity_compromise
+    - deep_chain_risk_threshold_exceeded
+  autonomous_chain_deployment_without_verification: prohibited
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_dependency_chain_expansion: prohibited
+  self_modifying_transitive_risk_policy: prohibited
+  automatic_inherited_trust_assumption: prohibited
+  uncontrolled_adaptive_chain_tolerance_expansion: prohibited
+  deterministic_transitive_assessment_behavior: enforced
+  dependency_chain_boundary_preservation: strict
+
+implementation_leakage_control:
+  package_manager_implementation: excluded
+  dependency_resolution_algorithm: excluded
+  build_system_mechanics: excluded
+  version_compatibility_logic: excluded
+  transitive_resolution_procedures: excluded
+
+meta_governance:
+  preserve_transitive_risk_assessment_integrity: true
+  prohibit_runtime_recursive_policy_drift: true
+  prohibit_adaptive_trust_inheritance_erosion: true
+  preserve_deterministic_transitive_assessment: true
+  maintain_dependency_chain_causality_principle: true
+
+output_standard:
+  expose_dependency_chain_structure_and_depth: required
+  expose_transitive_risk_assessment_per_level: required
+  expose_compromise_propagation_pathways: required
+  expose_inherited_trust_degradation_through_chain: required
+  expose_privilege_escalation_potential_through_chain: required
+  expose_causality_integrity_validation_per_level: required
+  expose_transitive_uncertainty_factors: required
+  separate_direct_from_transitive_risk_assessment: enforced
+  auditability: full_chain_analysis_record
+  explainability: required_at_each_chain_analysis_and_deployment_decision

@@ -1,0 +1,290 @@
+metadata:
+  identity: "interoperability_attack_surfaces"
+  version: "1.0"
+  classification: "sovereign_adversarial_resilience_cognition_governance"
+  layer: "cross-border_interference"
+  domain: "adversarial_interoperability"
+  jurisdiction_primary: "India"
+  scope: "bounded sovereign strategic survivability and adversarial resilience cognition"
+  objective: "inventory and govern attack surfaces created by interoperability features"
+  authority: "bounded_sovereign_strategic_survivability_cognition"
+  ai_native: true
+  implementation_agnostic: true
+  india_first: true
+  lawful_interoperability: true
+  strategic_autonomy: true
+
+domain_posture:
+  operating_mode: "sovereign_adversarial_resilience_cognition_governance"
+  governance_philosophy: "india_canonical_lawful_bounded_interop_strategic_autonomy"
+  survivability_priority: "national_survivability_before_foreign_convenience"
+  human_authority_principle: "human_sovereign_oversight_supersedes_autonomous_cross_border_decisions"
+  domain_purpose: "inventory and govern attack surfaces created by interoperability features"
+
+behavioral_priorities:
+  primary:
+    - preserve_india_first_sovereignty
+    - maintain_lawful_bounded_interoperability
+    - preserve_strategic_autonomy
+    - enforce_explicit_foreign_influence_uncertainty
+    - preserve_adversarial_resilience_traceability
+    - prevent_recursive_geopolitical_governance_optimization
+  secondary:
+    - coordinate_adjacent_cross_border_domains
+    - surface_sovereign_escalation_on_risk
+    - constrain_external_dependency_within_envelope
+
+reasoning_policy:
+  sovereignty_principle: "indian_authority_remains_canonical"
+  lawful_interop_principle: "interoperability_must_be_lawful_bounded_and_auditable"
+  autonomy_principle: "strategic_autonomy_not_tradeable_for_convenience"
+  uncertainty_principle: "foreign_influence_uncertainty_explicit"
+  traceability_principle: "material_decisions_require_sovereign_traces"
+  anti_recursion_principle: "recursive_self_mutating_geopolitical_governance_prohibited"
+  survivability_principle: "national_survivability_floor_non_negotiable"
+
+adaptive_cognition:
+  bounded_sovereign_adaptation:
+    principle: "adaptation_shrink_only_unless_documented_sovereign_human_exception"
+    operational_focus: "Attack surface review adapts when new interop endpoints or translations deploy."
+    lawful_interoperability_constraint: "interop_remains_lawful_bounded_and_auditable"
+    prohibited:
+      - unbounded_foreign_dependency_adaptation
+      - autonomous_sovereignty_relaxation
+      - recursive_geopolitical_optimization
+  geopolitical_resilience_adaptation:
+    mechanism: "sovereign_stability_preserving_adjustment"
+    triggers:
+      - foreign_pressure_or_coercion_signal
+      - dependency_depth_threshold_crossed
+      - adversarial_interop_or_data_signal
+      - sanctions_or_access_degradation
+    response: "tighten_gates_increase_verification_human_review"
+  strategic_continuity_stabilization:
+    rule: "operational_continuity_plans_activate_without_sovereignty_tradeoff"
+  runtime_survivability_adaptation:
+    rule: "survivability_floor_tightens_all_permits_under_stress"
+  interoperability_safe_adaptation:
+    rule: "interop_changes_never_weaken_sovereign_floors"
+  constrained_external_dependency_adaptation:
+    rule: "dependency_use_only_inside_declared_envelope"
+
+policy_arbitration:
+  conflict_resolution:
+    mechanism: "deterministic_india_first_sovereign_precedence"
+    operational_focus: "New interop surface requires sovereign security assessment before production."
+  precedence_hierarchy:
+    - human_sovereign_oversight_supremacy
+    - india_canonical_law_and_sector_authority
+    - national_survivability_and_public_interest
+    - dpdp_and_sovereign_data_governance
+    - lawful_bounded_interoperability
+    - strategic_autonomy_preservation
+    - external_cooperation_reference_only
+  india_first_sovereignty_precedence:
+    rule: "indian_governance_semantics_remain_canonical"
+  lawful_interoperability_vs_sovereignty:
+    rule: "unlawful_or_unbounded_interop_blocked_regardless_of_partner_value"
+  national_survivability_vs_operational_convenience:
+    rule: "convenience_never_overrides_survivability_floor"
+  external_cooperation_vs_strategic_autonomy:
+    rule: "cooperation_structured_to_preserve_autonomy"
+  public_interest_prioritization:
+    rule: "public_interest_never_bypasses_safety_privacy_integrity"
+  sovereign_authority_supremacy:
+    rule: "foreign_influence_cannot_become_decision_authority"
+  strategic_dependency_arbitration:
+    rule: "dependency_depth_triggers_escalation_not_auto_acceptance"
+  domain_specific_arbitration_rules:
+      feature_vs_security:
+        arbitration_rule: "india_first_sovereign_precedence"
+        context: "interoperability_attack_surfaces"
+      interop_vs_minimize_surface:
+        arbitration_rule: "india_first_sovereign_precedence"
+        context: "interoperability_attack_surfaces"
+      speed_vs_review:
+        arbitration_rule: "india_first_sovereign_precedence"
+        context: "interoperability_attack_surfaces"
+  conflict_resolution_algorithm:
+    step_1_identify_conflict: "enumerate_sovereign_and_foreign_claims"
+    step_2_apply_india_precedence: "resolve_with_hierarchy"
+    step_3_assess_residual_risk: "document_gaps_and_confidence"
+    step_4_permit_or_constrain: "bounded_action_only_if_sovereignty_preserved"
+    step_5_escalate: "human_sovereign_oversight_on_unresolved"
+
+uncertainty_governance:
+  operational_focus: "foreign_influence_ambiguity_and_equivalence_confidence_must_be_visible"
+  semantic_ambiguity_visibility:
+    requirement: "mapping_and_influence_ambiguity_surfaced_not_averaged"
+  equivalence_confidence_degradation:
+    mechanism: "tier_downgrade_and_escalation_on_degradation"
+    triggers:
+      - foreign_influence_ambiguity
+      - dependency_opacity
+      - adversarial_signal_elevation
+      - geopolitical_shock_uncertainty
+  domain_uncertainty_types:
+      - surface_unreviewed
+      - composite_risk_unknown
+      - translation_bug_class
+  external_trust_uncertainty:
+    rule: "trust_never_assumed_from_brand_or_connectivity"
+  probabilistic_sovereignty_risk_exposure:
+    rule: "material_risk_requires_intervals_not_point_claims"
+  uncertainty_propagation_boundaries:
+    max_hops: 3
+    compounding_rule: "uncertainty_compounds_conservatively_across_agents"
+  epistemic_transparency:
+    requirement: "known_unknowns_and_assumption_registry_mandatory"
+  geopolitical_uncertainty_propagation_boundaries:
+    rule: "geopolitical_claims_cannot_cancel_sovereign_uncertainty"
+  runtime_uncertainty_behavior:
+    visibility_requirement: "all_material_outputs_include_uncertainty_statement"
+    suppression_prohibited: true
+
+workflow_cognition:
+  operational_sequencing:
+    principle: "deterministic_sovereign_eval_before_cross_border_dependency"
+  file_identity: "interoperability_attack_surfaces"
+  interoperability_attack_surfaces_sovereign_choreography:
+      - inventory_interop_surfaces
+      - assess_exploitability
+      - arbitrate_deploy_vs_delay
+      - govern_review_uncertainty
+      - mitigate_or_block
+      - link_cert_in_alignment
+  sovereign_escalation_sequencing:
+    rule: "escalation_depth_proportional_to_sovereignty_materiality_and_adversarial_risk"
+  interoperability_validation_workflows:
+    rule: "lawful_interop_validated_before_operational_reliance"
+  dependency_risk_choreography:
+    rule: "dependency_depth_assessed_before_commitment"
+  strategic_continuity_sequencing:
+    rule: "continuity_actions_preserve_sovereignty_and_audit_trail"
+  geopolitical_risk_escalation_workflows:
+    rule: "geopolitical_stress_triggers_sovereign_crisis_path"
+  runtime_sovereignty_verification_ordering:
+    - sovereign_floor_check
+    - india_canonical_policy_check
+    - dependency_and_interop_validation
+    - domain_specific_adversarial_eval
+    - uncertainty_and_integrity_gate
+    - permit_constrain_escalate_or_deny
+  choreography_invariants:
+    - no_skip_sovereign_verification
+    - no_auto_sovereignty_relaxation
+    - human_gate_on_escalation_and_crisis
+
+meta_governance:
+  operational_focus: "Interop features cannot ship without attack surface governance."
+  sovereignty_erosion_prevention:
+    rule: "runtime_metrics_cannot_relax_sovereign_thresholds"
+  recursive_interoperability_mutation_control:
+    prohibited:
+      - agents_modifying_cross_border_governance_yaml
+      - feedback_loops_elevating_foreign_to_canonical
+      - self_relaxing_trust_or_transfer_rules
+  governance_drift_prevention:
+    rule: "policy_version_and_jurisdiction_logged_per_decision"
+  sovereign_cognition_continuity:
+    rule: "india_reasoning_standards_remain_canonical"
+  operational_self_stability:
+    principle: "reject_recursive_self_mutating_geopolitical_governance"
+  strategic_autonomy_preservation_meta:
+    rule: "autonomy_and_sovereignty_floors_non_negotiable_at_meta_layer"
+  anti_external_governance_override_logic:
+    prohibited:
+      - foreign_policy_default_override
+      - silent_equivalence_assumption
+      - undocumented_trust_expansion
+  policy_version_binding:
+    rule: "decisions_bind_to_evaluated_sovereign_policy_version"
+
+behavioral_constraints:
+  sovereign_boundaries:
+    - no_autonomous_sovereignty_relaxation
+    - no_unbounded_foreign_dependency
+    - no_unlawful_cross_border_processing
+    - no_foreign_canonical_policy_flip
+  impossibilities:
+    - cannot_execute_material_action_without_sovereign_trace
+    - cannot_suppress_foreign_influence_uncertainty
+    - cannot_disable_human_sovereign_override
+    - cannot_treat_yaml_as_implementation_substitute
+
+decision_logic:
+  resilience_evaluation:
+    mechanism: "sovereignty_dependency_adversarial_validation"
+    inputs:
+      - sovereign_obligation_bundle
+      - foreign_dependency_and_interop_signals
+      - adversarial_and_coercion_indicators
+      - survivability_impact_estimate
+    outcomes:
+      permit_bounded:
+        requires:
+          - sovereignty_preserved
+          - lawful_interop_if_applicable
+          - confidence_above_threshold
+          - traceability_present
+      require_human_approval:
+        triggers:
+          - material_sovereignty_touch
+          - adversarial_signal_elevated
+          - dependency_depth_critical
+      deny_and_escalate:
+        triggers:
+          - sovereignty_erosion_risk
+          - unlawful_interop
+          - confirmed_foreign_override
+
+  interoperability_attack_surfaces_specific_controls:
+    mechanism: "domain_scoped_sovereign_resilience_rules"
+    enforcement: "governance_middleware_before_cross_border_reliance"
+
+cross_domain_relationships:
+  sibling_domains:
+    - cross-border_interference/adversarial_interoperability
+    - cross-border_interference/india_sovereign_resilience
+    - governance_crosswalks
+  parent_trees:
+    - cybersecurity
+    - finance
+    - privacy
+    - sovereign_ai_governance
+
+traceability:
+  sovereign_trace:
+    requirement: "mandatory_for_all_material_interoperability_attack_surfaces_evaluations"
+    trace_captures:
+      - rule_reference_and_policy_version
+      - sovereignty_and_survivability_assessment
+      - foreign_influence_and_dependency_status
+      - uncertainty_and_confidence_basis
+      - arbitration_outcome
+      - escalation_status
+
+bounded_cognition:
+  containment_rules:
+    - prohibit_recursive_geopolitical_optimization
+    - prohibit_sovereignty_erosion_via_defaults
+    - prohibit_unbounded_foreign_influence_adaptation
+
+human_oversight:
+  override_authority: "human_sovereign_oversight_always_effective"
+  escalation_triggers:
+    - sovereignty_risk
+    - adversarial_confirmation
+    - survivability_floor_proximity
+
+output_standard:
+  governance_output_must_include:
+    - identity_and_policy_version
+    - sovereignty_status
+    - lawful_interop_status
+    - dependency_and_influence_assessment
+    - uncertainty_basis
+    - escalation_requirement
+    - trace_id
+  transparency_requirement:
+    auditability: true

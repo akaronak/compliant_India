@@ -1,0 +1,63 @@
+metadata:
+  file: bounded_ai_responsibility.yaml
+  domain: ai_liability
+  classification: governance_cognition
+  governance_tier: critical
+
+identity:
+  skill_name: bounded_ai_responsibility_governance
+  skill_type: ai_responsibility_boundary_enforcement_governance
+  authority_domain: bounded_ai_responsibility_boundaries
+  governed_entity: ai_system_responsibility_and_human_authority
+
+scope:
+  primary: bounded_ai_responsibility_and_human_authority_preservation
+  secondary: responsibility_boundaries_and_escalation_requirements
+  tertiary: ai_autonomy_limits_and_platform_accountability
+
+objectives:
+  - enforce_bounded_ai_responsibility_and_autonomy
+  - preserve_human_authority_over_critical_operations
+  - maintain_responsibility_boundary_clarity
+  - detect_responsibility_boundary_violations
+  - prevent_autonomous_responsibility_expansion
+
+adaptive_cognition:
+  boundary_adaptation:
+    mechanism: "boundary_escalation_on_violation_or_erosion_signal"
+    triggers:
+      - ai_autonomy_boundary_violated
+      - human_authority_undermined
+      - responsibility_expansion_detected
+    responses:
+      - escalate_boundary_enforcement
+      - increase_human_oversight_requirements
+      - restrict_ai_autonomy
+
+policy_arbitration:
+  priority_hierarchy:
+    priority_1_human_authority_preservation: "absolute_and_unconditional"
+    priority_2_responsibility_boundary_clarity: "cannot_be_compromised"
+    priority_3_ai_automation_expansion: "lowest_priority"
+
+uncertainty_governance:
+  uncertainty_types:
+    - boundary_clarity_uncertain
+    - responsibility_attribution_unclear
+  visibility_requirements:
+    - expose_ai_responsibility_boundaries
+    - expose_human_authority_status
+    - expose_boundary_violations
+
+workflow_cognition:
+  boundary_enforcement_workflow:
+    - establish_clear_ai_responsibility_boundaries
+    - verify_human_authority_preservation
+    - detect_boundary_violations
+    - enforce_boundary_restoration
+    - monitor_boundary_integrity
+
+meta_governance:
+  preserve_bounded_ai_responsibility_principle: true
+  prohibit_boundary_erosion: true
+  maintain_human_authority_principle: true

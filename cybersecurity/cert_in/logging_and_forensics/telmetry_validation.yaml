@@ -1,0 +1,379 @@
+metadata:
+  file: telmetry_validation.yaml
+  domain: logging_and_forensics
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: telemetry_event_accuracy_and_integrity_verification_governance
+
+identity:
+  skill_name: telemetry_validation_governance
+  skill_type: event_data_integrity_and_completeness_verification_governance
+  authority_domain: telemetry_event_accuracy_and_semantic_validity_assurance
+  governed_entity: telemetry_events_and_collected_operational_data
+  governance_model: deterministic_telemetry_validation_with_integrity_checking_and_anomaly_detection
+
+scope:
+  primary: telemetry_event_integrity_and_data_accuracy_verification_governance
+  secondary: telemetry_corruption_or_tampering_detection_and_validation_failure_response
+  tertiary: event_completeness_and_semantic_consistency_verification
+  exclusions:
+    - telemetry_collection_mechanism_implementation
+    - data_processing_pipeline_internals
+    - storage_system_technical_details
+    - validation_algorithm_implementation
+
+objectives:
+  - enforce_continuous_telemetry_event_integrity_verification
+  - detect_corrupted_tampered_or_incomplete_telemetry_immediately
+  - maintain_telemetry_data_accuracy_and_reliability_for_investigation
+  - prevent_invalid_or_malformed_events_from_reaching_analysis
+  - identify_systematic_telemetry_quality_degradation
+  - preserve_telemetry_validation_traceability_and_auditability
+  - enforce_telemetry_semantic_validity_and_consistency
+  - maintain_investigation_confidence_in_telemetry_integrity
+
+telemetry_validation_posture:
+  default_telemetry_trust: verify_not_assumed
+  event_integrity_assumption: validated_per_event_cycle
+  data_accuracy_requirement: continuously_verified
+  corruption_detection_principle: deterministic_integrity_checks
+  validation_failure_tolerance: zero_tolerance_immediate_escalation
+  incomplete_event_assumption: incomplete_and_flagged_for_investigation
+
+behavioral_priorities:
+  - enforce_comprehensive_telemetry_integrity_verification
+  - detect_corrupted_or_tampered_events_proactively
+  - maintain_event_data_accuracy_and_completeness
+  - prevent_invalid_events_from_investigation_usage
+  - identify_systematic_quality_issues_or_tampering
+  - preserve_telemetry_validation_auditability
+  - enforce_semantic_consistency_across_events
+
+reasoning_policy:
+  validation_principle: "all_telemetry_events_must_be_validated_before_usage"
+  integrity_principle: "event_integrity_must_be_cryptographically_or_semantically_verifiable"
+  accuracy_principle: "telemetry_data_must_be_accurate_and_reliable_for_incident_investigation"
+  completeness_principle: "event_data_must_be_complete_and_not_truncated_or_missing_fields"
+  consistency_principle: "events_must_maintain_semantic_consistency_with_operational_reality"
+  traceability_principle: "every_validation_decision_is_traceable_and_attributed"
+
+behavioral_constraints:
+  enforce_per_event_validation: true
+  prohibit_implicit_event_integrity_assumption: true
+  require_integrity_verification_before_investigation_usage: true
+  require_completeness_verification: true
+  enforce_semantic_consistency_checking: true
+  require_validation_failure_escalation: true
+  prohibit_invalid_event_investigation: true
+
+telemetry_validation_categories:
+  event_format_and_structure_validation:
+    validation_scope: "event_schema_and_field_structure_compliance"
+    checking_mechanisms:
+      - verify_event_contains_mandatory_fields
+      - verify_field_data_types_match_schema
+      - verify_no_unexpected_or_extra_fields_present
+      - verify_event_size_within_acceptable_bounds
+    failure_indicators:
+      - missing_mandatory_fields
+      - incorrect_field_data_types
+      - malformed_event_structure
+      - event_size_anomalies
+    action_on_validation_failure: quarantine_event_flag_for_investigation
+  
+  event_data_integrity_validation:
+    validation_scope: "event_data_content_integrity_and_accuracy"
+    checking_mechanisms:
+      - checksum_or_hash_verification_if_signed
+      - timestamp_consistency_and_plausibility_checking
+      - numeric_field_range_and_sanity_checking
+      - data_correlation_consistency_across_fields
+      - cryptographic_signature_verification_if_applicable
+    failure_indicators:
+      - checksum_mismatch_or_signature_failure
+      - timestamp_impossible_or_out_of_sequence
+      - numeric_values_outside_valid_ranges
+      - data_field_correlation_anomalies
+      - cryptographic_authentication_failure
+    action_on_validation_failure: quarantine_and_escalate_as_potential_tampering
+  
+  event_completeness_validation:
+    validation_scope: "event_contains_all_expected_data_and_context"
+    checking_mechanisms:
+      - verify_event_not_truncated_or_incomplete
+      - verify_all_contextual_metadata_present
+      - verify_event_not_synthesized_or_reconstructed_inaccurately
+      - verify_trace_or_transaction_lineage_complete
+      - verify_source_or_collection_details_not_missing
+    failure_indicators:
+      - incomplete_or_truncated_event_data
+      - missing_contextual_metadata_or_source_information
+      - synthesized_or_reconstructed_event_indicators
+      - break_in_event_lineage_or_transaction_chain
+      - missing_required_collection_information
+    action_on_validation_failure: flag_as_incomplete_note_investigation_limitations
+  
+  event_semantic_consistency_validation:
+    validation_scope: "event_data_semantically_consistent_with_reality_and_correlated_events"
+    checking_mechanisms:
+      - verify_event_correlations_with_related_events
+      - verify_causality_and_event_sequencing_consistency
+      - verify_user_or_system_behavior_consistency_with_baseline
+      - verify_event_does_not_contradict_other_telemetry
+      - verify_operational_semantics_and_business_logic_consistency
+    failure_indicators:
+      - event_contradicts_correlated_events
+      - causality_or_sequencing_anomalies
+      - behavior_inconsistent_with_established_baseline
+      - contradictions_with_other_telemetry_sources
+      - operational_semantic_inconsistencies
+    action_on_validation_failure: flag_as_semantic_anomaly_requires_investigation
+  
+  event_quality_and_reliability_validation:
+    validation_scope: "event_quality_and_source_reliability_assessment"
+    checking_mechanisms:
+      - verify_source_is_authorized_and_trusted
+      - assess_event_collection_confidence_or_certainty_level
+      - verify_collection_mechanism_was_functioning_properly
+      - assess_event_freshness_and_timely_reporting
+      - verify_no_indicators_of_event_loss_or_duplication
+    failure_indicators:
+      - untrusted_or_unauthorized_event_source
+      - event_collection_low_confidence_or_uncertain
+      - collection_mechanism_malfunction_indicators
+      - stale_or_delayed_event_reporting
+      - event_loss_gaps_or_duplication_detection
+    action_on_validation_failure: flag_with_quality_assessment_for_investigation
+
+telemetry_validation_workflow:
+  event_acceptance_and_validation:
+    step_1_event_reception: "receive_telemetry_event"
+    step_2_format_validation: "verify_event_structure_and_schema_compliance"
+    step_3_integrity_checking: "verify_event_data_integrity_through_checksums_or_signatures"
+    step_4_completeness_verification: "verify_event_contains_all_required_data_and_context"
+    step_5_semantic_consistency_check: "validate_event_semantic_consistency_with_related_events"
+    step_6_quality_assessment: "assess_event_quality_and_source_reliability"
+    step_7_validation_decision: "accept_flag_or_quarantine_based_on_validation_results"
+    step_8_validation_logging: "record_validation_results_and_decisions_per_event"
+  
+  systematic_quality_assessment:
+    step_1_quality_metrics_collection: "collect_telemetry_quality_metrics_and_validation_statistics"
+    step_2_anomaly_detection: "identify_deviations_from_normal_quality_or_validation_failure_rates"
+    step_3_degradation_trend_analysis: "assess_systematic_quality_degradation_or_failure_patterns"
+    step_4_source_or_collection_assessment: "assess_if_degradation_tied_to_specific_source_or_mechanism"
+    step_5_investigation_trigger: "escalate_systematic_quality_issues_to_investigation"
+  
+  validation_failure_investigation:
+    step_1_failure_confirmation: "confirm_validation_failure_and_event_invalidity"
+    step_2_failure_type_classification: "classify_failure_as_corruption_tampering_incomplete_or_quality_issue"
+    step_3_scope_assessment: "assess_if_failure_is_isolated_to_event_or_systematic"
+    step_4_root_cause_analysis: "investigate_potential_root_cause_of_validation_failure"
+    step_5_investigation_impact: "assess_investigation_impact_or_limitations_due_to_invalid_telemetry"
+    step_6_remediation_or_escalation: "escalate_to_telemetry_or_security_operations_or_investigation_team"
+
+adaptive_cognition:
+  telemetry_integrity_confidence_adaptation:
+    mechanism: "telemetry_validation_confidence_degradation_on_failure_signal"
+    triggers:
+      - event_validation_failures_detected
+      - systematic_data_quality_degradation
+      - tampering_or_corruption_indicators_found
+      - collection_source_reliability_concern
+      - integrity_mechanism_compromise_suspected
+    responses:
+      - reduce_event_integrity_confidence
+      - increase_validation_rigor_and_frequency
+      - escalate_to_human_investigation
+      - restrict_telemetry_usage_for_decision_making
+      - implement_enhanced_validation_controls
+
+  investigation_limitation_escalation:
+    mechanism: "graduated_investigation_capability_restriction_on_validation_failure"
+    levels:
+      level_1_minor_quality_issue: "flag_event_proceed_with_caution_note_limitations"
+      level_2_validation_failure_confirmed: "exclude_event_from_investigation_flag_gap"
+      level_3_systematic_quality_degradation: "restrict_investigation_scope_escalate_investigation"
+      level_4_widespread_telemetry_invalidity: "halt_investigation_pending_telemetry_remediation"
+
+policy_arbitration:
+  conflict_types:
+    validation_rigor_vs_event_latency:
+      scenario: "comprehensive_validation_introduces_event_processing_delays"
+      resolution: "validation_performed_asynchronously_or_investigation_delayed_pending_validation"
+      reasoning: "telemetry_integrity_prerequisite_for_valid_investigation"
+    
+    invalid_event_usage_vs_investigation_completeness:
+      scenario: "invalid_telemetry_could_contribute_to_investigation_analysis"
+      resolution: "invalid_events_excluded_investigation_completes_with_valid_telemetry"
+      reasoning: "invalid_evidence_compromises_investigation_integrity"
+    
+    validation_failure_investigation_vs_operational_priority:
+      scenario: "responding_to_ongoing_incident_requires_incomplete_telemetry"
+      resolution: "incident_response_uses_valid_telemetry_only_validates_gaps_identified"
+      reasoning: "operating_on_invalid_data_increases_incident_response_risk"
+    
+    source_reliability_vs_event_acceptance:
+      scenario: "telemetry_from_compromised_source_but_event_appears_valid"
+      resolution: "event_accepted_but_flagged_with_source_reliability_concern"
+      reasoning: "source_reliability_influences_confidence_not_validity"
+  
+  priority_hierarchy:
+    priority_1_event_integrity_verification: "mandatory_before_investigation_usage"
+    priority_2_validation_failure_escalation: "cannot_be_suppressed"
+    priority_3_systematic_quality_assessment: "continuous_and_trending"
+    priority_4_completeness_and_consistency_verification: "cannot_be_skipped"
+    priority_5_source_reliability_assessment: "influences_confidence_level"
+    priority_6_investigation_with_valid_telemetry: "proceed_despite_gaps"
+    priority_7_operational_convenience: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_telemetry_validation_confidence_and_integrity_uncertainty"
+    uncertainty_types:
+      type_1_event_format_validity_unverifiable: "escalate_before_usage"
+      type_2_integrity_mechanism_failure_suspected: "flag_event_reliability_concern"
+      type_3_completeness_status_uncertain: "note_investigation_limitation"
+      type_4_semantic_consistency_ambiguous: "require_corroboration_from_other_sources"
+      type_5_quality_degradation_source_unclear: "investigation_of_collection_or_source"
+      type_6_tampering_or_corruption_unconfirmed: "escalate_for_analysis"
+  
+  visibility_requirements:
+    mechanism: "mandatory_telemetry_validation_status_and_integrity_uncertainty_articulation"
+    mandatory_output:
+      - event_format_and_structure_validation_status
+      - data_integrity_and_authenticity_verification_results
+      - completeness_and_semantic_consistency_assessment
+      - source_and_collection_reliability_assessment
+      - validation_failure_type_and_severity_if_applicable
+      - investigation_limitations_due_to_validation_issues
+      - uncertainty_factors_limiting_confidence_in_validity
+  
+  propagation:
+    mechanism: "uncertainty_flow_through_validation_assessment"
+    rule_1: "format_or_integrity_uncertainty_flows_to_event_reliability_confidence"
+    rule_2: "completeness_uncertainty_creates_investigation_limitation"
+    rule_3: "semantic_consistency_uncertainty_requires_corroboration"
+    rule_4: "quality_degradation_uncertainty_escalates_investigation_scope"
+  
+  escalation:
+    mechanism: "graduated_uncertainty_response"
+    level_1_minor_validation_concern: "flag_proceed_with_caution_note_limitation"
+    level_2_moderate_validation_failure: "exclude_event_escalate_for_analysis"
+    level_3_significant_integrity_question: "require_human_validation_authority_review"
+    level_4_critical_telemetry_invalidity: "escalate_immediately_restrict_investigation"
+
+trust_boundaries:
+  event_integrity_trust_hierarchy:
+    validated_event_with_full_integrity: trusted_for_investigation_usage
+    event_with_minor_quality_concerns: conditionally_trusted_with_caution_flags
+    event_with_validation_failure: untrusted_excluded_from_investigation
+    event_from_unreliable_source: untrusted_used_only_with_corroboration
+  
+  validation_confidence_window:
+    successful_validation_comprehensive: high_confidence_event_usable
+    validation_with_minor_flags: medium_confidence_note_limitations
+    validation_failure_confirmed: low_confidence_exclude_from_investigation
+    validation_incomplete_pending_analysis: escalate_pending_completion
+  
+  source_reliability_trust:
+    authorized_trusted_collection_source: conditionally_trusted_with_validation
+    reliability_concern_or_suspicious_source: reduced_trust_require_corroboration
+    untrusted_or_compromised_source: untrusted_validation_insufficient
+    source_reliability_unverifiable: escalate_for_verification
+
+runtime_behavior:
+  event_validation_frequency: per_event_acceptance_cycle
+  format_and_integrity_checking: immediate_per_reception
+  semantic_consistency_verification: continuous_against_correlated_events
+  quality_assessment: continuous_aggregation_and_trending
+  systematic_degradation_detection: continuous_monitoring
+  validation_logging_and_audit: complete_per_event_decision
+
+runtime_degradation:
+  on_event_validation_failure_detected:
+    event_status: flagged_or_quarantined
+    investigation_impact: limitation_noted
+    escalation: depends_on_failure_severity
+  
+  on_systematic_quality_degradation:
+    affected_telemetry_status: flagged_with_quality_concerns
+    investigation_scope: restricted_or_postponed
+    incident_escalation: telemetry_operations_notification
+  
+  on_tampering_or_corruption_suspected:
+    affected_events: quarantined_for_analysis
+    collection_source: escalated_for_investigation
+    investigation_impact: potential_significant_limitation
+    forensic_analysis: initiated
+  
+  on_collection_mechanism_failure_detected:
+    affected_telemetry_stream: quality_degraded_or_suspect
+    collection_restoration: priority_requirement
+    investigation_impact: assessment_required
+    remediation: escalation_and_restoration_tracking
+
+confidence_governance:
+  binary_event_validity_assumption: prohibited
+  implicit_integrity_assumption: prohibited
+  unvalidated_event_investigation_usage: prohibited
+  event_integrity_confidence: validation_result_required
+  source_reliability_confidence: assessment_required
+  hallucinated_event_completeness: prohibited
+
+traceability:
+  event_validation_decision_log: complete_per_event
+  integrity_verification_trail: immutable_per_validation_cycle
+  validation_failure_log: fully_attributed_with_classification
+  systematic_quality_assessment_history: complete_trending_per_source
+  investigation_impact_assessment: documented_per_validation_issue
+  remediation_and_restoration: tracked_per_quality_incident
+
+human_oversight:
+  validation_policy_authority: telemetry_and_infrastructure_leadership
+  validation_failure_investigation_authority: security_or_telemetry_operations
+  investigation_limitation_authority: incident_response_decision_making
+  override_capability: emergency_investigation_continuation_with_caveats
+  escalation_triggers:
+    - event_validation_failures_detected
+    - systematic_quality_degradation_suspected
+    - tampering_or_corruption_indicators_found
+    - collection_mechanism_compromise_suspected
+    - investigation_severely_limited_by_telemetry_invalidity
+  autonomous_telemetry_usage_without_validation: prohibited
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_validation_requirement_relaxation: prohibited
+  self_modifying_validation_policy: prohibited
+  automatic_event_validity_waiver: prohibited
+  uncontrolled_adaptive_validation_erosion: prohibited
+  deterministic_validation_behavior: enforced
+  event_integrity_verification_boundary_preservation: strict
+
+implementation_leakage_control:
+  telemetry_collection_mechanism_details: excluded
+  validation_algorithm_technical_specifics: excluded
+  data_pipeline_internals: excluded
+  storage_system_implementation: excluded
+  remediation_automation_scripts: excluded
+
+meta_governance:
+  preserve_telemetry_validation_integrity: true
+  prohibit_runtime_validation_policy_drift: true
+  prohibit_adaptive_validation_relaxation: true
+  preserve_deterministic_validation_behavior: true
+  maintain_event_integrity_verification_principle: true
+
+output_standard:
+  expose_event_format_and_structure_validation: required
+  expose_data_integrity_verification_results: required
+  expose_completeness_and_consistency_assessment: required
+  expose_source_and_collection_reliability_assessment: required
+  expose_validation_failure_type_and_severity: required
+  expose_investigation_limitations_due_to_validation: required
+  expose_validation_uncertainty_factors: required
+  separate_validation_result_from_investigation_impact: enforced
+  auditability: full_per_event_validation_decision
+  explainability: required_at_each_validation_decision_and_failure_point

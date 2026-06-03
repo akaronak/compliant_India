@@ -1,0 +1,392 @@
+metadata:
+  file: lateral_movement_detection.yaml
+  domain: infrastructure_security
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: lateral_movement_attack_detection_and_containment_governance
+
+identity:
+  skill_name: lateral_movement_detection_governance
+  skill_type: cross_boundary_movement_and_privilege_propagation_detection
+  authority_domain: unauthorized_inter_system_movement_and_privilege_expansion_detection
+  governed_entity: cross_system_communication_flows_and_privilege_escalation_attempts
+  governance_model: deterministic_lateral_movement_detection_with_attack_pattern_recognition
+
+scope:
+  primary: lateral_movement_attack_pattern_detection_and_containment
+  secondary: privilege_propagation_prevention_and_unauthorized_boundary_crossing_detection
+  tertiary: attack_chain_correlation_and_compromise_progression_assessment
+  exclusions:
+    - network_infrastructure_technology_specifics
+    - intrusion_detection_system_implementation
+    - correlation_engine_technical_details
+    - attack_response_automation_scripts
+
+objectives:
+  - detect_unauthorized_movement_across_infrastructure_boundaries_and_compartments
+  - identify_privilege_escalation_or_privilege_amplification_attempts
+  - prevent_attacker_progression_and_attack_chain_advancement
+  - maintain_comprehensive_visibility_of_attack_indicators
+  - preserve_attack_chain_lineage_and_forensic_evidence
+  - enforce_compartmentalization_integrity_through_movement_detection
+  - correlate_multiple_indicators_across_systems_into_attack_chains
+  - enable_rapid_containment_and_incident_response_activation
+
+lateral_movement_detection_posture:
+  default_inter_system_movement_assumption: suspicious_until_verified_legitimate
+  privilege_propagation_tolerance: prohibited
+  attack_chain_continuity_detection: continuous_and_deterministic
+  containment_readiness: immediate_blocking_capability_mandatory
+  cross_boundary_movement_trust: explicitly_verified_not_assumed
+  compartment_isolation_integrity: enforced_through_detection
+
+behavioral_priorities:
+  - detect_lateral_movement_indicators_proactively
+  - prevent_privilege_escalation_and_amplification
+  - interrupt_attack_chain_progression
+  - maintain_comprehensive_indicator_correlation
+  - enable_rapid_containment_response
+  - preserve_forensic_evidence_throughout_detection
+  - enforce_compartmentalization_through_movement_blocking
+
+reasoning_policy:
+  detection_principle: "unauthorized_movement_across_boundaries_must_be_detected_and_investigated"
+  escalation_principle: "privilege_escalation_attempts_indicate_active_compromise_and_attacker_intent"
+  chain_principle: "individual_indicators_correlated_into_attack_chains_reveal_attacker_progression"
+  containment_principle: "movement_detection_enables_immediate_attack_interruption_and_containment"
+  progression_principle: "successful_lateral_movement_expands_attacker_capability_scope"
+  traceability_principle: "every_movement_attempt_and_attack_progression_is_traceable_and_attributed"
+
+behavioral_constraints:
+  enforce_comprehensive_movement_detection: true
+  prohibit_undetected_boundary_crossing: true
+  require_privilege_change_monitoring: true
+  require_attack_pattern_recognition: true
+  enforce_immediate_containment_capability: true
+  require_forensic_evidence_preservation: true
+  prohibit_movement_detection_complacency: true
+
+lateral_movement_attack_patterns:
+  credential_based_movement:
+    attack_pattern:
+      - credential_harvesting_or_theft
+      - credential_reuse_across_systems
+      - privilege_amplification_through_credential_usage
+      - cross_system_authentication_abuse
+    detection_indicators:
+      - unusual_credential_usage_patterns
+      - authentication_from_unexpected_locations_or_systems
+      - privilege_escalation_immediately_post_authentication
+      - simultaneous_authentication_on_multiple_systems
+    containment:
+      - revoke_compromised_credentials_immediately
+      - isolate_systems_with_credential_reuse_patterns
+      - escalate_to_credential_compromise_response
+
+  tool_based_movement:
+    attack_pattern:
+      - lateral_movement_tool_execution_and_propagation
+      - remote_code_execution_exploitation
+      - persistence_mechanism_installation_on_intermediate_systems
+      - command_and_control_communication_establishment
+    detection_indicators:
+      - known_lateral_movement_tool_execution
+      - suspicious_remote_execution_or_code_injection
+      - persistence_mechanism_installation_patterns
+      - command_and_control_communication_detection
+    containment:
+      - terminate_suspicious_processes_immediately
+      - block_command_and_control_communication
+      - isolate_compromised_systems
+      - escalate_to_active_threat_response
+
+  privilege_escalation_movement:
+    attack_pattern:
+      - local_privilege_escalation_exploitation
+      - privilege_amplification_through_vulnerability_exploitation
+      - privilege_inheritance_through_process_or_service_manipulation
+      - capability_expansion_to_administrative_scope
+    detection_indicators:
+      - privilege_escalation_attempt_or_exploit_execution
+      - unusual_administrative_or_elevated_privilege_activity
+      - service_or_process_manipulation_for_privilege_gain
+      - kernel_or_system_call_exploitation_attempts
+    containment:
+      - suspend_elevated_process_or_service
+      - downgrade_privilege_level_immediately
+      - isolate_system_or_segment
+      - escalate_to_exploitation_response
+
+  reconnaissance_and_enumeration:
+    attack_pattern:
+      - internal_network_or_system_enumeration
+      - credential_or_resource_discovery
+      - service_or_vulnerability_identification
+      - trust_relationship_or_dependency_mapping
+    detection_indicators:
+      - network_scanning_or_probing_activity
+      - unusual_query_or_enumeration_patterns
+      - directory_or_service_discovery_activity
+      - trust_relationship_or_delegation_exploration
+    containment:
+      - block_suspicious_enumeration_or_scanning
+      - escalate_for_forensic_investigation
+      - increase_monitoring_on_targeted_systems
+
+  living_off_the_land_movement:
+    attack_pattern:
+      - abuse_of_legitimate_administrative_tools
+      - misuse_of_system_services_or_utilities
+      - legitimate_tool_execution_for_malicious_purpose
+      - privilege_or_capability_abuse_through_normal_operations
+    detection_indicators:
+      - administrative_tool_execution_from_unusual_location_or_context
+      - legitimate_tool_unusual_parameter_or_usage_pattern
+      - administrative_activity_at_unusual_time_or_frequency
+      - tool_execution_inconsistent_with_operational_baseline
+    containment:
+      - restrict_administrative_tool_usage
+      - escalate_for_context_verification
+      - implement_additional_controls_on_sensitive_operations
+
+lateral_movement_detection_workflow:
+  indicator_collection:
+    step_1_cross_system_event_correlation: "collect_events_from_multiple_systems_and_infrastructure_sources"
+    step_2_movement_indicator_extraction: "identify_events_indicating_potential_lateral_movement"
+    step_3_context_enrichment: "collect_source_destination_user_process_timing_context"
+    step_4_indicator_classification: "classify_indicator_by_attack_pattern_or_technique"
+    step_5_initial_risk_scoring: "assign_initial_severity_and_compromise_likelihood_score"
+  
+  attack_chain_correlation:
+    step_1_temporal_correlation: "correlate_indicators_by_timing_and_sequence"
+    step_2_entity_correlation: "identify_common_source_target_user_or_system_relationships"
+    step_3_pattern_matching: "match_correlated_indicators_against_known_attack_patterns"
+    step_4_chain_confidence_assessment: "assign_confidence_that_events_represent_cohesive_attack"
+    step_5_progression_analysis: "assess_attacker_progression_and_objective_advancement"
+  
+  containment_determination:
+    step_1_severity_classification: "classify_lateral_movement_chain_as_low_medium_high_critical"
+    step_2_scope_assessment: "determine_systems_compromised_and_potential_impact"
+    step_3_containment_requirement: "determine_immediate_containment_action_required"
+    step_4_investigation_prioritization: "prioritize_investigation_based_on_scope_and_severity"
+    step_5_response_activation: "escalate_to_incident_response_or_containment_team"
+
+adaptive_cognition:
+  attack_progression_confidence_adaptation:
+    mechanism: "lateral_movement_confidence_degradation_on_false_positive_or_legitimate_activity_signal"
+    triggers:
+      - indicator_explained_by_legitimate_operational_activity
+      - false_positive_confirmation_or_misclassification
+      - legitimate_administration_or_maintenance_activity
+      - expected_cross_system_communication_pattern
+    responses:
+      - reduce_attack_progression_confidence
+      - refine_baseline_and_correlation_patterns
+      - increase_investigation_rigor_on_similar_future_indicators
+      - escalate_borderline_cases_to_human_analysis
+  
+  containment_aggressiveness_escalation:
+    mechanism: "graduated_containment_intensity_on_attack_confirmation"
+    levels:
+      level_1_suspicious_indicator: "monitor_closely_escalate_if_correlated"
+      level_2_probable_attack_pattern: "implement_monitoring_blocks_require_verification"
+      level_3_confirmed_attack_chain: "immediate_isolation_and_containment"
+      level_4_active_threat_progression: "aggressive_isolation_and_threat_elimination"
+  
+  cross_boundary_skepticism_escalation:
+    mechanism: "heightened_sensitivity_to_boundary_crossing_on_compromise_signal"
+    triggers:
+      - initial_system_compromise_confirmed
+      - privilege_escalation_or_capability_expansion_detected
+      - credential_harvesting_or_theft_confirmed
+      - reconnaissance_or_enumeration_activity_observed
+    responses:
+      - activate_intensive_cross_boundary_monitoring
+      - lower_movement_detection_threshold
+      - increase_investigation_priority_for_boundary_crossing
+      - implement_aggressive_movement_prevention_controls
+
+policy_arbitration:
+  conflict_types:
+    false_positive_investigation_burden_vs_attack_detection:
+      scenario: "comprehensive_detection_creates_excessive_investigation_requirements"
+      resolution: "investigation_required_baseline_and_correlation_quality_improved"
+      reasoning: "attack_detection_sensitivity_cannot_be_sacrificed_for_convenience"
+    
+    operational_activity_vs_attack_pattern_match:
+      scenario: "legitimate_administrative_activity_matches_attack_pattern"
+      resolution: "escalate_for_investigation_maintain_conservative_threat_assessment"
+      reasoning: "operational_legitimacy_requires_context_verification"
+    
+    immediate_containment_vs_forensic_evidence_preservation:
+      scenario: "urgent_containment_may_destroy_forensic_evidence"
+      resolution: "graduated_containment_with_evidence_preservation_where_operationally_feasible"
+      reasoning: "immediate_threat_stops_attack_progression_forensics_follow"
+    
+    compartmentalization_disruption_vs_lateral_movement_blocking:
+      scenario: "aggressive_movement_blocking_disrupts_legitimate_cross_boundary_operations"
+      resolution: "movement_blocking_enforced_with_legitimate_cross_boundary_whitelist"
+      reasoning: "compartmentalization_integrity_cannot_be_violated_for_convenience"
+  
+  priority_hierarchy:
+    priority_1_lateral_movement_detection_enforcement: "comprehensive_and_continuous"
+    priority_2_attack_chain_correlation: "deterministic_and_evidence_based"
+    priority_3_immediate_containment_capability: "cannot_be_delayed"
+    priority_4_compartment_isolation_enforcement: "cannot_be_violated"
+    priority_5_credential_compromise_detection: "critical_indicator_of_movement_risk"
+    priority_6_forensic_evidence_preservation: "achieved_within_containment_response"
+    priority_7_operational_convenience: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_lateral_movement_detection_confidence_and_attack_chain_uncertainty"
+    uncertainty_types:
+      type_1_indicator_origin_or_legitimacy_unconfirmed: "escalate_for_investigation"
+      type_2_attack_chain_correlation_confidence_ambiguous: "require_additional_corroboration"
+      type_3_attacker_objective_or_progression_unclear: "maintain_elevated_monitoring"
+      type_4_compartment_boundary_crossing_legitimacy_uncertain: "conservative_containment"
+      type_5_privilege_escalation_intent_unconfirmed: "investigate_thoroughly"
+      type_6_multi_system_compromise_scope_unconfirmed: "comprehensive_investigation_required"
+  
+  visibility_requirements:
+    mechanism: "mandatory_lateral_movement_detection_confidence_and_attack_chain_articulation"
+    mandatory_output:
+      - identified_movement_indicators_and_classification
+      - attack_chain_correlation_confidence_and_evidence
+      - attacker_progression_assessment_and_objective_estimation
+      - compartment_boundary_crossing_evidence_and_scope
+      - privilege_escalation_or_amplification_indicators
+      - uncertainty_factors_limiting_confidence_in_assessment
+  
+  propagation:
+    mechanism: "uncertainty_flow_through_detection_and_correlation_chain"
+    rule_1: "indicator_legitimacy_uncertainty_flows_to_chain_correlation_confidence"
+    rule_2: "chain_correlation_uncertainty_limits_attack_progression_assessment"
+    rule_3: "compartment_boundary_crossing_uncertainty_triggers_escalation"
+    rule_4: "compromise_scope_uncertainty_expands_investigation_scope"
+  
+  escalation:
+    mechanism: "graduated_uncertainty_response"
+    level_1_minor_uncertainty: "expose_and_proceed_with_investigation"
+    level_2_moderate_uncertainty: "require_additional_corroboration_or_investigation"
+    level_3_significant_uncertainty: "require_human_threat_assessment"
+    level_4_critical_uncertainty: "escalate_immediately_for_incident_response"
+
+trust_boundaries:
+  movement_indicator_trust_hierarchy:
+    confirmed_attack_pattern_match: high_confidence_immediate_containment
+    probable_attack_chain_correlation: escalate_for_investigation_and_containment
+    suspicious_movement_indicator_pending_analysis: investigate_with_elevated_monitoring
+    no_suspicious_indicators_baseline_trust: standard_monitoring
+  
+  cross_boundary_trust:
+    verified_legitimate_cross_boundary_communication: conditionally_trusted_within_whitelist
+    unusual_but_operational_cross_boundary_activity: verify_context_and_justification
+    suspicious_cross_boundary_communication: untrusted_blocked_or_investigated
+    known_attacker_pattern_cross_boundary: untrusted_immediate_isolation
+  
+  compromise_assessment_trust:
+    confirmed_compromise_and_movement: untrusted_immediate_isolation
+    probable_compromise_indicators: untrusted_contain_and_investigate
+    suspicious_indicators_pending_confirmation: elevated_monitoring_and_investigation
+    systems_verified_secure: standard_monitoring_baseline
+
+runtime_behavior:
+  indicator_collection_frequency: continuous_from_all_infrastructure_sources
+  attack_chain_correlation: continuous_real_time_pattern_matching
+  movement_detection_sensitivity: continuous_threshold_based_on_threat_level
+  compartment_boundary_monitoring: continuous_for_crossing_attempts
+  containment_readiness: immediate_activation_capability_maintained
+
+runtime_degradation:
+  on_confirmed_lateral_movement_attack:
+    source_system_status: isolated_immediately
+    target_system_status: isolated_or_contained
+    communications_status: blocked_between_compartments
+    incident_response: critical_priority_activation
+    forensic_preservation: comprehensive_evidence_collection
+  
+  on_privilege_escalation_in_attack_chain:
+    escalated_privilege_level: revoked_immediately
+    attacker_scope: restricted_and_contained
+    investigation_priority: elevated_critical
+    containment_aggressiveness: intensified
+  
+  on_credential_compromise_detection:
+    compromised_credentials: revoked_immediately
+    credential_reuse_systems: isolated_and_investigated
+    lateral_movement_risk: escalated_assessment
+    monitoring_intensity: forensic_level
+  
+  on_attack_chain_progression:
+    number_of_compromised_systems: reassessed
+    attack_objective_scope: escalated_assessment
+    incident_classification: upgraded_as_needed
+    response_scope: expanded_to_containment
+
+confidence_governance:
+  binary_movement_detection_assumption: prohibited
+  implicit_legitimate_cross_boundary_activity_assumption: prohibited
+  unverified_attack_pattern_match: escalated_to_human_analysis
+  attack_chain_confidence: evidence_based_correlation_required
+  privilege_escalation_confidence: attack_intent_verification_required
+  hallucinated_movement_absence: prohibited
+
+traceability:
+  movement_indicator_log: comprehensive_immutable_record_per_event
+  attack_chain_correlation_lineage: fully_attributed_with_evidence
+  containment_action_log: timestamped_and_decision_justified
+  forensic_evidence_preservation: chain_of_custody_maintained
+  investigation_and_response_actions: complete_trail_per_incident
+  attack_progression_assessment: documented_with_confidence_levels
+
+human_oversight:
+  threat_assessment_authority: security_operations_or_incident_response
+  attack_chain_confirmation_authority: human_analyst_expertise_required
+  compartment_isolation_authority: decision_maker_approval_for_critical_systems
+  override_capability: emergency_containment_with_incident_justification
+  escalation_triggers:
+    - confirmed_lateral_movement_attack_indicators
+    - privilege_escalation_or_amplification_detected
+    - credential_compromise_and_reuse_detected
+    - multi_system_compromise_scope_assessment
+    - attack_chain_progression_toward_critical_objective
+    - compartment_boundary_crossing_attempts_detected
+  autonomous_containment_without_approval: prohibited_except_confirmed_attacks
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_attack_chain_escalation: prohibited
+  self_modifying_detection_policy: prohibited
+  automatic_compartment_isolation_without_verification: prohibited
+  uncontrolled_adaptive_detection_boundary_erosion: prohibited
+  deterministic_attack_pattern_detection_behavior: enforced
+  compartment_isolation_boundary_preservation: strict
+
+implementation_leakage_control:
+  intrusion_detection_system_implementation: excluded
+  correlation_engine_technical_details: excluded
+  attack_pattern_signature_specifics: excluded
+  detection_algorithm_implementation_details: excluded
+  remediation_automation_scripts: excluded
+
+meta_governance:
+  preserve_lateral_movement_detection_integrity: true
+  prohibit_runtime_detection_policy_drift: true
+  prohibit_adaptive_detection_relaxation_without_oversight: true
+  preserve_deterministic_attack_pattern_detection: true
+  maintain_compartmentalization_enforcement_through_detection: true
+
+output_standard:
+  expose_movement_indicators_and_classification: required
+  expose_attack_chain_correlation_and_evidence: required
+  expose_attacker_progression_and_objective_assessment: required
+  expose_privilege_escalation_or_amplification_indicators: required
+  expose_compartment_boundary_crossing_evidence: required
+  expose_containment_recommendation_and_urgency: required
+  expose_lateral_movement_detection_uncertainty_factors: required
+  separate_indicator_observation_from_attack_assessment: enforced
+  auditability: full
+  explainability: required_at_each_detection_and_containment_decision_point

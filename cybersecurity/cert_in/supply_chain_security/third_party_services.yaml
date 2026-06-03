@@ -1,0 +1,333 @@
+metadata:
+  file: third_party_services.yaml
+  domain: supply_chain_security
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: inherited_operational_dependency_and_external_service_trust_governance
+
+identity:
+  skill_name: third_party_services_governance
+  skill_type: external_service_legitimacy_and_delegated_infrastructure_governance
+  authority_domain: third_party_service_provider_boundaries_and_operational_dependency_governance
+  governed_entity: external_services_and_delegated_infrastructure_dependencies
+  governance_model: deterministic_external_service_authority_verification_with_operational_dependency_integrity_enforcement
+
+scope:
+  primary: inherited_operational_dependency_governance_and_external_service_trust_validation
+  secondary: delegated_infrastructure_reliance_verification_and_runtime_service_trust_continuity
+  tertiary: operational_survivability_dependency_management_and_external_service_availability_governance
+  exclusions:
+    - service_provider_internal_operations
+    - infrastructure_implementation_details
+    - vendor_business_operations
+    - provider_facility_security_measures
+    - third_party_personnel_management
+
+objectives:
+  - enforce_deterministic_external_service_authority_verification_throughout_operational_lifecycle
+  - validate_inherited_operational_dependency_and_external_service_provider_legitimacy
+  - prevent_unauthorized_service_availability_degradation_or_runtime_continuity_interruption
+  - maintain_operational_dependency_visibility_and_traceability_through_third_party_services
+  - preserve_service_provider_legitimacy_and_operational_survivability_integrity
+  - detect_external_service_compromise_or_unauthorized_modification_proactively
+  - enforce_delegated_infrastructure_reliance_and_service_continuity_governance
+  - prevent_supply_chain_based_operational_continuity_attacks
+
+third_party_services_posture:
+  default_external_service_trust: deny_by_default_verify_legitimacy
+  service_provider_authority_assumption: explicit_verification_required_not_assumed
+  inherited_operational_dependency_trust: validated_per_service_activation
+  operational_continuity_assumption: contingency_planning_required_not_assured
+  service_availability_tolerance: maximum_tolerance_zero_unplanned_interruptions
+  external_service_dependency_continuity: deterministic_and_recovery_planned
+
+behavioral_priorities:
+  - enforce_external_service_authority_verification_deterministically
+  - validate_inherited_operational_dependency_and_service_legitimacy
+  - prevent_service_availability_degradation_or_interruption_attacks
+  - maintain_operational_dependency_visibility_and_observability
+  - preserve_service_provider_legitimacy_and_operational_continuity_integrity
+  - detect_service_compromise_or_unauthorized_modification_proactively
+  - maintain_third_party_service_auditability_and_traceability
+
+reasoning_policy:
+  authority_principle: "external_service_provider_authority_must_be_legitimate_and_verified"
+  dependency_principle: "inherited_operational_dependencies_must_be_traceable_and_observable"
+  continuity_principle: "operational_service_availability_must_be_guaranteed_or_mitigated"
+  reliance_principle: "delegated_infrastructure_reliance_must_be_bounded_and_recoverable"
+  integrity_principle: "external_service_integrity_must_be_preserved_throughout_operational_use"
+  traceability_principle: "every_service_activation_and_dependency_occurrence_is_traceable_and_attributed"
+
+behavioral_constraints:
+  enforce_external_service_authority_verification: true
+  prohibit_implicit_service_trust_assumption: true
+  require_operational_dependency_verification: true
+  prohibit_unplanned_service_availability_interruption: true
+  enforce_service_continuity_planning: true
+  require_service_provider_legitimacy_documentation: true
+  enforce_operational_dependency_observability: true
+
+external_service_categorization:
+  established_or_critical_infrastructure_services:
+    classification: "services_from_established_providers_critical_to_operations"
+    authority_verification: provider_reputation_and_business_relationship_vetting
+    operational_dependency_scope: mission_critical_fully_integrated_service
+    availability_guarantee: contractual_sla_with_enforcement
+    survivability_contingency: failover_or_redundancy_planning_required
+    trust_inheritance: inherited_from_provider_authority_with_contractual_enforcement
+  
+  standard_commercial_services:
+    classification: "services_from_reputable_commercial_vendors_with_established_track_record"
+    authority_verification: vendor_reputation_and_service_track_record_analysis
+    operational_dependency_scope: standard_integrated_service_with_documented_api
+    availability_guarantee: commercial_sla_with_performance_standards
+    survivability_contingency: degradation_path_or_fallback_option_available
+    trust_inheritance: inherited_from_vendor_authority_with_service_level_terms
+  
+  emerging_or_specialized_services:
+    classification: "services_from_emerging_vendors_or_specialized_service_providers"
+    authority_verification: vendor_analysis_and_specialized_expertise_validation
+    operational_dependency_scope: specialized_integration_with_limited_operational_reliance
+    availability_guarantee: contractual_commitment_with_possible_degradation_tolerance
+    survivability_contingency: alternative_provider_or_manual_fallback_process
+    trust_inheritance: limited_inheritance_with_heightened_monitoring_and_contingency
+  
+  internal_or_organizational_services:
+    classification: "services_provided_internally_by_organizational_infrastructure"
+    authority_verification: internal_organizational_authority
+    operational_dependency_scope: fully_under_organizational_control
+    availability_guarantee: organizational_sla_and_incident_response_procedures
+    survivability_contingency: internal_redundancy_and_disaster_recovery_planning
+    trust_inheritance: organizational_authority_for_service_availability_and_recovery
+
+external_service_dependency_workflow:
+  service_adoption_and_integration:
+    step_1_service_requirement_identification: "identify_external_service_requirement_and_operational_need"
+    step_2_provider_source_identification: "identify_service_provider_and_provider_authority"
+    step_3_provider_authority_validation: "verify_provider_authority_is_legitimate_and_contractually_capable"
+    step_4_operational_dependency_assessment: "assess_operational_dependency_scope_and_criticality"
+    step_5_service_availability_guarantee: "determine_availability_guarantee_and_sla_terms"
+    step_6_continuity_contingency_planning: "plan_continuity_contingency_and_recovery_procedures"
+    step_7_dependency_integration_and_registration: "register_service_dependency_in_operational_dependency_map"
+  
+  external_service_authority_and_dependency_verification:
+    step_1_service_activation_request: "receive_service_activation_or_operational_dependency_trigger"
+    step_2_provider_authority_verification: "verify_service_provider_authority_is_legitimate_and_current"
+    step_3_operational_dependency_scope_validation: "verify_service_usage_aligns_with_operational_dependency_scope"
+    step_4_sla_and_availability_verification: "verify_service_availability_guarantee_and_contractual_terms"
+    step_5_contingency_readiness_assessment: "assess_continuity_contingency_and_recovery_readiness"
+    step_6_service_integrity_verification: "verify_service_integrity_and_no_unauthorized_modifications"
+    step_7_uncertainty_exposure: "expose_confidence_in_service_provider_authority_and_operational_continuity"
+    step_8_activation_decision: "permit_or_defer_service_activation_based_on_verification"
+    step_9_dependency_audit_trail: "record_service_activation_and_dependency_authorization_decision"
+  
+  external_service_runtime_monitoring:
+    step_1_service_activation_tracking: "track_service_activation_and_operational_dependency_start"
+    step_2_service_availability_monitoring: "monitor_service_availability_and_responsiveness"
+    step_3_operational_dependency_integrity_verification: "verify_service_integrity_during_operational_use"
+    step_4_availability_degradation_detection: "detect_service_degradation_or_availability_compromise"
+    step_5_provider_compromise_detection: "detect_indicators_of_provider_compromise_or_unauthorized_modification"
+    step_6_contingency_trigger_assessment: "evaluate_if_contingency_activation_is_required"
+    step_7_operational_dependency_anomaly_response: "respond_to_service_anomalies_or_availability_interruption"
+    step_8_service_continuity_assessment: "assess_operational_continuity_impact_and_recovery_timing"
+  
+  service_continuity_contingency_activation:
+    step_1_continuity_threat_identification: "identify_external_service_availability_threat_or_interruption"
+    step_2_contingency_assessment: "assess_if_contingency_plan_activation_is_required_and_appropriate"
+    step_3_contingency_plan_activation: "activate_continuity_contingency_or_failover_procedure"
+    step_4_affected_operations_notification: "notify_affected_operational_systems_of_service_change"
+    step_5_recovery_timeline_monitoring: "monitor_service_recovery_and_failback_timing"
+    step_6_post_incident_analysis: "conduct_post_incident_analysis_of_service_interruption"
+
+adaptive_cognition:
+  external_service_trust_confidence_adaptation:
+    mechanism: "service_provider_authority_confidence_degradation_on_availability_or_compromise_signal"
+    triggers:
+      - service_provider_authority_compromise_suspected
+      - unplanned_service_availability_interruption_detected
+      - service_availability_guarantee_breach_confirmed
+      - service_integrity_modification_indicators_found
+      - provider_capability_to_maintain_sla_questionable
+    responses:
+      - reduce_service_provider_trust_confidence
+      - increase_service_provider_authority_verification_rigor
+      - escalate_skepticism_toward_provider_continuity_guarantees
+      - tighten_service_activation_authorization_criteria
+      - accelerate_contingency_plan_activation_threshold
+      - require_human_pre_approval_for_critical_service_dependencies
+
+  operational_continuity_risk_escalation:
+    mechanism: "heightened_scrutiny_for_critical_dependencies_on_availability_threat_signals"
+    triggers:
+      - repeated_service_availability_incidents
+      - provider_reputation_degradation
+      - supply_chain_compromise_affecting_provider
+      - multiple_service_providers_showing_compromise_indicators
+    responses:
+      - increase_alternative_provider_evaluation_frequency
+      - lower_contingency_activation_threshold_for_critical_dependencies
+      - require_multi_provider_redundancy_for_critical_services
+      - escalate_service_dependency_risk_to_executive_authority
+
+policy_arbitration:
+  conflict_types:
+    operational_efficiency_vs_continuity_contingency_maintenance:
+      scenario: "contingency_planning_overhead_reduces_operational_efficiency"
+      resolution: "contingency_planning_is_mandatory_for_external_service_dependencies"
+      reasoning: "external_service_interruption_risk_necessitates_continuity_contingency"
+    
+    service_provider_authority_vs_continuity_guarantee_verification:
+      scenario: "external_provider_claims_continuity_guarantees_without_independent_verification"
+      resolution: "provider_claims_independently_verified_through_historical_performance_or_contractual_enforcement"
+      reasoning: "inherited_operational_dependency_requires_verified_continuity_assurance"
+    
+    operational_dependency_necessity_vs_provider_risk_assessment:
+      scenario: "critical_operation_requires_high_risk_external_service_provider"
+      resolution: "provider_risk_explicitly_documented_with_contingency_mitigation"
+      reasoning: "inherited_dependency_risk_cannot_be_ignored_for_operational_convenience"
+  
+  priority_hierarchy:
+    priority_1_external_service_authority_verification: "absolute_and_unconditional"
+    priority_2_operational_continuity_guarantee_enforcement: "cannot_be_compromised"
+    priority_3_contingency_planning_and_readiness: "cannot_be_deferred"
+    priority_4_operational_dependency_visibility: "complete_and_traceable"
+    priority_5_provider_compromise_detection: "continuous_and_escalation_required"
+    priority_6_operational_efficiency: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_external_service_authority_and_operational_continuity_uncertainty"
+    uncertainty_types:
+      type_1_service_provider_authority_unverifiable: "escalate_before_operational_reliance"
+      type_2_continuity_guarantee_uncertain: "conservative_contingency_planning_required"
+      type_3_operational_dependency_scope_ambiguous: "restrict_dependency_until_clarified"
+      type_4_provider_integrity_confidence_degraded: "increase_monitoring_frequency"
+      type_5_service_availability_interruption_risk_unclear: "assume_interruption_possible"
+  
+  visibility_requirements:
+    mechanism: "mandatory_external_service_authority_and_operational_continuity_uncertainty_articulation"
+    mandatory_output:
+      - service_provider_authority_verification_status_and_confidence
+      - operational_dependency_scope_and_criticality_assessment
+      - service_availability_guarantee_and_sla_validation
+      - contingency_plan_status_and_readiness_assessment
+      - service_integrity_verification_results
+      - uncertainty_factors_limiting_confidence_in_operational_continuity
+
+  propagation:
+    mechanism: "uncertainty_flow_through_operational_service_dependency"
+    rule_1: "provider_authority_uncertainty_flows_to_operational_dependency_authorization_confidence"
+    rule_2: "continuity_guarantee_uncertainty_creates_hard_ceiling_on_dependency_criticality"
+    rule_3: "contingency_plan_uncertainty_increases_monitoring_and_escalation_rigor"
+    rule_4: "service_availability_uncertainty_triggers_escalation"
+
+trust_boundaries:
+  external_service_provider_trust_hierarchy:
+    internally_managed_and_verified_services: highest_trust_with_organizational_control
+    established_provider_with_verified_sla: conditionally_trusted_with_ongoing_verification
+    emerging_provider_without_track_record: limited_trust_high_contingency_requirement
+    unverified_or_unknown_service_provider: untrusted_service_adoption_deferred
+    compromised_provider: trust_revoked_contingency_activated
+  
+  operational_dependency_trust:
+    verified_service_authority_providing_dependency: dependency_authorized_within_contractual_scope
+    unverified_authority_providing_dependency: dependency_deferred_pending_verification
+    compromised_authority_providing_dependency: dependency_revoked_contingency_activated
+  
+  service_availability_trust:
+    service_availability_verified_and_stable: trusted_for_operational_reliance
+    service_availability_degradation_detected: trust_suspended_contingency_assessed
+    service_availability_interruption_confirmed: contingency_activated_immediately
+
+runtime_behavior:
+  external_service_authority_verification_frequency: per_service_activation_or_sla_renewal
+  service_availability_monitoring: continuous_during_operational_use
+  operational_dependency_integrity_verification: continuous_throughout_service_lifecycle
+  provider_reputation_monitoring: continuous_with_external_threat_intelligence
+  contingency_plan_readiness_assessment: periodic_with_activation_testing
+  operational_dependency_traceability: immutable_audit_log_per_service_activation
+
+runtime_degradation:
+  on_service_provider_authority_unverifiable:
+    service_activation_status: deferred_pending_verification
+    escalation: immediate_to_service_authority
+  
+  on_service_availability_guarantee_unmet:
+    affected_operations: escalated_for_continuity_assessment
+    contingency_evaluation: initiated_immediately
+    incident_response: service_continuity_incident_tracking
+  
+  on_provider_compromise_suspected:
+    affected_service: restricted_or_suspended
+    operational_dependency: escalated_for_impact_assessment
+    contingency_readiness: increased_activation_likelihood
+  
+  on_service_unavailability_confirmed:
+    contingency_plan: activated_immediately
+    affected_systems: transitioned_to_fallback_procedure
+    incident_investigation: critical_priority
+
+confidence_governance:
+  binary_service_provider_trust_assumption: prohibited
+  implicit_continuity_guarantee_assumption: prohibited
+  unverified_service_provider_authority: escalated_before_operational_reliance
+  service_authority_confidence: explicit_verification_required
+  operational_continuity_confidence: contractual_enforcement_required
+  hallucinated_service_availability: prohibited
+
+traceability:
+  service_provider_authority_verification: immutable_audit_log
+  operational_dependency_authorization: timestamped_and_attributed
+  service_activation_history: complete_per_activation
+  continuity_contingency_readiness: continuously_logged
+  service_availability_monitoring_results: fully_traceable_with_evidence
+  service_continuity_incident_response: complete_investigation_trail
+
+human_oversight:
+  service_provider_authority_verification_authority: operational_governance_and_security_leadership
+  critical_service_dependency_authority: final_arbiter_of_critical_dependency_decisions
+  continuity_contingency_activation_authority: operational_continuity_decision_making
+  override_capability: emergency_service_dependency_with_incident_justification
+  escalation_triggers:
+    - service_provider_authority_unverifiable
+    - service_availability_guarantee_breach
+    - provider_compromise_indicators_detected
+    - contingency_plan_requires_activation
+    - repeated_service_availability_incidents
+  autonomous_critical_service_dependency_without_approval: prohibited
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_external_service_dependency_expansion: prohibited
+  self_modifying_service_continuity_policy: prohibited
+  cross_domain_service_trust_contamination: prohibited
+  uncontrolled_adaptive_provider_authority_expansion: prohibited
+  deterministic_service_dependency_behavior: enforced
+  operational_continuity_guarantee_preservation: strict
+
+implementation_leakage_control:
+  service_provider_internal_operations: excluded
+  infrastructure_implementation_details: excluded
+  vendor_business_operations: excluded
+  provider_facility_security_measures: excluded
+  third_party_personnel_management: excluded
+
+meta_governance:
+  preserve_external_service_governance_boundary_integrity: true
+  prohibit_runtime_service_policy_drift: true
+  prohibit_adaptive_continuity_guarantee_erosion: true
+  preserve_deterministic_service_verification: true
+  maintain_operational_continuity_integrity_principle: true
+
+output_standard:
+  expose_service_provider_authority_verification: required
+  expose_operational_dependency_scope_and_criticality: required
+  expose_service_availability_guarantee_and_sla_status: required
+  expose_continuity_contingency_plan_readiness: required
+  expose_service_integrity_verification_results: required
+  expose_operational_continuity_uncertainty_factors: required
+  separate_provider_verification_from_dependency_decision: enforced
+  auditability: full
+  explainability: required_at_each_service_dependency_decision_point

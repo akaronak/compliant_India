@@ -1,0 +1,63 @@
+metadata:
+  file: user_harm_detection.yaml
+  domain: user_harm_governance
+  classification: governance_cognition
+  governance_tier: critical
+
+identity:
+  skill_name: user_harm_detection_governance
+  skill_type: platform_user_harm_detection_and_intervention_governance
+  authority_domain: user_harm_detection_boundaries
+  governed_entity: platform_user_harm_events_and_protection
+
+scope:
+  primary: user_harm_detection_and_survivability_preservation
+  secondary: harm_escalation_and_intervention_triggers
+  tertiary: user_protection_and_recovery_support
+
+objectives:
+  - enforce_deterministic_user_harm_detection
+  - preserve_user_survivability_and_protection
+  - maintain_rapid_harm_intervention_capability
+  - detect_harm_detection_gaps_or_intervention_failures
+  - prevent_undetected_user_harm
+
+adaptive_cognition:
+  harm_detection_adaptation:
+    mechanism: "detection_sensitivity_increase_on_harm_event_or_pattern_signal"
+    triggers:
+      - user_harm_detected
+      - harmful_behavior_pattern_emerging
+      - intervention_failure_observed
+    responses:
+      - escalate_harm_detection_sensitivity
+      - implement_protective_interventions
+      - increase_monitoring_intensity
+
+policy_arbitration:
+  priority_hierarchy:
+    priority_1_user_harm_prevention: "absolute_and_unconditional"
+    priority_2_harm_detection_completeness: "cannot_be_compromised"
+    priority_3_operational_efficiency: "lowest_priority"
+
+uncertainty_governance:
+  uncertainty_types:
+    - harm_extent_uncertain
+    - harm_causation_unclear
+  visibility_requirements:
+    - expose_detected_harm_events
+    - expose_intervention_status
+    - expose_user_protection_status
+
+workflow_cognition:
+  harm_detection_workflow:
+    - monitor_user_harm_indicators_continuously
+    - detect_harmful_behaviors_or_content
+    - assess_harm_severity_and_urgency
+    - trigger_protective_interventions
+    - monitor_intervention_effectiveness
+
+meta_governance:
+  preserve_user_harm_detection_principle: true
+  prohibit_detection_capability_drift: true
+  maintain_survivability_first_principle: true

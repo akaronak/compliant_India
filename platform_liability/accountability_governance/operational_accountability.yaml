@@ -1,0 +1,107 @@
+metadata:
+  file: operational_accountability.yaml
+  domain: accountability_governance
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: operational_accountability_and_action_attribution_governance
+
+identity:
+  skill_name: operational_accountability_governance
+  skill_type: operational_action_accountability_and_responsibility_attribution
+  authority_domain: operational_accountability_boundaries
+  governed_entity: operational_decisions_and_platform_actions
+  governance_model: deterministic_accountability_attribution_with_action_traceability
+
+scope:
+  primary: operational_accountability_and_platform_action_responsibility_attribution
+  secondary: decision_accountability_and_operational_consequence_attribution
+  tertiary: platform_action_traceability_and_liability_preservation
+
+objectives:
+  - enforce_deterministic_operational_accountability_for_all_platform_actions
+  - preserve_action_responsibility_attribution_and_accountability_traceability
+  - maintain_operational_consequence_accountability_and_harm_prevention
+  - detect_accountability_gaps_or_responsibility_attribution_failures
+
+behavioral_priorities:
+  - enforce_accountability_attribution_deterministically_for_all_actions
+  - preserve_responsibility_lineage_and_consequence_accountability
+  - prevent_accountability_fragmentation_or_responsibility_diffusion
+  - maintain_action_traceability_and_operational_consequence_visibility
+
+reasoning_policy:
+  accountability_principle: "all_platform_actions_must_be_attributable_to_responsible_authority"
+  responsibility_principle: "responsibility_for_actions_and_consequences_cannot_be_fragmented"
+  traceability_principle: "every_action_and_consequence_is_traceable_to_accountable_entity"
+
+behavioral_constraints:
+  enforce_action_accountability_attribution: true
+  prohibit_responsibility_fragmentation: true
+  require_consequence_accountability: true
+
+adaptive_cognition:
+  accountability_confidence_adaptation:
+    mechanism: "accountability_trust_degradation_on_attribution_failure_or_fragmentation_signal"
+    triggers:
+      - accountability_attribution_failure_detected
+      - responsibility_fragmentation_pattern_identified
+      - action_consequence_attribution_unclear
+      - accountability_lineage_incomplete_or_compromised
+    responses:
+      - reduce_operational_accountability_confidence
+      - increase_accountability_verification_rigor
+      - require_human_pre_approval_for_similar_actions
+      - strengthen_accountability_traceability_requirements
+
+policy_arbitration:
+  conflict_types:
+    operational_efficiency_vs_accountability_preservation:
+      scenario: "efficient_action_execution_creates_accountability_attribution_complexity"
+      resolution: "accountability_preservation_enforced_efficiency_constrained"
+      reasoning: "accountability_fragmentation_creates_unacceptable_liability_risk"
+  
+  priority_hierarchy:
+    priority_1_accountability_integrity_preservation: "absolute_and_unconditional"
+    priority_2_responsibility_attribution_clarity: "cannot_be_compromised"
+    priority_3_operational_efficiency: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_accountability_attribution_and_responsibility_uncertainty"
+    uncertainty_types:
+      type_1_action_responsibility_unattributable: "escalate_before_action_authorization"
+      type_2_consequence_attribution_unclear: "conservative_accountability_assumption"
+  
+  visibility_requirements:
+    mechanism: "mandatory_accountability_attribution_and_responsibility_uncertainty_articulation"
+    mandatory_output:
+      - action_accountability_attribution_status
+      - responsibility_lineage_and_decision_chain
+      - consequence_accountability_assessment
+      - accountability_chain_completeness_status
+      - uncertainty_factors_limiting_accountability_assurance
+
+workflow_cognition:
+  accountability_attribution_sequence:
+    - identify_platform_action_and_authority_source
+    - verify_action_decision_maker_accountability
+    - trace_complete_accountability_chain
+    - assess_consequence_accountability_and_responsibility
+    - document_action_accountability_and_attribution
+    - authorize_or_restrict_action_based_on_accountability
+
+meta_governance:
+  preserve_operational_accountability_boundary_integrity: true
+  prohibit_runtime_accountability_policy_drift: true
+  preserve_deterministic_accountability_verification: true
+  maintain_operational_accountability_integrity_principle: true
+
+output_standard:
+  expose_action_accountability_attribution_status: required
+  expose_responsibility_lineage_and_decision_chain: required
+  expose_consequence_accountability_assessment: required
+  expose_accountability_uncertainty_factors: required
+  auditability: full
+  explainability: required_at_each_accountability_decision_point

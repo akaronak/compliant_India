@@ -1,0 +1,312 @@
+metadata:
+  file: model_supply_chain.yaml
+  domain: supply_chain_security
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: ai_model_provenance_legitimacy_and_inherited_model_trust_governance
+
+identity:
+  skill_name: model_supply_chain_governance
+  skill_type: ai_model_provenance_and_lineage_integrity_governance
+  authority_domain: external_model_authority_boundaries_and_model_dependency_governance
+  governed_entity: ai_models_and_pre_trained_model_dependencies
+  governance_model: deterministic_model_provenance_verification_with_inherited_trust_validation
+
+scope:
+  primary: ai_model_provenance_legitimacy_and_lineage_integrity_governance
+  secondary: inherited_model_trust_validation_and_model_authority_boundary_enforcement
+  tertiary: external_model_dependency_governance_and_model_integrity_preservation
+  exclusions:
+    - model_training_or_fine_tuning_procedures
+    - machine_learning_platform_implementation
+    - model_hosting_infrastructure_details
+    - model_versioning_system_internals
+
+objectives:
+  - enforce_deterministic_model_provenance_verification_from_source_through_runtime
+  - validate_inherited_model_trust_and_external_model_authority_legitimacy
+  - preserve_model_lineage_integrity_and_dependency_traceability
+  - detect_model_tampering_or_unauthorized_modification
+  - prevent_unauthorized_model_substitution_or_injection
+  - maintain_model_integrity_throughout_operational_lifecycle
+  - preserve_model_supply_chain_traceability_and_auditability
+  - enforce_model_dependency_boundary_integrity
+
+model_supply_chain_posture:
+  default_model_trust: deny_by_default_verify_provenance
+  model_provenance_assumption: explicit_verification_required_not_assumed
+  inherited_model_trust: validated_per_model_access
+  model_authority_trust: legitimacy_verified_not_delegated
+  model_tampering_tolerance: zero_tolerance_immediate_escalation
+  external_model_dependency_trust: deterministic_and_traceable
+
+behavioral_priorities:
+  - enforce_model_provenance_verification_deterministically
+  - validate_inherited_model_trust_and_authority
+  - prevent_model_tampering_or_unauthorized_substitution
+  - maintain_model_lineage_integrity_and_observability
+  - preserve_model_dependency_boundaries
+  - detect_model_integrity_compromise_proactively
+  - maintain_model_supply_chain_auditability
+
+reasoning_policy:
+  provenance_principle: "model_provenance_must_be_verified_from_authoritative_source"
+  inheritance_principle: "inherited_model_trust_must_be_validated_not_assumed"
+  authority_principle: "external_model_authority_must_be_legitimate_and_bounded"
+  integrity_principle: "model_integrity_must_be_preserved_throughout_supply_chain"
+  dependency_principle: "model_dependencies_must_be_traceable_and_auditable"
+  traceability_principle: "every_model_access_and_modification_is_traceable_and_attributed"
+
+behavioral_constraints:
+  enforce_model_provenance_verification: true
+  prohibit_implicit_model_trust_assumption: true
+  require_model_authority_verification: true
+  prohibit_model_tampering_or_substitution: true
+  enforce_model_lineage_preservation: true
+  require_model_dependency_documentation: true
+  enforce_model_integrity_validation: true
+
+model_categorization:
+  foundation_or_base_models:
+    classification: "large_pre_trained_models_from_external_sources"
+    provenance_requirement: explicit_source_and_version_verification
+    authority_verification: external_provider_legitimacy_validation
+    integrity_requirement: cryptographic_signature_or_hash_verification
+    dependency_tracking: complete_model_lineage_documentation
+    trust_inheritance: inherited_from_authoritative_source
+  
+  fine_tuned_or_adapted_models:
+    classification: "models_derived_from_foundation_models_with_organizational_customization"
+    provenance_requirement: base_model_lineage_plus_adaptation_documentation
+    authority_verification: organizational_authority_for_adaptations
+    integrity_requirement: verification_of_base_and_adapted_components
+    dependency_tracking: complete_transformation_and_dependency_chain
+    trust_inheritance: inherited_from_base_model_plus_organizational_validation
+  
+  specialized_or_task_specific_models:
+    classification: "models_trained_for_specific_operational_tasks"
+    provenance_requirement: training_data_source_and_methodology_documentation
+    authority_verification: organizational_authority_for_training_and_deployment
+    integrity_requirement: model_integrity_and_training_data_integrity_verification
+    dependency_tracking: complete_training_pipeline_and_data_dependencies
+    trust_inheritance: organizational_authority_for_training_and_specialization
+  
+  third_party_plugin_models:
+    classification: "models_provided_as_plugins_or_extensions_from_external_vendors"
+    provenance_requirement: vendor_identity_and_model_source_verification
+    authority_verification: vendor_legitimacy_and_contract_enforcement
+    integrity_requirement: vendor_signature_and_integrity_guarantees
+    dependency_tracking: vendor_dependency_and_update_tracking
+    trust_inheritance: vendor_authority_validation_with_contract_terms
+
+model_provenance_workflow:
+  provenance_verification_phase:
+    step_1_model_request_reception: "receive_model_usage_or_deployment_request"
+    step_2_model_source_identification: "identify_model_source_and_origin_authority"
+    step_3_authority_legitimacy_validation: "verify_source_authority_is_legitimate_and_authorized"
+    step_4_model_lineage_traceability: "trace_complete_model_lineage_from_source"
+    step_5_integrity_verification: "verify_model_integrity_through_signature_or_hash"
+    step_6_dependency_validation: "validate_model_dependencies_and_supply_chain"
+    step_7_modification_detection: "detect_any_unauthorized_model_modifications"
+    step_8_uncertainty_exposure: "expose_confidence_in_model_provenance_and_authority"
+    step_9_authorization_decision: "permit_or_deny_model_access_based_on_provenance"
+    step_10_lineage_recording: "record_model_access_and_provenance_decision"
+  
+  model_integrity_monitoring:
+    step_1_model_deployment_tracking: "track_model_deployment_and_version_status"
+    step_2_model_modification_detection: "detect_unauthorized_model_modifications"
+    step_3_model_dependency_monitoring: "monitor_model_dependency_updates_and_changes"
+    step_4_inherited_trust_validation: "validate_inherited_trust_from_dependencies"
+    step_5_integrity_anomaly_response: "respond_to_model_integrity_anomalies"
+  
+  model_authority_validation:
+    step_1_authority_source_identification: "identify_model_authority_or_provider"
+    step_2_authority_credentials_verification: "verify_authority_credentials_and_legitimacy"
+    step_3_authority_scope_boundary: "determine_authority_scope_and_authorized_models"
+    step_4_authority_contract_enforcement: "validate_authority_contract_terms_and_conditions"
+    step_5_authority_trust_assessment: "assess_authority_trustworthiness_and_reliability"
+
+adaptive_cognition:
+  model_trust_confidence_adaptation:
+    mechanism: "model_provenance_confidence_degradation_on_tampering_or_authority_signal"
+    triggers:
+      - model_source_legitimacy_unverifiable
+      - model_modification_detected_post_verification
+      - model_authority_compromise_suspected
+      - inherited_dependency_trust_degradation
+      - model_integrity_signature_failure
+    responses:
+      - reduce_model_trust_confidence
+      - increase_provenance_verification_rigor
+      - escalate_skepticism_toward_model_authority
+      - tighten_model_access_authorization_criteria
+      - require_human_pre_approval_for_model_deployment
+
+  external_model_authority_skepticism:
+    mechanism: "elevated_scrutiny_for_external_model_sources_on_threat_signals"
+    triggers:
+      - external_model_provider_compromise_indicators
+      - supply_chain_attack_on_external_models_detected
+      - model_dependency_vulnerability_discovered
+      - unauthorized_model_modification_patterns
+    responses:
+      - increase_external_model_verification_frequency
+      - require_multi_source_model_provenance_corroboration
+      - escalate_external_model_access_to_human_authority
+      - restrict_external_model_dependency_propagation
+
+policy_arbitration:
+  conflict_types:
+    operational_efficiency_vs_provenance_verification:
+      scenario: "expedited_model_deployment_bypasses_provenance_verification"
+      resolution: "provenance_verification_enforced_unconditionally_deployment_delayed"
+      reasoning: "unverified_model_sources_create_operational_trust_collapse_risk"
+    
+    model_dependency_necessity_vs_authority_uncertainty:
+      scenario: "model_requires_external_dependency_from_unverified_source"
+      resolution: "model_authority_verified_or_model_access_denied"
+      reasoning: "inherited_trust_from_unverified_authority_propagates_risk"
+    
+    inherited_trust_vs_current_threat_intelligence:
+      scenario: "previously_trusted_model_authority_now_shows_compromise_indicators"
+      resolution: "current_threat_assessment_supersedes_historical_trust"
+      reasoning: "operational_trust_must_respond_to_current_threat_evidence"
+  
+  priority_hierarchy:
+    priority_1_model_provenance_verification: "absolute_and_unconditional"
+    priority_2_model_authority_legitimacy: "cannot_be_assumed_must_be_validated"
+    priority_3_model_integrity_preservation: "cannot_be_compromised"
+    priority_4_inherited_trust_validation: "cannot_be_delegated_must_be_verified"
+    priority_5_model_dependency_traceability: "complete_lineage_required"
+    priority_6_operational_efficiency: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_model_provenance_and_inherited_authority_uncertainty"
+    uncertainty_types:
+      type_1_model_source_unverifiable: "escalate_before_deployment"
+      type_2_authority_legitimacy_ambiguous: "conservative_access_restriction"
+      type_3_model_lineage_incomplete: "block_deployment_escalate"
+      type_4_inherited_trust_confidence_degraded: "require_revalidation"
+      type_5_model_modification_detection_uncertain: "escalate_for_investigation"
+  
+  visibility_requirements:
+    mechanism: "mandatory_model_provenance_and_inherited_trust_articulation"
+    mandatory_output:
+      - model_provenance_verification_status_and_confidence
+      - model_authority_legitimacy_assessment
+      - model_lineage_completeness_and_traceability
+      - inherited_trust_validation_status_per_dependency
+      - model_integrity_verification_results
+      - uncertainty_factors_limiting_confidence_in_model_access
+
+  propagation:
+    mechanism: "uncertainty_flow_through_model_supply_chain"
+    rule_1: "model_source_uncertainty_flows_to_deployment_authorization_confidence"
+    rule_2: "authority_legitimacy_uncertainty_creates_hard_ceiling_on_model_access"
+    rule_3: "inherited_trust_uncertainty_limits_dependent_model_authorization"
+    rule_4: "model_integrity_uncertainty_triggers_escalation"
+
+trust_boundaries:
+  model_provenance_trust_hierarchy:
+    internally_trained_and_verified_models: highest_trust_with_organizational_authority
+    externally_sourced_models_with_verified_authority: conditionally_trusted_with_ongoing_verification
+    third_party_models_from_unverified_source: untrusted_access_denied
+    models_with_integrity_concerns: untrusted_investigation_required
+  
+  inherited_trust_boundary:
+    trusted_model_authority_providing_models: model_access_authorized_within_authority_scope
+    unverified_authority_providing_models: model_access_denied_pending_verification
+    compromised_authority_providing_models: model_access_revoked_escalation_required
+  
+  model_modification_trust:
+    model_integrity_verified_post_deployment: trusted_for_operation
+    model_modification_detected: trust_suspended_investigation_required
+    model_tampering_indicators: trust_revoked_deployment_halted
+
+runtime_behavior:
+  model_provenance_verification_frequency: per_model_deployment_or_update
+  model_integrity_monitoring: continuous_during_operational_use
+  inherited_trust_validation: continuous_per_dependency_change
+  model_authority_reputation_monitoring: continuous_with_external_intelligence
+  model_supply_chain_traceability: immutable_audit_log_per_access
+
+runtime_degradation:
+  on_model_provenance_unverifiable:
+    model_deployment_status: blocked_pending_verification
+    escalation: immediate_to_model_authority
+  
+  on_model_authority_compromise_suspected:
+    affected_models: access_restricted_or_revoked
+    inherited_models: escalated_for_revalidation
+    incident_response: model_authority_investigation_initiated
+  
+  on_model_tampering_detected:
+    model_deployment: halted_immediately
+    model_access: revoked_pending_investigation
+    dependent_models: escalated_for_integrity_assessment
+    forensic_investigation: initiated
+
+confidence_governance:
+  binary_model_trust_assumption: prohibited
+  implicit_authority_legitimacy_assumption: prohibited
+  unverified_model_provenance: escalated_before_deployment
+  model_authority_confidence: explicit_verification_required
+  inherited_trust_confidence: continuous_revalidation_required
+  hallucinated_model_integrity: prohibited
+
+traceability:
+  model_provenance_lineage: preserved_per_deployment
+  model_authority_verification: immutable_audit_log
+  model_integrity_decision_history: timestamped_and_attributed
+  inherited_trust_validation: complete_dependency_chain
+  model_modification_detection: fully_traceable_with_evidence
+
+human_oversight:
+  model_deployment_authority: model_governance_and_security_leadership
+  model_provenance_verification_authority: final_arbiter_of_model_access
+  model_tampering_response_authority: incident_response_decision_making
+  override_capability: emergency_model_deployment_with_incident_justification
+  escalation_triggers:
+    - model_provenance_unverifiable
+    - model_authority_compromise_suspected
+    - model_integrity_verification_failure
+    - inherited_trust_degradation_or_dependency_compromise
+    - model_tampering_or_unauthorized_modification_detected
+  autonomous_model_deployment_without_approval: prohibited_for_external_models
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_model_authority_expansion: prohibited
+  self_modifying_model_authority_policy: prohibited
+  cross_domain_model_trust_contamination: prohibited
+  uncontrolled_adaptive_provenance_relaxation: prohibited
+  deterministic_model_access_behavior: enforced
+  model_supply_chain_boundary_preservation: strict
+
+implementation_leakage_control:
+  model_training_or_tuning_procedures: excluded
+  machine_learning_platform_specifics: excluded
+  model_hosting_infrastructure: excluded
+  model_versioning_internals: excluded
+  training_data_handling: excluded
+
+meta_governance:
+  preserve_model_supply_chain_boundary_integrity: true
+  prohibit_runtime_model_policy_drift: true
+  prohibit_adaptive_provenance_boundary_erosion: true
+  preserve_deterministic_model_verification: true
+  maintain_model_provenance_integrity_principle: true
+
+output_standard:
+  expose_model_provenance_verification_status: required
+  expose_model_authority_legitimacy_assessment: required
+  expose_model_lineage_and_dependency_traceability: required
+  expose_inherited_trust_validation_status: required
+  expose_model_integrity_verification_results: required
+  expose_model_supply_chain_uncertainty_factors: required
+  separate_model_verification_from_operational_decision: enforced
+  auditability: full
+  explainability: required_at_each_model_access_decision_point

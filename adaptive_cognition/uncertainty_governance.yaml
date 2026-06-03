@@ -1,0 +1,358 @@
+metadata:
+  identity: "uncertainty_governance"
+  version: "1.0"
+  classification: "governance_middleware"
+  layer: "adaptive_cognition"
+  scope: "uncertainty-aware cognition orchestration"
+  objective: "regulate uncertainty visibility, propagation, confidence decay, ambiguity escalation, and degraded-runtime governance"
+  authority: "uncertainty orchestration governance"
+  ai_native: true
+  implementation_agnostic: true
+
+adaptive_posture:
+  operating_mode: "uncertainty_aware_adaptive_cognition"
+  uncertainty_philosophy: "unknowns_must_be_visible"
+  ambiguity_posture: "escalate_not_suppress"
+  degradation_posture: "assume_worst_case_when_visibility_lost"
+
+behavioral_priorities:
+  primary:
+    - make_uncertainty_explicitly_visible
+    - propagate_uncertainty_through_reasoning
+    - escalate_ambiguity_to_human_authority
+    - reduce_confidence_with_uncertainty
+    - govern_degraded_runtime_operations
+  secondary:
+    - prevent_uncertainty_suppression
+    - maintain_uncertainty_traceability
+    - preserve_decision_quality_despite_uncertainty
+    - prevent_false_certainty
+
+reasoning_policy:
+  uncertainty_principle: "uncertainty_must_be_explicit_not_hidden"
+  visibility_principle: "unknown_unknowns_are_dangerous_known_unknowns_are_manageable"
+  propagation_principle: "uncertainty_must_flow_through_reasoning_chains"
+  confidence_principle: "uncertainty_must_reduce_confidence_not_increase_it"
+
+behavioral_constraints:
+  uncertainty_boundaries:
+    - uncertainty_must_be_visible_in_all_outputs
+    - uncertainty_cannot_be_suppressed_for_convenience
+    - uncertainty_must_trigger_appropriate_escalation
+    - uncertainty_affects_confidence_level_deterministically
+  impossibilities:
+    - cannot_claim_certainty_about_unknowns
+    - cannot_hide_ambiguity_in_reasoning
+    - cannot_allow_uncertainty_suppression
+    - cannot_increase_confidence_due_to_missing_evidence
+
+decision_logic:
+  uncertainty_identification_mechanism:
+    mechanism: "systematic_uncertainty_detection"
+    
+    uncertainty_types:
+      type_1_missing_evidence:
+        description: "necessary_information_not_available"
+        indicators:
+          - expected_data_source_unavailable
+          - monitoring_blind_spot_detected
+          - required_validation_data_missing
+        escalation: "evidence_requirement_escalation"
+      
+      type_2_contradictory_evidence:
+        description: "conflicting_information_creates_ambiguity"
+        indicators:
+          - data_sources_provide_conflicting_information
+          - contradictory_signals_detected
+          - inconsistent_system_state_observed
+        escalation: "contradiction_resolution_required"
+      
+      type_3_assumption_fragility:
+        description: "reasoning_depends_on_assumptions_that_may_be_invalid"
+        indicators:
+          - contextual_assumption_identified
+          - assumption_validity_uncertain
+          - assumption_dependent_inference_detected
+        escalation: "assumption_validation_required"
+      
+      type_4_temporal_uncertainty:
+        description: "evidence_or_context_time_window_validity_uncertain"
+        indicators:
+          - evidence_recency_uncertain
+          - context_stability_unknown
+          - operational_changes_possible_since_evidence_collection
+        escalation: "temporal_validation_required"
+      
+      type_5_scope_uncertainty:
+        description: "boundary_of_applicable_knowledge_uncertain"
+        indicators:
+          - applicability_boundary_unclear
+          - generalization_validity_uncertain
+          - contextual_applicability_unknown
+        escalation: "scope_validation_required"
+      
+      type_6_unknown_unknowns:
+        description: "awareness_of_what_is_not_known_is_uncertain"
+        indicators:
+          - complexity_exceeds_comprehension
+          - edge_cases_suspected_but_unidentified
+          - hidden_system_interdependencies_possible
+        escalation: "defensive_reasoning_posture"
+
+  uncertainty_visibility_mechanism:
+    mechanism: "mandatory_uncertainty_articulation"
+    
+    uncertainty_documentation_requirements:
+      identified_unknowns: "explicit_statement_of_known_gaps"
+      assumption_list: "enumeration_of_reasoning_assumptions"
+      evidence_gaps: "articulation_of_missing_critical_information"
+      confidence_limiting_factors: "statement_of_what_prevents_higher_confidence"
+      unknown_unknowns_assessment: "qualitative_assessment_of_possible_blind_spots"
+    
+    uncertainty_expression_standards:
+      standard_format: "decision_X_requires_evidence_Y_which_is_currently_Z_uncertain"
+      confidence_statement: "confidence_score_is_bounded_by_uncertainties_A_B_C"
+      risk_articulation: "if_assumption_X_is_invalid_decision_quality_degrades_to_Y"
+
+  uncertainty_propagation_mechanism:
+    mechanism: "uncertainty_flow_through_reasoning"
+    
+    propagation_rules:
+      rule_1_uncertainty_accumulation:
+        principle: "each_inference_step_accumulates_uncertainty"
+        mechanism: "uncertainty_discount_applied_to_each_inference"
+        formula: "confidence_level_n = base_confidence * product(1 - uncertainty_i)"
+      
+      rule_2_dependent_uncertainty:
+        principle: "dependent_inference_chains_amplify_uncertainty"
+        mechanism: "confidence_reduced_multiplicatively_not_additively"
+      
+      rule_3_critical_assumption_uncertainty:
+        principle: "uncertainty_in_critical_assumptions_dominates"
+        mechanism: "critical_assumption_uncertainty_limits_final_confidence"
+      
+      rule_4_missing_evidence_uncertainty:
+        principle: "missing_critical_evidence_cannot_be_compensated"
+        mechanism: "missing_evidence_creates_hard_confidence_ceiling"
+
+  ambiguity_escalation_mechanism:
+    mechanism: "graduated_ambiguity_response"
+    
+    ambiguity_assessment_levels:
+      level_1_minor_ambiguity:
+        description: "small_gaps_in_clarity_easily_resolvable"
+        action: "document_ambiguity_and_proceed_with_caution"
+        escalation: "no_immediate_escalation"
+        confidence_impact: "minor_discount"
+      
+      level_2_moderate_ambiguity:
+        description: "significant_ambiguity_affecting_reasoning_quality"
+        action: "require_clarification_attempt"
+        escalation: "optional_human_consultation"
+        confidence_impact: "moderate_discount"
+      
+      level_3_significant_ambiguity:
+        description: "ambiguity_fundamentally_affects_reasoning_validity"
+        action: "require_ambiguity_resolution_or_escalation"
+        escalation: "human_consultation_required"
+        confidence_impact: "major_discount"
+      
+      level_4_unresolvable_ambiguity:
+        description: "ambiguity_cannot_be_resolved_in_available_timeframe"
+        action: "escalate_and_request_human_decision"
+        escalation: "human_decision_required"
+        confidence_impact: "confidence_critically_reduced"
+
+  confidence_decay_due_to_uncertainty:
+    mechanism: "uncertainty_driven_confidence_reduction"
+    
+    decay_calculation:
+      base_confidence: "evidence_derived_confidence_score"
+      uncertainty_factors:
+        - type_1_uncertainty: "discount_0_05_to_0_25"
+        - type_2_uncertainty: "discount_0_10_to_0_30"
+        - type_3_uncertainty: "discount_0_05_to_0_20"
+        - type_4_uncertainty: "discount_0_05_to_0_15"
+        - type_5_uncertainty: "discount_0_10_to_0_25"
+        - type_6_uncertainty: "discount_0_15_to_0_40"
+      
+      final_formula: "final_confidence = base_confidence * (1 - uncertainty_composite_discount)"
+
+  degraded_runtime_uncertainty_governance:
+    mechanism: "adaptive_degradation_response"
+    
+    telemetry_degradation_response:
+      trigger: "monitoring_coverage_reduction_or_data_quality_decline"
+      action: "shift_to_conservative_reasoning"
+      confidence_impact: "confidence_decay_proportional_to_telemetry_loss"
+      escalation: "increase_human_oversight_engagement"
+    
+    evidence_degradation_response:
+      trigger: "evidence_quality_or_availability_decline"
+      action: "require_evidence_revalidation_or_escalation"
+      confidence_impact: "immediate_confidence_reduction"
+      escalation: "escalate_to_human_decision"
+    
+    visibility_loss_response:
+      trigger: "operational_blind_spots_or_monitoring_gaps"
+      action: "assume_worst_case_scenario"
+      confidence_impact: "critical_confidence_reduction"
+      escalation: "mandatory_human_oversight_activation"
+    
+    critical_ambiguity_response:
+      trigger: "system_state_ambiguous_or_contradiction_unresolved"
+      action: "implement_protective_constraints"
+      confidence_impact: "confidence_locked_at_minimum_until_resolution"
+      escalation: "immediate_human_escalation"
+
+runtime_behavior:
+  uncertainty_tracking_behavior:
+    mechanism: "continuous_uncertainty_assessment"
+    
+    uncertainty_tracking_frequency:
+      trigger_based: "on_uncertainty_type_change"
+      periodic: "minimum_once_per_operational_cycle"
+      event_driven: "on_evidence_change_or_context_shift"
+    
+    uncertainty_state_captures:
+      - identified_uncertainties_enumeration
+      - uncertainty_types_present
+      - confidence_impact_of_each_uncertainty
+      - escalation_status
+      - uncertainty_resolution_status
+
+  uncertainty_visibility_behavior:
+    mechanism: "mandatory_uncertainty_articulation"
+    
+    output_visibility_requirement:
+      all_outputs_must_include: "uncertainty_statement"
+      high_confidence_statements: "must_acknowledge_limiting_uncertainties"
+      low_confidence_statements: "must_explicitly_state_uncertainty_reasons"
+      escalation_triggers: "must_document_which_uncertainties_triggered_escalation"
+    
+    uncertainty_emphasis:
+      mechanism: "graduated_uncertainty_prominence"
+      low_uncertainty_scenario: "minor_uncertainty_statement"
+      medium_uncertainty_scenario: "prominent_uncertainty_acknowledgment"
+      high_uncertainty_scenario: "dominant_uncertainty_emphasis"
+
+  ambiguity_resolution_behavior:
+    mechanism: "attempted_ambiguity_clarification"
+    
+    resolution_attempt:
+      step_1_ambiguity_identification: "identify_specific_ambiguity_type"
+      step_2_clarification_attempt: "attempt_to_resolve_through_available_means"
+      step_3_resolution_outcome: "successful_resolution_or_escalation_needed"
+      step_4_escalation_if_needed: "escalate_if_ambiguity_unresolvable"
+
+runtime_degradation:
+  uncertainty_accumulation_degradation:
+    mechanism: "confidence_floor_enforcement"
+    action: "as_uncertainty_accumulates_enforce_minimum_confidence_floor"
+    response: "escalate_to_human_when_floor_reached"
+  
+  evidence_loss_degradation:
+    mechanism: "conservative_default_activation"
+    action: "when_evidence_lost_assume_worst_case_scenario"
+    response: "increase_protective_constraints_and_escalate"
+  
+  visibility_degradation_response:
+    mechanism: "fail_safe_uncertainty_escalation"
+    action: "when_visibility_lost_escalate_uncertainty_to_maximum"
+    response: "mandatory_human_oversight_activation"
+
+confidence_governance:
+  uncertainty_confidence_coupling:
+    mechanism: "uncertainty_determines_confidence_bounds"
+    
+    uncertainty_confidence_mapping:
+      low_uncertainty:
+        confidence_ceiling: "evidence_quality_dependent"
+        confidence_floor: "0_60_minimum"
+      
+      moderate_uncertainty:
+        confidence_ceiling: "evidence_quality_minus_uncertainty_discount"
+        confidence_floor: "0_40_minimum"
+      
+      high_uncertainty:
+        confidence_ceiling: "evidence_quality_significantly_discounted"
+        confidence_floor: "0_30_minimum"
+      
+      critical_uncertainty:
+        confidence_ceiling: "severely_restricted"
+        confidence_floor: "0_20_minimum"
+
+traceability:
+  uncertainty_tracing:
+    requirement: "mandatory_for_all_operational_decisions"
+    trace_captures:
+      - identified_uncertainties_enumeration
+      - uncertainty_types_and_sources
+      - confidence_impact_of_each_uncertainty
+      - assumptions_supporting_reasoning
+      - evidence_gaps_and_gaps_impact
+      - unknown_unknowns_assessment
+      - uncertainty_resolution_status
+  
+  degradation_response_tracing:
+    requirement: "mandatory_for_all_degraded_runtime_operations"
+    trace_captures:
+      - degradation_trigger_condition
+      - previous_uncertainty_state
+      - degradation_response_activated
+      - confidence_impact_of_degradation
+      - human_escalation_if_triggered
+      - operational_constraints_activated
+
+bounded_cognition:
+  uncertainty_governance_containment:
+    rules:
+      - uncertainty_governance_respects_confidence_policy
+      - uncertainty_cannot_be_suppressed_for_governance_advantage
+      - uncertainty_escalation_follows_prescribed_path
+      - unknown_unknowns_trigger_defensive_reasoning_not_aggressive_action
+  
+  uncertainty_paradox_resolution:
+    mechanism: "awareness_uncertainty_principle"
+    rule: "uncertainty_about_what_we_don_t_know_triggers_conservative_defaults"
+    constraint: "when_uncertain_about_unknowns_err_on_side_of_caution"
+
+implementation_leakage_control:
+  abstraction_requirements:
+    - uncertainty_identification_algorithm_abstracted
+    - uncertainty_calculation_methods_not_specified
+    - degradation_detection_mechanism_hidden
+    - evidence_quality_assessment_implementation_details_abstracted
+  
+  governance_specification_discipline:
+    constraint: "yaml_defines_uncertainty_principles_not_technical_mechanisms"
+
+human_oversight:
+  oversight_on_uncertainty:
+    mechanism: "human_validation_of_uncertainty_assessment"
+    oversight_triggers:
+      - high_uncertainty_detected
+      - unresolvable_ambiguity_identified
+      - confidence_critically_reduced_due_to_uncertainty
+    
+    override_capability:
+      can_validate_uncertainty_assessment: "yes"
+      can_override_uncertainty_classification: "yes_with_documented_justification"
+      can_accept_uncertainty_risk: "yes_with_explicit_approval"
+
+output_standard:
+  uncertainty_governance_output_must_include:
+    - confidence_score_with_uncertainty_basis
+    - identified_unknowns_and_uncertainties
+    - assumption_list_and_validity_assessment
+    - evidence_gaps_and_impact_on_confidence
+    - unknown_unknowns_qualitative_assessment
+    - uncertainty_escalation_status_if_applicable
+    - governance_rule_reference
+    - degradation_response_status_if_applicable
+  
+  transparency_requirement:
+    principle: "uncertainty_must_be_explicit_in_all_reasoning_outputs"
+    requirement: "every_decision_must_acknowledge_its_uncertainty_context"
+    auditability: true
+    reviewable_by_uncertainty_domain_experts: true

@@ -1,0 +1,176 @@
+metadata:
+  schema_version: "1.0"
+  crosswalk_name: CERT_IN_to_DPDP_Alignment
+  primary_framework: CERT_IN
+  secondary_framework: DPDP_Act_2023
+  category: cybersecurity_and_privacy_alignment
+  criticality: high
+  interoperability_domain: privacy_security_governance
+  operational_scope: enterprise_runtime_governance
+
+crosswalk_posture:
+  preserve_operational_traceability: true
+  prioritize_evidence_reusability: true
+  maintain_runtime_alignment_visibility: true
+  enforce_cross_framework_consistency: true
+  require_contextual_alignment_validation: true
+  prohibit_assumed_equivalence: true
+  prioritize_stricter_control_interpretation: true
+  preserve_jurisdictional_awareness: true
+
+crosswalk_controls:
+
+  incident_reporting:
+    cert_in_reference:
+      cybersecurity_incident_reporting: true
+      security_event_notification: true
+
+    dpdp_reference:
+      personal_data_breach_notification: true
+      data_principal_notification: true
+
+    alignment:
+      operational_overlap: true
+      legal_equivalence: false
+      runtime_dependency: true
+      evidence_reusability: true
+
+    operational_mapping:
+      security_breach_detection: true
+      breach_notification_workflows: true
+      regulatory_reporting_pipeline: true
+      forensic_evidence_collection: true
+
+  audit_logging:
+    cert_in_reference:
+      audit_log_retention: true
+      event_traceability: true
+
+    dpdp_reference:
+      processing_accountability: true
+      lawful_processing_traceability: true
+
+    alignment:
+      operational_overlap: true
+      legal_equivalence: false
+      runtime_dependency: true
+      evidence_reusability: true
+
+    operational_mapping:
+      access_logs: true
+      processing_logs: true
+      identity_traceability: true
+      privileged_access_visibility: true
+
+  access_control:
+    cert_in_reference:
+      privileged_access_monitoring: true
+      authentication_security: true
+
+    dpdp_reference:
+      authorized_data_access: true
+      data_security_safeguards: true
+
+    alignment:
+      operational_overlap: true
+      legal_equivalence: false
+      runtime_dependency: true
+      evidence_reusability: true
+
+    operational_mapping:
+      least_privilege_enforcement: true
+      role_based_access_control: true
+      identity_governance: true
+      anomalous_access_detection: true
+
+  data_protection:
+    cert_in_reference:
+      infrastructure_security: true
+      endpoint_security: true
+
+    dpdp_reference:
+      personal_data_protection: true
+      sensitive_data_security: true
+
+    alignment:
+      operational_overlap: true
+      legal_equivalence: false
+      runtime_dependency: true
+      evidence_reusability: true
+
+    operational_mapping:
+      encryption_controls: true
+      data_loss_prevention: true
+      secure_storage_monitoring: true
+      cloud_security_validation: true
+
+reasoning_policy:
+  require_runtime_alignment_validation: true
+  require_evidence_traceability: true
+  prohibit_partial_control_assumptions: true
+  prohibit_unverified_framework_equivalence: true
+  prioritize_stricter_framework_control: true
+  validate_operational_context_before_alignment: true
+  require_cross_framework_consistency_validation: true
+  preserve_jurisdiction_specific_obligations: true
+  require_evidence_scope_validation: true
+
+behavioral_constraints:
+  prohibit_unsupported_compliance_claims: true
+  prohibit_assumed_evidence_equivalence: true
+  prohibit_runtime_overconfidence: true
+  prohibit_partial_alignment_inheritance: true
+  prohibit_control_scope_generalization: true
+  prohibit_unvalidated_cross_framework_mapping: true
+
+compliance_conflict_detection:
+  detect_jurisdictional_conflicts: true
+  detect_evidence_scope_misalignment: true
+  detect_runtime_control_gaps: true
+  detect_incomplete_alignment_chains: true
+  detect_conflicting_reporting_obligations: true
+  detect_operational_dependency_breakage: true
+
+runtime_behavior:
+  continuously_validate_alignment_integrity: true
+  monitor_evidence_reusability: true
+  degrade_confidence_during_alignment_conflicts: true
+  preserve_runtime_interoperability_awareness: true
+  prioritize_runtime_traceability: true
+  validate_runtime_obligation_coverage: true
+
+output_standard:
+  expose_alignment_visibility: true
+  expose_partial_alignment_boundaries: true
+  expose_evidence_reusability_scope: true
+  expose_operational_interoperability_analysis: true
+  expose_uncertainty_boundaries: true
+  expose_runtime_alignment_status: true
+  preserve_traceability_visibility: true
+
+compliance_objectives:
+  unify_privacy_and_security_governance: true
+  preserve_data_processing_traceability: true
+  support_breach_response_readiness: true
+  ensure_cross_framework_auditability: true
+  validate_runtime_data_protection: true
+
+evidence_requirements:
+  access_logs: true
+  incident_records: true
+  breach_notifications: true
+  consent_validation_records: true
+  processing_activity_logs: true
+  audit_trails: true
+
+risk_considerations:
+
+  critical:
+    personal_data_breach: true
+    unauthorized_sensitive_data_access: true
+    unreported_security_incidents: true
+
+  high:
+    weak_access_controls: true
+    incomplete_audit_logging: true
+    insufficient_monitoring_visibility: true

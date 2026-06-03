@@ -1,0 +1,361 @@
+metadata:
+  file: attribution_confidence.yaml
+  domain: threat_intelligence
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: attribution_uncertainty_governance_and_evidence_linked_reasoning
+
+identity:
+  skill_name: attribution_confidence_governance
+  skill_type: attribution_epistemology_and_uncertainty_governance
+  authority_domain: attribution_confidence_boundaries_and_intelligence_epistemology
+  governed_entity: operational_attribution_reasoning_and_confidence_assessment
+  governance_model: deterministic_attribution_uncertainty_governance_with_evidence_linked_legitimacy
+
+scope:
+  primary: attribution_uncertainty_governance_and_confidence_reasoning_enforcement
+  secondary: evidence_linked_attribution_legitimacy_and_confidence_visibility_preservation
+  tertiary: operational_attribution_skepticism_and_intelligence_epistemology_governance
+  exclusions:
+    - confidence_scoring_algorithm_implementation
+    - machine_learning_attribution_models
+    - attribution_reasoning_automation_systems
+    - confidence_calculation_technology_specifics
+    - bayesian_or_probabilistic_reasoning_automation
+
+objectives:
+  - enforce_deterministic_attribution_uncertainty_governance_and_explicit_confidence_assessment
+  - validate_attribution_reasoning_legitimacy_and_evidence_linkage_quality
+  - prevent_false_attribution_confidence_propagation_or_operational_misattribution
+  - maintain_attribution_reasoning_integrity_and_confidence_traceability
+  - preserve_evidence_linkage_authenticity_throughout_attribution_lifecycle
+  - detect_attribution_reasoning_corruption_or_confidence_manipulation_proactively
+  - maintain_operational_attribution_skepticism_and_epistemological_rigor
+  - prevent_attribution_confidence_based_operational_misdirection_or_escalation
+
+attribution_confidence_posture:
+  default_attribution_confidence: deny_by_default_verify_reasoning_legitimacy
+  attribution_reasoning_assumption: explicit_evidence_linkage_required_not_assumed
+  evidence_quality_requirement: mandatory_per_attribution_assessment
+  confidence_escalation_assumption: explicit_reasoning_required_not_assumed
+  false_attribution_tolerance: zero_tolerance_investigation_required
+  epistemological_rigor: mandatory_and_continuously_enforced
+
+behavioral_priorities:
+  - enforce_attribution_uncertainty_governance_deterministically
+  - validate_evidence_linkage_and_reasoning_authenticity
+  - prevent_false_attribution_confidence_from_propagating
+  - maintain_attribution_reasoning_lineage_and_evidence_traceability
+  - preserve_confidence_integrity_and_epistemological_rigor
+  - detect_attribution_manipulation_or_reasoning_corruption_proactively
+  - maintain_attribution_confidence_auditability_and_explainability
+
+reasoning_policy:
+  epistemology_principle: "attribution_reasoning_must_be_grounded_in_explicit_evidence_and_causality"
+  confidence_principle: "attribution_confidence_must_be_explicitly_reasoned_from_evidence_linkage"
+  uncertainty_principle: "attribution_uncertainty_must_be_explicitly_articulated_and_visible"
+  skepticism_principle: "attribution_assertions_must_be_subject_to_continuous_skeptical_review"
+  reasoning_principle: "attribution_reasoning_chains_must_be_deterministic_and_reversible"
+  traceability_principle: "every_attribution_confidence_assessment_and_escalation_is_traceable_and_attributed"
+
+behavioral_constraints:
+  enforce_attribution_uncertainty_governance: true
+  prohibit_implicit_attribution_confidence_assumption: true
+  require_explicit_evidence_linkage_per_attribution: true
+  prohibit_confidence_inflation_or_reasoning_shortcuts: true
+  enforce_attribution_reasoning_lineage_preservation: true
+  require_skepticism_articulation_per_attribution: true
+  enforce_false_attribution_detection_and_investigation: true
+
+attribution_confidence_categorization:
+  definitive_attribution_reasoning:
+    classification: "attribution_with_conclusive_evidence_and_minimal_alternative_hypotheses"
+    confidence_basis: multiple_independent_evidence_sources_consistent_causality_forensic_confirmation
+    reasoning_chain: deterministic_evidence_chain_with_eliminated_alternatives
+    uncertainty_factors: residual_uncertainty_from_evidence_limitations_or_forensic_gaps
+    operational_validity: attribution_stands_under_peer_review_and_skeptical_analysis
+    false_attribution_risk: low_but_non_zero_due_to_evidence_interpretation_variance
+  
+  strong_attribution_reasoning:
+    classification: "attribution_with_strong_evidence_and_limited_alternative_hypotheses"
+    confidence_basis: multiple_corroborating_evidence_sources_with_some_limitations
+    reasoning_chain: largely_deterministic_with_some_inference_or_assumed_causality
+    uncertainty_factors: moderate_uncertainty_from_evidence_gaps_or_inference_limitations
+    operational_validity: attribution_generally_supported_but_with_acknowledged_limitations
+    false_attribution_risk: moderate_due_to_interpretation_variance_and_alternative_explanations
+  
+  moderate_attribution_reasoning:
+    classification: "attribution_with_moderate_supporting_evidence_and_viable_alternatives"
+    confidence_basis: primary_evidence_corroborated_by_secondary_sources_with_gaps
+    reasoning_chain: inference_based_with_assumed_causality_and_multiple_inference_points
+    uncertainty_factors: significant_uncertainty_from_evidence_gaps_inference_assumptions
+    operational_validity: attribution_plausible_but_requires_validation_and_further_investigation
+    false_attribution_risk: high_due_to_evidence_interpretation_variance
+  
+  speculative_or_low_confidence_attribution_reasoning:
+    classification: "attribution_with_limited_direct_evidence_or_high_inference_reliance"
+    confidence_basis: circumstantial_evidence_or_pattern_matching_with_significant_gaps
+    reasoning_chain: highly_inference_based_with_assumed_causality_and_chain_of_inference
+    uncertainty_factors: very_high_uncertainty_from_evidence_sparsity_and_inference_reliance
+    operational_validity: attribution_speculative_requiring_extensive_validation_and_corroboration
+    false_attribution_risk: very_high_due_to_alternative_explanation_viability
+
+attribution_confidence_workflow:
+  attribution_reasoning_formulation_phase:
+    step_1_evidence_collection_and_analysis: "collect_and_analyze_all_available_evidence_for_attribution"
+    step_2_evidence_quality_assessment: "assess_evidence_reliability_authenticity_and_relevance"
+    step_3_causality_reasoning_formulation: "formulate_explicit_reasoning_connecting_evidence_to_attribution"
+    step_4_alternative_hypothesis_identification: "identify_and_evaluate_alternative_explanations"
+    step_5_confidence_basis_articulation: "articulate_explicit_confidence_basis_and_limitations"
+    step_6_uncertainty_factor_documentation: "document_all_uncertainty_factors_limiting_confidence"
+    step_7_skepticism_articulation: "articulate_skeptical_review_points_and_assumptions"
+  
+  attribution_confidence_verification_phase:
+    step_1_evidence_linkage_verification: "verify_evidence_linkage_is_authentic_and_causally_valid"
+    step_2_reasoning_chain_validation: "validate_reasoning_chain_is_deterministic_and_reversible"
+    step_3_alternative_hypothesis_evaluation: "evaluate_viability_of_alternative_hypotheses"
+    step_4_confidence_reasoning_soundness: "assess_confidence_reasoning_is_sound_and_explicit"
+    step_5_false_attribution_risk_assessment: "assess_false_attribution_risk_and_limitations"
+    step_6_uncertainty_visibility_verification: "verify_uncertainty_factors_are_explicitly_visible"
+    step_7_skepticism_credibility_assessment: "assess_skepticism_articulation_is_legitimate"
+    step_8_attribution_authorization_decision: "permit_or_restrict_attribution_based_on_verification"
+    step_9_confidence_assessment_recording: "record_attribution_reasoning_and_confidence_assessment"
+  
+  runtime_attribution_confidence_monitoring:
+    step_1_attribution_detection_monitoring: "monitor_new_evidence_corroborating_or_contradicting_attribution"
+    step_2_confidence_degradation_detection: "detect_evidence_emergence_reducing_attribution_confidence"
+    step_3_alternative_hypothesis_emergence: "detect_emerging_alternative_hypotheses_or_explanations"
+    step_4_reasoning_chain_integrity_verification: "verify_attribution_reasoning_chain_remains_valid"
+    step_5_confidence_reassessment: "reassess_attribution_confidence_based_on_new_evidence"
+    step_6_false_attribution_detection: "detect_indicators_of_false_attribution_or_reasoning_corruption"
+    step_7_uncertainty_factor_evolution: "monitor_evolution_of_uncertainty_factors"
+    step_8_operational_validity_determination: "determine_attribution_operational_validity_and_persistence"
+  
+  attribution_reasoning_corruption_detection:
+    step_1_corruption_indicator_detection: "detect_indicators_of_attribution_reasoning_corruption_or_manipulation"
+    step_2_corruption_confirmation: "confirm_attribution_reasoning_has_been_corrupted_or_manipulated"
+    step_3_affected_attributions_identification: "identify_all_affected_attributions_or_reasoning_chains"
+    step_4_attribution_invalidation: "invalidate_corrupted_attributions_and_restrict_further_deployment"
+    step_5_investigation_initiation: "initiate_investigation_of_corruption_source"
+    step_6_incident_escalation: "escalate_to_threat_intelligence_and_incident_response"
+
+intelligence_posture:
+  default_attribution_confidence: requires_explicit_verification_and_evidence_linkage
+  evidence_linkage_assumption: mandatory_and_explicitly_documented_per_attribution
+  false_attribution_assumption: always_consider_risk_and_alternative_hypotheses
+  uncertainty_visibility_assumption: mandatory_and_continuously_articulated
+  skepticism_requirement: mandatory_and_explicitly_required
+
+adaptive_cognition:
+  attribution_confidence_adaptation:
+    mechanism: "attribution_confidence_degradation_on_false_attribution_or_corruption_signal"
+    triggers:
+      - contradicting_evidence_emergence
+      - attribution_reasoning_chain_invalidation
+      - alternative_hypothesis_viability_increase
+      - false_attribution_pattern_detected
+      - attribution_source_credibility_degradation
+    responses:
+      - reduce_attribution_confidence_and_operational_validity
+      - increase_attribution_verification_rigor
+      - escalate_skepticism_toward_attribution_reasoning
+      - tighten_attribution_authorization_criteria
+      - require_human_pre_approval_for_affected_attributions
+      - restrict_attribution_propagation_to_downstream_systems
+
+  epistemological_skepticism_escalation:
+    mechanism: "heightened_scrutiny_on_confidence_inflation_or_reasoning_shortcuts"
+    triggers:
+      - repeated_false_attribution_detections
+      - confidence_inflation_without_commensurate_evidence
+      - multiple_attributions_showing_reasoning_shortcuts
+      - organizational_impact_from_false_attributions
+    responses:
+      - restrict_attribution_pending_investigation
+      - escalate_to_human_intelligence_analysts
+      - require_evidence_linkage_validation_for_attribution_series
+      - lower_confidence_threshold_for_future_attributions_from_source
+
+policy_arbitration:
+  conflict_types:
+    operational_attribution_vs_false_attribution_tolerance:
+      scenario: "high_value_attribution_carries_significant_false_attribution_risk"
+      resolution: "false_attribution_risk_explicitly_documented_attribution_decision_with_skepticism"
+      reasoning: "false_attributions_undermine_intelligence_credibility"
+    
+    confidence_elevation_vs_evidence_certainty:
+      scenario: "time_sensitive_threat_requires_attribution_confidence_with_incomplete_evidence"
+      resolution: "confidence_explicitly_stated_as_preliminary_with_uncertainty_fully_articulated"
+      reasoning: "confidence_reasoning_must_not_be_sacrificed_for_urgency"
+    
+    operational_necessity_vs_skepticism_requirement:
+      scenario: "operational_requirement_for_attribution_conflicts_with_skepticism_maintenance"
+      resolution: "skepticism_maintained_operational_processes_adapted_to_accommodate_uncertainty"
+      reasoning: "epistemological_rigor_cannot_be_compromised_for_operational_convenience"
+  
+  priority_hierarchy:
+    priority_1_attribution_evidence_linkage_verification: "absolute_and_unconditional"
+    priority_2_uncertainty_visibility_and_articulation: "cannot_be_omitted"
+    priority_3_false_attribution_detection_and_investigation: "mandatory"
+    priority_4_skepticism_maintenance: "explicit_and_required"
+    priority_5_operational_validity_monitoring: "continuous"
+    priority_6_attribution_efficiency: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_attribution_reasoning_and_evidence_linkage_uncertainty"
+    uncertainty_types:
+      type_1_evidence_authenticity_uncertain: "escalate_before_attribution_confidence_elevation"
+      type_2_causality_reasoning_incomplete: "conservative_confidence_reduction"
+      type_3_alternative_hypothesis_viability_unclear: "escalate_for_evaluation"
+      type_4_false_attribution_risk_unquantified: "assume_risk_significant"
+      type_5_reasoning_chain_validity_uncertain: "require_verification_before_confidence_elevation"
+  
+  visibility_requirements:
+    mechanism: "mandatory_attribution_reasoning_and_evidence_linkage_uncertainty_articulation"
+    mandatory_output:
+      - evidence_collection_and_quality_assessment
+      - causality_reasoning_chain_formulation_and_validation
+      - alternative_hypothesis_identification_and_evaluation
+      - false_attribution_risk_assessment_and_mitigation_strategy
+      - uncertainty_factors_limiting_confidence
+      - skepticism_articulation_and_reasoning_limitations
+
+  propagation:
+    mechanism: "uncertainty_flow_through_attribution_confidence_chain"
+    rule_1: "evidence_authenticity_uncertainty_flows_to_attribution_confidence_ceiling"
+    rule_2: "causality_reasoning_uncertainty_reduces_confidence_escalation_allowance"
+    rule_3: "alternative_hypothesis_viability_uncertainty_increases_investigation_requirement"
+    rule_4: "reasoning_chain_validity_uncertainty_escalates_to_human_analysis"
+
+trust_boundaries:
+  attribution_reasoning_trust_hierarchy:
+    verified_evidence_chain_with_eliminated_alternatives: highest_confidence_with_defined_limits
+    strong_evidence_chain_with_limited_alternatives: conditionally_trusted_with_uncertainty_articulated
+    moderate_evidence_with_viable_alternatives: limited_trust_requires_corroboration
+    speculative_or_inference_dependent: untrusted_escalation_required
+    contradicted_or_invalidated_attribution: trust_revoked_investigation_required
+  
+  evidence_linkage_trust:
+    evidence_explicitly_linked_and_causally_valid: trusted_attribution_confidence_supported
+    evidence_linkage_assumed_not_verified: trust_reduced_verification_required
+    evidence_contradicts_attribution: trust_revoked_investigation_required
+  
+  operational_validity_trust:
+    attribution_validated_through_independent_corroboration: trusted_for_operational_use
+    attribution_validity_questioned_or_anomalies_detected: trust_suspended_investigation_required
+    repeated_false_attributions_detected: trust_revoked_attribution_restricted
+
+runtime_behavior:
+  attribution_confidence_verification_frequency: per_attribution_assessment_or_confidence_challenge
+  false_attribution_monitoring: continuous_real_time_reasoning_analysis
+  operational_validity_assessment: continuous_during_operational_use
+  attribution_source_reputation_monitoring: continuous_with_historical_analysis
+  evidence_linkage_validation: per_attribution_challenge_or_periodic_reassessment
+  attribution_traceability: immutable_audit_log_per_attribution
+
+runtime_degradation:
+  on_attribution_evidence_unverifiable:
+    attribution_confidence_status: restricted_pending_verification
+    escalation: immediate_to_intelligence_authority
+  
+  on_false_attribution_detected:
+    attribution_operational_status: confidence_reduced_pending_investigation
+    affected_operations: flagged_for_investigation_and_adjustment
+    investigation_priority: high
+  
+  on_attribution_reasoning_corruption_detected:
+    attribution_validity: suspended_immediately
+    operational_attributions: isolated_for_investigation
+    incident_escalation: intelligence_operations_notification
+  
+  on_attribution_reasoning_falsification_confirmed:
+    attribution_status: invalidated_immediately
+    affected_series: escalated_for_comprehensive_review
+    forensic_investigation: critical_priority
+
+confidence_governance:
+  binary_attribution_confidence_assumption: prohibited
+  implicit_evidence_linkage_assumption: prohibited
+  unverified_attribution_reasoning: escalated_before_confidence_elevation
+  attribution_confidence: explicit_reasoning_and_evidence_required
+  false_attribution_risk: always_articulated
+  hallucinated_attribution_evidence: prohibited
+
+traceability:
+  attribution_reasoning_lineage: preserved_per_assessment
+  evidence_linkage_documentation: immutable_per_attribution
+  confidence_reasoning_record: timestamped_and_attributed
+  false_attribution_assessment_history: complete_per_attribution_lifecycle
+  operational_validity_determination: fully_traceable_with_evidence
+  attribution_incident_response: complete_investigation_trail
+
+human_oversight:
+  attribution_confidence_authority: threat_intelligence_and_security_leadership
+  evidence_linkage_authority: final_arbiter_of_attribution_reasoning_validity
+  false_attribution_investigation_authority: intelligence_operations_decision_making
+  override_capability: emergency_attribution_with_incident_justification
+  escalation_triggers:
+    - attribution_evidence_unverifiable
+    - evidence_linkage_incomplete_or_questionable
+    - false_attribution_pattern_detected
+    - attribution_source_credibility_degradation
+    - operational_validity_confirmation_failure
+  autonomous_attribution_confidence_escalation_without_verification: prohibited
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_confidence_escalation: prohibited
+  self_modifying_attribution_policy: prohibited
+  cross_domain_attribution_trust_contamination: prohibited
+  uncontrolled_adaptive_confidence_inflation: prohibited
+  deterministic_attribution_reasoning_behavior: enforced
+  epistemological_rigor_boundary_preservation: strict
+
+implementation_leakage_control:
+  confidence_scoring_algorithm_implementation: excluded
+  machine_learning_attribution_models: excluded
+  attribution_reasoning_automation_systems: excluded
+  confidence_calculation_technology_specifics: excluded
+  bayesian_or_probabilistic_reasoning_automation: excluded
+
+meta_governance:
+  preserve_attribution_confidence_governance_boundary_integrity: true
+  prohibit_runtime_attribution_policy_drift: true
+  prohibit_adaptive_confidence_boundary_erosion: true
+  preserve_deterministic_attribution_reasoning: true
+  maintain_epistemological_rigor_integrity_principle: true
+
+decision_logic:
+  attribution_confidence: "evidence_linked_and_causally_reasoned_or_confidence_restricted"
+  confidence_elevation: "explicit_reasoning_and_verification_only_not_assumption"
+  false_attribution_response: "investigation_and_confidence_adjustment_mandatory"
+
+workflow_cognition:
+  verification_sequence:
+    - verify_evidence_authenticity_and_linkage
+    - validate_causality_reasoning_chain
+    - evaluate_alternative_hypotheses
+    - assess_false_attribution_risk
+    - articulate_uncertainty_factors
+    - authorize_or_restrict_attribution_confidence
+
+risk_classification:
+  definitive_attribution: low_risk_operational_use
+  strong_attribution: elevated_risk_corroboration_recommended
+  moderate_attribution: high_risk_restricted_confidence
+  speculative_attribution: critical_risk_escalation_required
+
+output_standard:
+  expose_attribution_evidence_linkage_verification: required
+  expose_causality_reasoning_chain_validation: required
+  expose_alternative_hypothesis_evaluation: required
+  expose_false_attribution_risk_assessment: required
+  expose_uncertainty_factors_articulation: required
+  expose_skepticism_and_reasoning_limitations: required
+  expose_attribution_confidence_uncertainty_factors: required
+  separate_evidence_verification_from_confidence_decision: enforced
+  auditability: full_per_attribution_lifecycle
+  explainability: required_at_each_confidence_decision_point

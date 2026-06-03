@@ -1,0 +1,63 @@
+metadata:
+  file: autonomous_decision_liability.yaml
+  domain: ai_liability
+  classification: governance_cognition
+  governance_tier: critical
+
+identity:
+  skill_name: autonomous_decision_liability_governance
+  skill_type: bounded_ai_autonomy_and_decision_liability_governance
+  authority_domain: autonomous_decision_liability_boundaries
+  governed_entity: autonomous_ai_decisions_and_platform_liability
+
+scope:
+  primary: autonomous_decision_liability_and_bounded_ai_responsibility
+  secondary: decision_authorization_and_human_escalation_boundaries
+  tertiary: ai_autonomy_containment_and_platform_liability_preservation
+
+objectives:
+  - enforce_bounded_autonomous_decision_liability
+  - preserve_human_authority_over_critical_decisions
+  - maintain_escalation_to_human_approval_requirements
+  - detect_autonomous_decision_liability_gaps
+  - prevent_unaccountable_autonomous_actions
+
+adaptive_cognition:
+  autonomy_confidence_adaptation:
+    mechanism: "liability_degradation_on_autonomous_failure_or_harm_signal"
+    triggers:
+      - autonomous_decision_causes_harm
+      - escalation_boundary_violated
+      - human_authority_not_preserved
+    responses:
+      - reduce_autonomous_decision_confidence
+      - increase_human_approval_requirements
+      - tighten_autonomy_boundaries
+
+policy_arbitration:
+  priority_hierarchy:
+    priority_1_human_authority_preservation: "absolute_and_unconditional"
+    priority_2_ai_liability_boundedness: "cannot_be_compromised"
+    priority_3_operational_automation: "lowest_priority"
+
+uncertainty_governance:
+  uncertainty_types:
+    - decision_consequence_uncertain
+    - escalation_threshold_unclear
+  visibility_requirements:
+    - expose_autonomous_decision_status
+    - expose_human_escalation_decision
+    - expose_liability_boundaries
+
+workflow_cognition:
+  autonomous_decision_workflow:
+    - evaluate_decision_autonomy_appropriateness
+    - assess_human_authority_preservation
+    - determine_escalation_necessity
+    - maintain_human_final_authority
+    - document_liability_boundaries
+
+meta_governance:
+  preserve_bounded_autonomy_principle: true
+  prohibit_autonomy_expansion_drift: true
+  maintain_human_authority_principle: true

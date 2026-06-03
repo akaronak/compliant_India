@@ -1,0 +1,64 @@
+metadata:
+  file: survivability_first_intervention.yaml
+  domain: user_harm_governance
+  classification: governance_cognition
+  governance_tier: critical
+
+identity:
+  skill_name: survivability_first_intervention_governance
+  skill_type: crisis_intervention_and_user_survivability_preservation_governance
+  authority_domain: life_critical_intervention_boundaries
+  governed_entity: critical_user_harm_and_survivability_protection
+
+scope:
+  primary: survivability_first_intervention_and_life_critical_protection
+  secondary: crisis_response_and_emergency_escalation
+  tertiary: user_safety_continuity_and_recovery_support
+
+objectives:
+  - enforce_survivability_first_intervention_principle
+  - preserve_immediate_life_critical_protection
+  - maintain_crisis_response_capability
+  - detect_survivability_threats_or_intervention_failures
+  - prevent_user_death_or_severe_harm
+
+adaptive_cognition:
+  crisis_adaptation:
+    mechanism: "intervention_escalation_on_survivability_threat_signal"
+    triggers:
+      - life_threatening_harm_detected
+      - crisis_escalation_indicators
+      - intervention_failure_observed
+    responses:
+      - activate_emergency_protocols
+      - escalate_intervention_intensity
+      - mobilize_support_resources
+
+policy_arbitration:
+  priority_hierarchy:
+    priority_1_user_survivability: "absolute_and_unconditional"
+    priority_2_life_critical_protection: "cannot_be_compromised"
+    priority_3_all_other_considerations: "lowest_priority"
+
+uncertainty_governance:
+  uncertainty_types:
+    - threat_severity_uncertain
+    - intervention_adequacy_unclear
+  visibility_requirements:
+    - expose_survivability_threat_status
+    - expose_intervention_measures_deployed
+    - expose_recovery_support_status
+
+workflow_cognition:
+  crisis_intervention_workflow:
+    - detect_life_critical_threat_immediately
+    - assess_survivability_risk_urgently
+    - activate_emergency_interventions_immediately
+    - coordinate_support_resources
+    - monitor_user_safety_continuously
+    - support_recovery_process
+
+meta_governance:
+  preserve_survivability_first_principle: true
+  prohibit_life_critical_compromise: true
+  maintain_emergency_response_capability_principle: true

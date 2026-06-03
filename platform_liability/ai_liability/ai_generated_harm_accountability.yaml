@@ -1,0 +1,63 @@
+metadata:
+  file: ai_generated_harm_accountability.yaml
+  domain: ai_liability
+  classification: governance_cognition
+  governance_tier: critical
+
+identity:
+  skill_name: ai_generated_harm_accountability
+  skill_type: ai_harm_attribution_and_accountability_governance
+  authority_domain: ai_liability_boundaries
+  governed_entity: ai_generated_harm_and_platform_liability
+
+scope:
+  primary: ai_generated_harm_accountability_and_attribution
+  secondary: harm_causation_attribution_and_responsibility
+  tertiary: ai_harm_prevention_and_platform_liability_preservation
+
+objectives:
+  - enforce_deterministic_ai_harm_accountability
+  - preserve_clear_ai_liability_attribution
+  - maintain_harm_causation_traceability
+  - detect_unaccounted_ai_harms
+  - prevent_ai_harm_liability_diffusion
+
+adaptive_cognition:
+  harm_accountability_adaptation:
+    mechanism: "accountability_escalation_on_unattributed_harm_or_gap_signal"
+    triggers:
+      - ai_generated_harm_detected
+      - accountability_attribution_unclear
+      - causation_unverified
+    responses:
+      - escalate_harm_investigation
+      - increase_liability_clarity
+      - strengthen_prevention_measures
+
+policy_arbitration:
+  priority_hierarchy:
+    priority_1_harm_accountability_clarity: "absolute_and_unconditional"
+    priority_2_ai_liability_attribution: "cannot_be_compromised"
+    priority_3_operational_efficiency: "lowest_priority"
+
+uncertainty_governance:
+  uncertainty_types:
+    - harm_causation_attribution_unclear
+    - ai_responsibility_ambiguous
+  visibility_requirements:
+    - expose_ai_harm_status
+    - expose_accountability_attribution
+    - expose_liability_gaps
+
+workflow_cognition:
+  harm_accountability_workflow:
+    - detect_potential_ai_generated_harm
+    - establish_ai_causation_link
+    - determine_accountability_attribution
+    - implement_corrective_measures
+    - prevent_similar_harms
+
+meta_governance:
+  preserve_ai_liability_principle: true
+  prohibit_accountability_diffusion: true
+  maintain_harm_traceability_principle: true

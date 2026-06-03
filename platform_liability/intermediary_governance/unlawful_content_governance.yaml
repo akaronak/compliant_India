@@ -1,0 +1,63 @@
+metadata:
+  file: unlawful_content_governance.yaml
+  domain: intermediary_governance
+  classification: governance_cognition
+  governance_tier: critical
+
+identity:
+  skill_name: unlawful_content_governance
+  skill_type: platform_unlawful_content_detection_and_removal_governance
+  authority_domain: content_moderation_boundaries
+  governed_entity: platform_content_and_user_safety
+
+scope:
+  primary: unlawful_content_detection_and_removal_governance
+  secondary: content_moderation_and_user_protection
+  tertiary: platform_liability_for_harmful_content
+
+objectives:
+  - enforce_deterministic_unlawful_content_detection
+  - preserve_rapid_content_removal_capability
+  - maintain_user_safety_from_harmful_content
+  - detect_moderation_gaps_or_failures
+  - prevent_platform_liability_for_unaddressed_unlawful_content
+
+adaptive_cognition:
+  moderation_adaptation:
+    mechanism: "moderation_escalation_on_unlawful_content_or_gap_signal"
+    triggers:
+      - unlawful_content_detected
+      - moderation_gap_identified
+      - removal_failure_observed
+    responses:
+      - escalate_detection_sensitivity
+      - implement_faster_removal
+      - enhance_prevention_measures
+
+policy_arbitration:
+  priority_hierarchy:
+    priority_1_unlawful_content_removal: "absolute_and_unconditional"
+    priority_2_user_protection: "cannot_be_compromised"
+    priority_3_operational_efficiency: "lowest_priority"
+
+uncertainty_governance:
+  uncertainty_types:
+    - content_legality_unclear
+    - harm_severity_uncertain
+  visibility_requirements:
+    - expose_detected_unlawful_content
+    - expose_removal_status
+    - expose_moderation_gaps
+
+workflow_cognition:
+  content_moderation_workflow:
+    - detect_potentially_unlawful_content
+    - assess_content_legality_and_harm
+    - implement_rapid_removal
+    - prevent_reposting
+    - monitor_compliance_effectiveness
+
+meta_governance:
+  preserve_content_moderation_principle: true
+  prohibit_moderation_capability_drift: true
+  maintain_platform_liability_principle: true

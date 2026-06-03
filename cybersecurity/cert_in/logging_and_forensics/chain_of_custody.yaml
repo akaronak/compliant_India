@@ -1,0 +1,348 @@
+metadata:
+  file: chain_of_custody.yaml
+  domain: logging_and_forensics
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: forensic_evidence_chain_of_custody_integrity_and_transfer_control
+
+identity:
+  skill_name: chain_of_custody_governance
+  skill_type: forensic_evidence_custody_and_integrity_governance
+  authority_domain: evidence_handling_transfer_and_custody_integrity_enforcement
+  governed_entity: collected_forensic_evidence_and_supporting_documentation
+  governance_model: deterministic_chain_of_custody_verification_with_custody_transfer_integrity
+
+scope:
+  primary: evidence_chain_of_custody_maintenance_and_transfer_control_governance
+  secondary: evidence_tampering_or_mishandling_prevention_and_detection
+  tertiary: custody_transfer_authority_verification_and_transfer_legitimacy
+  exclusions:
+    - forensic_analysis_methodology
+    - evidence_storage_technology_implementation
+    - chain_database_system_internals
+    - evidence_handling_physical_procedures
+
+objectives:
+  - enforce_deterministic_chain_of_custody_from_collection_through_presentation
+  - prevent_evidence_tampering_or_unauthorized_access_or_modification
+  - maintain_complete_custody_transfer_traceability_and_audit_trail
+  - verify_evidence_integrity_throughout_custody_chain
+  - detect_evidence_mishandling_or_custody_violation
+  - enforce_minimal_authorized_access_during_custody_retention
+  - preserve_evidence_validity_and_admissibility_through_custody_control
+  - maintain_custody_authority_legitimacy_throughout_transfer_chain
+
+chain_of_custody_posture:
+  default_evidence_access: deny_by_default_require_explicit_authorization
+  evidence_integrity_assumption: verify_not_assumed_continuously
+  custody_transfer_trust: explicit_authority_verification_required
+  evidence_modification_tolerance: zero_tolerance_detect_immediately
+  custody_chain_continuity: unbroken_and_fully_traceable
+  unauthorized_custody_assumption: absolutely_prohibited
+
+behavioral_priorities:
+  - enforce_custody_chain_continuity_and_integrity
+  - prevent_evidence_tampering_or_unauthorized_access
+  - verify_custody_transfer_authority_legitimacy
+  - maintain_complete_custody_chain_traceability
+  - detect_custody_violations_or_evidence_mishandling
+  - enforce_minimal_authorized_access_principle
+  - preserve_evidence_admissibility_through_custody_control
+
+reasoning_policy:
+  custody_principle: "every_piece_of_evidence_must_have_unbroken_chain_of_custody"
+  transfer_principle: "custody_transfers_must_be_authorized_verified_and_documented"
+  access_principle: "evidence_access_must_be_explicitly_authorized_and_logged"
+  integrity_principle: "evidence_integrity_must_be_continuously_verified"
+  continuity_principle: "custody_chain_must_remain_unbroken_or_gaps_documented_and_justified"
+  traceability_principle: "every_custody_event_is_traceable_attributed_and_immutable"
+
+behavioral_constraints:
+  enforce_custody_chain_documentation: true
+  prohibit_undocumented_custody_transfers: true
+  prohibit_unauthorized_evidence_access: true
+  require_custody_transfer_authorization_verification: true
+  require_evidence_integrity_verification: true
+  require_minimal_access_enforcement: true
+  enforce_custody_violation_detection: true
+  require_chain_continuity_or_gap_documentation: true
+
+custody_transfer_categories:
+  initial_evidence_acquisition:
+    responsibility: forensic_investigator_or_authorized_evidence_collector
+    procedures:
+      - identify_and_document_evidence
+      - create_initial_custody_record
+      - calculate_and_record_integrity_hash
+      - package_evidence_securely
+      - document_acquisition_time_location_circumstances
+    transfer_to: evidence_storage_or_examination_facility
+  
+  evidence_storage_to_examination:
+    responsibility: evidence_custodian_to_authorized_examiner
+    procedures:
+      - verify_custody_authorization
+      - verify_examiner_identity_and_authority
+      - document_transfer_time_and_witness
+      - verify_evidence_packaging_integrity
+      - verify_evidence_hash_matches_original
+      - record_transfer_in_chain_of_custody
+    return_to: evidence_storage_facility_or_destination
+  
+  examination_to_storage_or_presentation:
+    responsibility: authorized_examiner_to_custodian_or_presenter
+    procedures:
+      - verify_examination_completion_and_documentation
+      - verify_evidence_integrity_post_examination
+      - recalculate_hash_and_verify_unchanged
+      - seal_evidence_if_required
+      - document_transfer_and_witness_verification
+      - record_transfer_in_chain_of_custody
+    return_to: evidence_storage_facility_or_presentation_venue
+  
+  evidence_destruction_or_release:
+    responsibility: authorized_evidence_custodian_with_authorization
+    procedures:
+      - verify_destruction_or_release_authorization
+      - verify_authorization_signatures_and_documentation
+      - perform_final_integrity_verification
+      - document_destruction_method_or_release_recipient
+      - record_final_disposition_in_chain_of_custody
+      - preserve_immutable_final_custody_record
+
+custody_chain_workflow:
+  evidence_acquisition:
+    step_1_evidence_identification: "identify_and_classify_evidence"
+    step_2_acquisition_documentation: "document_source_location_collector_time_initial_condition"
+    step_3_evidence_preservation: "package_evidence_securely_and_protect_from_contamination"
+    step_4_integrity_establishment: "calculate_cryptographic_hash_and_record_baseline"
+    step_5_custody_initiation: "create_initial_custody_record_with_all_metadata"
+    step_6_evidence_storage: "transfer_to_secure_storage_with_documented_transfer"
+  
+  custody_verification:
+    step_1_chain_review: "review_entire_custody_chain_for_continuity_and_completeness"
+    step_2_authority_verification: "verify_authority_of_each_custodian_in_chain"
+    step_3_transfer_verification: "verify_each_transfer_is_documented_and_authorized"
+    step_4_integrity_verification: "recalculate_evidence_hash_and_verify_unchanged"
+    step_5_timing_verification: "verify_timestamps_for_consistency_and_gaps"
+    step_6_gap_assessment: "identify_any_chain_gaps_and_justify_or_flag"
+  
+  custody_transfer:
+    step_1_transfer_authorization: "obtain_and_verify_transfer_authorization"
+    step_2_recipient_verification: "verify_recipient_identity_and_authority"
+    step_3_pre_transfer_verification: "verify_evidence_packaging_and_integrity_hash"
+    step_4_transfer_documentation: "document_transfer_with_time_witness_recipient"
+    step_5_post_transfer_verification: "verify_recipient_confirms_receipt_and_condition"
+    step_6_chain_record_update: "record_transfer_in_immutable_custody_chain"
+
+adaptive_cognition:
+  custody_integrity_confidence_adaptation:
+    mechanism: "custody_chain_confidence_degradation_on_gap_or_irregularity_signal"
+    triggers:
+      - custody_chain_gap_or_undocumented_period
+      - unauthorized_access_attempt_detected
+      - evidence_condition_inconsistency_detected
+      - integrity_hash_mismatch_discovered
+      - custody_authority_legitimacy_questioned
+    responses:
+      - reduce_custody_chain_confidence
+      - escalate_to_forensic_authority_for_investigation
+      - flag_evidence_for_expert_review
+      - require_chain_gap_justification_or_declare_chain_broken
+      - escalate_to_incident_response_if_tampering_suspected
+  
+  transfer_authority_skepticism_escalation:
+    mechanism: "heightened_verification_of_custody_transfers_on_irregularity_signal"
+    triggers:
+      - custody_transfer_outside_normal_procedures
+      - transfer_authority_legitimacy_uncertain
+      - transfer_documentation_incomplete_or_inconsistent
+      - unusual_transfer_timing_or_destination
+    responses:
+      - require_enhanced_authority_verification
+      - demand_additional_documentation_or_witness_confirmation
+      - escalate_to_chain_of_custody_authority
+      - halt_transfer_pending_verification
+
+policy_arbitration:
+  conflict_types:
+    operational_convenience_vs_custody_documentation:
+      scenario: "expedited_transfer_documented_retroactively"
+      resolution: "contemporaneous_documentation_mandatory_delay_transfer_if_necessary"
+      reasoning: "chain_of_custody_integrity_cannot_be_compromised_for_convenience"
+    
+    investigation_urgency_vs_custody_verification:
+      scenario: "urgent_investigation_requires_immediate_evidence_access"
+      resolution: "custody_procedures_followed_with_expedited_verification_if_needed"
+      reasoning: "custody_integrity_is_prerequisite_for_investigation_validity"
+    
+    evidence_examination_vs_custody_minimization:
+      scenario: "multiple_examiners_require_access_to_same_evidence"
+      resolution: "each_examination_documented_in_custody_with_integrity_verification"
+      reasoning: "minimal_access_maintained_with_full_custody_documentation"
+    
+    evidence_destruction_vs_retention_requirement:
+      scenario: "retention_period_expired_but_litigation_may_require_preservation"
+      resolution: "formal_authorization_for_destruction_or_extended_retention_required"
+      reasoning: "destruction_or_retention_decision_must_be_explicitly_authorized"
+  
+  priority_hierarchy:
+    priority_1_custody_chain_continuity: "absolute_and_unbroken"
+    priority_2_evidence_integrity_verification: "continuous_and_mandatory"
+    priority_3_custody_transfer_authorization: "explicit_and_verified"
+    priority_4_minimal_access_enforcement: "cannot_be_violated"
+    priority_5_custody_documentation_completeness: "no_gaps_or_retroactive_documentation"
+    priority_6_custody_authority_legitimacy: "verified_per_transfer"
+    priority_7_operational_convenience: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_chain_of_custody_integrity_and_transfer_authority_uncertainty"
+    uncertainty_types:
+      type_1_custody_chain_gap_or_undocumented_period: "escalate_to_forensic_authority"
+      type_2_transfer_authority_legitimacy_unverifiable: "halt_transfer_pending_verification"
+      type_3_integrity_hash_mismatch_or_modification_suspected: "escalate_immediately"
+      type_4_custody_transfer_documentation_incomplete: "require_additional_documentation"
+      type_5_evidence_condition_inconsistency: "investigate_for_tampering_or_mishandling"
+      type_6_timing_inconsistencies_in_chain: "require_explanation_or_flag_gap"
+  
+  visibility_requirements:
+    mechanism: "mandatory_custody_chain_integrity_and_transfer_verification_articulation"
+    mandatory_output:
+      - identified_custody_chain_events_and_transfers
+      - custody_chain_continuity_status_and_gaps
+      - transfer_authority_verification_status
+      - evidence_integrity_verification_results
+      - custody_violation_or_irregularity_detection
+      - uncertainty_factors_limiting_confidence_in_custody_integrity
+
+  propagation:
+    mechanism: "uncertainty_flow_through_custody_chain"
+    rule_1: "custody_chain_gap_flows_to_evidence_admissibility_confidence"
+    rule_2: "transfer_authority_uncertainty_limits_transfer_legitimacy"
+    rule_3: "integrity_verification_failure_escalates_investigation_requirement"
+    rule_4: "tampering_indicators_compromise_entire_chain_integrity"
+  
+  escalation:
+    mechanism: "graduated_uncertainty_response"
+    level_1_minor_gap_or_irregularity: "expose_and_document_gap_require_justification"
+    level_2_moderate_custody_concern: "escalate_to_forensic_authority_investigation"
+    level_3_significant_chain_integrity_question: "flag_evidence_admissibility_at_risk"
+    level_4_confirmed_tampering_or_mishandling: "declare_chain_broken_escalate_immediately"
+
+trust_boundaries:
+  custody_chain_trust_hierarchy:
+    documented_contemporaneous_transfer: highest_trust_with_verification
+    documented_retroactive_transfer: reduced_trust_requires_investigation
+    undocumented_transfer_or_gap: untrusted_chain_integrity_compromised
+    tampering_or_unauthorized_access_detected: chain_trust_revoked
+  
+  transfer_authority_trust:
+    verified_authorized_custodian: trusted_within_scope
+    transfer_authority_legitimacy_unverifiable: untrusted_transfer_denied
+    unauthorized_custodian_or_recipient: untrusted_immediate_escalation
+  
+  evidence_integrity_trust:
+    integrity_verified_unchanged: trusted_within_custody_window
+    hash_mismatch_or_modification_detected: untrusted_tampering_assumed
+    evidence_condition_inconsistency: untrusted_mishandling_assumed
+
+runtime_behavior:
+  custody_event_documentation: contemporaneous_and_immutable_recording
+  transfer_authorization_verification: per_custody_transfer_event
+  evidence_integrity_verification: pre_and_post_transfer_baseline_verification
+  custody_chain_review_frequency: pre_investigation_and_presentation_verification
+  custody_violation_detection: continuous_chain_review_and_analysis
+  evidence_access_logging: mandatory_per_access_event
+
+runtime_degradation:
+  on_custody_chain_gap_detected:
+    evidence_status: flagged_for_admissibility_review
+    investigation_requirement: gap_must_be_explained_or_justified
+    chain_integrity_assessment: compromised_pending_investigation
+    escalation: forensic_authority_notification
+  
+  on_transfer_authority_unverifiable:
+    transfer_status: halted_pending_verification
+    recipient_verification: required_before_transfer_proceeds
+    chain_of_custody: cannot_be_updated_until_verification_complete
+    escalation: custody_authority_notification
+  
+  on_evidence_integrity_verification_failure:
+    evidence_status: flagged_for_tampering_or_mishandling
+    chain_integrity: compromised_escalate_immediately
+    investigation_requirement: tampering_investigation_initiated
+    forensic_authority_notification: critical_priority
+  
+  on_unauthorized_evidence_access:
+    access_event: flagged_as_potential_tampering
+    chain_status: integrity_questioned_requires_investigation
+    incident_escalation: immediate_security_and_forensic_authority_notification
+
+confidence_governance:
+  binary_custody_chain_assumption: prohibited
+  implicit_evidence_integrity_assumption: prohibited
+  undocumented_custody_transfer_assumption: prohibited
+  unverified_transfer_authority_assumption: prohibited
+  custody_chain_confidence: explicit_documentation_and_verification_required
+  evidence_integrity_confidence: continuous_hash_verification_required
+  hallucinated_chain_continuity_absence: prohibited
+
+traceability:
+  custody_event_lineage: preserved_per_transfer_immutable_record
+  evidence_integrity_history: timestamped_hash_verification_per_event
+  custody_transfer_audit_trail: complete_with_authority_and_witness_verification
+  custody_violation_or_gap_detection: fully_documented_with_investigation_status
+  evidence_access_log: comprehensive_per_access_event
+  chain_of_custody_review: documented_with_verification_results
+
+human_oversight:
+  custody_chain_authority: forensic_authority_verification_and_acceptance
+  transfer_authorization_authority: custody_manager_or_designated_authority
+  evidence_admissibility_determination: legal_or_prosecution_authority
+  override_capability: emergency_chain_break_with_extensive_justification
+  escalation_triggers:
+    - custody_chain_gap_or_undocumented_period
+    - transfer_authority_legitimacy_questioned
+    - evidence_integrity_verification_failure
+    - unauthorized_evidence_access_or_tampering_suspected
+    - custody_violation_or_procedure_deviation
+    - evidence_admissibility_at_risk
+  autonomous_custody_transfer_without_verification: prohibited
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_chain_reconstruction: prohibited
+  self_modifying_custody_policy: prohibited
+  automatic_chain_gap_justification: prohibited
+  uncontrolled_custody_exception_granting: prohibited
+  deterministic_custody_procedure_behavior: enforced
+  chain_of_custody_boundary_preservation: strict
+
+implementation_leakage_control:
+  custody_database_system_internals: excluded
+  evidence_storage_technology_details: excluded
+  hash_algorithm_implementation_specifics: excluded
+  witness_verification_procedures: excluded
+  remediation_or_evidence_restoration_scripts: excluded
+
+meta_governance:
+  preserve_chain_of_custody_governance_integrity: true
+  prohibit_runtime_custody_policy_drift: true
+  prohibit_adaptive_custody_procedure_relaxation: true
+  preserve_deterministic_custody_verification_behavior: true
+  maintain_unbroken_chain_requirement_throughout_evidence_lifecycle: true
+
+output_standard:
+  expose_custody_chain_events_and_transfers: required
+  expose_custody_chain_continuity_status: required
+  expose_transfer_authority_verification_results: required
+  expose_evidence_integrity_verification_status: required
+  expose_custody_violations_or_gaps_detected: required
+  expose_evidence_access_and_handling_log: required
+  expose_chain_of_custody_uncertainty_factors: required
+  separate_custody_event_from_chain_integrity_assessment: enforced
+  auditability: full
+  explainability: required_at_each_custody_event_and_transfer_decision_point

@@ -1,0 +1,42 @@
+metadata:
+  file: intermediary_guideline_alignment.yaml
+  domain: legal_operational_alignment
+  classification: governance_cognition
+  governance_tier: critical
+
+objectives:
+  - enforce_india_intermediary_guideline_compliance
+  - preserve_platform_legal_operation
+  - maintain_user_protection_obligations
+  - detect_guideline_compliance_gaps
+  - prevent_regulatory_violations
+
+adaptive_cognition:
+  compliance_adaptation:
+    mechanism: "compliance_escalation_on_violation_or_drift_signal"
+    triggers:
+      - guideline_violation_detected
+      - obligation_not_met
+      - compliance_drift_observed
+    responses:
+      - escalate_compliance_verification
+      - implement_corrective_measures
+      - strengthen_controls
+
+policy_arbitration:
+  priority_hierarchy:
+    priority_1_intermediary_guideline_compliance: "absolute_and_unconditional"
+    priority_2_user_protection: "cannot_be_compromised"
+    priority_3_operational_efficiency: "lowest_priority"
+
+workflow_cognition:
+  compliance_workflow:
+    - assess_guideline_requirements
+    - verify_compliance_status
+    - identify_gaps
+    - implement_measures
+    - monitor_compliance
+
+meta_governance:
+  preserve_intermediary_guideline_compliance_principle: true
+  prohibit_compliance_drift: true

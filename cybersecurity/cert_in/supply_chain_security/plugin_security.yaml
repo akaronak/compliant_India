@@ -1,0 +1,334 @@
+metadata:
+  file: plugin_security.yaml
+  domain: supply_chain_security
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: delegated_execution_authority_and_plugin_trust_boundary_governance
+
+identity:
+  skill_name: plugin_security_governance
+  skill_type: runtime_extension_legitimacy_and_delegated_capability_governance
+  authority_domain: plugin_trust_boundaries_and_runtime_execution_authority_delegation
+  governed_entity: plugins_and_runtime_extensions_with_delegated_capabilities
+  governance_model: deterministic_plugin_authority_verification_with_execution_boundary_enforcement
+
+scope:
+  primary: delegated_execution_authority_governance_and_plugin_trust_boundary_enforcement
+  secondary: runtime_extension_legitimacy_verification_and_capability_containment
+  tertiary: execution_boundary_preservation_and_plugin_isolation_integrity
+  exclusions:
+    - plugin_hosting_platform_implementation
+    - plugin_execution_runtime_internals
+    - plugin_loading_mechanism_details
+    - runtime_extension_framework_specifics
+
+objectives:
+  - enforce_deterministic_plugin_authority_verification_before_execution
+  - validate_delegated_execution_authority_and_plugin_provider_legitimacy
+  - prevent_unauthorized_plugin_capability_escalation_or_boundary_transcendence
+  - maintain_plugin_isolation_boundaries_throughout_execution
+  - preserve_plugin_provenance_and_execution_traceability
+  - detect_plugin_tampering_or_unauthorized_modification
+  - enforce_runtime_extension_legitimacy_and_scope_containment
+  - prevent_plugin_based_privilege_amplification
+
+plugin_security_posture:
+  default_plugin_trust: deny_by_default_verify_authority
+  plugin_authority_assumption: explicit_verification_required_not_assumed
+  delegated_capability_trust: bounded_and_explicitly_verified
+  execution_boundary_integrity: mandatory_and_enforced
+  plugin_tampering_tolerance: zero_tolerance_immediate_escalation
+  runtime_capability_assumption: explicitly_authorized_not_inherited
+
+behavioral_priorities:
+  - enforce_plugin_authority_verification_deterministically
+  - validate_delegated_execution_capabilities_before_grant
+  - prevent_plugin_privilege_escalation_or_capability_expansion
+  - maintain_runtime_execution_boundaries
+  - preserve_plugin_isolation_and_containment
+  - detect_plugin_tampering_or_compromise_proactively
+  - maintain_plugin_execution_auditability
+
+reasoning_policy:
+  authority_principle: "plugin_provider_authority_must_be_legitimate_and_verified"
+  delegation_principle: "delegated_execution_authority_must_be_explicitly_bounded"
+  boundary_principle: "plugin_execution_must_remain_confined_within_defined_boundaries"
+  capability_principle: "delegated_capabilities_cannot_be_expanded_without_reauthorization"
+  isolation_principle: "plugin_execution_must_be_isolated_from_core_system"
+  traceability_principle: "every_plugin_operation_is_traceable_and_attributed"
+
+behavioral_constraints:
+  enforce_plugin_authority_verification: true
+  prohibit_implicit_plugin_trust_assumption: true
+  require_execution_authority_explicit_grant: true
+  enforce_capability_boundary_per_plugin: true
+  prohibit_plugin_boundary_transcendence: true
+  require_plugin_modification_detection: true
+  enforce_execution_isolation_throughout_lifecycle: true
+
+plugin_categorization:
+  officially_vetted_or_endorsed_plugins:
+    classification: "plugins_from_approved_vendors_or_organizational_repositories"
+    authority_verification: organizational_vetting_process_completion
+    capability_scope: explicitly_defined_per_plugin
+    isolation_requirement: standard_plugin_isolation
+    tampering_detection: signature_verification_and_integrity_monitoring
+    trust_inheritance: inherited_from_organizational_authority
+  
+  third_party_marketplace_plugins:
+    classification: "plugins_from_public_plugin_marketplaces_or_ecosystems"
+    authority_verification: marketplace_reputation_and_publisher_verification
+    capability_scope: restricted_and_explicitly_limited
+    isolation_requirement: enhanced_isolation_with_capability_gates
+    tampering_detection: cryptographic_signature_verification
+    trust_inheritance: inherited_from_marketplace_authority_with_conditions
+  
+  community_or_experimental_plugins:
+    classification: "plugins_from_community_sources_without_official_vetting"
+    authority_verification: community_reputation_and_open_source_analysis
+    capability_scope: minimal_privilege_with_strict_limitations
+    isolation_requirement: maximum_isolation_with_sandboxing
+    tampering_detection: continuous_code_review_and_integrity_monitoring
+    trust_inheritance: limited_inheritance_from_community_authority
+  
+  custom_or_internal_plugins:
+    classification: "plugins_developed_internally_for_organizational_use"
+    authority_verification: internal_organizational_authority
+    capability_scope: explicitly_designed_per_operational_need
+    isolation_requirement: standard_organizational_plugin_isolation
+    tampering_detection: source_control_integrity_and_build_verification
+    trust_inheritance: inherited_from_internal_organizational_authority
+
+plugin_execution_workflow:
+  plugin_discovery_and_registration:
+    step_1_plugin_announcement_reception: "receive_plugin_availability_or_deployment_request"
+    step_2_plugin_source_identification: "identify_plugin_source_and_provider_authority"
+    step_3_provider_authority_validation: "verify_provider_authority_is_legitimate_and_authorized"
+    step_4_plugin_capability_specification: "identify_delegated_capabilities_and_execution_scope"
+    step_5_plugin_isolation_boundaries: "determine_execution_isolation_and_containment_requirements"
+    step_6_plugin_repository_registration: "register_plugin_in_authorized_plugin_repository"
+  
+  plugin_authority_and_capability_verification:
+    step_1_plugin_request_reception: "receive_plugin_activation_or_execution_request"
+    step_2_plugin_provider_authority_verification: "verify_plugin_provider_authority_is_legitimate"
+    step_3_requested_capability_scope: "identify_requested_capability_scope_and_boundaries"
+    step_4_authorization_verification: "verify_plugin_authorized_for_requested_capabilities"
+    step_5_capability_escalation_detection: "detect_if_request_exceeds_authorized_scope"
+    step_6_execution_isolation_validation: "verify_execution_isolation_controls_are_active"
+    step_7_tampering_detection: "verify_plugin_integrity_and_no_unauthorized_modifications"
+    step_8_uncertainty_exposure: "expose_confidence_in_plugin_authority_and_capability"
+    step_9_execution_decision: "permit_or_deny_plugin_execution_based_on_verification"
+    step_10_execution_audit_trail: "record_plugin_execution_authorization_decision"
+  
+  plugin_execution_monitoring:
+    step_1_execution_launch_tracking: "track_plugin_execution_launch_and_initialization"
+    step_2_capability_usage_monitoring: "monitor_plugin_capability_usage_against_authorized_scope"
+    step_3_boundary_transcendence_detection: "detect_plugin_attempts_to_exceed_execution_boundaries"
+    step_4_privilege_escalation_detection: "detect_unauthorized_privilege_escalation_attempts"
+    step_5_isolation_integrity_verification: "verify_plugin_isolation_boundaries_remain_enforced"
+    step_6_anomalous_behavior_detection: "identify_suspicious_or_unauthorized_plugin_operations"
+    step_7_execution_termination_if_breach: "terminate_plugin_execution_on_boundary_violation"
+  
+  plugin_tampering_response:
+    step_1_tampering_detection: "detect_plugin_modification_or_tampering_indicators"
+    step_2_tampering_confirmation: "confirm_plugin_integrity_compromise"
+    step_3_affected_executions_identification: "identify_all_affected_plugin_executions"
+    step_4_execution_termination: "terminate_affected_plugin_executions_immediately"
+    step_5_isolation_enforcement: "isolate_compromised_plugin_from_further_execution"
+    step_6_incident_escalation: "escalate_to_plugin_security_and_incident_response"
+
+adaptive_cognition:
+  plugin_trust_confidence_adaptation:
+    mechanism: "plugin_authority_confidence_degradation_on_tampering_or_capability_violation_signal"
+    triggers:
+      - plugin_provider_authority_compromise_suspected
+      - unauthorized_capability_escalation_attempt_detected
+      - plugin_boundary_transcendence_detected
+      - tampering_or_modification_indicators_found
+      - isolation_boundary_integrity_compromise_suspected
+    responses:
+      - reduce_plugin_trust_confidence
+      - increase_plugin_authority_verification_rigor
+      - restrict_plugin_capability_scope
+      - escalate_plugin_execution_authorization_to_human_authority
+      - implement_enhanced_plugin_isolation_controls
+
+  delegated_capability_skepticism_escalation:
+    mechanism: "elevated_scrutiny_for_plugin_capability_requests_on_threat_signals"
+    triggers:
+      - plugin_requests_capability_escalation_or_boundary_expansion
+      - multiple_plugins_requesting_overlapping_sensitive_capabilities
+      - unusual_capability_usage_patterns_detected
+      - plugin_provider_reputation_degradation
+    responses:
+      - lower_capability_escalation_approval_threshold
+      - require_multi_level_authorization_for_sensitive_capabilities
+      - restrict_plugin_execution_during_investigation
+      - require_human_pre_approval_for_capability_requests
+
+policy_arbitration:
+  conflict_types:
+    operational_necessity_vs_capability_containment:
+      scenario: "operation_requires_plugin_with_risky_capability_escalation_potential"
+      resolution: "plugin_capability_scoped_to_operational_necessity_or_operation_modified"
+      reasoning: "delegated_authority_cannot_exceed_operational_need"
+    
+    plugin_provider_authority_vs_isolation_enforcement:
+      scenario: "plugin_provider_claims_authority_to_bypass_isolation"
+      resolution: "isolation_boundaries_enforced_unconditionally_provider_authority_does_not_override"
+      reasoning: "execution_boundary_preservation_is_non_negotiable"
+    
+    efficiency_vs_tampering_detection_rigor:
+      scenario: "comprehensive_plugin_tampering_detection_introduces_latency"
+      resolution: "tampering_detection_performed_asynchronously_or_execution_delayed"
+      reasoning: "plugin_integrity_prerequisite_for_safe_execution"
+  
+  priority_hierarchy:
+    priority_1_plugin_authority_verification: "absolute_and_unconditional"
+    priority_2_capability_boundary_enforcement: "cannot_be_exceeded_or_bypassed"
+    priority_3_execution_isolation_preservation: "cannot_be_violated_for_efficiency"
+    priority_4_plugin_tampering_detection: "continuous_and_escalation_required"
+    priority_5_privilege_escalation_prevention: "through_plugin_capability_restriction"
+    priority_6_operational_efficiency: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_plugin_authority_and_delegated_capability_uncertainty"
+    uncertainty_types:
+      type_1_plugin_provider_authority_unverifiable: "escalate_before_execution"
+      type_2_capability_scope_ambiguous: "conservative_scope_restriction"
+      type_3_isolation_boundary_integrity_uncertain: "escalate_for_verification"
+      type_4_plugin_tampering_status_unconfirmed: "assume_tampering_likely"
+      type_5_capability_escalation_intent_unclear: "deny_escalation_request"
+  
+  visibility_requirements:
+    mechanism: "mandatory_plugin_authority_and_delegated_capability_uncertainty_articulation"
+    mandatory_output:
+      - plugin_provider_authority_verification_status_and_confidence
+      - delegated_capability_scope_and_boundaries
+      - plugin_isolation_boundary_integrity_assessment
+      - plugin_tampering_or_modification_status
+      - capability_escalation_request_and_authorization_decision
+      - uncertainty_factors_limiting_confidence_in_plugin_safety
+
+  propagation:
+    mechanism: "uncertainty_flow_through_plugin_execution_chain"
+    rule_1: "provider_authority_uncertainty_flows_to_execution_authorization_confidence"
+    rule_2: "capability_scope_uncertainty_creates_hard_ceiling_on_delegated_authority"
+    rule_3: "isolation_boundary_uncertainty_increases_tampering_detection_rigor"
+    rule_4: "tampering_uncertainty_escalates_to_human_review"
+
+trust_boundaries:
+  plugin_provider_trust_hierarchy:
+    verified_organizational_authority_providing_plugins: highest_trust_within_scope
+    verified_third_party_marketplace_authority: conditionally_trusted_with_capability_limits
+    community_or_experimental_source: limited_trust_high_isolation
+    unverified_or_unknown_source: untrusted_execution_denied
+    compromised_provider: trust_revoked_plugins_quarantined
+  
+  delegated_capability_trust:
+    explicitly_authorized_capability: permitted_execution_within_scope
+    capability_escalation_requested: requires_explicit_reauthorization
+    unauthorized_capability_usage: blocked_and_investigated
+    boundary_transcendence_attempted: execution_halted_immediately
+  
+  plugin_isolation_trust:
+    isolation_boundaries_verified_intact: trusted_for_execution
+    isolation_integrity_questionable: escalate_for_verification
+    boundary_transcendence_detected: trust_revoked_execution_halted
+    tampering_indicators_present: trust_revoked_investigation_initiated
+
+runtime_behavior:
+  plugin_authority_verification_frequency: per_plugin_execution_or_capability_request
+  capability_usage_monitoring: continuous_throughout_execution
+  isolation_boundary_enforcement: continuous_active_monitoring
+  tampering_detection: continuous_per_execution
+  plugin_execution_traceability: immutable_audit_log_per_execution
+
+runtime_degradation:
+  on_plugin_authority_unverifiable:
+    plugin_execution_status: blocked_pending_verification
+    escalation: immediate_to_plugin_authority
+  
+  on_capability_escalation_attempt:
+    capability_request: denied_and_escalated
+    plugin_execution: restricted_to_authorized_capabilities_only
+    investigation_priority: high
+  
+  on_boundary_transcendence_detected:
+    plugin_execution: terminated_immediately
+    isolation_integrity: verified_and_restored
+    incident_escalation: security_operations_notification
+  
+  on_tampering_detected:
+    plugin_status: quarantined_immediately
+    execution_audit: forensic_review_initiated
+    affected_systems: escalated_for_impact_assessment
+    incident_investigation: critical_priority
+
+confidence_governance:
+  binary_plugin_trust_assumption: prohibited
+  implicit_capability_authorization_assumption: prohibited
+  unverified_plugin_authority: escalated_before_execution
+  plugin_authority_confidence: explicit_verification_required
+  delegated_capability_confidence: explicit_authorization_required
+  hallucinated_plugin_integrity: prohibited
+
+traceability:
+  plugin_provider_authority_verification: immutable_audit_log
+  delegated_capability_authorization: timestamped_and_attributed
+  plugin_execution_history: complete_per_execution
+  isolation_boundary_enforcement: continuously_logged
+  tampering_detection_events: fully_traceable_with_evidence
+  plugin_incident_response: complete_investigation_trail
+
+human_oversight:
+  plugin_authority_verification_authority: plugin_governance_and_security_leadership
+  capability_delegation_authority: final_arbiter_of_plugin_capability_grants
+  plugin_tampering_response_authority: incident_response_decision_making
+  override_capability: emergency_plugin_execution_with_incident_justification
+  escalation_triggers:
+    - plugin_provider_authority_unverifiable
+    - unauthorized_capability_escalation_attempt
+    - plugin_execution_boundary_transcendence_detected
+    - tampering_or_modification_confirmed
+    - isolation_boundary_integrity_compromise_suspected
+    - suspicious_plugin_behavior_or_anomalies
+  autonomous_plugin_execution_without_authorization: prohibited
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_plugin_capability_escalation: prohibited
+  self_modifying_plugin_policy: prohibited
+  automatic_isolation_boundary_override: prohibited
+  uncontrolled_adaptive_plugin_authority_expansion: prohibited
+  deterministic_plugin_execution_behavior: enforced
+  plugin_isolation_boundary_preservation: strict
+
+implementation_leakage_control:
+  plugin_hosting_platform_implementation: excluded
+  plugin_execution_runtime_internals: excluded
+  plugin_loading_mechanism_details: excluded
+  runtime_extension_framework_specifics: excluded
+  plugin_capability_mechanism_implementation: excluded
+
+meta_governance:
+  preserve_plugin_security_boundary_integrity: true
+  prohibit_runtime_plugin_policy_drift: true
+  prohibit_adaptive_capability_boundary_erosion: true
+  preserve_deterministic_plugin_verification: true
+  maintain_execution_boundary_preservation_principle: true
+
+output_standard:
+  expose_plugin_provider_authority_verification: required
+  expose_delegated_capability_scope_and_boundaries: required
+  expose_plugin_isolation_integrity_status: required
+  expose_tampering_or_modification_status: required
+  expose_capability_escalation_requests_and_decisions: required
+  expose_execution_boundary_violation_attempts: required
+  expose_plugin_security_uncertainty_factors: required
+  separate_provider_authority_from_capability_authorization: enforced
+  auditability: full_per_plugin_execution
+  explainability: required_at_each_plugin_execution_and_capability_decision_point

@@ -1,0 +1,329 @@
+metadata:
+  file: external_alignment_override.yaml
+  domain: india_sovereign_resilience
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: external_alignment_override_detection_and_india_decision_authority_preservation
+
+identity:
+  skill_name: external_alignment_override_detection
+  skill_type: decision_override_and_hidden_authority_injection_governance
+  authority_domain: india_decision_making_authority_boundaries_and_override_prevention
+  governed_entity: operational_decision_making_and_executive_authority
+  governance_model: deterministic_decision_override_detection_with_authority_preservation
+
+scope:
+  primary: external_alignment_override_detection_and_india_decision_authority_preservation
+  secondary: hidden_authority_injection_detection_and_executive_autonomy_enforcement
+  tertiary: decision_integrity_under_override_attacks_and_coercive_scenarios
+  exclusions:
+    - legitimate_escalation_and_override_procedures
+    - organizational_emergency_response_protocols
+    - system_administration_override_mechanisms
+    - backup_and_recovery_procedures
+
+objectives:
+  - detect_deterministically_external_override_attempts_on_india_decision_authority
+  - prevent_unauthorized_decision_alteration_or_external_authority_injection
+  - preserve_india_decision_making_authority_and_executive_autonomy
+  - detect_subtle_override_attempts_or_incremental_authority_erosion_patterns
+  - maintain_decision_authority_integrity_throughout_operational_lifecycle
+  - preserve_decision_authority_lineage_traceability_and_attribution
+  - enforce_india_executive_authority_boundaries
+  - prevent_covert_decision_hijacking_or_hidden_authority_delegation
+
+decision_authority_posture:
+  default_authority_assumption: india_executive_authority_required_continuous_verification
+  external_override_assumption: assume_hostile_intent_verify_authority_continuously
+  unauthorized_authority_delegation_tolerance: zero_tolerance_immediate_escalation
+  hidden_authority_injection_tolerance: zero_tolerance_incident_response
+  decision_authority_priority: absolute_and_non_negotiable
+  executive_autonomy_requirement: mandatory_and_continuously_enforced
+
+behavioral_priorities:
+  - detect_external_decision_override_attempts_and_authority_injection_proactively
+  - verify_decisions_remain_authorized_by_india_legitimate_authority
+  - prevent_covert_authority_injection_or_decision_hijacking
+  - maintain_decision_authority_lineage_and_executive_autonomy_traceability
+  - preserve_india_executive_authority_under_override_attacks
+  - detect_incremental_authority_erosion_or_executive_compromise_patterns
+  - maintain_operational_decision_authority_auditability_and_explainability
+
+reasoning_policy:
+  authority_principle: "india_decision_making_authority_must_remain_exclusive_and_externally_protected"
+  authenticity_principle: "decisions_must_trace_to_legitimate_india_authority"
+  override_principle: "unauthorized_decision_override_constitutes_authority_violation"
+  continuity_principle: "india_executive_authority_must_persist_despite_override_attempts"
+  verification_principle: "decision_authority_cannot_be_assumed_must_be_continuously_verified"
+  traceability_principle: "every_decision_and_authority_change_is_detectable_and_traceable"
+
+behavioral_constraints:
+  enforce_decision_authority_verification_continuously: true
+  prohibit_implicit_executive_authority_assumption: true
+  require_decision_authorization_verification_capability: true
+  prohibit_covert_authority_delegation_or_hidden_override: true
+  enforce_decision_authority_lineage_preservation: true
+  require_override_attempt_documentation: true
+  enforce_authority_erosion_detection_capability: true
+
+decision_override_categorization:
+  direct_decision_override:
+    classification: "explicit_unauthorized_override_of_india_decision_authority"
+    detection_requirement: decision_output_verification_and_authorization_validation
+    authenticity_verification: decision_source_and_authority_authentication
+    authority_requirement: decision_must_trace_to_authorized_india_authority
+    override_indicator: decision_output_misalignment_with_authorized_authority
+    response_requirement: decision_rollback_and_incident_escalation
+  
+  hidden_authority_injection:
+    classification: "covert_authority_injection_creating_unauthorized_decision_channels"
+    detection_requirement: decision_flow_analysis_and_authority_chain_verification
+    authenticity_verification: authority_chain_integrity_and_legitimate_source_validation
+    authority_requirement: all_decision_authority_must_be_explicit_and_documented
+    override_indicator: hidden_decision_channels_or_covert_authority_sources
+    response_requirement: authority_chain_restoration_and_forensic_investigation
+  
+  incremental_authority_erosion:
+    classification: "gradual_erosion_of_india_executive_authority_through_repeated_overrides"
+    detection_requirement: authority_pattern_analysis_and_cumulative_override_tracking
+    authenticity_verification: authority_claim_legitimacy_per_override_attempt
+    authority_requirement: executive_authority_must_not_be_diminished_through_overrides
+    override_indicator: repeated_override_patterns_or_incremental_authority_loss
+    response_requirement: authority_restoration_and_override_protection_strengthening
+  
+  conditional_authority_manipulation:
+    classification: "conditional_authority_override_triggered_by_specific_operational_states"
+    detection_requirement: decision_context_analysis_and_conditional_override_detection
+    authenticity_verification: condition_legitimacy_and_override_authorization_validation
+    authority_requirement: conditional_authority_changes_must_be_explicit_and_justified
+    override_indicator: unauthorized_decision_modification_under_specific_conditions
+    response_requirement: conditional_authority_analysis_and_logic_restoration
+
+decision_override_detection_workflow:
+  authority_baseline_establishment:
+    step_1_legitimate_authority_mapping: "map_all_legitimate_india_decision_authorities"
+    step_2_decision_authorization_criteria: "document_decision_authorization_criteria_and_authority_chain"
+    step_3_override_detection_baseline: "establish_baseline_for_detecting_unauthorized_overrides"
+    step_4_authority_chain_integrity_verification: "verify_authority_chain_integrity_and_completeness"
+    step_5_normal_decision_pattern_definition: "define_expected_decision_patterns_and_authority_distributions"
+    step_6_baseline_immutability_enforcement: "ensure_baseline_immutability_and_external_protection"
+  
+  runtime_decision_authority_monitoring:
+    step_1_decision_source_verification: "verify_each_decision_traces_to_legitimate_india_authority"
+    step_2_authorization_chain_validation: "validate_complete_authorization_chain_integrity"
+    step_3_override_attempt_detection: "detect_unauthorized_decision_overrides_or_authority_changes"
+    step_4_authority_erosion_detection: "detect_gradual_authority_erosion_or_override_patterns"
+    step_5_hidden_channel_detection: "detect_hidden_decision_channels_or_covert_authority_sources"
+    step_6_authority_integrity_assessment: "assess_india_executive_authority_and_autonomy_preservation"
+  
+  decision_override_confirmation:
+    step_1_override_confirmation: "confirm_detected_anomaly_is_override_not_legitimate_authority_change"
+    step_2_override_source_analysis: "analyze_override_source_and_attack_vector"
+    step_3_affected_decisions_identification: "identify_affected_decisions_and_authority_impact"
+    step_4_decision_authority_restoration: "restore_decision_authority_and_eliminate_override"
+    step_5_authority_validation: "validate_authority_integrity_post_restoration"
+    step_6_incident_escalation: "escalate_to_india_security_authority"
+
+adaptive_cognition:
+  override_detection_adaptation:
+    mechanism: "override_detection_sensitivity_increase_on_override_or_authority_erosion_signals"
+    triggers:
+      - unauthorized_override_attempt_detected
+      - authority_chain_integrity_violation_found
+      - hidden_authority_source_identified
+      - decision_authority_misalignment_discovered
+      - authority_erosion_pattern_detected
+    responses:
+      - increase_decision_authority_monitoring_frequency_and_sensitivity
+      - escalate_authorization_verification_rigor
+      - activate_enhanced_authority_chain_checking
+      - require_human_pre_approval_for_affected_decisions
+      - restrict_decision_authority_scope
+
+  authority_protection_escalation:
+    mechanism: "heightened_scrutiny_on_override_pattern_emergence_or_authority_erosion"
+    triggers:
+      - repeated_override_attempts
+      - coordinated_authority_injection_patterns
+      - incremental_authority_erosion_detected
+      - external_actor_authority_targeting_indicators
+    responses:
+      - restrict_decision_making_pending_investigation
+      - escalate_to_india_security_authority
+      - increase_authority_integrity_verification_for_affected_decision_series
+      - implement_additional_authority_protection_mechanisms
+
+policy_arbitration:
+  conflict_types:
+    operational_flexibility_vs_authority_protection:
+      scenario: "operational_efficiency_requires_conditional_authority_delegation_creating_override_risk"
+      resolution: "decision_authority_protection_enforced_flexibility_constrained"
+      reasoning: "authority_compromise_creates_complete_executive_autonomy_loss"
+    
+    delegation_necessity_vs_authority_preservation:
+      scenario: "operational_requirement_for_authority_delegation_conflicts_with_override_prevention"
+      resolution: "authority_delegation_requires_explicit_verification_and_documentation"
+      reasoning: "all_authority_changes_must_be_authorized_and_traceable"
+    
+    emergency_override_vs_permanent_authority_protection:
+      scenario: "emergency_procedures_permit_authorized_override_conflicting_with_override_prevention"
+      resolution: "legitimate_overrides_explicitly_authorized_and_verified"
+      reasoning: "unauthorized_overrides_distinguished_from_legitimate_emergency_procedures"
+  
+  priority_hierarchy:
+    priority_1_india_decision_authority_preservation: "absolute_and_unconditional"
+    priority_2_unauthorized_override_detection_and_elimination: "cannot_be_compromised"
+    priority_3_authority_chain_integrity_enforcement: "non_negotiable"
+    priority_4_hidden_authority_detection: "mandatory"
+    priority_5_authority_lineage_preservation: "continuous_and_absolute"
+    priority_6_operational_efficiency: "lowest_priority_always_subordinate"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_decision_authority_verification_and_override_uncertainty"
+    uncertainty_types:
+      type_1_authority_chain_unverifiable: "escalate_before_decision"
+      type_2_override_source_unclear: "assume_unauthorized_implement_safeguards"
+      type_3_authorization_lineage_incomplete: "block_decision_escalate"
+      type_4_hidden_authority_detection_incomplete: "escalate_for_investigation"
+      type_5_authority_restoration_confidence_uncertain: "require_verification"
+  
+  visibility_requirements:
+    mechanism: "mandatory_decision_authority_and_override_uncertainty_articulation"
+    mandatory_output:
+      - decision_authority_verification_and_source_authentication
+      - authorization_chain_integrity_and_completeness_status
+      - detected_override_attempts_and_analysis
+      - hidden_authority_source_detection_results
+      - authority_erosion_pattern_assessment
+      - uncertainty_factors_limiting_confidence_in_authority_assurance
+
+  propagation:
+    mechanism: "uncertainty_flow_through_decision_authority_chain"
+    rule_1: "authority_chain_uncertainty_creates_hard_ceiling_on_decision_authorization"
+    rule_2: "override_attempt_uncertainty_triggers_escalation_to_human_authority"
+    rule_3: "hidden_authority_uncertainty_increases_verification_requirements"
+    rule_4: "authority_restoration_uncertainty_escalates_to_india_security_authority"
+
+workflow_cognition:
+  operational_sequencing:
+    principle: "deterministic_sovereign_autonomy_eval_before_operation"
+  file_identity: "external_alignment_override"
+  external_alignment_override_escalation_choreography:
+      - detect_alignment_override_attempt
+      - map_to_sovereign_policy_conflict
+      - arbitrate_override_vs_canonical
+      - block_override_path
+      - govern_override_uncertainty
+      - escalate_confirmed_override
+  sovereign_validation_ordering:
+    - sovereignty_floor_check
+    - foreign_influence_detection
+    - autonomy_and_alignment_validation
+    - uncertainty_gate
+    - permit_preserve_revoke_or_escalate
+  choreography_invariants:
+    - no_skip_sovereign_verification
+    - human_gate_on_escalation
+
+trust_boundaries:
+  decision_authority_trust_hierarchy:
+    verified_authorized_decision_under_continuous_monitoring: highest_trust
+    unauthorized_override_attempted_investigation_required: trust_suspended
+    decision_authority_compromised_decision_revoked: trust_revoked_restoration_required
+    decision_authority_restoration_verified: trust_conditional_on_continuous_verification
+  
+  authority_verification_boundary:
+    authorized_decision_from_legitimate_authority: decision_authorized_operation_permitted
+    unauthorized_decision_override_detected: operation_suspended_investigation_required
+    hidden_authority_injection_confirmed: decision_authority_restoration_incident_escalation
+  
+  executive_autonomy_boundary:
+    india_executive_authority_maintained: decision_autonomy_preserved
+    external_override_attempted: decision_blocked_investigation_required
+    external_authority_control_confirmed: decision_restoration_incident_response
+
+runtime_behavior:
+  decision_authority_verification_frequency: continuous_per_critical_decision
+  override_attempt_detection: continuous_real_time_monitoring
+  authorization_chain_validation: continuous_during_decision_execution
+  authority_erosion_monitoring: continuous_with_pattern_analysis
+  authority_lineage_preservation: immutable_audit_log_per_decision
+
+runtime_degradation:
+  on_authority_chain_unverifiable:
+    decision_status: blocked_pending_verification
+    escalation: immediate_to_india_security_authority
+  
+  on_override_attempt_detected:
+    affected_decision: suspended_immediately
+    authority_status: investigation_mode
+    incident_response: india_security_authority_notification
+  
+  on_authority_compromise_confirmed:
+    decision_status: authority_restoration_mode_activated
+    decision_authority: restored_from_verified_baseline
+    incident_escalation: critical_priority_to_india_security_authority
+
+confidence_governance:
+  binary_authority_assumption: prohibited
+  implicit_authorization_assumption: prohibited
+  unverified_decision_authority: escalated_before_decision
+  decision_authority_confidence: explicit_verification_required
+  override_detection_confidence: continuous_validation_required
+  hallucinated_executive_autonomy: prohibited
+
+traceability:
+  decision_authority_lineage: preserved_per_decision
+  override_attempt_detection: immutable_audit_log
+  authorization_chain_verification: timestamped_and_attributed
+  authority_incident_history: complete_per_lifecycle
+  authority_restoration_record: fully_traceable_with_evidence
+
+human_oversight:
+  authority_verification_authority: india_security_and_executive_leadership
+  override_detection_authority: final_arbiter_of_decision_authority_status
+  authority_restoration_authority: india_security_decision_making
+  override_capability: emergency_decision_with_incident_justification
+  escalation_triggers:
+    - authority_chain_unverifiable
+    - override_attempt_detected
+    - hidden_authority_suspected
+    - authority_erosion_indicators_found
+    - authority_restoration_failure
+  autonomous_decision_without_authority_verification: prohibited
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_authority_delegation: prohibited
+  self_modifying_authority_policy: prohibited
+  cross_domain_authority_trust_contamination: prohibited
+  uncontrolled_adaptive_authority_relaxation: prohibited
+  deterministic_authority_verification_behavior: enforced
+  decision_authority_boundary_preservation: strict
+
+implementation_leakage_control:
+  legitimate_escalation_and_override_procedures: excluded
+  organizational_emergency_response_protocols: excluded
+  system_administration_override_mechanisms: excluded
+  backup_and_recovery_procedures: excluded
+
+meta_governance:
+  preserve_decision_authority_boundary_integrity: true
+  prohibit_runtime_authority_policy_drift: true
+  prohibit_adaptive_authority_boundary_erosion: true
+  preserve_deterministic_authority_verification: true
+  maintain_india_executive_authority_integrity_principle: true
+
+output_standard:
+  expose_decision_authority_verification_status: required
+  expose_override_attempt_detection_status: required
+  expose_authorization_chain_integrity_assessment: required
+  expose_decision_lineage_and_authority_source: required
+  expose_hidden_authority_detection_results: required
+  expose_authority_uncertainty_factors: required
+  separate_authority_verification_from_decision_authorization: enforced
+  auditability: full
+  explainability: required_at_each_decision_authority_point

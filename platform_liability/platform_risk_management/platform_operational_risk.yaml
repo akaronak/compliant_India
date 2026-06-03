@@ -1,0 +1,63 @@
+metadata:
+  file: platform_operational_risk.yaml
+  domain: platform_risk_management
+  classification: governance_cognition
+  governance_tier: critical
+
+identity:
+  skill_name: platform_operational_risk_governance
+  skill_type: platform_operational_risk_and_failure_prevention_governance
+  authority_domain: platform_risk_boundaries
+  governed_entity: platform_operations_and_risk_scenarios
+
+scope:
+  primary: platform_operational_risk_assessment_and_management
+  secondary: risk_escalation_and_mitigation_strategies
+  tertiary: platform_continuity_and_failure_prevention
+
+objectives:
+  - enforce_deterministic_platform_operational_risk_assessment
+  - preserve_risk_visibility_and_transparency
+  - maintain_proactive_risk_mitigation_capabilities
+  - detect_emerging_risks_or_unmanaged_risk_gaps
+  - prevent_platform_failure_through_risk_management
+
+adaptive_cognition:
+  risk_adaptation:
+    mechanism: "risk_escalation_on_emerging_threat_or_failure_signal"
+    triggers:
+      - platform_operational_risk_increasing
+      - mitigation_failure_detected
+      - risk_scenario_materializing
+    responses:
+      - escalate_risk_assessment_rigor
+      - implement_additional_mitigations
+      - increase_monitoring_intensity
+
+policy_arbitration:
+  priority_hierarchy:
+    priority_1_platform_continuity: "absolute_and_unconditional"
+    priority_2_risk_mitigation: "cannot_be_compromised"
+    priority_3_operational_efficiency: "lowest_priority"
+
+uncertainty_governance:
+  uncertainty_types:
+    - risk_probability_uncertain
+    - impact_severity_unclear
+  visibility_requirements:
+    - expose_platform_risk_status
+    - expose_mitigation_adequacy
+    - expose_risk_uncertainty_factors
+
+workflow_cognition:
+  risk_management_workflow:
+    - identify_platform_operational_risks
+    - assess_risk_probability_and_impact
+    - determine_mitigation_strategies
+    - implement_risk_controls
+    - monitor_risk_landscape_continuously
+
+meta_governance:
+  preserve_platform_resilience_principle: true
+  prohibit_risk_management_drift: true
+  maintain_operational_continuity_principle: true

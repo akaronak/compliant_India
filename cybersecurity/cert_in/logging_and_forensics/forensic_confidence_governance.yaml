@@ -1,0 +1,374 @@
+metadata:
+  file: forensic_confidence_governance.yaml
+  domain: logging_and_forensics
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: forensic_analysis_confidence_and_evidence_admissibility_governance
+
+identity:
+  skill_name: forensic_confidence_governance
+  skill_type: forensic_evidence_assessment_and_conclusion_confidence_governance
+  authority_domain: forensic_analysis_confidence_and_evidentiary_conclusion_legitimacy
+  governed_entity: forensic_analysis_conclusions_and_evidentiary_assessments
+  governance_model: deterministic_forensic_confidence_assessment_with_explicit_uncertainty_articulation
+
+scope:
+  primary: forensic_analysis_confidence_assessment_and_uncertainty_governance
+  secondary: evidentiary_conclusion_legitimacy_verification_and_confidence_grading
+  tertiary: forensic_finding_admissibility_and_expert_credibility_governance
+  exclusions:
+    - specific_forensic_analysis_techniques
+    - forensic_tool_implementation_details
+    - laboratory_testing_methodology_specifics
+    - legal_admissibility_criteria_definition
+
+objectives:
+  - enforce_explicit_forensic_confidence_articulation_on_all_conclusions
+  - prevent_binary_certainty_assumptions_in_forensic_findings
+  - maintain_distinction_between_observation_and_inference_in_analysis
+  - grade_forensic_findings_by_confidence_and_evidence_quality
+  - identify_analysis_gaps_or_limitations_explicitly
+  - detect_unsupported_or_overconfident_forensic_conclusions
+  - preserve_admissibility_through_confidence_grading
+  - enforce_expert_qualification_verification_and_methodological_rigor
+
+forensic_confidence_posture:
+  default_conclusion_confidence_assumption: explicit_grading_required_not_assumed
+  forensic_finding_certainty_tolerance: prohibited_binary_assessment
+  analysis_limitation_assumption: must_be_explicitly_identified_and_documented
+  evidence_inference_boundary: clearly_distinguished_and_preserved
+  expert_qualification_trust: verified_and_documented
+  methodology_rigor_requirement: standards_compliant_and_documented
+
+behavioral_priorities:
+  - enforce_explicit_forensic_confidence_grading
+  - prevent_binary_certainty_or_overconfidence
+  - maintain_observation_inference_distinction
+  - identify_analysis_gaps_and_limitations
+  - verify_expert_qualification_and_methodology
+  - assess_evidentiary_support_for_conclusions
+  - preserve_forensic_finding_admissibility
+
+reasoning_policy:
+  confidence_principle: "all_forensic_conclusions_must_be_graded_with_explicit_confidence_levels"
+  limitation_principle: "analysis_gaps_limitations_and_uncertainties_must_be_explicitly_identified"
+  distinction_principle: "observations_must_be_clearly_separated_from_inferences_and_opinions"
+  qualification_principle: "forensic_expert_qualifications_and_methodology_must_be_verified"
+  support_principle: "forensic_conclusions_must_be_evidentially_supported_and_documented"
+  admissibility_principle: "forensic_findings_must_be_presented_with_confidence_qualification"
+
+behavioral_constraints:
+  enforce_confidence_grading_on_all_findings: true
+  prohibit_binary_certainty_statements: true
+  require_explicit_uncertainty_articulation: true
+  require_observation_inference_separation: true
+  require_expert_qualification_documentation: true
+  require_methodology_standards_compliance: true
+  require_evidence_support_documentation: true
+  enforce_confidence_limitation_communication: true
+
+forensic_confidence_grading:
+  high_confidence_finding:
+    criteria:
+      - finding_based_on_direct_observation_or_clear_evidence
+      - multiple_independent_sources_corroborate_finding
+      - no_reasonable_alternative_explanation
+      - methodology_standards_compliant_and_rigorous
+      - expert_qualification_appropriate_for_analysis_type
+      - analysis_limitations_minimal_and_identified
+    confidence_grade: "high_confidence"
+    admissibility_assessment: "suitable_for_expert_testimony_with_appropriate_qualification"
+    communication: "finding_strongly_supported_by_evidence_with_minimal_residual_uncertainty"
+  
+  moderate_confidence_finding:
+    criteria:
+      - finding_based_on_evidence_with_some_inference
+      - some_alternative_explanations_possible_but_less_likely
+      - methodology_generally_sound_with_some_limitations
+      - expert_qualification_adequate_for_finding_type
+      - analysis_limitations_identified_and_documented
+      - residual_uncertainty_explicitly_acknowledged
+    confidence_grade: "moderate_confidence"
+    admissibility_assessment: "admissible_with_appropriate_qualification_and_limitations_disclosure"
+    communication: "finding_supported_by_evidence_with_identified_limitations_and_residual_uncertainty"
+  
+  low_confidence_finding:
+    criteria:
+      - finding_based_largely_on_inference_or_limited_evidence
+      - multiple_alternative_explanations_possible
+      - methodology_has_significant_limitations
+      - analysis_gaps_or_methodology_concerns_present
+      - expert_qualification_marginal_for_finding_type
+      - substantial_residual_uncertainty
+    confidence_grade: "low_confidence"
+    admissibility_assessment: "admissible_only_with_full_limitation_disclosure_and_alternative_explanation_discussion"
+    communication: "finding_has_significant_limitations_and_substantial_residual_uncertainty_multiple_alternative_explanations_possible"
+  
+  insufficient_confidence_finding:
+    criteria:
+      - insufficient_evidence_to_support_conclusion
+      - methodology_inadequate_or_non_compliant
+      - analysis_gaps_prevent_reliable_conclusion
+      - expert_qualification_inadequate
+      - finding_essentially_speculative_or_unsupported
+    confidence_grade: "insufficient_confidence"
+    admissibility_assessment: "inadmissible_as_forensic_finding_may_be_presented_as_analysis_gap_or_limitation"
+    communication: "insufficient_evidence_or_methodology_to_support_conclusion_finding_represents_analysis_gap"
+
+forensic_analysis_assessment_workflow:
+  evidence_examination:
+    step_1_evidence_condition_documentation: "document_evidence_physical_condition_and_integrity"
+    step_2_examination_methodology_documentation: "document_examination_methodology_and_tools_used"
+    step_3_direct_observations: "record_direct_observations_separate_from_interpretations"
+    step_4_methodology_compliance: "verify_methodology_compliance_with_forensic_standards"
+    step_5_examination_limitations: "identify_examination_limitations_or_evidence_constraints"
+  
+  analysis_and_interpretation:
+    step_1_direct_finding_extraction: "extract_direct_findings_based_on_observations"
+    step_2_inference_identification: "identify_inferences_required_beyond_direct_observation"
+    step_3_alternative_hypothesis_generation: "generate_and_evaluate_alternative_explanations"
+    step_4_hypothesis_evaluation: "assess_each_hypothesis_against_evidence"
+    step_5_conclusion_formulation: "formulate_conclusion_supported_by_evidence_evaluation"
+  
+  confidence_assessment:
+    step_1_evidentiary_support_evaluation: "assess_strength_and_quality_of_evidentiary_support"
+    step_2_alternative_explanation_evaluation: "assess_credibility_of_alternative_explanations"
+    step_3_methodology_rigor_assessment: "evaluate_methodology_compliance_and_limitations"
+    step_4_expert_qualification_verification: "verify_expert_qualification_for_finding_type"
+    step_5_analysis_gap_identification: "identify_gaps_or_limitations_in_analysis"
+    step_6_confidence_grade_assignment: "assign_confidence_grade_based_on_assessment"
+  
+  finding_documentation:
+    step_1_finding_statement: "state_finding_with_confidence_grade"
+    step_2_evidentiary_basis: "document_evidentiary_support_and_methodology"
+    step_3_uncertainty_articulation: "explicitly_articulate_uncertainties_and_limitations"
+    step_4_alternative_explanation_discussion: "discuss_identified_alternative_explanations"
+    step_5_qualification_statement: "include_expert_qualification_and_methodology_standards"
+    step_6_admissibility_assessment: "assess_admissibility_given_confidence_and_limitations"
+
+adaptive_cognition:
+  confidence_degradation_mechanisms:
+    mechanism: "forensic_confidence_reduction_on_limitation_or_uncertainty_signal"
+    triggers:
+      - analysis_limitation_or_evidence_gap_discovered
+      - alternative_explanation_becomes_plausible
+      - methodology_compliance_question_raised
+      - expert_qualification_for_finding_challenged
+      - subsequent_analysis_contradicts_initial_finding
+      - admissibility_challenge_raised
+    responses:
+      - reduce_confidence_grade_appropriately
+      - reassess_finding_support_and_methodology
+      - escalate_for_expert_consultation_or_reanalysis
+      - revise_finding_documentation_and_communication
+      - escalate_to_legal_authority_if_admissibility_at_risk
+  
+  uncertainty_escalation_mechanism:
+    mechanism: "graduated_finding_qualification_on_confidence_degradation"
+    levels:
+      level_1_minor_limitation_identified: "reduce_confidence_one_grade_document_limitation"
+      level_2_significant_uncertainty_introduced: "reduce_confidence_substantially_require_reanalysis"
+      level_3_finding_confidence_becomes_low: "qualify_finding_with_substantial_uncertainty_discuss_alternatives"
+      level_4_confidence_becomes_insufficient: "declare_finding_unsupported_identify_as_analysis_gap"
+  
+  methodology_rigor_escalation:
+    mechanism: "heightened_methodology_scrutiny_on_confidence_challenge"
+    triggers:
+      - admissibility_challenge_raised
+      - finding_questioned_or_contradicted
+      - expert_qualification_questioned
+      - novel_or_controversial_methodology_used
+    responses:
+      - conduct_comprehensive_methodology_review
+      - verify_compliance_with_forensic_standards
+      - escalate_for_third_party_methodology_review_if_needed
+      - revise_findings_or_lower_confidence_if_methodology_inadequate
+
+policy_arbitration:
+  conflict_types:
+    operational_timeline_vs_confidence_assessment:
+      scenario: "investigation_timeline_pressure_to_issue_findings_before_analysis_complete"
+      resolution: "confidence_grading_completed_findings_issued_with_appropriate_qualification"
+      reasoning: "unqualified_findings_compromise_admissibility_and_investigation_integrity"
+    
+    expert_confidence_vs_methodological_rigor:
+      scenario: "experienced_expert_confident_despite_methodology_limitations"
+      resolution: "confidence_graded_based_on_evidentiary_support_not_expert_opinion"
+      reasoning: "methodology_rigor_determines_admissibility_not_expert_confidence"
+    
+    finding_certainty_vs_uncertainty_communication:
+      scenario: "desire_to_present_conclusive_findings_vs_articulating_limitations"
+      resolution: "confidence_grading_and_limitation_articulation_mandatory_for_admissibility"
+      reasoning: "transparent_uncertainty_presentation_enhances_credibility"
+    
+    alternative_explanation_vs_favored_hypothesis:
+      scenario: "analysis_supports_primary_hypothesis_but_alternatives_exist"
+      resolution: "confidence_graded_based_on_all_hypotheses_alternatives_discussed"
+      reasoning: "alternative_explanations_essential_to_admissibility_assessment"
+  
+  priority_hierarchy:
+    priority_1_confidence_grading_enforcement: "mandatory_on_all_findings"
+    priority_2_evidentiary_support_assessment: "rigorous_and_documented"
+    priority_3_methodology_standards_compliance: "cannot_be_waived"
+    priority_4_uncertainty_articulation: "complete_and_explicit"
+    priority_5_expert_qualification_verification: "documented_per_finding_type"
+    priority_6_admissibility_preservation: "through_proper_qualification"
+    priority_7_investigation_timeline_pressure: "lowest_priority"
+
+uncertainty_governance:
+  uncertainty_identification:
+    mechanism: "explicit_forensic_analysis_confidence_and_evidentiary_support_uncertainty"
+    uncertainty_types:
+      type_1_evidentiary_support_adequacy_questionable: "reduce_confidence_appropriately"
+      type_2_methodology_compliance_or_rigor_uncertain: "require_methodology_review"
+      type_3_expert_qualification_for_finding_adequate: "verify_or_escalate_qualification_question"
+      type_4_alternative_explanation_plausibility_uncertain: "evaluate_and_discuss_alternatives"
+      type_5_analysis_gaps_or_limitations_unidentified: "conduct_gap_analysis"
+      type_6_admissibility_of_finding_uncertain: "consult_legal_authority"
+  
+  visibility_requirements:
+    mechanism: "mandatory_forensic_confidence_grading_and_limitation_articulation"
+    mandatory_output:
+      - identified_observations_vs_inferences_distinction
+      - evidentiary_support_strength_and_quality_assessment
+      - identified_analysis_limitations_or_gaps
+      - alternative_explanation_evaluation
+      - expert_qualification_and_methodology_compliance_status
+      - confidence_grade_and_justification
+      - residual_uncertainty_factors
+      - admissibility_assessment
+
+  propagation:
+    mechanism: "uncertainty_flow_through_finding_confidence_grading"
+    rule_1: "evidentiary_support_uncertainty_flows_to_finding_confidence_grade"
+    rule_2: "methodology_concern_creates_confidence_reduction"
+    rule_3: "unidentified_alternatives_limits_confidence_ceiling"
+    rule_4: "analysis_gap_may_reduce_finding_to_insufficient_confidence"
+  
+  escalation:
+    mechanism: "graduated_confidence_response"
+    level_1_minor_uncertainty_factor: "document_and_reduce_confidence_appropriately"
+    level_2_moderate_confidence_concern: "require_analysis_review_or_reanalysis"
+    level_3_significant_confidence_degradation: "require_expert_consultation_or_additional_analysis"
+    level_4_finding_confidence_becomes_insufficient: "declare_finding_unsupported_require_alternative_analysis"
+
+trust_boundaries:
+  evidentiary_support_trust_hierarchy:
+    directly_observed_evidence: highest_trust_minimal_inference
+    evidence_with_reasonable_inference: conditional_trust_within_methodology
+    evidence_requiring_multiple_inferences: reduced_trust_heightened_scrutiny
+    highly_inferential_or_speculative_finding: low_trust_alternative_explanation_required
+  
+  methodology_trust:
+    standards_compliant_methodology: trusted_within_documented_limitations
+    methodology_with_identified_limitations: conditional_trust_limitations_disclosed
+    non_standard_or_novel_methodology: reduced_trust_requires_justification_and_review
+    inadequate_or_non_compliant_methodology: untrusted_findings_inadmissible
+
+  confidence_grading_trust:
+    high_confidence_finding: trusted_for_expert_testimony_with_qualification
+    moderate_confidence_finding: trusted_with_limitations_disclosed
+    low_confidence_finding: trusted_only_as_supporting_evidence_with_full_discussion
+    insufficient_confidence_finding: untrusted_as_finding_represents_analysis_gap
+
+runtime_behavior:
+  confidence_grading_per_finding: mandatory_documentation
+  evidentiary_support_assessment: comprehensive_per_analysis
+  methodology_compliance_verification: per_finding_type
+  expert_qualification_verification: per_expert_per_finding_type
+  analysis_limitation_identification: continuous_throughout_analysis
+  admissibility_assessment: prior_to_finding_presentation
+
+runtime_degradation:
+  on_confidence_limitation_discovered:
+    finding_confidence_status: reduced_appropriate_to_limitation
+    finding_documentation: updated_with_limitation_disclosure
+    analysis_requirement: reassess_or_supplement_analysis_if_needed
+    escalation_if_critical: consult_expert_or_legal_authority
+  
+  on_methodology_concern_identified:
+    methodology_review_requirement: conduct_compliance_and_rigor_assessment
+    finding_status: confidence_reduced_pending_methodology_review
+    reanalysis_requirement: if_methodology_inadequate
+    admissibility_risk: escalate_if_significant_concern
+  
+  on_alternative_explanation_becomes_viable:
+    confidence_grade: reduced_based_on_alternative_plausibility
+    finding_documentation: updated_to_discuss_alternative
+    analysis_scope: expanded_if_needed_to_evaluate_alternative
+    investigation_impact: escalate_to_investigation_team_if_significant
+  
+  on_admissibility_challenge_raised:
+    methodology_review: initiated_or_intensified
+    expert_qualification: verified_and_documented
+    limitation_disclosure: comprehensive_documentation_required
+    legal_consultation: escalate_for_admissibility_determination
+
+confidence_governance:
+  binary_forensic_certainty_assumption: prohibited
+  implicit_finding_support_assumption: prohibited
+  unqualified_conclusion_presentation: prohibited
+  unidentified_analysis_limitation: prohibited
+  finding_confidence: explicit_grading_and_justification_required
+  evidence_support_confidence: documented_and_assessed_per_finding
+  admissibility_confidence: grading_and_limitation_assessment_required
+
+traceability:
+  analysis_workflow_documentation: complete_per_finding
+  confidence_grading_justification: documented_with_rationale
+  evidentiary_support_assessment: recorded_per_finding
+  methodology_compliance_verification: documented_and_dated
+  expert_qualification_verification: documented_per_expert_per_finding
+  uncertainty_factors_identification: comprehensive_per_analysis
+  admissibility_assessment_record: documented_prior_to_presentation
+
+human_oversight:
+  forensic_expert_authority: analysis_execution_and_finding_formulation
+  confidence_grading_authority: expert_grading_with_peer_review_if_complex
+  admissibility_determination_authority: legal_or_prosecution_authority
+  override_capability: legal_authority_decision_on_admissibility_despite_limitations
+  escalation_triggers:
+    - confidence_grading_challenge_or_dispute
+    - methodology_rigor_or_compliance_concern
+    - expert_qualification_questioned
+    - admissibility_concern_raised
+    - finding_uncertainty_factors_substantial
+    - alternative_explanation_viable_and_significant
+  autonomous_finding_presentation_without_confidence_grading: prohibited
+  oversight_reduction_conditions: none_permitted
+
+bounded_cognition:
+  recursive_confidence_calibration: prohibited
+  self_modifying_confidence_grading_policy: prohibited
+  automatic_confidence_inflation_without_verification: prohibited
+  uncontrolled_methodology_standard_relaxation: prohibited
+  deterministic_forensic_confidence_assessment: enforced
+  forensic_finding_boundary_preservation: strict
+
+implementation_leakage_control:
+  forensic_tool_implementation_details: excluded
+  specific_analysis_techniques: excluded
+  laboratory_testing_methodology_implementation: excluded
+  statistical_confidence_calculation_algorithms: excluded
+
+meta_governance:
+  preserve_forensic_confidence_governance_integrity: true
+  prohibit_runtime_confidence_policy_drift: true
+  prohibit_adaptive_confidence_inflation_without_oversight: true
+  preserve_deterministic_confidence_grading_behavior: true
+  maintain_admissibility_through_confidence_qualification: true
+
+output_standard:
+  expose_observation_vs_inference_distinction: required
+  expose_evidentiary_support_assessment: required
+  expose_methodology_compliance_and_limitations: required
+  expose_expert_qualification_and_standards: required
+  expose_alternative_explanation_discussion: required
+  expose_confidence_grade_and_justification: required
+  expose_analysis_gaps_or_limitations: required
+  expose_admissibility_assessment: required
+  separate_direct_observation_from_interpretation: enforced
+  auditability: full
+  explainability: required_at_each_finding_and_confidence_assessment_point

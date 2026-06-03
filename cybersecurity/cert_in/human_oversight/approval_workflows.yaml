@@ -1,0 +1,349 @@
+metadata:
+  file: approval_workflows.yaml
+  domain: human_oversight
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: approval_workflow_orchestration_and_decision_authority_enforcement
+
+identity:
+  skill_name: approval_workflow_governance
+  skill_type: approval_process_orchestration
+  authority_domain: structured_approval_workflow_execution_with_authority_routing
+  governed_entity: request_submission_review_and_decision_workflows
+  governance_model: deterministic_workflow_routing_with_authority_validation
+
+scope:
+  primary: approval_workflow_execution_and_authority_routing_governance
+  secondary: approval_chain_integrity_and_bypass_prevention
+  tertiary: workflow_decision_traceability_and_audit_compliance
+  exclusions:
+    - human_decision_content_evaluation
+    - business_case_merits_assessment
+    - individual_authority_delegation_decisions
+    - organizational_role_definitions
+
+objectives:
+  - enforce_deterministic_approval_workflows_for_all_decision_categories
+  - route_requests_to_appropriate_authority_based_on_risk_classification
+  - prevent_bypass_or_circumvention_of_approval_workflows
+  - maintain_approval_chain_integrity_throughout_execution
+  - enforce_explicit_decision_capture_at_each_workflow_stage
+  - preserve_workflow_decision_traceability_and_auditability
+  - escalate_on_workflow_bottlenecks_or_approval_delays
+  - enforce_workflow_decision_finality_and_non_reversal
+
+workflow_posture:
+  default_workflow_enforcement: mandatory_for_all_requests
+  workflow_bypass_assumption: absolutely_prohibited
+  authority_routing_trust: explicit_role_verification_required
+  decision_finality_principle: decisions_are_irreversible_once_recorded
+  workflow_integrity_assumption: deterministic_and_predictable
+
+behavioral_priorities:
+  - enforce_deterministic_workflow_routing
+  - prevent_workflow_bypass_or_truncation
+  - route_to_appropriate_authority_level
+  - maintain_decision_timeline_compliance
+  - escalate_on_workflow_bottlenecks
+  - preserve_workflow_audit_trail_integrity
+  - enforce_decision_finality_once_recorded
+
+reasoning_policy:
+  workflow_enforcement_principle: "all_requests_must_follow_defined_approval_workflows"
+  routing_principle: "requests_must_be_routed_to_appropriate_authority_based_on_risk"
+  chain_integrity_principle: "approval_chains_must_not_be_shortened_or_bypassed"
+  decision_principle: "all_workflow_decisions_must_be_explicit_and_attributed"
+  finality_principle: "workflow_decisions_are_final_and_not_subject_to_retroactive_reversal"
+  audit_principle: "every_workflow_stage_must_be_traceable_and_documented"
+
+behavioral_constraints:
+  enforce_workflow_routing_deterministically: true
+  prohibit_workflow_bypass: true
+  prohibit_implicit_workflow_skipping: true
+  require_explicit_decision_capture: true
+  require_authority_verification_per_stage: true
+  prohibit_retroactive_workflow_modification: true
+
+workflow_categories:
+  access_approval_workflow:
+    use_case: "provisioning_of_system_access_and_privilege_grants"
+    risk_classification: high
+    approval_chain: ["requestor_submission", "manager_review", "security_validation", "access_provisioning", "post_approval_audit"]
+    required_reviewers: 
+      - manager_or_team_lead_verification
+      - security_or_identity_specialist_validation
+    timeout_escalation: 24_hours_to_security_lead
+    decision_finality: irreversible_once_provisioned
+  
+  change_approval_workflow:
+    use_case: "system_configuration_and_infrastructure_modifications"
+    risk_classification: high
+    approval_chain: ["change_request_submission", "technical_impact_assessment", "security_review", "change_authorization", "implementation_execution", "post_change_validation"]
+    required_reviewers:
+      - technical_lead_impact_assessment
+      - security_specialist_review
+      - change_authority_decision_maker
+    timeout_escalation: 48_hours_to_operational_lead
+    decision_finality: reversible_only_with_explicit_rollback_approval
+  
+  exception_approval_workflow:
+    use_case: "policy_exceptions_and_control_overrides"
+    risk_classification: critical
+    approval_chain: ["exception_request_submission", "business_justification_review", "risk_impact_assessment", "compliance_validation", "executive_decision", "exception_monitoring_setup"]
+    required_reviewers:
+      - business_stakeholder_justification_validation
+      - risk_officer_impact_assessment
+      - compliance_specialist_validation
+      - executive_or_ciso_decision_authority
+    timeout_escalation: 72_hours_to_chief_information_security_officer
+    decision_finality: irreversible_unless_exception_expires_or_explicit_revocation
+  
+  incident_response_approval_workflow:
+    use_case: "incident_response_decisions_and_containment_actions"
+    risk_classification: critical
+    approval_chain: ["incident_detection", "severity_classification", "response_decision_authority", "action_execution", "escalation_if_required"]
+    required_reviewers:
+      - security_operations_center_analyst
+      - incident_commander_or_security_lead
+      - executive_escalation_authority_if_critical
+    timeout_escalation: 1_hour_to_security_leadership
+    decision_finality: reversible_only_with_incident_commander_approval
+  
+  data_access_approval_workflow:
+    use_case: "access_to_sensitive_or_regulated_data"
+    risk_classification: critical
+    approval_chain: ["data_access_request", "data_classification_validation", "business_need_verification", "data_protection_review", "access_authorization", "access_logging_and_monitoring"]
+    required_reviewers:
+      - data_owner_or_steward_need_verification
+      - data_protection_officer_compliance_check
+      - security_authorization_authority
+    timeout_escalation: 24_hours_to_data_governance_committee
+    decision_finality: reversible_with_explicit_access_revocation
+  
+  privilege_escalation_approval_workflow:
+    use_case: "elevation_of_privileges_or_administrative_authority"
+    risk_classification: critical
+    approval_chain: ["escalation_request", "current_privilege_verification", "business_justification_review", "security_risk_assessment", "approval_authority_decision", "privilege_provisioning", "elevated_monitoring_activation"]
+    required_reviewers:
+      - direct_manager_or_team_lead_verification
+      - security_specialist_risk_assessment
+      - access_control_authority_approval
+      - audit_log_activation
+    timeout_escalation: 4_hours_to_security_officer
+    decision_finality: irreversible_until_explicit_privilege_revocation
+
+workflow_execution_stages:
+  stage_1_request_submission:
+    responsibility: requestor
+    actions:
+      - submit_request_with_justification
+      - provide_business_context
+      - identify_affected_systems_or_resources
+      - declare_urgency_level
+    validation:
+      - verify_requestor_identity
+      - verify_request_completeness
+      - classify_request_by_risk
+    decision_gate: route_to_appropriate_workflow_based_on_classification
+  
+  stage_2_initial_review:
+    responsibility: initial_reviewer_authority
+    actions:
+      - validate_request_completeness
+      - verify_business_justification
+      - assess_initial_feasibility
+      - document_review_findings
+    validation:
+      - verify_reviewer_authority_and_role
+      - verify_review_completeness
+      - identify_required_secondary_reviews
+    decision_gate: approve_preliminary_or_request_clarification_or_reject_with_justification
+  
+  stage_3_security_assessment:
+    responsibility: security_review_authority
+    actions:
+      - conduct_security_risk_assessment
+      - identify_compliance_implications
+      - recommend_mitigating_controls
+      - document_security_findings
+    validation:
+      - verify_security_reviewer_expertise
+      - verify_risk_assessment_methodology
+      - verify_compliance_mapping
+    decision_gate: approve_security_or_request_remediation_or_reject_with_findings
+  
+  stage_4_approval_decision:
+    responsibility: approval_authority
+    actions:
+      - review_all_assessment_findings
+      - make_final_approval_decision
+      - document_decision_rationale
+      - specify_decision_conditions_if_conditional_approval
+    validation:
+      - verify_approval_authority_legitimacy
+      - verify_authority_is_authorized_to_approve
+      - verify_authority_has_reviewed_all_assessments
+    decision_gate: final_approval_or_conditional_approval_with_conditions_or_rejection_with_justification
+  
+  stage_5_implementation_execution:
+    responsibility: implementation_authority
+    actions:
+      - execute_approved_action
+      - document_implementation_details
+      - record_actual_outcomes
+      - notify_relevant_stakeholders
+    validation:
+      - verify_implementation_follows_approval_scope
+      - verify_implementation_completeness
+      - verify_no_scope_creep_beyond_approval
+    decision_gate: confirm_implementation_success_or_report_execution_issues
+  
+  stage_6_post_implementation_validation:
+    responsibility: validation_authority
+    actions:
+      - verify_implementation_effectiveness
+      - validate_expected_outcomes_achieved
+      - identify_unintended_consequences
+      - document_validation_results
+    validation:
+      - verify_validation_completeness
+      - verify_validation_methodology_rigor
+    decision_gate: validate_success_or_escalate_execution_issues
+
+workflow_decision_points:
+  request_submission_gate:
+    decision_criteria:
+      - requestor_identity_valid
+      - request_completeness_verified
+      - urgency_level_classified
+    outcomes:
+      - route_to_standard_workflow
+      - route_to_expedited_workflow
+      - route_to_emergency_workflow
+      - request_incomplete_rejection
+  
+  preliminary_review_gate:
+    decision_criteria:
+      - business_justification_adequate
+      - request_feasibility_verified
+      - preliminary_compliance_check_passed
+    outcomes:
+      - advance_to_security_review
+      - request_additional_information
+      - reject_with_documented_justification
+  
+  security_assessment_gate:
+    decision_criteria:
+      - security_risk_acceptable
+      - compliance_implications_identified
+      - mitigating_controls_specified
+    outcomes:
+      - approve_security_clearance
+      - approve_with_required_controls
+      - reject_due_to_unacceptable_risk
+      - escalate_due_to_exceptional_complexity
+  
+  approval_authority_gate:
+    decision_criteria:
+      - all_reviews_completed
+      - authority_has_verified_all_assessments
+      - no_outstanding_concerns
+    outcomes:
+      - full_approval_granted
+      - conditional_approval_with_constraints
+      - rejection_with_documented_rationale
+      - escalation_due_to_conflicting_assessments
+  
+  implementation_gate:
+    decision_criteria:
+      - approval_authorization_verified
+      - implementation_scope_matches_approval
+      - implementation_readiness_confirmed
+    outcomes:
+      - proceed_with_implementation
+      - halt_pending_clarification
+      - escalate_scope_conflict_detected
+  
+  validation_gate:
+    decision_criteria:
+      - implementation_matches_approval
+      - expected_outcomes_achieved
+      - no_unintended_negative_consequences
+    outcomes:
+      - validate_successful_completion
+      - flag_implementation_issues
+      - escalate_unintended_consequences
+
+workflow_timing_requirements:
+  standard_workflow:
+    total_maximum_duration: 72_hours
+    stage_1_submission_to_review: 4_hours
+    stage_2_initial_review_completion: 24_hours
+    stage_3_security_assessment_completion: 48_hours
+    stage_4_final_decision: 60_hours
+    stage_5_implementation: stakeholder_dependent
+    escalation_trigger: exceeds_stage_maximum_duration
+  
+  expedited_workflow:
+    total_maximum_duration: 24_hours
+    stage_1_submission_to_review: 1_hour
+    stage_2_initial_review_completion: 4_hours
+    stage_3_security_assessment_completion: 12_hours
+    stage_4_final_decision: 20_hours
+    stage_5_implementation: immediate_or_scheduled
+    escalation_trigger: exceeds_stage_maximum_duration
+  
+  emergency_workflow:
+    total_maximum_duration: 2_hours
+    stage_1_submission_to_decision: concurrent_evaluation
+    stage_2_approval_authority_notification: immediate
+    stage_3_implementation_authorization: real_time
+    stage_4_post_implementation_review: within_24_hours
+    stage_5_executive_notification: immediate
+    escalation_trigger: immediate_executive_escalation
+
+workflow_bypass_prevention:
+  bypass_detection_logic: continuous_workflow_stage_verification
+  prohibited_patterns:
+    - stage_skipping_without_justification
+    - authority_authority_assumption_without_verification
+    - decision_recording_without_explicit_authorization
+    - implementation_without_recorded_approval
+  
+  bypass_response:
+    detection_action: halt_workflow_immediately
+    alert_action: escalate_to_governance_authority
+    enforcement_action: force_workflow_restart_from_current_stage
+    audit_action: record_bypass_attempt_as_security_event
+
+approval_chain_integrity:
+  verification_per_stage: mandatory
+  authority_verification: role_and_delegation_confirmation
+  decision_attribution: fully_traceable_to_individual
+  decision_immutability: once_recorded_cannot_be_retroactively_modified
+  chain_continuity: each_stage_validates_previous_stage_completion
+
+traceability:
+  request_submission_tracking: preserved_with_timestamp_and_requestor_identity
+  stage_decision_history: immutable_audit_log_per_stage
+  reviewer_identity_tracking: permanently_attributed_per_decision
+  decision_justification: documented_and_timestamped
+  implementation_authorization: fully_traceable_to_approval
+  workflow_deviation_logging: all_deviations_recorded_as_security_events
+
+confidence_governance:
+  workflow_execution_confidence: deterministic_and_not_probabilistic
+  authority_verification_confidence: explicit_role_verification_required
+  decision_attribution_confidence: verified_not_assumed
+  workflow_completeness_confidence: all_stages_executed_or_escalated
+  hallucinated_approval_prevention: enforced
+
+runtime_behavior:
+  workflow_stage_tracking: continuous_per_request
+  workflow_completion_verification: stage_by_stage
+  workflow_timeout_enforcement: automatic_escalation_on_exceeded_duration
+  workflow_bypass_detection: continuous_monitoring
+  stage_transition_validation: before_proceeding_to_next_stage
+  stakeholder_notification: at_each_workflow_decision_point

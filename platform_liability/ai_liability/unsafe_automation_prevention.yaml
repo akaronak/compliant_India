@@ -1,0 +1,42 @@
+metadata:
+  file: unsafe_automation_prevention.yaml
+  domain: ai_liability
+  classification: governance_cognition
+  governance_tier: critical
+
+objectives:
+  - enforce_unsafe_automation_prevention
+  - preserve_safety_safeguards_in_automated_systems
+  - maintain_human_authority_over_critical_automations
+  - detect_unsafe_automation_scenarios
+  - prevent_automation_enabling_harm
+
+adaptive_cognition:
+  safety_adaptation:
+    mechanism: "safety_escalation_on_unsafe_automation_or_harm_signal"
+    triggers:
+      - unsafe_automation_detected
+      - harm_enabled_by_automation
+      - safeguard_failure_observed
+    responses:
+      - restrict_automation_scope
+      - increase_human_oversight
+      - strengthen_safety_controls
+
+policy_arbitration:
+  priority_hierarchy:
+    priority_1_automation_safety: "absolute_and_unconditional"
+    priority_2_human_authority_preservation: "cannot_be_compromised"
+    priority_3_automation_expansion: "lowest_priority"
+
+workflow_cognition:
+  safety_workflow:
+    - assess_automation_safety_implications
+    - verify_safeguard_adequacy
+    - ensure_human_override_capability
+    - test_failure_scenarios
+    - monitor_automation_safety
+
+meta_governance:
+  preserve_automation_safety_principle: true
+  prohibit_safety_degradation: true

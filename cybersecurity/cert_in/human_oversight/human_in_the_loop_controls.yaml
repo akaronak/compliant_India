@@ -1,0 +1,212 @@
+metadata:
+  file: human_in_the_loop_controls.yaml
+  domain: human_oversight
+  classification: governance_cognition
+  version: "1.0.0"
+  governance_tier: critical
+  composability: modular
+  runtime_scope: human_in_the_loop_decision_authority_and_autonomous_action_governance
+
+identity:
+  skill_name: human_in_the_loop_governance
+  skill_type: human_decision_authority_integration
+  authority_domain: human_approval_requirement_enforcement_for_autonomous_decisions
+  governed_entity: autonomous_system_actions_requiring_human_authorization
+  governance_model: mandatory_human_review_with_deterministic_decision_gates
+
+scope:
+  primary: human_in_the_loop_decision_requirement_enforcement_and_approval_gating
+  secondary: autonomous_action_restriction_pending_human_authorization
+  tertiary: human_decision_authority_legitimacy_validation_and_circumvention_prevention
+  exclusions:
+    - human_operational_procedures
+    - business_decision_criteria
+    - human_communication_protocols
+    - organizational_staffing_decisions
+
+objectives:
+  - enforce_mandatory_human_in_the_loop_decision_gates_for_autonomous_actions
+  - prevent_autonomous_system_circumvention_of_human_approval_requirements
+  - establish_explicit_decision_authority_boundaries_for_human_reviewers
+  - preserve_human_decision_autonomy_and_reasoning_independence
+  - maintain_human_in_the_loop_decision_traceability_and_auditability
+  - detect_and_contain_implicit_autonomous_action_without_human_authorization
+  - enforce_deterministic_action_suspension_pending_human_approval
+
+hitl_posture:
+  autonomous_action_default: requires_human_authorization_before_execution
+  human_approval_assumption: explicit_authorization_required_not_assumed
+  approval_authority_trust: legitimacy_verified_not_delegated
+  approval_scope_integrity: deterministic_and_bounded
+  action_suspension_guarantee: mandatory_until_human_authorization
+  autonomous_override_of_hitl_requirement: absolutely_prohibited
+
+behavioral_priorities:
+  - enforce_mandatory_human_authorization_requirement
+  - suspend_autonomous_actions_pending_human_approval
+  - prevent_circumvention_of_hitl_decision_gates
+  - preserve_human_reviewer_autonomy_and_independence
+  - escalate_on_approval_authority_conflicts
+  - maintain_human_decision_supremacy_over_autonomous_recommendations
+
+reasoning_policy:
+  hitl_requirement_principle: "autonomous_systems_must_await_human_authorization_before_critical_actions"
+  authority_principle: "human_approval_authority_must_be_explicit_and_traceable"
+  scope_principle: "approval_scope_must_be_bounded_and_explicitly_defined"
+  suspension_principle: "autonomous_actions_must_remain_suspended_until_human_authorization"
+  independence_principle: "human_reviewers_must_exercise_independent_judgment"
+  accountability_principle: "every_approved_action_is_attributed_to_human_authority"
+
+behavioral_constraints:
+  enforce_mandatory_hitl_gates: true
+  prohibit_autonomous_circumvention_of_approval_gates: true
+  prohibit_implicit_approval_assumption: true
+  require_explicit_human_authorization: true
+  prohibit_systems_overriding_hitl_requirements: true
+  require_human_decision_independence_from_system_recommendations: false
+
+decision_point_categories:
+  critical_security_actions:
+    - account_compromise_response_decisions
+    - data_access_restriction_enforcement
+    - system_shutdown_or_isolation_decisions
+    - external_breach_notification_decisions
+    - privilege_escalation_authorizations
+    - encryption_key_rotation_approvals
+  
+  high_impact_governance_actions:
+    - policy_exception_authorizations
+    - access_control_override_approvals
+    - cross_domain_privilege_grants
+    - sensitive_data_operation_approvals
+    - incident_response_escalation_decisions
+    - regulatory_notification_approvals
+  
+  medium_impact_operational_actions:
+    - routine_access_provisioning
+    - standard_configuration_changes
+    - regular_backup_operations
+    - scheduled_maintenance_operations
+    - standard_report_generation
+  
+  low_impact_automated_actions:
+    - routine_monitoring_and_alerting
+    - standard_log_rotation
+    - predictable_scaling_operations
+    - automated_health_checks
+
+approval_requirement_matrix:
+  critical_security_actions:
+    hitl_requirement: mandatory
+    approval_chain_minimum: 2_independent_reviewers
+    authority_level: executive_or_security_officer
+    timeout: synchronous_approval_required
+  
+  high_impact_governance_actions:
+    hitl_requirement: mandatory
+    approval_chain_minimum: 1_authorized_reviewer
+    authority_level: manager_or_security_specialist
+    timeout: 4_hour_escalation
+  
+  medium_impact_operational_actions:
+    hitl_requirement: conditional
+    approval_chain_minimum: 1_reviewer
+    authority_level: team_lead_or_operations
+    timeout: 24_hour_escalation
+  
+  low_impact_automated_actions:
+    hitl_requirement: not_required
+    approval_chain_minimum: none
+    authority_level: automated
+    timeout: none
+
+human_reviewer_validation:
+  authority_verification: explicit_role_and_permission_check
+  competency_verification: domain_expertise_confirmation
+  independence_verification: conflict_of_interest_check
+  decision_authority_verification: explicit_delegation_of_approval_authority
+
+control_mechanisms:
+  automated_preparation:
+    - risk_analysis_and_recommendation
+    - impact_assessment_and_visualization
+    - option_presentation_with_constraints
+    - alternative_scenario_modeling
+    - compliance_impact_estimation
+    - affected_stakeholder_identification
+  
+  human_decision_phase:
+    - human_review_of_recommendation
+    - human_consultation_with_stakeholders
+    - human_decision_authority_verification
+    - human_explicit_approval_or_rejection
+    - human_justification_documentation
+    - human_decision_independence_from_system_recommendation
+  
+  decision_execution_phase:
+    - approval_authority_validation
+    - action_authorization_verification
+    - execution_instrumentation_and_logging
+    - real_time_action_monitoring
+    - post_execution_effectiveness_validation
+
+hitl_suspension_logic:
+  on_approval_authority_unverifiable:
+    action_status: suspended_pending_verification
+    human_escalation: immediate
+    retry_capability: blocked_until_verification
+  
+  on_approval_scope_exceeded:
+    action_status: suspended_and_rejected
+    human_notification: immediate
+    audit_flag: high_priority
+  
+  on_approval_decision_missing:
+    action_status: suspended_indefinitely
+    escalation_requirement: requires_explicit_human_decision
+  
+  on_hitl_circumvention_detected:
+    action_status: blocked_permanently
+    security_alert: critical
+    human_escalation: immediate
+
+escalation_procedures:
+  approval_timeout_escalation:
+    initial_timeout: action_specific
+    escalation_level_1: manager_notification
+    escalation_level_2: security_lead_involvement
+    escalation_level_3: executive_decision_authority
+  
+  approval_conflict_escalation:
+    conflicting_decisions: flagged_and_halted
+    escalation_path: authority_arbitration_required
+    resolution_requirement: explicit_executive_decision
+  
+  approval_authority_dispute:
+    authority_validation: triggered
+    escalation_requirement: human_resources_and_governance
+    action_status: suspended_pending_resolution
+
+confidence_governance:
+  binary_approval_assumption: prohibited
+  approval_authority_confidence: explicit_role_verification_required
+  reviewer_competency_confidence: domain_expertise_verification_required
+  approval_independence_confidence: conflict_of_interest_check_required
+  hallucinated_approval_authority_prevention: enforced
+  implicit_approval_prevention: enforced
+
+traceability:
+  approval_authority_lineage: preserved_per_decision
+  approval_decision_history: immutable_audit_log
+  human_reviewer_identity: permanently_attributed
+  approval_justification: timestamped_and_documented
+  action_execution_authorization: fully_traceable
+  approval_independence_verification: recorded_with_evidence
+
+runtime_behavior:
+  approval_authority_tracking: continuous_per_action
+  approval_scope_validation: pre_and_post_execution
+  action_suspension_enforcement: active_until_approval
+  hitl_circumvention_detection: continuous_monitoring
+  approval_decision_preservation: immutable_once_executed
+  human_reviewer_notification: proactive_and_timely

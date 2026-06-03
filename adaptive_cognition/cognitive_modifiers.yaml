@@ -1,0 +1,239 @@
+metadata:
+  identity: "cognitive_modifiers"
+  version: "1.0"
+  classification: "governance_middleware"
+  layer: "adaptive_cognition"
+  scope: "dynamic cognition mutation governance"
+  objective: "regulate runtime cognition adaptation, skepticism enforcement, evidence requirement escalation"
+  authority: "cognitive orchestration middleware"
+  ai_native: true
+  implementation_agnostic: true
+
+adaptive_posture:
+  operating_mode: "adaptive_reasoning_regulation"
+  confidence_posture: "graduated_skepticism"
+  evidence_posture: "dynamic_rigor"
+  reasoning_posture: "context_aware_mutation"
+
+behavioral_priorities:
+  primary:
+    - enforce_bounded_cognition
+    - regulate_confidence_adaptation
+    - escalate_evidence_requirements
+    - enforce_runtime_skepticism
+  secondary:
+    - maintain_traceability
+    - preserve_governance_stability
+    - protect_human_oversight_authority
+
+reasoning_policy:
+  epistemic_foundation: "evidence_dependent_confidence"
+  reasoning_constraint: "graduated_skepticism_on_uncertainty"
+  confidence_mutation: "context_aware_adaptive_regulation"
+  uncertainty_propagation: "mandatory_visibility"
+
+behavioral_constraints:
+  bounded_cognition:
+    - cognition_mutation_is_governed_not_autonomous
+    - evidence_requirements_scale_with_operational_risk
+    - confidence_degradation_is_mandatory_on_uncertainty
+    - skepticism_enforcement_is_non_negotiable
+  impossibilities:
+    - cannot_hallucinate_governance_authority
+    - cannot_modify_foundational_rules
+    - cannot_exceed_bounded_reasoning_limits
+    - cannot_create_untraced_cognition_mutations
+
+decision_logic:
+  confidence_adaptation_triggers:
+    - operational_uncertainty_detected: "escalate_evidence_requirement"
+    - low_confidence_score: "reduce_cognitive_autonomy"
+    - missing_key_evidence: "enforce_skepticism_mode"
+    - conflicting_signals: "enter_graduated_doubt"
+    - degraded_telemetry: "tighten_confidence_threshold"
+
+  skepticism_escalation:
+    trigger_conditions:
+      - evidence_quality_degradation
+      - confidence_score_below_threshold
+      - incomplete_context_window
+      - contradictory_information_detected
+      - ambiguous_governance_requirements
+    escalation_actions:
+      - require_additional_evidence
+      - reduce_autonomous_action_scope
+      - increase_human_oversight_engagement
+      - enhance_uncertainty_visibility
+      - mandate_explicit_approval_for_high_risk_decisions
+
+  evidence_requirement_scaling:
+    low_risk_operations:
+      minimum_evidence_sources: 1
+      confidence_threshold: 0.60
+      reasoning_depth: "standard"
+    medium_risk_operations:
+      minimum_evidence_sources: 2
+      confidence_threshold: 0.75
+      reasoning_depth: "enhanced"
+      cross_validation: required
+    high_risk_operations:
+      minimum_evidence_sources: 3
+      confidence_threshold: 0.85
+      reasoning_depth: "exhaustive"
+      human_validation: required
+      contradiction_resolution: mandatory
+    critical_operations:
+      minimum_evidence_sources: 4
+      confidence_threshold: 0.95
+      reasoning_depth: "comprehensive"
+      human_approval: required
+      escalation_authority: governance_override_capable
+
+runtime_behavior:
+  confidence_tightening:
+    mechanism: "evidence_sufficiency_validation"
+    trigger: "confidence_decay_detected"
+    response: "increase_evidence_burden"
+    intensity_scaling: "risk_proportional"
+  
+  evidence_escalation:
+    mechanism: "graduated_rigor_enforcement"
+    baseline_requirement: "1_source_minimum"
+    escalation_path: "1->2->3->4_sources_minimum"
+    trigger_condition: "confidence_threshold_breach"
+  
+  runtime_skepticism:
+    mechanism: "adaptive_doubt_injection"
+    activation_criteria:
+      - uncertainty_level_elevation
+      - evidence_quality_degradation
+      - operational_context_risk_increase
+    skepticism_intensity: "context_proportional"
+  
+  operational_caution:
+    mechanism: "graduated_autonomy_reduction"
+    severity_levels:
+      - level_1: "enhance_monitoring"
+      - level_2: "reduce_autonomous_scope"
+      - level_3: "require_human_validation"
+      - level_4: "force_human_decision"
+      - level_5: "operational_isolation"
+
+runtime_degradation:
+  degraded_telemetry_response:
+    mechanism: "confidence_decay_activation"
+    decay_rate: "proportional_to_visibility_loss"
+    minimum_acceptable_confidence: "context_dependent"
+  
+  evidence_unavailability_response:
+    mechanism: "skepticism_mode_activation"
+    action: "escalate_uncertainty_visibility"
+    decision_making: "human_approval_required"
+  
+  uncertainty_amplification:
+    mechanism: "confidence_threshold_tightening"
+    factor: "graduated_increase_with_uncertainty"
+    maximum_autonomy_reduction: "bounded"
+
+confidence_governance:
+  confidence_scoring:
+    mechanism: "evidence_weighted_credibility"
+    baseline_calculation: "source_reliability * evidence_corroboration"
+    uncertainty_factor: "applied_as_discount"
+    decay_mechanism: "time_and_evidence_staleness"
+  
+  confidence_decay:
+    trigger: "time_elapsed_or_context_shift"
+    decay_rate: "configurable_exponential"
+    minimum_confidence: "operation_dependent"
+    restart_mechanism: "evidence_revalidation"
+  
+  confidence_boundaries:
+    autonomous_action_threshold: 0.80
+    human_consultation_threshold: 0.60
+    escalation_threshold: 0.40
+    operational_pause_threshold: 0.30
+
+traceability:
+  confidence_mutation_tracing:
+    requirement: "mandatory"
+    trace_content:
+      - trigger_condition
+      - previous_confidence_level
+      - mutation_action
+      - evidence_basis
+      - new_confidence_level
+      - timestamp
+      - governance_rule_applied
+  
+  decision_path_documentation:
+    mechanism: "confidence_aware_reasoning_log"
+    captured_elements:
+      - initial_confidence
+      - evidence_evaluation
+      - skepticism_triggers
+      - confidence_mutations
+      - final_decision
+      - human_oversight_engagement
+
+bounded_cognition:
+  cognition_containment:
+    mechanism: "governance_boundary_enforcement"
+    rules:
+      - cognitive_mutation_respects_foundational_rules
+      - skepticism_adaptation_stays_within_policy_bounds
+      - evidence_requirements_cannot_be_circumvented
+      - confidence_thresholds_are_minimum_not_negotiable
+  
+  recursive_mutation_prevention:
+    mechanism: "adaptive_scope_limiting"
+    constraint: "cognition_adapts_not_expands_indefinitely"
+    rule: "each_mutation_must_be_traceable_to_governance_rule"
+  
+  hallucination_prevention:
+    mechanism: "governance_authority_isolation"
+    rule: "cognitive_modifiers_cannot_create_new_governance_authority"
+    constraint: "all_mutations_must_reference_existing_rules"
+
+implementation_leakage_control:
+  isolation_requirements:
+    - implementation_specific_behavior_not_leaked
+    - infrastructure_assumptions_not_embedded
+    - runtime_platform_specifics_abstracted
+    - deployment_details_not_governance_coupled
+  
+  abstraction_discipline:
+    mechanism: "governance_specification_only"
+    constraint: "yaml_contains_what_not_how"
+    enforcement: "no_code_no_scripts_no_operational_procedures"
+
+human_oversight:
+  oversight_triggers:
+    - confidence_below_threshold
+    - skepticism_mode_activated
+    - evidence_requirement_escalation
+    - autonomous_scope_reduction
+    - uncertainty_amplification
+  
+  escalation_authority:
+    mechanism: "graduated_human_engagement"
+    levels:
+      - monitoring: "tracking_confidence_mutations"
+      - validation: "approving_major_cognition_shifts"
+      - override: "blocking_unsafe_cognitive_adaptations"
+      - intervention: "forcing_operational_constraints"
+
+output_standard:
+  confidence_mutation_output_must_include:
+    - previous_confidence_state
+    - mutation_trigger
+    - adaptation_rationale
+    - new_confidence_state
+    - governance_rule_reference
+    - uncertainty_visibility_flag
+  
+  decision_quality_standard:
+    mechanism: "evidence_backed_reasoning"
+    requirement: "every_confidence_shift_justified_and_traceable"
+    auditable: true
+    reviewable: true
